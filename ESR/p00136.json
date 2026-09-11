@@ -1,0 +1,1631 @@
+{
+    "representation": "ESR",
+    "program_id": "p00136",
+    "event_count": 203,
+    "events": [
+        {
+            "step": 1,
+            "type": "TS",
+            "attributes": {
+                "VALUE_1": "main (1)"
+            }
+        },
+        {
+            "step": 2,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "SYSTEM",
+                "TARGET": "Main#main:1"
+            }
+        },
+        {
+            "step": 3,
+            "type": "NO",
+            "attributes": {
+                "OBJECT": "java.lang.String[]:1"
+            }
+        },
+        {
+            "step": 4,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main#main:1",
+                "ARGS": "java.lang.String[]:1"
+            }
+        },
+        {
+            "step": 5,
+            "type": "NO",
+            "attributes": {
+                "OBJECT": "Main:1"
+            }
+        },
+        {
+            "step": 6,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main#main:1",
+                "TARGET": "Main:1#Main:1"
+            }
+        },
+        {
+            "step": 7,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "SC": "null"
+            }
+        },
+        {
+            "step": 8,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "OUT": "null"
+            }
+        },
+        {
+            "step": 9,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main:1#Main:1",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 10,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main#main:1",
+                "TARGET": "Main:1#run:1"
+            }
+        },
+        {
+            "step": 11,
+            "type": "NO",
+            "attributes": {
+                "OBJECT": "Main$MyScanner:1"
+            }
+        },
+        {
+            "step": 12,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main:1#run:1",
+                "TARGET": "Main$MyScanner:1#Main$MyScanner:1"
+            }
+        },
+        {
+            "step": 13,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1#Main$MyScanner:1",
+                "STREAM": "java.io.BufferedInputStream (id=28)"
+            }
+        },
+        {
+            "step": 14,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "READER": "java.io.BufferedReader (id=31)"
+            }
+        },
+        {
+            "step": 15,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "TOKENIZER": "null"
+            }
+        },
+        {
+            "step": 16,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#Main$MyScanner:1",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 17,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "SC": "Main$MyScanner:1"
+            }
+        },
+        {
+            "step": 18,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "OUT": "java.io.PrintWriter (id=34)"
+            }
+        },
+        {
+            "step": 19,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "sc"
+            }
+        },
+        {
+            "step": 20,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main:1#run:1",
+                "TARGET": "Main$MyScanner:1#hasNext:1"
+            }
+        },
+        {
+            "step": 21,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main$MyScanner:1#hasNext:1",
+                "TARGET": "Main$MyScanner:1#eat:1"
+            }
+        },
+        {
+            "step": 22,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 23,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "reader"
+            }
+        },
+        {
+            "step": 24,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "LINE": "4"
+            }
+        },
+        {
+            "step": 25,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "line"
+            }
+        },
+        {
+            "step": 26,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "line"
+            }
+        },
+        {
+            "step": 27,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "TOKENIZER": "java.util.StringTokenizer (id=38)"
+            }
+        },
+        {
+            "step": 28,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 29,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 30,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#eat:1",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 31,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 32,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 33,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1#hasNext:1",
+                "RESULT": "true"
+            }
+        },
+        {
+            "step": 34,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#hasNext:1",
+                "VALUE": "true"
+            }
+        },
+        {
+            "step": 35,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main:1#run:1",
+                "TARGET": "Main:1#solve:1"
+            }
+        },
+        {
+            "step": 36,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "sc"
+            }
+        },
+        {
+            "step": 37,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main:1#solve:1",
+                "TARGET": "Main$MyScanner:1#nextInt:1"
+            }
+        },
+        {
+            "step": 38,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main$MyScanner:1#nextInt:1",
+                "TARGET": "Main$MyScanner:1#next:1"
+            }
+        },
+        {
+            "step": 39,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main$MyScanner:1#next:1",
+                "TARGET": "Main$MyScanner:1#eat:2"
+            }
+        },
+        {
+            "step": 40,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 41,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 42,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#eat:2",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 43,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 44,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1#next:1",
+                "RESULT": "4"
+            }
+        },
+        {
+            "step": 45,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#next:1",
+                "VALUE": "4"
+            }
+        },
+        {
+            "step": 46,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1#nextInt:1",
+                "RESULT": "4"
+            }
+        },
+        {
+            "step": 47,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#nextInt:1",
+                "VALUE": "4"
+            }
+        },
+        {
+            "step": 48,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "N": "4"
+            }
+        },
+        {
+            "step": 49,
+            "type": "NO",
+            "attributes": {
+                "OBJECT": "int[]:1"
+            }
+        },
+        {
+            "step": 50,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "int[]:1",
+                "0": "0"
+            }
+        },
+        {
+            "step": 51,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "int[]:1",
+                "1": "0"
+            }
+        },
+        {
+            "step": 52,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "int[]:1",
+                "2": "0"
+            }
+        },
+        {
+            "step": 53,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "int[]:1",
+                "3": "0"
+            }
+        },
+        {
+            "step": 54,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "int[]:1",
+                "4": "0"
+            }
+        },
+        {
+            "step": 55,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "int[]:1",
+                "5": "0"
+            }
+        },
+        {
+            "step": 56,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "COUNT": "int[]:1"
+            }
+        },
+        {
+            "step": 57,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "I": "0"
+            }
+        },
+        {
+            "step": 58,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "sc"
+            }
+        },
+        {
+            "step": 59,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main:1#solve:1",
+                "TARGET": "Main$MyScanner:1#nextDouble:1"
+            }
+        },
+        {
+            "step": 60,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main$MyScanner:1#nextDouble:1",
+                "TARGET": "Main$MyScanner:1#next:2"
+            }
+        },
+        {
+            "step": 61,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main$MyScanner:1#next:2",
+                "TARGET": "Main$MyScanner:1#eat:3"
+            }
+        },
+        {
+            "step": 62,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 63,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 64,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "reader"
+            }
+        },
+        {
+            "step": 65,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "LINE": "180.3"
+            }
+        },
+        {
+            "step": 66,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "line"
+            }
+        },
+        {
+            "step": 67,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "line"
+            }
+        },
+        {
+            "step": 68,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "TOKENIZER": "java.util.StringTokenizer (id=43)"
+            }
+        },
+        {
+            "step": 69,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 70,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 71,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#eat:3",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 72,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 73,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1#next:2",
+                "RESULT": "180.3"
+            }
+        },
+        {
+            "step": 74,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#next:2",
+                "VALUE": "180.3"
+            }
+        },
+        {
+            "step": 75,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1#nextDouble:1",
+                "RESULT": "180.3"
+            }
+        },
+        {
+            "step": 76,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#nextDouble:1",
+                "VALUE": "180.3"
+            }
+        },
+        {
+            "step": 77,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main:1#solve:1",
+                "TARGET": "Main:1#cate:1"
+            }
+        },
+        {
+            "step": 78,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#cate:1",
+                "X": "180.3"
+            }
+        },
+        {
+            "step": 79,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#cate:1",
+                "RESULT": "4"
+            }
+        },
+        {
+            "step": 80,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main:1#cate:1",
+                "VALUE": "4"
+            }
+        },
+        {
+            "step": 81,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "int[]:1",
+                "4": "1"
+            }
+        },
+        {
+            "step": 82,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "COUNT": "int[]:1"
+            }
+        },
+        {
+            "step": 83,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "I": "1"
+            }
+        },
+        {
+            "step": 84,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "sc"
+            }
+        },
+        {
+            "step": 85,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main:1#solve:1",
+                "TARGET": "Main$MyScanner:1#nextDouble:2"
+            }
+        },
+        {
+            "step": 86,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main$MyScanner:1#nextDouble:2",
+                "TARGET": "Main$MyScanner:1#next:3"
+            }
+        },
+        {
+            "step": 87,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main$MyScanner:1#next:3",
+                "TARGET": "Main$MyScanner:1#eat:4"
+            }
+        },
+        {
+            "step": 88,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 89,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 90,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "reader"
+            }
+        },
+        {
+            "step": 91,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "LINE": "168.2"
+            }
+        },
+        {
+            "step": 92,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "line"
+            }
+        },
+        {
+            "step": 93,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "line"
+            }
+        },
+        {
+            "step": 94,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "TOKENIZER": "java.util.StringTokenizer (id=45)"
+            }
+        },
+        {
+            "step": 95,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 96,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 97,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#eat:4",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 98,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 99,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1#next:3",
+                "RESULT": "168.2"
+            }
+        },
+        {
+            "step": 100,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#next:3",
+                "VALUE": "168.2"
+            }
+        },
+        {
+            "step": 101,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1#nextDouble:2",
+                "RESULT": "168.2"
+            }
+        },
+        {
+            "step": 102,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#nextDouble:2",
+                "VALUE": "168.2"
+            }
+        },
+        {
+            "step": 103,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main:1#solve:1",
+                "TARGET": "Main:1#cate:2"
+            }
+        },
+        {
+            "step": 104,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#cate:2",
+                "X": "168.2"
+            }
+        },
+        {
+            "step": 105,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#cate:2",
+                "RESULT": "1"
+            }
+        },
+        {
+            "step": 106,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main:1#cate:2",
+                "VALUE": "1"
+            }
+        },
+        {
+            "step": 107,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "int[]:1",
+                "1": "1"
+            }
+        },
+        {
+            "step": 108,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "COUNT": "int[]:1"
+            }
+        },
+        {
+            "step": 109,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "I": "2"
+            }
+        },
+        {
+            "step": 110,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "sc"
+            }
+        },
+        {
+            "step": 111,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main:1#solve:1",
+                "TARGET": "Main$MyScanner:1#nextDouble:3"
+            }
+        },
+        {
+            "step": 112,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main$MyScanner:1#nextDouble:3",
+                "TARGET": "Main$MyScanner:1#next:4"
+            }
+        },
+        {
+            "step": 113,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main$MyScanner:1#next:4",
+                "TARGET": "Main$MyScanner:1#eat:5"
+            }
+        },
+        {
+            "step": 114,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 115,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 116,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "reader"
+            }
+        },
+        {
+            "step": 117,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "LINE": "165.5"
+            }
+        },
+        {
+            "step": 118,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "line"
+            }
+        },
+        {
+            "step": 119,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "line"
+            }
+        },
+        {
+            "step": 120,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "TOKENIZER": "java.util.StringTokenizer (id=47)"
+            }
+        },
+        {
+            "step": 121,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 122,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 123,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#eat:5",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 124,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 125,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1#next:4",
+                "RESULT": "165.5"
+            }
+        },
+        {
+            "step": 126,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#next:4",
+                "VALUE": "165.5"
+            }
+        },
+        {
+            "step": 127,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1#nextDouble:3",
+                "RESULT": "165.5"
+            }
+        },
+        {
+            "step": 128,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#nextDouble:3",
+                "VALUE": "165.5"
+            }
+        },
+        {
+            "step": 129,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main:1#solve:1",
+                "TARGET": "Main:1#cate:3"
+            }
+        },
+        {
+            "step": 130,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#cate:3",
+                "X": "165.5"
+            }
+        },
+        {
+            "step": 131,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#cate:3",
+                "RESULT": "1"
+            }
+        },
+        {
+            "step": 132,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main:1#cate:3",
+                "VALUE": "1"
+            }
+        },
+        {
+            "step": 133,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "int[]:1",
+                "1": "2"
+            }
+        },
+        {
+            "step": 134,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "COUNT": "int[]:1"
+            }
+        },
+        {
+            "step": 135,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "I": "3"
+            }
+        },
+        {
+            "step": 136,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "sc"
+            }
+        },
+        {
+            "step": 137,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main:1#solve:1",
+                "TARGET": "Main$MyScanner:1#nextDouble:4"
+            }
+        },
+        {
+            "step": 138,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main$MyScanner:1#nextDouble:4",
+                "TARGET": "Main$MyScanner:1#next:5"
+            }
+        },
+        {
+            "step": 139,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main$MyScanner:1#next:5",
+                "TARGET": "Main$MyScanner:1#eat:6"
+            }
+        },
+        {
+            "step": 140,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 141,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 142,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "reader"
+            }
+        },
+        {
+            "step": 143,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "LINE": "175.3"
+            }
+        },
+        {
+            "step": 144,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "line"
+            }
+        },
+        {
+            "step": 145,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "line"
+            }
+        },
+        {
+            "step": 146,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "TOKENIZER": "java.util.StringTokenizer (id=49)"
+            }
+        },
+        {
+            "step": 147,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 148,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 149,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#eat:6",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 150,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 151,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1#next:5",
+                "RESULT": "175.3"
+            }
+        },
+        {
+            "step": 152,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#next:5",
+                "VALUE": "175.3"
+            }
+        },
+        {
+            "step": 153,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1#nextDouble:4",
+                "RESULT": "175.3"
+            }
+        },
+        {
+            "step": 154,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#nextDouble:4",
+                "VALUE": "175.3"
+            }
+        },
+        {
+            "step": 155,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main:1#solve:1",
+                "TARGET": "Main:1#cate:4"
+            }
+        },
+        {
+            "step": 156,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#cate:4",
+                "X": "175.3"
+            }
+        },
+        {
+            "step": 157,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#cate:4",
+                "RESULT": "3"
+            }
+        },
+        {
+            "step": 158,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main:1#cate:4",
+                "VALUE": "3"
+            }
+        },
+        {
+            "step": 159,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "int[]:1",
+                "3": "1"
+            }
+        },
+        {
+            "step": 160,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "COUNT": "int[]:1"
+            }
+        },
+        {
+            "step": 161,
+            "type": "VD",
+            "attributes": {
+                "METHOD": "Main:1#solve:1 <name=i",
+                "TYPE": "int (id=7)",
+                "VALUE": "<?>",
+                "INDEX": "2>"
+            }
+        },
+        {
+            "step": 162,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "I": "0"
+            }
+        },
+        {
+            "step": 163,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 164,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 165,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "I": "1"
+            }
+        },
+        {
+            "step": 166,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 167,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "J": "0"
+            }
+        },
+        {
+            "step": 168,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 169,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "J": "1"
+            }
+        },
+        {
+            "step": 170,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 171,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 172,
+            "type": "VD",
+            "attributes": {
+                "METHOD": "Main:1#solve:1 <name=j",
+                "TYPE": "int (id=7)",
+                "VALUE": "<?>",
+                "INDEX": "4>"
+            }
+        },
+        {
+            "step": 173,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "I": "2"
+            }
+        },
+        {
+            "step": 174,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 175,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 176,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "I": "3"
+            }
+        },
+        {
+            "step": 177,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 178,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "J": "0"
+            }
+        },
+        {
+            "step": 179,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 180,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 181,
+            "type": "VD",
+            "attributes": {
+                "METHOD": "Main:1#solve:1 <name=j",
+                "TYPE": "int (id=7)",
+                "VALUE": "<?>",
+                "INDEX": "4>"
+            }
+        },
+        {
+            "step": 182,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "I": "4"
+            }
+        },
+        {
+            "step": 183,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 184,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "J": "0"
+            }
+        },
+        {
+            "step": 185,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 186,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 187,
+            "type": "VD",
+            "attributes": {
+                "METHOD": "Main:1#solve:1 <name=j",
+                "TYPE": "int (id=7)",
+                "VALUE": "<?>",
+                "INDEX": "4>"
+            }
+        },
+        {
+            "step": 188,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#solve:1",
+                "I": "5"
+            }
+        },
+        {
+            "step": 189,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 190,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 191,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main:1#solve:1",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 192,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "out"
+            }
+        },
+        {
+            "step": 193,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "VALUE_2": "sc"
+            }
+        },
+        {
+            "step": 194,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main:1#run:1",
+                "TARGET": "Main$MyScanner:1#hasNext:2"
+            }
+        },
+        {
+            "step": 195,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main$MyScanner:1#hasNext:2",
+                "TARGET": "Main$MyScanner:1#eat:7"
+            }
+        },
+        {
+            "step": 196,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 197,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "tokenizer"
+            }
+        },
+        {
+            "step": 198,
+            "type": "FR",
+            "attributes": {
+                "CONTEXT": "Main$MyScanner:1",
+                "VALUE_2": "reader"
+            }
+        },
+        {
+            "step": 199,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#eat:7",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 200,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main$MyScanner:1#hasNext:2",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 201,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main:1#run:1",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 202,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main#main:1",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 203,
+            "type": "TE",
+            "attributes": {}
+        }
+    ]
+}
