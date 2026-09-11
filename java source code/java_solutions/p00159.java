@@ -1,0 +1,1 @@
+import java.util.*;class Main{public static void main(String[]z){Scanner s=new Scanner(System.in);for(int t;(t=s.nextInt())>0;){Double m=999.,d,h,w;String b="",i;for(;t-->0;){i=s.next();h=s.nextDouble()/100;w=s.nextDouble();if(m.compareTo(d=Math.abs(w/(h*h)-22))>=0){b=m.equals(d)&&b.compareTo(i)<0?b:i;m=d;}}System.out.println(b);}}}

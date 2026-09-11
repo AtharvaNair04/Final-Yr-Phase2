@@ -1,0 +1,77 @@
+import java.util.Scanner;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Jiakang Chen
+ */
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int N = sc.nextInt();
+        
+        int M = sc.nextInt();
+        
+        Box[] B = new Box[N];
+        B[0] = new Box(1, true);
+        
+        for (int i = 1; i < N; i++) {
+            B[i] = new Box(1, false);
+        }
+        
+        for (int i = 0; i < M; i++) {
+            int x = sc.nextInt() - 1;
+            int y = sc.nextInt() - 1;
+            
+            B[x].moveTo(B[y]);
+        }
+        
+        int counter = 0;
+        
+        for (Box b : B) {
+            if (b.red) {
+                counter++;
+            }
+        }
+        
+        System.out.println(counter);
+    }
+}
+
+class Box {
+    public int num;
+    public boolean red;
+    
+    public Box(int n, boolean r) {
+        num = n;
+        red = r;
+    }
+    
+    public void moveTo(Box other) {
+        if (num == 0) {
+            return;
+        } else if (num == 1) {
+            num = 0;
+            other.num++;
+            
+            if (red) {
+                other.red = true;
+            }
+            
+            red = false;
+        } else {
+            num--;
+            other.num++;
+            
+            if (red) {
+                other.red = true;
+            }
+        }
+    }
+}
