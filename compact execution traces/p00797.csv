@@ -1,0 +1,504 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+NO,object=Main:1
+MC,caller=Main#main:1,target=Main:1#Main:1
+ME,returner=Main:1#Main:1,value=<void>
+MC,caller=Main#main:1,target=Main:1#run:1
+VW,context=Main:1#run:1,sc=java.util.Scanner (id=365)
+VW,context=Main:1#run:1,n=6
+VW,context=Main:1#run:1,m=5
+NO,object=Main$V[]:1
+FW,context=Main$V[]:1,0=null
+FW,context=Main$V[]:1,1=null
+FW,context=Main$V[]:1,2=null
+FW,context=Main$V[]:1,3=null
+FW,context=Main$V[]:1,4=null
+FW,context=Main$V[]:1,5=null
+FW,context=Main$V[]:1,6=null
+FW,context=Main:1,v=Main$V[]:1
+FR,context=Main:1,v
+NO,object=Main$V:1
+MC,caller=Main:1#run:1,target=Main$V:1#Main$V:1
+VW,context=Main$V:1#Main$V:1,id=0
+VW,context=Main$V:1#Main$V:1,name=
+FW,context=Main$V:1,id=0
+FW,context=Main$V:1,name=
+FW,context=Main$V:1,parent=null
+FW,context=Main$V:1,adj=java.util.ArrayList (id=372)
+ME,returner=Main$V:1#Main$V:1,value=<void>
+VW,context=Main:1#run:1,ref=java.util.HashMap (id=373)
+VW,context=Main:1#run:1,i=1
+VW,context=Main:1#run:1,s=John
+VW,context=Main:1#run:1,depth=0
+VW,context=Main:1#run:1,name=John
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:1#add:1
+VW,context=Main$V:1#add:1,name=John
+VW,context=Main$V:1#add:1,id=1
+VW,context=Main$V:1#add:1,depth=0
+NO,object=Main$V:2
+MC,caller=Main$V:1#add:1,target=Main$V:2#Main$V:2
+VW,context=Main$V:2#Main$V:2,id=1
+VW,context=Main$V:2#Main$V:2,name=John
+FW,context=Main$V:2,id=1
+FW,context=Main$V:2,name=John
+FW,context=Main$V:2,parent=null
+FW,context=Main$V:2,adj=java.util.ArrayList (id=376)
+ME,returner=Main$V:2#Main$V:2,value=<void>
+VW,context=Main$V:1#add:1,t=Main$V:2
+FW,context=Main$V:2,parent=Main$V:1
+FR,context=Main$V:1,adj
+FR,context=Main:1,v
+FW,context=Main$V[]:1,0=Main$V:1
+FW,context=Main$V[]:1,1=Main$V:2
+ME,returner=Main$V:1#add:1,value=<void>
+VW,context=Main:1#run:1,i=2
+VD,method=Main:1#run:1 <name=s,type=java.lang.String (id=25),value=<?>,index=5>
+VD,method=Main:1#run:1 <name=depth,type=int (id=7),value=<?>,index=6>
+VD,method=Main:1#run:1 <name=name,type=java.lang.String (id=25),value=<?>,index=7>
+VW,context=Main:1#run:1,s= Robert
+VW,context=Main:1#run:1,depth=0
+VW,context=Main:1#run:1,depth=1
+VW,context=Main:1#run:1,name=Robert
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:1#add:2
+VW,context=Main$V:1#add:2,name=Robert
+VW,context=Main$V:1#add:2,id=2
+VW,context=Main$V:1#add:2,depth=1
+FR,context=Main$V:1,adj
+FR,context=Main$V:1,adj
+MC,caller=Main$V:1#add:2,target=Main$V:2#add:3
+VW,context=Main$V:2#add:3,name=Robert
+VW,context=Main$V:2#add:3,id=2
+VW,context=Main$V:2#add:3,depth=0
+NO,object=Main$V:3
+MC,caller=Main$V:2#add:3,target=Main$V:3#Main$V:3
+VW,context=Main$V:3#Main$V:3,id=2
+VW,context=Main$V:3#Main$V:3,name=Robert
+FW,context=Main$V:3,id=2
+FW,context=Main$V:3,name=Robert
+FW,context=Main$V:3,parent=null
+FW,context=Main$V:3,adj=java.util.ArrayList (id=380)
+ME,returner=Main$V:3#Main$V:3,value=<void>
+VW,context=Main$V:2#add:3,t=Main$V:3
+FW,context=Main$V:3,parent=Main$V:2
+FR,context=Main$V:2,adj
+FR,context=Main:1,v
+FW,context=Main$V[]:1,2=Main$V:3
+ME,returner=Main$V:2#add:3,value=<void>
+ME,returner=Main$V:1#add:2,value=<void>
+VW,context=Main:1#run:1,i=3
+VD,method=Main:1#run:1 <name=s,type=java.lang.String (id=25),value=<?>,index=5>
+VD,method=Main:1#run:1 <name=depth,type=int (id=7),value=<?>,index=6>
+VD,method=Main:1#run:1 <name=name,type=java.lang.String (id=25),value=<?>,index=7>
+VW,context=Main:1#run:1,s=  Frank
+VW,context=Main:1#run:1,depth=0
+VW,context=Main:1#run:1,depth=2
+VW,context=Main:1#run:1,name=Frank
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:1#add:4
+VW,context=Main$V:1#add:4,name=Frank
+VW,context=Main$V:1#add:4,id=3
+VW,context=Main$V:1#add:4,depth=2
+FR,context=Main$V:1,adj
+FR,context=Main$V:1,adj
+MC,caller=Main$V:1#add:4,target=Main$V:2#add:5
+VW,context=Main$V:2#add:5,name=Frank
+VW,context=Main$V:2#add:5,id=3
+VW,context=Main$V:2#add:5,depth=1
+FR,context=Main$V:2,adj
+FR,context=Main$V:2,adj
+MC,caller=Main$V:2#add:5,target=Main$V:3#add:6
+VW,context=Main$V:3#add:6,name=Frank
+VW,context=Main$V:3#add:6,id=3
+VW,context=Main$V:3#add:6,depth=0
+NO,object=Main$V:4
+MC,caller=Main$V:3#add:6,target=Main$V:4#Main$V:4
+VW,context=Main$V:4#Main$V:4,id=3
+VW,context=Main$V:4#Main$V:4,name=Frank
+FW,context=Main$V:4,id=3
+FW,context=Main$V:4,name=Frank
+FW,context=Main$V:4,parent=null
+FW,context=Main$V:4,adj=java.util.ArrayList (id=384)
+ME,returner=Main$V:4#Main$V:4,value=<void>
+VW,context=Main$V:3#add:6,t=Main$V:4
+FW,context=Main$V:4,parent=Main$V:3
+FR,context=Main$V:3,adj
+FR,context=Main:1,v
+FW,context=Main$V[]:1,3=Main$V:4
+ME,returner=Main$V:3#add:6,value=<void>
+ME,returner=Main$V:2#add:5,value=<void>
+ME,returner=Main$V:1#add:4,value=<void>
+VW,context=Main:1#run:1,i=4
+VD,method=Main:1#run:1 <name=s,type=java.lang.String (id=25),value=<?>,index=5>
+VD,method=Main:1#run:1 <name=depth,type=int (id=7),value=<?>,index=6>
+VD,method=Main:1#run:1 <name=name,type=java.lang.String (id=25),value=<?>,index=7>
+VW,context=Main:1#run:1,s=  Andrew
+VW,context=Main:1#run:1,depth=0
+VW,context=Main:1#run:1,depth=2
+VW,context=Main:1#run:1,name=Andrew
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:1#add:7
+VW,context=Main$V:1#add:7,name=Andrew
+VW,context=Main$V:1#add:7,id=4
+VW,context=Main$V:1#add:7,depth=2
+FR,context=Main$V:1,adj
+FR,context=Main$V:1,adj
+MC,caller=Main$V:1#add:7,target=Main$V:2#add:8
+VW,context=Main$V:2#add:8,name=Andrew
+VW,context=Main$V:2#add:8,id=4
+VW,context=Main$V:2#add:8,depth=1
+FR,context=Main$V:2,adj
+FR,context=Main$V:2,adj
+MC,caller=Main$V:2#add:8,target=Main$V:3#add:9
+VW,context=Main$V:3#add:9,name=Andrew
+VW,context=Main$V:3#add:9,id=4
+VW,context=Main$V:3#add:9,depth=0
+NO,object=Main$V:5
+MC,caller=Main$V:3#add:9,target=Main$V:5#Main$V:5
+VW,context=Main$V:5#Main$V:5,id=4
+VW,context=Main$V:5#Main$V:5,name=Andrew
+FW,context=Main$V:5,id=4
+FW,context=Main$V:5,name=Andrew
+FW,context=Main$V:5,parent=null
+FW,context=Main$V:5,adj=java.util.ArrayList (id=388)
+ME,returner=Main$V:5#Main$V:5,value=<void>
+VW,context=Main$V:3#add:9,t=Main$V:5
+FW,context=Main$V:5,parent=Main$V:3
+FR,context=Main$V:3,adj
+FR,context=Main:1,v
+FW,context=Main$V[]:1,4=Main$V:5
+ME,returner=Main$V:3#add:9,value=<void>
+ME,returner=Main$V:2#add:8,value=<void>
+ME,returner=Main$V:1#add:7,value=<void>
+VW,context=Main:1#run:1,i=5
+VD,method=Main:1#run:1 <name=s,type=java.lang.String (id=25),value=<?>,index=5>
+VD,method=Main:1#run:1 <name=depth,type=int (id=7),value=<?>,index=6>
+VD,method=Main:1#run:1 <name=name,type=java.lang.String (id=25),value=<?>,index=7>
+VW,context=Main:1#run:1,s= Nancy
+VW,context=Main:1#run:1,depth=0
+VW,context=Main:1#run:1,depth=1
+VW,context=Main:1#run:1,name=Nancy
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:1#add:10
+VW,context=Main$V:1#add:10,name=Nancy
+VW,context=Main$V:1#add:10,id=5
+VW,context=Main$V:1#add:10,depth=1
+FR,context=Main$V:1,adj
+FR,context=Main$V:1,adj
+MC,caller=Main$V:1#add:10,target=Main$V:2#add:11
+VW,context=Main$V:2#add:11,name=Nancy
+VW,context=Main$V:2#add:11,id=5
+VW,context=Main$V:2#add:11,depth=0
+NO,object=Main$V:6
+MC,caller=Main$V:2#add:11,target=Main$V:6#Main$V:6
+VW,context=Main$V:6#Main$V:6,id=5
+VW,context=Main$V:6#Main$V:6,name=Nancy
+FW,context=Main$V:6,id=5
+FW,context=Main$V:6,name=Nancy
+FW,context=Main$V:6,parent=null
+FW,context=Main$V:6,adj=java.util.ArrayList (id=392)
+ME,returner=Main$V:6#Main$V:6,value=<void>
+VW,context=Main$V:2#add:11,t=Main$V:6
+FW,context=Main$V:6,parent=Main$V:2
+FR,context=Main$V:2,adj
+FR,context=Main:1,v
+FW,context=Main$V[]:1,5=Main$V:6
+ME,returner=Main$V:2#add:11,value=<void>
+ME,returner=Main$V:1#add:10,value=<void>
+VW,context=Main:1#run:1,i=6
+VD,method=Main:1#run:1 <name=s,type=java.lang.String (id=25),value=<?>,index=5>
+VD,method=Main:1#run:1 <name=depth,type=int (id=7),value=<?>,index=6>
+VD,method=Main:1#run:1 <name=name,type=java.lang.String (id=25),value=<?>,index=7>
+VW,context=Main:1#run:1,s=  David
+VW,context=Main:1#run:1,depth=0
+VW,context=Main:1#run:1,depth=2
+VW,context=Main:1#run:1,name=David
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:1#add:12
+VW,context=Main$V:1#add:12,name=David
+VW,context=Main$V:1#add:12,id=6
+VW,context=Main$V:1#add:12,depth=2
+FR,context=Main$V:1,adj
+FR,context=Main$V:1,adj
+MC,caller=Main$V:1#add:12,target=Main$V:2#add:13
+VW,context=Main$V:2#add:13,name=David
+VW,context=Main$V:2#add:13,id=6
+VW,context=Main$V:2#add:13,depth=1
+FR,context=Main$V:2,adj
+FR,context=Main$V:2,adj
+MC,caller=Main$V:2#add:13,target=Main$V:6#add:14
+VW,context=Main$V:6#add:14,name=David
+VW,context=Main$V:6#add:14,id=6
+VW,context=Main$V:6#add:14,depth=0
+NO,object=Main$V:7
+MC,caller=Main$V:6#add:14,target=Main$V:7#Main$V:7
+VW,context=Main$V:7#Main$V:7,id=6
+VW,context=Main$V:7#Main$V:7,name=David
+FW,context=Main$V:7,id=6
+FW,context=Main$V:7,name=David
+FW,context=Main$V:7,parent=null
+FW,context=Main$V:7,adj=java.util.ArrayList (id=396)
+ME,returner=Main$V:7#Main$V:7,value=<void>
+VW,context=Main$V:6#add:14,t=Main$V:7
+FW,context=Main$V:7,parent=Main$V:6
+FR,context=Main$V:6,adj
+FR,context=Main:1,v
+FW,context=Main$V[]:1,6=Main$V:7
+ME,returner=Main$V:6#add:14,value=<void>
+ME,returner=Main$V:2#add:13,value=<void>
+ME,returner=Main$V:1#add:12,value=<void>
+VD,method=Main:1#run:1 <name=s,type=java.lang.String (id=25),value=<?>,index=5>
+VD,method=Main:1#run:1 <name=depth,type=int (id=7),value=<?>,index=6>
+VD,method=Main:1#run:1 <name=name,type=java.lang.String (id=25),value=<?>,index=7>
+VW,context=Main:1#run:1,m=4
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=4>
+NO,object=java.lang.String[]:2
+FW,context=java.lang.String[]:2,0=Robert
+FW,context=java.lang.String[]:2,1=is
+FW,context=java.lang.String[]:2,2=a
+FW,context=java.lang.String[]:2,3=child
+FW,context=java.lang.String[]:2,4=of
+FW,context=java.lang.String[]:2,5=John.
+VW,context=Main:1#run:1,s=java.lang.String[]:2
+VW,context=Main:1#run:1,a=Robert
+VW,context=Main:1#run:1,cmd=child
+VW,context=Main:1#run:1,b=John
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:2#isChild:1
+VW,context=Main$V:2#isChild:1,s=Robert
+FR,context=Main$V:2,adj
+FR,context=Main$V:3,name
+VW,context=Main$V:2#isChild:1,result=true
+ME,returner=Main$V:2#isChild:1,value=true
+VW,context=Main:1#run:1,f=true
+VW,context=Main:1#run:1,m=3
+VD,method=Main:1#run:1 <name=s,type=java.lang.String[] (id=59),value=<?>,index=8>
+VD,method=Main:1#run:1 <name=a,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#run:1 <name=cmd,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#run:1 <name=b,type=java.lang.String (id=25),value=<?>,index=11>
+VD,method=Main:1#run:1 <name=f,type=boolean (id=2),value=<?>,index=12>
+NO,object=java.lang.String[]:3
+FW,context=java.lang.String[]:3,0=Robert
+FW,context=java.lang.String[]:3,1=is
+FW,context=java.lang.String[]:3,2=an
+FW,context=java.lang.String[]:3,3=ancestor
+FW,context=java.lang.String[]:3,4=of
+FW,context=java.lang.String[]:3,5=Andrew.
+VW,context=Main:1#run:1,s=java.lang.String[]:3
+VW,context=Main:1#run:1,a=Robert
+VW,context=Main:1#run:1,cmd=ancestor
+VW,context=Main:1#run:1,b=Andrew
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:5#isAnc:1
+VW,context=Main$V:5#isAnc:1,s=Robert
+FR,context=Main$V:5,parent
+FR,context=Main$V:5,parent
+FR,context=Main$V:3,name
+VW,context=Main$V:5#isAnc:1,result=true
+ME,returner=Main$V:5#isAnc:1,value=true
+VW,context=Main:1#run:1,f=true
+VW,context=Main:1#run:1,m=2
+VD,method=Main:1#run:1 <name=s,type=java.lang.String[] (id=59),value=<?>,index=8>
+VD,method=Main:1#run:1 <name=a,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#run:1 <name=cmd,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#run:1 <name=b,type=java.lang.String (id=25),value=<?>,index=11>
+VD,method=Main:1#run:1 <name=f,type=boolean (id=2),value=<?>,index=12>
+NO,object=java.lang.String[]:4
+FW,context=java.lang.String[]:4,0=Robert
+FW,context=java.lang.String[]:4,1=is
+FW,context=java.lang.String[]:4,2=a
+FW,context=java.lang.String[]:4,3=sibling
+FW,context=java.lang.String[]:4,4=of
+FW,context=java.lang.String[]:4,5=Nancy.
+VW,context=Main:1#run:1,s=java.lang.String[]:4
+VW,context=Main:1#run:1,a=Robert
+VW,context=Main:1#run:1,cmd=sibling
+VW,context=Main:1#run:1,b=Nancy
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:6#isSibling:1
+VW,context=Main$V:6#isSibling:1,s=Robert
+FR,context=Main$V:6,parent
+FR,context=Main$V:6,parent
+FR,context=Main$V:2,adj
+FR,context=Main$V:3,name
+VW,context=Main$V:6#isSibling:1,result=true
+ME,returner=Main$V:6#isSibling:1,value=true
+VW,context=Main:1#run:1,f=true
+VW,context=Main:1#run:1,m=1
+VD,method=Main:1#run:1 <name=s,type=java.lang.String[] (id=59),value=<?>,index=8>
+VD,method=Main:1#run:1 <name=a,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#run:1 <name=cmd,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#run:1 <name=b,type=java.lang.String (id=25),value=<?>,index=11>
+VD,method=Main:1#run:1 <name=f,type=boolean (id=2),value=<?>,index=12>
+NO,object=java.lang.String[]:5
+FW,context=java.lang.String[]:5,0=Nancy
+FW,context=java.lang.String[]:5,1=is
+FW,context=java.lang.String[]:5,2=the
+FW,context=java.lang.String[]:5,3=parent
+FW,context=java.lang.String[]:5,4=of
+FW,context=java.lang.String[]:5,5=Frank.
+VW,context=Main:1#run:1,s=java.lang.String[]:5
+VW,context=Main:1#run:1,a=Nancy
+VW,context=Main:1#run:1,cmd=parent
+VW,context=Main:1#run:1,b=Frank
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:4#isParent:1
+VW,context=Main$V:4#isParent:1,s=Nancy
+FR,context=Main$V:4,parent
+FR,context=Main$V:4,parent
+FR,context=Main$V:3,name
+VW,context=Main$V:4#isParent:1,result=false
+ME,returner=Main$V:4#isParent:1,value=false
+VW,context=Main:1#run:1,f=false
+VW,context=Main:1#run:1,m=0
+VD,method=Main:1#run:1 <name=s,type=java.lang.String[] (id=59),value=<?>,index=8>
+VD,method=Main:1#run:1 <name=a,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#run:1 <name=cmd,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#run:1 <name=b,type=java.lang.String (id=25),value=<?>,index=11>
+VD,method=Main:1#run:1 <name=f,type=boolean (id=2),value=<?>,index=12>
+NO,object=java.lang.String[]:6
+FW,context=java.lang.String[]:6,0=John
+FW,context=java.lang.String[]:6,1=is
+FW,context=java.lang.String[]:6,2=a
+FW,context=java.lang.String[]:6,3=descendant
+FW,context=java.lang.String[]:6,4=of
+FW,context=java.lang.String[]:6,5=Andrew.
+VW,context=Main:1#run:1,s=java.lang.String[]:6
+VW,context=Main:1#run:1,a=John
+VW,context=Main:1#run:1,cmd=descendant
+VW,context=Main:1#run:1,b=Andrew
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:5#isDesc:1
+VW,context=Main$V:5#isDesc:1,s=John
+FR,context=Main$V:5,adj
+VW,context=Main$V:5#isDesc:1,result=false
+ME,returner=Main$V:5#isDesc:1,value=false
+VW,context=Main:1#run:1,f=false
+VW,context=Main:1#run:1,m=-1
+VD,method=Main:1#run:1 <name=s,type=java.lang.String[] (id=59),value=<?>,index=8>
+VD,method=Main:1#run:1 <name=a,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#run:1 <name=cmd,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#run:1 <name=b,type=java.lang.String (id=25),value=<?>,index=11>
+VD,method=Main:1#run:1 <name=f,type=boolean (id=2),value=<?>,index=12>
+VD,method=Main:1#run:1 <name=n,type=int (id=7),value=0,index=1>
+VD,method=Main:1#run:1 <name=m,type=int (id=7),value=0,index=2>
+VD,method=Main:1#run:1 <name=ref,type=java.util.Map (unresolved),value=<?>,index=3>
+VW,context=Main:1#run:1,n=2
+VW,context=Main:1#run:1,m=1
+NO,object=Main$V[]:2
+FW,context=Main$V[]:2,0=null
+FW,context=Main$V[]:2,1=null
+FW,context=Main$V[]:2,2=null
+FW,context=Main:1,v=Main$V[]:2
+FR,context=Main:1,v
+NO,object=Main$V:8
+MC,caller=Main:1#run:1,target=Main$V:8#Main$V:8
+VW,context=Main$V:8#Main$V:8,id=0
+VW,context=Main$V:8#Main$V:8,name=
+FW,context=Main$V:8,id=0
+FW,context=Main$V:8,name=
+FW,context=Main$V:8,parent=null
+FW,context=Main$V:8,adj=java.util.ArrayList (id=439)
+ME,returner=Main$V:8#Main$V:8,value=<void>
+VW,context=Main:1#run:1,ref=java.util.HashMap (id=440)
+VW,context=Main:1#run:1,i=1
+VW,context=Main:1#run:1,s=abc
+VW,context=Main:1#run:1,depth=0
+VW,context=Main:1#run:1,name=abc
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:8#add:15
+VW,context=Main$V:8#add:15,name=abc
+VW,context=Main$V:8#add:15,id=1
+VW,context=Main$V:8#add:15,depth=0
+NO,object=Main$V:9
+MC,caller=Main$V:8#add:15,target=Main$V:9#Main$V:9
+VW,context=Main$V:9#Main$V:9,id=1
+VW,context=Main$V:9#Main$V:9,name=abc
+FW,context=Main$V:9,id=1
+FW,context=Main$V:9,name=abc
+FW,context=Main$V:9,parent=null
+FW,context=Main$V:9,adj=java.util.ArrayList (id=443)
+ME,returner=Main$V:9#Main$V:9,value=<void>
+VW,context=Main$V:8#add:15,t=Main$V:9
+FW,context=Main$V:9,parent=Main$V:8
+FR,context=Main$V:8,adj
+FR,context=Main:1,v
+FW,context=Main$V[]:2,0=Main$V:8
+FW,context=Main$V[]:2,1=Main$V:9
+ME,returner=Main$V:8#add:15,value=<void>
+VW,context=Main:1#run:1,i=2
+VD,method=Main:1#run:1 <name=s,type=java.lang.String (id=25),value=<?>,index=5>
+VD,method=Main:1#run:1 <name=depth,type=int (id=7),value=<?>,index=6>
+VD,method=Main:1#run:1 <name=name,type=java.lang.String (id=25),value=<?>,index=7>
+VW,context=Main:1#run:1,s= xyz
+VW,context=Main:1#run:1,depth=0
+VW,context=Main:1#run:1,depth=1
+VW,context=Main:1#run:1,name=xyz
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:8#add:16
+VW,context=Main$V:8#add:16,name=xyz
+VW,context=Main$V:8#add:16,id=2
+VW,context=Main$V:8#add:16,depth=1
+FR,context=Main$V:8,adj
+FR,context=Main$V:8,adj
+MC,caller=Main$V:8#add:16,target=Main$V:9#add:17
+VW,context=Main$V:9#add:17,name=xyz
+VW,context=Main$V:9#add:17,id=2
+VW,context=Main$V:9#add:17,depth=0
+NO,object=Main$V:10
+MC,caller=Main$V:9#add:17,target=Main$V:10#Main$V:10
+VW,context=Main$V:10#Main$V:10,id=2
+VW,context=Main$V:10#Main$V:10,name=xyz
+FW,context=Main$V:10,id=2
+FW,context=Main$V:10,name=xyz
+FW,context=Main$V:10,parent=null
+FW,context=Main$V:10,adj=java.util.ArrayList (id=447)
+ME,returner=Main$V:10#Main$V:10,value=<void>
+VW,context=Main$V:9#add:17,t=Main$V:10
+FW,context=Main$V:10,parent=Main$V:9
+FR,context=Main$V:9,adj
+FR,context=Main:1,v
+FW,context=Main$V[]:2,2=Main$V:10
+ME,returner=Main$V:9#add:17,value=<void>
+ME,returner=Main$V:8#add:16,value=<void>
+VD,method=Main:1#run:1 <name=s,type=java.lang.String (id=25),value=<?>,index=5>
+VD,method=Main:1#run:1 <name=depth,type=int (id=7),value=<?>,index=6>
+VD,method=Main:1#run:1 <name=name,type=java.lang.String (id=25),value=<?>,index=7>
+VW,context=Main:1#run:1,m=0
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=4>
+NO,object=java.lang.String[]:7
+FW,context=java.lang.String[]:7,0=xyz
+FW,context=java.lang.String[]:7,1=is
+FW,context=java.lang.String[]:7,2=a
+FW,context=java.lang.String[]:7,3=child
+FW,context=java.lang.String[]:7,4=of
+FW,context=java.lang.String[]:7,5=abc.
+VW,context=Main:1#run:1,s=java.lang.String[]:7
+VW,context=Main:1#run:1,a=xyz
+VW,context=Main:1#run:1,cmd=child
+VW,context=Main:1#run:1,b=abc
+FR,context=Main:1,v
+MC,caller=Main:1#run:1,target=Main$V:9#isChild:2
+VW,context=Main$V:9#isChild:2,s=xyz
+FR,context=Main$V:9,adj
+FR,context=Main$V:10,name
+VW,context=Main$V:9#isChild:2,result=true
+ME,returner=Main$V:9#isChild:2,value=true
+VW,context=Main:1#run:1,f=true
+VW,context=Main:1#run:1,m=-1
+VD,method=Main:1#run:1 <name=s,type=java.lang.String[] (id=59),value=<?>,index=8>
+VD,method=Main:1#run:1 <name=a,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#run:1 <name=cmd,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#run:1 <name=b,type=java.lang.String (id=25),value=<?>,index=11>
+VD,method=Main:1#run:1 <name=f,type=boolean (id=2),value=<?>,index=12>
+VD,method=Main:1#run:1 <name=n,type=int (id=7),value=0,index=1>
+VD,method=Main:1#run:1 <name=m,type=int (id=7),value=0,index=2>
+VD,method=Main:1#run:1 <name=ref,type=java.util.Map (unresolved),value=<?>,index=3>
+VW,context=Main:1#run:1,n=0
+VW,context=Main:1#run:1,m=0
+ME,returner=Main:1#run:1,value=<void>
+ME,returner=Main#main:1,value=<void>
+TE,

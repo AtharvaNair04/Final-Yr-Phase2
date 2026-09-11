@@ -1,0 +1,108 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+VW,context=Main#main:1,sc=java.util.Scanner (id=363)
+VW,context=Main#main:1,n=5
+VW,context=Main#main:1,map=java.util.HashMap (id=364)
+VW,context=Main#main:1,i=0
+VW,context=Main#main:1,in=A
+VW,context=Main#main:1,count=20
+VW,context=Main#main:1,i=1
+VD,method=Main#main:1 <name=in,type=java.lang.String (id=25),value=<?>,index=5>
+VD,method=Main#main:1 <name=count,type=int (id=7),value=<?>,index=6>
+VW,context=Main#main:1,in=B
+VW,context=Main#main:1,count=20
+VW,context=Main#main:1,i=2
+VD,method=Main#main:1 <name=in,type=java.lang.String (id=25),value=<?>,index=5>
+VD,method=Main#main:1 <name=count,type=int (id=7),value=<?>,index=6>
+VW,context=Main#main:1,in=A
+VW,context=Main#main:1,count=20
+VW,context=Main#main:1,i=3
+VD,method=Main#main:1 <name=in,type=java.lang.String (id=25),value=<?>,index=5>
+VD,method=Main#main:1 <name=count,type=int (id=7),value=<?>,index=6>
+VW,context=Main#main:1,in=AB
+VW,context=Main#main:1,count=10
+VW,context=Main#main:1,i=4
+VD,method=Main#main:1 <name=in,type=java.lang.String (id=25),value=<?>,index=5>
+VD,method=Main#main:1 <name=count,type=int (id=7),value=<?>,index=6>
+VW,context=Main#main:1,in=Z
+VW,context=Main#main:1,count=10
+VD,method=Main#main:1 <name=in,type=java.lang.String (id=25),value=<?>,index=5>
+VD,method=Main#main:1 <name=count,type=int (id=7),value=<?>,index=6>
+NO,object=Main$1:1
+MC,caller=Main#main:1,target=Main$1:1#<init>:1
+ME,returner=Main$1:1#<init>:1,value=<void>
+VD,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=4>
+VW,context=Main#main:1,set=java.util.TreeSet (id=374)
+MC,caller=Main#main:1,target=Ljava/util/TreeSet;.addAll(Ljava/util/Collection;)
+MC,caller=Ljava/util/TreeSet;.addAll(Ljava/util/Collection;),target=Ljava/util/TreeSet;.addAll(Ljava/util/Collection;)
+MC,caller=Ljava/util/TreeSet;.addAll(Ljava/util/Collection;),target=Ljava/util/AbstractCollection;.addAll(Ljava/util/Collection;)
+MC,caller=Ljava/util/AbstractCollection;.addAll(Ljava/util/Collection;),target=Ljava/util/TreeSet;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/TreeSet;.add(Ljava/lang/Object;),target=Ljava/util/TreeMap;.put(Ljava/lang/Object;Ljava/lang/Object;)
+MC,caller=Ljava/util/TreeMap;.put(Ljava/lang/Object;Ljava/lang/Object;),target=Ljava/util/TreeMap;.compare(Ljava/lang/Object;Ljava/lang/Object;)
+ME,returner=Ljava/util/TreeMap;.compare(Ljava/lang/Object;Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/TreeMap;.put(Ljava/lang/Object;Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/TreeSet;.add(Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/AbstractCollection;.addAll(Ljava/util/Collection;),value=<void>
+ME,returner=Ljava/util/TreeSet;.addAll(Ljava/util/Collection;),value=<void>
+MC,caller=Ljava/util/TreeSet;.addAll(Ljava/util/Collection;),target=Ljava/util/TreeSet;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/TreeSet;.add(Ljava/lang/Object;),target=Ljava/util/TreeSet;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/TreeSet;.add(Ljava/lang/Object;),target=Ljava/util/TreeMap;.put(Ljava/lang/Object;Ljava/lang/Object;)
+MC,caller=Ljava/util/TreeMap;.put(Ljava/lang/Object;Ljava/lang/Object;),target=Ljava/util/TreeMap;.compare(Ljava/lang/Object;Ljava/lang/Object;)
+MC,caller=Ljava/util/TreeMap;.compare(Ljava/lang/Object;Ljava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:1#compare:1
+VW,context=Main$1:1#compare:1,o2=A
+VW,context=Main$1:1#compare:1,o1=A
+VW,context=Main$1:1#compare:1,i=0
+VW,context=Main$1:1#compare:1,result=0
+ME,returner=Main$1:1#compare:1,value=0
+ME,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/TreeMap;.compare(Ljava/lang/Object;Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/TreeMap;.put(Ljava/lang/Object;Ljava/lang/Object;),target=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;)
+MC,caller=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;),target=Main$1:1#compare:2
+VW,context=Main$1:1#compare:2,o2=A
+VW,context=Main$1:1#compare:2,o1=AB
+VW,context=Main$1:1#compare:2,result=1
+ME,returner=Main$1:1#compare:2,value=1
+ME,returner=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;),value=<void>
+MC,caller=Ljava/util/TreeMap;.put(Ljava/lang/Object;Ljava/lang/Object;),target=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;)
+MC,caller=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;),target=Main$1:1#compare:3
+VW,context=Main$1:1#compare:3,o2=A
+VW,context=Main$1:1#compare:3,o1=B
+VW,context=Main$1:1#compare:3,i=0
+VW,context=Main$1:1#compare:3,result=1
+ME,returner=Main$1:1#compare:3,value=1
+ME,returner=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;),value=<void>
+MC,caller=Ljava/util/TreeMap;.put(Ljava/lang/Object;Ljava/lang/Object;),target=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;)
+MC,caller=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;),target=Main$1:1#compare:4
+VW,context=Main$1:1#compare:4,o2=AB
+VW,context=Main$1:1#compare:4,o1=B
+VW,context=Main$1:1#compare:4,result=-1
+ME,returner=Main$1:1#compare:4,value=-1
+ME,returner=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;),value=<void>
+MC,caller=Ljava/util/TreeMap;.put(Ljava/lang/Object;Ljava/lang/Object;),target=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;)
+MC,caller=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;),target=Main$1:1#compare:5
+VW,context=Main$1:1#compare:5,o2=B
+VW,context=Main$1:1#compare:5,o1=Z
+VW,context=Main$1:1#compare:5,i=0
+VW,context=Main$1:1#compare:5,result=24
+ME,returner=Main$1:1#compare:5,value=24
+ME,returner=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;),value=<void>
+MC,caller=Ljava/util/TreeMap;.put(Ljava/lang/Object;Ljava/lang/Object;),target=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;)
+MC,caller=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;),target=Main$1:1#compare:6
+VW,context=Main$1:1#compare:6,o2=AB
+VW,context=Main$1:1#compare:6,o1=Z
+VW,context=Main$1:1#compare:6,result=-1
+ME,returner=Main$1:1#compare:6,value=-1
+ME,returner=LMain$1;.compare(Ljava/lang/String;Ljava/lang/String;),value=<void>
+ME,returner=Ljava/util/TreeMap;.put(Ljava/lang/Object;Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/TreeSet;.add(Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/TreeSet;.add(Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/TreeSet;.addAll(Ljava/util/Collection;),value=<void>
+VW,context=Main#main:1,str=A
+VW,context=Main#main:1,str=B
+VW,context=Main#main:1,str=Z
+VW,context=Main#main:1,str=AB
+ME,returner=Main#main:1,value=<void>
+TE,

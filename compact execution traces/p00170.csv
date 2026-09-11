@@ -1,0 +1,951 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+VW,context=Main#main:1,sc=java.util.Scanner (id=47)
+VW,context=Main#main:1,n=4
+NO,object=Main$Lunch[]:1
+FW,context=Main$Lunch[]:1,0=null
+FW,context=Main$Lunch[]:1,1=null
+FW,context=Main$Lunch[]:1,2=null
+FW,context=Main$Lunch[]:1,3=null
+VW,context=Main#main:1,lunch=Main$Lunch[]:1
+VW,context=Main#main:1,sumWeight=0
+VW,context=Main#main:1,i=0
+VW,context=Main#main:1,name=sandwich
+VW,context=Main#main:1,weight=80
+VW,context=Main#main:1,capacity=120
+NO,object=Main$Lunch:1
+MC,caller=Main#main:1,target=Main$Lunch:1#Main$Lunch:1
+VW,context=Main$Lunch:1#Main$Lunch:1,name=sandwich
+VW,context=Main$Lunch:1#Main$Lunch:1,weight=80
+VW,context=Main$Lunch:1#Main$Lunch:1,capacity=120
+FW,context=Main$Lunch:1,name=sandwich
+FW,context=Main$Lunch:1,weight=80
+FW,context=Main$Lunch:1,capacity=120
+FW,context=Main$Lunch:1,number=0
+ME,returner=Main$Lunch:1#Main$Lunch:1,value=<void>
+FW,context=Main$Lunch[]:1,0=Main$Lunch:1
+VW,context=Main#main:1,lunch=Main$Lunch[]:1
+VW,context=Main#main:1,sumWeight=80
+VW,context=Main#main:1,i=1
+VD,method=Main#main:1 <name=name,type=java.lang.String (id=25),value=cracker,index=6>
+VW,context=Main#main:1,name=apple
+VD,method=Main#main:1 <name=weight,type=int (id=7),value=40,index=7>
+VW,context=Main#main:1,weight=50
+VD,method=Main#main:1 <name=capacity,type=int (id=7),value=160,index=8>
+VW,context=Main#main:1,capacity=200
+NO,object=Main$Lunch:2
+MC,caller=Main#main:1,target=Main$Lunch:2#Main$Lunch:2
+VW,context=Main$Lunch:2#Main$Lunch:2,name=apple
+VW,context=Main$Lunch:2#Main$Lunch:2,weight=50
+VW,context=Main$Lunch:2#Main$Lunch:2,capacity=200
+FW,context=Main$Lunch:2,name=apple
+FW,context=Main$Lunch:2,weight=50
+FW,context=Main$Lunch:2,capacity=200
+FW,context=Main$Lunch:2,number=0
+ME,returner=Main$Lunch:2#Main$Lunch:2,value=<void>
+FW,context=Main$Lunch[]:1,1=Main$Lunch:2
+VW,context=Main#main:1,lunch=Main$Lunch[]:1
+VW,context=Main#main:1,sumWeight=130
+VW,context=Main#main:1,i=2
+VD,method=Main#main:1 <name=name,type=java.lang.String (id=25),value=cracker,index=6>
+VW,context=Main#main:1,name=cheese
+VD,method=Main#main:1 <name=weight,type=int (id=7),value=40,index=7>
+VW,context=Main#main:1,weight=20
+VD,method=Main#main:1 <name=capacity,type=int (id=7),value=160,index=8>
+VW,context=Main#main:1,capacity=40
+NO,object=Main$Lunch:3
+MC,caller=Main#main:1,target=Main$Lunch:3#Main$Lunch:3
+VW,context=Main$Lunch:3#Main$Lunch:3,name=cheese
+VW,context=Main$Lunch:3#Main$Lunch:3,weight=20
+VW,context=Main$Lunch:3#Main$Lunch:3,capacity=40
+FW,context=Main$Lunch:3,name=cheese
+FW,context=Main$Lunch:3,weight=20
+FW,context=Main$Lunch:3,capacity=40
+FW,context=Main$Lunch:3,number=0
+ME,returner=Main$Lunch:3#Main$Lunch:3,value=<void>
+FW,context=Main$Lunch[]:1,2=Main$Lunch:3
+VW,context=Main#main:1,lunch=Main$Lunch[]:1
+VW,context=Main#main:1,sumWeight=150
+VW,context=Main#main:1,i=3
+VD,method=Main#main:1 <name=name,type=java.lang.String (id=25),value=cracker,index=6>
+VW,context=Main#main:1,name=cake
+VD,method=Main#main:1 <name=weight,type=int (id=7),value=40,index=7>
+VW,context=Main#main:1,weight=100
+VD,method=Main#main:1 <name=capacity,type=int (id=7),value=160,index=8>
+VW,context=Main#main:1,capacity=100
+NO,object=Main$Lunch:4
+MC,caller=Main#main:1,target=Main$Lunch:4#Main$Lunch:4
+VW,context=Main$Lunch:4#Main$Lunch:4,name=cake
+VW,context=Main$Lunch:4#Main$Lunch:4,weight=100
+VW,context=Main$Lunch:4#Main$Lunch:4,capacity=100
+FW,context=Main$Lunch:4,name=cake
+FW,context=Main$Lunch:4,weight=100
+FW,context=Main$Lunch:4,capacity=100
+FW,context=Main$Lunch:4,number=0
+ME,returner=Main$Lunch:4#Main$Lunch:4,value=<void>
+FW,context=Main$Lunch[]:1,3=Main$Lunch:4
+VW,context=Main#main:1,lunch=Main$Lunch[]:1
+VW,context=Main#main:1,sumWeight=250
+MC,caller=Main#main:1,target=Ljava/util/Arrays;.sort([Ljava/lang/Object;)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;),target=Ljava/util/Arrays;.sort([Ljava/lang/Object;)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;),target=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:2#compareTo:1
+VW,context=Main$Lunch:2#compareTo:1,o=Main$Lunch:1
+FR,context=Main$Lunch:1,number
+FR,context=Main$Lunch:2,number
+FR,context=Main$Lunch:1,weight
+FR,context=Main$Lunch:2,weight
+VW,context=Main$Lunch:2#compareTo:1,result=30
+ME,returner=Main$Lunch:2#compareTo:1,value=30
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:3#compareTo:2
+VW,context=Main$Lunch:3#compareTo:2,o=Main$Lunch:2
+FR,context=Main$Lunch:2,number
+FR,context=Main$Lunch:3,number
+FR,context=Main$Lunch:2,weight
+FR,context=Main$Lunch:3,weight
+VW,context=Main$Lunch:3#compareTo:2,result=30
+ME,returner=Main$Lunch:3#compareTo:2,value=30
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:4#compareTo:3
+VW,context=Main$Lunch:4#compareTo:3,o=Main$Lunch:3
+FR,context=Main$Lunch:3,number
+FR,context=Main$Lunch:4,number
+FR,context=Main$Lunch:3,weight
+FR,context=Main$Lunch:4,weight
+VW,context=Main$Lunch:4#compareTo:3,result=-80
+ME,returner=Main$Lunch:4#compareTo:3,value=-80
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:4#compareTo:4
+VW,context=Main$Lunch:4#compareTo:4,o=Main$Lunch:2
+FR,context=Main$Lunch:2,number
+FR,context=Main$Lunch:4,number
+FR,context=Main$Lunch:2,weight
+FR,context=Main$Lunch:4,weight
+VW,context=Main$Lunch:4#compareTo:4,result=-50
+ME,returner=Main$Lunch:4#compareTo:4,value=-50
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:4#compareTo:5
+VW,context=Main$Lunch:4#compareTo:5,o=Main$Lunch:1
+FR,context=Main$Lunch:1,number
+FR,context=Main$Lunch:4,number
+FR,context=Main$Lunch:1,weight
+FR,context=Main$Lunch:4,weight
+VW,context=Main$Lunch:4#compareTo:5,result=-20
+ME,returner=Main$Lunch:4#compareTo:5,value=-20
+ME,returner=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;),value=<void>
+VW,context=Main#main:1,i=0
+VW,context=Main#main:1,j=0
+FR,context=Main$Lunch:4,number
+FR,context=Main$Lunch:4,weight
+FR,context=Main$Lunch:4,capacity
+VW,context=Main#main:1,j=1
+FR,context=Main$Lunch:1,number
+FR,context=Main$Lunch:1,weight
+FR,context=Main$Lunch:1,capacity
+VW,context=Main#main:1,j=2
+FR,context=Main$Lunch:2,number
+FR,context=Main$Lunch:2,weight
+FR,context=Main$Lunch:2,capacity
+FW,context=Main$Lunch:2,number=1
+FR,context=Main$Lunch:2,weight
+VW,context=Main#main:1,sumWeight=200
+VW,context=Main#main:1,i=1
+VD,method=Main#main:1 <name=j,type=int (id=7),value=8,index=10>
+VW,context=Main#main:1,j=0
+FR,context=Main$Lunch:4,number
+FR,context=Main$Lunch:4,weight
+FR,context=Main$Lunch:4,capacity
+FW,context=Main$Lunch:4,number=2
+FR,context=Main$Lunch:4,weight
+VW,context=Main#main:1,sumWeight=100
+VW,context=Main#main:1,i=2
+VD,method=Main#main:1 <name=j,type=int (id=7),value=8,index=10>
+VW,context=Main#main:1,j=0
+FR,context=Main$Lunch:4,number
+VW,context=Main#main:1,j=1
+FR,context=Main$Lunch:1,number
+FR,context=Main$Lunch:1,weight
+FR,context=Main$Lunch:1,capacity
+FW,context=Main$Lunch:1,number=3
+FR,context=Main$Lunch:1,weight
+VW,context=Main#main:1,sumWeight=20
+VW,context=Main#main:1,i=3
+VD,method=Main#main:1 <name=j,type=int (id=7),value=8,index=10>
+VW,context=Main#main:1,j=0
+FR,context=Main$Lunch:4,number
+VW,context=Main#main:1,j=1
+FR,context=Main$Lunch:1,number
+VW,context=Main#main:1,j=2
+FR,context=Main$Lunch:2,number
+VW,context=Main#main:1,j=3
+FR,context=Main$Lunch:3,number
+FR,context=Main$Lunch:3,weight
+FR,context=Main$Lunch:3,capacity
+FW,context=Main$Lunch:3,number=4
+FR,context=Main$Lunch:3,weight
+VW,context=Main#main:1,sumWeight=0
+MC,caller=Main#main:1,target=Ljava/util/Arrays;.sort([Ljava/lang/Object;)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;),target=Ljava/util/Arrays;.sort([Ljava/lang/Object;)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;),target=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:1#compareTo:6
+VW,context=Main$Lunch:1#compareTo:6,o=Main$Lunch:4
+FR,context=Main$Lunch:4,number
+FR,context=Main$Lunch:1,number
+FR,context=Main$Lunch:1,number
+FR,context=Main$Lunch:4,number
+VW,context=Main$Lunch:1#compareTo:6,result=1
+ME,returner=Main$Lunch:1#compareTo:6,value=1
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:2#compareTo:7
+VW,context=Main$Lunch:2#compareTo:7,o=Main$Lunch:1
+FR,context=Main$Lunch:1,number
+FR,context=Main$Lunch:2,number
+FR,context=Main$Lunch:2,number
+FR,context=Main$Lunch:1,number
+VW,context=Main$Lunch:2#compareTo:7,result=-2
+ME,returner=Main$Lunch:2#compareTo:7,value=-2
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:2#compareTo:8
+VW,context=Main$Lunch:2#compareTo:8,o=Main$Lunch:1
+FR,context=Main$Lunch:1,number
+FR,context=Main$Lunch:2,number
+FR,context=Main$Lunch:2,number
+FR,context=Main$Lunch:1,number
+VW,context=Main$Lunch:2#compareTo:8,result=-2
+ME,returner=Main$Lunch:2#compareTo:8,value=-2
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:2#compareTo:9
+VW,context=Main$Lunch:2#compareTo:9,o=Main$Lunch:4
+FR,context=Main$Lunch:4,number
+FR,context=Main$Lunch:2,number
+FR,context=Main$Lunch:2,number
+FR,context=Main$Lunch:4,number
+VW,context=Main$Lunch:2#compareTo:9,result=-1
+ME,returner=Main$Lunch:2#compareTo:9,value=-1
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:3#compareTo:10
+VW,context=Main$Lunch:3#compareTo:10,o=Main$Lunch:4
+FR,context=Main$Lunch:4,number
+FR,context=Main$Lunch:3,number
+FR,context=Main$Lunch:3,number
+FR,context=Main$Lunch:4,number
+VW,context=Main$Lunch:3#compareTo:10,result=2
+ME,returner=Main$Lunch:3#compareTo:10,value=2
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:3#compareTo:11
+VW,context=Main$Lunch:3#compareTo:11,o=Main$Lunch:1
+FR,context=Main$Lunch:1,number
+FR,context=Main$Lunch:3,number
+FR,context=Main$Lunch:3,number
+FR,context=Main$Lunch:1,number
+VW,context=Main$Lunch:3#compareTo:11,result=1
+ME,returner=Main$Lunch:3#compareTo:11,value=1
+ME,returner=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;),value=<void>
+VW,context=Main#main:1,i=0
+FR,context=Main$Lunch:2,name
+VW,context=Main#main:1,i=1
+FR,context=Main$Lunch:4,name
+VW,context=Main#main:1,i=2
+FR,context=Main$Lunch:1,name
+VW,context=Main#main:1,i=3
+FR,context=Main$Lunch:3,name
+VW,context=Main#main:1,n=9
+NO,object=Main$Lunch[]:2
+FW,context=Main$Lunch[]:2,0=null
+FW,context=Main$Lunch[]:2,1=null
+FW,context=Main$Lunch[]:2,2=null
+FW,context=Main$Lunch[]:2,3=null
+FW,context=Main$Lunch[]:2,4=null
+FW,context=Main$Lunch[]:2,5=null
+FW,context=Main$Lunch[]:2,6=null
+FW,context=Main$Lunch[]:2,7=null
+FW,context=Main$Lunch[]:2,8=null
+VW,context=Main#main:1,lunch=Main$Lunch[]:2
+VW,context=Main#main:1,sumWeight=0
+VD,method=Main#main:1 <name=i,type=int (id=7),value=8,index=5>
+VW,context=Main#main:1,i=0
+VD,method=Main#main:1 <name=name,type=java.lang.String (id=25),value=cracker,index=6>
+VW,context=Main#main:1,name=onigiri
+VD,method=Main#main:1 <name=weight,type=int (id=7),value=40,index=7>
+VW,context=Main#main:1,weight=80
+VD,method=Main#main:1 <name=capacity,type=int (id=7),value=160,index=8>
+VW,context=Main#main:1,capacity=300
+NO,object=Main$Lunch:5
+MC,caller=Main#main:1,target=Main$Lunch:5#Main$Lunch:5
+VW,context=Main$Lunch:5#Main$Lunch:5,name=onigiri
+VW,context=Main$Lunch:5#Main$Lunch:5,weight=80
+VW,context=Main$Lunch:5#Main$Lunch:5,capacity=300
+FW,context=Main$Lunch:5,name=onigiri
+FW,context=Main$Lunch:5,weight=80
+FW,context=Main$Lunch:5,capacity=300
+FW,context=Main$Lunch:5,number=0
+ME,returner=Main$Lunch:5#Main$Lunch:5,value=<void>
+FW,context=Main$Lunch[]:2,0=Main$Lunch:5
+VW,context=Main#main:1,lunch=Main$Lunch[]:2
+VW,context=Main#main:1,sumWeight=80
+VW,context=Main#main:1,i=1
+VD,method=Main#main:1 <name=name,type=java.lang.String (id=25),value=cracker,index=6>
+VW,context=Main#main:1,name=onigiri
+VD,method=Main#main:1 <name=weight,type=int (id=7),value=40,index=7>
+VW,context=Main#main:1,weight=80
+VD,method=Main#main:1 <name=capacity,type=int (id=7),value=160,index=8>
+VW,context=Main#main:1,capacity=300
+NO,object=Main$Lunch:6
+MC,caller=Main#main:1,target=Main$Lunch:6#Main$Lunch:6
+VW,context=Main$Lunch:6#Main$Lunch:6,name=onigiri
+VW,context=Main$Lunch:6#Main$Lunch:6,weight=80
+VW,context=Main$Lunch:6#Main$Lunch:6,capacity=300
+FW,context=Main$Lunch:6,name=onigiri
+FW,context=Main$Lunch:6,weight=80
+FW,context=Main$Lunch:6,capacity=300
+FW,context=Main$Lunch:6,number=0
+ME,returner=Main$Lunch:6#Main$Lunch:6,value=<void>
+FW,context=Main$Lunch[]:2,1=Main$Lunch:6
+VW,context=Main#main:1,lunch=Main$Lunch[]:2
+VW,context=Main#main:1,sumWeight=160
+VW,context=Main#main:1,i=2
+VD,method=Main#main:1 <name=name,type=java.lang.String (id=25),value=cracker,index=6>
+VW,context=Main#main:1,name=anpan
+VD,method=Main#main:1 <name=weight,type=int (id=7),value=40,index=7>
+VW,context=Main#main:1,weight=70
+VD,method=Main#main:1 <name=capacity,type=int (id=7),value=160,index=8>
+VW,context=Main#main:1,capacity=280
+NO,object=Main$Lunch:7
+MC,caller=Main#main:1,target=Main$Lunch:7#Main$Lunch:7
+VW,context=Main$Lunch:7#Main$Lunch:7,name=anpan
+VW,context=Main$Lunch:7#Main$Lunch:7,weight=70
+VW,context=Main$Lunch:7#Main$Lunch:7,capacity=280
+FW,context=Main$Lunch:7,name=anpan
+FW,context=Main$Lunch:7,weight=70
+FW,context=Main$Lunch:7,capacity=280
+FW,context=Main$Lunch:7,number=0
+ME,returner=Main$Lunch:7#Main$Lunch:7,value=<void>
+FW,context=Main$Lunch[]:2,2=Main$Lunch:7
+VW,context=Main#main:1,lunch=Main$Lunch[]:2
+VW,context=Main#main:1,sumWeight=230
+VW,context=Main#main:1,i=3
+VD,method=Main#main:1 <name=name,type=java.lang.String (id=25),value=cracker,index=6>
+VW,context=Main#main:1,name=mikan
+VD,method=Main#main:1 <name=weight,type=int (id=7),value=40,index=7>
+VW,context=Main#main:1,weight=50
+VD,method=Main#main:1 <name=capacity,type=int (id=7),value=160,index=8>
+VW,context=Main#main:1,capacity=80
+NO,object=Main$Lunch:8
+MC,caller=Main#main:1,target=Main$Lunch:8#Main$Lunch:8
+VW,context=Main$Lunch:8#Main$Lunch:8,name=mikan
+VW,context=Main$Lunch:8#Main$Lunch:8,weight=50
+VW,context=Main$Lunch:8#Main$Lunch:8,capacity=80
+FW,context=Main$Lunch:8,name=mikan
+FW,context=Main$Lunch:8,weight=50
+FW,context=Main$Lunch:8,capacity=80
+FW,context=Main$Lunch:8,number=0
+ME,returner=Main$Lunch:8#Main$Lunch:8,value=<void>
+FW,context=Main$Lunch[]:2,3=Main$Lunch:8
+VW,context=Main#main:1,lunch=Main$Lunch[]:2
+VW,context=Main#main:1,sumWeight=280
+VW,context=Main#main:1,i=4
+VD,method=Main#main:1 <name=name,type=java.lang.String (id=25),value=cracker,index=6>
+VW,context=Main#main:1,name=kanzume
+VD,method=Main#main:1 <name=weight,type=int (id=7),value=40,index=7>
+VW,context=Main#main:1,weight=100
+VD,method=Main#main:1 <name=capacity,type=int (id=7),value=160,index=8>
+VW,context=Main#main:1,capacity=500
+NO,object=Main$Lunch:9
+MC,caller=Main#main:1,target=Main$Lunch:9#Main$Lunch:9
+VW,context=Main$Lunch:9#Main$Lunch:9,name=kanzume
+VW,context=Main$Lunch:9#Main$Lunch:9,weight=100
+VW,context=Main$Lunch:9#Main$Lunch:9,capacity=500
+FW,context=Main$Lunch:9,name=kanzume
+FW,context=Main$Lunch:9,weight=100
+FW,context=Main$Lunch:9,capacity=500
+FW,context=Main$Lunch:9,number=0
+ME,returner=Main$Lunch:9#Main$Lunch:9,value=<void>
+FW,context=Main$Lunch[]:2,4=Main$Lunch:9
+VW,context=Main#main:1,lunch=Main$Lunch[]:2
+VW,context=Main#main:1,sumWeight=380
+VW,context=Main#main:1,i=5
+VD,method=Main#main:1 <name=name,type=java.lang.String (id=25),value=cracker,index=6>
+VW,context=Main#main:1,name=chocolate
+VD,method=Main#main:1 <name=weight,type=int (id=7),value=40,index=7>
+VW,context=Main#main:1,weight=50
+VD,method=Main#main:1 <name=capacity,type=int (id=7),value=160,index=8>
+VW,context=Main#main:1,capacity=350
+NO,object=Main$Lunch:10
+MC,caller=Main#main:1,target=Main$Lunch:10#Main$Lunch:10
+VW,context=Main$Lunch:10#Main$Lunch:10,name=chocolate
+VW,context=Main$Lunch:10#Main$Lunch:10,weight=50
+VW,context=Main$Lunch:10#Main$Lunch:10,capacity=350
+FW,context=Main$Lunch:10,name=chocolate
+FW,context=Main$Lunch:10,weight=50
+FW,context=Main$Lunch:10,capacity=350
+FW,context=Main$Lunch:10,number=0
+ME,returner=Main$Lunch:10#Main$Lunch:10,value=<void>
+FW,context=Main$Lunch[]:2,5=Main$Lunch:10
+VW,context=Main#main:1,lunch=Main$Lunch[]:2
+VW,context=Main#main:1,sumWeight=430
+VW,context=Main#main:1,i=6
+VD,method=Main#main:1 <name=name,type=java.lang.String (id=25),value=cracker,index=6>
+VW,context=Main#main:1,name=cookie
+VD,method=Main#main:1 <name=weight,type=int (id=7),value=40,index=7>
+VW,context=Main#main:1,weight=30
+VD,method=Main#main:1 <name=capacity,type=int (id=7),value=160,index=8>
+VW,context=Main#main:1,capacity=80
+NO,object=Main$Lunch:11
+MC,caller=Main#main:1,target=Main$Lunch:11#Main$Lunch:11
+VW,context=Main$Lunch:11#Main$Lunch:11,name=cookie
+VW,context=Main$Lunch:11#Main$Lunch:11,weight=30
+VW,context=Main$Lunch:11#Main$Lunch:11,capacity=80
+FW,context=Main$Lunch:11,name=cookie
+FW,context=Main$Lunch:11,weight=30
+FW,context=Main$Lunch:11,capacity=80
+FW,context=Main$Lunch:11,number=0
+ME,returner=Main$Lunch:11#Main$Lunch:11,value=<void>
+FW,context=Main$Lunch[]:2,6=Main$Lunch:11
+VW,context=Main#main:1,lunch=Main$Lunch[]:2
+VW,context=Main#main:1,sumWeight=460
+VW,context=Main#main:1,i=7
+VD,method=Main#main:1 <name=name,type=java.lang.String (id=25),value=cracker,index=6>
+VW,context=Main#main:1,name=purin
+VD,method=Main#main:1 <name=weight,type=int (id=7),value=40,index=7>
+VW,context=Main#main:1,weight=40
+VD,method=Main#main:1 <name=capacity,type=int (id=7),value=160,index=8>
+VW,context=Main#main:1,capacity=400
+NO,object=Main$Lunch:12
+MC,caller=Main#main:1,target=Main$Lunch:12#Main$Lunch:12
+VW,context=Main$Lunch:12#Main$Lunch:12,name=purin
+VW,context=Main$Lunch:12#Main$Lunch:12,weight=40
+VW,context=Main$Lunch:12#Main$Lunch:12,capacity=400
+FW,context=Main$Lunch:12,name=purin
+FW,context=Main$Lunch:12,weight=40
+FW,context=Main$Lunch:12,capacity=400
+FW,context=Main$Lunch:12,number=0
+ME,returner=Main$Lunch:12#Main$Lunch:12,value=<void>
+FW,context=Main$Lunch[]:2,7=Main$Lunch:12
+VW,context=Main#main:1,lunch=Main$Lunch[]:2
+VW,context=Main#main:1,sumWeight=500
+VW,context=Main#main:1,i=8
+VD,method=Main#main:1 <name=name,type=java.lang.String (id=25),value=cracker,index=6>
+VW,context=Main#main:1,name=cracker
+VD,method=Main#main:1 <name=weight,type=int (id=7),value=40,index=7>
+VW,context=Main#main:1,weight=40
+VD,method=Main#main:1 <name=capacity,type=int (id=7),value=160,index=8>
+VW,context=Main#main:1,capacity=160
+NO,object=Main$Lunch:13
+MC,caller=Main#main:1,target=Main$Lunch:13#Main$Lunch:13
+VW,context=Main$Lunch:13#Main$Lunch:13,name=cracker
+VW,context=Main$Lunch:13#Main$Lunch:13,weight=40
+VW,context=Main$Lunch:13#Main$Lunch:13,capacity=160
+FW,context=Main$Lunch:13,name=cracker
+FW,context=Main$Lunch:13,weight=40
+FW,context=Main$Lunch:13,capacity=160
+FW,context=Main$Lunch:13,number=0
+ME,returner=Main$Lunch:13#Main$Lunch:13,value=<void>
+FW,context=Main$Lunch[]:2,8=Main$Lunch:13
+VW,context=Main#main:1,lunch=Main$Lunch[]:2
+VW,context=Main#main:1,sumWeight=540
+MC,caller=Main#main:1,target=Ljava/util/Arrays;.sort([Ljava/lang/Object;)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;),target=Ljava/util/Arrays;.sort([Ljava/lang/Object;)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;),target=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:6#compareTo:12
+VW,context=Main$Lunch:6#compareTo:12,o=Main$Lunch:5
+FR,context=Main$Lunch:5,number
+FR,context=Main$Lunch:6,number
+FR,context=Main$Lunch:5,weight
+FR,context=Main$Lunch:6,weight
+VW,context=Main$Lunch:6#compareTo:12,result=0
+ME,returner=Main$Lunch:6#compareTo:12,value=0
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:7#compareTo:13
+VW,context=Main$Lunch:7#compareTo:13,o=Main$Lunch:6
+FR,context=Main$Lunch:6,number
+FR,context=Main$Lunch:7,number
+FR,context=Main$Lunch:6,weight
+FR,context=Main$Lunch:7,weight
+VW,context=Main$Lunch:7#compareTo:13,result=10
+ME,returner=Main$Lunch:7#compareTo:13,value=10
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:8#compareTo:14
+VW,context=Main$Lunch:8#compareTo:14,o=Main$Lunch:7
+FR,context=Main$Lunch:7,number
+FR,context=Main$Lunch:8,number
+FR,context=Main$Lunch:7,weight
+FR,context=Main$Lunch:8,weight
+VW,context=Main$Lunch:8#compareTo:14,result=20
+ME,returner=Main$Lunch:8#compareTo:14,value=20
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:9#compareTo:15
+VW,context=Main$Lunch:9#compareTo:15,o=Main$Lunch:8
+FR,context=Main$Lunch:8,number
+FR,context=Main$Lunch:9,number
+FR,context=Main$Lunch:8,weight
+FR,context=Main$Lunch:9,weight
+VW,context=Main$Lunch:9#compareTo:15,result=-50
+ME,returner=Main$Lunch:9#compareTo:15,value=-50
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:9#compareTo:16
+VW,context=Main$Lunch:9#compareTo:16,o=Main$Lunch:7
+FR,context=Main$Lunch:7,number
+FR,context=Main$Lunch:9,number
+FR,context=Main$Lunch:7,weight
+FR,context=Main$Lunch:9,weight
+VW,context=Main$Lunch:9#compareTo:16,result=-30
+ME,returner=Main$Lunch:9#compareTo:16,value=-30
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:9#compareTo:17
+VW,context=Main$Lunch:9#compareTo:17,o=Main$Lunch:6
+FR,context=Main$Lunch:6,number
+FR,context=Main$Lunch:9,number
+FR,context=Main$Lunch:6,weight
+FR,context=Main$Lunch:9,weight
+VW,context=Main$Lunch:9#compareTo:17,result=-20
+ME,returner=Main$Lunch:9#compareTo:17,value=-20
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:9#compareTo:18
+VW,context=Main$Lunch:9#compareTo:18,o=Main$Lunch:5
+FR,context=Main$Lunch:5,number
+FR,context=Main$Lunch:9,number
+FR,context=Main$Lunch:5,weight
+FR,context=Main$Lunch:9,weight
+VW,context=Main$Lunch:9#compareTo:18,result=-20
+ME,returner=Main$Lunch:9#compareTo:18,value=-20
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:10#compareTo:19
+VW,context=Main$Lunch:10#compareTo:19,o=Main$Lunch:6
+FR,context=Main$Lunch:6,number
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:6,weight
+FR,context=Main$Lunch:10,weight
+VW,context=Main$Lunch:10#compareTo:19,result=30
+ME,returner=Main$Lunch:10#compareTo:19,value=30
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:10#compareTo:20
+VW,context=Main$Lunch:10#compareTo:20,o=Main$Lunch:8
+FR,context=Main$Lunch:8,number
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:8,weight
+FR,context=Main$Lunch:10,weight
+VW,context=Main$Lunch:10#compareTo:20,result=0
+ME,returner=Main$Lunch:10#compareTo:20,value=0
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:11#compareTo:21
+VW,context=Main$Lunch:11#compareTo:21,o=Main$Lunch:7
+FR,context=Main$Lunch:7,number
+FR,context=Main$Lunch:11,number
+FR,context=Main$Lunch:7,weight
+FR,context=Main$Lunch:11,weight
+VW,context=Main$Lunch:11#compareTo:21,result=40
+ME,returner=Main$Lunch:11#compareTo:21,value=40
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:11#compareTo:22
+VW,context=Main$Lunch:11#compareTo:22,o=Main$Lunch:10
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:11,number
+FR,context=Main$Lunch:10,weight
+FR,context=Main$Lunch:11,weight
+VW,context=Main$Lunch:11#compareTo:22,result=20
+ME,returner=Main$Lunch:11#compareTo:22,value=20
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:12#compareTo:23
+VW,context=Main$Lunch:12#compareTo:23,o=Main$Lunch:7
+FR,context=Main$Lunch:7,number
+FR,context=Main$Lunch:12,number
+FR,context=Main$Lunch:7,weight
+FR,context=Main$Lunch:12,weight
+VW,context=Main$Lunch:12#compareTo:23,result=30
+ME,returner=Main$Lunch:12#compareTo:23,value=30
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:12#compareTo:24
+VW,context=Main$Lunch:12#compareTo:24,o=Main$Lunch:10
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:12,number
+FR,context=Main$Lunch:10,weight
+FR,context=Main$Lunch:12,weight
+VW,context=Main$Lunch:12#compareTo:24,result=10
+ME,returner=Main$Lunch:12#compareTo:24,value=10
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:12#compareTo:25
+VW,context=Main$Lunch:12#compareTo:25,o=Main$Lunch:11
+FR,context=Main$Lunch:11,number
+FR,context=Main$Lunch:12,number
+FR,context=Main$Lunch:11,weight
+FR,context=Main$Lunch:12,weight
+VW,context=Main$Lunch:12#compareTo:25,result=-10
+ME,returner=Main$Lunch:12#compareTo:25,value=-10
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:13#compareTo:26
+VW,context=Main$Lunch:13#compareTo:26,o=Main$Lunch:8
+FR,context=Main$Lunch:8,number
+FR,context=Main$Lunch:13,number
+FR,context=Main$Lunch:8,weight
+FR,context=Main$Lunch:13,weight
+VW,context=Main$Lunch:13#compareTo:26,result=10
+ME,returner=Main$Lunch:13#compareTo:26,value=10
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:13#compareTo:27
+VW,context=Main$Lunch:13#compareTo:27,o=Main$Lunch:12
+FR,context=Main$Lunch:12,number
+FR,context=Main$Lunch:13,number
+FR,context=Main$Lunch:12,weight
+FR,context=Main$Lunch:13,weight
+VW,context=Main$Lunch:13#compareTo:27,result=0
+ME,returner=Main$Lunch:13#compareTo:27,value=0
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:13#compareTo:28
+VW,context=Main$Lunch:13#compareTo:28,o=Main$Lunch:11
+FR,context=Main$Lunch:11,number
+FR,context=Main$Lunch:13,number
+FR,context=Main$Lunch:11,weight
+FR,context=Main$Lunch:13,weight
+VW,context=Main$Lunch:13#compareTo:28,result=-10
+ME,returner=Main$Lunch:13#compareTo:28,value=-10
+ME,returner=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;),value=<void>
+VW,context=Main#main:1,i=0
+VD,method=Main#main:1 <name=j,type=int (id=7),value=8,index=10>
+VW,context=Main#main:1,j=0
+FR,context=Main$Lunch:9,number
+FR,context=Main$Lunch:9,weight
+FR,context=Main$Lunch:9,capacity
+FW,context=Main$Lunch:9,number=1
+FR,context=Main$Lunch:9,weight
+VW,context=Main#main:1,sumWeight=440
+VW,context=Main#main:1,i=1
+VD,method=Main#main:1 <name=j,type=int (id=7),value=8,index=10>
+VW,context=Main#main:1,j=0
+FR,context=Main$Lunch:9,number
+VW,context=Main#main:1,j=1
+FR,context=Main$Lunch:5,number
+FR,context=Main$Lunch:5,weight
+FR,context=Main$Lunch:5,capacity
+VW,context=Main#main:1,j=2
+FR,context=Main$Lunch:6,number
+FR,context=Main$Lunch:6,weight
+FR,context=Main$Lunch:6,capacity
+VW,context=Main#main:1,j=3
+FR,context=Main$Lunch:7,number
+FR,context=Main$Lunch:7,weight
+FR,context=Main$Lunch:7,capacity
+VW,context=Main#main:1,j=4
+FR,context=Main$Lunch:8,number
+FR,context=Main$Lunch:8,weight
+FR,context=Main$Lunch:8,capacity
+VW,context=Main#main:1,j=5
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:10,weight
+FR,context=Main$Lunch:10,capacity
+VW,context=Main#main:1,j=6
+FR,context=Main$Lunch:12,number
+FR,context=Main$Lunch:12,weight
+FR,context=Main$Lunch:12,capacity
+FW,context=Main$Lunch:12,number=2
+FR,context=Main$Lunch:12,weight
+VW,context=Main#main:1,sumWeight=400
+VW,context=Main#main:1,i=2
+VD,method=Main#main:1 <name=j,type=int (id=7),value=8,index=10>
+VW,context=Main#main:1,j=0
+FR,context=Main$Lunch:9,number
+VW,context=Main#main:1,j=1
+FR,context=Main$Lunch:5,number
+FR,context=Main$Lunch:5,weight
+FR,context=Main$Lunch:5,capacity
+VW,context=Main#main:1,j=2
+FR,context=Main$Lunch:6,number
+FR,context=Main$Lunch:6,weight
+FR,context=Main$Lunch:6,capacity
+VW,context=Main#main:1,j=3
+FR,context=Main$Lunch:7,number
+FR,context=Main$Lunch:7,weight
+FR,context=Main$Lunch:7,capacity
+VW,context=Main#main:1,j=4
+FR,context=Main$Lunch:8,number
+FR,context=Main$Lunch:8,weight
+FR,context=Main$Lunch:8,capacity
+VW,context=Main#main:1,j=5
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:10,weight
+FR,context=Main$Lunch:10,capacity
+FW,context=Main$Lunch:10,number=3
+FR,context=Main$Lunch:10,weight
+VW,context=Main#main:1,sumWeight=350
+VW,context=Main#main:1,i=3
+VD,method=Main#main:1 <name=j,type=int (id=7),value=8,index=10>
+VW,context=Main#main:1,j=0
+FR,context=Main$Lunch:9,number
+VW,context=Main#main:1,j=1
+FR,context=Main$Lunch:5,number
+FR,context=Main$Lunch:5,weight
+FR,context=Main$Lunch:5,capacity
+FW,context=Main$Lunch:5,number=4
+FR,context=Main$Lunch:5,weight
+VW,context=Main#main:1,sumWeight=270
+VW,context=Main#main:1,i=4
+VD,method=Main#main:1 <name=j,type=int (id=7),value=8,index=10>
+VW,context=Main#main:1,j=0
+FR,context=Main$Lunch:9,number
+VW,context=Main#main:1,j=1
+FR,context=Main$Lunch:5,number
+VW,context=Main#main:1,j=2
+FR,context=Main$Lunch:6,number
+FR,context=Main$Lunch:6,weight
+FR,context=Main$Lunch:6,capacity
+FW,context=Main$Lunch:6,number=5
+FR,context=Main$Lunch:6,weight
+VW,context=Main#main:1,sumWeight=190
+VW,context=Main#main:1,i=5
+VD,method=Main#main:1 <name=j,type=int (id=7),value=8,index=10>
+VW,context=Main#main:1,j=0
+FR,context=Main$Lunch:9,number
+VW,context=Main#main:1,j=1
+FR,context=Main$Lunch:5,number
+VW,context=Main#main:1,j=2
+FR,context=Main$Lunch:6,number
+VW,context=Main#main:1,j=3
+FR,context=Main$Lunch:7,number
+FR,context=Main$Lunch:7,weight
+FR,context=Main$Lunch:7,capacity
+FW,context=Main$Lunch:7,number=6
+FR,context=Main$Lunch:7,weight
+VW,context=Main#main:1,sumWeight=120
+VW,context=Main#main:1,i=6
+VD,method=Main#main:1 <name=j,type=int (id=7),value=8,index=10>
+VW,context=Main#main:1,j=0
+FR,context=Main$Lunch:9,number
+VW,context=Main#main:1,j=1
+FR,context=Main$Lunch:5,number
+VW,context=Main#main:1,j=2
+FR,context=Main$Lunch:6,number
+VW,context=Main#main:1,j=3
+FR,context=Main$Lunch:7,number
+VW,context=Main#main:1,j=4
+FR,context=Main$Lunch:8,number
+FR,context=Main$Lunch:8,weight
+FR,context=Main$Lunch:8,capacity
+FW,context=Main$Lunch:8,number=7
+FR,context=Main$Lunch:8,weight
+VW,context=Main#main:1,sumWeight=70
+VW,context=Main#main:1,i=7
+VD,method=Main#main:1 <name=j,type=int (id=7),value=8,index=10>
+VW,context=Main#main:1,j=0
+FR,context=Main$Lunch:9,number
+VW,context=Main#main:1,j=1
+FR,context=Main$Lunch:5,number
+VW,context=Main#main:1,j=2
+FR,context=Main$Lunch:6,number
+VW,context=Main#main:1,j=3
+FR,context=Main$Lunch:7,number
+VW,context=Main#main:1,j=4
+FR,context=Main$Lunch:8,number
+VW,context=Main#main:1,j=5
+FR,context=Main$Lunch:10,number
+VW,context=Main#main:1,j=6
+FR,context=Main$Lunch:12,number
+VW,context=Main#main:1,j=7
+FR,context=Main$Lunch:13,number
+FR,context=Main$Lunch:13,weight
+FR,context=Main$Lunch:13,capacity
+FW,context=Main$Lunch:13,number=8
+FR,context=Main$Lunch:13,weight
+VW,context=Main#main:1,sumWeight=30
+VW,context=Main#main:1,i=8
+VD,method=Main#main:1 <name=j,type=int (id=7),value=8,index=10>
+VW,context=Main#main:1,j=0
+FR,context=Main$Lunch:9,number
+VW,context=Main#main:1,j=1
+FR,context=Main$Lunch:5,number
+VW,context=Main#main:1,j=2
+FR,context=Main$Lunch:6,number
+VW,context=Main#main:1,j=3
+FR,context=Main$Lunch:7,number
+VW,context=Main#main:1,j=4
+FR,context=Main$Lunch:8,number
+VW,context=Main#main:1,j=5
+FR,context=Main$Lunch:10,number
+VW,context=Main#main:1,j=6
+FR,context=Main$Lunch:12,number
+VW,context=Main#main:1,j=7
+FR,context=Main$Lunch:13,number
+VW,context=Main#main:1,j=8
+FR,context=Main$Lunch:11,number
+FR,context=Main$Lunch:11,weight
+FR,context=Main$Lunch:11,capacity
+FW,context=Main$Lunch:11,number=9
+FR,context=Main$Lunch:11,weight
+VW,context=Main#main:1,sumWeight=0
+MC,caller=Main#main:1,target=Ljava/util/Arrays;.sort([Ljava/lang/Object;)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;),target=Ljava/util/Arrays;.sort([Ljava/lang/Object;)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;),target=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:5#compareTo:29
+VW,context=Main$Lunch:5#compareTo:29,o=Main$Lunch:9
+FR,context=Main$Lunch:9,number
+FR,context=Main$Lunch:5,number
+FR,context=Main$Lunch:5,number
+FR,context=Main$Lunch:9,number
+VW,context=Main$Lunch:5#compareTo:29,result=3
+ME,returner=Main$Lunch:5#compareTo:29,value=3
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:6#compareTo:30
+VW,context=Main$Lunch:6#compareTo:30,o=Main$Lunch:5
+FR,context=Main$Lunch:5,number
+FR,context=Main$Lunch:6,number
+FR,context=Main$Lunch:6,number
+FR,context=Main$Lunch:5,number
+VW,context=Main$Lunch:6#compareTo:30,result=1
+ME,returner=Main$Lunch:6#compareTo:30,value=1
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:7#compareTo:31
+VW,context=Main$Lunch:7#compareTo:31,o=Main$Lunch:6
+FR,context=Main$Lunch:6,number
+FR,context=Main$Lunch:7,number
+FR,context=Main$Lunch:7,number
+FR,context=Main$Lunch:6,number
+VW,context=Main$Lunch:7#compareTo:31,result=1
+ME,returner=Main$Lunch:7#compareTo:31,value=1
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:8#compareTo:32
+VW,context=Main$Lunch:8#compareTo:32,o=Main$Lunch:7
+FR,context=Main$Lunch:7,number
+FR,context=Main$Lunch:8,number
+FR,context=Main$Lunch:8,number
+FR,context=Main$Lunch:7,number
+VW,context=Main$Lunch:8#compareTo:32,result=1
+ME,returner=Main$Lunch:8#compareTo:32,value=1
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:10#compareTo:33
+VW,context=Main$Lunch:10#compareTo:33,o=Main$Lunch:8
+FR,context=Main$Lunch:8,number
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:8,number
+VW,context=Main$Lunch:10#compareTo:33,result=-4
+ME,returner=Main$Lunch:10#compareTo:33,value=-4
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:10#compareTo:34
+VW,context=Main$Lunch:10#compareTo:34,o=Main$Lunch:6
+FR,context=Main$Lunch:6,number
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:6,number
+VW,context=Main$Lunch:10#compareTo:34,result=-2
+ME,returner=Main$Lunch:10#compareTo:34,value=-2
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:10#compareTo:35
+VW,context=Main$Lunch:10#compareTo:35,o=Main$Lunch:5
+FR,context=Main$Lunch:5,number
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:5,number
+VW,context=Main$Lunch:10#compareTo:35,result=-1
+ME,returner=Main$Lunch:10#compareTo:35,value=-1
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:10#compareTo:36
+VW,context=Main$Lunch:10#compareTo:36,o=Main$Lunch:9
+FR,context=Main$Lunch:9,number
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:9,number
+VW,context=Main$Lunch:10#compareTo:36,result=2
+ME,returner=Main$Lunch:10#compareTo:36,value=2
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:12#compareTo:37
+VW,context=Main$Lunch:12#compareTo:37,o=Main$Lunch:6
+FR,context=Main$Lunch:6,number
+FR,context=Main$Lunch:12,number
+FR,context=Main$Lunch:12,number
+FR,context=Main$Lunch:6,number
+VW,context=Main$Lunch:12#compareTo:37,result=-3
+ME,returner=Main$Lunch:12#compareTo:37,value=-3
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:12#compareTo:38
+VW,context=Main$Lunch:12#compareTo:38,o=Main$Lunch:10
+FR,context=Main$Lunch:10,number
+FR,context=Main$Lunch:12,number
+FR,context=Main$Lunch:12,number
+FR,context=Main$Lunch:10,number
+VW,context=Main$Lunch:12#compareTo:38,result=-1
+ME,returner=Main$Lunch:12#compareTo:38,value=-1
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:12#compareTo:39
+VW,context=Main$Lunch:12#compareTo:39,o=Main$Lunch:9
+FR,context=Main$Lunch:9,number
+FR,context=Main$Lunch:12,number
+FR,context=Main$Lunch:12,number
+FR,context=Main$Lunch:9,number
+VW,context=Main$Lunch:12#compareTo:39,result=1
+ME,returner=Main$Lunch:12#compareTo:39,value=1
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:13#compareTo:40
+VW,context=Main$Lunch:13#compareTo:40,o=Main$Lunch:5
+FR,context=Main$Lunch:5,number
+FR,context=Main$Lunch:13,number
+FR,context=Main$Lunch:13,number
+FR,context=Main$Lunch:5,number
+VW,context=Main$Lunch:13#compareTo:40,result=4
+ME,returner=Main$Lunch:13#compareTo:40,value=4
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:13#compareTo:41
+VW,context=Main$Lunch:13#compareTo:41,o=Main$Lunch:7
+FR,context=Main$Lunch:7,number
+FR,context=Main$Lunch:13,number
+FR,context=Main$Lunch:13,number
+FR,context=Main$Lunch:7,number
+VW,context=Main$Lunch:13#compareTo:41,result=2
+ME,returner=Main$Lunch:13#compareTo:41,value=2
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:13#compareTo:42
+VW,context=Main$Lunch:13#compareTo:42,o=Main$Lunch:8
+FR,context=Main$Lunch:8,number
+FR,context=Main$Lunch:13,number
+FR,context=Main$Lunch:13,number
+FR,context=Main$Lunch:8,number
+VW,context=Main$Lunch:13#compareTo:42,result=1
+ME,returner=Main$Lunch:13#compareTo:42,value=1
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:11#compareTo:43
+VW,context=Main$Lunch:11#compareTo:43,o=Main$Lunch:6
+FR,context=Main$Lunch:6,number
+FR,context=Main$Lunch:11,number
+FR,context=Main$Lunch:11,number
+FR,context=Main$Lunch:6,number
+VW,context=Main$Lunch:11#compareTo:43,result=4
+ME,returner=Main$Lunch:11#compareTo:43,value=4
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:11#compareTo:44
+VW,context=Main$Lunch:11#compareTo:44,o=Main$Lunch:8
+FR,context=Main$Lunch:8,number
+FR,context=Main$Lunch:11,number
+FR,context=Main$Lunch:11,number
+FR,context=Main$Lunch:8,number
+VW,context=Main$Lunch:11#compareTo:44,result=2
+ME,returner=Main$Lunch:11#compareTo:44,value=2
+MC,caller=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Lunch:11#compareTo:45
+VW,context=Main$Lunch:11#compareTo:45,o=Main$Lunch:13
+FR,context=Main$Lunch:13,number
+FR,context=Main$Lunch:11,number
+FR,context=Main$Lunch:11,number
+FR,context=Main$Lunch:13,number
+VW,context=Main$Lunch:11#compareTo:45,result=1
+ME,returner=Main$Lunch:11#compareTo:45,value=1
+ME,returner=LMain$Lunch;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;),value=<void>
+VW,context=Main#main:1,i=0
+FR,context=Main$Lunch:9,name
+VW,context=Main#main:1,i=1
+FR,context=Main$Lunch:12,name
+VW,context=Main#main:1,i=2
+FR,context=Main$Lunch:10,name
+VW,context=Main#main:1,i=3
+FR,context=Main$Lunch:5,name
+VW,context=Main#main:1,i=4
+FR,context=Main$Lunch:6,name
+VW,context=Main#main:1,i=5
+FR,context=Main$Lunch:7,name
+VW,context=Main#main:1,i=6
+FR,context=Main$Lunch:8,name
+VW,context=Main#main:1,i=7
+FR,context=Main$Lunch:13,name
+VW,context=Main#main:1,i=8
+FR,context=Main$Lunch:11,name
+VW,context=Main#main:1,n=0
+ME,returner=Main#main:1,value=<void>
+TE,

@@ -1,0 +1,599 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+NO,object=Main:1
+MC,caller=Main#main:1,target=Main:1#Main:1
+ME,returner=Main:1#Main:1,value=<void>
+MC,caller=Main#main:1,target=Main:1#run:1
+VW,context=Main:1#run:1,sc=java.util.Scanner (id=48)
+VW,context=Main:1#run:1,hm=java.util.HashMap (id=49)
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,n=1
+VW,context=Main:1#run:1,count=0
+NO,object=java.lang.String[][]:1
+FW,context=java.lang.String[][]:1,0=null
+VW,context=Main:1#run:1,str=java.lang.String[][]:1
+VW,context=Main:1#run:1,i=0
+NO,object=java.lang.String[]:2
+FW,context=java.lang.String[]:2,0=ben
+FW,context=java.lang.String[]:2,1=likes
+FW,context=java.lang.String[]:2,2=bananas
+FW,context=java.lang.String[]:2,3=the
+FW,context=java.lang.String[]:2,4=best
+FW,context=java.lang.String[]:2,5=among
+FW,context=java.lang.String[]:2,6=many
+FW,context=java.lang.String[]:2,7=fruits
+FW,context=java.lang.String[]:2,8=because
+FW,context=java.lang.String[]:2,9=bananas
+FW,context=java.lang.String[]:2,10=are
+FW,context=java.lang.String[]:2,11=sweet
+FW,context=java.lang.String[]:2,12=and
+FW,context=java.lang.String[]:2,13=cheap
+FW,context=java.lang.String[][]:1,0=java.lang.String[]:2
+VW,context=Main:1#run:1,str=java.lang.String[][]:1
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=8>
+VW,context=Main:1#run:1,ch=b
+VW,context=Main:1#run:1,i=0
+VW,context=Main:1#run:1,j=0
+NO,object=Moji:1
+MC,caller=Main:1#run:1,target=Moji:1#Moji:1
+VW,context=Moji:1#Moji:1,a=ben
+VW,context=Moji:1#Moji:1,b=1
+FW,context=Moji:1,str=
+FW,context=Moji:1,count=0
+FW,context=Moji:1,str=ben
+FW,context=Moji:1,count=1
+ME,returner=Moji:1#Moji:1,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=1
+VW,context=Main:1#run:1,j=1
+VW,context=Main:1#run:1,j=2
+NO,object=Moji:2
+MC,caller=Main:1#run:1,target=Moji:2#Moji:2
+VW,context=Moji:2#Moji:2,a=bananas
+VW,context=Moji:2#Moji:2,b=1
+FW,context=Moji:2,str=
+FW,context=Moji:2,count=0
+FW,context=Moji:2,str=bananas
+FW,context=Moji:2,count=1
+ME,returner=Moji:2#Moji:2,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=2
+VW,context=Main:1#run:1,j=3
+VW,context=Main:1#run:1,j=4
+NO,object=Moji:3
+MC,caller=Main:1#run:1,target=Moji:3#Moji:3
+VW,context=Moji:3#Moji:3,a=best
+VW,context=Moji:3#Moji:3,b=1
+FW,context=Moji:3,str=
+FW,context=Moji:3,count=0
+FW,context=Moji:3,str=best
+FW,context=Moji:3,count=1
+ME,returner=Moji:3#Moji:3,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=3
+VW,context=Main:1#run:1,j=5
+VW,context=Main:1#run:1,j=6
+VW,context=Main:1#run:1,j=7
+VW,context=Main:1#run:1,j=8
+NO,object=Moji:4
+MC,caller=Main:1#run:1,target=Moji:4#Moji:4
+VW,context=Moji:4#Moji:4,a=because
+VW,context=Moji:4#Moji:4,b=1
+FW,context=Moji:4,str=
+FW,context=Moji:4,count=0
+FW,context=Moji:4,str=because
+FW,context=Moji:4,count=1
+ME,returner=Moji:4#Moji:4,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=4
+VW,context=Main:1#run:1,j=9
+VW,context=Main:1#run:1,t=1
+FR,context=Moji:2,count
+FW,context=Moji:2,count=2
+VW,context=Main:1#run:1,j=10
+VW,context=Main:1#run:1,j=11
+VW,context=Main:1#run:1,j=12
+VW,context=Main:1#run:1,j=13
+MC,caller=Main:1#run:1,target=Ljava/util/Arrays;.sort([Ljava/lang/Object;II)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),target=Ljava/util/Arrays;.sort([Ljava/lang/Object;II)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),value=<void>
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:2#compareTo:1
+VW,context=Moji:2#compareTo:1,o=Moji:1
+FR,context=Moji:2,count
+FR,context=Moji:1,count
+FR,context=Moji:2,count
+FR,context=Moji:1,count
+VW,context=Moji:2#compareTo:1,result=-1
+ME,returner=Moji:2#compareTo:1,value=-1
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:3#compareTo:2
+VW,context=Moji:3#compareTo:2,o=Moji:2
+FR,context=Moji:3,count
+FR,context=Moji:2,count
+VW,context=Moji:3#compareTo:2,result=1
+ME,returner=Moji:3#compareTo:2,value=1
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:3#compareTo:3
+VW,context=Moji:3#compareTo:3,o=Moji:1
+FR,context=Moji:3,count
+FR,context=Moji:1,count
+FR,context=Moji:3,count
+FR,context=Moji:1,count
+FR,context=Moji:3,str
+FR,context=Moji:1,str
+VW,context=Moji:3#compareTo:3,result=5
+ME,returner=Moji:3#compareTo:3,value=5
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:4#compareTo:4
+VW,context=Moji:4#compareTo:4,o=Moji:1
+FR,context=Moji:4,count
+FR,context=Moji:1,count
+FR,context=Moji:4,count
+FR,context=Moji:1,count
+FR,context=Moji:4,str
+FR,context=Moji:1,str
+VW,context=Moji:4#compareTo:4,result=-11
+ME,returner=Moji:4#compareTo:4,value=-11
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:4#compareTo:5
+VW,context=Moji:4#compareTo:5,o=Moji:2
+FR,context=Moji:4,count
+FR,context=Moji:2,count
+VW,context=Moji:4#compareTo:5,result=1
+ME,returner=Moji:4#compareTo:5,value=1
+ME,returner=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),value=<void>
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=8>
+FR,context=Moji:2,str
+VW,context=Main:1#run:1,i=1
+FR,context=Moji:4,str
+VW,context=Main:1#run:1,i=2
+FR,context=Moji:1,str
+VW,context=Main:1#run:1,i=3
+FR,context=Moji:3,str
+VW,context=Main:1#run:1,i=4
+VW,context=Main:1#run:1,n=1
+VW,context=Main:1#run:1,count=0
+NO,object=java.lang.String[][]:2
+FW,context=java.lang.String[][]:2,0=null
+VW,context=Main:1#run:1,str=java.lang.String[][]:2
+VW,context=Main:1#run:1,i=0
+NO,object=java.lang.String[]:3
+FW,context=java.lang.String[]:3,0=winners
+FW,context=java.lang.String[]:3,1=get
+FW,context=java.lang.String[]:3,2=to
+FW,context=java.lang.String[]:3,3=visit
+FW,context=java.lang.String[]:3,4=aizu
+FW,context=java.lang.String[]:3,5=and
+FW,context=java.lang.String[]:3,6=the
+FW,context=java.lang.String[]:3,7=university
+FW,context=java.lang.String[]:3,8=of
+FW,context=java.lang.String[]:3,9=aizu
+FW,context=java.lang.String[]:3,10=and
+FW,context=java.lang.String[]:3,11=make
+FW,context=java.lang.String[]:3,12=many
+FW,context=java.lang.String[]:3,13=friends
+FW,context=java.lang.String[]:3,14=as
+FW,context=java.lang.String[]:3,15=well
+FW,context=java.lang.String[][]:2,0=java.lang.String[]:3
+VW,context=Main:1#run:1,str=java.lang.String[][]:2
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=8>
+VW,context=Main:1#run:1,ch=a
+VW,context=Main:1#run:1,i=0
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=5,index=9>
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,j=1
+VW,context=Main:1#run:1,j=2
+VW,context=Main:1#run:1,j=3
+VW,context=Main:1#run:1,j=4
+NO,object=Moji:5
+MC,caller=Main:1#run:1,target=Moji:5#Moji:5
+VW,context=Moji:5#Moji:5,a=aizu
+VW,context=Moji:5#Moji:5,b=1
+FW,context=Moji:5,str=
+FW,context=Moji:5,count=0
+FW,context=Moji:5,str=aizu
+FW,context=Moji:5,count=1
+ME,returner=Moji:5#Moji:5,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=1
+VW,context=Main:1#run:1,j=5
+NO,object=Moji:6
+MC,caller=Main:1#run:1,target=Moji:6#Moji:6
+VW,context=Moji:6#Moji:6,a=and
+VW,context=Moji:6#Moji:6,b=1
+FW,context=Moji:6,str=
+FW,context=Moji:6,count=0
+FW,context=Moji:6,str=and
+FW,context=Moji:6,count=1
+ME,returner=Moji:6#Moji:6,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=2
+VW,context=Main:1#run:1,j=6
+VW,context=Main:1#run:1,j=7
+VW,context=Main:1#run:1,j=8
+VW,context=Main:1#run:1,j=9
+VD,method=Main:1#run:1 <name=t,type=int (id=7),value=1,index=10>
+VW,context=Main:1#run:1,t=0
+FR,context=Moji:5,count
+FW,context=Moji:5,count=2
+VW,context=Main:1#run:1,j=10
+VD,method=Main:1#run:1 <name=t,type=int (id=7),value=1,index=10>
+VW,context=Main:1#run:1,t=1
+FR,context=Moji:6,count
+FW,context=Moji:6,count=2
+VW,context=Main:1#run:1,j=11
+VW,context=Main:1#run:1,j=12
+VW,context=Main:1#run:1,j=13
+VW,context=Main:1#run:1,j=14
+NO,object=Moji:7
+MC,caller=Main:1#run:1,target=Moji:7#Moji:7
+VW,context=Moji:7#Moji:7,a=as
+VW,context=Moji:7#Moji:7,b=1
+FW,context=Moji:7,str=
+FW,context=Moji:7,count=0
+FW,context=Moji:7,str=as
+FW,context=Moji:7,count=1
+ME,returner=Moji:7#Moji:7,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=3
+VW,context=Main:1#run:1,j=15
+MC,caller=Main:1#run:1,target=Ljava/util/Arrays;.sort([Ljava/lang/Object;II)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),target=Ljava/util/Arrays;.sort([Ljava/lang/Object;II)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),value=<void>
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:6#compareTo:6
+VW,context=Moji:6#compareTo:6,o=Moji:5
+FR,context=Moji:6,count
+FR,context=Moji:5,count
+FR,context=Moji:6,count
+FR,context=Moji:5,count
+FR,context=Moji:6,str
+FR,context=Moji:5,str
+VW,context=Moji:6#compareTo:6,result=5
+ME,returner=Moji:6#compareTo:6,value=5
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:7#compareTo:7
+VW,context=Moji:7#compareTo:7,o=Moji:6
+FR,context=Moji:7,count
+FR,context=Moji:6,count
+VW,context=Moji:7#compareTo:7,result=1
+ME,returner=Moji:7#compareTo:7,value=1
+ME,returner=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),value=<void>
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=8>
+FR,context=Moji:5,str
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=4,index=11>
+VW,context=Main:1#run:1,i=1
+FR,context=Moji:6,str
+VW,context=Main:1#run:1,i=2
+FR,context=Moji:7,str
+VW,context=Main:1#run:1,i=3
+VW,context=Main:1#run:1,n=3
+VW,context=Main:1#run:1,count=0
+NO,object=java.lang.String[][]:3
+FW,context=java.lang.String[][]:3,0=null
+FW,context=java.lang.String[][]:3,1=null
+FW,context=java.lang.String[][]:3,2=null
+VW,context=Main:1#run:1,str=java.lang.String[][]:3
+VW,context=Main:1#run:1,i=0
+NO,object=java.lang.String[]:4
+FW,context=java.lang.String[]:4,0=ask
+FW,context=java.lang.String[]:4,1=alex
+FW,context=java.lang.String[]:4,2=about
+FW,context=java.lang.String[][]:3,0=java.lang.String[]:4
+VW,context=Main:1#run:1,str=java.lang.String[][]:3
+VW,context=Main:1#run:1,i=1
+NO,object=java.lang.String[]:5
+FW,context=java.lang.String[]:5,0=the
+FW,context=java.lang.String[]:5,1=answer
+FW,context=java.lang.String[]:5,2=for
+FW,context=java.lang.String[]:5,3=the
+FW,context=java.lang.String[][]:3,1=java.lang.String[]:5
+VW,context=Main:1#run:1,str=java.lang.String[][]:3
+VW,context=Main:1#run:1,i=2
+NO,object=java.lang.String[]:6
+FW,context=java.lang.String[]:6,0=assignment
+FW,context=java.lang.String[]:6,1=on
+FW,context=java.lang.String[]:6,2=android
+FW,context=java.lang.String[]:6,3=apps
+FW,context=java.lang.String[][]:3,2=java.lang.String[]:6
+VW,context=Main:1#run:1,str=java.lang.String[][]:3
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=8>
+VW,context=Main:1#run:1,ch=a
+VW,context=Main:1#run:1,i=0
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=5,index=9>
+VW,context=Main:1#run:1,j=0
+NO,object=Moji:8
+MC,caller=Main:1#run:1,target=Moji:8#Moji:8
+VW,context=Moji:8#Moji:8,a=ask
+VW,context=Moji:8#Moji:8,b=1
+FW,context=Moji:8,str=
+FW,context=Moji:8,count=0
+FW,context=Moji:8,str=ask
+FW,context=Moji:8,count=1
+ME,returner=Moji:8#Moji:8,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=1
+VW,context=Main:1#run:1,j=1
+NO,object=Moji:9
+MC,caller=Main:1#run:1,target=Moji:9#Moji:9
+VW,context=Moji:9#Moji:9,a=alex
+VW,context=Moji:9#Moji:9,b=1
+FW,context=Moji:9,str=
+FW,context=Moji:9,count=0
+FW,context=Moji:9,str=alex
+FW,context=Moji:9,count=1
+ME,returner=Moji:9#Moji:9,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=2
+VW,context=Main:1#run:1,j=2
+NO,object=Moji:10
+MC,caller=Main:1#run:1,target=Moji:10#Moji:10
+VW,context=Moji:10#Moji:10,a=about
+VW,context=Moji:10#Moji:10,b=1
+FW,context=Moji:10,str=
+FW,context=Moji:10,count=0
+FW,context=Moji:10,str=about
+FW,context=Moji:10,count=1
+ME,returner=Moji:10#Moji:10,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=3
+VW,context=Main:1#run:1,i=1
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=5,index=9>
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,j=1
+NO,object=Moji:11
+MC,caller=Main:1#run:1,target=Moji:11#Moji:11
+VW,context=Moji:11#Moji:11,a=answer
+VW,context=Moji:11#Moji:11,b=1
+FW,context=Moji:11,str=
+FW,context=Moji:11,count=0
+FW,context=Moji:11,str=answer
+FW,context=Moji:11,count=1
+ME,returner=Moji:11#Moji:11,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=4
+VW,context=Main:1#run:1,j=2
+VW,context=Main:1#run:1,j=3
+VW,context=Main:1#run:1,i=2
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=5,index=9>
+VW,context=Main:1#run:1,j=0
+NO,object=Moji:12
+MC,caller=Main:1#run:1,target=Moji:12#Moji:12
+VW,context=Moji:12#Moji:12,a=assignment
+VW,context=Moji:12#Moji:12,b=1
+FW,context=Moji:12,str=
+FW,context=Moji:12,count=0
+FW,context=Moji:12,str=assignment
+FW,context=Moji:12,count=1
+ME,returner=Moji:12#Moji:12,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=5
+VW,context=Main:1#run:1,j=1
+VW,context=Main:1#run:1,j=2
+NO,object=Moji:13
+MC,caller=Main:1#run:1,target=Moji:13#Moji:13
+VW,context=Moji:13#Moji:13,a=android
+VW,context=Moji:13#Moji:13,b=1
+FW,context=Moji:13,str=
+FW,context=Moji:13,count=0
+FW,context=Moji:13,str=android
+FW,context=Moji:13,count=1
+ME,returner=Moji:13#Moji:13,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=6
+VW,context=Main:1#run:1,j=3
+NO,object=Moji:14
+MC,caller=Main:1#run:1,target=Moji:14#Moji:14
+VW,context=Moji:14#Moji:14,a=apps
+VW,context=Moji:14#Moji:14,b=1
+FW,context=Moji:14,str=
+FW,context=Moji:14,count=0
+FW,context=Moji:14,str=apps
+FW,context=Moji:14,count=1
+ME,returner=Moji:14#Moji:14,value=<void>
+VW,context=Main:1#run:1,m=Moji[200] (id=53)
+VW,context=Main:1#run:1,count=7
+MC,caller=Main:1#run:1,target=Ljava/util/Arrays;.sort([Ljava/lang/Object;II)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),target=Ljava/util/Arrays;.sort([Ljava/lang/Object;II)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),value=<void>
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)
+MC,caller=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),target=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:9#compareTo:8
+VW,context=Moji:9#compareTo:8,o=Moji:8
+FR,context=Moji:9,count
+FR,context=Moji:8,count
+FR,context=Moji:9,count
+FR,context=Moji:8,count
+FR,context=Moji:9,str
+FR,context=Moji:8,str
+VW,context=Moji:9#compareTo:8,result=-7
+ME,returner=Moji:9#compareTo:8,value=-7
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:10#compareTo:9
+VW,context=Moji:10#compareTo:9,o=Moji:9
+FR,context=Moji:10,count
+FR,context=Moji:9,count
+FR,context=Moji:10,count
+FR,context=Moji:9,count
+FR,context=Moji:10,str
+FR,context=Moji:9,str
+VW,context=Moji:10#compareTo:9,result=-10
+ME,returner=Moji:10#compareTo:9,value=-10
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:11#compareTo:10
+VW,context=Moji:11#compareTo:10,o=Moji:10
+FR,context=Moji:11,count
+FR,context=Moji:10,count
+FR,context=Moji:11,count
+FR,context=Moji:10,count
+FR,context=Moji:11,str
+FR,context=Moji:10,str
+VW,context=Moji:11#compareTo:10,result=12
+ME,returner=Moji:11#compareTo:10,value=12
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:11#compareTo:11
+VW,context=Moji:11#compareTo:11,o=Moji:9
+FR,context=Moji:11,count
+FR,context=Moji:9,count
+FR,context=Moji:11,count
+FR,context=Moji:9,count
+FR,context=Moji:11,str
+FR,context=Moji:9,str
+VW,context=Moji:11#compareTo:11,result=2
+ME,returner=Moji:11#compareTo:11,value=2
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:11#compareTo:12
+VW,context=Moji:11#compareTo:12,o=Moji:8
+FR,context=Moji:11,count
+FR,context=Moji:8,count
+FR,context=Moji:11,count
+FR,context=Moji:8,count
+FR,context=Moji:11,str
+FR,context=Moji:8,str
+VW,context=Moji:11#compareTo:12,result=-5
+ME,returner=Moji:11#compareTo:12,value=-5
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:12#compareTo:13
+VW,context=Moji:12#compareTo:13,o=Moji:11
+FR,context=Moji:12,count
+FR,context=Moji:11,count
+FR,context=Moji:12,count
+FR,context=Moji:11,count
+FR,context=Moji:12,str
+FR,context=Moji:11,str
+VW,context=Moji:12#compareTo:13,result=5
+ME,returner=Moji:12#compareTo:13,value=5
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:12#compareTo:14
+VW,context=Moji:12#compareTo:14,o=Moji:8
+FR,context=Moji:12,count
+FR,context=Moji:8,count
+FR,context=Moji:12,count
+FR,context=Moji:8,count
+FR,context=Moji:12,str
+FR,context=Moji:8,str
+VW,context=Moji:12#compareTo:14,result=8
+ME,returner=Moji:12#compareTo:14,value=8
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:13#compareTo:15
+VW,context=Moji:13#compareTo:15,o=Moji:11
+FR,context=Moji:13,count
+FR,context=Moji:11,count
+FR,context=Moji:13,count
+FR,context=Moji:11,count
+FR,context=Moji:13,str
+FR,context=Moji:11,str
+VW,context=Moji:13#compareTo:15,result=-15
+ME,returner=Moji:13#compareTo:15,value=-15
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:13#compareTo:16
+VW,context=Moji:13#compareTo:16,o=Moji:9
+FR,context=Moji:13,count
+FR,context=Moji:9,count
+FR,context=Moji:13,count
+FR,context=Moji:9,count
+FR,context=Moji:13,str
+FR,context=Moji:9,str
+VW,context=Moji:13#compareTo:16,result=2
+ME,returner=Moji:13#compareTo:16,value=2
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:14#compareTo:17
+VW,context=Moji:14#compareTo:17,o=Moji:11
+FR,context=Moji:14,count
+FR,context=Moji:11,count
+FR,context=Moji:14,count
+FR,context=Moji:11,count
+FR,context=Moji:14,str
+FR,context=Moji:11,str
+VW,context=Moji:14#compareTo:17,result=2
+ME,returner=Moji:14#compareTo:17,value=2
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:14#compareTo:18
+VW,context=Moji:14#compareTo:18,o=Moji:12
+FR,context=Moji:14,count
+FR,context=Moji:12,count
+FR,context=Moji:14,count
+FR,context=Moji:12,count
+FR,context=Moji:14,str
+FR,context=Moji:12,str
+VW,context=Moji:14#compareTo:18,result=-3
+ME,returner=Moji:14#compareTo:18,value=-3
+MC,caller=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Moji:14#compareTo:19
+VW,context=Moji:14#compareTo:19,o=Moji:8
+FR,context=Moji:14,count
+FR,context=Moji:8,count
+FR,context=Moji:14,count
+FR,context=Moji:8,count
+FR,context=Moji:14,str
+FR,context=Moji:8,str
+VW,context=Moji:14#compareTo:19,result=-3
+ME,returner=Moji:14#compareTo:19,value=-3
+ME,returner=LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;II),value=<void>
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=8>
+FR,context=Moji:10,str
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=4,index=11>
+VW,context=Main:1#run:1,i=1
+FR,context=Moji:9,str
+VW,context=Main:1#run:1,i=2
+FR,context=Moji:13,str
+VW,context=Main:1#run:1,i=3
+FR,context=Moji:11,str
+VW,context=Main:1#run:1,i=4
+FR,context=Moji:14,str
+VW,context=Main:1#run:1,n=2
+VW,context=Main:1#run:1,count=0
+NO,object=java.lang.String[][]:4
+FW,context=java.lang.String[][]:4,0=null
+FW,context=java.lang.String[][]:4,1=null
+VW,context=Main:1#run:1,str=java.lang.String[][]:4
+VW,context=Main:1#run:1,i=0
+NO,object=java.lang.String[]:7
+FW,context=java.lang.String[]:7,0=programming
+FW,context=java.lang.String[]:7,1=is
+FW,context=java.lang.String[]:7,2=both
+FW,context=java.lang.String[][]:4,0=java.lang.String[]:7
+VW,context=Main:1#run:1,str=java.lang.String[][]:4
+VW,context=Main:1#run:1,i=1
+NO,object=java.lang.String[]:8
+FW,context=java.lang.String[]:8,0=a
+FW,context=java.lang.String[]:8,1=sport
+FW,context=java.lang.String[]:8,2=and
+FW,context=java.lang.String[]:8,3=an
+FW,context=java.lang.String[]:8,4=intellectual
+FW,context=java.lang.String[]:8,5=puzzle
+FW,context=java.lang.String[][]:4,1=java.lang.String[]:8
+VW,context=Main:1#run:1,str=java.lang.String[][]:4
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=8>
+VW,context=Main:1#run:1,ch=c
+VW,context=Main:1#run:1,i=0
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=5,index=9>
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,j=1
+VW,context=Main:1#run:1,j=2
+VW,context=Main:1#run:1,i=1
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=5,index=9>
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,j=1
+VW,context=Main:1#run:1,j=2
+VW,context=Main:1#run:1,j=3
+VW,context=Main:1#run:1,j=4
+VW,context=Main:1#run:1,j=5
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=8>
+VW,context=Main:1#run:1,n=0
+ME,returner=Main:1#run:1,value=<void>
+ME,returner=Main#main:1,value=<void>
+TE,

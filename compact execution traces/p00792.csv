@@ -1,0 +1,1881 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+NO,object=Main:1
+MC,caller=Main#main:1,target=Main:1#Main:1
+FW,context=Main:1,sc=java.util.Scanner (id=364)
+NO,object=Main$AOJ1212:1
+MC,caller=Main:1#Main:1,target=Main$AOJ1212:1#Main$AOJ1212:1
+FW,context=Main$AOJ1212:1,EPS=1.0E-4
+FR,context=Main:1,sc
+FW,context=Main$AOJ1212:1,N=0
+FR,context=Main$AOJ1212:1,N
+MC,caller=Main$AOJ1212:1#Main$AOJ1212:1,target=Main$AOJ1212:1#solve:1
+FR,context=Main$AOJ1212:1,N
+NO,object=java.awt.geom.Line2D[]:1
+VW,context=Main$AOJ1212:1#solve:1,mirrors=java.awt.geom.Line2D[]:1
+FR,context=Main$AOJ1212:1,N
+NO,object=java.awt.geom.Line2D[]:2
+FW,context=java.awt.geom.Line2D[]:2,0=null
+FW,context=java.awt.geom.Line2D[]:2,1=null
+FW,context=java.awt.geom.Line2D[]:2,2=null
+FW,context=java.awt.geom.Line2D[]:2,3=null
+VW,context=Main$AOJ1212:1#solve:1,walls=java.awt.geom.Line2D[]:2
+FW,context=java.awt.geom.Line2D[]:2,0=java.awt.geom.Line2D$Double (id=371)
+VW,context=Main$AOJ1212:1#solve:1,walls=java.awt.geom.Line2D[]:2
+FW,context=java.awt.geom.Line2D[]:2,1=java.awt.geom.Line2D$Double (id=374)
+VW,context=Main$AOJ1212:1#solve:1,walls=java.awt.geom.Line2D[]:2
+FW,context=java.awt.geom.Line2D[]:2,2=java.awt.geom.Line2D$Double (id=375)
+VW,context=Main$AOJ1212:1#solve:1,walls=java.awt.geom.Line2D[]:2
+FW,context=java.awt.geom.Line2D[]:2,3=java.awt.geom.Line2D$Double (id=376)
+VW,context=Main$AOJ1212:1#solve:1,walls=java.awt.geom.Line2D[]:2
+VW,context=Main$AOJ1212:1#solve:1,start=java.awt.geom.Point2D$Double (id=377)
+VW,context=Main$AOJ1212:1#solve:1,ans=java.awt.geom.Point2D$Double (id=377)
+VW,context=Main$AOJ1212:1#solve:1,l=java.awt.geom.Line2D$Double (id=380)
+NO,object=java.awt.geom.Point2D[]:1
+FW,context=java.awt.geom.Point2D[]:1,0=java.awt.geom.Point2D$Double (id=383)
+FW,context=java.awt.geom.Point2D[]:1,1=java.awt.geom.Point2D$Double (id=384)
+FW,context=java.awt.geom.Point2D[]:1,2=java.awt.geom.Point2D$Double (id=385)
+FW,context=java.awt.geom.Point2D[]:1,3=java.awt.geom.Point2D$Double (id=386)
+VW,context=Main$AOJ1212:1#solve:1,vv=java.awt.geom.Point2D[]:1
+VW,context=Main$AOJ1212:1#solve:1,cnt=0
+VW,context=Main$AOJ1212:1#solve:1,v=0
+VW,context=Main$AOJ1212:1#solve:1,fin=false
+VW,context=Main$AOJ1212:1#solve:1,bs=false
+VW,context=Main$AOJ1212:1#solve:1,cnt=1
+VW,context=Main$AOJ1212:1#solve:1,dis=100.0
+VW,context=Main$AOJ1212:1#solve:1,p=null
+VW,context=Main$AOJ1212:1#solve:1,idx=-1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:1,i=0
+VW,context=Main$AOJ1212:1#solve:1,i=1
+MC,caller=Main$AOJ1212:1#solve:1,target=Main$AOJ1212:1#intersectionPoint:1
+VW,context=Main$AOJ1212:1#intersectionPoint:1,l1=java.awt.geom.Line2D$Double (id=380)
+VW,context=Main$AOJ1212:1#intersectionPoint:1,l2=java.awt.geom.Line2D$Double (id=374)
+MC,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#intersectionPoint:1
+VW,context=Main$AOJ1212:1#intersectionPoint:1,b2=java.awt.geom.Point2D$Double (id=390)
+VW,context=Main$AOJ1212:1#intersectionPoint:1,a1=java.awt.geom.Point2D$Double (id=387)
+VW,context=Main$AOJ1212:1#intersectionPoint:1,a2=java.awt.geom.Point2D$Double (id=388)
+VW,context=Main$AOJ1212:1#intersectionPoint:1,b1=java.awt.geom.Point2D$Double (id=389)
+MC,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#diff:1
+VW,context=Main$AOJ1212:1#diff:1,p2=java.awt.geom.Point2D$Double (id=387)
+VW,context=Main$AOJ1212:1#diff:1,p1=java.awt.geom.Point2D$Double (id=388)
+VW,context=Main$AOJ1212:1#diff:1,result=java.awt.geom.Point2D$Double (id=391)
+ME,returner=Main$AOJ1212:1#diff:1,value=java.awt.geom.Point2D$Double (id=391)
+VW,context=Main$AOJ1212:1#intersectionPoint:1,a=java.awt.geom.Point2D$Double (id=391)
+MC,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#diff:2
+VW,context=Main$AOJ1212:1#diff:2,p2=java.awt.geom.Point2D$Double (id=389)
+VW,context=Main$AOJ1212:1#diff:2,p1=java.awt.geom.Point2D$Double (id=390)
+VW,context=Main$AOJ1212:1#diff:2,result=java.awt.geom.Point2D$Double (id=392)
+ME,returner=Main$AOJ1212:1#diff:2,value=java.awt.geom.Point2D$Double (id=392)
+VW,context=Main$AOJ1212:1#intersectionPoint:1,b=java.awt.geom.Point2D$Double (id=392)
+MC,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#diff:3
+VW,context=Main$AOJ1212:1#diff:3,p2=java.awt.geom.Point2D$Double (id=387)
+VW,context=Main$AOJ1212:1#diff:3,p1=java.awt.geom.Point2D$Double (id=389)
+VW,context=Main$AOJ1212:1#diff:3,result=java.awt.geom.Point2D$Double (id=393)
+ME,returner=Main$AOJ1212:1#diff:3,value=java.awt.geom.Point2D$Double (id=393)
+MC,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#cross:1
+VW,context=Main$AOJ1212:1#cross:1,p2=java.awt.geom.Point2D$Double (id=393)
+VW,context=Main$AOJ1212:1#cross:1,p1=java.awt.geom.Point2D$Double (id=392)
+VW,context=Main$AOJ1212:1#cross:1,result=-58.0
+ME,returner=Main$AOJ1212:1#cross:1,value=-58.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#cross:2
+VW,context=Main$AOJ1212:1#cross:2,p2=java.awt.geom.Point2D$Double (id=391)
+VW,context=Main$AOJ1212:1#cross:2,p1=java.awt.geom.Point2D$Double (id=392)
+VW,context=Main$AOJ1212:1#cross:2,result=-800.0
+ME,returner=Main$AOJ1212:1#cross:2,value=-800.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#mul:1
+VW,context=Main$AOJ1212:1#mul:1,p1=java.awt.geom.Point2D$Double (id=391)
+VW,context=Main$AOJ1212:1#mul:1,n=0.0725
+VW,context=Main$AOJ1212:1#mul:1,result=java.awt.geom.Point2D$Double (id=394)
+ME,returner=Main$AOJ1212:1#mul:1,value=java.awt.geom.Point2D$Double (id=394)
+MC,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#sum:1
+VW,context=Main$AOJ1212:1#sum:1,p2=java.awt.geom.Point2D$Double (id=394)
+VW,context=Main$AOJ1212:1#sum:1,p1=java.awt.geom.Point2D$Double (id=387)
+VW,context=Main$AOJ1212:1#sum:1,result=java.awt.geom.Point2D$Double (id=395)
+ME,returner=Main$AOJ1212:1#sum:1,value=java.awt.geom.Point2D$Double (id=395)
+VW,context=Main$AOJ1212:1#intersectionPoint:1,result=java.awt.geom.Point2D$Double (id=395)
+ME,returner=Main$AOJ1212:1#intersectionPoint:1,value=java.awt.geom.Point2D$Double (id=395)
+VW,context=Main$AOJ1212:1#intersectionPoint:1,result=java.awt.geom.Point2D$Double (id=395)
+ME,returner=Main$AOJ1212:1#intersectionPoint:1,value=java.awt.geom.Point2D$Double (id=395)
+VW,context=Main$AOJ1212:1#solve:1,tmp=java.awt.geom.Point2D$Double (id=395)
+VW,context=Main$AOJ1212:1#solve:1,ans=java.awt.geom.Point2D$Double (id=395)
+VW,context=Main$AOJ1212:1#solve:1,fin=true
+VD,method=Main$AOJ1212:1#solve:1 <name=bs,type=boolean (id=2),value=<?>,index=13>
+VD,method=Main$AOJ1212:1#solve:1 <name=dis,type=double (id=5),value=<?>,index=14>
+VD,method=Main$AOJ1212:1#solve:1 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+VD,method=Main$AOJ1212:1#solve:1 <name=idx,type=int (id=7),value=<?>,index=16>
+VD,method=Main$AOJ1212:1#solve:1 <name=i,type=int (id=7),value=<?>,index=20>
+VD,method=Main$AOJ1212:1#solve:1 <name=tmp,type=java.awt.geom.Point2D (id=107),value=<?>,index=21>
+ME,returner=Main$AOJ1212:1#solve:1,value=<void>
+FR,context=Main:1,sc
+FW,context=Main$AOJ1212:1,N=1
+FR,context=Main$AOJ1212:1,N
+MC,caller=Main$AOJ1212:1#Main$AOJ1212:1,target=Main$AOJ1212:1#solve:2
+FR,context=Main$AOJ1212:1,N
+NO,object=java.awt.geom.Line2D[]:3
+FW,context=java.awt.geom.Line2D[]:3,0=null
+VW,context=Main$AOJ1212:1#solve:2,mirrors=java.awt.geom.Line2D[]:3
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:2,i=0
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:2,d=y
+FR,context=Main:1,sc
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:2,x=8
+VW,context=Main$AOJ1212:1#solve:2,y=7
+FW,context=java.awt.geom.Line2D[]:3,0=java.awt.geom.Line2D$Double (id=399)
+VW,context=Main$AOJ1212:1#solve:2,mirrors=java.awt.geom.Line2D[]:3
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:2 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+VD,method=Main$AOJ1212:1#solve:2 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main$AOJ1212:1#solve:2 <name=y,type=int (id=7),value=<?>,index=4>
+VD,method=Main$AOJ1212:1#solve:2 <name=i,type=int (id=7),value=<?>,index=1>
+NO,object=java.awt.geom.Line2D[]:4
+FW,context=java.awt.geom.Line2D[]:4,0=null
+FW,context=java.awt.geom.Line2D[]:4,1=null
+FW,context=java.awt.geom.Line2D[]:4,2=null
+FW,context=java.awt.geom.Line2D[]:4,3=null
+VW,context=Main$AOJ1212:1#solve:2,walls=java.awt.geom.Line2D[]:4
+FW,context=java.awt.geom.Line2D[]:4,0=java.awt.geom.Line2D$Double (id=401)
+VW,context=Main$AOJ1212:1#solve:2,walls=java.awt.geom.Line2D[]:4
+FW,context=java.awt.geom.Line2D[]:4,1=java.awt.geom.Line2D$Double (id=402)
+VW,context=Main$AOJ1212:1#solve:2,walls=java.awt.geom.Line2D[]:4
+FW,context=java.awt.geom.Line2D[]:4,2=java.awt.geom.Line2D$Double (id=403)
+VW,context=Main$AOJ1212:1#solve:2,walls=java.awt.geom.Line2D[]:4
+FW,context=java.awt.geom.Line2D[]:4,3=java.awt.geom.Line2D$Double (id=404)
+VW,context=Main$AOJ1212:1#solve:2,walls=java.awt.geom.Line2D[]:4
+VW,context=Main$AOJ1212:1#solve:2,start=java.awt.geom.Point2D$Double (id=405)
+VW,context=Main$AOJ1212:1#solve:2,ans=java.awt.geom.Point2D$Double (id=405)
+VW,context=Main$AOJ1212:1#solve:2,l=java.awt.geom.Line2D$Double (id=406)
+NO,object=java.awt.geom.Point2D[]:2
+FW,context=java.awt.geom.Point2D[]:2,0=java.awt.geom.Point2D$Double (id=408)
+FW,context=java.awt.geom.Point2D[]:2,1=java.awt.geom.Point2D$Double (id=409)
+FW,context=java.awt.geom.Point2D[]:2,2=java.awt.geom.Point2D$Double (id=410)
+FW,context=java.awt.geom.Point2D[]:2,3=java.awt.geom.Point2D$Double (id=411)
+VW,context=Main$AOJ1212:1#solve:2,vv=java.awt.geom.Point2D[]:2
+VW,context=Main$AOJ1212:1#solve:2,cnt=0
+VW,context=Main$AOJ1212:1#solve:2,v=0
+VW,context=Main$AOJ1212:1#solve:2,fin=false
+VW,context=Main$AOJ1212:1#solve:2,bs=false
+VW,context=Main$AOJ1212:1#solve:2,cnt=1
+VW,context=Main$AOJ1212:1#solve:2,dis=100.0
+VW,context=Main$AOJ1212:1#solve:2,p=null
+VW,context=Main$AOJ1212:1#solve:2,idx=-1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:2,i=0
+MC,caller=Main$AOJ1212:1#solve:2,target=Main$AOJ1212:1#intersectionPoint:2
+VW,context=Main$AOJ1212:1#intersectionPoint:2,l1=java.awt.geom.Line2D$Double (id=406)
+VW,context=Main$AOJ1212:1#intersectionPoint:2,l2=java.awt.geom.Line2D$Double (id=399)
+MC,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#intersectionPoint:2
+VW,context=Main$AOJ1212:1#intersectionPoint:2,b2=java.awt.geom.Point2D$Double (id=415)
+VW,context=Main$AOJ1212:1#intersectionPoint:2,a1=java.awt.geom.Point2D$Double (id=412)
+VW,context=Main$AOJ1212:1#intersectionPoint:2,a2=java.awt.geom.Point2D$Double (id=413)
+VW,context=Main$AOJ1212:1#intersectionPoint:2,b1=java.awt.geom.Point2D$Double (id=414)
+MC,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#diff:4
+VW,context=Main$AOJ1212:1#diff:4,p2=java.awt.geom.Point2D$Double (id=412)
+VW,context=Main$AOJ1212:1#diff:4,p1=java.awt.geom.Point2D$Double (id=413)
+VW,context=Main$AOJ1212:1#diff:4,result=java.awt.geom.Point2D$Double (id=416)
+ME,returner=Main$AOJ1212:1#diff:4,value=java.awt.geom.Point2D$Double (id=416)
+VW,context=Main$AOJ1212:1#intersectionPoint:2,a=java.awt.geom.Point2D$Double (id=416)
+MC,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#diff:5
+VW,context=Main$AOJ1212:1#diff:5,p2=java.awt.geom.Point2D$Double (id=414)
+VW,context=Main$AOJ1212:1#diff:5,p1=java.awt.geom.Point2D$Double (id=415)
+VW,context=Main$AOJ1212:1#diff:5,result=java.awt.geom.Point2D$Double (id=417)
+ME,returner=Main$AOJ1212:1#diff:5,value=java.awt.geom.Point2D$Double (id=417)
+VW,context=Main$AOJ1212:1#intersectionPoint:2,b=java.awt.geom.Point2D$Double (id=417)
+MC,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#diff:6
+VW,context=Main$AOJ1212:1#diff:6,p2=java.awt.geom.Point2D$Double (id=412)
+VW,context=Main$AOJ1212:1#diff:6,p1=java.awt.geom.Point2D$Double (id=414)
+VW,context=Main$AOJ1212:1#diff:6,result=java.awt.geom.Point2D$Double (id=418)
+ME,returner=Main$AOJ1212:1#diff:6,value=java.awt.geom.Point2D$Double (id=418)
+MC,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#cross:3
+VW,context=Main$AOJ1212:1#cross:3,p2=java.awt.geom.Point2D$Double (id=418)
+VW,context=Main$AOJ1212:1#cross:3,p1=java.awt.geom.Point2D$Double (id=417)
+VW,context=Main$AOJ1212:1#cross:3,result=-7.25
+ME,returner=Main$AOJ1212:1#cross:3,value=-7.25
+MC,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#cross:4
+VW,context=Main$AOJ1212:1#cross:4,p2=java.awt.geom.Point2D$Double (id=416)
+VW,context=Main$AOJ1212:1#cross:4,p1=java.awt.geom.Point2D$Double (id=417)
+VW,context=Main$AOJ1212:1#cross:4,result=-100.0
+ME,returner=Main$AOJ1212:1#cross:4,value=-100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#mul:2
+VW,context=Main$AOJ1212:1#mul:2,p1=java.awt.geom.Point2D$Double (id=416)
+VW,context=Main$AOJ1212:1#mul:2,n=0.0725
+VW,context=Main$AOJ1212:1#mul:2,result=java.awt.geom.Point2D$Double (id=419)
+ME,returner=Main$AOJ1212:1#mul:2,value=java.awt.geom.Point2D$Double (id=419)
+MC,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#sum:2
+VW,context=Main$AOJ1212:1#sum:2,p2=java.awt.geom.Point2D$Double (id=419)
+VW,context=Main$AOJ1212:1#sum:2,p1=java.awt.geom.Point2D$Double (id=412)
+VW,context=Main$AOJ1212:1#sum:2,result=java.awt.geom.Point2D$Double (id=420)
+ME,returner=Main$AOJ1212:1#sum:2,value=java.awt.geom.Point2D$Double (id=420)
+VW,context=Main$AOJ1212:1#intersectionPoint:2,result=java.awt.geom.Point2D$Double (id=420)
+ME,returner=Main$AOJ1212:1#intersectionPoint:2,value=java.awt.geom.Point2D$Double (id=420)
+VW,context=Main$AOJ1212:1#intersectionPoint:2,result=java.awt.geom.Point2D$Double (id=420)
+ME,returner=Main$AOJ1212:1#intersectionPoint:2,value=java.awt.geom.Point2D$Double (id=420)
+VW,context=Main$AOJ1212:1#solve:2,b=java.awt.geom.Point2D$Double (id=420)
+VW,context=Main$AOJ1212:1#solve:2,a=10.253048327204938
+VW,context=Main$AOJ1212:1#solve:2,dis=10.253048327204938
+VW,context=Main$AOJ1212:1#solve:2,p=java.awt.geom.Point2D$Double (id=420)
+VW,context=Main$AOJ1212:1#solve:2,idx=0
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:2 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:2 <name=a,type=double (id=5),value=<?>,index=19>
+VD,method=Main$AOJ1212:1#solve:2 <name=i,type=int (id=7),value=<?>,index=17>
+VW,context=Main$AOJ1212:1#solve:2,v=1
+VW,context=Main$AOJ1212:1#solve:2,px=800.0000999999999
+VW,context=Main$AOJ1212:1#solve:2,py=750.0000999999999
+VW,context=Main$AOJ1212:1#solve:2,p=java.awt.geom.Point2D$Double (id=421)
+MC,caller=Main$AOJ1212:1#solve:2,target=Main$AOJ1212:1#sum:3
+VW,context=Main$AOJ1212:1#sum:3,p2=java.awt.geom.Point2D$Double (id=409)
+VW,context=Main$AOJ1212:1#sum:3,p1=java.awt.geom.Point2D$Double (id=421)
+VW,context=Main$AOJ1212:1#sum:3,result=java.awt.geom.Point2D$Double (id=422)
+ME,returner=Main$AOJ1212:1#sum:3,value=java.awt.geom.Point2D$Double (id=422)
+VW,context=Main$AOJ1212:1#solve:2,l=java.awt.geom.Line2D$Double (id=423)
+VD,method=Main$AOJ1212:1#solve:2 <name=bs,type=boolean (id=2),value=<?>,index=13>
+VD,method=Main$AOJ1212:1#solve:2 <name=dis,type=double (id=5),value=<?>,index=14>
+VD,method=Main$AOJ1212:1#solve:2 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+VD,method=Main$AOJ1212:1#solve:2 <name=idx,type=int (id=7),value=<?>,index=16>
+VD,method=Main$AOJ1212:1#solve:2 <name=px,type=double (id=5),value=<?>,index=23>
+VD,method=Main$AOJ1212:1#solve:2 <name=py,type=double (id=5),value=<?>,index=24>
+VW,context=Main$AOJ1212:1#solve:2,bs=false
+VW,context=Main$AOJ1212:1#solve:2,cnt=2
+VW,context=Main$AOJ1212:1#solve:2,dis=100.0
+VW,context=Main$AOJ1212:1#solve:2,p=null
+VW,context=Main$AOJ1212:1#solve:2,idx=-1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:2,i=0
+MC,caller=Main$AOJ1212:1#solve:2,target=Main$AOJ1212:1#intersectionPoint:3
+VW,context=Main$AOJ1212:1#intersectionPoint:3,l1=java.awt.geom.Line2D$Double (id=423)
+VW,context=Main$AOJ1212:1#intersectionPoint:3,l2=java.awt.geom.Line2D$Double (id=399)
+MC,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#intersectionPoint:3
+VW,context=Main$AOJ1212:1#intersectionPoint:3,b2=java.awt.geom.Point2D$Double (id=427)
+VW,context=Main$AOJ1212:1#intersectionPoint:3,a1=java.awt.geom.Point2D$Double (id=424)
+VW,context=Main$AOJ1212:1#intersectionPoint:3,a2=java.awt.geom.Point2D$Double (id=425)
+VW,context=Main$AOJ1212:1#intersectionPoint:3,b1=java.awt.geom.Point2D$Double (id=426)
+MC,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#diff:7
+VW,context=Main$AOJ1212:1#diff:7,p2=java.awt.geom.Point2D$Double (id=424)
+VW,context=Main$AOJ1212:1#diff:7,p1=java.awt.geom.Point2D$Double (id=425)
+VW,context=Main$AOJ1212:1#diff:7,result=java.awt.geom.Point2D$Double (id=428)
+ME,returner=Main$AOJ1212:1#diff:7,value=java.awt.geom.Point2D$Double (id=428)
+VW,context=Main$AOJ1212:1#intersectionPoint:3,a=java.awt.geom.Point2D$Double (id=428)
+MC,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#diff:8
+VW,context=Main$AOJ1212:1#diff:8,p2=java.awt.geom.Point2D$Double (id=426)
+VW,context=Main$AOJ1212:1#diff:8,p1=java.awt.geom.Point2D$Double (id=427)
+VW,context=Main$AOJ1212:1#diff:8,result=java.awt.geom.Point2D$Double (id=429)
+ME,returner=Main$AOJ1212:1#diff:8,value=java.awt.geom.Point2D$Double (id=429)
+VW,context=Main$AOJ1212:1#intersectionPoint:3,b=java.awt.geom.Point2D$Double (id=429)
+MC,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#diff:9
+VW,context=Main$AOJ1212:1#diff:9,p2=java.awt.geom.Point2D$Double (id=424)
+VW,context=Main$AOJ1212:1#diff:9,p1=java.awt.geom.Point2D$Double (id=426)
+VW,context=Main$AOJ1212:1#diff:9,result=java.awt.geom.Point2D$Double (id=430)
+ME,returner=Main$AOJ1212:1#diff:9,value=java.awt.geom.Point2D$Double (id=430)
+MC,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#cross:5
+VW,context=Main$AOJ1212:1#cross:5,p2=java.awt.geom.Point2D$Double (id=430)
+VW,context=Main$AOJ1212:1#cross:5,p1=java.awt.geom.Point2D$Double (id=429)
+VW,context=Main$AOJ1212:1#cross:5,result=-0.0
+ME,returner=Main$AOJ1212:1#cross:5,value=-0.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#cross:6
+VW,context=Main$AOJ1212:1#cross:6,p2=java.awt.geom.Point2D$Double (id=428)
+VW,context=Main$AOJ1212:1#cross:6,p1=java.awt.geom.Point2D$Double (id=429)
+VW,context=Main$AOJ1212:1#cross:6,result=100.0
+ME,returner=Main$AOJ1212:1#cross:6,value=100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#mul:3
+VW,context=Main$AOJ1212:1#mul:3,p1=java.awt.geom.Point2D$Double (id=428)
+VW,context=Main$AOJ1212:1#mul:3,n=-0.0
+VW,context=Main$AOJ1212:1#mul:3,result=java.awt.geom.Point2D$Double (id=431)
+ME,returner=Main$AOJ1212:1#mul:3,value=java.awt.geom.Point2D$Double (id=431)
+MC,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#sum:4
+VW,context=Main$AOJ1212:1#sum:4,p2=java.awt.geom.Point2D$Double (id=431)
+VW,context=Main$AOJ1212:1#sum:4,p1=java.awt.geom.Point2D$Double (id=424)
+VW,context=Main$AOJ1212:1#sum:4,result=java.awt.geom.Point2D$Double (id=432)
+ME,returner=Main$AOJ1212:1#sum:4,value=java.awt.geom.Point2D$Double (id=432)
+VW,context=Main$AOJ1212:1#intersectionPoint:3,result=java.awt.geom.Point2D$Double (id=432)
+ME,returner=Main$AOJ1212:1#intersectionPoint:3,value=java.awt.geom.Point2D$Double (id=432)
+VW,context=Main$AOJ1212:1#intersectionPoint:3,result=java.awt.geom.Point2D$Double (id=432)
+ME,returner=Main$AOJ1212:1#intersectionPoint:3,value=java.awt.geom.Point2D$Double (id=432)
+VW,context=Main$AOJ1212:1#solve:2,b=java.awt.geom.Point2D$Double (id=432)
+VW,context=Main$AOJ1212:1#solve:2,a=0.0
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:2 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:2 <name=a,type=double (id=5),value=<?>,index=19>
+VD,method=Main$AOJ1212:1#solve:2 <name=i,type=int (id=7),value=<?>,index=17>
+VW,context=Main$AOJ1212:1#solve:2,i=0
+VW,context=Main$AOJ1212:1#solve:2,i=1
+MC,caller=Main$AOJ1212:1#solve:2,target=Main$AOJ1212:1#intersectionPoint:4
+VW,context=Main$AOJ1212:1#intersectionPoint:4,l1=java.awt.geom.Line2D$Double (id=423)
+VW,context=Main$AOJ1212:1#intersectionPoint:4,l2=java.awt.geom.Line2D$Double (id=402)
+MC,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#intersectionPoint:4
+VW,context=Main$AOJ1212:1#intersectionPoint:4,b2=java.awt.geom.Point2D$Double (id=436)
+VW,context=Main$AOJ1212:1#intersectionPoint:4,a1=java.awt.geom.Point2D$Double (id=433)
+VW,context=Main$AOJ1212:1#intersectionPoint:4,a2=java.awt.geom.Point2D$Double (id=434)
+VW,context=Main$AOJ1212:1#intersectionPoint:4,b1=java.awt.geom.Point2D$Double (id=435)
+MC,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#diff:10
+VW,context=Main$AOJ1212:1#diff:10,p2=java.awt.geom.Point2D$Double (id=433)
+VW,context=Main$AOJ1212:1#diff:10,p1=java.awt.geom.Point2D$Double (id=434)
+VW,context=Main$AOJ1212:1#diff:10,result=java.awt.geom.Point2D$Double (id=437)
+ME,returner=Main$AOJ1212:1#diff:10,value=java.awt.geom.Point2D$Double (id=437)
+VW,context=Main$AOJ1212:1#intersectionPoint:4,a=java.awt.geom.Point2D$Double (id=437)
+MC,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#diff:11
+VW,context=Main$AOJ1212:1#diff:11,p2=java.awt.geom.Point2D$Double (id=435)
+VW,context=Main$AOJ1212:1#diff:11,p1=java.awt.geom.Point2D$Double (id=436)
+VW,context=Main$AOJ1212:1#diff:11,result=java.awt.geom.Point2D$Double (id=438)
+ME,returner=Main$AOJ1212:1#diff:11,value=java.awt.geom.Point2D$Double (id=438)
+VW,context=Main$AOJ1212:1#intersectionPoint:4,b=java.awt.geom.Point2D$Double (id=438)
+MC,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#diff:12
+VW,context=Main$AOJ1212:1#diff:12,p2=java.awt.geom.Point2D$Double (id=433)
+VW,context=Main$AOJ1212:1#diff:12,p1=java.awt.geom.Point2D$Double (id=435)
+VW,context=Main$AOJ1212:1#diff:12,result=java.awt.geom.Point2D$Double (id=439)
+ME,returner=Main$AOJ1212:1#diff:12,value=java.awt.geom.Point2D$Double (id=439)
+MC,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#cross:7
+VW,context=Main$AOJ1212:1#cross:7,p2=java.awt.geom.Point2D$Double (id=439)
+VW,context=Main$AOJ1212:1#cross:7,p1=java.awt.geom.Point2D$Double (id=438)
+VW,context=Main$AOJ1212:1#cross:7,result=-0.0
+ME,returner=Main$AOJ1212:1#cross:7,value=-0.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#cross:8
+VW,context=Main$AOJ1212:1#cross:8,p2=java.awt.geom.Point2D$Double (id=437)
+VW,context=Main$AOJ1212:1#cross:8,p1=java.awt.geom.Point2D$Double (id=438)
+VW,context=Main$AOJ1212:1#cross:8,result=800.0
+ME,returner=Main$AOJ1212:1#cross:8,value=800.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#mul:4
+VW,context=Main$AOJ1212:1#mul:4,p1=java.awt.geom.Point2D$Double (id=437)
+VW,context=Main$AOJ1212:1#mul:4,n=-0.0
+VW,context=Main$AOJ1212:1#mul:4,result=java.awt.geom.Point2D$Double (id=440)
+ME,returner=Main$AOJ1212:1#mul:4,value=java.awt.geom.Point2D$Double (id=440)
+MC,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#sum:5
+VW,context=Main$AOJ1212:1#sum:5,p2=java.awt.geom.Point2D$Double (id=440)
+VW,context=Main$AOJ1212:1#sum:5,p1=java.awt.geom.Point2D$Double (id=433)
+VW,context=Main$AOJ1212:1#sum:5,result=java.awt.geom.Point2D$Double (id=441)
+ME,returner=Main$AOJ1212:1#sum:5,value=java.awt.geom.Point2D$Double (id=441)
+VW,context=Main$AOJ1212:1#intersectionPoint:4,result=java.awt.geom.Point2D$Double (id=441)
+ME,returner=Main$AOJ1212:1#intersectionPoint:4,value=java.awt.geom.Point2D$Double (id=441)
+VW,context=Main$AOJ1212:1#intersectionPoint:4,result=java.awt.geom.Point2D$Double (id=441)
+ME,returner=Main$AOJ1212:1#intersectionPoint:4,value=java.awt.geom.Point2D$Double (id=441)
+VW,context=Main$AOJ1212:1#solve:2,tmp=java.awt.geom.Point2D$Double (id=441)
+VW,context=Main$AOJ1212:1#solve:2,i=2
+VD,method=Main$AOJ1212:1#solve:2 <name=tmp,type=java.awt.geom.Point2D (id=107),value=<?>,index=21>
+MC,caller=Main$AOJ1212:1#solve:2,target=Main$AOJ1212:1#intersectionPoint:5
+VW,context=Main$AOJ1212:1#intersectionPoint:5,l1=java.awt.geom.Line2D$Double (id=423)
+VW,context=Main$AOJ1212:1#intersectionPoint:5,l2=java.awt.geom.Line2D$Double (id=403)
+MC,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#intersectionPoint:5
+VW,context=Main$AOJ1212:1#intersectionPoint:5,b2=java.awt.geom.Point2D$Double (id=445)
+VW,context=Main$AOJ1212:1#intersectionPoint:5,a1=java.awt.geom.Point2D$Double (id=442)
+VW,context=Main$AOJ1212:1#intersectionPoint:5,a2=java.awt.geom.Point2D$Double (id=443)
+VW,context=Main$AOJ1212:1#intersectionPoint:5,b1=java.awt.geom.Point2D$Double (id=444)
+MC,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#diff:13
+VW,context=Main$AOJ1212:1#diff:13,p2=java.awt.geom.Point2D$Double (id=442)
+VW,context=Main$AOJ1212:1#diff:13,p1=java.awt.geom.Point2D$Double (id=443)
+VW,context=Main$AOJ1212:1#diff:13,result=java.awt.geom.Point2D$Double (id=446)
+ME,returner=Main$AOJ1212:1#diff:13,value=java.awt.geom.Point2D$Double (id=446)
+VW,context=Main$AOJ1212:1#intersectionPoint:5,a=java.awt.geom.Point2D$Double (id=446)
+MC,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#diff:14
+VW,context=Main$AOJ1212:1#diff:14,p2=java.awt.geom.Point2D$Double (id=444)
+VW,context=Main$AOJ1212:1#diff:14,p1=java.awt.geom.Point2D$Double (id=445)
+VW,context=Main$AOJ1212:1#diff:14,result=java.awt.geom.Point2D$Double (id=447)
+ME,returner=Main$AOJ1212:1#diff:14,value=java.awt.geom.Point2D$Double (id=447)
+VW,context=Main$AOJ1212:1#intersectionPoint:5,b=java.awt.geom.Point2D$Double (id=447)
+MC,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#diff:15
+VW,context=Main$AOJ1212:1#diff:15,p2=java.awt.geom.Point2D$Double (id=442)
+VW,context=Main$AOJ1212:1#diff:15,p1=java.awt.geom.Point2D$Double (id=444)
+VW,context=Main$AOJ1212:1#diff:15,result=java.awt.geom.Point2D$Double (id=448)
+ME,returner=Main$AOJ1212:1#diff:15,value=java.awt.geom.Point2D$Double (id=448)
+MC,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#cross:9
+VW,context=Main$AOJ1212:1#cross:9,p2=java.awt.geom.Point2D$Double (id=448)
+VW,context=Main$AOJ1212:1#cross:9,p1=java.awt.geom.Point2D$Double (id=447)
+VW,context=Main$AOJ1212:1#cross:9,result=-4.0
+ME,returner=Main$AOJ1212:1#cross:9,value=-4.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#cross:10
+VW,context=Main$AOJ1212:1#cross:10,p2=java.awt.geom.Point2D$Double (id=446)
+VW,context=Main$AOJ1212:1#cross:10,p1=java.awt.geom.Point2D$Double (id=447)
+VW,context=Main$AOJ1212:1#cross:10,result=-800.0
+ME,returner=Main$AOJ1212:1#cross:10,value=-800.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#mul:5
+VW,context=Main$AOJ1212:1#mul:5,p1=java.awt.geom.Point2D$Double (id=446)
+VW,context=Main$AOJ1212:1#mul:5,n=0.005
+VW,context=Main$AOJ1212:1#mul:5,result=java.awt.geom.Point2D$Double (id=449)
+ME,returner=Main$AOJ1212:1#mul:5,value=java.awt.geom.Point2D$Double (id=449)
+MC,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#sum:6
+VW,context=Main$AOJ1212:1#sum:6,p2=java.awt.geom.Point2D$Double (id=449)
+VW,context=Main$AOJ1212:1#sum:6,p1=java.awt.geom.Point2D$Double (id=442)
+VW,context=Main$AOJ1212:1#sum:6,result=java.awt.geom.Point2D$Double (id=450)
+ME,returner=Main$AOJ1212:1#sum:6,value=java.awt.geom.Point2D$Double (id=450)
+VW,context=Main$AOJ1212:1#intersectionPoint:5,result=java.awt.geom.Point2D$Double (id=450)
+ME,returner=Main$AOJ1212:1#intersectionPoint:5,value=java.awt.geom.Point2D$Double (id=450)
+VW,context=Main$AOJ1212:1#intersectionPoint:5,result=java.awt.geom.Point2D$Double (id=450)
+ME,returner=Main$AOJ1212:1#intersectionPoint:5,value=java.awt.geom.Point2D$Double (id=450)
+VW,context=Main$AOJ1212:1#solve:2,tmp=java.awt.geom.Point2D$Double (id=450)
+VW,context=Main$AOJ1212:1#solve:2,ans=java.awt.geom.Point2D$Double (id=450)
+VW,context=Main$AOJ1212:1#solve:2,fin=true
+VD,method=Main$AOJ1212:1#solve:2 <name=bs,type=boolean (id=2),value=<?>,index=13>
+VD,method=Main$AOJ1212:1#solve:2 <name=dis,type=double (id=5),value=<?>,index=14>
+VD,method=Main$AOJ1212:1#solve:2 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+VD,method=Main$AOJ1212:1#solve:2 <name=idx,type=int (id=7),value=<?>,index=16>
+VD,method=Main$AOJ1212:1#solve:2 <name=i,type=int (id=7),value=<?>,index=20>
+VD,method=Main$AOJ1212:1#solve:2 <name=tmp,type=java.awt.geom.Point2D (id=107),value=<?>,index=21>
+ME,returner=Main$AOJ1212:1#solve:2,value=<void>
+FR,context=Main:1,sc
+FW,context=Main$AOJ1212:1,N=4
+FR,context=Main$AOJ1212:1,N
+MC,caller=Main$AOJ1212:1#Main$AOJ1212:1,target=Main$AOJ1212:1#solve:3
+FR,context=Main$AOJ1212:1,N
+NO,object=java.awt.geom.Line2D[]:5
+FW,context=java.awt.geom.Line2D[]:5,0=null
+FW,context=java.awt.geom.Line2D[]:5,1=null
+FW,context=java.awt.geom.Line2D[]:5,2=null
+FW,context=java.awt.geom.Line2D[]:5,3=null
+VW,context=Main$AOJ1212:1#solve:3,mirrors=java.awt.geom.Line2D[]:5
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=0
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:3,d=y
+FR,context=Main:1,sc
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:3,x=8
+VW,context=Main$AOJ1212:1#solve:3,y=7
+FW,context=java.awt.geom.Line2D[]:5,0=java.awt.geom.Line2D$Double (id=453)
+VW,context=Main$AOJ1212:1#solve:3,mirrors=java.awt.geom.Line2D[]:5
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=1
+VD,method=Main$AOJ1212:1#solve:3 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+VD,method=Main$AOJ1212:1#solve:3 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main$AOJ1212:1#solve:3 <name=y,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:3,d=x
+FR,context=Main:1,sc
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:3,x=7
+VW,context=Main$AOJ1212:1#solve:3,y=8
+FW,context=java.awt.geom.Line2D[]:5,1=java.awt.geom.Line2D$Double (id=455)
+VW,context=Main$AOJ1212:1#solve:3,mirrors=java.awt.geom.Line2D[]:5
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=2
+VD,method=Main$AOJ1212:1#solve:3 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+VD,method=Main$AOJ1212:1#solve:3 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main$AOJ1212:1#solve:3 <name=y,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:3,d=y
+FR,context=Main:1,sc
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:3,x=0
+VW,context=Main$AOJ1212:1#solve:3,y=0
+FW,context=java.awt.geom.Line2D[]:5,2=java.awt.geom.Line2D$Double (id=457)
+VW,context=Main$AOJ1212:1#solve:3,mirrors=java.awt.geom.Line2D[]:5
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=3
+VD,method=Main$AOJ1212:1#solve:3 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+VD,method=Main$AOJ1212:1#solve:3 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main$AOJ1212:1#solve:3 <name=y,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:3,d=x
+FR,context=Main:1,sc
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:3,x=0
+VW,context=Main$AOJ1212:1#solve:3,y=0
+FW,context=java.awt.geom.Line2D[]:5,3=java.awt.geom.Line2D$Double (id=459)
+VW,context=Main$AOJ1212:1#solve:3,mirrors=java.awt.geom.Line2D[]:5
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:3 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+VD,method=Main$AOJ1212:1#solve:3 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main$AOJ1212:1#solve:3 <name=y,type=int (id=7),value=<?>,index=4>
+VD,method=Main$AOJ1212:1#solve:3 <name=i,type=int (id=7),value=<?>,index=1>
+NO,object=java.awt.geom.Line2D[]:6
+FW,context=java.awt.geom.Line2D[]:6,0=null
+FW,context=java.awt.geom.Line2D[]:6,1=null
+FW,context=java.awt.geom.Line2D[]:6,2=null
+FW,context=java.awt.geom.Line2D[]:6,3=null
+VW,context=Main$AOJ1212:1#solve:3,walls=java.awt.geom.Line2D[]:6
+FW,context=java.awt.geom.Line2D[]:6,0=java.awt.geom.Line2D$Double (id=461)
+VW,context=Main$AOJ1212:1#solve:3,walls=java.awt.geom.Line2D[]:6
+FW,context=java.awt.geom.Line2D[]:6,1=java.awt.geom.Line2D$Double (id=462)
+VW,context=Main$AOJ1212:1#solve:3,walls=java.awt.geom.Line2D[]:6
+FW,context=java.awt.geom.Line2D[]:6,2=java.awt.geom.Line2D$Double (id=463)
+VW,context=Main$AOJ1212:1#solve:3,walls=java.awt.geom.Line2D[]:6
+FW,context=java.awt.geom.Line2D[]:6,3=java.awt.geom.Line2D$Double (id=464)
+VW,context=Main$AOJ1212:1#solve:3,walls=java.awt.geom.Line2D[]:6
+VW,context=Main$AOJ1212:1#solve:3,start=java.awt.geom.Point2D$Double (id=465)
+VW,context=Main$AOJ1212:1#solve:3,ans=java.awt.geom.Point2D$Double (id=465)
+VW,context=Main$AOJ1212:1#solve:3,l=java.awt.geom.Line2D$Double (id=466)
+NO,object=java.awt.geom.Point2D[]:3
+FW,context=java.awt.geom.Point2D[]:3,0=java.awt.geom.Point2D$Double (id=468)
+FW,context=java.awt.geom.Point2D[]:3,1=java.awt.geom.Point2D$Double (id=469)
+FW,context=java.awt.geom.Point2D[]:3,2=java.awt.geom.Point2D$Double (id=470)
+FW,context=java.awt.geom.Point2D[]:3,3=java.awt.geom.Point2D$Double (id=471)
+VW,context=Main$AOJ1212:1#solve:3,vv=java.awt.geom.Point2D[]:3
+VW,context=Main$AOJ1212:1#solve:3,cnt=0
+VW,context=Main$AOJ1212:1#solve:3,v=0
+VW,context=Main$AOJ1212:1#solve:3,fin=false
+VW,context=Main$AOJ1212:1#solve:3,bs=false
+VW,context=Main$AOJ1212:1#solve:3,cnt=1
+VW,context=Main$AOJ1212:1#solve:3,dis=100.0
+VW,context=Main$AOJ1212:1#solve:3,p=null
+VW,context=Main$AOJ1212:1#solve:3,idx=-1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=0
+MC,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:6
+VW,context=Main$AOJ1212:1#intersectionPoint:6,l1=java.awt.geom.Line2D$Double (id=466)
+VW,context=Main$AOJ1212:1#intersectionPoint:6,l2=java.awt.geom.Line2D$Double (id=453)
+MC,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#intersectionPoint:6
+VW,context=Main$AOJ1212:1#intersectionPoint:6,b2=java.awt.geom.Point2D$Double (id=475)
+VW,context=Main$AOJ1212:1#intersectionPoint:6,a1=java.awt.geom.Point2D$Double (id=472)
+VW,context=Main$AOJ1212:1#intersectionPoint:6,a2=java.awt.geom.Point2D$Double (id=473)
+VW,context=Main$AOJ1212:1#intersectionPoint:6,b1=java.awt.geom.Point2D$Double (id=474)
+MC,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#diff:16
+VW,context=Main$AOJ1212:1#diff:16,p2=java.awt.geom.Point2D$Double (id=472)
+VW,context=Main$AOJ1212:1#diff:16,p1=java.awt.geom.Point2D$Double (id=473)
+VW,context=Main$AOJ1212:1#diff:16,result=java.awt.geom.Point2D$Double (id=476)
+ME,returner=Main$AOJ1212:1#diff:16,value=java.awt.geom.Point2D$Double (id=476)
+VW,context=Main$AOJ1212:1#intersectionPoint:6,a=java.awt.geom.Point2D$Double (id=476)
+MC,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#diff:17
+VW,context=Main$AOJ1212:1#diff:17,p2=java.awt.geom.Point2D$Double (id=474)
+VW,context=Main$AOJ1212:1#diff:17,p1=java.awt.geom.Point2D$Double (id=475)
+VW,context=Main$AOJ1212:1#diff:17,result=java.awt.geom.Point2D$Double (id=477)
+ME,returner=Main$AOJ1212:1#diff:17,value=java.awt.geom.Point2D$Double (id=477)
+VW,context=Main$AOJ1212:1#intersectionPoint:6,b=java.awt.geom.Point2D$Double (id=477)
+MC,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#diff:18
+VW,context=Main$AOJ1212:1#diff:18,p2=java.awt.geom.Point2D$Double (id=472)
+VW,context=Main$AOJ1212:1#diff:18,p1=java.awt.geom.Point2D$Double (id=474)
+VW,context=Main$AOJ1212:1#diff:18,result=java.awt.geom.Point2D$Double (id=478)
+ME,returner=Main$AOJ1212:1#diff:18,value=java.awt.geom.Point2D$Double (id=478)
+MC,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#cross:11
+VW,context=Main$AOJ1212:1#cross:11,p2=java.awt.geom.Point2D$Double (id=478)
+VW,context=Main$AOJ1212:1#cross:11,p1=java.awt.geom.Point2D$Double (id=477)
+VW,context=Main$AOJ1212:1#cross:11,result=-7.25
+ME,returner=Main$AOJ1212:1#cross:11,value=-7.25
+MC,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#cross:12
+VW,context=Main$AOJ1212:1#cross:12,p2=java.awt.geom.Point2D$Double (id=476)
+VW,context=Main$AOJ1212:1#cross:12,p1=java.awt.geom.Point2D$Double (id=477)
+VW,context=Main$AOJ1212:1#cross:12,result=-100.0
+ME,returner=Main$AOJ1212:1#cross:12,value=-100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#mul:6
+VW,context=Main$AOJ1212:1#mul:6,p1=java.awt.geom.Point2D$Double (id=476)
+VW,context=Main$AOJ1212:1#mul:6,n=0.0725
+VW,context=Main$AOJ1212:1#mul:6,result=java.awt.geom.Point2D$Double (id=479)
+ME,returner=Main$AOJ1212:1#mul:6,value=java.awt.geom.Point2D$Double (id=479)
+MC,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#sum:7
+VW,context=Main$AOJ1212:1#sum:7,p2=java.awt.geom.Point2D$Double (id=479)
+VW,context=Main$AOJ1212:1#sum:7,p1=java.awt.geom.Point2D$Double (id=472)
+VW,context=Main$AOJ1212:1#sum:7,result=java.awt.geom.Point2D$Double (id=480)
+ME,returner=Main$AOJ1212:1#sum:7,value=java.awt.geom.Point2D$Double (id=480)
+VW,context=Main$AOJ1212:1#intersectionPoint:6,result=java.awt.geom.Point2D$Double (id=480)
+ME,returner=Main$AOJ1212:1#intersectionPoint:6,value=java.awt.geom.Point2D$Double (id=480)
+VW,context=Main$AOJ1212:1#intersectionPoint:6,result=java.awt.geom.Point2D$Double (id=480)
+ME,returner=Main$AOJ1212:1#intersectionPoint:6,value=java.awt.geom.Point2D$Double (id=480)
+VW,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=480)
+VW,context=Main$AOJ1212:1#solve:3,a=10.253048327204938
+VW,context=Main$AOJ1212:1#solve:3,dis=10.253048327204938
+VW,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=480)
+VW,context=Main$AOJ1212:1#solve:3,idx=0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=1
+VD,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=2
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=3
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:3 <name=i,type=int (id=7),value=<?>,index=17>
+VW,context=Main$AOJ1212:1#solve:3,v=1
+VW,context=Main$AOJ1212:1#solve:3,px=800.0000999999999
+VW,context=Main$AOJ1212:1#solve:3,py=750.0000999999999
+VW,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=481)
+MC,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#sum:8
+VW,context=Main$AOJ1212:1#sum:8,p2=java.awt.geom.Point2D$Double (id=469)
+VW,context=Main$AOJ1212:1#sum:8,p1=java.awt.geom.Point2D$Double (id=481)
+VW,context=Main$AOJ1212:1#sum:8,result=java.awt.geom.Point2D$Double (id=482)
+ME,returner=Main$AOJ1212:1#sum:8,value=java.awt.geom.Point2D$Double (id=482)
+VW,context=Main$AOJ1212:1#solve:3,l=java.awt.geom.Line2D$Double (id=483)
+VD,method=Main$AOJ1212:1#solve:3 <name=bs,type=boolean (id=2),value=<?>,index=13>
+VD,method=Main$AOJ1212:1#solve:3 <name=dis,type=double (id=5),value=<?>,index=14>
+VD,method=Main$AOJ1212:1#solve:3 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+VD,method=Main$AOJ1212:1#solve:3 <name=idx,type=int (id=7),value=<?>,index=16>
+VD,method=Main$AOJ1212:1#solve:3 <name=px,type=double (id=5),value=<?>,index=23>
+VD,method=Main$AOJ1212:1#solve:3 <name=py,type=double (id=5),value=<?>,index=24>
+VW,context=Main$AOJ1212:1#solve:3,bs=false
+VW,context=Main$AOJ1212:1#solve:3,cnt=2
+VW,context=Main$AOJ1212:1#solve:3,dis=100.0
+VW,context=Main$AOJ1212:1#solve:3,p=null
+VW,context=Main$AOJ1212:1#solve:3,idx=-1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=0
+MC,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:7
+VW,context=Main$AOJ1212:1#intersectionPoint:7,l1=java.awt.geom.Line2D$Double (id=483)
+VW,context=Main$AOJ1212:1#intersectionPoint:7,l2=java.awt.geom.Line2D$Double (id=453)
+MC,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#intersectionPoint:7
+VW,context=Main$AOJ1212:1#intersectionPoint:7,b2=java.awt.geom.Point2D$Double (id=487)
+VW,context=Main$AOJ1212:1#intersectionPoint:7,a1=java.awt.geom.Point2D$Double (id=484)
+VW,context=Main$AOJ1212:1#intersectionPoint:7,a2=java.awt.geom.Point2D$Double (id=485)
+VW,context=Main$AOJ1212:1#intersectionPoint:7,b1=java.awt.geom.Point2D$Double (id=486)
+MC,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#diff:19
+VW,context=Main$AOJ1212:1#diff:19,p2=java.awt.geom.Point2D$Double (id=484)
+VW,context=Main$AOJ1212:1#diff:19,p1=java.awt.geom.Point2D$Double (id=485)
+VW,context=Main$AOJ1212:1#diff:19,result=java.awt.geom.Point2D$Double (id=488)
+ME,returner=Main$AOJ1212:1#diff:19,value=java.awt.geom.Point2D$Double (id=488)
+VW,context=Main$AOJ1212:1#intersectionPoint:7,a=java.awt.geom.Point2D$Double (id=488)
+MC,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#diff:20
+VW,context=Main$AOJ1212:1#diff:20,p2=java.awt.geom.Point2D$Double (id=486)
+VW,context=Main$AOJ1212:1#diff:20,p1=java.awt.geom.Point2D$Double (id=487)
+VW,context=Main$AOJ1212:1#diff:20,result=java.awt.geom.Point2D$Double (id=489)
+ME,returner=Main$AOJ1212:1#diff:20,value=java.awt.geom.Point2D$Double (id=489)
+VW,context=Main$AOJ1212:1#intersectionPoint:7,b=java.awt.geom.Point2D$Double (id=489)
+MC,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#diff:21
+VW,context=Main$AOJ1212:1#diff:21,p2=java.awt.geom.Point2D$Double (id=484)
+VW,context=Main$AOJ1212:1#diff:21,p1=java.awt.geom.Point2D$Double (id=486)
+VW,context=Main$AOJ1212:1#diff:21,result=java.awt.geom.Point2D$Double (id=490)
+ME,returner=Main$AOJ1212:1#diff:21,value=java.awt.geom.Point2D$Double (id=490)
+MC,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#cross:13
+VW,context=Main$AOJ1212:1#cross:13,p2=java.awt.geom.Point2D$Double (id=490)
+VW,context=Main$AOJ1212:1#cross:13,p1=java.awt.geom.Point2D$Double (id=489)
+VW,context=Main$AOJ1212:1#cross:13,result=-0.0
+ME,returner=Main$AOJ1212:1#cross:13,value=-0.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#cross:14
+VW,context=Main$AOJ1212:1#cross:14,p2=java.awt.geom.Point2D$Double (id=488)
+VW,context=Main$AOJ1212:1#cross:14,p1=java.awt.geom.Point2D$Double (id=489)
+VW,context=Main$AOJ1212:1#cross:14,result=100.0
+ME,returner=Main$AOJ1212:1#cross:14,value=100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#mul:7
+VW,context=Main$AOJ1212:1#mul:7,p1=java.awt.geom.Point2D$Double (id=488)
+VW,context=Main$AOJ1212:1#mul:7,n=-0.0
+VW,context=Main$AOJ1212:1#mul:7,result=java.awt.geom.Point2D$Double (id=491)
+ME,returner=Main$AOJ1212:1#mul:7,value=java.awt.geom.Point2D$Double (id=491)
+MC,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#sum:9
+VW,context=Main$AOJ1212:1#sum:9,p2=java.awt.geom.Point2D$Double (id=491)
+VW,context=Main$AOJ1212:1#sum:9,p1=java.awt.geom.Point2D$Double (id=484)
+VW,context=Main$AOJ1212:1#sum:9,result=java.awt.geom.Point2D$Double (id=492)
+ME,returner=Main$AOJ1212:1#sum:9,value=java.awt.geom.Point2D$Double (id=492)
+VW,context=Main$AOJ1212:1#intersectionPoint:7,result=java.awt.geom.Point2D$Double (id=492)
+ME,returner=Main$AOJ1212:1#intersectionPoint:7,value=java.awt.geom.Point2D$Double (id=492)
+VW,context=Main$AOJ1212:1#intersectionPoint:7,result=java.awt.geom.Point2D$Double (id=492)
+ME,returner=Main$AOJ1212:1#intersectionPoint:7,value=java.awt.geom.Point2D$Double (id=492)
+VW,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=492)
+VW,context=Main$AOJ1212:1#solve:3,a=0.0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=1
+VD,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+MC,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:8
+VW,context=Main$AOJ1212:1#intersectionPoint:8,l1=java.awt.geom.Line2D$Double (id=483)
+VW,context=Main$AOJ1212:1#intersectionPoint:8,l2=java.awt.geom.Line2D$Double (id=455)
+MC,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#intersectionPoint:8
+VW,context=Main$AOJ1212:1#intersectionPoint:8,b2=java.awt.geom.Point2D$Double (id=496)
+VW,context=Main$AOJ1212:1#intersectionPoint:8,a1=java.awt.geom.Point2D$Double (id=493)
+VW,context=Main$AOJ1212:1#intersectionPoint:8,a2=java.awt.geom.Point2D$Double (id=494)
+VW,context=Main$AOJ1212:1#intersectionPoint:8,b1=java.awt.geom.Point2D$Double (id=495)
+MC,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#diff:22
+VW,context=Main$AOJ1212:1#diff:22,p2=java.awt.geom.Point2D$Double (id=493)
+VW,context=Main$AOJ1212:1#diff:22,p1=java.awt.geom.Point2D$Double (id=494)
+VW,context=Main$AOJ1212:1#diff:22,result=java.awt.geom.Point2D$Double (id=497)
+ME,returner=Main$AOJ1212:1#diff:22,value=java.awt.geom.Point2D$Double (id=497)
+VW,context=Main$AOJ1212:1#intersectionPoint:8,a=java.awt.geom.Point2D$Double (id=497)
+MC,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#diff:23
+VW,context=Main$AOJ1212:1#diff:23,p2=java.awt.geom.Point2D$Double (id=495)
+VW,context=Main$AOJ1212:1#diff:23,p1=java.awt.geom.Point2D$Double (id=496)
+VW,context=Main$AOJ1212:1#diff:23,result=java.awt.geom.Point2D$Double (id=498)
+ME,returner=Main$AOJ1212:1#diff:23,value=java.awt.geom.Point2D$Double (id=498)
+VW,context=Main$AOJ1212:1#intersectionPoint:8,b=java.awt.geom.Point2D$Double (id=498)
+MC,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#diff:24
+VW,context=Main$AOJ1212:1#diff:24,p2=java.awt.geom.Point2D$Double (id=493)
+VW,context=Main$AOJ1212:1#diff:24,p1=java.awt.geom.Point2D$Double (id=495)
+VW,context=Main$AOJ1212:1#diff:24,result=java.awt.geom.Point2D$Double (id=499)
+ME,returner=Main$AOJ1212:1#diff:24,value=java.awt.geom.Point2D$Double (id=499)
+MC,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#cross:15
+VW,context=Main$AOJ1212:1#cross:15,p2=java.awt.geom.Point2D$Double (id=499)
+VW,context=Main$AOJ1212:1#cross:15,p1=java.awt.geom.Point2D$Double (id=498)
+VW,context=Main$AOJ1212:1#cross:15,result=0.5
+ME,returner=Main$AOJ1212:1#cross:15,value=0.5
+MC,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#cross:16
+VW,context=Main$AOJ1212:1#cross:16,p2=java.awt.geom.Point2D$Double (id=497)
+VW,context=Main$AOJ1212:1#cross:16,p1=java.awt.geom.Point2D$Double (id=498)
+VW,context=Main$AOJ1212:1#cross:16,result=100.0
+ME,returner=Main$AOJ1212:1#cross:16,value=100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#mul:8
+VW,context=Main$AOJ1212:1#mul:8,p1=java.awt.geom.Point2D$Double (id=497)
+VW,context=Main$AOJ1212:1#mul:8,n=0.005
+VW,context=Main$AOJ1212:1#mul:8,result=java.awt.geom.Point2D$Double (id=500)
+ME,returner=Main$AOJ1212:1#mul:8,value=java.awt.geom.Point2D$Double (id=500)
+MC,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#sum:10
+VW,context=Main$AOJ1212:1#sum:10,p2=java.awt.geom.Point2D$Double (id=500)
+VW,context=Main$AOJ1212:1#sum:10,p1=java.awt.geom.Point2D$Double (id=493)
+VW,context=Main$AOJ1212:1#sum:10,result=java.awt.geom.Point2D$Double (id=501)
+ME,returner=Main$AOJ1212:1#sum:10,value=java.awt.geom.Point2D$Double (id=501)
+VW,context=Main$AOJ1212:1#intersectionPoint:8,result=java.awt.geom.Point2D$Double (id=501)
+ME,returner=Main$AOJ1212:1#intersectionPoint:8,value=java.awt.geom.Point2D$Double (id=501)
+VW,context=Main$AOJ1212:1#intersectionPoint:8,result=java.awt.geom.Point2D$Double (id=501)
+ME,returner=Main$AOJ1212:1#intersectionPoint:8,value=java.awt.geom.Point2D$Double (id=501)
+VW,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=501)
+VW,context=Main$AOJ1212:1#solve:3,a=0.7071067811865476
+VW,context=Main$AOJ1212:1#solve:3,dis=0.7071067811865476
+VW,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=501)
+VW,context=Main$AOJ1212:1#solve:3,idx=1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=2
+VD,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=3
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:3 <name=i,type=int (id=7),value=<?>,index=17>
+VW,context=Main$AOJ1212:1#solve:3,v=3
+VW,context=Main$AOJ1212:1#solve:3,px=750.0001
+VW,context=Main$AOJ1212:1#solve:3,py=800.0001
+VW,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=502)
+MC,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#sum:11
+VW,context=Main$AOJ1212:1#sum:11,p2=java.awt.geom.Point2D$Double (id=471)
+VW,context=Main$AOJ1212:1#sum:11,p1=java.awt.geom.Point2D$Double (id=502)
+VW,context=Main$AOJ1212:1#sum:11,result=java.awt.geom.Point2D$Double (id=503)
+ME,returner=Main$AOJ1212:1#sum:11,value=java.awt.geom.Point2D$Double (id=503)
+VW,context=Main$AOJ1212:1#solve:3,l=java.awt.geom.Line2D$Double (id=504)
+VD,method=Main$AOJ1212:1#solve:3 <name=bs,type=boolean (id=2),value=<?>,index=13>
+VD,method=Main$AOJ1212:1#solve:3 <name=dis,type=double (id=5),value=<?>,index=14>
+VD,method=Main$AOJ1212:1#solve:3 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+VD,method=Main$AOJ1212:1#solve:3 <name=idx,type=int (id=7),value=<?>,index=16>
+VD,method=Main$AOJ1212:1#solve:3 <name=px,type=double (id=5),value=<?>,index=23>
+VD,method=Main$AOJ1212:1#solve:3 <name=py,type=double (id=5),value=<?>,index=24>
+VW,context=Main$AOJ1212:1#solve:3,bs=false
+VW,context=Main$AOJ1212:1#solve:3,cnt=3
+VW,context=Main$AOJ1212:1#solve:3,dis=100.0
+VW,context=Main$AOJ1212:1#solve:3,p=null
+VW,context=Main$AOJ1212:1#solve:3,idx=-1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=1
+MC,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:9
+VW,context=Main$AOJ1212:1#intersectionPoint:9,l1=java.awt.geom.Line2D$Double (id=504)
+VW,context=Main$AOJ1212:1#intersectionPoint:9,l2=java.awt.geom.Line2D$Double (id=455)
+MC,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#intersectionPoint:9
+VW,context=Main$AOJ1212:1#intersectionPoint:9,b2=java.awt.geom.Point2D$Double (id=508)
+VW,context=Main$AOJ1212:1#intersectionPoint:9,a1=java.awt.geom.Point2D$Double (id=505)
+VW,context=Main$AOJ1212:1#intersectionPoint:9,a2=java.awt.geom.Point2D$Double (id=506)
+VW,context=Main$AOJ1212:1#intersectionPoint:9,b1=java.awt.geom.Point2D$Double (id=507)
+MC,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#diff:25
+VW,context=Main$AOJ1212:1#diff:25,p2=java.awt.geom.Point2D$Double (id=505)
+VW,context=Main$AOJ1212:1#diff:25,p1=java.awt.geom.Point2D$Double (id=506)
+VW,context=Main$AOJ1212:1#diff:25,result=java.awt.geom.Point2D$Double (id=509)
+ME,returner=Main$AOJ1212:1#diff:25,value=java.awt.geom.Point2D$Double (id=509)
+VW,context=Main$AOJ1212:1#intersectionPoint:9,a=java.awt.geom.Point2D$Double (id=509)
+MC,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#diff:26
+VW,context=Main$AOJ1212:1#diff:26,p2=java.awt.geom.Point2D$Double (id=507)
+VW,context=Main$AOJ1212:1#diff:26,p1=java.awt.geom.Point2D$Double (id=508)
+VW,context=Main$AOJ1212:1#diff:26,result=java.awt.geom.Point2D$Double (id=510)
+ME,returner=Main$AOJ1212:1#diff:26,value=java.awt.geom.Point2D$Double (id=510)
+VW,context=Main$AOJ1212:1#intersectionPoint:9,b=java.awt.geom.Point2D$Double (id=510)
+MC,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#diff:27
+VW,context=Main$AOJ1212:1#diff:27,p2=java.awt.geom.Point2D$Double (id=505)
+VW,context=Main$AOJ1212:1#diff:27,p1=java.awt.geom.Point2D$Double (id=507)
+VW,context=Main$AOJ1212:1#diff:27,result=java.awt.geom.Point2D$Double (id=511)
+ME,returner=Main$AOJ1212:1#diff:27,value=java.awt.geom.Point2D$Double (id=511)
+MC,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#cross:17
+VW,context=Main$AOJ1212:1#cross:17,p2=java.awt.geom.Point2D$Double (id=511)
+VW,context=Main$AOJ1212:1#cross:17,p1=java.awt.geom.Point2D$Double (id=510)
+VW,context=Main$AOJ1212:1#cross:17,result=0.0
+ME,returner=Main$AOJ1212:1#cross:17,value=0.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#cross:18
+VW,context=Main$AOJ1212:1#cross:18,p2=java.awt.geom.Point2D$Double (id=509)
+VW,context=Main$AOJ1212:1#cross:18,p1=java.awt.geom.Point2D$Double (id=510)
+VW,context=Main$AOJ1212:1#cross:18,result=-100.0
+ME,returner=Main$AOJ1212:1#cross:18,value=-100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#mul:9
+VW,context=Main$AOJ1212:1#mul:9,p1=java.awt.geom.Point2D$Double (id=509)
+VW,context=Main$AOJ1212:1#mul:9,n=-0.0
+VW,context=Main$AOJ1212:1#mul:9,result=java.awt.geom.Point2D$Double (id=512)
+ME,returner=Main$AOJ1212:1#mul:9,value=java.awt.geom.Point2D$Double (id=512)
+MC,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#sum:12
+VW,context=Main$AOJ1212:1#sum:12,p2=java.awt.geom.Point2D$Double (id=512)
+VW,context=Main$AOJ1212:1#sum:12,p1=java.awt.geom.Point2D$Double (id=505)
+VW,context=Main$AOJ1212:1#sum:12,result=java.awt.geom.Point2D$Double (id=513)
+ME,returner=Main$AOJ1212:1#sum:12,value=java.awt.geom.Point2D$Double (id=513)
+VW,context=Main$AOJ1212:1#intersectionPoint:9,result=java.awt.geom.Point2D$Double (id=513)
+ME,returner=Main$AOJ1212:1#intersectionPoint:9,value=java.awt.geom.Point2D$Double (id=513)
+VW,context=Main$AOJ1212:1#intersectionPoint:9,result=java.awt.geom.Point2D$Double (id=513)
+ME,returner=Main$AOJ1212:1#intersectionPoint:9,value=java.awt.geom.Point2D$Double (id=513)
+VW,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=513)
+VW,context=Main$AOJ1212:1#solve:3,a=0.0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=2
+VD,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+MC,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:10
+VW,context=Main$AOJ1212:1#intersectionPoint:10,l1=java.awt.geom.Line2D$Double (id=504)
+VW,context=Main$AOJ1212:1#intersectionPoint:10,l2=java.awt.geom.Line2D$Double (id=457)
+MC,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#intersectionPoint:10
+VW,context=Main$AOJ1212:1#intersectionPoint:10,b2=java.awt.geom.Point2D$Double (id=517)
+VW,context=Main$AOJ1212:1#intersectionPoint:10,a1=java.awt.geom.Point2D$Double (id=514)
+VW,context=Main$AOJ1212:1#intersectionPoint:10,a2=java.awt.geom.Point2D$Double (id=515)
+VW,context=Main$AOJ1212:1#intersectionPoint:10,b1=java.awt.geom.Point2D$Double (id=516)
+MC,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#diff:28
+VW,context=Main$AOJ1212:1#diff:28,p2=java.awt.geom.Point2D$Double (id=514)
+VW,context=Main$AOJ1212:1#diff:28,p1=java.awt.geom.Point2D$Double (id=515)
+VW,context=Main$AOJ1212:1#diff:28,result=java.awt.geom.Point2D$Double (id=518)
+ME,returner=Main$AOJ1212:1#diff:28,value=java.awt.geom.Point2D$Double (id=518)
+VW,context=Main$AOJ1212:1#intersectionPoint:10,a=java.awt.geom.Point2D$Double (id=518)
+MC,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#diff:29
+VW,context=Main$AOJ1212:1#diff:29,p2=java.awt.geom.Point2D$Double (id=516)
+VW,context=Main$AOJ1212:1#diff:29,p1=java.awt.geom.Point2D$Double (id=517)
+VW,context=Main$AOJ1212:1#diff:29,result=java.awt.geom.Point2D$Double (id=519)
+ME,returner=Main$AOJ1212:1#diff:29,value=java.awt.geom.Point2D$Double (id=519)
+VW,context=Main$AOJ1212:1#intersectionPoint:10,b=java.awt.geom.Point2D$Double (id=519)
+MC,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#diff:30
+VW,context=Main$AOJ1212:1#diff:30,p2=java.awt.geom.Point2D$Double (id=514)
+VW,context=Main$AOJ1212:1#diff:30,p1=java.awt.geom.Point2D$Double (id=516)
+VW,context=Main$AOJ1212:1#diff:30,result=java.awt.geom.Point2D$Double (id=520)
+ME,returner=Main$AOJ1212:1#diff:30,value=java.awt.geom.Point2D$Double (id=520)
+MC,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#cross:19
+VW,context=Main$AOJ1212:1#cross:19,p2=java.awt.geom.Point2D$Double (id=520)
+VW,context=Main$AOJ1212:1#cross:19,p1=java.awt.geom.Point2D$Double (id=519)
+VW,context=Main$AOJ1212:1#cross:19,result=7.5
+ME,returner=Main$AOJ1212:1#cross:19,value=7.5
+MC,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#cross:20
+VW,context=Main$AOJ1212:1#cross:20,p2=java.awt.geom.Point2D$Double (id=518)
+VW,context=Main$AOJ1212:1#cross:20,p1=java.awt.geom.Point2D$Double (id=519)
+VW,context=Main$AOJ1212:1#cross:20,result=100.0
+ME,returner=Main$AOJ1212:1#cross:20,value=100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#mul:10
+VW,context=Main$AOJ1212:1#mul:10,p1=java.awt.geom.Point2D$Double (id=518)
+VW,context=Main$AOJ1212:1#mul:10,n=0.075
+VW,context=Main$AOJ1212:1#mul:10,result=java.awt.geom.Point2D$Double (id=521)
+ME,returner=Main$AOJ1212:1#mul:10,value=java.awt.geom.Point2D$Double (id=521)
+MC,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#sum:13
+VW,context=Main$AOJ1212:1#sum:13,p2=java.awt.geom.Point2D$Double (id=521)
+VW,context=Main$AOJ1212:1#sum:13,p1=java.awt.geom.Point2D$Double (id=514)
+VW,context=Main$AOJ1212:1#sum:13,result=java.awt.geom.Point2D$Double (id=522)
+ME,returner=Main$AOJ1212:1#sum:13,value=java.awt.geom.Point2D$Double (id=522)
+VW,context=Main$AOJ1212:1#intersectionPoint:10,result=java.awt.geom.Point2D$Double (id=522)
+ME,returner=Main$AOJ1212:1#intersectionPoint:10,value=java.awt.geom.Point2D$Double (id=522)
+VW,context=Main$AOJ1212:1#intersectionPoint:10,result=java.awt.geom.Point2D$Double (id=522)
+ME,returner=Main$AOJ1212:1#intersectionPoint:10,value=java.awt.geom.Point2D$Double (id=522)
+VW,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=522)
+VW,context=Main$AOJ1212:1#solve:3,a=10.606601717798213
+VW,context=Main$AOJ1212:1#solve:3,dis=10.606601717798213
+VW,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=522)
+VW,context=Main$AOJ1212:1#solve:3,idx=2
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=3
+VD,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:3 <name=i,type=int (id=7),value=<?>,index=17>
+VW,context=Main$AOJ1212:1#solve:3,v=2
+VW,context=Main$AOJ1212:1#solve:3,px=1.0E-4
+VW,context=Main$AOJ1212:1#solve:3,py=50.0001
+VW,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=523)
+MC,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#sum:14
+VW,context=Main$AOJ1212:1#sum:14,p2=java.awt.geom.Point2D$Double (id=470)
+VW,context=Main$AOJ1212:1#sum:14,p1=java.awt.geom.Point2D$Double (id=523)
+VW,context=Main$AOJ1212:1#sum:14,result=java.awt.geom.Point2D$Double (id=524)
+ME,returner=Main$AOJ1212:1#sum:14,value=java.awt.geom.Point2D$Double (id=524)
+VW,context=Main$AOJ1212:1#solve:3,l=java.awt.geom.Line2D$Double (id=525)
+VD,method=Main$AOJ1212:1#solve:3 <name=bs,type=boolean (id=2),value=<?>,index=13>
+VD,method=Main$AOJ1212:1#solve:3 <name=dis,type=double (id=5),value=<?>,index=14>
+VD,method=Main$AOJ1212:1#solve:3 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+VD,method=Main$AOJ1212:1#solve:3 <name=idx,type=int (id=7),value=<?>,index=16>
+VD,method=Main$AOJ1212:1#solve:3 <name=px,type=double (id=5),value=<?>,index=23>
+VD,method=Main$AOJ1212:1#solve:3 <name=py,type=double (id=5),value=<?>,index=24>
+VW,context=Main$AOJ1212:1#solve:3,bs=false
+VW,context=Main$AOJ1212:1#solve:3,cnt=4
+VW,context=Main$AOJ1212:1#solve:3,dis=100.0
+VW,context=Main$AOJ1212:1#solve:3,p=null
+VW,context=Main$AOJ1212:1#solve:3,idx=-1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=2
+MC,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:11
+VW,context=Main$AOJ1212:1#intersectionPoint:11,l1=java.awt.geom.Line2D$Double (id=525)
+VW,context=Main$AOJ1212:1#intersectionPoint:11,l2=java.awt.geom.Line2D$Double (id=457)
+MC,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#intersectionPoint:11
+VW,context=Main$AOJ1212:1#intersectionPoint:11,b2=java.awt.geom.Point2D$Double (id=529)
+VW,context=Main$AOJ1212:1#intersectionPoint:11,a1=java.awt.geom.Point2D$Double (id=526)
+VW,context=Main$AOJ1212:1#intersectionPoint:11,a2=java.awt.geom.Point2D$Double (id=527)
+VW,context=Main$AOJ1212:1#intersectionPoint:11,b1=java.awt.geom.Point2D$Double (id=528)
+MC,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#diff:31
+VW,context=Main$AOJ1212:1#diff:31,p2=java.awt.geom.Point2D$Double (id=526)
+VW,context=Main$AOJ1212:1#diff:31,p1=java.awt.geom.Point2D$Double (id=527)
+VW,context=Main$AOJ1212:1#diff:31,result=java.awt.geom.Point2D$Double (id=530)
+ME,returner=Main$AOJ1212:1#diff:31,value=java.awt.geom.Point2D$Double (id=530)
+VW,context=Main$AOJ1212:1#intersectionPoint:11,a=java.awt.geom.Point2D$Double (id=530)
+MC,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#diff:32
+VW,context=Main$AOJ1212:1#diff:32,p2=java.awt.geom.Point2D$Double (id=528)
+VW,context=Main$AOJ1212:1#diff:32,p1=java.awt.geom.Point2D$Double (id=529)
+VW,context=Main$AOJ1212:1#diff:32,result=java.awt.geom.Point2D$Double (id=531)
+ME,returner=Main$AOJ1212:1#diff:32,value=java.awt.geom.Point2D$Double (id=531)
+VW,context=Main$AOJ1212:1#intersectionPoint:11,b=java.awt.geom.Point2D$Double (id=531)
+MC,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#diff:33
+VW,context=Main$AOJ1212:1#diff:33,p2=java.awt.geom.Point2D$Double (id=526)
+VW,context=Main$AOJ1212:1#diff:33,p1=java.awt.geom.Point2D$Double (id=528)
+VW,context=Main$AOJ1212:1#diff:33,result=java.awt.geom.Point2D$Double (id=532)
+ME,returner=Main$AOJ1212:1#diff:33,value=java.awt.geom.Point2D$Double (id=532)
+MC,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#cross:21
+VW,context=Main$AOJ1212:1#cross:21,p2=java.awt.geom.Point2D$Double (id=532)
+VW,context=Main$AOJ1212:1#cross:21,p1=java.awt.geom.Point2D$Double (id=531)
+VW,context=Main$AOJ1212:1#cross:21,result=-0.0
+ME,returner=Main$AOJ1212:1#cross:21,value=-0.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#cross:22
+VW,context=Main$AOJ1212:1#cross:22,p2=java.awt.geom.Point2D$Double (id=530)
+VW,context=Main$AOJ1212:1#cross:22,p1=java.awt.geom.Point2D$Double (id=531)
+VW,context=Main$AOJ1212:1#cross:22,result=-100.0
+ME,returner=Main$AOJ1212:1#cross:22,value=-100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#mul:11
+VW,context=Main$AOJ1212:1#mul:11,p1=java.awt.geom.Point2D$Double (id=530)
+VW,context=Main$AOJ1212:1#mul:11,n=0.0
+VW,context=Main$AOJ1212:1#mul:11,result=java.awt.geom.Point2D$Double (id=533)
+ME,returner=Main$AOJ1212:1#mul:11,value=java.awt.geom.Point2D$Double (id=533)
+MC,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#sum:15
+VW,context=Main$AOJ1212:1#sum:15,p2=java.awt.geom.Point2D$Double (id=533)
+VW,context=Main$AOJ1212:1#sum:15,p1=java.awt.geom.Point2D$Double (id=526)
+VW,context=Main$AOJ1212:1#sum:15,result=java.awt.geom.Point2D$Double (id=534)
+ME,returner=Main$AOJ1212:1#sum:15,value=java.awt.geom.Point2D$Double (id=534)
+VW,context=Main$AOJ1212:1#intersectionPoint:11,result=java.awt.geom.Point2D$Double (id=534)
+ME,returner=Main$AOJ1212:1#intersectionPoint:11,value=java.awt.geom.Point2D$Double (id=534)
+VW,context=Main$AOJ1212:1#intersectionPoint:11,result=java.awt.geom.Point2D$Double (id=534)
+ME,returner=Main$AOJ1212:1#intersectionPoint:11,value=java.awt.geom.Point2D$Double (id=534)
+VW,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=534)
+VW,context=Main$AOJ1212:1#solve:3,a=0.0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=3
+VD,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+MC,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:12
+VW,context=Main$AOJ1212:1#intersectionPoint:12,l1=java.awt.geom.Line2D$Double (id=525)
+VW,context=Main$AOJ1212:1#intersectionPoint:12,l2=java.awt.geom.Line2D$Double (id=459)
+MC,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#intersectionPoint:12
+VW,context=Main$AOJ1212:1#intersectionPoint:12,b2=java.awt.geom.Point2D$Double (id=538)
+VW,context=Main$AOJ1212:1#intersectionPoint:12,a1=java.awt.geom.Point2D$Double (id=535)
+VW,context=Main$AOJ1212:1#intersectionPoint:12,a2=java.awt.geom.Point2D$Double (id=536)
+VW,context=Main$AOJ1212:1#intersectionPoint:12,b1=java.awt.geom.Point2D$Double (id=537)
+MC,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#diff:34
+VW,context=Main$AOJ1212:1#diff:34,p2=java.awt.geom.Point2D$Double (id=535)
+VW,context=Main$AOJ1212:1#diff:34,p1=java.awt.geom.Point2D$Double (id=536)
+VW,context=Main$AOJ1212:1#diff:34,result=java.awt.geom.Point2D$Double (id=539)
+ME,returner=Main$AOJ1212:1#diff:34,value=java.awt.geom.Point2D$Double (id=539)
+VW,context=Main$AOJ1212:1#intersectionPoint:12,a=java.awt.geom.Point2D$Double (id=539)
+MC,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#diff:35
+VW,context=Main$AOJ1212:1#diff:35,p2=java.awt.geom.Point2D$Double (id=537)
+VW,context=Main$AOJ1212:1#diff:35,p1=java.awt.geom.Point2D$Double (id=538)
+VW,context=Main$AOJ1212:1#diff:35,result=java.awt.geom.Point2D$Double (id=540)
+ME,returner=Main$AOJ1212:1#diff:35,value=java.awt.geom.Point2D$Double (id=540)
+VW,context=Main$AOJ1212:1#intersectionPoint:12,b=java.awt.geom.Point2D$Double (id=540)
+MC,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#diff:36
+VW,context=Main$AOJ1212:1#diff:36,p2=java.awt.geom.Point2D$Double (id=535)
+VW,context=Main$AOJ1212:1#diff:36,p1=java.awt.geom.Point2D$Double (id=537)
+VW,context=Main$AOJ1212:1#diff:36,result=java.awt.geom.Point2D$Double (id=541)
+ME,returner=Main$AOJ1212:1#diff:36,value=java.awt.geom.Point2D$Double (id=541)
+MC,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#cross:23
+VW,context=Main$AOJ1212:1#cross:23,p2=java.awt.geom.Point2D$Double (id=541)
+VW,context=Main$AOJ1212:1#cross:23,p1=java.awt.geom.Point2D$Double (id=540)
+VW,context=Main$AOJ1212:1#cross:23,result=-0.5
+ME,returner=Main$AOJ1212:1#cross:23,value=-0.5
+MC,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#cross:24
+VW,context=Main$AOJ1212:1#cross:24,p2=java.awt.geom.Point2D$Double (id=539)
+VW,context=Main$AOJ1212:1#cross:24,p1=java.awt.geom.Point2D$Double (id=540)
+VW,context=Main$AOJ1212:1#cross:24,result=-100.0
+ME,returner=Main$AOJ1212:1#cross:24,value=-100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#mul:12
+VW,context=Main$AOJ1212:1#mul:12,p1=java.awt.geom.Point2D$Double (id=539)
+VW,context=Main$AOJ1212:1#mul:12,n=0.005
+VW,context=Main$AOJ1212:1#mul:12,result=java.awt.geom.Point2D$Double (id=542)
+ME,returner=Main$AOJ1212:1#mul:12,value=java.awt.geom.Point2D$Double (id=542)
+MC,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#sum:16
+VW,context=Main$AOJ1212:1#sum:16,p2=java.awt.geom.Point2D$Double (id=542)
+VW,context=Main$AOJ1212:1#sum:16,p1=java.awt.geom.Point2D$Double (id=535)
+VW,context=Main$AOJ1212:1#sum:16,result=java.awt.geom.Point2D$Double (id=543)
+ME,returner=Main$AOJ1212:1#sum:16,value=java.awt.geom.Point2D$Double (id=543)
+VW,context=Main$AOJ1212:1#intersectionPoint:12,result=java.awt.geom.Point2D$Double (id=543)
+ME,returner=Main$AOJ1212:1#intersectionPoint:12,value=java.awt.geom.Point2D$Double (id=543)
+VW,context=Main$AOJ1212:1#intersectionPoint:12,result=java.awt.geom.Point2D$Double (id=543)
+ME,returner=Main$AOJ1212:1#intersectionPoint:12,value=java.awt.geom.Point2D$Double (id=543)
+VW,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=543)
+VW,context=Main$AOJ1212:1#solve:3,a=0.7071067811865476
+VW,context=Main$AOJ1212:1#solve:3,dis=0.7071067811865476
+VW,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=543)
+VW,context=Main$AOJ1212:1#solve:3,idx=3
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+VD,method=Main$AOJ1212:1#solve:3 <name=i,type=int (id=7),value=<?>,index=17>
+VW,context=Main$AOJ1212:1#solve:3,v=0
+VW,context=Main$AOJ1212:1#solve:3,px=50.0001
+VW,context=Main$AOJ1212:1#solve:3,py=1.0E-4
+VW,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=544)
+MC,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#sum:17
+VW,context=Main$AOJ1212:1#sum:17,p2=java.awt.geom.Point2D$Double (id=468)
+VW,context=Main$AOJ1212:1#sum:17,p1=java.awt.geom.Point2D$Double (id=544)
+VW,context=Main$AOJ1212:1#sum:17,result=java.awt.geom.Point2D$Double (id=545)
+ME,returner=Main$AOJ1212:1#sum:17,value=java.awt.geom.Point2D$Double (id=545)
+VW,context=Main$AOJ1212:1#solve:3,l=java.awt.geom.Line2D$Double (id=546)
+VD,method=Main$AOJ1212:1#solve:3 <name=bs,type=boolean (id=2),value=<?>,index=13>
+VD,method=Main$AOJ1212:1#solve:3 <name=dis,type=double (id=5),value=<?>,index=14>
+VD,method=Main$AOJ1212:1#solve:3 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+VD,method=Main$AOJ1212:1#solve:3 <name=idx,type=int (id=7),value=<?>,index=16>
+VD,method=Main$AOJ1212:1#solve:3 <name=px,type=double (id=5),value=<?>,index=23>
+VD,method=Main$AOJ1212:1#solve:3 <name=py,type=double (id=5),value=<?>,index=24>
+VW,context=Main$AOJ1212:1#solve:3,bs=true
+VW,context=Main$AOJ1212:1#solve:3,cnt=5
+VW,context=Main$AOJ1212:1#solve:3,dis=100.0
+VW,context=Main$AOJ1212:1#solve:3,p=null
+VW,context=Main$AOJ1212:1#solve:3,idx=-1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=0
+MC,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:13
+VW,context=Main$AOJ1212:1#intersectionPoint:13,l1=java.awt.geom.Line2D$Double (id=546)
+VW,context=Main$AOJ1212:1#intersectionPoint:13,l2=java.awt.geom.Line2D$Double (id=453)
+MC,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#intersectionPoint:13
+VW,context=Main$AOJ1212:1#intersectionPoint:13,b2=java.awt.geom.Point2D$Double (id=550)
+VW,context=Main$AOJ1212:1#intersectionPoint:13,a1=java.awt.geom.Point2D$Double (id=547)
+VW,context=Main$AOJ1212:1#intersectionPoint:13,a2=java.awt.geom.Point2D$Double (id=548)
+VW,context=Main$AOJ1212:1#intersectionPoint:13,b1=java.awt.geom.Point2D$Double (id=549)
+MC,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#diff:37
+VW,context=Main$AOJ1212:1#diff:37,p2=java.awt.geom.Point2D$Double (id=547)
+VW,context=Main$AOJ1212:1#diff:37,p1=java.awt.geom.Point2D$Double (id=548)
+VW,context=Main$AOJ1212:1#diff:37,result=java.awt.geom.Point2D$Double (id=551)
+ME,returner=Main$AOJ1212:1#diff:37,value=java.awt.geom.Point2D$Double (id=551)
+VW,context=Main$AOJ1212:1#intersectionPoint:13,a=java.awt.geom.Point2D$Double (id=551)
+MC,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#diff:38
+VW,context=Main$AOJ1212:1#diff:38,p2=java.awt.geom.Point2D$Double (id=549)
+VW,context=Main$AOJ1212:1#diff:38,p1=java.awt.geom.Point2D$Double (id=550)
+VW,context=Main$AOJ1212:1#diff:38,result=java.awt.geom.Point2D$Double (id=552)
+ME,returner=Main$AOJ1212:1#diff:38,value=java.awt.geom.Point2D$Double (id=552)
+VW,context=Main$AOJ1212:1#intersectionPoint:13,b=java.awt.geom.Point2D$Double (id=552)
+MC,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#diff:39
+VW,context=Main$AOJ1212:1#diff:39,p2=java.awt.geom.Point2D$Double (id=547)
+VW,context=Main$AOJ1212:1#diff:39,p1=java.awt.geom.Point2D$Double (id=549)
+VW,context=Main$AOJ1212:1#diff:39,result=java.awt.geom.Point2D$Double (id=553)
+ME,returner=Main$AOJ1212:1#diff:39,value=java.awt.geom.Point2D$Double (id=553)
+MC,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#cross:25
+VW,context=Main$AOJ1212:1#cross:25,p2=java.awt.geom.Point2D$Double (id=553)
+VW,context=Main$AOJ1212:1#cross:25,p1=java.awt.geom.Point2D$Double (id=552)
+VW,context=Main$AOJ1212:1#cross:25,result=-7.5
+ME,returner=Main$AOJ1212:1#cross:25,value=-7.5
+MC,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#cross:26
+VW,context=Main$AOJ1212:1#cross:26,p2=java.awt.geom.Point2D$Double (id=551)
+VW,context=Main$AOJ1212:1#cross:26,p1=java.awt.geom.Point2D$Double (id=552)
+VW,context=Main$AOJ1212:1#cross:26,result=-100.0
+ME,returner=Main$AOJ1212:1#cross:26,value=-100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#mul:13
+VW,context=Main$AOJ1212:1#mul:13,p1=java.awt.geom.Point2D$Double (id=551)
+VW,context=Main$AOJ1212:1#mul:13,n=0.075
+VW,context=Main$AOJ1212:1#mul:13,result=java.awt.geom.Point2D$Double (id=554)
+ME,returner=Main$AOJ1212:1#mul:13,value=java.awt.geom.Point2D$Double (id=554)
+MC,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#sum:18
+VW,context=Main$AOJ1212:1#sum:18,p2=java.awt.geom.Point2D$Double (id=554)
+VW,context=Main$AOJ1212:1#sum:18,p1=java.awt.geom.Point2D$Double (id=547)
+VW,context=Main$AOJ1212:1#sum:18,result=java.awt.geom.Point2D$Double (id=555)
+ME,returner=Main$AOJ1212:1#sum:18,value=java.awt.geom.Point2D$Double (id=555)
+VW,context=Main$AOJ1212:1#intersectionPoint:13,result=java.awt.geom.Point2D$Double (id=555)
+ME,returner=Main$AOJ1212:1#intersectionPoint:13,value=java.awt.geom.Point2D$Double (id=555)
+VW,context=Main$AOJ1212:1#intersectionPoint:13,result=java.awt.geom.Point2D$Double (id=555)
+ME,returner=Main$AOJ1212:1#intersectionPoint:13,value=java.awt.geom.Point2D$Double (id=555)
+VW,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=555)
+VW,context=Main$AOJ1212:1#solve:3,a=10.606601717798213
+VW,context=Main$AOJ1212:1#solve:3,dis=10.606601717798213
+VW,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=555)
+VW,context=Main$AOJ1212:1#solve:3,idx=0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=1
+VD,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=2
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:3,i=3
+MC,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:14
+VW,context=Main$AOJ1212:1#intersectionPoint:14,l1=java.awt.geom.Line2D$Double (id=546)
+VW,context=Main$AOJ1212:1#intersectionPoint:14,l2=java.awt.geom.Line2D$Double (id=459)
+MC,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#intersectionPoint:14
+VW,context=Main$AOJ1212:1#intersectionPoint:14,b2=java.awt.geom.Point2D$Double (id=559)
+VW,context=Main$AOJ1212:1#intersectionPoint:14,a1=java.awt.geom.Point2D$Double (id=556)
+VW,context=Main$AOJ1212:1#intersectionPoint:14,a2=java.awt.geom.Point2D$Double (id=557)
+VW,context=Main$AOJ1212:1#intersectionPoint:14,b1=java.awt.geom.Point2D$Double (id=558)
+MC,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#diff:40
+VW,context=Main$AOJ1212:1#diff:40,p2=java.awt.geom.Point2D$Double (id=556)
+VW,context=Main$AOJ1212:1#diff:40,p1=java.awt.geom.Point2D$Double (id=557)
+VW,context=Main$AOJ1212:1#diff:40,result=java.awt.geom.Point2D$Double (id=560)
+ME,returner=Main$AOJ1212:1#diff:40,value=java.awt.geom.Point2D$Double (id=560)
+VW,context=Main$AOJ1212:1#intersectionPoint:14,a=java.awt.geom.Point2D$Double (id=560)
+MC,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#diff:41
+VW,context=Main$AOJ1212:1#diff:41,p2=java.awt.geom.Point2D$Double (id=558)
+VW,context=Main$AOJ1212:1#diff:41,p1=java.awt.geom.Point2D$Double (id=559)
+VW,context=Main$AOJ1212:1#diff:41,result=java.awt.geom.Point2D$Double (id=561)
+ME,returner=Main$AOJ1212:1#diff:41,value=java.awt.geom.Point2D$Double (id=561)
+VW,context=Main$AOJ1212:1#intersectionPoint:14,b=java.awt.geom.Point2D$Double (id=561)
+MC,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#diff:42
+VW,context=Main$AOJ1212:1#diff:42,p2=java.awt.geom.Point2D$Double (id=556)
+VW,context=Main$AOJ1212:1#diff:42,p1=java.awt.geom.Point2D$Double (id=558)
+VW,context=Main$AOJ1212:1#diff:42,result=java.awt.geom.Point2D$Double (id=562)
+ME,returner=Main$AOJ1212:1#diff:42,value=java.awt.geom.Point2D$Double (id=562)
+MC,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#cross:27
+VW,context=Main$AOJ1212:1#cross:27,p2=java.awt.geom.Point2D$Double (id=562)
+VW,context=Main$AOJ1212:1#cross:27,p1=java.awt.geom.Point2D$Double (id=561)
+VW,context=Main$AOJ1212:1#cross:27,result=0.0
+ME,returner=Main$AOJ1212:1#cross:27,value=0.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#cross:28
+VW,context=Main$AOJ1212:1#cross:28,p2=java.awt.geom.Point2D$Double (id=560)
+VW,context=Main$AOJ1212:1#cross:28,p1=java.awt.geom.Point2D$Double (id=561)
+VW,context=Main$AOJ1212:1#cross:28,result=100.0
+ME,returner=Main$AOJ1212:1#cross:28,value=100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#mul:14
+VW,context=Main$AOJ1212:1#mul:14,p1=java.awt.geom.Point2D$Double (id=560)
+VW,context=Main$AOJ1212:1#mul:14,n=0.0
+VW,context=Main$AOJ1212:1#mul:14,result=java.awt.geom.Point2D$Double (id=563)
+ME,returner=Main$AOJ1212:1#mul:14,value=java.awt.geom.Point2D$Double (id=563)
+MC,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#sum:19
+VW,context=Main$AOJ1212:1#sum:19,p2=java.awt.geom.Point2D$Double (id=563)
+VW,context=Main$AOJ1212:1#sum:19,p1=java.awt.geom.Point2D$Double (id=556)
+VW,context=Main$AOJ1212:1#sum:19,result=java.awt.geom.Point2D$Double (id=564)
+ME,returner=Main$AOJ1212:1#sum:19,value=java.awt.geom.Point2D$Double (id=564)
+VW,context=Main$AOJ1212:1#intersectionPoint:14,result=java.awt.geom.Point2D$Double (id=564)
+ME,returner=Main$AOJ1212:1#intersectionPoint:14,value=java.awt.geom.Point2D$Double (id=564)
+VW,context=Main$AOJ1212:1#intersectionPoint:14,result=java.awt.geom.Point2D$Double (id=564)
+ME,returner=Main$AOJ1212:1#intersectionPoint:14,value=java.awt.geom.Point2D$Double (id=564)
+VW,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=564)
+VW,context=Main$AOJ1212:1#solve:3,a=0.0
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+VD,method=Main$AOJ1212:1#solve:3 <name=i,type=int (id=7),value=<?>,index=17>
+VW,context=Main$AOJ1212:1#solve:3,tmp=0.3535533905932738
+VD,method=Main$AOJ1212:1#solve:3 <name=bs,type=boolean (id=2),value=<?>,index=13>
+VD,method=Main$AOJ1212:1#solve:3 <name=dis,type=double (id=5),value=<?>,index=14>
+VD,method=Main$AOJ1212:1#solve:3 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+VD,method=Main$AOJ1212:1#solve:3 <name=idx,type=int (id=7),value=<?>,index=16>
+VD,method=Main$AOJ1212:1#solve:3 <name=tmp,type=double (id=5),value=<?>,index=22>
+ME,returner=Main$AOJ1212:1#solve:3,value=<void>
+FR,context=Main:1,sc
+FW,context=Main$AOJ1212:1,N=4
+FR,context=Main$AOJ1212:1,N
+MC,caller=Main$AOJ1212:1#Main$AOJ1212:1,target=Main$AOJ1212:1#solve:4
+FR,context=Main$AOJ1212:1,N
+NO,object=java.awt.geom.Line2D[]:7
+FW,context=java.awt.geom.Line2D[]:7,0=null
+FW,context=java.awt.geom.Line2D[]:7,1=null
+FW,context=java.awt.geom.Line2D[]:7,2=null
+FW,context=java.awt.geom.Line2D[]:7,3=null
+VW,context=Main$AOJ1212:1#solve:4,mirrors=java.awt.geom.Line2D[]:7
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=0
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:4,d=y
+FR,context=Main:1,sc
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:4,x=2
+VW,context=Main$AOJ1212:1#solve:4,y=1
+FW,context=java.awt.geom.Line2D[]:7,0=java.awt.geom.Line2D$Double (id=567)
+VW,context=Main$AOJ1212:1#solve:4,mirrors=java.awt.geom.Line2D[]:7
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=1
+VD,method=Main$AOJ1212:1#solve:4 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+VD,method=Main$AOJ1212:1#solve:4 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main$AOJ1212:1#solve:4 <name=y,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:4,d=x
+FR,context=Main:1,sc
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:4,x=1
+VW,context=Main$AOJ1212:1#solve:4,y=2
+FW,context=java.awt.geom.Line2D[]:7,1=java.awt.geom.Line2D$Double (id=569)
+VW,context=Main$AOJ1212:1#solve:4,mirrors=java.awt.geom.Line2D[]:7
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=2
+VD,method=Main$AOJ1212:1#solve:4 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+VD,method=Main$AOJ1212:1#solve:4 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main$AOJ1212:1#solve:4 <name=y,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:4,d=y
+FR,context=Main:1,sc
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:4,x=0
+VW,context=Main$AOJ1212:1#solve:4,y=0
+FW,context=java.awt.geom.Line2D[]:7,2=java.awt.geom.Line2D$Double (id=571)
+VW,context=Main$AOJ1212:1#solve:4,mirrors=java.awt.geom.Line2D[]:7
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=3
+VD,method=Main$AOJ1212:1#solve:4 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+VD,method=Main$AOJ1212:1#solve:4 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main$AOJ1212:1#solve:4 <name=y,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:4,d=x
+FR,context=Main:1,sc
+FR,context=Main:1,sc
+VW,context=Main$AOJ1212:1#solve:4,x=0
+VW,context=Main$AOJ1212:1#solve:4,y=0
+FW,context=java.awt.geom.Line2D[]:7,3=java.awt.geom.Line2D$Double (id=573)
+VW,context=Main$AOJ1212:1#solve:4,mirrors=java.awt.geom.Line2D[]:7
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:4 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+VD,method=Main$AOJ1212:1#solve:4 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main$AOJ1212:1#solve:4 <name=y,type=int (id=7),value=<?>,index=4>
+VD,method=Main$AOJ1212:1#solve:4 <name=i,type=int (id=7),value=<?>,index=1>
+NO,object=java.awt.geom.Line2D[]:8
+FW,context=java.awt.geom.Line2D[]:8,0=null
+FW,context=java.awt.geom.Line2D[]:8,1=null
+FW,context=java.awt.geom.Line2D[]:8,2=null
+FW,context=java.awt.geom.Line2D[]:8,3=null
+VW,context=Main$AOJ1212:1#solve:4,walls=java.awt.geom.Line2D[]:8
+FW,context=java.awt.geom.Line2D[]:8,0=java.awt.geom.Line2D$Double (id=575)
+VW,context=Main$AOJ1212:1#solve:4,walls=java.awt.geom.Line2D[]:8
+FW,context=java.awt.geom.Line2D[]:8,1=java.awt.geom.Line2D$Double (id=576)
+VW,context=Main$AOJ1212:1#solve:4,walls=java.awt.geom.Line2D[]:8
+FW,context=java.awt.geom.Line2D[]:8,2=java.awt.geom.Line2D$Double (id=577)
+VW,context=Main$AOJ1212:1#solve:4,walls=java.awt.geom.Line2D[]:8
+FW,context=java.awt.geom.Line2D[]:8,3=java.awt.geom.Line2D$Double (id=578)
+VW,context=Main$AOJ1212:1#solve:4,walls=java.awt.geom.Line2D[]:8
+VW,context=Main$AOJ1212:1#solve:4,start=java.awt.geom.Point2D$Double (id=579)
+VW,context=Main$AOJ1212:1#solve:4,ans=java.awt.geom.Point2D$Double (id=579)
+VW,context=Main$AOJ1212:1#solve:4,l=java.awt.geom.Line2D$Double (id=580)
+NO,object=java.awt.geom.Point2D[]:4
+FW,context=java.awt.geom.Point2D[]:4,0=java.awt.geom.Point2D$Double (id=582)
+FW,context=java.awt.geom.Point2D[]:4,1=java.awt.geom.Point2D$Double (id=583)
+FW,context=java.awt.geom.Point2D[]:4,2=java.awt.geom.Point2D$Double (id=584)
+FW,context=java.awt.geom.Point2D[]:4,3=java.awt.geom.Point2D$Double (id=585)
+VW,context=Main$AOJ1212:1#solve:4,vv=java.awt.geom.Point2D[]:4
+VW,context=Main$AOJ1212:1#solve:4,cnt=0
+VW,context=Main$AOJ1212:1#solve:4,v=0
+VW,context=Main$AOJ1212:1#solve:4,fin=false
+VW,context=Main$AOJ1212:1#solve:4,bs=false
+VW,context=Main$AOJ1212:1#solve:4,cnt=1
+VW,context=Main$AOJ1212:1#solve:4,dis=100.0
+VW,context=Main$AOJ1212:1#solve:4,p=null
+VW,context=Main$AOJ1212:1#solve:4,idx=-1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=0
+MC,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:15
+VW,context=Main$AOJ1212:1#intersectionPoint:15,l1=java.awt.geom.Line2D$Double (id=580)
+VW,context=Main$AOJ1212:1#intersectionPoint:15,l2=java.awt.geom.Line2D$Double (id=567)
+MC,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#intersectionPoint:15
+VW,context=Main$AOJ1212:1#intersectionPoint:15,b2=java.awt.geom.Point2D$Double (id=589)
+VW,context=Main$AOJ1212:1#intersectionPoint:15,a1=java.awt.geom.Point2D$Double (id=586)
+VW,context=Main$AOJ1212:1#intersectionPoint:15,a2=java.awt.geom.Point2D$Double (id=587)
+VW,context=Main$AOJ1212:1#intersectionPoint:15,b1=java.awt.geom.Point2D$Double (id=588)
+MC,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#diff:43
+VW,context=Main$AOJ1212:1#diff:43,p2=java.awt.geom.Point2D$Double (id=586)
+VW,context=Main$AOJ1212:1#diff:43,p1=java.awt.geom.Point2D$Double (id=587)
+VW,context=Main$AOJ1212:1#diff:43,result=java.awt.geom.Point2D$Double (id=590)
+ME,returner=Main$AOJ1212:1#diff:43,value=java.awt.geom.Point2D$Double (id=590)
+VW,context=Main$AOJ1212:1#intersectionPoint:15,a=java.awt.geom.Point2D$Double (id=590)
+MC,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#diff:44
+VW,context=Main$AOJ1212:1#diff:44,p2=java.awt.geom.Point2D$Double (id=588)
+VW,context=Main$AOJ1212:1#diff:44,p1=java.awt.geom.Point2D$Double (id=589)
+VW,context=Main$AOJ1212:1#diff:44,result=java.awt.geom.Point2D$Double (id=591)
+ME,returner=Main$AOJ1212:1#diff:44,value=java.awt.geom.Point2D$Double (id=591)
+VW,context=Main$AOJ1212:1#intersectionPoint:15,b=java.awt.geom.Point2D$Double (id=591)
+MC,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#diff:45
+VW,context=Main$AOJ1212:1#diff:45,p2=java.awt.geom.Point2D$Double (id=586)
+VW,context=Main$AOJ1212:1#diff:45,p1=java.awt.geom.Point2D$Double (id=588)
+VW,context=Main$AOJ1212:1#diff:45,result=java.awt.geom.Point2D$Double (id=592)
+ME,returner=Main$AOJ1212:1#diff:45,value=java.awt.geom.Point2D$Double (id=592)
+MC,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#cross:29
+VW,context=Main$AOJ1212:1#cross:29,p2=java.awt.geom.Point2D$Double (id=592)
+VW,context=Main$AOJ1212:1#cross:29,p1=java.awt.geom.Point2D$Double (id=591)
+VW,context=Main$AOJ1212:1#cross:29,result=-1.25
+ME,returner=Main$AOJ1212:1#cross:29,value=-1.25
+MC,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#cross:30
+VW,context=Main$AOJ1212:1#cross:30,p2=java.awt.geom.Point2D$Double (id=590)
+VW,context=Main$AOJ1212:1#cross:30,p1=java.awt.geom.Point2D$Double (id=591)
+VW,context=Main$AOJ1212:1#cross:30,result=-100.0
+ME,returner=Main$AOJ1212:1#cross:30,value=-100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#mul:15
+VW,context=Main$AOJ1212:1#mul:15,p1=java.awt.geom.Point2D$Double (id=590)
+VW,context=Main$AOJ1212:1#mul:15,n=0.0125
+VW,context=Main$AOJ1212:1#mul:15,result=java.awt.geom.Point2D$Double (id=593)
+ME,returner=Main$AOJ1212:1#mul:15,value=java.awt.geom.Point2D$Double (id=593)
+MC,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#sum:20
+VW,context=Main$AOJ1212:1#sum:20,p2=java.awt.geom.Point2D$Double (id=593)
+VW,context=Main$AOJ1212:1#sum:20,p1=java.awt.geom.Point2D$Double (id=586)
+VW,context=Main$AOJ1212:1#sum:20,result=java.awt.geom.Point2D$Double (id=594)
+ME,returner=Main$AOJ1212:1#sum:20,value=java.awt.geom.Point2D$Double (id=594)
+VW,context=Main$AOJ1212:1#intersectionPoint:15,result=java.awt.geom.Point2D$Double (id=594)
+ME,returner=Main$AOJ1212:1#intersectionPoint:15,value=java.awt.geom.Point2D$Double (id=594)
+VW,context=Main$AOJ1212:1#intersectionPoint:15,result=java.awt.geom.Point2D$Double (id=594)
+ME,returner=Main$AOJ1212:1#intersectionPoint:15,value=java.awt.geom.Point2D$Double (id=594)
+VW,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=594)
+VW,context=Main$AOJ1212:1#solve:4,a=1.7677669529663689
+VW,context=Main$AOJ1212:1#solve:4,dis=1.7677669529663689
+VW,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=594)
+VW,context=Main$AOJ1212:1#solve:4,idx=0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=1
+VD,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=2
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=3
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:4 <name=i,type=int (id=7),value=<?>,index=17>
+VW,context=Main$AOJ1212:1#solve:4,v=1
+VW,context=Main$AOJ1212:1#solve:4,px=200.0001
+VW,context=Main$AOJ1212:1#solve:4,py=150.0001
+VW,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=595)
+MC,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#sum:21
+VW,context=Main$AOJ1212:1#sum:21,p2=java.awt.geom.Point2D$Double (id=583)
+VW,context=Main$AOJ1212:1#sum:21,p1=java.awt.geom.Point2D$Double (id=595)
+VW,context=Main$AOJ1212:1#sum:21,result=java.awt.geom.Point2D$Double (id=596)
+ME,returner=Main$AOJ1212:1#sum:21,value=java.awt.geom.Point2D$Double (id=596)
+VW,context=Main$AOJ1212:1#solve:4,l=java.awt.geom.Line2D$Double (id=597)
+VD,method=Main$AOJ1212:1#solve:4 <name=bs,type=boolean (id=2),value=<?>,index=13>
+VD,method=Main$AOJ1212:1#solve:4 <name=dis,type=double (id=5),value=<?>,index=14>
+VD,method=Main$AOJ1212:1#solve:4 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+VD,method=Main$AOJ1212:1#solve:4 <name=idx,type=int (id=7),value=<?>,index=16>
+VD,method=Main$AOJ1212:1#solve:4 <name=px,type=double (id=5),value=<?>,index=23>
+VD,method=Main$AOJ1212:1#solve:4 <name=py,type=double (id=5),value=<?>,index=24>
+VW,context=Main$AOJ1212:1#solve:4,bs=false
+VW,context=Main$AOJ1212:1#solve:4,cnt=2
+VW,context=Main$AOJ1212:1#solve:4,dis=100.0
+VW,context=Main$AOJ1212:1#solve:4,p=null
+VW,context=Main$AOJ1212:1#solve:4,idx=-1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=0
+MC,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:16
+VW,context=Main$AOJ1212:1#intersectionPoint:16,l1=java.awt.geom.Line2D$Double (id=597)
+VW,context=Main$AOJ1212:1#intersectionPoint:16,l2=java.awt.geom.Line2D$Double (id=567)
+MC,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#intersectionPoint:16
+VW,context=Main$AOJ1212:1#intersectionPoint:16,b2=java.awt.geom.Point2D$Double (id=601)
+VW,context=Main$AOJ1212:1#intersectionPoint:16,a1=java.awt.geom.Point2D$Double (id=598)
+VW,context=Main$AOJ1212:1#intersectionPoint:16,a2=java.awt.geom.Point2D$Double (id=599)
+VW,context=Main$AOJ1212:1#intersectionPoint:16,b1=java.awt.geom.Point2D$Double (id=600)
+MC,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#diff:46
+VW,context=Main$AOJ1212:1#diff:46,p2=java.awt.geom.Point2D$Double (id=598)
+VW,context=Main$AOJ1212:1#diff:46,p1=java.awt.geom.Point2D$Double (id=599)
+VW,context=Main$AOJ1212:1#diff:46,result=java.awt.geom.Point2D$Double (id=602)
+ME,returner=Main$AOJ1212:1#diff:46,value=java.awt.geom.Point2D$Double (id=602)
+VW,context=Main$AOJ1212:1#intersectionPoint:16,a=java.awt.geom.Point2D$Double (id=602)
+MC,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#diff:47
+VW,context=Main$AOJ1212:1#diff:47,p2=java.awt.geom.Point2D$Double (id=600)
+VW,context=Main$AOJ1212:1#diff:47,p1=java.awt.geom.Point2D$Double (id=601)
+VW,context=Main$AOJ1212:1#diff:47,result=java.awt.geom.Point2D$Double (id=603)
+ME,returner=Main$AOJ1212:1#diff:47,value=java.awt.geom.Point2D$Double (id=603)
+VW,context=Main$AOJ1212:1#intersectionPoint:16,b=java.awt.geom.Point2D$Double (id=603)
+MC,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#diff:48
+VW,context=Main$AOJ1212:1#diff:48,p2=java.awt.geom.Point2D$Double (id=598)
+VW,context=Main$AOJ1212:1#diff:48,p1=java.awt.geom.Point2D$Double (id=600)
+VW,context=Main$AOJ1212:1#diff:48,result=java.awt.geom.Point2D$Double (id=604)
+ME,returner=Main$AOJ1212:1#diff:48,value=java.awt.geom.Point2D$Double (id=604)
+MC,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#cross:31
+VW,context=Main$AOJ1212:1#cross:31,p2=java.awt.geom.Point2D$Double (id=604)
+VW,context=Main$AOJ1212:1#cross:31,p1=java.awt.geom.Point2D$Double (id=603)
+VW,context=Main$AOJ1212:1#cross:31,result=-0.0
+ME,returner=Main$AOJ1212:1#cross:31,value=-0.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#cross:32
+VW,context=Main$AOJ1212:1#cross:32,p2=java.awt.geom.Point2D$Double (id=602)
+VW,context=Main$AOJ1212:1#cross:32,p1=java.awt.geom.Point2D$Double (id=603)
+VW,context=Main$AOJ1212:1#cross:32,result=100.0
+ME,returner=Main$AOJ1212:1#cross:32,value=100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#mul:16
+VW,context=Main$AOJ1212:1#mul:16,p1=java.awt.geom.Point2D$Double (id=602)
+VW,context=Main$AOJ1212:1#mul:16,n=-0.0
+VW,context=Main$AOJ1212:1#mul:16,result=java.awt.geom.Point2D$Double (id=605)
+ME,returner=Main$AOJ1212:1#mul:16,value=java.awt.geom.Point2D$Double (id=605)
+MC,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#sum:22
+VW,context=Main$AOJ1212:1#sum:22,p2=java.awt.geom.Point2D$Double (id=605)
+VW,context=Main$AOJ1212:1#sum:22,p1=java.awt.geom.Point2D$Double (id=598)
+VW,context=Main$AOJ1212:1#sum:22,result=java.awt.geom.Point2D$Double (id=606)
+ME,returner=Main$AOJ1212:1#sum:22,value=java.awt.geom.Point2D$Double (id=606)
+VW,context=Main$AOJ1212:1#intersectionPoint:16,result=java.awt.geom.Point2D$Double (id=606)
+ME,returner=Main$AOJ1212:1#intersectionPoint:16,value=java.awt.geom.Point2D$Double (id=606)
+VW,context=Main$AOJ1212:1#intersectionPoint:16,result=java.awt.geom.Point2D$Double (id=606)
+ME,returner=Main$AOJ1212:1#intersectionPoint:16,value=java.awt.geom.Point2D$Double (id=606)
+VW,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=606)
+VW,context=Main$AOJ1212:1#solve:4,a=0.0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=1
+VD,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+MC,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:17
+VW,context=Main$AOJ1212:1#intersectionPoint:17,l1=java.awt.geom.Line2D$Double (id=597)
+VW,context=Main$AOJ1212:1#intersectionPoint:17,l2=java.awt.geom.Line2D$Double (id=569)
+MC,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#intersectionPoint:17
+VW,context=Main$AOJ1212:1#intersectionPoint:17,b2=java.awt.geom.Point2D$Double (id=610)
+VW,context=Main$AOJ1212:1#intersectionPoint:17,a1=java.awt.geom.Point2D$Double (id=607)
+VW,context=Main$AOJ1212:1#intersectionPoint:17,a2=java.awt.geom.Point2D$Double (id=608)
+VW,context=Main$AOJ1212:1#intersectionPoint:17,b1=java.awt.geom.Point2D$Double (id=609)
+MC,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#diff:49
+VW,context=Main$AOJ1212:1#diff:49,p2=java.awt.geom.Point2D$Double (id=607)
+VW,context=Main$AOJ1212:1#diff:49,p1=java.awt.geom.Point2D$Double (id=608)
+VW,context=Main$AOJ1212:1#diff:49,result=java.awt.geom.Point2D$Double (id=611)
+ME,returner=Main$AOJ1212:1#diff:49,value=java.awt.geom.Point2D$Double (id=611)
+VW,context=Main$AOJ1212:1#intersectionPoint:17,a=java.awt.geom.Point2D$Double (id=611)
+MC,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#diff:50
+VW,context=Main$AOJ1212:1#diff:50,p2=java.awt.geom.Point2D$Double (id=609)
+VW,context=Main$AOJ1212:1#diff:50,p1=java.awt.geom.Point2D$Double (id=610)
+VW,context=Main$AOJ1212:1#diff:50,result=java.awt.geom.Point2D$Double (id=612)
+ME,returner=Main$AOJ1212:1#diff:50,value=java.awt.geom.Point2D$Double (id=612)
+VW,context=Main$AOJ1212:1#intersectionPoint:17,b=java.awt.geom.Point2D$Double (id=612)
+MC,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#diff:51
+VW,context=Main$AOJ1212:1#diff:51,p2=java.awt.geom.Point2D$Double (id=607)
+VW,context=Main$AOJ1212:1#diff:51,p1=java.awt.geom.Point2D$Double (id=609)
+VW,context=Main$AOJ1212:1#diff:51,result=java.awt.geom.Point2D$Double (id=613)
+ME,returner=Main$AOJ1212:1#diff:51,value=java.awt.geom.Point2D$Double (id=613)
+MC,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#cross:33
+VW,context=Main$AOJ1212:1#cross:33,p2=java.awt.geom.Point2D$Double (id=613)
+VW,context=Main$AOJ1212:1#cross:33,p1=java.awt.geom.Point2D$Double (id=612)
+VW,context=Main$AOJ1212:1#cross:33,result=0.5
+ME,returner=Main$AOJ1212:1#cross:33,value=0.5
+MC,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#cross:34
+VW,context=Main$AOJ1212:1#cross:34,p2=java.awt.geom.Point2D$Double (id=611)
+VW,context=Main$AOJ1212:1#cross:34,p1=java.awt.geom.Point2D$Double (id=612)
+VW,context=Main$AOJ1212:1#cross:34,result=100.0
+ME,returner=Main$AOJ1212:1#cross:34,value=100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#mul:17
+VW,context=Main$AOJ1212:1#mul:17,p1=java.awt.geom.Point2D$Double (id=611)
+VW,context=Main$AOJ1212:1#mul:17,n=0.005
+VW,context=Main$AOJ1212:1#mul:17,result=java.awt.geom.Point2D$Double (id=614)
+ME,returner=Main$AOJ1212:1#mul:17,value=java.awt.geom.Point2D$Double (id=614)
+MC,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#sum:23
+VW,context=Main$AOJ1212:1#sum:23,p2=java.awt.geom.Point2D$Double (id=614)
+VW,context=Main$AOJ1212:1#sum:23,p1=java.awt.geom.Point2D$Double (id=607)
+VW,context=Main$AOJ1212:1#sum:23,result=java.awt.geom.Point2D$Double (id=615)
+ME,returner=Main$AOJ1212:1#sum:23,value=java.awt.geom.Point2D$Double (id=615)
+VW,context=Main$AOJ1212:1#intersectionPoint:17,result=java.awt.geom.Point2D$Double (id=615)
+ME,returner=Main$AOJ1212:1#intersectionPoint:17,value=java.awt.geom.Point2D$Double (id=615)
+VW,context=Main$AOJ1212:1#intersectionPoint:17,result=java.awt.geom.Point2D$Double (id=615)
+ME,returner=Main$AOJ1212:1#intersectionPoint:17,value=java.awt.geom.Point2D$Double (id=615)
+VW,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=615)
+VW,context=Main$AOJ1212:1#solve:4,a=0.7071067811865476
+VW,context=Main$AOJ1212:1#solve:4,dis=0.7071067811865476
+VW,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=615)
+VW,context=Main$AOJ1212:1#solve:4,idx=1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=2
+VD,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=3
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:4 <name=i,type=int (id=7),value=<?>,index=17>
+VW,context=Main$AOJ1212:1#solve:4,v=3
+VW,context=Main$AOJ1212:1#solve:4,px=150.0001
+VW,context=Main$AOJ1212:1#solve:4,py=200.0001
+VW,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=616)
+MC,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#sum:24
+VW,context=Main$AOJ1212:1#sum:24,p2=java.awt.geom.Point2D$Double (id=585)
+VW,context=Main$AOJ1212:1#sum:24,p1=java.awt.geom.Point2D$Double (id=616)
+VW,context=Main$AOJ1212:1#sum:24,result=java.awt.geom.Point2D$Double (id=617)
+ME,returner=Main$AOJ1212:1#sum:24,value=java.awt.geom.Point2D$Double (id=617)
+VW,context=Main$AOJ1212:1#solve:4,l=java.awt.geom.Line2D$Double (id=618)
+VD,method=Main$AOJ1212:1#solve:4 <name=bs,type=boolean (id=2),value=<?>,index=13>
+VD,method=Main$AOJ1212:1#solve:4 <name=dis,type=double (id=5),value=<?>,index=14>
+VD,method=Main$AOJ1212:1#solve:4 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+VD,method=Main$AOJ1212:1#solve:4 <name=idx,type=int (id=7),value=<?>,index=16>
+VD,method=Main$AOJ1212:1#solve:4 <name=px,type=double (id=5),value=<?>,index=23>
+VD,method=Main$AOJ1212:1#solve:4 <name=py,type=double (id=5),value=<?>,index=24>
+VW,context=Main$AOJ1212:1#solve:4,bs=false
+VW,context=Main$AOJ1212:1#solve:4,cnt=3
+VW,context=Main$AOJ1212:1#solve:4,dis=100.0
+VW,context=Main$AOJ1212:1#solve:4,p=null
+VW,context=Main$AOJ1212:1#solve:4,idx=-1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=1
+MC,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:18
+VW,context=Main$AOJ1212:1#intersectionPoint:18,l1=java.awt.geom.Line2D$Double (id=618)
+VW,context=Main$AOJ1212:1#intersectionPoint:18,l2=java.awt.geom.Line2D$Double (id=569)
+MC,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#intersectionPoint:18
+VW,context=Main$AOJ1212:1#intersectionPoint:18,b2=java.awt.geom.Point2D$Double (id=622)
+VW,context=Main$AOJ1212:1#intersectionPoint:18,a1=java.awt.geom.Point2D$Double (id=619)
+VW,context=Main$AOJ1212:1#intersectionPoint:18,a2=java.awt.geom.Point2D$Double (id=620)
+VW,context=Main$AOJ1212:1#intersectionPoint:18,b1=java.awt.geom.Point2D$Double (id=621)
+MC,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#diff:52
+VW,context=Main$AOJ1212:1#diff:52,p2=java.awt.geom.Point2D$Double (id=619)
+VW,context=Main$AOJ1212:1#diff:52,p1=java.awt.geom.Point2D$Double (id=620)
+VW,context=Main$AOJ1212:1#diff:52,result=java.awt.geom.Point2D$Double (id=623)
+ME,returner=Main$AOJ1212:1#diff:52,value=java.awt.geom.Point2D$Double (id=623)
+VW,context=Main$AOJ1212:1#intersectionPoint:18,a=java.awt.geom.Point2D$Double (id=623)
+MC,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#diff:53
+VW,context=Main$AOJ1212:1#diff:53,p2=java.awt.geom.Point2D$Double (id=621)
+VW,context=Main$AOJ1212:1#diff:53,p1=java.awt.geom.Point2D$Double (id=622)
+VW,context=Main$AOJ1212:1#diff:53,result=java.awt.geom.Point2D$Double (id=624)
+ME,returner=Main$AOJ1212:1#diff:53,value=java.awt.geom.Point2D$Double (id=624)
+VW,context=Main$AOJ1212:1#intersectionPoint:18,b=java.awt.geom.Point2D$Double (id=624)
+MC,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#diff:54
+VW,context=Main$AOJ1212:1#diff:54,p2=java.awt.geom.Point2D$Double (id=619)
+VW,context=Main$AOJ1212:1#diff:54,p1=java.awt.geom.Point2D$Double (id=621)
+VW,context=Main$AOJ1212:1#diff:54,result=java.awt.geom.Point2D$Double (id=625)
+ME,returner=Main$AOJ1212:1#diff:54,value=java.awt.geom.Point2D$Double (id=625)
+MC,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#cross:35
+VW,context=Main$AOJ1212:1#cross:35,p2=java.awt.geom.Point2D$Double (id=625)
+VW,context=Main$AOJ1212:1#cross:35,p1=java.awt.geom.Point2D$Double (id=624)
+VW,context=Main$AOJ1212:1#cross:35,result=0.0
+ME,returner=Main$AOJ1212:1#cross:35,value=0.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#cross:36
+VW,context=Main$AOJ1212:1#cross:36,p2=java.awt.geom.Point2D$Double (id=623)
+VW,context=Main$AOJ1212:1#cross:36,p1=java.awt.geom.Point2D$Double (id=624)
+VW,context=Main$AOJ1212:1#cross:36,result=-100.0
+ME,returner=Main$AOJ1212:1#cross:36,value=-100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#mul:18
+VW,context=Main$AOJ1212:1#mul:18,p1=java.awt.geom.Point2D$Double (id=623)
+VW,context=Main$AOJ1212:1#mul:18,n=-0.0
+VW,context=Main$AOJ1212:1#mul:18,result=java.awt.geom.Point2D$Double (id=626)
+ME,returner=Main$AOJ1212:1#mul:18,value=java.awt.geom.Point2D$Double (id=626)
+MC,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#sum:25
+VW,context=Main$AOJ1212:1#sum:25,p2=java.awt.geom.Point2D$Double (id=626)
+VW,context=Main$AOJ1212:1#sum:25,p1=java.awt.geom.Point2D$Double (id=619)
+VW,context=Main$AOJ1212:1#sum:25,result=java.awt.geom.Point2D$Double (id=627)
+ME,returner=Main$AOJ1212:1#sum:25,value=java.awt.geom.Point2D$Double (id=627)
+VW,context=Main$AOJ1212:1#intersectionPoint:18,result=java.awt.geom.Point2D$Double (id=627)
+ME,returner=Main$AOJ1212:1#intersectionPoint:18,value=java.awt.geom.Point2D$Double (id=627)
+VW,context=Main$AOJ1212:1#intersectionPoint:18,result=java.awt.geom.Point2D$Double (id=627)
+ME,returner=Main$AOJ1212:1#intersectionPoint:18,value=java.awt.geom.Point2D$Double (id=627)
+VW,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=627)
+VW,context=Main$AOJ1212:1#solve:4,a=0.0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=2
+VD,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+MC,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:19
+VW,context=Main$AOJ1212:1#intersectionPoint:19,l1=java.awt.geom.Line2D$Double (id=618)
+VW,context=Main$AOJ1212:1#intersectionPoint:19,l2=java.awt.geom.Line2D$Double (id=571)
+MC,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#intersectionPoint:19
+VW,context=Main$AOJ1212:1#intersectionPoint:19,b2=java.awt.geom.Point2D$Double (id=631)
+VW,context=Main$AOJ1212:1#intersectionPoint:19,a1=java.awt.geom.Point2D$Double (id=628)
+VW,context=Main$AOJ1212:1#intersectionPoint:19,a2=java.awt.geom.Point2D$Double (id=629)
+VW,context=Main$AOJ1212:1#intersectionPoint:19,b1=java.awt.geom.Point2D$Double (id=630)
+MC,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#diff:55
+VW,context=Main$AOJ1212:1#diff:55,p2=java.awt.geom.Point2D$Double (id=628)
+VW,context=Main$AOJ1212:1#diff:55,p1=java.awt.geom.Point2D$Double (id=629)
+VW,context=Main$AOJ1212:1#diff:55,result=java.awt.geom.Point2D$Double (id=632)
+ME,returner=Main$AOJ1212:1#diff:55,value=java.awt.geom.Point2D$Double (id=632)
+VW,context=Main$AOJ1212:1#intersectionPoint:19,a=java.awt.geom.Point2D$Double (id=632)
+MC,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#diff:56
+VW,context=Main$AOJ1212:1#diff:56,p2=java.awt.geom.Point2D$Double (id=630)
+VW,context=Main$AOJ1212:1#diff:56,p1=java.awt.geom.Point2D$Double (id=631)
+VW,context=Main$AOJ1212:1#diff:56,result=java.awt.geom.Point2D$Double (id=633)
+ME,returner=Main$AOJ1212:1#diff:56,value=java.awt.geom.Point2D$Double (id=633)
+VW,context=Main$AOJ1212:1#intersectionPoint:19,b=java.awt.geom.Point2D$Double (id=633)
+MC,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#diff:57
+VW,context=Main$AOJ1212:1#diff:57,p2=java.awt.geom.Point2D$Double (id=628)
+VW,context=Main$AOJ1212:1#diff:57,p1=java.awt.geom.Point2D$Double (id=630)
+VW,context=Main$AOJ1212:1#diff:57,result=java.awt.geom.Point2D$Double (id=634)
+ME,returner=Main$AOJ1212:1#diff:57,value=java.awt.geom.Point2D$Double (id=634)
+MC,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#cross:37
+VW,context=Main$AOJ1212:1#cross:37,p2=java.awt.geom.Point2D$Double (id=634)
+VW,context=Main$AOJ1212:1#cross:37,p1=java.awt.geom.Point2D$Double (id=633)
+VW,context=Main$AOJ1212:1#cross:37,result=1.5
+ME,returner=Main$AOJ1212:1#cross:37,value=1.5
+MC,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#cross:38
+VW,context=Main$AOJ1212:1#cross:38,p2=java.awt.geom.Point2D$Double (id=632)
+VW,context=Main$AOJ1212:1#cross:38,p1=java.awt.geom.Point2D$Double (id=633)
+VW,context=Main$AOJ1212:1#cross:38,result=100.0
+ME,returner=Main$AOJ1212:1#cross:38,value=100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#mul:19
+VW,context=Main$AOJ1212:1#mul:19,p1=java.awt.geom.Point2D$Double (id=632)
+VW,context=Main$AOJ1212:1#mul:19,n=0.015
+VW,context=Main$AOJ1212:1#mul:19,result=java.awt.geom.Point2D$Double (id=635)
+ME,returner=Main$AOJ1212:1#mul:19,value=java.awt.geom.Point2D$Double (id=635)
+MC,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#sum:26
+VW,context=Main$AOJ1212:1#sum:26,p2=java.awt.geom.Point2D$Double (id=635)
+VW,context=Main$AOJ1212:1#sum:26,p1=java.awt.geom.Point2D$Double (id=628)
+VW,context=Main$AOJ1212:1#sum:26,result=java.awt.geom.Point2D$Double (id=636)
+ME,returner=Main$AOJ1212:1#sum:26,value=java.awt.geom.Point2D$Double (id=636)
+VW,context=Main$AOJ1212:1#intersectionPoint:19,result=java.awt.geom.Point2D$Double (id=636)
+ME,returner=Main$AOJ1212:1#intersectionPoint:19,value=java.awt.geom.Point2D$Double (id=636)
+VW,context=Main$AOJ1212:1#intersectionPoint:19,result=java.awt.geom.Point2D$Double (id=636)
+ME,returner=Main$AOJ1212:1#intersectionPoint:19,value=java.awt.geom.Point2D$Double (id=636)
+VW,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=636)
+VW,context=Main$AOJ1212:1#solve:4,a=2.1213203435596424
+VW,context=Main$AOJ1212:1#solve:4,dis=2.1213203435596424
+VW,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=636)
+VW,context=Main$AOJ1212:1#solve:4,idx=2
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=3
+VD,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:4 <name=i,type=int (id=7),value=<?>,index=17>
+VW,context=Main$AOJ1212:1#solve:4,v=2
+VW,context=Main$AOJ1212:1#solve:4,px=1.0E-4
+VW,context=Main$AOJ1212:1#solve:4,py=50.0001
+VW,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=637)
+MC,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#sum:27
+VW,context=Main$AOJ1212:1#sum:27,p2=java.awt.geom.Point2D$Double (id=584)
+VW,context=Main$AOJ1212:1#sum:27,p1=java.awt.geom.Point2D$Double (id=637)
+VW,context=Main$AOJ1212:1#sum:27,result=java.awt.geom.Point2D$Double (id=638)
+ME,returner=Main$AOJ1212:1#sum:27,value=java.awt.geom.Point2D$Double (id=638)
+VW,context=Main$AOJ1212:1#solve:4,l=java.awt.geom.Line2D$Double (id=639)
+VD,method=Main$AOJ1212:1#solve:4 <name=bs,type=boolean (id=2),value=<?>,index=13>
+VD,method=Main$AOJ1212:1#solve:4 <name=dis,type=double (id=5),value=<?>,index=14>
+VD,method=Main$AOJ1212:1#solve:4 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+VD,method=Main$AOJ1212:1#solve:4 <name=idx,type=int (id=7),value=<?>,index=16>
+VD,method=Main$AOJ1212:1#solve:4 <name=px,type=double (id=5),value=<?>,index=23>
+VD,method=Main$AOJ1212:1#solve:4 <name=py,type=double (id=5),value=<?>,index=24>
+VW,context=Main$AOJ1212:1#solve:4,bs=false
+VW,context=Main$AOJ1212:1#solve:4,cnt=4
+VW,context=Main$AOJ1212:1#solve:4,dis=100.0
+VW,context=Main$AOJ1212:1#solve:4,p=null
+VW,context=Main$AOJ1212:1#solve:4,idx=-1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=2
+MC,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:20
+VW,context=Main$AOJ1212:1#intersectionPoint:20,l1=java.awt.geom.Line2D$Double (id=639)
+VW,context=Main$AOJ1212:1#intersectionPoint:20,l2=java.awt.geom.Line2D$Double (id=571)
+MC,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#intersectionPoint:20
+VW,context=Main$AOJ1212:1#intersectionPoint:20,b2=java.awt.geom.Point2D$Double (id=643)
+VW,context=Main$AOJ1212:1#intersectionPoint:20,a1=java.awt.geom.Point2D$Double (id=640)
+VW,context=Main$AOJ1212:1#intersectionPoint:20,a2=java.awt.geom.Point2D$Double (id=641)
+VW,context=Main$AOJ1212:1#intersectionPoint:20,b1=java.awt.geom.Point2D$Double (id=642)
+MC,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#diff:58
+VW,context=Main$AOJ1212:1#diff:58,p2=java.awt.geom.Point2D$Double (id=640)
+VW,context=Main$AOJ1212:1#diff:58,p1=java.awt.geom.Point2D$Double (id=641)
+VW,context=Main$AOJ1212:1#diff:58,result=java.awt.geom.Point2D$Double (id=644)
+ME,returner=Main$AOJ1212:1#diff:58,value=java.awt.geom.Point2D$Double (id=644)
+VW,context=Main$AOJ1212:1#intersectionPoint:20,a=java.awt.geom.Point2D$Double (id=644)
+MC,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#diff:59
+VW,context=Main$AOJ1212:1#diff:59,p2=java.awt.geom.Point2D$Double (id=642)
+VW,context=Main$AOJ1212:1#diff:59,p1=java.awt.geom.Point2D$Double (id=643)
+VW,context=Main$AOJ1212:1#diff:59,result=java.awt.geom.Point2D$Double (id=645)
+ME,returner=Main$AOJ1212:1#diff:59,value=java.awt.geom.Point2D$Double (id=645)
+VW,context=Main$AOJ1212:1#intersectionPoint:20,b=java.awt.geom.Point2D$Double (id=645)
+MC,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#diff:60
+VW,context=Main$AOJ1212:1#diff:60,p2=java.awt.geom.Point2D$Double (id=640)
+VW,context=Main$AOJ1212:1#diff:60,p1=java.awt.geom.Point2D$Double (id=642)
+VW,context=Main$AOJ1212:1#diff:60,result=java.awt.geom.Point2D$Double (id=646)
+ME,returner=Main$AOJ1212:1#diff:60,value=java.awt.geom.Point2D$Double (id=646)
+MC,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#cross:39
+VW,context=Main$AOJ1212:1#cross:39,p2=java.awt.geom.Point2D$Double (id=646)
+VW,context=Main$AOJ1212:1#cross:39,p1=java.awt.geom.Point2D$Double (id=645)
+VW,context=Main$AOJ1212:1#cross:39,result=-0.0
+ME,returner=Main$AOJ1212:1#cross:39,value=-0.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#cross:40
+VW,context=Main$AOJ1212:1#cross:40,p2=java.awt.geom.Point2D$Double (id=644)
+VW,context=Main$AOJ1212:1#cross:40,p1=java.awt.geom.Point2D$Double (id=645)
+VW,context=Main$AOJ1212:1#cross:40,result=-100.0
+ME,returner=Main$AOJ1212:1#cross:40,value=-100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#mul:20
+VW,context=Main$AOJ1212:1#mul:20,p1=java.awt.geom.Point2D$Double (id=644)
+VW,context=Main$AOJ1212:1#mul:20,n=0.0
+VW,context=Main$AOJ1212:1#mul:20,result=java.awt.geom.Point2D$Double (id=647)
+ME,returner=Main$AOJ1212:1#mul:20,value=java.awt.geom.Point2D$Double (id=647)
+MC,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#sum:28
+VW,context=Main$AOJ1212:1#sum:28,p2=java.awt.geom.Point2D$Double (id=647)
+VW,context=Main$AOJ1212:1#sum:28,p1=java.awt.geom.Point2D$Double (id=640)
+VW,context=Main$AOJ1212:1#sum:28,result=java.awt.geom.Point2D$Double (id=648)
+ME,returner=Main$AOJ1212:1#sum:28,value=java.awt.geom.Point2D$Double (id=648)
+VW,context=Main$AOJ1212:1#intersectionPoint:20,result=java.awt.geom.Point2D$Double (id=648)
+ME,returner=Main$AOJ1212:1#intersectionPoint:20,value=java.awt.geom.Point2D$Double (id=648)
+VW,context=Main$AOJ1212:1#intersectionPoint:20,result=java.awt.geom.Point2D$Double (id=648)
+ME,returner=Main$AOJ1212:1#intersectionPoint:20,value=java.awt.geom.Point2D$Double (id=648)
+VW,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=648)
+VW,context=Main$AOJ1212:1#solve:4,a=0.0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=3
+VD,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+MC,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:21
+VW,context=Main$AOJ1212:1#intersectionPoint:21,l1=java.awt.geom.Line2D$Double (id=639)
+VW,context=Main$AOJ1212:1#intersectionPoint:21,l2=java.awt.geom.Line2D$Double (id=573)
+MC,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#intersectionPoint:21
+VW,context=Main$AOJ1212:1#intersectionPoint:21,b2=java.awt.geom.Point2D$Double (id=652)
+VW,context=Main$AOJ1212:1#intersectionPoint:21,a1=java.awt.geom.Point2D$Double (id=649)
+VW,context=Main$AOJ1212:1#intersectionPoint:21,a2=java.awt.geom.Point2D$Double (id=650)
+VW,context=Main$AOJ1212:1#intersectionPoint:21,b1=java.awt.geom.Point2D$Double (id=651)
+MC,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#diff:61
+VW,context=Main$AOJ1212:1#diff:61,p2=java.awt.geom.Point2D$Double (id=649)
+VW,context=Main$AOJ1212:1#diff:61,p1=java.awt.geom.Point2D$Double (id=650)
+VW,context=Main$AOJ1212:1#diff:61,result=java.awt.geom.Point2D$Double (id=653)
+ME,returner=Main$AOJ1212:1#diff:61,value=java.awt.geom.Point2D$Double (id=653)
+VW,context=Main$AOJ1212:1#intersectionPoint:21,a=java.awt.geom.Point2D$Double (id=653)
+MC,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#diff:62
+VW,context=Main$AOJ1212:1#diff:62,p2=java.awt.geom.Point2D$Double (id=651)
+VW,context=Main$AOJ1212:1#diff:62,p1=java.awt.geom.Point2D$Double (id=652)
+VW,context=Main$AOJ1212:1#diff:62,result=java.awt.geom.Point2D$Double (id=654)
+ME,returner=Main$AOJ1212:1#diff:62,value=java.awt.geom.Point2D$Double (id=654)
+VW,context=Main$AOJ1212:1#intersectionPoint:21,b=java.awt.geom.Point2D$Double (id=654)
+MC,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#diff:63
+VW,context=Main$AOJ1212:1#diff:63,p2=java.awt.geom.Point2D$Double (id=649)
+VW,context=Main$AOJ1212:1#diff:63,p1=java.awt.geom.Point2D$Double (id=651)
+VW,context=Main$AOJ1212:1#diff:63,result=java.awt.geom.Point2D$Double (id=655)
+ME,returner=Main$AOJ1212:1#diff:63,value=java.awt.geom.Point2D$Double (id=655)
+MC,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#cross:41
+VW,context=Main$AOJ1212:1#cross:41,p2=java.awt.geom.Point2D$Double (id=655)
+VW,context=Main$AOJ1212:1#cross:41,p1=java.awt.geom.Point2D$Double (id=654)
+VW,context=Main$AOJ1212:1#cross:41,result=-0.5
+ME,returner=Main$AOJ1212:1#cross:41,value=-0.5
+MC,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#cross:42
+VW,context=Main$AOJ1212:1#cross:42,p2=java.awt.geom.Point2D$Double (id=653)
+VW,context=Main$AOJ1212:1#cross:42,p1=java.awt.geom.Point2D$Double (id=654)
+VW,context=Main$AOJ1212:1#cross:42,result=-100.0
+ME,returner=Main$AOJ1212:1#cross:42,value=-100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#mul:21
+VW,context=Main$AOJ1212:1#mul:21,p1=java.awt.geom.Point2D$Double (id=653)
+VW,context=Main$AOJ1212:1#mul:21,n=0.005
+VW,context=Main$AOJ1212:1#mul:21,result=java.awt.geom.Point2D$Double (id=656)
+ME,returner=Main$AOJ1212:1#mul:21,value=java.awt.geom.Point2D$Double (id=656)
+MC,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#sum:29
+VW,context=Main$AOJ1212:1#sum:29,p2=java.awt.geom.Point2D$Double (id=656)
+VW,context=Main$AOJ1212:1#sum:29,p1=java.awt.geom.Point2D$Double (id=649)
+VW,context=Main$AOJ1212:1#sum:29,result=java.awt.geom.Point2D$Double (id=657)
+ME,returner=Main$AOJ1212:1#sum:29,value=java.awt.geom.Point2D$Double (id=657)
+VW,context=Main$AOJ1212:1#intersectionPoint:21,result=java.awt.geom.Point2D$Double (id=657)
+ME,returner=Main$AOJ1212:1#intersectionPoint:21,value=java.awt.geom.Point2D$Double (id=657)
+VW,context=Main$AOJ1212:1#intersectionPoint:21,result=java.awt.geom.Point2D$Double (id=657)
+ME,returner=Main$AOJ1212:1#intersectionPoint:21,value=java.awt.geom.Point2D$Double (id=657)
+VW,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=657)
+VW,context=Main$AOJ1212:1#solve:4,a=0.7071067811865476
+VW,context=Main$AOJ1212:1#solve:4,dis=0.7071067811865476
+VW,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=657)
+VW,context=Main$AOJ1212:1#solve:4,idx=3
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+VD,method=Main$AOJ1212:1#solve:4 <name=i,type=int (id=7),value=<?>,index=17>
+VW,context=Main$AOJ1212:1#solve:4,v=0
+VW,context=Main$AOJ1212:1#solve:4,px=50.0001
+VW,context=Main$AOJ1212:1#solve:4,py=1.0E-4
+VW,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=658)
+MC,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#sum:30
+VW,context=Main$AOJ1212:1#sum:30,p2=java.awt.geom.Point2D$Double (id=582)
+VW,context=Main$AOJ1212:1#sum:30,p1=java.awt.geom.Point2D$Double (id=658)
+VW,context=Main$AOJ1212:1#sum:30,result=java.awt.geom.Point2D$Double (id=659)
+ME,returner=Main$AOJ1212:1#sum:30,value=java.awt.geom.Point2D$Double (id=659)
+VW,context=Main$AOJ1212:1#solve:4,l=java.awt.geom.Line2D$Double (id=660)
+VD,method=Main$AOJ1212:1#solve:4 <name=bs,type=boolean (id=2),value=<?>,index=13>
+VD,method=Main$AOJ1212:1#solve:4 <name=dis,type=double (id=5),value=<?>,index=14>
+VD,method=Main$AOJ1212:1#solve:4 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+VD,method=Main$AOJ1212:1#solve:4 <name=idx,type=int (id=7),value=<?>,index=16>
+VD,method=Main$AOJ1212:1#solve:4 <name=px,type=double (id=5),value=<?>,index=23>
+VD,method=Main$AOJ1212:1#solve:4 <name=py,type=double (id=5),value=<?>,index=24>
+VW,context=Main$AOJ1212:1#solve:4,bs=true
+VW,context=Main$AOJ1212:1#solve:4,cnt=5
+VW,context=Main$AOJ1212:1#solve:4,dis=100.0
+VW,context=Main$AOJ1212:1#solve:4,p=null
+VW,context=Main$AOJ1212:1#solve:4,idx=-1
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=0
+MC,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:22
+VW,context=Main$AOJ1212:1#intersectionPoint:22,l1=java.awt.geom.Line2D$Double (id=660)
+VW,context=Main$AOJ1212:1#intersectionPoint:22,l2=java.awt.geom.Line2D$Double (id=567)
+MC,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#intersectionPoint:22
+VW,context=Main$AOJ1212:1#intersectionPoint:22,b2=java.awt.geom.Point2D$Double (id=664)
+VW,context=Main$AOJ1212:1#intersectionPoint:22,a1=java.awt.geom.Point2D$Double (id=661)
+VW,context=Main$AOJ1212:1#intersectionPoint:22,a2=java.awt.geom.Point2D$Double (id=662)
+VW,context=Main$AOJ1212:1#intersectionPoint:22,b1=java.awt.geom.Point2D$Double (id=663)
+MC,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#diff:64
+VW,context=Main$AOJ1212:1#diff:64,p2=java.awt.geom.Point2D$Double (id=661)
+VW,context=Main$AOJ1212:1#diff:64,p1=java.awt.geom.Point2D$Double (id=662)
+VW,context=Main$AOJ1212:1#diff:64,result=java.awt.geom.Point2D$Double (id=665)
+ME,returner=Main$AOJ1212:1#diff:64,value=java.awt.geom.Point2D$Double (id=665)
+VW,context=Main$AOJ1212:1#intersectionPoint:22,a=java.awt.geom.Point2D$Double (id=665)
+MC,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#diff:65
+VW,context=Main$AOJ1212:1#diff:65,p2=java.awt.geom.Point2D$Double (id=663)
+VW,context=Main$AOJ1212:1#diff:65,p1=java.awt.geom.Point2D$Double (id=664)
+VW,context=Main$AOJ1212:1#diff:65,result=java.awt.geom.Point2D$Double (id=666)
+ME,returner=Main$AOJ1212:1#diff:65,value=java.awt.geom.Point2D$Double (id=666)
+VW,context=Main$AOJ1212:1#intersectionPoint:22,b=java.awt.geom.Point2D$Double (id=666)
+MC,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#diff:66
+VW,context=Main$AOJ1212:1#diff:66,p2=java.awt.geom.Point2D$Double (id=661)
+VW,context=Main$AOJ1212:1#diff:66,p1=java.awt.geom.Point2D$Double (id=663)
+VW,context=Main$AOJ1212:1#diff:66,result=java.awt.geom.Point2D$Double (id=667)
+ME,returner=Main$AOJ1212:1#diff:66,value=java.awt.geom.Point2D$Double (id=667)
+MC,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#cross:43
+VW,context=Main$AOJ1212:1#cross:43,p2=java.awt.geom.Point2D$Double (id=667)
+VW,context=Main$AOJ1212:1#cross:43,p1=java.awt.geom.Point2D$Double (id=666)
+VW,context=Main$AOJ1212:1#cross:43,result=-1.5
+ME,returner=Main$AOJ1212:1#cross:43,value=-1.5
+MC,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#cross:44
+VW,context=Main$AOJ1212:1#cross:44,p2=java.awt.geom.Point2D$Double (id=665)
+VW,context=Main$AOJ1212:1#cross:44,p1=java.awt.geom.Point2D$Double (id=666)
+VW,context=Main$AOJ1212:1#cross:44,result=-100.0
+ME,returner=Main$AOJ1212:1#cross:44,value=-100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#mul:22
+VW,context=Main$AOJ1212:1#mul:22,p1=java.awt.geom.Point2D$Double (id=665)
+VW,context=Main$AOJ1212:1#mul:22,n=0.015
+VW,context=Main$AOJ1212:1#mul:22,result=java.awt.geom.Point2D$Double (id=668)
+ME,returner=Main$AOJ1212:1#mul:22,value=java.awt.geom.Point2D$Double (id=668)
+MC,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#sum:31
+VW,context=Main$AOJ1212:1#sum:31,p2=java.awt.geom.Point2D$Double (id=668)
+VW,context=Main$AOJ1212:1#sum:31,p1=java.awt.geom.Point2D$Double (id=661)
+VW,context=Main$AOJ1212:1#sum:31,result=java.awt.geom.Point2D$Double (id=669)
+ME,returner=Main$AOJ1212:1#sum:31,value=java.awt.geom.Point2D$Double (id=669)
+VW,context=Main$AOJ1212:1#intersectionPoint:22,result=java.awt.geom.Point2D$Double (id=669)
+ME,returner=Main$AOJ1212:1#intersectionPoint:22,value=java.awt.geom.Point2D$Double (id=669)
+VW,context=Main$AOJ1212:1#intersectionPoint:22,result=java.awt.geom.Point2D$Double (id=669)
+ME,returner=Main$AOJ1212:1#intersectionPoint:22,value=java.awt.geom.Point2D$Double (id=669)
+VW,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=669)
+VW,context=Main$AOJ1212:1#solve:4,a=2.1213203435596424
+VW,context=Main$AOJ1212:1#solve:4,dis=2.1213203435596424
+VW,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=669)
+VW,context=Main$AOJ1212:1#solve:4,idx=0
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=1
+VD,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=2
+FR,context=Main$AOJ1212:1,N
+VW,context=Main$AOJ1212:1#solve:4,i=3
+MC,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:23
+VW,context=Main$AOJ1212:1#intersectionPoint:23,l1=java.awt.geom.Line2D$Double (id=660)
+VW,context=Main$AOJ1212:1#intersectionPoint:23,l2=java.awt.geom.Line2D$Double (id=573)
+MC,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#intersectionPoint:23
+VW,context=Main$AOJ1212:1#intersectionPoint:23,b2=java.awt.geom.Point2D$Double (id=673)
+VW,context=Main$AOJ1212:1#intersectionPoint:23,a1=java.awt.geom.Point2D$Double (id=670)
+VW,context=Main$AOJ1212:1#intersectionPoint:23,a2=java.awt.geom.Point2D$Double (id=671)
+VW,context=Main$AOJ1212:1#intersectionPoint:23,b1=java.awt.geom.Point2D$Double (id=672)
+MC,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#diff:67
+VW,context=Main$AOJ1212:1#diff:67,p2=java.awt.geom.Point2D$Double (id=670)
+VW,context=Main$AOJ1212:1#diff:67,p1=java.awt.geom.Point2D$Double (id=671)
+VW,context=Main$AOJ1212:1#diff:67,result=java.awt.geom.Point2D$Double (id=674)
+ME,returner=Main$AOJ1212:1#diff:67,value=java.awt.geom.Point2D$Double (id=674)
+VW,context=Main$AOJ1212:1#intersectionPoint:23,a=java.awt.geom.Point2D$Double (id=674)
+MC,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#diff:68
+VW,context=Main$AOJ1212:1#diff:68,p2=java.awt.geom.Point2D$Double (id=672)
+VW,context=Main$AOJ1212:1#diff:68,p1=java.awt.geom.Point2D$Double (id=673)
+VW,context=Main$AOJ1212:1#diff:68,result=java.awt.geom.Point2D$Double (id=675)
+ME,returner=Main$AOJ1212:1#diff:68,value=java.awt.geom.Point2D$Double (id=675)
+VW,context=Main$AOJ1212:1#intersectionPoint:23,b=java.awt.geom.Point2D$Double (id=675)
+MC,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#diff:69
+VW,context=Main$AOJ1212:1#diff:69,p2=java.awt.geom.Point2D$Double (id=670)
+VW,context=Main$AOJ1212:1#diff:69,p1=java.awt.geom.Point2D$Double (id=672)
+VW,context=Main$AOJ1212:1#diff:69,result=java.awt.geom.Point2D$Double (id=676)
+ME,returner=Main$AOJ1212:1#diff:69,value=java.awt.geom.Point2D$Double (id=676)
+MC,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#cross:45
+VW,context=Main$AOJ1212:1#cross:45,p2=java.awt.geom.Point2D$Double (id=676)
+VW,context=Main$AOJ1212:1#cross:45,p1=java.awt.geom.Point2D$Double (id=675)
+VW,context=Main$AOJ1212:1#cross:45,result=0.0
+ME,returner=Main$AOJ1212:1#cross:45,value=0.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#cross:46
+VW,context=Main$AOJ1212:1#cross:46,p2=java.awt.geom.Point2D$Double (id=674)
+VW,context=Main$AOJ1212:1#cross:46,p1=java.awt.geom.Point2D$Double (id=675)
+VW,context=Main$AOJ1212:1#cross:46,result=100.0
+ME,returner=Main$AOJ1212:1#cross:46,value=100.0
+MC,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#mul:23
+VW,context=Main$AOJ1212:1#mul:23,p1=java.awt.geom.Point2D$Double (id=674)
+VW,context=Main$AOJ1212:1#mul:23,n=0.0
+VW,context=Main$AOJ1212:1#mul:23,result=java.awt.geom.Point2D$Double (id=677)
+ME,returner=Main$AOJ1212:1#mul:23,value=java.awt.geom.Point2D$Double (id=677)
+MC,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#sum:32
+VW,context=Main$AOJ1212:1#sum:32,p2=java.awt.geom.Point2D$Double (id=677)
+VW,context=Main$AOJ1212:1#sum:32,p1=java.awt.geom.Point2D$Double (id=670)
+VW,context=Main$AOJ1212:1#sum:32,result=java.awt.geom.Point2D$Double (id=678)
+ME,returner=Main$AOJ1212:1#sum:32,value=java.awt.geom.Point2D$Double (id=678)
+VW,context=Main$AOJ1212:1#intersectionPoint:23,result=java.awt.geom.Point2D$Double (id=678)
+ME,returner=Main$AOJ1212:1#intersectionPoint:23,value=java.awt.geom.Point2D$Double (id=678)
+VW,context=Main$AOJ1212:1#intersectionPoint:23,result=java.awt.geom.Point2D$Double (id=678)
+ME,returner=Main$AOJ1212:1#intersectionPoint:23,value=java.awt.geom.Point2D$Double (id=678)
+VW,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=678)
+VW,context=Main$AOJ1212:1#solve:4,a=0.0
+FR,context=Main$AOJ1212:1,N
+VD,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+VD,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+VD,method=Main$AOJ1212:1#solve:4 <name=i,type=int (id=7),value=<?>,index=17>
+VW,context=Main$AOJ1212:1#solve:4,tmp=0.3535533905932738
+VD,method=Main$AOJ1212:1#solve:4 <name=bs,type=boolean (id=2),value=<?>,index=13>
+VD,method=Main$AOJ1212:1#solve:4 <name=dis,type=double (id=5),value=<?>,index=14>
+VD,method=Main$AOJ1212:1#solve:4 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+VD,method=Main$AOJ1212:1#solve:4 <name=idx,type=int (id=7),value=<?>,index=16>
+VD,method=Main$AOJ1212:1#solve:4 <name=tmp,type=double (id=5),value=<?>,index=22>
+ME,returner=Main$AOJ1212:1#solve:4,value=<void>
+FR,context=Main:1,sc
+FW,context=Main$AOJ1212:1,N=-1
+FR,context=Main$AOJ1212:1,N
+ME,returner=Main$AOJ1212:1#Main$AOJ1212:1,value=<void>
+ME,returner=Main:1#Main:1,value=<void>
+ME,returner=Main#main:1,value=<void>
+TE,

@@ -1,0 +1,58 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+NO,object=Main:1
+MC,caller=Main#main:1,target=Main:1#Main:1
+ME,returner=Main:1#Main:1,value=<void>
+MC,caller=Main#main:1,target=Main:1#solve:1
+VW,context=Main:1#solve:1,sc=java.util.Scanner (id=48)
+VW,context=Main:1#solve:1,n1=1071
+VW,context=Main:1#solve:1,n2=1029
+FW,context=Main:1,cnt=0
+MC,caller=Main:1#solve:1,target=Main:1#gcd:1
+VW,context=Main:1#gcd:1,x=1029
+VW,context=Main:1#gcd:1,y=1071
+FR,context=Main:1,cnt
+FW,context=Main:1,cnt=1
+MC,caller=Main:1#gcd:1,target=Main:1#gcd:2
+VW,context=Main:1#gcd:2,x=42
+VW,context=Main:1#gcd:2,y=1029
+FR,context=Main:1,cnt
+FW,context=Main:1,cnt=2
+MC,caller=Main:1#gcd:2,target=Main:1#gcd:3
+VW,context=Main:1#gcd:3,x=21
+VW,context=Main:1#gcd:3,y=42
+FR,context=Main:1,cnt
+FW,context=Main:1,cnt=3
+MC,caller=Main:1#gcd:3,target=Main:1#gcd:4
+VW,context=Main:1#gcd:4,x=0
+VW,context=Main:1#gcd:4,y=21
+FR,context=Main:1,cnt
+ME,returner=Main:1#gcd:4,value=<void>
+ME,returner=Main:1#gcd:3,value=<void>
+ME,returner=Main:1#gcd:2,value=<void>
+ME,returner=Main:1#gcd:1,value=<void>
+VD,method=Main:1#solve:1 <name=n1,type=int (id=7),value=0,index=1>
+VD,method=Main:1#solve:1 <name=n2,type=int (id=7),value=0,index=2>
+VW,context=Main:1#solve:1,n1=5
+VW,context=Main:1#solve:1,n2=5
+FW,context=Main:1,cnt=0
+MC,caller=Main:1#solve:1,target=Main:1#gcd:5
+VW,context=Main:1#gcd:5,x=5
+VW,context=Main:1#gcd:5,y=5
+FR,context=Main:1,cnt
+FW,context=Main:1,cnt=1
+MC,caller=Main:1#gcd:5,target=Main:1#gcd:6
+VW,context=Main:1#gcd:6,x=0
+VW,context=Main:1#gcd:6,y=5
+FR,context=Main:1,cnt
+ME,returner=Main:1#gcd:6,value=<void>
+ME,returner=Main:1#gcd:5,value=<void>
+VD,method=Main:1#solve:1 <name=n1,type=int (id=7),value=0,index=1>
+VD,method=Main:1#solve:1 <name=n2,type=int (id=7),value=0,index=2>
+VW,context=Main:1#solve:1,n1=0
+VW,context=Main:1#solve:1,n2=0
+ME,returner=Main:1#solve:1,value=<void>
+ME,returner=Main#main:1,value=<void>
+TE,

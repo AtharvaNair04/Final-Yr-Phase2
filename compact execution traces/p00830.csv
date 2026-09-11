@@ -1,0 +1,1109 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+NO,object=java.lang.String[]:2
+FW,context=java.lang.String[]:2,0=
+FW,context=java.lang.String[]:2,1=home
+FW,context=java.lang.String[]:2,2=ACM
+FW,context=java.lang.String[]:2,3=index.html
+VW,context=Main#main:1,t=java.lang.String[]:2
+NO,object=Main:1
+MC,caller=Main#main:1,target=Main:1#Main:1
+ME,returner=Main:1#Main:1,value=<void>
+MC,caller=Main#main:1,target=Main:1#run:1
+FW,context=Main:1,sc=java.util.Scanner (id=370)
+FR,context=Main:1,sc
+FR,context=Main:1,sc
+VW,context=Main:1#run:1,n=5
+FR,context=Main:1,sc
+VW,context=Main:1#run:1,m=6
+MC,caller=Main:1#run:1,target=Main:1#calc:1
+VW,context=Main:1#calc:1,n=5
+VW,context=Main:1#calc:1,m=6
+NO,object=Node:1
+MC,caller=Main:1#calc:1,target=Node:1#Node:1
+VW,context=Node:1#Node:1,n=
+VW,context=Node:1#Node:1,ue=null
+FW,context=Node:1,name=
+FW,context=Node:1,map=java.util.HashMap (id=374)
+FW,context=Node:1,filenameMap=java.util.HashMap (id=375)
+FW,context=Node:1,ue=null
+ME,returner=Node:1#Node:1,value=<void>
+VW,context=Main:1#calc:1,root=Node:1
+VW,context=Main:1#calc:1,i=0
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,line=/home/ACM/index.html
+NO,object=java.lang.String[]:3
+FW,context=java.lang.String[]:3,0=
+FW,context=java.lang.String[]:3,1=home
+FW,context=java.lang.String[]:3,2=ACM
+FW,context=java.lang.String[]:3,3=index.html
+VW,context=Main:1#calc:1,lines=java.lang.String[]:3
+VW,context=Main:1#calc:1,node=Node:1
+VW,context=Main:1#calc:1,t=0
+FR,context=Node:1,map
+FR,context=Node:1,map
+NO,object=Node:2
+MC,caller=Main:1#calc:1,target=Node:2#Node:2
+VW,context=Node:2#Node:2,n=
+VW,context=Node:2#Node:2,ue=Node:1
+FW,context=Node:2,name=
+FW,context=Node:2,map=java.util.HashMap (id=383)
+FW,context=Node:2,filenameMap=java.util.HashMap (id=384)
+FW,context=Node:2,ue=Node:1
+ME,returner=Node:2#Node:2,value=<void>
+FR,context=Node:1,map
+VW,context=Main:1#calc:1,node=Node:2
+VW,context=Main:1#calc:1,t=1
+FR,context=Node:2,map
+FR,context=Node:2,map
+NO,object=Node:3
+MC,caller=Main:1#calc:1,target=Node:3#Node:3
+VW,context=Node:3#Node:3,n=home
+VW,context=Node:3#Node:3,ue=Node:2
+FW,context=Node:3,name=home
+FW,context=Node:3,map=java.util.HashMap (id=386)
+FW,context=Node:3,filenameMap=java.util.HashMap (id=387)
+FW,context=Node:3,ue=Node:2
+ME,returner=Node:3#Node:3,value=<void>
+FR,context=Node:2,map
+VW,context=Main:1#calc:1,node=Node:3
+VW,context=Main:1#calc:1,t=2
+FR,context=Node:3,map
+FR,context=Node:3,map
+NO,object=Node:4
+MC,caller=Main:1#calc:1,target=Node:4#Node:4
+VW,context=Node:4#Node:4,n=ACM
+VW,context=Node:4#Node:4,ue=Node:3
+FW,context=Node:4,name=ACM
+FW,context=Node:4,map=java.util.HashMap (id=389)
+FW,context=Node:4,filenameMap=java.util.HashMap (id=390)
+FW,context=Node:4,ue=Node:3
+ME,returner=Node:4#Node:4,value=<void>
+FR,context=Node:3,map
+VW,context=Main:1#calc:1,node=Node:4
+FR,context=Node:4,filenameMap
+VD,method=Main:1#calc:1 <name=t,type=int (id=7),value=<?>,index=7>
+VW,context=Main:1#calc:1,i=1
+VD,method=Main:1#calc:1 <name=line,type=java.lang.String (id=25),value=<?>,index=4>
+VD,method=Main:1#calc:1 <name=lines,type=java.lang.String[] (id=59),value=<?>,index=5>
+VD,method=Main:1#calc:1 <name=node,type=Node (id=102),value=<?>,index=6>
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,line=/ICPC/index.html
+NO,object=java.lang.String[]:4
+FW,context=java.lang.String[]:4,0=
+FW,context=java.lang.String[]:4,1=ICPC
+FW,context=java.lang.String[]:4,2=index.html
+VW,context=Main:1#calc:1,lines=java.lang.String[]:4
+VW,context=Main:1#calc:1,node=Node:1
+VW,context=Main:1#calc:1,t=0
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#calc:1,node=Node:2
+VW,context=Main:1#calc:1,t=1
+FR,context=Node:2,map
+FR,context=Node:2,map
+NO,object=Node:5
+MC,caller=Main:1#calc:1,target=Node:5#Node:5
+VW,context=Node:5#Node:5,n=ICPC
+VW,context=Node:5#Node:5,ue=Node:2
+FW,context=Node:5,name=ICPC
+FW,context=Node:5,map=java.util.HashMap (id=397)
+FW,context=Node:5,filenameMap=java.util.HashMap (id=398)
+FW,context=Node:5,ue=Node:2
+ME,returner=Node:5#Node:5,value=<void>
+FR,context=Node:2,map
+VW,context=Main:1#calc:1,node=Node:5
+FR,context=Node:5,filenameMap
+VD,method=Main:1#calc:1 <name=t,type=int (id=7),value=<?>,index=7>
+VW,context=Main:1#calc:1,i=2
+VD,method=Main:1#calc:1 <name=line,type=java.lang.String (id=25),value=<?>,index=4>
+VD,method=Main:1#calc:1 <name=lines,type=java.lang.String[] (id=59),value=<?>,index=5>
+VD,method=Main:1#calc:1 <name=node,type=Node (id=102),value=<?>,index=6>
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,line=/ICPC/general.html
+NO,object=java.lang.String[]:5
+FW,context=java.lang.String[]:5,0=
+FW,context=java.lang.String[]:5,1=ICPC
+FW,context=java.lang.String[]:5,2=general.html
+VW,context=Main:1#calc:1,lines=java.lang.String[]:5
+VW,context=Main:1#calc:1,node=Node:1
+VW,context=Main:1#calc:1,t=0
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#calc:1,node=Node:2
+VW,context=Main:1#calc:1,t=1
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#calc:1,node=Node:5
+FR,context=Node:5,filenameMap
+VD,method=Main:1#calc:1 <name=t,type=int (id=7),value=<?>,index=7>
+VW,context=Main:1#calc:1,i=3
+VD,method=Main:1#calc:1 <name=line,type=java.lang.String (id=25),value=<?>,index=4>
+VD,method=Main:1#calc:1 <name=lines,type=java.lang.String[] (id=59),value=<?>,index=5>
+VD,method=Main:1#calc:1 <name=node,type=Node (id=102),value=<?>,index=6>
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,line=/ICPC/japanese/index.html
+NO,object=java.lang.String[]:6
+FW,context=java.lang.String[]:6,0=
+FW,context=java.lang.String[]:6,1=ICPC
+FW,context=java.lang.String[]:6,2=japanese
+FW,context=java.lang.String[]:6,3=index.html
+VW,context=Main:1#calc:1,lines=java.lang.String[]:6
+VW,context=Main:1#calc:1,node=Node:1
+VW,context=Main:1#calc:1,t=0
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#calc:1,node=Node:2
+VW,context=Main:1#calc:1,t=1
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#calc:1,node=Node:5
+VW,context=Main:1#calc:1,t=2
+FR,context=Node:5,map
+FR,context=Node:5,map
+NO,object=Node:6
+MC,caller=Main:1#calc:1,target=Node:6#Node:6
+VW,context=Node:6#Node:6,n=japanese
+VW,context=Node:6#Node:6,ue=Node:5
+FW,context=Node:6,name=japanese
+FW,context=Node:6,map=java.util.HashMap (id=411)
+FW,context=Node:6,filenameMap=java.util.HashMap (id=412)
+FW,context=Node:6,ue=Node:5
+ME,returner=Node:6#Node:6,value=<void>
+FR,context=Node:5,map
+VW,context=Main:1#calc:1,node=Node:6
+FR,context=Node:6,filenameMap
+VD,method=Main:1#calc:1 <name=t,type=int (id=7),value=<?>,index=7>
+VW,context=Main:1#calc:1,i=4
+VD,method=Main:1#calc:1 <name=line,type=java.lang.String (id=25),value=<?>,index=4>
+VD,method=Main:1#calc:1 <name=lines,type=java.lang.String[] (id=59),value=<?>,index=5>
+VD,method=Main:1#calc:1 <name=node,type=Node (id=102),value=<?>,index=6>
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,line=/ICPC/secret/confidential/2005/index.html
+NO,object=java.lang.String[]:7
+FW,context=java.lang.String[]:7,0=
+FW,context=java.lang.String[]:7,1=ICPC
+FW,context=java.lang.String[]:7,2=secret
+FW,context=java.lang.String[]:7,3=confidential
+FW,context=java.lang.String[]:7,4=2005
+FW,context=java.lang.String[]:7,5=index.html
+VW,context=Main:1#calc:1,lines=java.lang.String[]:7
+VW,context=Main:1#calc:1,node=Node:1
+VW,context=Main:1#calc:1,t=0
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#calc:1,node=Node:2
+VW,context=Main:1#calc:1,t=1
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#calc:1,node=Node:5
+VW,context=Main:1#calc:1,t=2
+FR,context=Node:5,map
+FR,context=Node:5,map
+NO,object=Node:7
+MC,caller=Main:1#calc:1,target=Node:7#Node:7
+VW,context=Node:7#Node:7,n=secret
+VW,context=Node:7#Node:7,ue=Node:5
+FW,context=Node:7,name=secret
+FW,context=Node:7,map=java.util.HashMap (id=422)
+FW,context=Node:7,filenameMap=java.util.HashMap (id=423)
+FW,context=Node:7,ue=Node:5
+ME,returner=Node:7#Node:7,value=<void>
+FR,context=Node:5,map
+VW,context=Main:1#calc:1,node=Node:7
+VW,context=Main:1#calc:1,t=3
+FR,context=Node:7,map
+FR,context=Node:7,map
+NO,object=Node:8
+MC,caller=Main:1#calc:1,target=Node:8#Node:8
+VW,context=Node:8#Node:8,n=confidential
+VW,context=Node:8#Node:8,ue=Node:7
+FW,context=Node:8,name=confidential
+FW,context=Node:8,map=java.util.HashMap (id=425)
+FW,context=Node:8,filenameMap=java.util.HashMap (id=426)
+FW,context=Node:8,ue=Node:7
+ME,returner=Node:8#Node:8,value=<void>
+FR,context=Node:7,map
+VW,context=Main:1#calc:1,node=Node:8
+VW,context=Main:1#calc:1,t=4
+FR,context=Node:8,map
+FR,context=Node:8,map
+NO,object=Node:9
+MC,caller=Main:1#calc:1,target=Node:9#Node:9
+VW,context=Node:9#Node:9,n=2005
+VW,context=Node:9#Node:9,ue=Node:8
+FW,context=Node:9,name=2005
+FW,context=Node:9,map=java.util.HashMap (id=428)
+FW,context=Node:9,filenameMap=java.util.HashMap (id=429)
+FW,context=Node:9,ue=Node:8
+ME,returner=Node:9#Node:9,value=<void>
+FR,context=Node:8,map
+VW,context=Main:1#calc:1,node=Node:9
+FR,context=Node:9,filenameMap
+VD,method=Main:1#calc:1 <name=t,type=int (id=7),value=<?>,index=7>
+VD,method=Main:1#calc:1 <name=line,type=java.lang.String (id=25),value=<?>,index=4>
+VD,method=Main:1#calc:1 <name=lines,type=java.lang.String[] (id=59),value=<?>,index=5>
+VD,method=Main:1#calc:1 <name=node,type=Node (id=102),value=<?>,index=6>
+VD,method=Main:1#calc:1 <name=i,type=int (id=7),value=<?>,index=3>
+VW,context=Main:1#calc:1,i=0
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,html1=/home/ACM/
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,html2=/home/ICPC/../ACM/
+VW,context=Main:1#calc:1,html1=/home/ACM/
+VW,context=Main:1#calc:1,html2=/home/ICPC/../ACM/
+NO,object=java.lang.String[]:8
+FW,context=java.lang.String[]:8,0=
+FW,context=java.lang.String[]:8,1=home
+FW,context=java.lang.String[]:8,2=ACM
+FW,context=java.lang.String[]:8,3=
+VW,context=Main:1#calc:1,h1=java.lang.String[]:8
+NO,object=java.lang.String[]:9
+FW,context=java.lang.String[]:9,0=
+FW,context=java.lang.String[]:9,1=home
+FW,context=java.lang.String[]:9,2=ICPC
+FW,context=java.lang.String[]:9,3=..
+FW,context=java.lang.String[]:9,4=ACM
+FW,context=java.lang.String[]:9,5=
+VW,context=Main:1#calc:1,h2=java.lang.String[]:9
+MC,caller=Main:1#calc:1,target=Main:1#getNode:1
+VW,context=Main:1#getNode:1,html=java.lang.String[]:8
+VW,context=Main:1#getNode:1,root=Node:1
+VW,context=Main:1#getNode:1,node=Node:1
+VW,context=Main:1#getNode:1,i=0
+VW,context=Main:1#getNode:1,s=
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#getNode:1,node=Node:2
+VW,context=Main:1#getNode:1,i=1
+VD,method=Main:1#getNode:1 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:1,s=home
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#getNode:1,node=Node:3
+VW,context=Main:1#getNode:1,i=2
+VD,method=Main:1#getNode:1 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:1,s=ACM
+FR,context=Node:3,map
+FR,context=Node:3,map
+VW,context=Main:1#getNode:1,node=Node:4
+VW,context=Main:1#getNode:1,i=3
+VD,method=Main:1#getNode:1 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:1,s=
+FR,context=Node:4,filenameMap
+VD,method=Main:1#getNode:1 <name=i,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#getNode:1 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+FR,context=Node:4,filenameMap
+VW,context=Main:1#getNode:1,result=index.html
+ME,returner=Main:1#getNode:1,value=index.html
+VW,context=Main:1#calc:1,node1=index.html
+MC,caller=Main:1#calc:1,target=Main:1#getNode:2
+VW,context=Main:1#getNode:2,html=java.lang.String[]:9
+VW,context=Main:1#getNode:2,root=Node:1
+VW,context=Main:1#getNode:2,node=Node:1
+VW,context=Main:1#getNode:2,i=0
+VW,context=Main:1#getNode:2,s=
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#getNode:2,node=Node:2
+VW,context=Main:1#getNode:2,i=1
+VD,method=Main:1#getNode:2 <name=s,type=java.lang.String (id=25),value=ICPC,index=4>
+VW,context=Main:1#getNode:2,s=home
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#getNode:2,node=Node:3
+VW,context=Main:1#getNode:2,i=2
+VD,method=Main:1#getNode:2 <name=s,type=java.lang.String (id=25),value=ICPC,index=4>
+VW,context=Main:1#getNode:2,s=ICPC
+FR,context=Node:3,map
+VW,context=Main:1#getNode:2,result=null
+ME,returner=Main:1#getNode:2,value=null
+VW,context=Main:1#calc:1,node2=null
+VW,context=Main:1#calc:1,i=1
+VD,method=Main:1#calc:1 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#calc:1 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#calc:1 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+VD,method=Main:1#calc:1 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+VD,method=Main:1#calc:1 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main:1#calc:1 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,html1=/ICPC/secret/
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,html2=/ICPC/secret/index.html
+VW,context=Main:1#calc:1,html1=/ICPC/secret/
+VW,context=Main:1#calc:1,html2=/ICPC/secret/index.html
+NO,object=java.lang.String[]:10
+FW,context=java.lang.String[]:10,0=
+FW,context=java.lang.String[]:10,1=ICPC
+FW,context=java.lang.String[]:10,2=secret
+FW,context=java.lang.String[]:10,3=
+VW,context=Main:1#calc:1,h1=java.lang.String[]:10
+NO,object=java.lang.String[]:11
+FW,context=java.lang.String[]:11,0=
+FW,context=java.lang.String[]:11,1=ICPC
+FW,context=java.lang.String[]:11,2=secret
+FW,context=java.lang.String[]:11,3=index.html
+VW,context=Main:1#calc:1,h2=java.lang.String[]:11
+MC,caller=Main:1#calc:1,target=Main:1#getNode:3
+VW,context=Main:1#getNode:3,html=java.lang.String[]:10
+VW,context=Main:1#getNode:3,root=Node:1
+VW,context=Main:1#getNode:3,node=Node:1
+VW,context=Main:1#getNode:3,i=0
+VW,context=Main:1#getNode:3,s=
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#getNode:3,node=Node:2
+VW,context=Main:1#getNode:3,i=1
+VD,method=Main:1#getNode:3 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:3,s=ICPC
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#getNode:3,node=Node:5
+VW,context=Main:1#getNode:3,i=2
+VD,method=Main:1#getNode:3 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:3,s=secret
+FR,context=Node:5,map
+FR,context=Node:5,map
+VW,context=Main:1#getNode:3,node=Node:7
+VW,context=Main:1#getNode:3,i=3
+VD,method=Main:1#getNode:3 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:3,s=
+FR,context=Node:7,filenameMap
+VD,method=Main:1#getNode:3 <name=i,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#getNode:3 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:3,result=null
+ME,returner=Main:1#getNode:3,value=null
+VW,context=Main:1#calc:1,node1=null
+MC,caller=Main:1#calc:1,target=Main:1#getNode:4
+VW,context=Main:1#getNode:4,html=java.lang.String[]:11
+VW,context=Main:1#getNode:4,root=Node:1
+VW,context=Main:1#getNode:4,node=Node:1
+VW,context=Main:1#getNode:4,i=0
+VW,context=Main:1#getNode:4,s=
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#getNode:4,node=Node:2
+VW,context=Main:1#getNode:4,i=1
+VD,method=Main:1#getNode:4 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:4,s=ICPC
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#getNode:4,node=Node:5
+VW,context=Main:1#getNode:4,i=2
+VD,method=Main:1#getNode:4 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:4,s=secret
+FR,context=Node:5,map
+FR,context=Node:5,map
+VW,context=Main:1#getNode:4,node=Node:7
+VW,context=Main:1#getNode:4,i=3
+VD,method=Main:1#getNode:4 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:4,s=index.html
+FR,context=Node:7,map
+FR,context=Node:7,filenameMap
+VW,context=Main:1#getNode:4,result=null
+ME,returner=Main:1#getNode:4,value=null
+VW,context=Main:1#calc:1,node2=null
+VW,context=Main:1#calc:1,i=2
+VD,method=Main:1#calc:1 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#calc:1 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#calc:1 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+VD,method=Main:1#calc:1 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+VD,method=Main:1#calc:1 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main:1#calc:1 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,html1=/ICPC
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,html2=/ICPC/../ICPC/index.html
+VW,context=Main:1#calc:1,html1=/ICPC
+VW,context=Main:1#calc:1,html2=/ICPC/../ICPC/index.html
+NO,object=java.lang.String[]:12
+FW,context=java.lang.String[]:12,0=
+FW,context=java.lang.String[]:12,1=ICPC
+VW,context=Main:1#calc:1,h1=java.lang.String[]:12
+NO,object=java.lang.String[]:13
+FW,context=java.lang.String[]:13,0=
+FW,context=java.lang.String[]:13,1=ICPC
+FW,context=java.lang.String[]:13,2=..
+FW,context=java.lang.String[]:13,3=ICPC
+FW,context=java.lang.String[]:13,4=index.html
+VW,context=Main:1#calc:1,h2=java.lang.String[]:13
+MC,caller=Main:1#calc:1,target=Main:1#getNode:5
+VW,context=Main:1#getNode:5,html=java.lang.String[]:12
+VW,context=Main:1#getNode:5,root=Node:1
+VW,context=Main:1#getNode:5,node=Node:1
+VW,context=Main:1#getNode:5,i=0
+VW,context=Main:1#getNode:5,s=
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#getNode:5,node=Node:2
+VW,context=Main:1#getNode:5,i=1
+VD,method=Main:1#getNode:5 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:5,s=ICPC
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#getNode:5,node=Node:5
+VD,method=Main:1#getNode:5 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+FR,context=Node:5,filenameMap
+VD,method=Main:1#getNode:5 <name=i,type=int (id=7),value=<?>,index=3>
+FR,context=Node:5,filenameMap
+VW,context=Main:1#getNode:5,result=index.html
+ME,returner=Main:1#getNode:5,value=index.html
+VW,context=Main:1#calc:1,node1=index.html
+MC,caller=Main:1#calc:1,target=Main:1#getNode:6
+VW,context=Main:1#getNode:6,html=java.lang.String[]:13
+VW,context=Main:1#getNode:6,root=Node:1
+VW,context=Main:1#getNode:6,node=Node:1
+VW,context=Main:1#getNode:6,i=0
+VW,context=Main:1#getNode:6,s=
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#getNode:6,node=Node:2
+VW,context=Main:1#getNode:6,i=1
+VD,method=Main:1#getNode:6 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:6,s=ICPC
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#getNode:6,node=Node:5
+VW,context=Main:1#getNode:6,i=2
+VD,method=Main:1#getNode:6 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:6,s=..
+FR,context=Node:5,ue
+VW,context=Main:1#getNode:6,node=Node:2
+VW,context=Main:1#getNode:6,i=3
+VD,method=Main:1#getNode:6 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:6,s=ICPC
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#getNode:6,node=Node:5
+VW,context=Main:1#getNode:6,i=4
+VD,method=Main:1#getNode:6 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:6,s=index.html
+FR,context=Node:5,map
+FR,context=Node:5,filenameMap
+FR,context=Node:5,filenameMap
+VW,context=Main:1#getNode:6,result=index.html
+ME,returner=Main:1#getNode:6,value=index.html
+VW,context=Main:1#calc:1,node2=index.html
+VW,context=Main:1#calc:1,i=3
+VD,method=Main:1#calc:1 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#calc:1 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#calc:1 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+VD,method=Main:1#calc:1 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+VD,method=Main:1#calc:1 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main:1#calc:1 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,html1=/ICPC
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,html2=/ICPC/general.html
+VW,context=Main:1#calc:1,html1=/ICPC
+VW,context=Main:1#calc:1,html2=/ICPC/general.html
+NO,object=java.lang.String[]:14
+FW,context=java.lang.String[]:14,0=
+FW,context=java.lang.String[]:14,1=ICPC
+VW,context=Main:1#calc:1,h1=java.lang.String[]:14
+NO,object=java.lang.String[]:15
+FW,context=java.lang.String[]:15,0=
+FW,context=java.lang.String[]:15,1=ICPC
+FW,context=java.lang.String[]:15,2=general.html
+VW,context=Main:1#calc:1,h2=java.lang.String[]:15
+MC,caller=Main:1#calc:1,target=Main:1#getNode:7
+VW,context=Main:1#getNode:7,html=java.lang.String[]:14
+VW,context=Main:1#getNode:7,root=Node:1
+VW,context=Main:1#getNode:7,node=Node:1
+VW,context=Main:1#getNode:7,i=0
+VW,context=Main:1#getNode:7,s=
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#getNode:7,node=Node:2
+VW,context=Main:1#getNode:7,i=1
+VD,method=Main:1#getNode:7 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:7,s=ICPC
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#getNode:7,node=Node:5
+VD,method=Main:1#getNode:7 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+FR,context=Node:5,filenameMap
+VD,method=Main:1#getNode:7 <name=i,type=int (id=7),value=<?>,index=3>
+FR,context=Node:5,filenameMap
+VW,context=Main:1#getNode:7,result=index.html
+ME,returner=Main:1#getNode:7,value=index.html
+VW,context=Main:1#calc:1,node1=index.html
+MC,caller=Main:1#calc:1,target=Main:1#getNode:8
+VW,context=Main:1#getNode:8,html=java.lang.String[]:15
+VW,context=Main:1#getNode:8,root=Node:1
+VW,context=Main:1#getNode:8,node=Node:1
+VW,context=Main:1#getNode:8,i=0
+VW,context=Main:1#getNode:8,s=
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#getNode:8,node=Node:2
+VW,context=Main:1#getNode:8,i=1
+VD,method=Main:1#getNode:8 <name=s,type=java.lang.String (id=25),value=general.html,index=4>
+VW,context=Main:1#getNode:8,s=ICPC
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#getNode:8,node=Node:5
+VW,context=Main:1#getNode:8,i=2
+VD,method=Main:1#getNode:8 <name=s,type=java.lang.String (id=25),value=general.html,index=4>
+VW,context=Main:1#getNode:8,s=general.html
+FR,context=Node:5,map
+FR,context=Node:5,filenameMap
+FR,context=Node:5,filenameMap
+VW,context=Main:1#getNode:8,result=general.html
+ME,returner=Main:1#getNode:8,value=general.html
+VW,context=Main:1#calc:1,node2=general.html
+VW,context=Main:1#calc:1,i=4
+VD,method=Main:1#calc:1 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#calc:1 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#calc:1 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+VD,method=Main:1#calc:1 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+VD,method=Main:1#calc:1 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main:1#calc:1 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,html1=/ICPC/japanese/.././
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,html2=/ICPC/japanese/./../
+VW,context=Main:1#calc:1,html1=/ICPC/japanese/.././
+VW,context=Main:1#calc:1,html2=/ICPC/japanese/./../
+NO,object=java.lang.String[]:16
+FW,context=java.lang.String[]:16,0=
+FW,context=java.lang.String[]:16,1=ICPC
+FW,context=java.lang.String[]:16,2=japanese
+FW,context=java.lang.String[]:16,3=..
+FW,context=java.lang.String[]:16,4=.
+FW,context=java.lang.String[]:16,5=
+VW,context=Main:1#calc:1,h1=java.lang.String[]:16
+NO,object=java.lang.String[]:17
+FW,context=java.lang.String[]:17,0=
+FW,context=java.lang.String[]:17,1=ICPC
+FW,context=java.lang.String[]:17,2=japanese
+FW,context=java.lang.String[]:17,3=.
+FW,context=java.lang.String[]:17,4=..
+FW,context=java.lang.String[]:17,5=
+VW,context=Main:1#calc:1,h2=java.lang.String[]:17
+MC,caller=Main:1#calc:1,target=Main:1#getNode:9
+VW,context=Main:1#getNode:9,html=java.lang.String[]:16
+VW,context=Main:1#getNode:9,root=Node:1
+VW,context=Main:1#getNode:9,node=Node:1
+VW,context=Main:1#getNode:9,i=0
+VW,context=Main:1#getNode:9,s=
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#getNode:9,node=Node:2
+VW,context=Main:1#getNode:9,i=1
+VD,method=Main:1#getNode:9 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:9,s=ICPC
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#getNode:9,node=Node:5
+VW,context=Main:1#getNode:9,i=2
+VD,method=Main:1#getNode:9 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:9,s=japanese
+FR,context=Node:5,map
+FR,context=Node:5,map
+VW,context=Main:1#getNode:9,node=Node:6
+VW,context=Main:1#getNode:9,i=3
+VD,method=Main:1#getNode:9 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:9,s=..
+FR,context=Node:6,ue
+VW,context=Main:1#getNode:9,node=Node:5
+VW,context=Main:1#getNode:9,i=4
+VD,method=Main:1#getNode:9 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:9,s=.
+VW,context=Main:1#getNode:9,i=5
+VD,method=Main:1#getNode:9 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:9,s=
+FR,context=Node:5,filenameMap
+VD,method=Main:1#getNode:9 <name=i,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#getNode:9 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+FR,context=Node:5,filenameMap
+VW,context=Main:1#getNode:9,result=index.html
+ME,returner=Main:1#getNode:9,value=index.html
+VW,context=Main:1#calc:1,node1=index.html
+MC,caller=Main:1#calc:1,target=Main:1#getNode:10
+VW,context=Main:1#getNode:10,html=java.lang.String[]:17
+VW,context=Main:1#getNode:10,root=Node:1
+VW,context=Main:1#getNode:10,node=Node:1
+VW,context=Main:1#getNode:10,i=0
+VW,context=Main:1#getNode:10,s=
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#getNode:10,node=Node:2
+VW,context=Main:1#getNode:10,i=1
+VD,method=Main:1#getNode:10 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:10,s=ICPC
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#getNode:10,node=Node:5
+VW,context=Main:1#getNode:10,i=2
+VD,method=Main:1#getNode:10 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:10,s=japanese
+FR,context=Node:5,map
+FR,context=Node:5,map
+VW,context=Main:1#getNode:10,node=Node:6
+VW,context=Main:1#getNode:10,i=3
+VD,method=Main:1#getNode:10 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:10,s=.
+VW,context=Main:1#getNode:10,i=4
+VD,method=Main:1#getNode:10 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:10,s=..
+FR,context=Node:6,ue
+VW,context=Main:1#getNode:10,node=Node:5
+VW,context=Main:1#getNode:10,i=5
+VD,method=Main:1#getNode:10 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:10,s=
+FR,context=Node:5,filenameMap
+VD,method=Main:1#getNode:10 <name=i,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#getNode:10 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+FR,context=Node:5,filenameMap
+VW,context=Main:1#getNode:10,result=index.html
+ME,returner=Main:1#getNode:10,value=index.html
+VW,context=Main:1#calc:1,node2=index.html
+VW,context=Main:1#calc:1,i=5
+VD,method=Main:1#calc:1 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#calc:1 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#calc:1 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+VD,method=Main:1#calc:1 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+VD,method=Main:1#calc:1 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main:1#calc:1 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,html1=/home/ACM/index.html
+FR,context=Main:1,sc
+VW,context=Main:1#calc:1,html2=/home/ACM/index.html/
+VW,context=Main:1#calc:1,html1=/home/ACM/index.html
+VW,context=Main:1#calc:1,html2=/home/ACM/index.html/
+NO,object=java.lang.String[]:18
+FW,context=java.lang.String[]:18,0=
+FW,context=java.lang.String[]:18,1=home
+FW,context=java.lang.String[]:18,2=ACM
+FW,context=java.lang.String[]:18,3=index.html
+VW,context=Main:1#calc:1,h1=java.lang.String[]:18
+NO,object=java.lang.String[]:19
+FW,context=java.lang.String[]:19,0=
+FW,context=java.lang.String[]:19,1=home
+FW,context=java.lang.String[]:19,2=ACM
+FW,context=java.lang.String[]:19,3=index.html
+FW,context=java.lang.String[]:19,4=
+VW,context=Main:1#calc:1,h2=java.lang.String[]:19
+MC,caller=Main:1#calc:1,target=Main:1#getNode:11
+VW,context=Main:1#getNode:11,html=java.lang.String[]:18
+VW,context=Main:1#getNode:11,root=Node:1
+VW,context=Main:1#getNode:11,node=Node:1
+VW,context=Main:1#getNode:11,i=0
+VW,context=Main:1#getNode:11,s=
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#getNode:11,node=Node:2
+VW,context=Main:1#getNode:11,i=1
+VD,method=Main:1#getNode:11 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:11,s=home
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#getNode:11,node=Node:3
+VW,context=Main:1#getNode:11,i=2
+VD,method=Main:1#getNode:11 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:11,s=ACM
+FR,context=Node:3,map
+FR,context=Node:3,map
+VW,context=Main:1#getNode:11,node=Node:4
+VW,context=Main:1#getNode:11,i=3
+VD,method=Main:1#getNode:11 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:11,s=index.html
+FR,context=Node:4,map
+FR,context=Node:4,filenameMap
+FR,context=Node:4,filenameMap
+VW,context=Main:1#getNode:11,result=index.html
+ME,returner=Main:1#getNode:11,value=index.html
+VW,context=Main:1#calc:1,node1=index.html
+MC,caller=Main:1#calc:1,target=Main:1#getNode:12
+VW,context=Main:1#getNode:12,html=java.lang.String[]:19
+VW,context=Main:1#getNode:12,root=Node:1
+VW,context=Main:1#getNode:12,node=Node:1
+VW,context=Main:1#getNode:12,i=0
+VW,context=Main:1#getNode:12,s=
+FR,context=Node:1,map
+FR,context=Node:1,map
+VW,context=Main:1#getNode:12,node=Node:2
+VW,context=Main:1#getNode:12,i=1
+VD,method=Main:1#getNode:12 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:12,s=home
+FR,context=Node:2,map
+FR,context=Node:2,map
+VW,context=Main:1#getNode:12,node=Node:3
+VW,context=Main:1#getNode:12,i=2
+VD,method=Main:1#getNode:12 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:12,s=ACM
+FR,context=Node:3,map
+FR,context=Node:3,map
+VW,context=Main:1#getNode:12,node=Node:4
+VW,context=Main:1#getNode:12,i=3
+VD,method=Main:1#getNode:12 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:12,s=index.html
+FR,context=Node:4,map
+VW,context=Main:1#getNode:12,result=null
+ME,returner=Main:1#getNode:12,value=null
+VW,context=Main:1#calc:1,node2=null
+VD,method=Main:1#calc:1 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#calc:1 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#calc:1 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+VD,method=Main:1#calc:1 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+VD,method=Main:1#calc:1 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main:1#calc:1 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+ME,returner=Main:1#calc:1,value=<void>
+FR,context=Main:1,sc
+VD,method=Main:1#run:1 <name=n,type=int (id=7),value=0,index=0>
+VD,method=Main:1#run:1 <name=m,type=int (id=7),value=0,index=1>
+FR,context=Main:1,sc
+VW,context=Main:1#run:1,n=1
+FR,context=Main:1,sc
+VW,context=Main:1#run:1,m=4
+MC,caller=Main:1#run:1,target=Main:1#calc:2
+VW,context=Main:1#calc:2,n=1
+VW,context=Main:1#calc:2,m=4
+NO,object=Node:10
+MC,caller=Main:1#calc:2,target=Node:10#Node:10
+VW,context=Node:10#Node:10,n=
+VW,context=Node:10#Node:10,ue=null
+FW,context=Node:10,name=
+FW,context=Node:10,map=java.util.HashMap (id=512)
+FW,context=Node:10,filenameMap=java.util.HashMap (id=513)
+FW,context=Node:10,ue=null
+ME,returner=Node:10#Node:10,value=<void>
+VW,context=Main:1#calc:2,root=Node:10
+VW,context=Main:1#calc:2,i=0
+FR,context=Main:1,sc
+VW,context=Main:1#calc:2,line=/index.html/index.html
+NO,object=java.lang.String[]:20
+FW,context=java.lang.String[]:20,0=
+FW,context=java.lang.String[]:20,1=index.html
+FW,context=java.lang.String[]:20,2=index.html
+VW,context=Main:1#calc:2,lines=java.lang.String[]:20
+VW,context=Main:1#calc:2,node=Node:10
+VW,context=Main:1#calc:2,t=0
+FR,context=Node:10,map
+FR,context=Node:10,map
+NO,object=Node:11
+MC,caller=Main:1#calc:2,target=Node:11#Node:11
+VW,context=Node:11#Node:11,n=
+VW,context=Node:11#Node:11,ue=Node:10
+FW,context=Node:11,name=
+FW,context=Node:11,map=java.util.HashMap (id=520)
+FW,context=Node:11,filenameMap=java.util.HashMap (id=521)
+FW,context=Node:11,ue=Node:10
+ME,returner=Node:11#Node:11,value=<void>
+FR,context=Node:10,map
+VW,context=Main:1#calc:2,node=Node:11
+VW,context=Main:1#calc:2,t=1
+FR,context=Node:11,map
+FR,context=Node:11,map
+NO,object=Node:12
+MC,caller=Main:1#calc:2,target=Node:12#Node:12
+VW,context=Node:12#Node:12,n=index.html
+VW,context=Node:12#Node:12,ue=Node:11
+FW,context=Node:12,name=index.html
+FW,context=Node:12,map=java.util.HashMap (id=523)
+FW,context=Node:12,filenameMap=java.util.HashMap (id=524)
+FW,context=Node:12,ue=Node:11
+ME,returner=Node:12#Node:12,value=<void>
+FR,context=Node:11,map
+VW,context=Main:1#calc:2,node=Node:12
+FR,context=Node:12,filenameMap
+VD,method=Main:1#calc:2 <name=t,type=int (id=7),value=<?>,index=7>
+VD,method=Main:1#calc:2 <name=line,type=java.lang.String (id=25),value=<?>,index=4>
+VD,method=Main:1#calc:2 <name=lines,type=java.lang.String[] (id=59),value=<?>,index=5>
+VD,method=Main:1#calc:2 <name=node,type=Node (id=102),value=<?>,index=6>
+VD,method=Main:1#calc:2 <name=i,type=int (id=7),value=<?>,index=3>
+VW,context=Main:1#calc:2,i=0
+FR,context=Main:1,sc
+VW,context=Main:1#calc:2,html1=/
+FR,context=Main:1,sc
+VW,context=Main:1#calc:2,html2=/index.html/index.html
+VW,context=Main:1#calc:2,html1=/
+VW,context=Main:1#calc:2,html2=/index.html/index.html
+NO,object=java.lang.String[]:21
+FW,context=java.lang.String[]:21,0=
+FW,context=java.lang.String[]:21,1=
+VW,context=Main:1#calc:2,h1=java.lang.String[]:21
+NO,object=java.lang.String[]:22
+FW,context=java.lang.String[]:22,0=
+FW,context=java.lang.String[]:22,1=index.html
+FW,context=java.lang.String[]:22,2=index.html
+VW,context=Main:1#calc:2,h2=java.lang.String[]:22
+MC,caller=Main:1#calc:2,target=Main:1#getNode:13
+VW,context=Main:1#getNode:13,html=java.lang.String[]:21
+VW,context=Main:1#getNode:13,root=Node:10
+VW,context=Main:1#getNode:13,node=Node:10
+VW,context=Main:1#getNode:13,i=0
+VW,context=Main:1#getNode:13,s=
+FR,context=Node:10,map
+FR,context=Node:10,map
+VW,context=Main:1#getNode:13,node=Node:11
+VW,context=Main:1#getNode:13,i=1
+VD,method=Main:1#getNode:13 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:13,s=
+FR,context=Node:11,filenameMap
+VD,method=Main:1#getNode:13 <name=i,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#getNode:13 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:13,result=null
+ME,returner=Main:1#getNode:13,value=null
+VW,context=Main:1#calc:2,node1=null
+MC,caller=Main:1#calc:2,target=Main:1#getNode:14
+VW,context=Main:1#getNode:14,html=java.lang.String[]:22
+VW,context=Main:1#getNode:14,root=Node:10
+VW,context=Main:1#getNode:14,node=Node:10
+VW,context=Main:1#getNode:14,i=0
+VW,context=Main:1#getNode:14,s=
+FR,context=Node:10,map
+FR,context=Node:10,map
+VW,context=Main:1#getNode:14,node=Node:11
+VW,context=Main:1#getNode:14,i=1
+VD,method=Main:1#getNode:14 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:14,s=index.html
+FR,context=Node:11,map
+FR,context=Node:11,map
+VW,context=Main:1#getNode:14,node=Node:12
+VW,context=Main:1#getNode:14,i=2
+VD,method=Main:1#getNode:14 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:14,s=index.html
+FR,context=Node:12,map
+FR,context=Node:12,filenameMap
+FR,context=Node:12,filenameMap
+VW,context=Main:1#getNode:14,result=index.html
+ME,returner=Main:1#getNode:14,value=index.html
+VW,context=Main:1#calc:2,node2=index.html
+VW,context=Main:1#calc:2,i=1
+VD,method=Main:1#calc:2 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#calc:2 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#calc:2 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+VD,method=Main:1#calc:2 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+VD,method=Main:1#calc:2 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main:1#calc:2 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+FR,context=Main:1,sc
+VW,context=Main:1#calc:2,html1=/index.html
+FR,context=Main:1,sc
+VW,context=Main:1#calc:2,html2=/index.html/index.html
+VW,context=Main:1#calc:2,html1=/index.html
+VW,context=Main:1#calc:2,html2=/index.html/index.html
+NO,object=java.lang.String[]:23
+FW,context=java.lang.String[]:23,0=
+FW,context=java.lang.String[]:23,1=index.html
+VW,context=Main:1#calc:2,h1=java.lang.String[]:23
+NO,object=java.lang.String[]:24
+FW,context=java.lang.String[]:24,0=
+FW,context=java.lang.String[]:24,1=index.html
+FW,context=java.lang.String[]:24,2=index.html
+VW,context=Main:1#calc:2,h2=java.lang.String[]:24
+MC,caller=Main:1#calc:2,target=Main:1#getNode:15
+VW,context=Main:1#getNode:15,html=java.lang.String[]:23
+VW,context=Main:1#getNode:15,root=Node:10
+VW,context=Main:1#getNode:15,node=Node:10
+VW,context=Main:1#getNode:15,i=0
+VW,context=Main:1#getNode:15,s=
+FR,context=Node:10,map
+FR,context=Node:10,map
+VW,context=Main:1#getNode:15,node=Node:11
+VW,context=Main:1#getNode:15,i=1
+VD,method=Main:1#getNode:15 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:15,s=index.html
+FR,context=Node:11,map
+FR,context=Node:11,map
+VW,context=Main:1#getNode:15,node=Node:12
+VD,method=Main:1#getNode:15 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+FR,context=Node:12,filenameMap
+VD,method=Main:1#getNode:15 <name=i,type=int (id=7),value=<?>,index=3>
+FR,context=Node:12,filenameMap
+VW,context=Main:1#getNode:15,result=index.html
+ME,returner=Main:1#getNode:15,value=index.html
+VW,context=Main:1#calc:2,node1=index.html
+MC,caller=Main:1#calc:2,target=Main:1#getNode:16
+VW,context=Main:1#getNode:16,html=java.lang.String[]:24
+VW,context=Main:1#getNode:16,root=Node:10
+VW,context=Main:1#getNode:16,node=Node:10
+VW,context=Main:1#getNode:16,i=0
+VW,context=Main:1#getNode:16,s=
+FR,context=Node:10,map
+FR,context=Node:10,map
+VW,context=Main:1#getNode:16,node=Node:11
+VW,context=Main:1#getNode:16,i=1
+VD,method=Main:1#getNode:16 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:16,s=index.html
+FR,context=Node:11,map
+FR,context=Node:11,map
+VW,context=Main:1#getNode:16,node=Node:12
+VW,context=Main:1#getNode:16,i=2
+VD,method=Main:1#getNode:16 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:16,s=index.html
+FR,context=Node:12,map
+FR,context=Node:12,filenameMap
+FR,context=Node:12,filenameMap
+VW,context=Main:1#getNode:16,result=index.html
+ME,returner=Main:1#getNode:16,value=index.html
+VW,context=Main:1#calc:2,node2=index.html
+VW,context=Main:1#calc:2,i=2
+VD,method=Main:1#calc:2 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#calc:2 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#calc:2 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+VD,method=Main:1#calc:2 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+VD,method=Main:1#calc:2 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main:1#calc:2 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+FR,context=Main:1,sc
+VW,context=Main:1#calc:2,html1=/..
+FR,context=Main:1,sc
+VW,context=Main:1#calc:2,html2=/index.html/../../
+VW,context=Main:1#calc:2,html1=/..
+VW,context=Main:1#calc:2,html2=/index.html/../../
+NO,object=java.lang.String[]:25
+FW,context=java.lang.String[]:25,0=
+FW,context=java.lang.String[]:25,1=..
+VW,context=Main:1#calc:2,h1=java.lang.String[]:25
+NO,object=java.lang.String[]:26
+FW,context=java.lang.String[]:26,0=
+FW,context=java.lang.String[]:26,1=index.html
+FW,context=java.lang.String[]:26,2=..
+FW,context=java.lang.String[]:26,3=..
+FW,context=java.lang.String[]:26,4=
+VW,context=Main:1#calc:2,h2=java.lang.String[]:26
+MC,caller=Main:1#calc:2,target=Main:1#getNode:17
+VW,context=Main:1#getNode:17,html=java.lang.String[]:25
+VW,context=Main:1#getNode:17,root=Node:10
+VW,context=Main:1#getNode:17,node=Node:10
+VW,context=Main:1#getNode:17,i=0
+VW,context=Main:1#getNode:17,s=
+FR,context=Node:10,map
+FR,context=Node:10,map
+VW,context=Main:1#getNode:17,node=Node:11
+VW,context=Main:1#getNode:17,i=1
+VD,method=Main:1#getNode:17 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:17,s=..
+FR,context=Node:11,ue
+VW,context=Main:1#getNode:17,node=Node:10
+VD,method=Main:1#getNode:17 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+FR,context=Node:10,filenameMap
+VD,method=Main:1#getNode:17 <name=i,type=int (id=7),value=<?>,index=3>
+VW,context=Main:1#getNode:17,result=null
+ME,returner=Main:1#getNode:17,value=null
+VW,context=Main:1#calc:2,node1=null
+MC,caller=Main:1#calc:2,target=Main:1#getNode:18
+VW,context=Main:1#getNode:18,html=java.lang.String[]:26
+VW,context=Main:1#getNode:18,root=Node:10
+VW,context=Main:1#getNode:18,node=Node:10
+VW,context=Main:1#getNode:18,i=0
+VW,context=Main:1#getNode:18,s=
+FR,context=Node:10,map
+FR,context=Node:10,map
+VW,context=Main:1#getNode:18,node=Node:11
+VW,context=Main:1#getNode:18,i=1
+VD,method=Main:1#getNode:18 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:18,s=index.html
+FR,context=Node:11,map
+FR,context=Node:11,map
+VW,context=Main:1#getNode:18,node=Node:12
+VW,context=Main:1#getNode:18,i=2
+VD,method=Main:1#getNode:18 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:18,s=..
+FR,context=Node:12,ue
+VW,context=Main:1#getNode:18,node=Node:11
+VW,context=Main:1#getNode:18,i=3
+VD,method=Main:1#getNode:18 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:18,s=..
+FR,context=Node:11,ue
+VW,context=Main:1#getNode:18,node=Node:10
+VW,context=Main:1#getNode:18,i=4
+VD,method=Main:1#getNode:18 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:18,s=
+FR,context=Node:10,filenameMap
+VD,method=Main:1#getNode:18 <name=i,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#getNode:18 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:18,result=null
+ME,returner=Main:1#getNode:18,value=null
+VW,context=Main:1#calc:2,node2=null
+VW,context=Main:1#calc:2,i=3
+VD,method=Main:1#calc:2 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#calc:2 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#calc:2 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+VD,method=Main:1#calc:2 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+VD,method=Main:1#calc:2 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main:1#calc:2 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+FR,context=Main:1,sc
+VW,context=Main:1#calc:2,html1=/index.html/
+FR,context=Main:1,sc
+VW,context=Main:1#calc:2,html2=/index.html/index.html/..
+VW,context=Main:1#calc:2,html1=/index.html/
+VW,context=Main:1#calc:2,html2=/index.html/index.html/..
+NO,object=java.lang.String[]:27
+FW,context=java.lang.String[]:27,0=
+FW,context=java.lang.String[]:27,1=index.html
+FW,context=java.lang.String[]:27,2=
+VW,context=Main:1#calc:2,h1=java.lang.String[]:27
+NO,object=java.lang.String[]:28
+FW,context=java.lang.String[]:28,0=
+FW,context=java.lang.String[]:28,1=index.html
+FW,context=java.lang.String[]:28,2=index.html
+FW,context=java.lang.String[]:28,3=..
+VW,context=Main:1#calc:2,h2=java.lang.String[]:28
+MC,caller=Main:1#calc:2,target=Main:1#getNode:19
+VW,context=Main:1#getNode:19,html=java.lang.String[]:27
+VW,context=Main:1#getNode:19,root=Node:10
+VW,context=Main:1#getNode:19,node=Node:10
+VW,context=Main:1#getNode:19,i=0
+VW,context=Main:1#getNode:19,s=
+FR,context=Node:10,map
+FR,context=Node:10,map
+VW,context=Main:1#getNode:19,node=Node:11
+VW,context=Main:1#getNode:19,i=1
+VD,method=Main:1#getNode:19 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:19,s=index.html
+FR,context=Node:11,map
+FR,context=Node:11,map
+VW,context=Main:1#getNode:19,node=Node:12
+VW,context=Main:1#getNode:19,i=2
+VD,method=Main:1#getNode:19 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+VW,context=Main:1#getNode:19,s=
+FR,context=Node:12,filenameMap
+VD,method=Main:1#getNode:19 <name=i,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#getNode:19 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+FR,context=Node:12,filenameMap
+VW,context=Main:1#getNode:19,result=index.html
+ME,returner=Main:1#getNode:19,value=index.html
+VW,context=Main:1#calc:2,node1=index.html
+MC,caller=Main:1#calc:2,target=Main:1#getNode:20
+VW,context=Main:1#getNode:20,html=java.lang.String[]:28
+VW,context=Main:1#getNode:20,root=Node:10
+VW,context=Main:1#getNode:20,node=Node:10
+VW,context=Main:1#getNode:20,i=0
+VW,context=Main:1#getNode:20,s=
+FR,context=Node:10,map
+FR,context=Node:10,map
+VW,context=Main:1#getNode:20,node=Node:11
+VW,context=Main:1#getNode:20,i=1
+VD,method=Main:1#getNode:20 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:20,s=index.html
+FR,context=Node:11,map
+FR,context=Node:11,map
+VW,context=Main:1#getNode:20,node=Node:12
+VW,context=Main:1#getNode:20,i=2
+VD,method=Main:1#getNode:20 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+VW,context=Main:1#getNode:20,s=index.html
+FR,context=Node:12,map
+VW,context=Main:1#getNode:20,result=null
+ME,returner=Main:1#getNode:20,value=null
+VW,context=Main:1#calc:2,node2=null
+VD,method=Main:1#calc:2 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+VD,method=Main:1#calc:2 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+VD,method=Main:1#calc:2 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+VD,method=Main:1#calc:2 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+VD,method=Main:1#calc:2 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main:1#calc:2 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+ME,returner=Main:1#calc:2,value=<void>
+FR,context=Main:1,sc
+VD,method=Main:1#run:1 <name=n,type=int (id=7),value=0,index=0>
+VD,method=Main:1#run:1 <name=m,type=int (id=7),value=0,index=1>
+FR,context=Main:1,sc
+VW,context=Main:1#run:1,n=0
+FR,context=Main:1,sc
+VW,context=Main:1#run:1,m=0
+ME,returner=Main:1#run:1,value=<void>
+ME,returner=Main#main:1,value=<void>
+TE,

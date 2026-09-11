@@ -1,0 +1,94 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+VW,context=Main#main:1,br=java.io.BufferedReader (id=24)
+VW,context=Main#main:1,line=10 6 8
+NO,object=java.lang.String[]:2
+FW,context=java.lang.String[]:2,0=10
+FW,context=java.lang.String[]:2,1=6
+FW,context=java.lang.String[]:2,2=8
+VW,context=Main#main:1,spl=java.lang.String[]:2
+VW,context=Main#main:1,a=10
+VW,context=Main#main:1,b=6
+VW,context=Main#main:1,c=8
+VW,context=Main#main:1,line=5
+VW,context=Main#main:1,kazu=5
+VW,context=Main#main:1,i=0
+VW,context=Main#main:1,line=4
+VW,context=Main#main:1,n=4
+MC,caller=Main#main:1,target=Main#canIn:1
+VW,context=Main#canIn:1,a=10
+VW,context=Main#canIn:1,n=4
+VW,context=Main#canIn:1,c=8
+VW,context=Main#canIn:1,b=6
+VW,context=Main#canIn:1,result=false
+ME,returner=Main#canIn:1,value=false
+VW,context=Main#main:1,flag=false
+VW,context=Main#main:1,i=1
+VW,context=Main#main:1,line=8
+VD,method=Main#main:1 <name=n,type=int (id=7),value=5,index=9>
+VW,context=Main#main:1,n=8
+VD,method=Main#main:1 <name=flag,type=boolean (id=2),value=false,index=10>
+MC,caller=Main#main:1,target=Main#canIn:2
+VW,context=Main#canIn:2,a=10
+VW,context=Main#canIn:2,n=8
+VW,context=Main#canIn:2,c=8
+VW,context=Main#canIn:2,b=6
+VW,context=Main#canIn:2,result=true
+ME,returner=Main#canIn:2,value=true
+VW,context=Main#main:1,flag=true
+VW,context=Main#main:1,i=2
+VW,context=Main#main:1,line=6
+VD,method=Main#main:1 <name=n,type=int (id=7),value=5,index=9>
+VW,context=Main#main:1,n=6
+VD,method=Main#main:1 <name=flag,type=boolean (id=2),value=false,index=10>
+MC,caller=Main#main:1,target=Main#canIn:3
+VW,context=Main#canIn:3,a=10
+VW,context=Main#canIn:3,n=6
+VW,context=Main#canIn:3,c=8
+VW,context=Main#canIn:3,b=6
+VW,context=Main#canIn:3,result=true
+ME,returner=Main#canIn:3,value=true
+VW,context=Main#main:1,flag=true
+VW,context=Main#main:1,i=3
+VW,context=Main#main:1,line=2
+VD,method=Main#main:1 <name=n,type=int (id=7),value=5,index=9>
+VW,context=Main#main:1,n=2
+VD,method=Main#main:1 <name=flag,type=boolean (id=2),value=false,index=10>
+MC,caller=Main#main:1,target=Main#canIn:4
+VW,context=Main#canIn:4,a=10
+VW,context=Main#canIn:4,n=2
+VW,context=Main#canIn:4,c=8
+VW,context=Main#canIn:4,b=6
+VW,context=Main#canIn:4,result=false
+ME,returner=Main#canIn:4,value=false
+VW,context=Main#main:1,flag=false
+VW,context=Main#main:1,i=4
+VW,context=Main#main:1,line=5
+VD,method=Main#main:1 <name=n,type=int (id=7),value=5,index=9>
+VW,context=Main#main:1,n=5
+VD,method=Main#main:1 <name=flag,type=boolean (id=2),value=false,index=10>
+MC,caller=Main#main:1,target=Main#canIn:5
+VW,context=Main#canIn:5,a=10
+VW,context=Main#canIn:5,n=5
+VW,context=Main#canIn:5,c=8
+VW,context=Main#canIn:5,b=6
+VW,context=Main#canIn:5,result=false
+ME,returner=Main#canIn:5,value=false
+VW,context=Main#main:1,flag=false
+VW,context=Main#main:1,line=0 0 0
+VD,method=Main#main:1 <name=spl,type=java.lang.String[] (id=59),value=java.lang.String[]:3,index=3>
+NO,object=java.lang.String[]:3
+FW,context=java.lang.String[]:3,0=0
+FW,context=java.lang.String[]:3,1=0
+FW,context=java.lang.String[]:3,2=0
+VW,context=Main#main:1,spl=java.lang.String[]:3
+VD,method=Main#main:1 <name=a,type=int (id=7),value=0,index=4>
+VW,context=Main#main:1,a=0
+VD,method=Main#main:1 <name=b,type=int (id=7),value=0,index=5>
+VW,context=Main#main:1,b=0
+VD,method=Main#main:1 <name=c,type=int (id=7),value=0,index=6>
+VW,context=Main#main:1,c=0
+ME,returner=Main#main:1,value=<void>
+TE,

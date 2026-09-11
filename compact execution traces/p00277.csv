@@ -1,0 +1,209 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+VW,context=Main#main:1,input=java.io.BufferedInputStream (id=24)
+VW,context=Main#main:1,inputReader=java.io.InputStreamReader (id=27)
+VW,context=Main#main:1,bufferedReader=java.io.BufferedReader (id=30)
+MC,caller=Main#main:1,target=Main#convertToIntArray:1
+NO,object=java.lang.String[]:2
+FW,context=java.lang.String[]:2,0=3
+FW,context=java.lang.String[]:2,1=4
+FW,context=java.lang.String[]:2,2=600
+VW,context=Main#convertToIntArray:1,target=java.lang.String[]:2
+NO,object=int[]:1
+FW,context=int[]:1,0=0
+FW,context=int[]:1,1=0
+FW,context=int[]:1,2=0
+VW,context=Main#convertToIntArray:1,result=int[]:1
+VW,context=Main#convertToIntArray:1,i=0
+FW,context=int[]:1,0=3
+VW,context=Main#convertToIntArray:1,result=int[]:1
+VW,context=Main#convertToIntArray:1,i=1
+FW,context=int[]:1,1=4
+VW,context=Main#convertToIntArray:1,result=int[]:1
+VW,context=Main#convertToIntArray:1,i=2
+FW,context=int[]:1,2=600
+VW,context=Main#convertToIntArray:1,result=int[]:1
+VW,context=Main#convertToIntArray:1,result=int[]:1
+ME,returner=Main#convertToIntArray:1,value=int[]:1
+VW,context=Main#main:1,firstLine=int[]:1
+VW,context=Main#main:1,numberOfTeam=3
+VW,context=Main#main:1,numberOfRecord=4
+VW,context=Main#main:1,timeOfContest=600
+NO,object=int[]:2
+FW,context=int[]:2,0=0
+FW,context=int[]:2,1=0
+FW,context=int[]:2,2=0
+VW,context=Main#main:1,scores=int[]:2
+NO,object=int[]:3
+FW,context=int[]:3,0=0
+FW,context=int[]:3,1=0
+FW,context=int[]:3,2=0
+VW,context=Main#main:1,times=int[]:3
+VW,context=Main#main:1,highScoreTeam=0
+VW,context=Main#main:1,now=0
+VW,context=Main#main:1,i=0
+VW,context=Main#main:1,line=3 100 5
+MC,caller=Main#main:1,target=Main#convertToIntArray:2
+NO,object=java.lang.String[]:3
+FW,context=java.lang.String[]:3,0=3
+FW,context=java.lang.String[]:3,1=100
+FW,context=java.lang.String[]:3,2=5
+VW,context=Main#convertToIntArray:2,target=java.lang.String[]:3
+NO,object=int[]:4
+FW,context=int[]:4,0=0
+FW,context=int[]:4,1=0
+FW,context=int[]:4,2=0
+VW,context=Main#convertToIntArray:2,result=int[]:4
+VW,context=Main#convertToIntArray:2,i=0
+FW,context=int[]:4,0=3
+VW,context=Main#convertToIntArray:2,result=int[]:4
+VW,context=Main#convertToIntArray:2,i=1
+FW,context=int[]:4,1=100
+VW,context=Main#convertToIntArray:2,result=int[]:4
+VW,context=Main#convertToIntArray:2,i=2
+FW,context=int[]:4,2=5
+VW,context=Main#convertToIntArray:2,result=int[]:4
+VW,context=Main#convertToIntArray:2,result=int[]:4
+ME,returner=Main#convertToIntArray:2,value=int[]:4
+VW,context=Main#main:1,record=int[]:4
+VW,context=Main#main:1,teamNum=2
+VW,context=Main#main:1,gettingScore=5
+FW,context=int[]:2,2=5
+VW,context=Main#main:1,scores=int[]:2
+FW,context=int[]:3,0=100
+VW,context=Main#main:1,times=int[]:3
+VW,context=Main#main:1,highScoreTeam=2
+VW,context=Main#main:1,now=100
+VW,context=Main#main:1,i=1
+VD,method=Main#main:1 <name=line,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main#main:1 <name=record,type=int[] (id=77),value=<?>,index=14>
+VD,method=Main#main:1 <name=teamNum,type=int (id=7),value=<?>,index=15>
+VD,method=Main#main:1 <name=gettingScore,type=int (id=7),value=<?>,index=16>
+VW,context=Main#main:1,line=1 200 10
+MC,caller=Main#main:1,target=Main#convertToIntArray:3
+NO,object=java.lang.String[]:4
+FW,context=java.lang.String[]:4,0=1
+FW,context=java.lang.String[]:4,1=200
+FW,context=java.lang.String[]:4,2=10
+VW,context=Main#convertToIntArray:3,target=java.lang.String[]:4
+NO,object=int[]:5
+FW,context=int[]:5,0=0
+FW,context=int[]:5,1=0
+FW,context=int[]:5,2=0
+VW,context=Main#convertToIntArray:3,result=int[]:5
+VW,context=Main#convertToIntArray:3,i=0
+FW,context=int[]:5,0=1
+VW,context=Main#convertToIntArray:3,result=int[]:5
+VW,context=Main#convertToIntArray:3,i=1
+FW,context=int[]:5,1=200
+VW,context=Main#convertToIntArray:3,result=int[]:5
+VW,context=Main#convertToIntArray:3,i=2
+FW,context=int[]:5,2=10
+VW,context=Main#convertToIntArray:3,result=int[]:5
+VW,context=Main#convertToIntArray:3,result=int[]:5
+ME,returner=Main#convertToIntArray:3,value=int[]:5
+VW,context=Main#main:1,record=int[]:5
+VW,context=Main#main:1,teamNum=0
+VW,context=Main#main:1,gettingScore=10
+FW,context=int[]:2,0=10
+VW,context=Main#main:1,scores=int[]:2
+FW,context=int[]:3,2=100
+VW,context=Main#main:1,times=int[]:3
+VW,context=Main#main:1,highScoreTeam=0
+VW,context=Main#main:1,now=200
+VW,context=Main#main:1,i=2
+VD,method=Main#main:1 <name=line,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main#main:1 <name=record,type=int[] (id=77),value=<?>,index=14>
+VD,method=Main#main:1 <name=teamNum,type=int (id=7),value=<?>,index=15>
+VD,method=Main#main:1 <name=gettingScore,type=int (id=7),value=<?>,index=16>
+VW,context=Main#main:1,line=2 400 20
+MC,caller=Main#main:1,target=Main#convertToIntArray:4
+NO,object=java.lang.String[]:5
+FW,context=java.lang.String[]:5,0=2
+FW,context=java.lang.String[]:5,1=400
+FW,context=java.lang.String[]:5,2=20
+VW,context=Main#convertToIntArray:4,target=java.lang.String[]:5
+NO,object=int[]:6
+FW,context=int[]:6,0=0
+FW,context=int[]:6,1=0
+FW,context=int[]:6,2=0
+VW,context=Main#convertToIntArray:4,result=int[]:6
+VW,context=Main#convertToIntArray:4,i=0
+FW,context=int[]:6,0=2
+VW,context=Main#convertToIntArray:4,result=int[]:6
+VW,context=Main#convertToIntArray:4,i=1
+FW,context=int[]:6,1=400
+VW,context=Main#convertToIntArray:4,result=int[]:6
+VW,context=Main#convertToIntArray:4,i=2
+FW,context=int[]:6,2=20
+VW,context=Main#convertToIntArray:4,result=int[]:6
+VW,context=Main#convertToIntArray:4,result=int[]:6
+ME,returner=Main#convertToIntArray:4,value=int[]:6
+VW,context=Main#main:1,record=int[]:6
+VW,context=Main#main:1,teamNum=1
+VW,context=Main#main:1,gettingScore=20
+FW,context=int[]:2,1=20
+VW,context=Main#main:1,scores=int[]:2
+FW,context=int[]:3,0=300
+VW,context=Main#main:1,times=int[]:3
+VW,context=Main#main:1,highScoreTeam=1
+VW,context=Main#main:1,now=400
+VW,context=Main#main:1,i=3
+VD,method=Main#main:1 <name=line,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main#main:1 <name=record,type=int[] (id=77),value=<?>,index=14>
+VD,method=Main#main:1 <name=teamNum,type=int (id=7),value=<?>,index=15>
+VD,method=Main#main:1 <name=gettingScore,type=int (id=7),value=<?>,index=16>
+VW,context=Main#main:1,line=3 500 20
+MC,caller=Main#main:1,target=Main#convertToIntArray:5
+NO,object=java.lang.String[]:6
+FW,context=java.lang.String[]:6,0=3
+FW,context=java.lang.String[]:6,1=500
+FW,context=java.lang.String[]:6,2=20
+VW,context=Main#convertToIntArray:5,target=java.lang.String[]:6
+NO,object=int[]:7
+FW,context=int[]:7,0=0
+FW,context=int[]:7,1=0
+FW,context=int[]:7,2=0
+VW,context=Main#convertToIntArray:5,result=int[]:7
+VW,context=Main#convertToIntArray:5,i=0
+FW,context=int[]:7,0=3
+VW,context=Main#convertToIntArray:5,result=int[]:7
+VW,context=Main#convertToIntArray:5,i=1
+FW,context=int[]:7,1=500
+VW,context=Main#convertToIntArray:5,result=int[]:7
+VW,context=Main#convertToIntArray:5,i=2
+FW,context=int[]:7,2=20
+VW,context=Main#convertToIntArray:5,result=int[]:7
+VW,context=Main#convertToIntArray:5,result=int[]:7
+ME,returner=Main#convertToIntArray:5,value=int[]:7
+VW,context=Main#main:1,record=int[]:7
+VW,context=Main#main:1,teamNum=2
+VW,context=Main#main:1,gettingScore=20
+FW,context=int[]:2,2=25
+VW,context=Main#main:1,scores=int[]:2
+FW,context=int[]:3,1=100
+VW,context=Main#main:1,times=int[]:3
+VW,context=Main#main:1,highScoreTeam=2
+VW,context=Main#main:1,now=500
+VD,method=Main#main:1 <name=line,type=java.lang.String (id=25),value=<?>,index=13>
+VD,method=Main#main:1 <name=record,type=int[] (id=77),value=<?>,index=14>
+VD,method=Main#main:1 <name=teamNum,type=int (id=7),value=<?>,index=15>
+VD,method=Main#main:1 <name=gettingScore,type=int (id=7),value=<?>,index=16>
+FW,context=int[]:3,2=200
+VW,context=Main#main:1,times=int[]:3
+VD,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=12>
+MC,caller=Main#main:1,target=Main#gettingResult:1
+VW,context=Main#gettingResult:1,times=int[]:3
+VW,context=Main#gettingResult:1,result=0
+VW,context=Main#gettingResult:1,max=0
+VW,context=Main#gettingResult:1,i=0
+VW,context=Main#gettingResult:1,max=300
+VW,context=Main#gettingResult:1,result=0
+VW,context=Main#gettingResult:1,i=1
+VW,context=Main#gettingResult:1,i=2
+VW,context=Main#gettingResult:1,result=1
+ME,returner=Main#gettingResult:1,value=1
+ME,returner=Main#main:1,value=<void>
+TE,

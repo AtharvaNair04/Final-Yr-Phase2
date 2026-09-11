@@ -1,0 +1,754 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+NO,object=Main:1
+MC,caller=Main#main:1,target=Main:1#Main:1
+FW,context=Main:1,INF=268435456
+ME,returner=Main:1#Main:1,value=<void>
+MC,caller=Main#main:1,target=Main:1#run:1
+VW,context=Main:1#run:1,sc=java.util.Scanner (id=49)
+VW,context=Main:1#run:1,n=3
+VW,context=Main:1#run:1,que=java.util.PriorityQueue (id=50)
+VW,context=Main:1#run:1,i=0
+VW,context=Main:1#run:1,w=80
+NO,object=Main$Man:1
+MC,caller=Main:1#run:1,target=Main$Man:1#Main$Man:1
+VW,context=Main$Man:1#Main$Man:1,on=true
+VW,context=Main$Man:1#Main$Man:1,w=80
+VW,context=Main$Man:1#Main$Man:1,t=0
+FW,context=Main$Man:1,on=true
+FW,context=Main$Man:1,w=80
+FW,context=Main$Man:1,t=0
+ME,returner=Main$Man:1#Main$Man:1,value=<void>
+NO,object=Main$Man:2
+MC,caller=Main:1#run:1,target=Main$Man:2#Main$Man:2
+VW,context=Main$Man:2#Main$Man:2,on=false
+VW,context=Main$Man:2#Main$Man:2,w=80
+VW,context=Main$Man:2#Main$Man:2,t=30
+FW,context=Main$Man:2,on=false
+FW,context=Main$Man:2,w=80
+FW,context=Main$Man:2,t=30
+ME,returner=Main$Man:2#Main$Man:2,value=<void>
+MC,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:2#compareTo:1
+VW,context=Main$Man:2#compareTo:1,o=Main$Man:1
+FR,context=Main$Man:2,t
+FR,context=Main$Man:1,t
+FR,context=Main$Man:2,t
+FR,context=Main$Man:1,t
+VW,context=Main$Man:2#compareTo:1,result=30
+ME,returner=Main$Man:2#compareTo:1,value=30
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+VW,context=Main:1#run:1,i=1
+VD,method=Main:1#run:1 <name=w,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,w=50
+NO,object=Main$Man:3
+MC,caller=Main:1#run:1,target=Main$Man:3#Main$Man:3
+VW,context=Main$Man:3#Main$Man:3,on=true
+VW,context=Main$Man:3#Main$Man:3,w=50
+VW,context=Main$Man:3#Main$Man:3,t=5
+FW,context=Main$Man:3,on=true
+FW,context=Main$Man:3,w=50
+FW,context=Main$Man:3,t=5
+ME,returner=Main$Man:3#Main$Man:3,value=<void>
+MC,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:3#compareTo:2
+VW,context=Main$Man:3#compareTo:2,o=Main$Man:1
+FR,context=Main$Man:3,t
+FR,context=Main$Man:1,t
+FR,context=Main$Man:3,t
+FR,context=Main$Man:1,t
+VW,context=Main$Man:3#compareTo:2,result=5
+ME,returner=Main$Man:3#compareTo:2,value=5
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+NO,object=Main$Man:4
+MC,caller=Main:1#run:1,target=Main$Man:4#Main$Man:4
+VW,context=Main$Man:4#Main$Man:4,on=false
+VW,context=Main$Man:4#Main$Man:4,w=50
+VW,context=Main$Man:4#Main$Man:4,t=25
+FW,context=Main$Man:4,on=false
+FW,context=Main$Man:4,w=50
+FW,context=Main$Man:4,t=25
+ME,returner=Main$Man:4#Main$Man:4,value=<void>
+MC,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:4#compareTo:3
+VW,context=Main$Man:4#compareTo:3,o=Main$Man:2
+FR,context=Main$Man:4,t
+FR,context=Main$Man:2,t
+FR,context=Main$Man:4,t
+FR,context=Main$Man:2,t
+VW,context=Main$Man:4#compareTo:3,result=-5
+ME,returner=Main$Man:4#compareTo:3,value=-5
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:4#compareTo:4
+VW,context=Main$Man:4#compareTo:4,o=Main$Man:1
+FR,context=Main$Man:4,t
+FR,context=Main$Man:1,t
+FR,context=Main$Man:4,t
+FR,context=Main$Man:1,t
+VW,context=Main$Man:4#compareTo:4,result=25
+ME,returner=Main$Man:4#compareTo:4,value=25
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+VW,context=Main:1#run:1,i=2
+VD,method=Main:1#run:1 <name=w,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,w=90
+NO,object=Main$Man:5
+MC,caller=Main:1#run:1,target=Main$Man:5#Main$Man:5
+VW,context=Main$Man:5#Main$Man:5,on=true
+VW,context=Main$Man:5#Main$Man:5,w=90
+VW,context=Main$Man:5#Main$Man:5,t=27
+FW,context=Main$Man:5,on=true
+FW,context=Main$Man:5,w=90
+FW,context=Main$Man:5,t=27
+ME,returner=Main$Man:5#Main$Man:5,value=<void>
+MC,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:5#compareTo:5
+VW,context=Main$Man:5#compareTo:5,o=Main$Man:4
+FR,context=Main$Man:5,t
+FR,context=Main$Man:4,t
+FR,context=Main$Man:5,t
+FR,context=Main$Man:4,t
+VW,context=Main$Man:5#compareTo:5,result=2
+ME,returner=Main$Man:5#compareTo:5,value=2
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+NO,object=Main$Man:6
+MC,caller=Main:1#run:1,target=Main$Man:6#Main$Man:6
+VW,context=Main$Man:6#Main$Man:6,on=false
+VW,context=Main$Man:6#Main$Man:6,w=90
+VW,context=Main$Man:6#Main$Man:6,t=50
+FW,context=Main$Man:6,on=false
+FW,context=Main$Man:6,w=90
+FW,context=Main$Man:6,t=50
+ME,returner=Main$Man:6#Main$Man:6,value=<void>
+MC,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:6#compareTo:6
+VW,context=Main$Man:6#compareTo:6,o=Main$Man:3
+FR,context=Main$Man:6,t
+FR,context=Main$Man:3,t
+FR,context=Main$Man:6,t
+FR,context=Main$Man:3,t
+VW,context=Main$Man:6#compareTo:6,result=45
+ME,returner=Main$Man:6#compareTo:6,value=45
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+VD,method=Main:1#run:1 <name=w,type=int (id=7),value=<?>,index=4>
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=3>
+VW,context=Main:1#run:1,flg=true
+VW,context=Main:1#run:1,w=0
+MC,caller=Main:1#run:1,target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.poll()
+MC,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:4#compareTo:7
+VW,context=Main$Man:4#compareTo:7,o=Main$Man:3
+FR,context=Main$Man:4,t
+FR,context=Main$Man:3,t
+FR,context=Main$Man:4,t
+FR,context=Main$Man:3,t
+VW,context=Main$Man:4#compareTo:7,result=20
+ME,returner=Main$Man:4#compareTo:7,value=20
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:6#compareTo:8
+VW,context=Main$Man:6#compareTo:8,o=Main$Man:3
+FR,context=Main$Man:6,t
+FR,context=Main$Man:3,t
+FR,context=Main$Man:6,t
+FR,context=Main$Man:3,t
+VW,context=Main$Man:6#compareTo:8,result=45
+ME,returner=Main$Man:6#compareTo:8,value=45
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+VW,context=Main:1#run:1,man=Main$Man:1
+FR,context=Main$Man:1,on
+FR,context=Main$Man:1,w
+VW,context=Main:1#run:1,w=80
+VD,method=Main:1#run:1 <name=man,type=Main$Man (id=89),value=<?>,index=7>
+MC,caller=Main:1#run:1,target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.poll()
+MC,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:4#compareTo:9
+VW,context=Main$Man:4#compareTo:9,o=Main$Man:6
+FR,context=Main$Man:4,t
+FR,context=Main$Man:6,t
+FR,context=Main$Man:4,t
+FR,context=Main$Man:6,t
+VW,context=Main$Man:4#compareTo:9,result=-25
+ME,returner=Main$Man:4#compareTo:9,value=-25
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:5#compareTo:10
+VW,context=Main$Man:5#compareTo:10,o=Main$Man:4
+FR,context=Main$Man:5,t
+FR,context=Main$Man:4,t
+FR,context=Main$Man:5,t
+FR,context=Main$Man:4,t
+VW,context=Main$Man:5#compareTo:10,result=2
+ME,returner=Main$Man:5#compareTo:10,value=2
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:5#compareTo:11
+VW,context=Main$Man:5#compareTo:11,o=Main$Man:2
+FR,context=Main$Man:5,t
+FR,context=Main$Man:2,t
+FR,context=Main$Man:5,t
+FR,context=Main$Man:2,t
+VW,context=Main$Man:5#compareTo:11,result=-3
+ME,returner=Main$Man:5#compareTo:11,value=-3
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+VW,context=Main:1#run:1,man=Main$Man:3
+FR,context=Main$Man:3,on
+FR,context=Main$Man:3,w
+VW,context=Main:1#run:1,w=130
+VD,method=Main:1#run:1 <name=man,type=Main$Man (id=89),value=<?>,index=7>
+MC,caller=Main:1#run:1,target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.poll()
+MC,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:5#compareTo:12
+VW,context=Main$Man:5#compareTo:12,o=Main$Man:6
+FR,context=Main$Man:5,t
+FR,context=Main$Man:6,t
+FR,context=Main$Man:5,t
+FR,context=Main$Man:6,t
+VW,context=Main$Man:5#compareTo:12,result=-23
+ME,returner=Main$Man:5#compareTo:12,value=-23
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:2#compareTo:13
+VW,context=Main$Man:2#compareTo:13,o=Main$Man:5
+FR,context=Main$Man:2,t
+FR,context=Main$Man:5,t
+FR,context=Main$Man:2,t
+FR,context=Main$Man:5,t
+VW,context=Main$Man:2#compareTo:13,result=3
+ME,returner=Main$Man:2#compareTo:13,value=3
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+VW,context=Main:1#run:1,man=Main$Man:4
+FR,context=Main$Man:4,on
+FR,context=Main$Man:4,w
+VW,context=Main:1#run:1,w=80
+VD,method=Main:1#run:1 <name=man,type=Main$Man (id=89),value=<?>,index=7>
+MC,caller=Main:1#run:1,target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.poll()
+MC,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:6#compareTo:14
+VW,context=Main$Man:6#compareTo:14,o=Main$Man:2
+FR,context=Main$Man:6,t
+FR,context=Main$Man:2,t
+FR,context=Main$Man:6,t
+FR,context=Main$Man:2,t
+VW,context=Main$Man:6#compareTo:14,result=20
+ME,returner=Main$Man:6#compareTo:14,value=20
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+VW,context=Main:1#run:1,man=Main$Man:5
+FR,context=Main$Man:5,on
+FR,context=Main$Man:5,w
+VW,context=Main:1#run:1,w=170
+VW,context=Main:1#run:1,flg=false
+VD,method=Main:1#run:1 <name=man,type=Main$Man (id=89),value=<?>,index=7>
+VD,method=Main:1#run:1 <name=n,type=int (id=7),value=0,index=1>
+VD,method=Main:1#run:1 <name=que,type=java.util.PriorityQueue (id=109),value=<?>,index=2>
+VD,method=Main:1#run:1 <name=flg,type=boolean (id=2),value=<?>,index=5>
+VD,method=Main:1#run:1 <name=w,type=int (id=7),value=<?>,index=6>
+VW,context=Main:1#run:1,n=3
+VW,context=Main:1#run:1,que=java.util.PriorityQueue (id=66)
+VW,context=Main:1#run:1,i=0
+VW,context=Main:1#run:1,w=80
+NO,object=Main$Man:7
+MC,caller=Main:1#run:1,target=Main$Man:7#Main$Man:7
+VW,context=Main$Man:7#Main$Man:7,on=true
+VW,context=Main$Man:7#Main$Man:7,w=80
+VW,context=Main$Man:7#Main$Man:7,t=0
+FW,context=Main$Man:7,on=true
+FW,context=Main$Man:7,w=80
+FW,context=Main$Man:7,t=0
+ME,returner=Main$Man:7#Main$Man:7,value=<void>
+NO,object=Main$Man:8
+MC,caller=Main:1#run:1,target=Main$Man:8#Main$Man:8
+VW,context=Main$Man:8#Main$Man:8,on=false
+VW,context=Main$Man:8#Main$Man:8,w=80
+VW,context=Main$Man:8#Main$Man:8,t=30
+FW,context=Main$Man:8,on=false
+FW,context=Main$Man:8,w=80
+FW,context=Main$Man:8,t=30
+ME,returner=Main$Man:8#Main$Man:8,value=<void>
+MC,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:8#compareTo:15
+VW,context=Main$Man:8#compareTo:15,o=Main$Man:7
+FR,context=Main$Man:8,t
+FR,context=Main$Man:7,t
+FR,context=Main$Man:8,t
+FR,context=Main$Man:7,t
+VW,context=Main$Man:8#compareTo:15,result=30
+ME,returner=Main$Man:8#compareTo:15,value=30
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+VW,context=Main:1#run:1,i=1
+VD,method=Main:1#run:1 <name=w,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,w=70
+NO,object=Main$Man:9
+MC,caller=Main:1#run:1,target=Main$Man:9#Main$Man:9
+VW,context=Main$Man:9#Main$Man:9,on=true
+VW,context=Main$Man:9#Main$Man:9,w=70
+VW,context=Main$Man:9#Main$Man:9,t=5
+FW,context=Main$Man:9,on=true
+FW,context=Main$Man:9,w=70
+FW,context=Main$Man:9,t=5
+ME,returner=Main$Man:9#Main$Man:9,value=<void>
+MC,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:9#compareTo:16
+VW,context=Main$Man:9#compareTo:16,o=Main$Man:7
+FR,context=Main$Man:9,t
+FR,context=Main$Man:7,t
+FR,context=Main$Man:9,t
+FR,context=Main$Man:7,t
+VW,context=Main$Man:9#compareTo:16,result=5
+ME,returner=Main$Man:9#compareTo:16,value=5
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+NO,object=Main$Man:10
+MC,caller=Main:1#run:1,target=Main$Man:10#Main$Man:10
+VW,context=Main$Man:10#Main$Man:10,on=false
+VW,context=Main$Man:10#Main$Man:10,w=70
+VW,context=Main$Man:10#Main$Man:10,t=25
+FW,context=Main$Man:10,on=false
+FW,context=Main$Man:10,w=70
+FW,context=Main$Man:10,t=25
+ME,returner=Main$Man:10#Main$Man:10,value=<void>
+MC,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:10#compareTo:17
+VW,context=Main$Man:10#compareTo:17,o=Main$Man:8
+FR,context=Main$Man:10,t
+FR,context=Main$Man:8,t
+FR,context=Main$Man:10,t
+FR,context=Main$Man:8,t
+VW,context=Main$Man:10#compareTo:17,result=-5
+ME,returner=Main$Man:10#compareTo:17,value=-5
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:10#compareTo:18
+VW,context=Main$Man:10#compareTo:18,o=Main$Man:7
+FR,context=Main$Man:10,t
+FR,context=Main$Man:7,t
+FR,context=Main$Man:10,t
+FR,context=Main$Man:7,t
+VW,context=Main$Man:10#compareTo:18,result=25
+ME,returner=Main$Man:10#compareTo:18,value=25
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+VW,context=Main:1#run:1,i=2
+VD,method=Main:1#run:1 <name=w,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,w=71
+NO,object=Main$Man:11
+MC,caller=Main:1#run:1,target=Main$Man:11#Main$Man:11
+VW,context=Main$Man:11#Main$Man:11,on=true
+VW,context=Main$Man:11#Main$Man:11,w=71
+VW,context=Main$Man:11#Main$Man:11,t=30
+FW,context=Main$Man:11,on=true
+FW,context=Main$Man:11,w=71
+FW,context=Main$Man:11,t=30
+ME,returner=Main$Man:11#Main$Man:11,value=<void>
+MC,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:11#compareTo:19
+VW,context=Main$Man:11#compareTo:19,o=Main$Man:10
+FR,context=Main$Man:11,t
+FR,context=Main$Man:10,t
+FR,context=Main$Man:11,t
+FR,context=Main$Man:10,t
+VW,context=Main$Man:11#compareTo:19,result=5
+ME,returner=Main$Man:11#compareTo:19,value=5
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+NO,object=Main$Man:12
+MC,caller=Main:1#run:1,target=Main$Man:12#Main$Man:12
+VW,context=Main$Man:12#Main$Man:12,on=false
+VW,context=Main$Man:12#Main$Man:12,w=71
+VW,context=Main$Man:12#Main$Man:12,t=50
+FW,context=Main$Man:12,on=false
+FW,context=Main$Man:12,w=71
+FW,context=Main$Man:12,t=50
+ME,returner=Main$Man:12#Main$Man:12,value=<void>
+MC,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+MC,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:12#compareTo:20
+VW,context=Main$Man:12#compareTo:20,o=Main$Man:9
+FR,context=Main$Man:12,t
+FR,context=Main$Man:9,t
+FR,context=Main$Man:12,t
+FR,context=Main$Man:9,t
+VW,context=Main$Man:12#compareTo:20,result=45
+ME,returner=Main$Man:12#compareTo:20,value=45
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+VD,method=Main:1#run:1 <name=w,type=int (id=7),value=<?>,index=4>
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=3>
+VW,context=Main:1#run:1,flg=true
+VW,context=Main:1#run:1,w=0
+MC,caller=Main:1#run:1,target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.poll()
+MC,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:10#compareTo:21
+VW,context=Main$Man:10#compareTo:21,o=Main$Man:9
+FR,context=Main$Man:10,t
+FR,context=Main$Man:9,t
+FR,context=Main$Man:10,t
+FR,context=Main$Man:9,t
+VW,context=Main$Man:10#compareTo:21,result=20
+ME,returner=Main$Man:10#compareTo:21,value=20
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:12#compareTo:22
+VW,context=Main$Man:12#compareTo:22,o=Main$Man:9
+FR,context=Main$Man:12,t
+FR,context=Main$Man:9,t
+FR,context=Main$Man:12,t
+FR,context=Main$Man:9,t
+VW,context=Main$Man:12#compareTo:22,result=45
+ME,returner=Main$Man:12#compareTo:22,value=45
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+VW,context=Main:1#run:1,man=Main$Man:7
+FR,context=Main$Man:7,on
+FR,context=Main$Man:7,w
+VW,context=Main:1#run:1,w=80
+VD,method=Main:1#run:1 <name=man,type=Main$Man (id=89),value=<?>,index=7>
+MC,caller=Main:1#run:1,target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.poll()
+MC,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:10#compareTo:23
+VW,context=Main$Man:10#compareTo:23,o=Main$Man:12
+FR,context=Main$Man:10,t
+FR,context=Main$Man:12,t
+FR,context=Main$Man:10,t
+FR,context=Main$Man:12,t
+VW,context=Main$Man:10#compareTo:23,result=-25
+ME,returner=Main$Man:10#compareTo:23,value=-25
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:11#compareTo:24
+VW,context=Main$Man:11#compareTo:24,o=Main$Man:10
+FR,context=Main$Man:11,t
+FR,context=Main$Man:10,t
+FR,context=Main$Man:11,t
+FR,context=Main$Man:10,t
+VW,context=Main$Man:11#compareTo:24,result=5
+ME,returner=Main$Man:11#compareTo:24,value=5
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:11#compareTo:25
+VW,context=Main$Man:11#compareTo:25,o=Main$Man:8
+FR,context=Main$Man:11,t
+FR,context=Main$Man:8,t
+FR,context=Main$Man:11,on
+VW,context=Main$Man:11#compareTo:25,result=1
+ME,returner=Main$Man:11#compareTo:25,value=1
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+VW,context=Main:1#run:1,man=Main$Man:9
+FR,context=Main$Man:9,on
+FR,context=Main$Man:9,w
+VW,context=Main:1#run:1,w=150
+VD,method=Main:1#run:1 <name=man,type=Main$Man (id=89),value=<?>,index=7>
+MC,caller=Main:1#run:1,target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.poll()
+MC,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:8#compareTo:26
+VW,context=Main$Man:8#compareTo:26,o=Main$Man:12
+FR,context=Main$Man:8,t
+FR,context=Main$Man:12,t
+FR,context=Main$Man:8,t
+FR,context=Main$Man:12,t
+VW,context=Main$Man:8#compareTo:26,result=-20
+ME,returner=Main$Man:8#compareTo:26,value=-20
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:11#compareTo:27
+VW,context=Main$Man:11#compareTo:27,o=Main$Man:8
+FR,context=Main$Man:11,t
+FR,context=Main$Man:8,t
+FR,context=Main$Man:11,on
+VW,context=Main$Man:11#compareTo:27,result=1
+ME,returner=Main$Man:11#compareTo:27,value=1
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+VW,context=Main:1#run:1,man=Main$Man:10
+FR,context=Main$Man:10,on
+FR,context=Main$Man:10,w
+VW,context=Main:1#run:1,w=80
+VD,method=Main:1#run:1 <name=man,type=Main$Man (id=89),value=<?>,index=7>
+MC,caller=Main:1#run:1,target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/AbstractQueue;.remove()
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.poll()
+MC,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+MC,caller=Ljava/util/AbstractQueue;.remove(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;)
+MC,caller=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),target=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Main$Man:12#compareTo:28
+VW,context=Main$Man:12#compareTo:28,o=Main$Man:11
+FR,context=Main$Man:12,t
+FR,context=Main$Man:11,t
+FR,context=Main$Man:12,t
+FR,context=Main$Man:11,t
+VW,context=Main$Man:12#compareTo:28,result=20
+ME,returner=Main$Man:12#compareTo:28,value=20
+ME,returner=LMain$Man;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDownComparable(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+ME,returner=Ljava/util/AbstractQueue;.remove(),value=<void>
+VW,context=Main:1#run:1,man=Main$Man:8
+FR,context=Main$Man:8,on
+FR,context=Main$Man:8,w
+VW,context=Main:1#run:1,w=0
+VD,method=Main:1#run:1 <name=man,type=Main$Man (id=89),value=<?>,index=7>
+VW,context=Main:1#run:1,man=Main$Man:11
+FR,context=Main$Man:11,on
+FR,context=Main$Man:11,w
+VW,context=Main:1#run:1,w=71
+VD,method=Main:1#run:1 <name=man,type=Main$Man (id=89),value=<?>,index=7>
+VW,context=Main:1#run:1,man=Main$Man:12
+FR,context=Main$Man:12,on
+FR,context=Main$Man:12,w
+VW,context=Main:1#run:1,w=0
+VD,method=Main:1#run:1 <name=man,type=Main$Man (id=89),value=<?>,index=7>
+VW,context=Main:1#run:1,n=0
+VD,method=Main:1#run:1 <name=que,type=java.util.PriorityQueue (id=109),value=<?>,index=2>
+VD,method=Main:1#run:1 <name=flg,type=boolean (id=2),value=<?>,index=5>
+VD,method=Main:1#run:1 <name=w,type=int (id=7),value=<?>,index=6>
+ME,returner=Main:1#run:1,value=<void>
+ME,returner=Main#main:1,value=<void>
+TE,

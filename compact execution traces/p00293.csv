@@ -1,0 +1,70 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+VW,context=Main#main:1,in=java.util.Scanner (id=47)
+VW,context=Main#main:1,E=java.util.ArrayDeque (id=48)
+VW,context=Main#main:1,T=java.util.ArrayDeque (id=51)
+VW,context=Main#main:1,N=2
+VW,context=Main#main:1,i=0
+NO,object=time:1
+MC,caller=Main#main:1,target=time:1#time:1
+FW,context=time:1,h=0
+FW,context=time:1,m=0
+ME,returner=time:1#time:1,value=<void>
+VW,context=Main#main:1,t=time:1
+FW,context=time:1,h=9
+FW,context=time:1,m=8
+VW,context=Main#main:1,i=1
+VD,method=Main#main:1 <name=t,type=time (id=98),value=<?>,index=6>
+NO,object=time:2
+MC,caller=Main#main:1,target=time:2#time:2
+FW,context=time:2,h=0
+FW,context=time:2,m=0
+ME,returner=time:2#time:2,value=<void>
+VW,context=Main#main:1,t=time:2
+FW,context=time:2,h=15
+FW,context=time:2,m=59
+VD,method=Main#main:1 <name=t,type=time (id=98),value=<?>,index=6>
+VD,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=5>
+VW,context=Main#main:1,M=1
+VW,context=Main#main:1,i=0
+NO,object=time:3
+MC,caller=Main#main:1,target=time:3#time:3
+FW,context=time:3,h=0
+FW,context=time:3,m=0
+ME,returner=time:3#time:3,value=<void>
+VW,context=Main#main:1,t=time:3
+FW,context=time:3,h=8
+FW,context=time:3,m=27
+VD,method=Main#main:1 <name=t,type=time (id=98),value=<?>,index=9>
+VD,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=8>
+VW,context=Main#main:1,MG=java.util.ArrayDeque (id=57)
+VW,context=Main#main:1,e=time:1
+VW,context=Main#main:1,t=time:3
+FR,context=time:1,h
+FR,context=time:1,m
+FR,context=time:3,h
+FR,context=time:3,m
+FR,context=time:1,h
+FR,context=time:1,m
+FR,context=time:3,h
+FR,context=time:3,m
+VD,method=Main#main:1 <name=e,type=time (id=98),value=<?>,index=11>
+VD,method=Main#main:1 <name=t,type=time (id=98),value=<?>,index=12>
+VW,context=Main#main:1,size=3
+VW,context=Main#main:1,i=0
+VW,context=Main#main:1,t=time:3
+FR,context=time:3,h
+FR,context=time:3,m
+VW,context=Main#main:1,i=1
+VD,method=Main#main:1 <name=t,type=time (id=98),value=<?>,index=15>
+VW,context=Main#main:1,t=time:1
+FR,context=time:1,h
+FR,context=time:1,m
+VD,method=Main#main:1 <name=t,type=time (id=98),value=<?>,index=15>
+FR,context=time:2,h
+FR,context=time:2,m
+VD,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=14>
+ME,returner=Main#main:1,value=<void>
+TE,

@@ -1,0 +1,112 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+NO,object=Main:1
+MC,caller=Main#main:1,target=Main:1#Main:1
+ME,returner=Main:1#Main:1,value=<void>
+MC,caller=Main#main:1,target=Main:1#run:1
+VW,context=Main:1#run:1,scan=java.util.Scanner (id=364)
+VW,context=Main:1#run:1,n=2
+VW,context=Main:1#run:1,w=10
+VW,context=Main:1#run:1,d=6
+NO,object=int[][]:1
+NO,object=int[]:1
+FW,context=int[]:1,0=0
+FW,context=int[]:1,1=0
+FW,context=int[][]:1,0=int[]:1
+NO,object=int[]:2
+FW,context=int[]:2,0=0
+FW,context=int[]:2,1=0
+FW,context=int[][]:1,1=int[]:2
+VW,context=Main:1#run:1,ary=int[][]:1
+VW,context=Main:1#run:1,i=0
+VW,context=Main:1#run:1,x=4
+VW,context=Main:1#run:1,y=4
+VW,context=Main:1#run:1,ary=int[][]:1
+VW,context=Main:1#run:1,ary=int[][]:1
+VW,context=Main:1#run:1,i=1
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=6>
+VD,method=Main:1#run:1 <name=y,type=int (id=7),value=<?>,index=7>
+VW,context=Main:1#run:1,x=6
+VW,context=Main:1#run:1,y=4
+VW,context=Main:1#run:1,ary=int[][]:1
+VW,context=Main:1#run:1,ary=int[][]:1
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=6>
+VD,method=Main:1#run:1 <name=y,type=int (id=7),value=<?>,index=7>
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=5>
+VW,context=Main:1#run:1,min=2147483647
+VW,context=Main:1#run:1,i=0
+NO,object=Main$1:1
+MC,caller=Main:1#run:1,target=Main$1:1#<init>:1
+ME,returner=Main$1:1#<init>:1,value=<void>
+MC,caller=Main:1#run:1,target=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),target=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),target=Ljava/util/TimSort;.sort([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II)
+MC,caller=Ljava/util/TimSort;.sort([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II),target=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;)
+ME,returner=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),value=<void>
+ME,returner=Ljava/util/TimSort;.sort([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),value=<void>
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),target=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;)
+MC,caller=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),target=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;)
+MC,caller=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:1#compare:1
+VW,context=Main$1:1#compare:1,o2=int[]:1
+VW,context=Main$1:1#compare:1,o1=int[]:2
+VW,context=Main$1:1#compare:1,result=14
+ME,returner=Main$1:1#compare:1,value=14
+ME,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),value=<void>
+ME,returner=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),value=<void>
+VW,context=Main:1#run:1,ans=1
+VW,context=Main:1#run:1,p=20
+VW,context=Main:1#run:1,j=1
+VW,context=Main:1#run:1,ans=2
+VW,context=Main:1#run:1,p=34
+VW,context=Main:1#run:1,ary=int[][]:1
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=<?>,index=12>
+VW,context=Main:1#run:1,ary=int[][]:1
+VW,context=Main:1#run:1,min=2
+VW,context=Main:1#run:1,i=1
+VD,method=Main:1#run:1 <name=ans,type=int (id=7),value=<?>,index=10>
+VD,method=Main:1#run:1 <name=p,type=int (id=7),value=<?>,index=11>
+NO,object=Main$1:2
+MC,caller=Main:1#run:1,target=Main$1:2#<init>:2
+ME,returner=Main$1:2#<init>:2,value=<void>
+MC,caller=Main:1#run:1,target=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),target=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;)
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),target=Ljava/util/TimSort;.sort([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II)
+MC,caller=Ljava/util/TimSort;.sort([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II),target=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;)
+ME,returner=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),value=<void>
+ME,returner=Ljava/util/TimSort;.sort([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),value=<void>
+MC,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),target=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;)
+MC,caller=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),target=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;)
+MC,caller=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+MC,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:2
+VW,context=Main$1:2#compare:2,o2=int[]:1
+VW,context=Main$1:2#compare:2,o1=int[]:2
+VW,context=Main$1:2#compare:2,result=-18
+ME,returner=Main$1:2#compare:2,value=-18
+ME,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+ME,returner=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),value=<void>
+ME,returner=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),value=<void>
+ME,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),value=<void>
+VW,context=Main:1#run:1,ans=1
+VW,context=Main:1#run:1,p=34
+VW,context=Main:1#run:1,j=1
+VW,context=Main:1#run:1,ans=2
+VW,context=Main:1#run:1,p=52
+FW,context=int[][]:1,0=int[]:2
+FW,context=int[][]:1,1=int[]:1
+VW,context=Main:1#run:1,ary=int[][]:1
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=<?>,index=12>
+VW,context=Main:1#run:1,ary=int[][]:1
+VW,context=Main:1#run:1,min=2
+VD,method=Main:1#run:1 <name=ans,type=int (id=7),value=<?>,index=10>
+VD,method=Main:1#run:1 <name=p,type=int (id=7),value=<?>,index=11>
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=9>
+ME,returner=Main:1#run:1,value=<void>
+ME,returner=Main#main:1,value=<void>
+TE,

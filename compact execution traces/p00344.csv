@@ -1,0 +1,116 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+VW,context=Main#main:1,br=java.io.BufferedReader (id=24)
+VW,context=Main#main:1,N=3
+NO,object=int[]:1
+FW,context=int[]:1,0=0
+FW,context=int[]:1,1=0
+FW,context=int[]:1,2=0
+VW,context=Main#main:1,a=int[]:1
+VW,context=Main#main:1,st=java.util.StringTokenizer (id=29)
+VW,context=Main#main:1,i=0
+FW,context=int[]:1,0=1
+VW,context=Main#main:1,a=int[]:1
+VW,context=Main#main:1,i=1
+FW,context=int[]:1,1=1
+VW,context=Main#main:1,a=int[]:1
+VW,context=Main#main:1,i=2
+FW,context=int[]:1,2=1
+VW,context=Main#main:1,a=int[]:1
+NO,object=int[]:2
+FW,context=int[]:2,0=0
+FW,context=int[]:2,1=0
+FW,context=int[]:2,2=0
+VW,context=Main#main:1,indeg=int[]:2
+NO,object=boolean[]:1
+FW,context=boolean[]:1,0=false
+FW,context=boolean[]:1,1=false
+FW,context=boolean[]:1,2=false
+VW,context=Main#main:1,used=boolean[]:1
+VW,context=Main#main:1,i=0
+FW,context=int[]:2,1=1
+VW,context=Main#main:1,indeg=int[]:2
+VW,context=Main#main:1,i=1
+FW,context=int[]:2,2=1
+VW,context=Main#main:1,indeg=int[]:2
+VW,context=Main#main:1,i=2
+FW,context=int[]:2,0=1
+VW,context=Main#main:1,indeg=int[]:2
+VW,context=Main#main:1,i=0
+VW,context=Main#main:1,j=0
+VW,context=Main#main:1,i=1
+VD,method=Main#main:1 <name=j,type=int (id=7),value=2,index=11>
+VW,context=Main#main:1,j=1
+VW,context=Main#main:1,i=2
+VD,method=Main#main:1 <name=j,type=int (id=7),value=2,index=11>
+VW,context=Main#main:1,j=2
+VD,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=9>
+MC,caller=Main#main:1,target=Ljava/lang/invoke/MethodHandleNatives;.linkCallSiteImpl(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;[Ljava/lang/Object;)
+MC,caller=Ljava/lang/invoke/MethodHandleNatives;.linkCallSiteImpl(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;[Ljava/lang/Object;),target=Ljava/lang/invoke/MethodHandleNatives;.linkCallSiteImpl(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;[Ljava/lang/Object;)
+MC,caller=Ljava/lang/invoke/MethodHandleNatives;.linkCallSiteImpl(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;[Ljava/lang/Object;),target=Ljava/lang/invoke/CallSite;.makeSite(Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;Ljava/lang/Class;)
+MC,caller=Ljava/lang/invoke/CallSite;.makeSite(Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;Ljava/lang/Class;),target=Ljava/lang/invoke/LambdaForm$MH/1927950199;.invoke_MT(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)
+MC,caller=Ljava/lang/invoke/LambdaForm$MH/1927950199;.invoke_MT(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;),target=Ljava/lang/invoke/LambdaForm$BMH/531885035;.reinvoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)
+MC,caller=Ljava/lang/invoke/LambdaForm$BMH/531885035;.reinvoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;),target=Ljava/lang/invoke/LambdaForm$DMH/1878246837;.invokeStatic_L6_L(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)
+MC,caller=Ljava/lang/invoke/LambdaForm$DMH/1878246837;.invokeStatic_L6_L(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;),target=Ljava/lang/invoke/LambdaMetafactory;.metafactory(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)
+MC,caller=Ljava/lang/invoke/LambdaMetafactory;.metafactory(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;),target=Ljava/lang/invoke/InnerClassLambdaMetafactory;.buildCallSite()
+MC,caller=Ljava/lang/invoke/InnerClassLambdaMetafactory;.buildCallSite(),target=Ljava/lang/reflect/Constructor;.newInstance([Ljava/lang/Object;)
+MC,caller=Ljava/lang/reflect/Constructor;.newInstance([Ljava/lang/Object;),target=Lsun/reflect/DelegatingConstructorAccessorImpl;.newInstance([Ljava/lang/Object;)
+MC,caller=Lsun/reflect/DelegatingConstructorAccessorImpl;.newInstance([Ljava/lang/Object;),target=Lsun/reflect/NativeConstructorAccessorImpl;.newInstance([Ljava/lang/Object;)
+MC,caller=Lsun/reflect/NativeConstructorAccessorImpl;.newInstance([Ljava/lang/Object;),target=Lsun/reflect/NativeConstructorAccessorImpl;.newInstance0(Ljava/lang/reflect/Constructor;[Ljava/lang/Object;)
+NO,object=Main$$Lambda$1.303563356:1
+MC,caller=Lsun/reflect/NativeConstructorAccessorImpl;.newInstance0(Ljava/lang/reflect/Constructor;[Ljava/lang/Object;),target=Main$$Lambda$1.303563356:1#1.303563356:1
+ME,returner=Main$$Lambda$1.303563356:1#1.303563356:1,value=<void>
+ME,returner=Lsun/reflect/NativeConstructorAccessorImpl;.newInstance0(Ljava/lang/reflect/Constructor;[Ljava/lang/Object;),value=<void>
+ME,returner=Lsun/reflect/NativeConstructorAccessorImpl;.newInstance([Ljava/lang/Object;),value=<void>
+ME,returner=Lsun/reflect/DelegatingConstructorAccessorImpl;.newInstance([Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/lang/reflect/Constructor;.newInstance([Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/lang/invoke/InnerClassLambdaMetafactory;.buildCallSite(),value=<void>
+ME,returner=Ljava/lang/invoke/LambdaMetafactory;.metafactory(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;),value=<void>
+ME,returner=Ljava/lang/invoke/LambdaForm$DMH/1878246837;.invokeStatic_L6_L(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/lang/invoke/LambdaForm$BMH/531885035;.reinvoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/lang/invoke/LambdaForm$MH/1927950199;.invoke_MT(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/lang/invoke/CallSite;.makeSite(Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;Ljava/lang/Class;),value=<void>
+ME,returner=Ljava/lang/invoke/MethodHandleNatives;.linkCallSiteImpl(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;[Ljava/lang/Object;),value=<void>
+ME,returner=Ljava/lang/invoke/MethodHandleNatives;.linkCallSiteImpl(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;[Ljava/lang/Object;),value=<void>
+MC,caller=Main#main:1,target=Ljava/util/stream/LongPipeline;.sum()
+MC,caller=Ljava/util/stream/LongPipeline;.sum(),target=Ljava/util/stream/LongPipeline;.sum()
+MC,caller=Ljava/util/stream/LongPipeline;.sum(),target=Ljava/util/stream/LongPipeline;.reduce(JLjava/util/function/LongBinaryOperator;)
+MC,caller=Ljava/util/stream/LongPipeline;.reduce(JLjava/util/function/LongBinaryOperator;),target=Ljava/util/stream/AbstractPipeline;.evaluate(Ljava/util/stream/TerminalOp;)
+MC,caller=Ljava/util/stream/AbstractPipeline;.evaluate(Ljava/util/stream/TerminalOp;),target=Ljava/util/stream/ReduceOps$ReduceOp;.evaluateSequential(Ljava/util/stream/PipelineHelper;Ljava/util/Spliterator;)
+MC,caller=Ljava/util/stream/ReduceOps$ReduceOp;.evaluateSequential(Ljava/util/stream/PipelineHelper;Ljava/util/Spliterator;),target=Ljava/util/stream/AbstractPipeline;.wrapAndCopyInto(Ljava/util/stream/Sink;Ljava/util/Spliterator;)
+MC,caller=Ljava/util/stream/AbstractPipeline;.wrapAndCopyInto(Ljava/util/stream/Sink;Ljava/util/Spliterator;),target=Ljava/util/stream/AbstractPipeline;.copyInto(Ljava/util/stream/Sink;Ljava/util/Spliterator;)
+MC,caller=Ljava/util/stream/AbstractPipeline;.copyInto(Ljava/util/stream/Sink;Ljava/util/Spliterator;),target=Ljava/util/Spliterator$OfInt;.forEachRemaining(Ljava/util/function/Consumer;)
+MC,caller=Ljava/util/Spliterator$OfInt;.forEachRemaining(Ljava/util/function/Consumer;),target=Ljava/util/Spliterators$IntArraySpliterator;.forEachRemaining(Ljava/util/function/IntConsumer;)
+MC,caller=Ljava/util/Spliterators$IntArraySpliterator;.forEachRemaining(Ljava/util/function/IntConsumer;),target=Ljava/util/stream/IntPipeline$9$1;.accept(I)
+MC,caller=Ljava/util/stream/IntPipeline$9$1;.accept(I),target=Main$$Lambda$1.303563356:1#test:1
+VW,context=Main$$Lambda$1.303563356:1#test:1,arg0=1
+MC,caller=Main$$Lambda$1.303563356:1#test:1,target=LMain;.lambda$0(I) <SYNTHETIC>
+ME,returner=LMain;.lambda$0(I) <SYNTHETIC>,value=<void>
+VW,context=Main$$Lambda$1.303563356:1#test:1,result=true
+ME,returner=Main$$Lambda$1.303563356:1#test:1,value=true
+MC,caller=Ljava/util/stream/IntPipeline$9$1;.accept(I),target=Main$$Lambda$1.303563356:1#test:2
+VW,context=Main$$Lambda$1.303563356:1#test:2,arg0=1
+MC,caller=Main$$Lambda$1.303563356:1#test:2,target=LMain;.lambda$0(I) <SYNTHETIC>
+ME,returner=LMain;.lambda$0(I) <SYNTHETIC>,value=<void>
+VW,context=Main$$Lambda$1.303563356:1#test:2,result=true
+ME,returner=Main$$Lambda$1.303563356:1#test:2,value=true
+MC,caller=Ljava/util/stream/IntPipeline$9$1;.accept(I),target=Main$$Lambda$1.303563356:1#test:3
+VW,context=Main$$Lambda$1.303563356:1#test:3,arg0=1
+MC,caller=Main$$Lambda$1.303563356:1#test:3,target=LMain;.lambda$0(I) <SYNTHETIC>
+ME,returner=LMain;.lambda$0(I) <SYNTHETIC>,value=<void>
+VW,context=Main$$Lambda$1.303563356:1#test:3,result=true
+ME,returner=Main$$Lambda$1.303563356:1#test:3,value=true
+ME,returner=Ljava/util/stream/IntPipeline$9$1;.accept(I),value=<void>
+ME,returner=Ljava/util/Spliterators$IntArraySpliterator;.forEachRemaining(Ljava/util/function/IntConsumer;),value=<void>
+ME,returner=Ljava/util/Spliterator$OfInt;.forEachRemaining(Ljava/util/function/Consumer;),value=<void>
+ME,returner=Ljava/util/stream/AbstractPipeline;.copyInto(Ljava/util/stream/Sink;Ljava/util/Spliterator;),value=<void>
+ME,returner=Ljava/util/stream/AbstractPipeline;.wrapAndCopyInto(Ljava/util/stream/Sink;Ljava/util/Spliterator;),value=<void>
+ME,returner=Ljava/util/stream/ReduceOps$ReduceOp;.evaluateSequential(Ljava/util/stream/PipelineHelper;Ljava/util/Spliterator;),value=<void>
+ME,returner=Ljava/util/stream/AbstractPipeline;.evaluate(Ljava/util/stream/TerminalOp;),value=<void>
+ME,returner=Ljava/util/stream/LongPipeline;.reduce(JLjava/util/function/LongBinaryOperator;),value=<void>
+ME,returner=Ljava/util/stream/LongPipeline;.sum(),value=<void>
+ME,returner=Ljava/util/stream/LongPipeline;.sum(),value=<void>
+ME,returner=Main#main:1,value=<void>
+TE,

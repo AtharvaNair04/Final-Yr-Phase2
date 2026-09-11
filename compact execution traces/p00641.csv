@@ -1,0 +1,468 @@
+TS,main (1)
+MC,caller=SYSTEM,target=Main#main:1
+NO,object=java.lang.String[]:1
+VW,context=Main#main:1,args=java.lang.String[]:1
+NO,object=Main:1
+MC,caller=Main#main:1,target=Main:1#Main:1
+ME,returner=Main:1#Main:1,value=<void>
+MC,caller=Main#main:1,target=Main:1#run:1
+VW,context=Main:1#run:1,in=java.util.Scanner (id=365)
+FW,context=Main:1,N=3
+FR,context=Main:1,N
+FR,context=Main:1,N
+NO,object=int[][]:1
+NO,object=int[]:1
+FW,context=int[]:1,0=0
+FW,context=int[]:1,1=0
+FW,context=int[][]:1,0=int[]:1
+NO,object=int[]:2
+FW,context=int[]:2,0=0
+FW,context=int[]:2,1=0
+FW,context=int[][]:1,1=int[]:2
+NO,object=int[]:3
+FW,context=int[]:3,0=0
+FW,context=int[]:3,1=0
+FW,context=int[][]:1,2=int[]:3
+FW,context=Main:1,graph=int[][]:1
+FR,context=Main:1,N
+NO,object=int[][]:2
+NO,object=int[]:4
+FW,context=int[]:4,0=0
+FW,context=int[]:4,1=0
+FW,context=int[][]:2,0=int[]:4
+NO,object=int[]:5
+FW,context=int[]:5,0=0
+FW,context=int[]:5,1=0
+FW,context=int[][]:2,1=int[]:5
+NO,object=int[]:6
+FW,context=int[]:6,0=0
+FW,context=int[]:6,1=0
+FW,context=int[][]:2,2=int[]:6
+FW,context=Main:1,weight=int[][]:2
+FR,context=Main:1,N
+NO,object=boolean[]:1
+FW,context=boolean[]:1,0=false
+FW,context=boolean[]:1,1=false
+FW,context=boolean[]:1,2=false
+FW,context=Main:1,visited=boolean[]:1
+FR,context=Main:1,N
+VW,context=Main:1#run:1,i=0
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,x=1
+VW,context=Main:1#run:1,fx=1
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VW,context=Main:1#run:1,j=1
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,x=2
+VW,context=Main:1#run:1,fx=3
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,N
+VW,context=Main:1#run:1,i=1
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=<?>,index=2>
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,x=0
+VW,context=Main:1#run:1,fx=1
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VW,context=Main:1#run:1,j=1
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,x=2
+VW,context=Main:1#run:1,fx=2
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,N
+VW,context=Main:1#run:1,i=2
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=<?>,index=2>
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,x=1
+VW,context=Main:1#run:1,fx=2
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VW,context=Main:1#run:1,j=1
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,x=0
+VW,context=Main:1#run:1,fx=3
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,N
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=<?>,index=2>
+MC,caller=Main:1#run:1,target=Main:1#solve:1
+VW,context=Main:1#solve:1,ret=1
+FR,context=Main:1,N
+FR,context=Main:1,visited
+VW,context=Main:1#solve:1,i=0
+FR,context=Main:1,weight
+FW,context=Main:1,maxValue=3
+FW,context=Main:1,maxCnt=1
+MC,caller=Main:1#solve:1,target=Main:1#dfs:1
+VW,context=Main:1#dfs:1,v=0
+FR,context=Main:1,visited
+VW,context=Main:1#dfs:1,end=true
+VW,context=Main:1#dfs:1,i=0
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+FR,context=Main:1,maxValue
+FR,context=Main:1,weight
+FR,context=Main:1,graph
+VW,context=Main:1#dfs:1,v=1
+VW,context=Main:1#dfs:1,end=false
+FR,context=Main:1,visited
+VW,context=Main:1#dfs:1,end=true
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+VW,context=Main:1#dfs:1,i=1
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+FR,context=Main:1,maxValue
+FR,context=Main:1,weight
+FR,context=Main:1,graph
+VW,context=Main:1#dfs:1,v=2
+VW,context=Main:1#dfs:1,end=false
+FR,context=Main:1,visited
+VW,context=Main:1#dfs:1,end=true
+VW,context=Main:1#dfs:1,i=0
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+VW,context=Main:1#dfs:1,i=1
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+ME,returner=Main:1#dfs:1,value=<void>
+FR,context=Main:1,maxCnt
+FR,context=Main:1,N
+FR,context=Main:1,visited
+FR,context=Main:1,N
+FR,context=Main:1,visited
+FR,context=Main:1,N
+VW,context=Main:1#solve:1,result=1
+ME,returner=Main:1#solve:1,value=1
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=1>
+FW,context=Main:1,N=7
+FR,context=Main:1,N
+FR,context=Main:1,N
+NO,object=int[][]:3
+NO,object=int[]:7
+FW,context=int[]:7,0=0
+FW,context=int[]:7,1=0
+FW,context=int[][]:3,0=int[]:7
+NO,object=int[]:8
+FW,context=int[]:8,0=0
+FW,context=int[]:8,1=0
+FW,context=int[][]:3,1=int[]:8
+NO,object=int[]:9
+FW,context=int[]:9,0=0
+FW,context=int[]:9,1=0
+FW,context=int[][]:3,2=int[]:9
+NO,object=int[]:10
+FW,context=int[]:10,0=0
+FW,context=int[]:10,1=0
+FW,context=int[][]:3,3=int[]:10
+NO,object=int[]:11
+FW,context=int[]:11,0=0
+FW,context=int[]:11,1=0
+FW,context=int[][]:3,4=int[]:11
+NO,object=int[]:12
+FW,context=int[]:12,0=0
+FW,context=int[]:12,1=0
+FW,context=int[][]:3,5=int[]:12
+NO,object=int[]:13
+FW,context=int[]:13,0=0
+FW,context=int[]:13,1=0
+FW,context=int[][]:3,6=int[]:13
+FW,context=Main:1,graph=int[][]:3
+FR,context=Main:1,N
+NO,object=int[][]:4
+NO,object=int[]:14
+FW,context=int[]:14,0=0
+FW,context=int[]:14,1=0
+FW,context=int[][]:4,0=int[]:14
+NO,object=int[]:15
+FW,context=int[]:15,0=0
+FW,context=int[]:15,1=0
+FW,context=int[][]:4,1=int[]:15
+NO,object=int[]:16
+FW,context=int[]:16,0=0
+FW,context=int[]:16,1=0
+FW,context=int[][]:4,2=int[]:16
+NO,object=int[]:17
+FW,context=int[]:17,0=0
+FW,context=int[]:17,1=0
+FW,context=int[][]:4,3=int[]:17
+NO,object=int[]:18
+FW,context=int[]:18,0=0
+FW,context=int[]:18,1=0
+FW,context=int[][]:4,4=int[]:18
+NO,object=int[]:19
+FW,context=int[]:19,0=0
+FW,context=int[]:19,1=0
+FW,context=int[][]:4,5=int[]:19
+NO,object=int[]:20
+FW,context=int[]:20,0=0
+FW,context=int[]:20,1=0
+FW,context=int[][]:4,6=int[]:20
+FW,context=Main:1,weight=int[][]:4
+FR,context=Main:1,N
+NO,object=boolean[]:2
+FW,context=boolean[]:2,0=false
+FW,context=boolean[]:2,1=false
+FW,context=boolean[]:2,2=false
+FW,context=boolean[]:2,3=false
+FW,context=boolean[]:2,4=false
+FW,context=boolean[]:2,5=false
+FW,context=boolean[]:2,6=false
+FW,context=Main:1,visited=boolean[]:2
+FR,context=Main:1,N
+VW,context=Main:1#run:1,i=0
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,x=1
+VW,context=Main:1#run:1,fx=2
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VW,context=Main:1#run:1,j=1
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,x=2
+VW,context=Main:1#run:1,fx=1
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,N
+VW,context=Main:1#run:1,i=1
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=<?>,index=2>
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,x=0
+VW,context=Main:1#run:1,fx=2
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VW,context=Main:1#run:1,j=1
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,x=3
+VW,context=Main:1#run:1,fx=2
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,N
+VW,context=Main:1#run:1,i=2
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=<?>,index=2>
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,x=0
+VW,context=Main:1#run:1,fx=1
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VW,context=Main:1#run:1,j=1
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,x=3
+VW,context=Main:1#run:1,fx=1
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,N
+VW,context=Main:1#run:1,i=3
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=<?>,index=2>
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,x=2
+VW,context=Main:1#run:1,fx=1
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VW,context=Main:1#run:1,j=1
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,x=1
+VW,context=Main:1#run:1,fx=2
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,N
+VW,context=Main:1#run:1,i=4
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=<?>,index=2>
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,x=5
+VW,context=Main:1#run:1,fx=3
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VW,context=Main:1#run:1,j=1
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,x=6
+VW,context=Main:1#run:1,fx=2
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,N
+VW,context=Main:1#run:1,i=5
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=<?>,index=2>
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,x=4
+VW,context=Main:1#run:1,fx=3
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VW,context=Main:1#run:1,j=1
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,x=6
+VW,context=Main:1#run:1,fx=1
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,N
+VW,context=Main:1#run:1,i=6
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=<?>,index=2>
+VW,context=Main:1#run:1,j=0
+VW,context=Main:1#run:1,x=4
+VW,context=Main:1#run:1,fx=2
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VW,context=Main:1#run:1,j=1
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+VW,context=Main:1#run:1,x=5
+VW,context=Main:1#run:1,fx=1
+FR,context=Main:1,graph
+FR,context=Main:1,weight
+VD,method=Main:1#run:1 <name=x,type=int (id=7),value=<?>,index=3>
+VD,method=Main:1#run:1 <name=fx,type=int (id=7),value=<?>,index=4>
+FR,context=Main:1,N
+VD,method=Main:1#run:1 <name=j,type=int (id=7),value=<?>,index=2>
+MC,caller=Main:1#run:1,target=Main:1#solve:2
+VW,context=Main:1#solve:2,ret=1
+FR,context=Main:1,N
+FR,context=Main:1,visited
+VW,context=Main:1#solve:2,i=0
+FR,context=Main:1,weight
+FW,context=Main:1,maxValue=1
+FW,context=Main:1,maxCnt=1
+MC,caller=Main:1#solve:2,target=Main:1#dfs:2
+VW,context=Main:1#dfs:2,v=0
+FR,context=Main:1,visited
+VW,context=Main:1#dfs:2,end=true
+VW,context=Main:1#dfs:2,i=0
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+FR,context=Main:1,maxValue
+FR,context=Main:1,weight
+FR,context=Main:1,maxValue
+FR,context=Main:1,weight
+FR,context=Main:1,weight
+FW,context=Main:1,maxValue=2
+FW,context=Main:1,maxCnt=1
+FR,context=Main:1,graph
+VW,context=Main:1#dfs:2,v=1
+VW,context=Main:1#dfs:2,end=false
+FR,context=Main:1,visited
+VW,context=Main:1#dfs:2,end=true
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+VW,context=Main:1#dfs:2,i=1
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+FR,context=Main:1,maxValue
+FR,context=Main:1,weight
+FR,context=Main:1,maxValue
+FR,context=Main:1,weight
+FR,context=Main:1,maxCnt
+FW,context=Main:1,maxCnt=2
+FR,context=Main:1,graph
+VW,context=Main:1#dfs:2,v=3
+VW,context=Main:1#dfs:2,end=false
+FR,context=Main:1,visited
+VW,context=Main:1#dfs:2,end=true
+VW,context=Main:1#dfs:2,i=0
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+FR,context=Main:1,maxValue
+FR,context=Main:1,weight
+FR,context=Main:1,graph
+VW,context=Main:1#dfs:2,v=2
+VW,context=Main:1#dfs:2,end=false
+FR,context=Main:1,visited
+VW,context=Main:1#dfs:2,end=true
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+VW,context=Main:1#dfs:2,i=1
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+ME,returner=Main:1#dfs:2,value=<void>
+FR,context=Main:1,maxCnt
+VW,context=Main:1#solve:2,ret=2
+FR,context=Main:1,N
+FR,context=Main:1,visited
+FR,context=Main:1,N
+FR,context=Main:1,visited
+FR,context=Main:1,N
+FR,context=Main:1,visited
+FR,context=Main:1,N
+FR,context=Main:1,visited
+VW,context=Main:1#solve:2,i=4
+FR,context=Main:1,weight
+FW,context=Main:1,maxValue=2
+FW,context=Main:1,maxCnt=1
+MC,caller=Main:1#solve:2,target=Main:1#dfs:3
+VW,context=Main:1#dfs:3,v=4
+FR,context=Main:1,visited
+VW,context=Main:1#dfs:3,end=true
+VW,context=Main:1#dfs:3,i=0
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+FR,context=Main:1,maxValue
+FR,context=Main:1,weight
+FR,context=Main:1,maxValue
+FR,context=Main:1,weight
+FR,context=Main:1,weight
+FW,context=Main:1,maxValue=3
+FW,context=Main:1,maxCnt=1
+FR,context=Main:1,graph
+VW,context=Main:1#dfs:3,v=5
+VW,context=Main:1#dfs:3,end=false
+FR,context=Main:1,visited
+VW,context=Main:1#dfs:3,end=true
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+VW,context=Main:1#dfs:3,i=1
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+FR,context=Main:1,maxValue
+FR,context=Main:1,weight
+FR,context=Main:1,graph
+VW,context=Main:1#dfs:3,v=6
+VW,context=Main:1#dfs:3,end=false
+FR,context=Main:1,visited
+VW,context=Main:1#dfs:3,end=true
+VW,context=Main:1#dfs:3,i=0
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+VW,context=Main:1#dfs:3,i=1
+FR,context=Main:1,visited
+FR,context=Main:1,graph
+ME,returner=Main:1#dfs:3,value=<void>
+FR,context=Main:1,maxCnt
+FR,context=Main:1,N
+FR,context=Main:1,visited
+FR,context=Main:1,N
+FR,context=Main:1,visited
+FR,context=Main:1,N
+VW,context=Main:1#solve:2,result=2
+ME,returner=Main:1#solve:2,value=2
+VD,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=1>
+FW,context=Main:1,N=0
+FR,context=Main:1,N
+ME,returner=Main:1#run:1,value=<void>
+ME,returner=Main#main:1,value=<void>
+TE,
