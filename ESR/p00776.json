@@ -1,0 +1,108 @@
+{
+    "representation": "ESR",
+    "program_id": "p00776",
+    "event_count": 13,
+    "events": [
+        {
+            "step": 1,
+            "type": "TS",
+            "attributes": {
+                "VALUE_1": "main (1)"
+            }
+        },
+        {
+            "step": 2,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "SYSTEM",
+                "TARGET": "Main#main:1"
+            }
+        },
+        {
+            "step": 3,
+            "type": "NO",
+            "attributes": {
+                "OBJECT": "java.lang.String[]:1"
+            }
+        },
+        {
+            "step": 4,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main#main:1",
+                "ARGS": "java.lang.String[]:1"
+            }
+        },
+        {
+            "step": 5,
+            "type": "NO",
+            "attributes": {
+                "OBJECT": "Main:1"
+            }
+        },
+        {
+            "step": 6,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main#main:1",
+                "TARGET": "Main:1#Main:1"
+            }
+        },
+        {
+            "step": 7,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "SQ": "java.util.LinkedList (id=343)"
+            }
+        },
+        {
+            "step": 8,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "EQ": "java.util.LinkedList (id=346)"
+            }
+        },
+        {
+            "step": 9,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "COUNT": "0"
+            }
+        },
+        {
+            "step": 10,
+            "type": "FW",
+            "attributes": {
+                "CONTEXT": "Main:1",
+                "FLAG": "false"
+            }
+        },
+        {
+            "step": 11,
+            "type": "ME",
+            "attributes": {
+                "RETURNER": "Main:1#Main:1",
+                "VALUE": "<void>"
+            }
+        },
+        {
+            "step": 12,
+            "type": "MC",
+            "attributes": {
+                "CALLER": "Main#main:1",
+                "TARGET": "Main:1#start:1"
+            }
+        },
+        {
+            "step": 13,
+            "type": "VW",
+            "attributes": {
+                "CONTEXT": "Main:1#start:1",
+                "IN": "java.util.Scanner (id=368)"
+            }
+        }
+    ]
+}
