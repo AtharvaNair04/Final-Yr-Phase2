@@ -1,0 +1,1 @@
+import java.util.*;class Main{public static void main(String[]z){Scanner s=new Scanner(System.in);for(int n=s.nextInt()+1,m=n/2,a,b,i=s.nextInt();i-->0;)System.out.println((m-1-Math.max(Math.abs((a=s.nextInt()-m)>0&&n%2>0?a-1:a),Math.abs((b=s.nextInt()-m)>0&&n%2>0?b-1:b)))%3+1);}}
