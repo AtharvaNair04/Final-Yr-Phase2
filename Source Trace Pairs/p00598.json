@@ -1,0 +1,3539 @@
+{
+    "program_id": "p00598",
+    "source": {
+        "program_id": "p00598",
+        "file": "p00598.java",
+        "package": null,
+        "classes": [
+            "Main",
+            "Calculator"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "expr",
+                "return_type": "Set",
+                "parameters": []
+            },
+            {
+                "name": "term",
+                "return_type": "Set",
+                "parameters": []
+            },
+            {
+                "name": "factor",
+                "return_type": "Set",
+                "parameters": []
+            },
+            {
+                "name": "run",
+                "return_type": "Set",
+                "parameters": []
+            },
+            {
+                "name": "solve",
+                "return_type": null,
+                "parameters": []
+            },
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            }
+        ],
+        "constructors": [
+            {
+                "name": "Calculator",
+                "parameters": [
+                    "sets",
+                    "expr"
+                ]
+            }
+        ],
+        "variables": [
+            "sets",
+            "input",
+            "U",
+            "ptr",
+            "set",
+            "value",
+            "A",
+            "A1",
+            "B",
+            "B1",
+            "scanner",
+            "result",
+            "name",
+            "n",
+            "expr",
+            "i",
+            "space",
+            "elements",
+            "e"
+        ],
+        "method_calls": [
+            {
+                "name": "values",
+                "qualifier": "sets"
+            },
+            {
+                "name": "addAll",
+                "qualifier": "U"
+            },
+            {
+                "name": "term",
+                "qualifier": ""
+            },
+            {
+                "name": "addAll",
+                "qualifier": "value"
+            },
+            {
+                "name": "term",
+                "qualifier": ""
+            },
+            {
+                "name": "retainAll",
+                "qualifier": "value"
+            },
+            {
+                "name": "term",
+                "qualifier": ""
+            },
+            {
+                "name": "removeAll",
+                "qualifier": "value"
+            },
+            {
+                "name": "term",
+                "qualifier": ""
+            },
+            {
+                "name": "term",
+                "qualifier": ""
+            },
+            {
+                "name": "removeAll",
+                "qualifier": "A1"
+            },
+            {
+                "name": "removeAll",
+                "qualifier": "B1"
+            },
+            {
+                "name": "addAll",
+                "qualifier": "A1"
+            },
+            {
+                "name": "removeAll",
+                "qualifier": "value"
+            },
+            {
+                "name": "factor",
+                "qualifier": ""
+            },
+            {
+                "name": "factor",
+                "qualifier": ""
+            },
+            {
+                "name": "expr",
+                "qualifier": ""
+            },
+            {
+                "name": "get",
+                "qualifier": "sets"
+            },
+            {
+                "name": "expr",
+                "qualifier": ""
+            },
+            {
+                "name": "hasNext",
+                "qualifier": "scanner"
+            },
+            {
+                "name": "next",
+                "qualifier": "scanner"
+            },
+            {
+                "name": "charAt",
+                "qualifier": null
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "scanner"
+            },
+            {
+                "name": "next",
+                "qualifier": "scanner"
+            },
+            {
+                "name": "toCharArray",
+                "qualifier": null
+            },
+            {
+                "name": "run",
+                "qualifier": null
+            },
+            {
+                "name": "add",
+                "qualifier": "value"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "scanner"
+            },
+            {
+                "name": "put",
+                "qualifier": "sets"
+            },
+            {
+                "name": "toArray",
+                "qualifier": "result"
+            },
+            {
+                "name": "sort",
+                "qualifier": "Arrays"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "print",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "print",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "solve",
+                "qualifier": ""
+            }
+        ],
+        "control_statements": [
+            "for",
+            "while",
+            "if"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00598",
+        "event_count": 405,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main#solve:1"
+                }
+            },
+            {
+                "step": 6,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "SCANNER": "java.util.Scanner (id=363)"
+                }
+            },
+            {
+                "step": 7,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "SETS": "java.util.HashMap (id=364)"
+                }
+            },
+            {
+                "step": 8,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NAME": "A"
+                }
+            },
+            {
+                "step": 9,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "N": "3"
+                }
+            },
+            {
+                "step": 10,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "VALUE": "java.util.HashSet (id=365)"
+                }
+            },
+            {
+                "step": 11,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 12,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 13,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 14,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=name",
+                    "TYPE": "char (id=4)",
+                    "VALUE": "R",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 15,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NAME": "B"
+                }
+            },
+            {
+                "step": 16,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=n",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 17,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "N": "4"
+                }
+            },
+            {
+                "step": 18,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=value",
+                    "TYPE": "java.util.Set (unresolved)",
+                    "VALUE": "java.util.HashSet (id=384)",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 19,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "VALUE": "java.util.HashSet (id=367)"
+                }
+            },
+            {
+                "step": 20,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "2",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 21,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 22,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 23,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 24,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 25,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=name",
+                    "TYPE": "char (id=4)",
+                    "VALUE": "R",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 26,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NAME": "D"
+                }
+            },
+            {
+                "step": 27,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=n",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 28,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "N": "1"
+                }
+            },
+            {
+                "step": 29,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=value",
+                    "TYPE": "java.util.Set (unresolved)",
+                    "VALUE": "java.util.HashSet (id=384)",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 30,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "VALUE": "java.util.HashSet (id=368)"
+                }
+            },
+            {
+                "step": 31,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "2",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 32,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 33,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=name",
+                    "TYPE": "char (id=4)",
+                    "VALUE": "R",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 34,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NAME": "R"
+                }
+            },
+            {
+                "step": 35,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=n",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 36,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 37,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "char[]:1"
+                }
+            },
+            {
+                "step": 38,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:1",
+                    "0": "c"
+                }
+            },
+            {
+                "step": 39,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:1",
+                    "1": "A"
+                }
+            },
+            {
+                "step": 40,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:1",
+                    "2": "i"
+                }
+            },
+            {
+                "step": 41,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:1",
+                    "3": "B"
+                }
+            },
+            {
+                "step": 42,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:1",
+                    "4": "d"
+                }
+            },
+            {
+                "step": 43,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:1",
+                    "5": "D"
+                }
+            },
+            {
+                "step": 44,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "EXPR": "char[]:1"
+                }
+            },
+            {
+                "step": 45,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#solve:1",
+                    "TARGET": "Main$Calculator#<clinit>:1"
+                }
+            },
+            {
+                "step": 46,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator#<clinit>:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 47,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$Calculator:1"
+                }
+            },
+            {
+                "step": 48,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#solve:1",
+                    "TARGET": "Main$Calculator:1#Main$Calculator:1"
+                }
+            },
+            {
+                "step": 49,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#Main$Calculator:1",
+                    "EXPR": "char[]:1"
+                }
+            },
+            {
+                "step": 50,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#Main$Calculator:1",
+                    "SETS": "java.util.HashMap (id=364)"
+                }
+            },
+            {
+                "step": 51,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "PTR": "0"
+                }
+            },
+            {
+                "step": 52,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "SETS": "java.util.HashMap (id=364)"
+                }
+            },
+            {
+                "step": 53,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "INPUT": "char[]:1"
+                }
+            },
+            {
+                "step": 54,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#Main$Calculator:1",
+                    "U": "java.util.HashSet (id=374)"
+                }
+            },
+            {
+                "step": 55,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#Main$Calculator:1",
+                    "SET": "java.util.HashSet (id=365)"
+                }
+            },
+            {
+                "step": 56,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#Main$Calculator:1",
+                    "SET": "java.util.HashSet (id=367)"
+                }
+            },
+            {
+                "step": 57,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#Main$Calculator:1",
+                    "SET": "java.util.HashSet (id=368)"
+                }
+            },
+            {
+                "step": 58,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "U": "java.util.HashSet (id=374)"
+                }
+            },
+            {
+                "step": 59,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main$Calculator:1#Main$Calculator:1 <name=set",
+                    "TYPE": "java.util.Set (unresolved)",
+                    "VALUE": "<?>",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 60,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:1#Main$Calculator:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 61,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#solve:1",
+                    "TARGET": "Main$Calculator:1#run:1"
+                }
+            },
+            {
+                "step": 62,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:1#run:1",
+                    "TARGET": "Main$Calculator:1#expr:1"
+                }
+            },
+            {
+                "step": 63,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:1#expr:1",
+                    "TARGET": "Main$Calculator:1#term:1"
+                }
+            },
+            {
+                "step": 64,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 65,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 66,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 67,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "PTR": "1"
+                }
+            },
+            {
+                "step": 68,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "U"
+                }
+            },
+            {
+                "step": 69,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#term:1",
+                    "VALUE": "java.util.HashSet (id=375)"
+                }
+            },
+            {
+                "step": 70,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:1#term:1",
+                    "TARGET": "Main$Calculator:1#factor:1"
+                }
+            },
+            {
+                "step": 71,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 72,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 73,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "sets"
+                }
+            },
+            {
+                "step": 74,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 75,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 76,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#factor:1",
+                    "VALUE": "java.util.HashSet (id=376)"
+                }
+            },
+            {
+                "step": 77,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 78,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "PTR": "2"
+                }
+            },
+            {
+                "step": 79,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#factor:1",
+                    "RESULT": "java.util.HashSet (id=376)"
+                }
+            },
+            {
+                "step": 80,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:1#factor:1",
+                    "VALUE": "java.util.HashSet (id=376)"
+                }
+            },
+            {
+                "step": 81,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#term:1",
+                    "RESULT": "java.util.HashSet (id=375)"
+                }
+            },
+            {
+                "step": 82,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:1#term:1",
+                    "VALUE": "java.util.HashSet (id=375)"
+                }
+            },
+            {
+                "step": 83,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#expr:1",
+                    "VALUE": "java.util.HashSet (id=375)"
+                }
+            },
+            {
+                "step": 84,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 85,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 86,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 87,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 88,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 89,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 90,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 91,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "PTR": "3"
+                }
+            },
+            {
+                "step": 92,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:1#expr:1",
+                    "TARGET": "Main$Calculator:1#term:2"
+                }
+            },
+            {
+                "step": 93,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 94,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 95,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:1#term:2",
+                    "TARGET": "Main$Calculator:1#factor:2"
+                }
+            },
+            {
+                "step": 96,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 97,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 98,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "sets"
+                }
+            },
+            {
+                "step": 99,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 100,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 101,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#factor:2",
+                    "VALUE": "java.util.HashSet (id=377)"
+                }
+            },
+            {
+                "step": 102,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 103,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "PTR": "4"
+                }
+            },
+            {
+                "step": 104,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#factor:2",
+                    "RESULT": "java.util.HashSet (id=377)"
+                }
+            },
+            {
+                "step": 105,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:1#factor:2",
+                    "VALUE": "java.util.HashSet (id=377)"
+                }
+            },
+            {
+                "step": 106,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#term:2",
+                    "VALUE": "java.util.HashSet (id=377)"
+                }
+            },
+            {
+                "step": 107,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#term:2",
+                    "RESULT": "java.util.HashSet (id=377)"
+                }
+            },
+            {
+                "step": 108,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:1#term:2",
+                    "VALUE": "java.util.HashSet (id=377)"
+                }
+            },
+            {
+                "step": 109,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 110,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 111,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 112,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 113,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 114,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 115,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 116,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 117,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 118,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "PTR": "5"
+                }
+            },
+            {
+                "step": 119,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:1#expr:1",
+                    "TARGET": "Main$Calculator:1#term:3"
+                }
+            },
+            {
+                "step": 120,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 121,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 122,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:1#term:3",
+                    "TARGET": "Main$Calculator:1#factor:3"
+                }
+            },
+            {
+                "step": 123,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 124,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 125,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "sets"
+                }
+            },
+            {
+                "step": 126,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 127,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 128,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#factor:3",
+                    "VALUE": "java.util.HashSet (id=378)"
+                }
+            },
+            {
+                "step": 129,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 130,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "PTR": "6"
+                }
+            },
+            {
+                "step": 131,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#factor:3",
+                    "RESULT": "java.util.HashSet (id=378)"
+                }
+            },
+            {
+                "step": 132,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:1#factor:3",
+                    "VALUE": "java.util.HashSet (id=378)"
+                }
+            },
+            {
+                "step": 133,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#term:3",
+                    "VALUE": "java.util.HashSet (id=378)"
+                }
+            },
+            {
+                "step": 134,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#term:3",
+                    "RESULT": "java.util.HashSet (id=378)"
+                }
+            },
+            {
+                "step": 135,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:1#term:3",
+                    "VALUE": "java.util.HashSet (id=378)"
+                }
+            },
+            {
+                "step": 136,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 137,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 138,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#expr:1",
+                    "RESULT": "java.util.HashSet (id=375)"
+                }
+            },
+            {
+                "step": 139,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:1#expr:1",
+                    "VALUE": "java.util.HashSet (id=375)"
+                }
+            },
+            {
+                "step": 140,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:1#run:1",
+                    "RESULT": "java.util.HashSet (id=375)"
+                }
+            },
+            {
+                "step": 141,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:1#run:1",
+                    "VALUE": "java.util.HashSet (id=375)"
+                }
+            },
+            {
+                "step": 142,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "RESULT": "java.util.HashSet (id=375)"
+                }
+            },
+            {
+                "step": 143,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "SPACE": "false"
+                }
+            },
+            {
+                "step": 144,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.Object[]:1"
+                }
+            },
+            {
+                "step": 145,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.Object[]:1",
+                    "0": "7 (Integer)"
+                }
+            },
+            {
+                "step": 146,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "ELEMENTS": "java.lang.Object[]:1"
+                }
+            },
+            {
+                "step": 147,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "E": "7 (Integer)"
+                }
+            },
+            {
+                "step": 148,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "SPACE": "true"
+                }
+            },
+            {
+                "step": 149,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=sets",
+                    "TYPE": "java.util.Map (unresolved)",
+                    "VALUE": "java.util.HashMap (id=381)",
+                    "INDEX": "1>"
+                }
+            },
+            {
+                "step": 150,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=result",
+                    "TYPE": "java.util.Set (unresolved)",
+                    "VALUE": "java.util.HashSet (id=389)",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 151,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "SETS": "java.util.HashMap (id=381)"
+                }
+            },
+            {
+                "step": 152,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=name",
+                    "TYPE": "char (id=4)",
+                    "VALUE": "R",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 153,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NAME": "C"
+                }
+            },
+            {
+                "step": 154,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=n",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 155,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "N": "3"
+                }
+            },
+            {
+                "step": 156,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=value",
+                    "TYPE": "java.util.Set (unresolved)",
+                    "VALUE": "java.util.HashSet (id=384)",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 157,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "VALUE": "java.util.HashSet (id=382)"
+                }
+            },
+            {
+                "step": 158,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "2",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 159,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 160,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 161,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 162,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=name",
+                    "TYPE": "char (id=4)",
+                    "VALUE": "R",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 163,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NAME": "A"
+                }
+            },
+            {
+                "step": 164,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=n",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 165,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "N": "4"
+                }
+            },
+            {
+                "step": 166,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=value",
+                    "TYPE": "java.util.Set (unresolved)",
+                    "VALUE": "java.util.HashSet (id=384)",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 167,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "VALUE": "java.util.HashSet (id=383)"
+                }
+            },
+            {
+                "step": 168,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "2",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 169,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 170,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 171,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 172,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 173,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=name",
+                    "TYPE": "char (id=4)",
+                    "VALUE": "R",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 174,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NAME": "B"
+                }
+            },
+            {
+                "step": 175,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=n",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 176,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "N": "3"
+                }
+            },
+            {
+                "step": 177,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=value",
+                    "TYPE": "java.util.Set (unresolved)",
+                    "VALUE": "java.util.HashSet (id=384)",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 178,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "VALUE": "java.util.HashSet (id=384)"
+                }
+            },
+            {
+                "step": 179,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "2",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 180,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 181,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 182,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 183,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=name",
+                    "TYPE": "char (id=4)",
+                    "VALUE": "R",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 184,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NAME": "R"
+                }
+            },
+            {
+                "step": 185,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=n",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 186,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 187,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=expr",
+                    "TYPE": "char[] (id=68)",
+                    "VALUE": "char[]:2",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 188,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "char[]:2"
+                }
+            },
+            {
+                "step": 189,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:2",
+                    "0": "("
+                }
+            },
+            {
+                "step": 190,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:2",
+                    "1": "A"
+                }
+            },
+            {
+                "step": 191,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:2",
+                    "2": "s"
+                }
+            },
+            {
+                "step": 192,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:2",
+                    "3": "("
+                }
+            },
+            {
+                "step": 193,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:2",
+                    "4": "A"
+                }
+            },
+            {
+                "step": 194,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:2",
+                    "5": "i"
+                }
+            },
+            {
+                "step": 195,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:2",
+                    "6": "B"
+                }
+            },
+            {
+                "step": 196,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:2",
+                    "7": ")"
+                }
+            },
+            {
+                "step": 197,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:2",
+                    "8": ")"
+                }
+            },
+            {
+                "step": 198,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:2",
+                    "9": "u"
+                }
+            },
+            {
+                "step": 199,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "char[]:2",
+                    "10": "C"
+                }
+            },
+            {
+                "step": 200,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "EXPR": "char[]:2"
+                }
+            },
+            {
+                "step": 201,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$Calculator:2"
+                }
+            },
+            {
+                "step": 202,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#solve:1",
+                    "TARGET": "Main$Calculator:2#Main$Calculator:2"
+                }
+            },
+            {
+                "step": 203,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#Main$Calculator:2",
+                    "EXPR": "char[]:2"
+                }
+            },
+            {
+                "step": 204,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#Main$Calculator:2",
+                    "SETS": "java.util.HashMap (id=381)"
+                }
+            },
+            {
+                "step": 205,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "PTR": "0"
+                }
+            },
+            {
+                "step": 206,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "SETS": "java.util.HashMap (id=381)"
+                }
+            },
+            {
+                "step": 207,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "INPUT": "char[]:2"
+                }
+            },
+            {
+                "step": 208,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#Main$Calculator:2",
+                    "U": "java.util.HashSet (id=387)"
+                }
+            },
+            {
+                "step": 209,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#Main$Calculator:2",
+                    "SET": "java.util.HashSet (id=383)"
+                }
+            },
+            {
+                "step": 210,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#Main$Calculator:2",
+                    "SET": "java.util.HashSet (id=384)"
+                }
+            },
+            {
+                "step": 211,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#Main$Calculator:2",
+                    "SET": "java.util.HashSet (id=382)"
+                }
+            },
+            {
+                "step": 212,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "U": "java.util.HashSet (id=387)"
+                }
+            },
+            {
+                "step": 213,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main$Calculator:2#Main$Calculator:2 <name=set",
+                    "TYPE": "java.util.Set (unresolved)",
+                    "VALUE": "<?>",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 214,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#Main$Calculator:2",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 215,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#solve:1",
+                    "TARGET": "Main$Calculator:2#run:2"
+                }
+            },
+            {
+                "step": 216,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#run:2",
+                    "TARGET": "Main$Calculator:2#expr:2"
+                }
+            },
+            {
+                "step": 217,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#expr:2",
+                    "TARGET": "Main$Calculator:2#term:4"
+                }
+            },
+            {
+                "step": 218,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 219,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 220,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#term:4",
+                    "TARGET": "Main$Calculator:2#factor:4"
+                }
+            },
+            {
+                "step": 221,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 222,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 223,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 224,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "PTR": "1"
+                }
+            },
+            {
+                "step": 225,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#factor:4",
+                    "TARGET": "Main$Calculator:2#expr:3"
+                }
+            },
+            {
+                "step": 226,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#expr:3",
+                    "TARGET": "Main$Calculator:2#term:5"
+                }
+            },
+            {
+                "step": 227,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 228,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 229,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#term:5",
+                    "TARGET": "Main$Calculator:2#factor:5"
+                }
+            },
+            {
+                "step": 230,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 231,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 232,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "sets"
+                }
+            },
+            {
+                "step": 233,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 234,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 235,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#factor:5",
+                    "VALUE": "java.util.HashSet (id=388)"
+                }
+            },
+            {
+                "step": 236,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 237,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "PTR": "2"
+                }
+            },
+            {
+                "step": 238,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#factor:5",
+                    "RESULT": "java.util.HashSet (id=388)"
+                }
+            },
+            {
+                "step": 239,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#factor:5",
+                    "VALUE": "java.util.HashSet (id=388)"
+                }
+            },
+            {
+                "step": 240,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#term:5",
+                    "VALUE": "java.util.HashSet (id=388)"
+                }
+            },
+            {
+                "step": 241,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#term:5",
+                    "RESULT": "java.util.HashSet (id=388)"
+                }
+            },
+            {
+                "step": 242,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#term:5",
+                    "VALUE": "java.util.HashSet (id=388)"
+                }
+            },
+            {
+                "step": 243,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#expr:3",
+                    "VALUE": "java.util.HashSet (id=388)"
+                }
+            },
+            {
+                "step": 244,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 245,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 246,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 247,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 248,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 249,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 250,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 251,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 252,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 253,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 254,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 255,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "PTR": "3"
+                }
+            },
+            {
+                "step": 256,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#expr:3",
+                    "A": "java.util.HashSet (id=388)"
+                }
+            },
+            {
+                "step": 257,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#expr:3",
+                    "A1": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 258,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#expr:3",
+                    "TARGET": "Main$Calculator:2#term:6"
+                }
+            },
+            {
+                "step": 259,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 260,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 261,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#term:6",
+                    "TARGET": "Main$Calculator:2#factor:6"
+                }
+            },
+            {
+                "step": 262,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 263,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 264,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 265,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "PTR": "4"
+                }
+            },
+            {
+                "step": 266,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#factor:6",
+                    "TARGET": "Main$Calculator:2#expr:4"
+                }
+            },
+            {
+                "step": 267,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#expr:4",
+                    "TARGET": "Main$Calculator:2#term:7"
+                }
+            },
+            {
+                "step": 268,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 269,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 270,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#term:7",
+                    "TARGET": "Main$Calculator:2#factor:7"
+                }
+            },
+            {
+                "step": 271,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 272,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 273,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "sets"
+                }
+            },
+            {
+                "step": 274,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 275,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 276,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#factor:7",
+                    "VALUE": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 277,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 278,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "PTR": "5"
+                }
+            },
+            {
+                "step": 279,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#factor:7",
+                    "RESULT": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 280,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#factor:7",
+                    "VALUE": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 281,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#term:7",
+                    "VALUE": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 282,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#term:7",
+                    "RESULT": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 283,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#term:7",
+                    "VALUE": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 284,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#expr:4",
+                    "VALUE": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 285,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 286,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 287,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 288,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 289,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 290,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 291,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 292,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "PTR": "6"
+                }
+            },
+            {
+                "step": 293,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#expr:4",
+                    "TARGET": "Main$Calculator:2#term:8"
+                }
+            },
+            {
+                "step": 294,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 295,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 296,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#term:8",
+                    "TARGET": "Main$Calculator:2#factor:8"
+                }
+            },
+            {
+                "step": 297,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 298,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 299,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "sets"
+                }
+            },
+            {
+                "step": 300,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 301,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 302,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#factor:8",
+                    "VALUE": "java.util.HashSet (id=391)"
+                }
+            },
+            {
+                "step": 303,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 304,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "PTR": "7 (Integer)"
+                }
+            },
+            {
+                "step": 305,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#factor:8",
+                    "RESULT": "java.util.HashSet (id=391)"
+                }
+            },
+            {
+                "step": 306,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#factor:8",
+                    "VALUE": "java.util.HashSet (id=391)"
+                }
+            },
+            {
+                "step": 307,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#term:8",
+                    "VALUE": "java.util.HashSet (id=391)"
+                }
+            },
+            {
+                "step": 308,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#term:8",
+                    "RESULT": "java.util.HashSet (id=391)"
+                }
+            },
+            {
+                "step": 309,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#term:8",
+                    "VALUE": "java.util.HashSet (id=391)"
+                }
+            },
+            {
+                "step": 310,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 311,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 312,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 313,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 314,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 315,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 316,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 317,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 318,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 319,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 320,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#expr:4",
+                    "RESULT": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 321,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#expr:4",
+                    "VALUE": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 322,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#factor:6",
+                    "VALUE": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 323,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 324,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "PTR": "8"
+                }
+            },
+            {
+                "step": 325,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#factor:6",
+                    "RESULT": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 326,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#factor:6",
+                    "VALUE": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 327,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#term:6",
+                    "VALUE": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 328,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#term:6",
+                    "RESULT": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 329,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#term:6",
+                    "VALUE": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 330,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#expr:3",
+                    "B": "java.util.HashSet (id=390)"
+                }
+            },
+            {
+                "step": 331,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#expr:3",
+                    "B1": "java.util.HashSet (id=392)"
+                }
+            },
+            {
+                "step": 332,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#expr:3",
+                    "VALUE": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 333,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 334,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 335,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main$Calculator:2#expr:3 <name=A",
+                    "TYPE": "java.util.Set (unresolved)",
+                    "VALUE": "<?>",
+                    "INDEX": "1>"
+                }
+            },
+            {
+                "step": 336,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main$Calculator:2#expr:3 <name=A1",
+                    "TYPE": "java.util.Set (unresolved)",
+                    "VALUE": "<?>",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 337,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main$Calculator:2#expr:3 <name=B",
+                    "TYPE": "java.util.Set (unresolved)",
+                    "VALUE": "<?>",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 338,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main$Calculator:2#expr:3 <name=B1",
+                    "TYPE": "java.util.Set (unresolved)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 339,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 340,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 341,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 342,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 343,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 344,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 345,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 346,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 347,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#expr:3",
+                    "RESULT": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 348,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#expr:3",
+                    "VALUE": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 349,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#factor:4",
+                    "VALUE": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 350,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 351,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "PTR": "9"
+                }
+            },
+            {
+                "step": 352,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#factor:4",
+                    "RESULT": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 353,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#factor:4",
+                    "VALUE": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 354,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#term:4",
+                    "VALUE": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 355,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#term:4",
+                    "RESULT": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 356,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#term:4",
+                    "VALUE": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 357,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#expr:2",
+                    "VALUE": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 358,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 359,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 360,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 361,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 362,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 363,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "PTR": "10"
+                }
+            },
+            {
+                "step": 364,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#expr:2",
+                    "TARGET": "Main$Calculator:2#term:9"
+                }
+            },
+            {
+                "step": 365,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 366,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 367,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$Calculator:2#term:9",
+                    "TARGET": "Main$Calculator:2#factor:9"
+                }
+            },
+            {
+                "step": 368,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 369,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 370,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "sets"
+                }
+            },
+            {
+                "step": 371,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 372,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 373,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#factor:9",
+                    "VALUE": "java.util.HashSet (id=393)"
+                }
+            },
+            {
+                "step": 374,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 375,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "PTR": "11"
+                }
+            },
+            {
+                "step": 376,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#factor:9",
+                    "RESULT": "java.util.HashSet (id=393)"
+                }
+            },
+            {
+                "step": 377,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#factor:9",
+                    "VALUE": "java.util.HashSet (id=393)"
+                }
+            },
+            {
+                "step": 378,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#term:9",
+                    "VALUE": "java.util.HashSet (id=393)"
+                }
+            },
+            {
+                "step": 379,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#term:9",
+                    "RESULT": "java.util.HashSet (id=393)"
+                }
+            },
+            {
+                "step": 380,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#term:9",
+                    "VALUE": "java.util.HashSet (id=393)"
+                }
+            },
+            {
+                "step": 381,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "ptr"
+                }
+            },
+            {
+                "step": 382,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2",
+                    "VALUE_2": "input"
+                }
+            },
+            {
+                "step": 383,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#expr:2",
+                    "RESULT": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 384,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#expr:2",
+                    "VALUE": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 385,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Calculator:2#run:2",
+                    "RESULT": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 386,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Calculator:2#run:2",
+                    "VALUE": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 387,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "RESULT": "java.util.HashSet (id=389)"
+                }
+            },
+            {
+                "step": 388,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=space",
+                    "TYPE": "boolean (id=2)",
+                    "VALUE": "true",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 389,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "SPACE": "false"
+                }
+            },
+            {
+                "step": 390,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=elements",
+                    "TYPE": "java.lang.Object[] (id=53)",
+                    "VALUE": "java.lang.Object[]:2",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 391,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.Object[]:2"
+                }
+            },
+            {
+                "step": 392,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.Object[]:2",
+                    "0": "1"
+                }
+            },
+            {
+                "step": 393,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.Object[]:2",
+                    "1": "2"
+                }
+            },
+            {
+                "step": 394,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.Object[]:2",
+                    "2": "3"
+                }
+            },
+            {
+                "step": 395,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.Object[]:2",
+                    "3": "10"
+                }
+            },
+            {
+                "step": 396,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "ELEMENTS": "java.lang.Object[]:2"
+                }
+            },
+            {
+                "step": 397,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=e",
+                    "TYPE": "java.lang.Object (id=11)",
+                    "VALUE": "10",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 398,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "E": "1"
+                }
+            },
+            {
+                "step": 399,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "SPACE": "true"
+                }
+            },
+            {
+                "step": 400,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "E": "2"
+                }
+            },
+            {
+                "step": 401,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "SPACE": "true"
+                }
+            },
+            {
+                "step": 402,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "E": "3"
+                }
+            },
+            {
+                "step": 403,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "SPACE": "true"
+                }
+            },
+            {
+                "step": 404,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "E": "10"
+                }
+            },
+            {
+                "step": 405,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "SPACE": "true"
+                }
+            }
+        ]
+    }
+}

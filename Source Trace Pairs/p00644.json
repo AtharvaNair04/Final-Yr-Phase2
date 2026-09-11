@@ -1,0 +1,5286 @@
+{
+    "program_id": "p00644",
+    "source": {
+        "program_id": "p00644",
+        "file": "p00644.java",
+        "package": null,
+        "classes": [
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "run",
+                "return_type": null,
+                "parameters": []
+            },
+            {
+                "name": "compare",
+                "return_type": "int",
+                "parameters": [
+                    "o1",
+                    "o2"
+                ]
+            },
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            }
+        ],
+        "constructors": [],
+        "variables": [
+            "d",
+            "sc",
+            "INF",
+            "wf",
+            "e",
+            "K",
+            "R",
+            "n",
+            "m",
+            "p",
+            "a",
+            "i",
+            "s",
+            "t",
+            "c",
+            "k",
+            "j",
+            "q",
+            "v"
+        ],
+        "method_calls": [
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "fill",
+                "qualifier": "Arrays"
+            },
+            {
+                "name": "fill",
+                "qualifier": "Arrays"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "min",
+                "qualifier": "Math"
+            },
+            {
+                "name": "fill",
+                "qualifier": "Arrays"
+            },
+            {
+                "name": "add",
+                "qualifier": "q"
+            },
+            {
+                "name": "isEmpty",
+                "qualifier": "q"
+            },
+            {
+                "name": "poll",
+                "qualifier": "q"
+            },
+            {
+                "name": "fill",
+                "qualifier": "Arrays"
+            },
+            {
+                "name": "add",
+                "qualifier": "q"
+            },
+            {
+                "name": "isEmpty",
+                "qualifier": "q"
+            },
+            {
+                "name": "poll",
+                "qualifier": "q"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "printf",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "run",
+                "qualifier": null
+            }
+        ],
+        "control_statements": [
+            "for",
+            "if",
+            "while"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00644",
+        "event_count": 626,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main:1"
+                }
+            },
+            {
+                "step": 6,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main:1#Main:1"
+                }
+            },
+            {
+                "step": 7,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#Main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 8,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main:1#run:1"
+                }
+            },
+            {
+                "step": 9,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "SC": "java.util.Scanner (id=365)"
+                }
+            },
+            {
+                "step": 10,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "INF": "134217728"
+                }
+            },
+            {
+                "step": 11,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "D": "int[100] (id=366)"
+                }
+            },
+            {
+                "step": 12,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "WF": "int[][100] (id=367)"
+                }
+            },
+            {
+                "step": 13,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "E": "int[][100] (id=369)"
+                }
+            },
+            {
+                "step": 14,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "K": "double[100] (id=370)"
+                }
+            },
+            {
+                "step": 15,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "R": "double[100] (id=371)"
+                }
+            },
+            {
+                "step": 16,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "3"
+                }
+            },
+            {
+                "step": 17,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "2"
+                }
+            },
+            {
+                "step": 18,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "P": "1"
+                }
+            },
+            {
+                "step": 19,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 20,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 21,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 22,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "C": "2"
+                }
+            },
+            {
+                "step": 23,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 24,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "13>"
+                }
+            },
+            {
+                "step": 25,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "14>"
+                }
+            },
+            {
+                "step": 26,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=c",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "15>"
+                }
+            },
+            {
+                "step": 27,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "S": "1"
+                }
+            },
+            {
+                "step": 28,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "2"
+                }
+            },
+            {
+                "step": 29,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "C": "3"
+                }
+            },
+            {
+                "step": 30,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "13>"
+                }
+            },
+            {
+                "step": 31,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "14>"
+                }
+            },
+            {
+                "step": 32,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=c",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "15>"
+                }
+            },
+            {
+                "step": 33,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "12>"
+                }
+            },
+            {
+                "step": 34,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$1:1"
+                }
+            },
+            {
+                "step": 35,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$1:1#<init>:1"
+                }
+            },
+            {
+                "step": 36,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:1#<init>:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 37,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "Q": "java.util.PriorityQueue (id=375)"
+                }
+            },
+            {
+                "step": 38,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 39,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 40,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 41,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 42,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 43,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 44,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 45,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 46,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 47,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 48,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 49,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 50,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 51,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 52,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 53,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 54,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 55,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:1#compare:1"
+                }
+            },
+            {
+                "step": 56,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:1",
+                    "O1": "1"
+                }
+            },
+            {
+                "step": 57,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:1",
+                    "O2": "0"
+                }
+            },
+            {
+                "step": 58,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 59,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 60,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:1",
+                    "RESULT": "-2"
+                }
+            },
+            {
+                "step": 61,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:1#compare:1",
+                    "VALUE": "-2"
+                }
+            },
+            {
+                "step": 62,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 63,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 64,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 65,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 66,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 67,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 68,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 69,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 70,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 71,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 72,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 73,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 74,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 75,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 76,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 77,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 78,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 79,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 80,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 81,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 82,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:1#compare:2"
+                }
+            },
+            {
+                "step": 83,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:2",
+                    "O1": "2"
+                }
+            },
+            {
+                "step": 84,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:2",
+                    "O2": "1"
+                }
+            },
+            {
+                "step": 85,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 86,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 87,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:2",
+                    "RESULT": "-3"
+                }
+            },
+            {
+                "step": 88,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:1#compare:2",
+                    "VALUE": "-3"
+                }
+            },
+            {
+                "step": 89,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 90,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 91,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 92,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 93,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 94,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "20>"
+                }
+            },
+            {
+                "step": 95,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.poll()"
+                }
+            },
+            {
+                "step": 96,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.poll()"
+                }
+            },
+            {
+                "step": 97,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 98,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 99,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 100,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 101,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.poll()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 102,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 103,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 104,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 105,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:1#compare:3"
+                }
+            },
+            {
+                "step": 106,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:3",
+                    "O1": "1"
+                }
+            },
+            {
+                "step": 107,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:3",
+                    "O2": "0"
+                }
+            },
+            {
+                "step": 108,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 109,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 110,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:3",
+                    "RESULT": "-2"
+                }
+            },
+            {
+                "step": 111,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:1#compare:3",
+                    "VALUE": "-2"
+                }
+            },
+            {
+                "step": 112,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 113,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 114,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 115,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.poll()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 116,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "2"
+                }
+            },
+            {
+                "step": 117,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 118,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 119,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 120,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "21>"
+                }
+            },
+            {
+                "step": 121,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "22>"
+                }
+            },
+            {
+                "step": 122,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "1"
+                }
+            },
+            {
+                "step": 123,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 124,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 125,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 126,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "21>"
+                }
+            },
+            {
+                "step": 127,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "22>"
+                }
+            },
+            {
+                "step": 128,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "0"
+                }
+            },
+            {
+                "step": 129,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 130,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 131,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 132,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "21>"
+                }
+            },
+            {
+                "step": 133,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "22>"
+                }
+            },
+            {
+                "step": 134,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 135,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 136,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 137,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 138,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 139,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 140,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 141,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 142,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 143,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 144,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 145,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 146,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 147,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 148,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 149,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 150,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 151,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:1#compare:4"
+                }
+            },
+            {
+                "step": 152,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:4",
+                    "O1": "1"
+                }
+            },
+            {
+                "step": 153,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:4",
+                    "O2": "0"
+                }
+            },
+            {
+                "step": 154,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 155,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 156,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:4",
+                    "RESULT": "2"
+                }
+            },
+            {
+                "step": 157,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:1#compare:4",
+                    "VALUE": "2"
+                }
+            },
+            {
+                "step": 158,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 159,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 160,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 161,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 162,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 163,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 164,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 165,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 166,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 167,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 168,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 169,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 170,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 171,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 172,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 173,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 174,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 175,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 176,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 177,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 178,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:1#compare:5"
+                }
+            },
+            {
+                "step": 179,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:5",
+                    "O1": "2"
+                }
+            },
+            {
+                "step": 180,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:5",
+                    "O2": "0"
+                }
+            },
+            {
+                "step": 181,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 182,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 183,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:5",
+                    "RESULT": "5"
+                }
+            },
+            {
+                "step": 184,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:1#compare:5",
+                    "VALUE": "5"
+                }
+            },
+            {
+                "step": 185,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 186,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 187,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 188,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 189,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 190,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "23>"
+                }
+            },
+            {
+                "step": 191,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.poll()"
+                }
+            },
+            {
+                "step": 192,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.poll()"
+                }
+            },
+            {
+                "step": 193,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 194,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 195,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 196,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 197,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.poll()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 198,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 199,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 200,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 201,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:1#compare:6"
+                }
+            },
+            {
+                "step": 202,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:6",
+                    "O1": "2"
+                }
+            },
+            {
+                "step": 203,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:6",
+                    "O2": "1"
+                }
+            },
+            {
+                "step": 204,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 205,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 206,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:1#compare:6",
+                    "RESULT": "3"
+                }
+            },
+            {
+                "step": 207,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:1#compare:6",
+                    "VALUE": "3"
+                }
+            },
+            {
+                "step": 208,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 209,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 210,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 211,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.poll()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 212,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "0"
+                }
+            },
+            {
+                "step": 213,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 214,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 215,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 216,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "24>"
+                }
+            },
+            {
+                "step": 217,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "25>"
+                }
+            },
+            {
+                "step": 218,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "1"
+                }
+            },
+            {
+                "step": 219,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 220,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 221,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 222,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "24>"
+                }
+            },
+            {
+                "step": 223,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "25>"
+                }
+            },
+            {
+                "step": 224,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "2"
+                }
+            },
+            {
+                "step": 225,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 226,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 227,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 228,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "24>"
+                }
+            },
+            {
+                "step": 229,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "25>"
+                }
+            },
+            {
+                "step": 230,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "P": "0"
+                }
+            },
+            {
+                "step": 231,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 232,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "P": "-1"
+                }
+            },
+            {
+                "step": 233,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "26>"
+                }
+            },
+            {
+                "step": 234,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=n",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 235,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=m",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 236,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=p",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 237,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=q",
+                    "TYPE": "java.util.PriorityQueue (id=112)",
+                    "VALUE": "<?>",
+                    "INDEX": "19>"
+                }
+            },
+            {
+                "step": 238,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "4"
+                }
+            },
+            {
+                "step": 239,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "5"
+                }
+            },
+            {
+                "step": 240,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "P": "2"
+                }
+            },
+            {
+                "step": 241,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 242,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 243,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 244,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "C": "1"
+                }
+            },
+            {
+                "step": 245,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 246,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "13>"
+                }
+            },
+            {
+                "step": 247,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "14>"
+                }
+            },
+            {
+                "step": 248,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=c",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "15>"
+                }
+            },
+            {
+                "step": 249,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 250,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "2"
+                }
+            },
+            {
+                "step": 251,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "C": "1"
+                }
+            },
+            {
+                "step": 252,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 253,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "13>"
+                }
+            },
+            {
+                "step": 254,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "14>"
+                }
+            },
+            {
+                "step": 255,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=c",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "15>"
+                }
+            },
+            {
+                "step": 256,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "S": "1"
+                }
+            },
+            {
+                "step": 257,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "2"
+                }
+            },
+            {
+                "step": 258,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "C": "1"
+                }
+            },
+            {
+                "step": 259,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 260,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "13>"
+                }
+            },
+            {
+                "step": 261,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "14>"
+                }
+            },
+            {
+                "step": 262,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=c",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "15>"
+                }
+            },
+            {
+                "step": 263,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "S": "1"
+                }
+            },
+            {
+                "step": 264,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "3"
+                }
+            },
+            {
+                "step": 265,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "C": "1"
+                }
+            },
+            {
+                "step": 266,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "4"
+                }
+            },
+            {
+                "step": 267,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "13>"
+                }
+            },
+            {
+                "step": 268,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "14>"
+                }
+            },
+            {
+                "step": 269,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=c",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "15>"
+                }
+            },
+            {
+                "step": 270,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "S": "2"
+                }
+            },
+            {
+                "step": 271,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "3"
+                }
+            },
+            {
+                "step": 272,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "C": "1"
+                }
+            },
+            {
+                "step": 273,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "13>"
+                }
+            },
+            {
+                "step": 274,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "14>"
+                }
+            },
+            {
+                "step": 275,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=c",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "15>"
+                }
+            },
+            {
+                "step": 276,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "12>"
+                }
+            },
+            {
+                "step": 277,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$1:2"
+                }
+            },
+            {
+                "step": 278,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$1:2#<init>:2"
+                }
+            },
+            {
+                "step": 279,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#<init>:2",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 280,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "Q": "java.util.PriorityQueue (id=383)"
+                }
+            },
+            {
+                "step": 281,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 282,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 283,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 284,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 285,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 286,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 287,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 288,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 289,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 290,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 291,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 292,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 293,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 294,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 295,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 296,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 297,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 298,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:2#compare:7"
+                }
+            },
+            {
+                "step": 299,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:7",
+                    "O1": "1"
+                }
+            },
+            {
+                "step": 300,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:7",
+                    "O2": "0"
+                }
+            },
+            {
+                "step": 301,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 302,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 303,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:7",
+                    "RESULT": "-1"
+                }
+            },
+            {
+                "step": 304,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#compare:7",
+                    "VALUE": "-1"
+                }
+            },
+            {
+                "step": 305,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 306,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 307,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 308,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 309,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 310,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 311,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 312,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 313,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 314,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 315,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 316,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 317,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 318,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 319,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 320,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 321,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 322,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 323,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 324,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 325,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:2#compare:8"
+                }
+            },
+            {
+                "step": 326,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:8",
+                    "O1": "2"
+                }
+            },
+            {
+                "step": 327,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:8",
+                    "O2": "1"
+                }
+            },
+            {
+                "step": 328,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 329,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 330,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:8",
+                    "RESULT": "0"
+                }
+            },
+            {
+                "step": 331,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#compare:8",
+                    "VALUE": "0"
+                }
+            },
+            {
+                "step": 332,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 333,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 334,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 335,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 336,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 337,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 338,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 339,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 340,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 341,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 342,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 343,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 344,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 345,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 346,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 347,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 348,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 349,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 350,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 351,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 352,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:2#compare:9"
+                }
+            },
+            {
+                "step": 353,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:9",
+                    "O1": "3"
+                }
+            },
+            {
+                "step": 354,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:9",
+                    "O2": "0"
+                }
+            },
+            {
+                "step": 355,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 356,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 357,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:9",
+                    "RESULT": "-2"
+                }
+            },
+            {
+                "step": 358,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#compare:9",
+                    "VALUE": "-2"
+                }
+            },
+            {
+                "step": 359,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:2#compare:10"
+                }
+            },
+            {
+                "step": 360,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:10",
+                    "O1": "3"
+                }
+            },
+            {
+                "step": 361,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:10",
+                    "O2": "1"
+                }
+            },
+            {
+                "step": 362,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 363,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 364,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:10",
+                    "RESULT": "-1"
+                }
+            },
+            {
+                "step": 365,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#compare:10",
+                    "VALUE": "-1"
+                }
+            },
+            {
+                "step": 366,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 367,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 368,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 369,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 370,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 371,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "20>"
+                }
+            },
+            {
+                "step": 372,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.poll()"
+                }
+            },
+            {
+                "step": 373,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.poll()"
+                }
+            },
+            {
+                "step": 374,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 375,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 376,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 377,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 378,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.poll()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 379,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 380,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 381,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 382,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:2#compare:11"
+                }
+            },
+            {
+                "step": 383,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:11",
+                    "O1": "1"
+                }
+            },
+            {
+                "step": 384,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:11",
+                    "O2": "2"
+                }
+            },
+            {
+                "step": 385,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 386,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 387,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:11",
+                    "RESULT": "0"
+                }
+            },
+            {
+                "step": 388,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#compare:11",
+                    "VALUE": "0"
+                }
+            },
+            {
+                "step": 389,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:2#compare:12"
+                }
+            },
+            {
+                "step": 390,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:12",
+                    "O1": "0"
+                }
+            },
+            {
+                "step": 391,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:12",
+                    "O2": "1"
+                }
+            },
+            {
+                "step": 392,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 393,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 394,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:12",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 395,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#compare:12",
+                    "VALUE": "1"
+                }
+            },
+            {
+                "step": 396,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 397,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 398,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 399,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.poll()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 400,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "3"
+                }
+            },
+            {
+                "step": 401,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 402,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 403,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 404,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 405,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "21>"
+                }
+            },
+            {
+                "step": 406,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "22>"
+                }
+            },
+            {
+                "step": 407,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.poll()"
+                }
+            },
+            {
+                "step": 408,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.poll()"
+                }
+            },
+            {
+                "step": 409,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 410,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 411,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 412,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 413,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.poll()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 414,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 415,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 416,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 417,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:2#compare:13"
+                }
+            },
+            {
+                "step": 418,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:13",
+                    "O1": "2"
+                }
+            },
+            {
+                "step": 419,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:13",
+                    "O2": "0"
+                }
+            },
+            {
+                "step": 420,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 421,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 422,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:13",
+                    "RESULT": "-1"
+                }
+            },
+            {
+                "step": 423,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#compare:13",
+                    "VALUE": "-1"
+                }
+            },
+            {
+                "step": 424,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 425,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 426,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 427,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.poll()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 428,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "1"
+                }
+            },
+            {
+                "step": 429,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 430,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 431,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 432,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 433,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "21>"
+                }
+            },
+            {
+                "step": 434,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "22>"
+                }
+            },
+            {
+                "step": 435,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "2"
+                }
+            },
+            {
+                "step": 436,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 437,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 438,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 439,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 440,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "21>"
+                }
+            },
+            {
+                "step": 441,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "22>"
+                }
+            },
+            {
+                "step": 442,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "0"
+                }
+            },
+            {
+                "step": 443,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 444,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 445,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 446,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 447,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "21>"
+                }
+            },
+            {
+                "step": 448,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "22>"
+                }
+            },
+            {
+                "step": 449,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 450,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 451,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 452,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 453,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 454,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 455,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 456,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 457,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 458,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 459,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 460,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 461,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 462,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 463,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 464,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 465,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 466,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:2#compare:14"
+                }
+            },
+            {
+                "step": 467,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:14",
+                    "O1": "1"
+                }
+            },
+            {
+                "step": 468,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:14",
+                    "O2": "0"
+                }
+            },
+            {
+                "step": 469,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 470,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 471,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:14",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 472,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#compare:14",
+                    "VALUE": "1"
+                }
+            },
+            {
+                "step": 473,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 474,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 475,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 476,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 477,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 478,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 479,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 480,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 481,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 482,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 483,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 484,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 485,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 486,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 487,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 488,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 489,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 490,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 491,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 492,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 493,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:2#compare:15"
+                }
+            },
+            {
+                "step": 494,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:15",
+                    "O1": "2"
+                }
+            },
+            {
+                "step": 495,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:15",
+                    "O2": "0"
+                }
+            },
+            {
+                "step": 496,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 497,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 498,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:15",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 499,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#compare:15",
+                    "VALUE": "1"
+                }
+            },
+            {
+                "step": 500,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 501,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 502,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 503,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 504,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 505,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 506,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 507,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 508,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 509,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 510,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 511,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 512,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 513,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 514,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 515,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 516,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 517,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 518,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 519,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 520,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:2#compare:16"
+                }
+            },
+            {
+                "step": 521,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:16",
+                    "O1": "3"
+                }
+            },
+            {
+                "step": 522,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:16",
+                    "O2": "1"
+                }
+            },
+            {
+                "step": 523,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 524,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 525,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:16",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 526,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#compare:16",
+                    "VALUE": "1"
+                }
+            },
+            {
+                "step": 527,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 528,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 529,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 530,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 531,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 532,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "23>"
+                }
+            },
+            {
+                "step": 533,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.poll()"
+                }
+            },
+            {
+                "step": 534,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.poll()"
+                }
+            },
+            {
+                "step": 535,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 536,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 537,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 538,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 539,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.poll()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 540,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 541,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 542,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 543,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:2#compare:17"
+                }
+            },
+            {
+                "step": 544,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:17",
+                    "O1": "1"
+                }
+            },
+            {
+                "step": 545,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:17",
+                    "O2": "2"
+                }
+            },
+            {
+                "step": 546,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 547,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 548,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:17",
+                    "RESULT": "0"
+                }
+            },
+            {
+                "step": 549,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#compare:17",
+                    "VALUE": "0"
+                }
+            },
+            {
+                "step": 550,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:2#compare:18"
+                }
+            },
+            {
+                "step": 551,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:18",
+                    "O1": "3"
+                }
+            },
+            {
+                "step": 552,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:18",
+                    "O2": "1"
+                }
+            },
+            {
+                "step": 553,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 554,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 555,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:18",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 556,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#compare:18",
+                    "VALUE": "1"
+                }
+            },
+            {
+                "step": 557,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 558,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 559,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 560,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.poll()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 561,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "0"
+                }
+            },
+            {
+                "step": 562,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 563,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 564,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 565,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 566,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "24>"
+                }
+            },
+            {
+                "step": 567,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "25>"
+                }
+            },
+            {
+                "step": 568,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/PriorityQueue;.poll()"
+                }
+            },
+            {
+                "step": 569,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.poll()"
+                }
+            },
+            {
+                "step": 570,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 571,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 572,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 573,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 574,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.poll()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 575,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.poll()",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 576,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)"
+                }
+            },
+            {
+                "step": 577,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "TARGET": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 578,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Main$1:2#compare:19"
+                }
+            },
+            {
+                "step": 579,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:19",
+                    "O1": "2"
+                }
+            },
+            {
+                "step": 580,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:19",
+                    "O2": "3"
+                }
+            },
+            {
+                "step": 581,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 582,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "d"
+                }
+            },
+            {
+                "step": 583,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$1:2#compare:19",
+                    "RESULT": "-1"
+                }
+            },
+            {
+                "step": 584,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$1:2#compare:19",
+                    "VALUE": "-1"
+                }
+            },
+            {
+                "step": 585,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 586,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 587,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 588,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/PriorityQueue;.poll()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 589,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "1"
+                }
+            },
+            {
+                "step": 590,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 591,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 592,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 593,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 594,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "24>"
+                }
+            },
+            {
+                "step": 595,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "25>"
+                }
+            },
+            {
+                "step": 596,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "2"
+                }
+            },
+            {
+                "step": 597,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 598,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 599,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 600,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 601,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "24>"
+                }
+            },
+            {
+                "step": 602,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "25>"
+                }
+            },
+            {
+                "step": 603,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "V": "3"
+                }
+            },
+            {
+                "step": 604,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 605,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 606,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 607,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 608,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=v",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "24>"
+                }
+            },
+            {
+                "step": 609,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "25>"
+                }
+            },
+            {
+                "step": 610,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "P": "1"
+                }
+            },
+            {
+                "step": 611,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 612,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "P": "0"
+                }
+            },
+            {
+                "step": 613,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "26>"
+                }
+            },
+            {
+                "step": 614,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "K": "2"
+                }
+            },
+            {
+                "step": 615,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "P": "-1"
+                }
+            },
+            {
+                "step": 616,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "26>"
+                }
+            },
+            {
+                "step": 617,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=n",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 618,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=m",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 619,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=p",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 620,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=q",
+                    "TYPE": "java.util.PriorityQueue (id=112)",
+                    "VALUE": "<?>",
+                    "INDEX": "19>"
+                }
+            },
+            {
+                "step": 621,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 622,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "0"
+                }
+            },
+            {
+                "step": 623,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "P": "0"
+                }
+            },
+            {
+                "step": 624,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#run:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 625,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 626,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

@@ -1,0 +1,3960 @@
+{
+    "program_id": "p00617",
+    "source": {
+        "program_id": "p00617",
+        "file": "p00617.java",
+        "package": null,
+        "classes": [
+            "Main",
+            "Panel"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            },
+            {
+                "name": "point",
+                "return_type": "boolean",
+                "parameters": [
+                    "x",
+                    "y"
+                ]
+            },
+            {
+                "name": "output",
+                "return_type": null,
+                "parameters": []
+            },
+            {
+                "name": "parentOf",
+                "return_type": "boolean",
+                "parameters": [
+                    "p"
+                ]
+            },
+            {
+                "name": "parseTags",
+                "return_type": "ArrayList",
+                "parameters": [
+                    "tags"
+                ]
+            }
+        ],
+        "constructors": [
+            {
+                "name": "Panel",
+                "parameters": [
+                    "name",
+                    "coordinates"
+                ]
+            }
+        ],
+        "variables": [
+            "br",
+            "n",
+            "tag",
+            "ps",
+            "i",
+            "str",
+            "x",
+            "y",
+            "found",
+            "current",
+            "c",
+            "child",
+            "name",
+            "x1",
+            "x2",
+            "y1",
+            "y2",
+            "children",
+            "p",
+            "stack",
+            "coordinates",
+            "s",
+            "t",
+            "nexts",
+            "pn"
+        ],
+        "method_calls": [
+            {
+                "name": "parseInt",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "readLine",
+                "qualifier": "br"
+            },
+            {
+                "name": "readLine",
+                "qualifier": "br"
+            },
+            {
+                "name": "parseTags",
+                "qualifier": ""
+            },
+            {
+                "name": "readLine",
+                "qualifier": "br"
+            },
+            {
+                "name": "split",
+                "qualifier": null
+            },
+            {
+                "name": "parseInt",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "get",
+                "qualifier": "ps"
+            },
+            {
+                "name": "point",
+                "qualifier": "current"
+            },
+            {
+                "name": "point",
+                "qualifier": "child"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "size",
+                "qualifier": "current.children"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "close",
+                "qualifier": "br"
+            },
+            {
+                "name": "printStackTrace",
+                "qualifier": "e"
+            },
+            {
+                "name": "split",
+                "qualifier": "coordinates"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "print",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "print",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "print",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "charAt",
+                "qualifier": "tags"
+            },
+            {
+                "name": "length",
+                "qualifier": "tags"
+            },
+            {
+                "name": "length",
+                "qualifier": "tags"
+            },
+            {
+                "name": "charAt",
+                "qualifier": "tags"
+            },
+            {
+                "name": "length",
+                "qualifier": "tags"
+            },
+            {
+                "name": "substring",
+                "qualifier": "tags"
+            },
+            {
+                "name": "substring",
+                "qualifier": "tags"
+            },
+            {
+                "name": "indexOf",
+                "qualifier": null
+            },
+            {
+                "name": "charAt",
+                "qualifier": "tags"
+            },
+            {
+                "name": "charAt",
+                "qualifier": "tags"
+            },
+            {
+                "name": "substring",
+                "qualifier": "tags"
+            },
+            {
+                "name": "size",
+                "qualifier": "stack"
+            },
+            {
+                "name": "peek",
+                "qualifier": "stack"
+            },
+            {
+                "name": "add",
+                "qualifier": null
+            },
+            {
+                "name": "push",
+                "qualifier": "stack"
+            },
+            {
+                "name": "add",
+                "qualifier": "p"
+            },
+            {
+                "name": "pop",
+                "qualifier": "stack"
+            },
+            {
+                "name": "substring",
+                "qualifier": "tags"
+            }
+        ],
+        "control_statements": [
+            "try",
+            "while",
+            "if",
+            "for"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00617",
+        "event_count": 442,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "BR": "java.io.BufferedReader (id=342)"
+                }
+            },
+            {
+                "step": 6,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "N": "5"
+                }
+            },
+            {
+                "step": 7,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "TAG": "<main>10",
+                    "VALUE_3": "10",
+                    "VALUE_4": "190",
+                    "VALUE_5": "150<menu>20",
+                    "VALUE_6": "20",
+                    "VALUE_7": "70",
+                    "VALUE_8": "140</menu><primary>80",
+                    "VALUE_9": "20",
+                    "VALUE_10": "180",
+                    "VALUE_11": "140</primary></main>"
+                }
+            },
+            {
+                "step": 8,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main#parseTags:1"
+                }
+            },
+            {
+                "step": 9,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "TAGS": "<main>10",
+                    "VALUE_3": "10",
+                    "VALUE_4": "190",
+                    "VALUE_5": "150<menu>20",
+                    "VALUE_6": "20",
+                    "VALUE_7": "70",
+                    "VALUE_8": "140</menu><primary>80",
+                    "VALUE_9": "20",
+                    "VALUE_10": "180",
+                    "VALUE_11": "140</primary></main>"
+                }
+            },
+            {
+                "step": 10,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "STACK": "java.util.Stack (id=344)"
+                }
+            },
+            {
+                "step": 11,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "P": "java.util.ArrayList (id=345)"
+                }
+            },
+            {
+                "step": 12,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 13,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "0"
+                }
+            },
+            {
+                "step": 14,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "0"
+                }
+            },
+            {
+                "step": 15,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 16,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "2"
+                }
+            },
+            {
+                "step": 17,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "3"
+                }
+            },
+            {
+                "step": 18,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "4"
+                }
+            },
+            {
+                "step": 19,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "5"
+                }
+            },
+            {
+                "step": 20,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NAME": "main"
+                }
+            },
+            {
+                "step": 21,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "5"
+                }
+            },
+            {
+                "step": 22,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "6"
+                }
+            },
+            {
+                "step": 23,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "7"
+                }
+            },
+            {
+                "step": 24,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "8"
+                }
+            },
+            {
+                "step": 25,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "9"
+                }
+            },
+            {
+                "step": 26,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "10"
+                }
+            },
+            {
+                "step": 27,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "11"
+                }
+            },
+            {
+                "step": 28,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "12"
+                }
+            },
+            {
+                "step": 29,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "13"
+                }
+            },
+            {
+                "step": 30,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "14"
+                }
+            },
+            {
+                "step": 31,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "15"
+                }
+            },
+            {
+                "step": 32,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "16"
+                }
+            },
+            {
+                "step": 33,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "17"
+                }
+            },
+            {
+                "step": 34,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "18"
+                }
+            },
+            {
+                "step": 35,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "19"
+                }
+            },
+            {
+                "step": 36,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "COORDINATES": "10",
+                    "VALUE_3": "10",
+                    "VALUE_4": "190",
+                    "VALUE_5": "150"
+                }
+            },
+            {
+                "step": 37,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$Panel:1"
+                }
+            },
+            {
+                "step": 38,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#parseTags:1",
+                    "TARGET": "Main$Panel:1#Main$Panel:1"
+                }
+            },
+            {
+                "step": 39,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#Main$Panel:1",
+                    "NAME": "main"
+                }
+            },
+            {
+                "step": 40,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#Main$Panel:1",
+                    "COORDINATES": "10",
+                    "VALUE_3": "10",
+                    "VALUE_4": "190",
+                    "VALUE_5": "150"
+                }
+            },
+            {
+                "step": 41,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "NAME": "main"
+                }
+            },
+            {
+                "step": 42,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:2"
+                }
+            },
+            {
+                "step": 43,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "0": "10"
+                }
+            },
+            {
+                "step": 44,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "1": "10"
+                }
+            },
+            {
+                "step": 45,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "2": "190"
+                }
+            },
+            {
+                "step": 46,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "3": "150"
+                }
+            },
+            {
+                "step": 47,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#Main$Panel:1",
+                    "C": "java.lang.String[]:2"
+                }
+            },
+            {
+                "step": 48,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "X1": "10"
+                }
+            },
+            {
+                "step": 49,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "Y1": "10"
+                }
+            },
+            {
+                "step": 50,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "X2": "190"
+                }
+            },
+            {
+                "step": 51,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "Y2": "150"
+                }
+            },
+            {
+                "step": 52,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "CHILDREN": "java.util.ArrayList (id=356)"
+                }
+            },
+            {
+                "step": 53,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:1#Main$Panel:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 54,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "PN": "Main$Panel:1"
+                }
+            },
+            {
+                "step": 55,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "TAGS": "<menu>20",
+                    "VALUE_3": "20",
+                    "VALUE_4": "70",
+                    "VALUE_5": "140</menu><primary>80",
+                    "VALUE_6": "20",
+                    "VALUE_7": "180",
+                    "VALUE_8": "140</primary></main>"
+                }
+            },
+            {
+                "step": 56,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=pn",
+                    "TYPE": "Main$Panel (id=88)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 57,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 58,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "6",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 59,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=nexts",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "6",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 60,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 61,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "0"
+                }
+            },
+            {
+                "step": 62,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "0"
+                }
+            },
+            {
+                "step": 63,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 64,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "2"
+                }
+            },
+            {
+                "step": 65,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "3"
+                }
+            },
+            {
+                "step": 66,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "4"
+                }
+            },
+            {
+                "step": 67,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "5"
+                }
+            },
+            {
+                "step": 68,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NAME": "menu"
+                }
+            },
+            {
+                "step": 69,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "5"
+                }
+            },
+            {
+                "step": 70,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "6"
+                }
+            },
+            {
+                "step": 71,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "7"
+                }
+            },
+            {
+                "step": 72,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "8"
+                }
+            },
+            {
+                "step": 73,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "9"
+                }
+            },
+            {
+                "step": 74,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "10"
+                }
+            },
+            {
+                "step": 75,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "11"
+                }
+            },
+            {
+                "step": 76,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "12"
+                }
+            },
+            {
+                "step": 77,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "13"
+                }
+            },
+            {
+                "step": 78,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "14"
+                }
+            },
+            {
+                "step": 79,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "15"
+                }
+            },
+            {
+                "step": 80,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "16"
+                }
+            },
+            {
+                "step": 81,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "17"
+                }
+            },
+            {
+                "step": 82,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "18"
+                }
+            },
+            {
+                "step": 83,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "COORDINATES": "20",
+                    "VALUE_3": "20",
+                    "VALUE_4": "70",
+                    "VALUE_5": "140"
+                }
+            },
+            {
+                "step": 84,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$Panel:2"
+                }
+            },
+            {
+                "step": 85,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#parseTags:1",
+                    "TARGET": "Main$Panel:2#Main$Panel:2"
+                }
+            },
+            {
+                "step": 86,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#Main$Panel:2",
+                    "NAME": "menu"
+                }
+            },
+            {
+                "step": 87,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#Main$Panel:2",
+                    "COORDINATES": "20",
+                    "VALUE_3": "20",
+                    "VALUE_4": "70",
+                    "VALUE_5": "140"
+                }
+            },
+            {
+                "step": 88,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "NAME": "menu"
+                }
+            },
+            {
+                "step": 89,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:3"
+                }
+            },
+            {
+                "step": 90,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "0": "20"
+                }
+            },
+            {
+                "step": 91,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "1": "20"
+                }
+            },
+            {
+                "step": 92,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "2": "70"
+                }
+            },
+            {
+                "step": 93,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "3": "140"
+                }
+            },
+            {
+                "step": 94,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#Main$Panel:2",
+                    "C": "java.lang.String[]:3"
+                }
+            },
+            {
+                "step": 95,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "X1": "20"
+                }
+            },
+            {
+                "step": 96,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "Y1": "20"
+                }
+            },
+            {
+                "step": 97,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "X2": "70"
+                }
+            },
+            {
+                "step": 98,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "Y2": "140"
+                }
+            },
+            {
+                "step": 99,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "CHILDREN": "java.util.ArrayList (id=366)"
+                }
+            },
+            {
+                "step": 100,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:2#Main$Panel:2",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 101,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "PN": "Main$Panel:2"
+                }
+            },
+            {
+                "step": 102,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "children"
+                }
+            },
+            {
+                "step": 103,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "TAGS": "</menu><primary>80",
+                    "VALUE_3": "20",
+                    "VALUE_4": "180",
+                    "VALUE_5": "140</primary></main>"
+                }
+            },
+            {
+                "step": 104,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=pn",
+                    "TYPE": "Main$Panel (id=88)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 105,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 106,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "6",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 107,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=nexts",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "6",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 108,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 109,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "0"
+                }
+            },
+            {
+                "step": 110,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "0"
+                }
+            },
+            {
+                "step": 111,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 112,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "2"
+                }
+            },
+            {
+                "step": 113,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "3"
+                }
+            },
+            {
+                "step": 114,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "4"
+                }
+            },
+            {
+                "step": 115,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "5"
+                }
+            },
+            {
+                "step": 116,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "6"
+                }
+            },
+            {
+                "step": 117,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NAME": "/menu"
+                }
+            },
+            {
+                "step": 118,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "6"
+                }
+            },
+            {
+                "step": 119,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "7"
+                }
+            },
+            {
+                "step": 120,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "TAGS": "<primary>80",
+                    "VALUE_3": "20",
+                    "VALUE_4": "180",
+                    "VALUE_5": "140</primary></main>"
+                }
+            },
+            {
+                "step": 121,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 122,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "6",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 123,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=nexts",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "6",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 124,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 125,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "0"
+                }
+            },
+            {
+                "step": 126,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "0"
+                }
+            },
+            {
+                "step": 127,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 128,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "2"
+                }
+            },
+            {
+                "step": 129,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "3"
+                }
+            },
+            {
+                "step": 130,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "4"
+                }
+            },
+            {
+                "step": 131,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "5"
+                }
+            },
+            {
+                "step": 132,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "6"
+                }
+            },
+            {
+                "step": 133,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "7"
+                }
+            },
+            {
+                "step": 134,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "8"
+                }
+            },
+            {
+                "step": 135,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NAME": "primary"
+                }
+            },
+            {
+                "step": 136,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "8"
+                }
+            },
+            {
+                "step": 137,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "9"
+                }
+            },
+            {
+                "step": 138,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "10"
+                }
+            },
+            {
+                "step": 139,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "11"
+                }
+            },
+            {
+                "step": 140,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "12"
+                }
+            },
+            {
+                "step": 141,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "13"
+                }
+            },
+            {
+                "step": 142,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "14"
+                }
+            },
+            {
+                "step": 143,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "15"
+                }
+            },
+            {
+                "step": 144,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "16"
+                }
+            },
+            {
+                "step": 145,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "17"
+                }
+            },
+            {
+                "step": 146,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "18"
+                }
+            },
+            {
+                "step": 147,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "19"
+                }
+            },
+            {
+                "step": 148,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "20"
+                }
+            },
+            {
+                "step": 149,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "21"
+                }
+            },
+            {
+                "step": 150,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "22"
+                }
+            },
+            {
+                "step": 151,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "COORDINATES": "80",
+                    "VALUE_3": "20",
+                    "VALUE_4": "180",
+                    "VALUE_5": "140"
+                }
+            },
+            {
+                "step": 152,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$Panel:3"
+                }
+            },
+            {
+                "step": 153,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#parseTags:1",
+                    "TARGET": "Main$Panel:3#Main$Panel:3"
+                }
+            },
+            {
+                "step": 154,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#Main$Panel:3",
+                    "NAME": "primary"
+                }
+            },
+            {
+                "step": 155,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#Main$Panel:3",
+                    "COORDINATES": "80",
+                    "VALUE_3": "20",
+                    "VALUE_4": "180",
+                    "VALUE_5": "140"
+                }
+            },
+            {
+                "step": 156,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "NAME": "primary"
+                }
+            },
+            {
+                "step": 157,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:4"
+                }
+            },
+            {
+                "step": 158,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:4",
+                    "0": "80"
+                }
+            },
+            {
+                "step": 159,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:4",
+                    "1": "20"
+                }
+            },
+            {
+                "step": 160,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:4",
+                    "2": "180"
+                }
+            },
+            {
+                "step": 161,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:4",
+                    "3": "140"
+                }
+            },
+            {
+                "step": 162,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#Main$Panel:3",
+                    "C": "java.lang.String[]:4"
+                }
+            },
+            {
+                "step": 163,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "X1": "80"
+                }
+            },
+            {
+                "step": 164,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "Y1": "20"
+                }
+            },
+            {
+                "step": 165,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "X2": "180"
+                }
+            },
+            {
+                "step": 166,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "Y2": "140"
+                }
+            },
+            {
+                "step": 167,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "CHILDREN": "java.util.ArrayList (id=378)"
+                }
+            },
+            {
+                "step": 168,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:3#Main$Panel:3",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 169,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "PN": "Main$Panel:3"
+                }
+            },
+            {
+                "step": 170,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "children"
+                }
+            },
+            {
+                "step": 171,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "TAGS": "</primary></main>"
+                }
+            },
+            {
+                "step": 172,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=pn",
+                    "TYPE": "Main$Panel (id=88)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 173,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 174,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "6",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 175,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=nexts",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "6",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 176,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 177,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "0"
+                }
+            },
+            {
+                "step": 178,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "0"
+                }
+            },
+            {
+                "step": 179,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 180,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "2"
+                }
+            },
+            {
+                "step": 181,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "3"
+                }
+            },
+            {
+                "step": 182,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "4"
+                }
+            },
+            {
+                "step": 183,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "5"
+                }
+            },
+            {
+                "step": 184,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "6"
+                }
+            },
+            {
+                "step": 185,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "7"
+                }
+            },
+            {
+                "step": 186,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "8"
+                }
+            },
+            {
+                "step": 187,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "9"
+                }
+            },
+            {
+                "step": 188,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NAME": "/primary"
+                }
+            },
+            {
+                "step": 189,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "9"
+                }
+            },
+            {
+                "step": 190,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "10"
+                }
+            },
+            {
+                "step": 191,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "TAGS": "</main>"
+                }
+            },
+            {
+                "step": 192,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 193,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "6",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 194,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#parseTags:1 <name=nexts",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "6",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 195,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 196,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "0"
+                }
+            },
+            {
+                "step": 197,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "0"
+                }
+            },
+            {
+                "step": 198,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 199,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "2"
+                }
+            },
+            {
+                "step": 200,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "3"
+                }
+            },
+            {
+                "step": 201,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "4"
+                }
+            },
+            {
+                "step": 202,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "5"
+                }
+            },
+            {
+                "step": 203,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "T": "6"
+                }
+            },
+            {
+                "step": 204,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NAME": "/main"
+                }
+            },
+            {
+                "step": 205,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "NEXTS": "6"
+                }
+            },
+            {
+                "step": 206,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#parseTags:1",
+                    "RESULT": "java.util.ArrayList (id=345)"
+                }
+            },
+            {
+                "step": 207,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#parseTags:1",
+                    "VALUE": "java.util.ArrayList (id=345)"
+                }
+            },
+            {
+                "step": 208,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "PS": "java.util.ArrayList (id=345)"
+                }
+            },
+            {
+                "step": 209,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 210,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:5"
+                }
+            },
+            {
+                "step": 211,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:5",
+                    "0": "10"
+                }
+            },
+            {
+                "step": 212,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:5",
+                    "1": "10"
+                }
+            },
+            {
+                "step": 213,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "STR": "java.lang.String[]:5"
+                }
+            },
+            {
+                "step": 214,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "X": "10"
+                }
+            },
+            {
+                "step": 215,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "Y": "10"
+                }
+            },
+            {
+                "step": 216,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "FOUND": "false"
+                }
+            },
+            {
+                "step": 217,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CURRENT": "Main$Panel:1"
+                }
+            },
+            {
+                "step": 218,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:1#point:1"
+                }
+            },
+            {
+                "step": 219,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:1",
+                    "X": "10"
+                }
+            },
+            {
+                "step": 220,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:1",
+                    "Y": "10"
+                }
+            },
+            {
+                "step": 221,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 222,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "x2"
+                }
+            },
+            {
+                "step": 223,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "y1"
+                }
+            },
+            {
+                "step": 224,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "y2"
+                }
+            },
+            {
+                "step": 225,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:1",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 226,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:1#point:1",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 227,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "FOUND": "true"
+                }
+            },
+            {
+                "step": 228,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "C": "false"
+                }
+            },
+            {
+                "step": 229,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "children"
+                }
+            },
+            {
+                "step": 230,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CHILD": "Main$Panel:2"
+                }
+            },
+            {
+                "step": 231,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:2#point:2"
+                }
+            },
+            {
+                "step": 232,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:2",
+                    "X": "10"
+                }
+            },
+            {
+                "step": 233,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:2",
+                    "Y": "10"
+                }
+            },
+            {
+                "step": 234,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 235,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:2",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 236,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:2#point:2",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 237,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CHILD": "Main$Panel:3"
+                }
+            },
+            {
+                "step": 238,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:3#point:3"
+                }
+            },
+            {
+                "step": 239,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#point:3",
+                    "X": "10"
+                }
+            },
+            {
+                "step": 240,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#point:3",
+                    "Y": "10"
+                }
+            },
+            {
+                "step": 241,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 242,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#point:3",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 243,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:3#point:3",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 244,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=child",
+                    "TYPE": "Main$Panel (id=88)",
+                    "VALUE": "<?>",
+                    "INDEX": "12>"
+                }
+            },
+            {
+                "step": 245,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=c",
+                    "TYPE": "boolean (id=2)",
+                    "VALUE": "<?>",
+                    "INDEX": "11>"
+                }
+            },
+            {
+                "step": 246,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "name"
+                }
+            },
+            {
+                "step": 247,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "children"
+                }
+            },
+            {
+                "step": 248,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 249,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=str",
+                    "TYPE": "java.lang.String[] (id=59)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 250,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=x",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 251,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=y",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 252,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=found",
+                    "TYPE": "boolean (id=2)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 253,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=current",
+                    "TYPE": "Main$Panel (id=88)",
+                    "VALUE": "<?>",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 254,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:6"
+                }
+            },
+            {
+                "step": 255,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:6",
+                    "0": "15"
+                }
+            },
+            {
+                "step": 256,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:6",
+                    "1": "15"
+                }
+            },
+            {
+                "step": 257,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "STR": "java.lang.String[]:6"
+                }
+            },
+            {
+                "step": 258,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "X": "15"
+                }
+            },
+            {
+                "step": 259,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "Y": "15"
+                }
+            },
+            {
+                "step": 260,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "FOUND": "false"
+                }
+            },
+            {
+                "step": 261,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CURRENT": "Main$Panel:1"
+                }
+            },
+            {
+                "step": 262,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:1#point:4"
+                }
+            },
+            {
+                "step": 263,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:4",
+                    "X": "15"
+                }
+            },
+            {
+                "step": 264,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:4",
+                    "Y": "15"
+                }
+            },
+            {
+                "step": 265,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 266,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "x2"
+                }
+            },
+            {
+                "step": 267,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "y1"
+                }
+            },
+            {
+                "step": 268,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "y2"
+                }
+            },
+            {
+                "step": 269,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:4",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 270,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:1#point:4",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 271,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "FOUND": "true"
+                }
+            },
+            {
+                "step": 272,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "C": "false"
+                }
+            },
+            {
+                "step": 273,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "children"
+                }
+            },
+            {
+                "step": 274,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CHILD": "Main$Panel:2"
+                }
+            },
+            {
+                "step": 275,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:2#point:5"
+                }
+            },
+            {
+                "step": 276,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:5",
+                    "X": "15"
+                }
+            },
+            {
+                "step": 277,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:5",
+                    "Y": "15"
+                }
+            },
+            {
+                "step": 278,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 279,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:5",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 280,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:2#point:5",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 281,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CHILD": "Main$Panel:3"
+                }
+            },
+            {
+                "step": 282,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:3#point:6"
+                }
+            },
+            {
+                "step": 283,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#point:6",
+                    "X": "15"
+                }
+            },
+            {
+                "step": 284,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#point:6",
+                    "Y": "15"
+                }
+            },
+            {
+                "step": 285,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 286,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#point:6",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 287,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:3#point:6",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 288,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=child",
+                    "TYPE": "Main$Panel (id=88)",
+                    "VALUE": "<?>",
+                    "INDEX": "12>"
+                }
+            },
+            {
+                "step": 289,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=c",
+                    "TYPE": "boolean (id=2)",
+                    "VALUE": "<?>",
+                    "INDEX": "11>"
+                }
+            },
+            {
+                "step": 290,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "name"
+                }
+            },
+            {
+                "step": 291,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "children"
+                }
+            },
+            {
+                "step": 292,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 293,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=str",
+                    "TYPE": "java.lang.String[] (id=59)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 294,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=x",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 295,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=y",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 296,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=found",
+                    "TYPE": "boolean (id=2)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 297,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=current",
+                    "TYPE": "Main$Panel (id=88)",
+                    "VALUE": "<?>",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 298,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:7"
+                }
+            },
+            {
+                "step": 299,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:7",
+                    "0": "40"
+                }
+            },
+            {
+                "step": 300,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:7",
+                    "1": "60"
+                }
+            },
+            {
+                "step": 301,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "STR": "java.lang.String[]:7"
+                }
+            },
+            {
+                "step": 302,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "X": "40"
+                }
+            },
+            {
+                "step": 303,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "Y": "60"
+                }
+            },
+            {
+                "step": 304,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "FOUND": "false"
+                }
+            },
+            {
+                "step": 305,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CURRENT": "Main$Panel:1"
+                }
+            },
+            {
+                "step": 306,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:1#point:7"
+                }
+            },
+            {
+                "step": 307,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:7",
+                    "X": "40"
+                }
+            },
+            {
+                "step": 308,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:7",
+                    "Y": "60"
+                }
+            },
+            {
+                "step": 309,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 310,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "x2"
+                }
+            },
+            {
+                "step": 311,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "y1"
+                }
+            },
+            {
+                "step": 312,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "y2"
+                }
+            },
+            {
+                "step": 313,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:7",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 314,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:1#point:7",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 315,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "FOUND": "true"
+                }
+            },
+            {
+                "step": 316,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "C": "false"
+                }
+            },
+            {
+                "step": 317,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "children"
+                }
+            },
+            {
+                "step": 318,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CHILD": "Main$Panel:2"
+                }
+            },
+            {
+                "step": 319,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:2#point:8"
+                }
+            },
+            {
+                "step": 320,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:8",
+                    "X": "40"
+                }
+            },
+            {
+                "step": 321,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:8",
+                    "Y": "60"
+                }
+            },
+            {
+                "step": 322,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 323,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "x2"
+                }
+            },
+            {
+                "step": 324,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "y1"
+                }
+            },
+            {
+                "step": 325,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "y2"
+                }
+            },
+            {
+                "step": 326,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:8",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 327,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:2#point:8",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 328,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "C": "true"
+                }
+            },
+            {
+                "step": 329,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CURRENT": "Main$Panel:2"
+                }
+            },
+            {
+                "step": 330,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=child",
+                    "TYPE": "Main$Panel (id=88)",
+                    "VALUE": "<?>",
+                    "INDEX": "12>"
+                }
+            },
+            {
+                "step": 331,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:2#point:9"
+                }
+            },
+            {
+                "step": 332,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:9",
+                    "X": "40"
+                }
+            },
+            {
+                "step": 333,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:9",
+                    "Y": "60"
+                }
+            },
+            {
+                "step": 334,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 335,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "x2"
+                }
+            },
+            {
+                "step": 336,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "y1"
+                }
+            },
+            {
+                "step": 337,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "y2"
+                }
+            },
+            {
+                "step": 338,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:9",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 339,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:2#point:9",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 340,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=c",
+                    "TYPE": "boolean (id=2)",
+                    "VALUE": "<?>",
+                    "INDEX": "11>"
+                }
+            },
+            {
+                "step": 341,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "FOUND": "true"
+                }
+            },
+            {
+                "step": 342,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "C": "false"
+                }
+            },
+            {
+                "step": 343,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "children"
+                }
+            },
+            {
+                "step": 344,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=c",
+                    "TYPE": "boolean (id=2)",
+                    "VALUE": "<?>",
+                    "INDEX": "11>"
+                }
+            },
+            {
+                "step": 345,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "name"
+                }
+            },
+            {
+                "step": 346,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "children"
+                }
+            },
+            {
+                "step": 347,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 348,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=str",
+                    "TYPE": "java.lang.String[] (id=59)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 349,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=x",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 350,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=y",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 351,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=found",
+                    "TYPE": "boolean (id=2)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 352,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=current",
+                    "TYPE": "Main$Panel (id=88)",
+                    "VALUE": "<?>",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 353,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:8"
+                }
+            },
+            {
+                "step": 354,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:8",
+                    "0": "2"
+                }
+            },
+            {
+                "step": 355,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:8",
+                    "1": "3"
+                }
+            },
+            {
+                "step": 356,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "STR": "java.lang.String[]:8"
+                }
+            },
+            {
+                "step": 357,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "X": "2"
+                }
+            },
+            {
+                "step": 358,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "Y": "3"
+                }
+            },
+            {
+                "step": 359,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "FOUND": "false"
+                }
+            },
+            {
+                "step": 360,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CURRENT": "Main$Panel:1"
+                }
+            },
+            {
+                "step": 361,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:1#point:10"
+                }
+            },
+            {
+                "step": 362,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:10",
+                    "X": "2"
+                }
+            },
+            {
+                "step": 363,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:10",
+                    "Y": "3"
+                }
+            },
+            {
+                "step": 364,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 365,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:10",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 366,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:1#point:10",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 367,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "4"
+                }
+            },
+            {
+                "step": 368,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=str",
+                    "TYPE": "java.lang.String[] (id=59)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 369,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=x",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 370,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=y",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 371,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=found",
+                    "TYPE": "boolean (id=2)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 372,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=current",
+                    "TYPE": "Main$Panel (id=88)",
+                    "VALUE": "<?>",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 373,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:9"
+                }
+            },
+            {
+                "step": 374,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:9",
+                    "0": "130"
+                }
+            },
+            {
+                "step": 375,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:9",
+                    "1": "80"
+                }
+            },
+            {
+                "step": 376,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "STR": "java.lang.String[]:9"
+                }
+            },
+            {
+                "step": 377,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "X": "130"
+                }
+            },
+            {
+                "step": 378,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "Y": "80"
+                }
+            },
+            {
+                "step": 379,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "FOUND": "false"
+                }
+            },
+            {
+                "step": 380,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CURRENT": "Main$Panel:1"
+                }
+            },
+            {
+                "step": 381,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:1#point:11"
+                }
+            },
+            {
+                "step": 382,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:11",
+                    "X": "130"
+                }
+            },
+            {
+                "step": 383,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:11",
+                    "Y": "80"
+                }
+            },
+            {
+                "step": 384,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 385,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "x2"
+                }
+            },
+            {
+                "step": 386,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "y1"
+                }
+            },
+            {
+                "step": 387,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "y2"
+                }
+            },
+            {
+                "step": 388,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1#point:11",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 389,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:1#point:11",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 390,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "FOUND": "true"
+                }
+            },
+            {
+                "step": 391,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "C": "false"
+                }
+            },
+            {
+                "step": 392,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:1",
+                    "VALUE_2": "children"
+                }
+            },
+            {
+                "step": 393,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CHILD": "Main$Panel:2"
+                }
+            },
+            {
+                "step": 394,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:2#point:12"
+                }
+            },
+            {
+                "step": 395,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:12",
+                    "X": "130"
+                }
+            },
+            {
+                "step": 396,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:12",
+                    "Y": "80"
+                }
+            },
+            {
+                "step": 397,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 398,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2",
+                    "VALUE_2": "x2"
+                }
+            },
+            {
+                "step": 399,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:2#point:12",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 400,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:2#point:12",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 401,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CHILD": "Main$Panel:3"
+                }
+            },
+            {
+                "step": 402,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:3#point:13"
+                }
+            },
+            {
+                "step": 403,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#point:13",
+                    "X": "130"
+                }
+            },
+            {
+                "step": 404,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#point:13",
+                    "Y": "80"
+                }
+            },
+            {
+                "step": 405,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 406,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "VALUE_2": "x2"
+                }
+            },
+            {
+                "step": 407,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "VALUE_2": "y1"
+                }
+            },
+            {
+                "step": 408,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "VALUE_2": "y2"
+                }
+            },
+            {
+                "step": 409,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#point:13",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 410,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:3#point:13",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 411,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "C": "true"
+                }
+            },
+            {
+                "step": 412,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CURRENT": "Main$Panel:3"
+                }
+            },
+            {
+                "step": 413,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=child",
+                    "TYPE": "Main$Panel (id=88)",
+                    "VALUE": "<?>",
+                    "INDEX": "12>"
+                }
+            },
+            {
+                "step": 414,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$Panel:3#point:14"
+                }
+            },
+            {
+                "step": 415,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#point:14",
+                    "X": "130"
+                }
+            },
+            {
+                "step": 416,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#point:14",
+                    "Y": "80"
+                }
+            },
+            {
+                "step": 417,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "VALUE_2": "x1"
+                }
+            },
+            {
+                "step": 418,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "VALUE_2": "x2"
+                }
+            },
+            {
+                "step": 419,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "VALUE_2": "y1"
+                }
+            },
+            {
+                "step": 420,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "VALUE_2": "y2"
+                }
+            },
+            {
+                "step": 421,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3#point:14",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 422,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Panel:3#point:14",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 423,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=c",
+                    "TYPE": "boolean (id=2)",
+                    "VALUE": "<?>",
+                    "INDEX": "11>"
+                }
+            },
+            {
+                "step": 424,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "FOUND": "true"
+                }
+            },
+            {
+                "step": 425,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "C": "false"
+                }
+            },
+            {
+                "step": 426,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "VALUE_2": "children"
+                }
+            },
+            {
+                "step": 427,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=c",
+                    "TYPE": "boolean (id=2)",
+                    "VALUE": "<?>",
+                    "INDEX": "11>"
+                }
+            },
+            {
+                "step": 428,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "VALUE_2": "name"
+                }
+            },
+            {
+                "step": 429,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Panel:3",
+                    "VALUE_2": "children"
+                }
+            },
+            {
+                "step": 430,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=str",
+                    "TYPE": "java.lang.String[] (id=59)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 431,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=x",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 432,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=y",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 433,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=found",
+                    "TYPE": "boolean (id=2)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 434,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=current",
+                    "TYPE": "Main$Panel (id=88)",
+                    "VALUE": "<?>",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 435,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=n",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 436,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=tag",
+                    "TYPE": "java.lang.String (id=25)",
+                    "VALUE": "<?>",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 437,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=ps",
+                    "TYPE": "java.util.ArrayList (unresolved)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 438,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 439,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 440,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=n",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 441,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 442,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

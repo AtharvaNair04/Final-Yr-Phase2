@@ -1,0 +1,1318 @@
+{
+    "program_id": "p00990",
+    "source": {
+        "program_id": "p00990",
+        "file": "p00990.java",
+        "package": null,
+        "classes": [
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            },
+            {
+                "name": "solve",
+                "return_type": null,
+                "parameters": []
+            }
+        ],
+        "constructors": [],
+        "variables": [
+            "num",
+            "n",
+            "sum",
+            "index",
+            "box",
+            "sc",
+            "inp",
+            "m",
+            "st",
+            "i",
+            "start",
+            "t",
+            "u",
+            "zz"
+        ],
+        "method_calls": [
+            {
+                "name": "valueOf",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "readLine",
+                "qualifier": "sc"
+            },
+            {
+                "name": "reverse",
+                "qualifier": null
+            },
+            {
+                "name": "toString",
+                "qualifier": null
+            },
+            {
+                "name": "readLine",
+                "qualifier": "sc"
+            },
+            {
+                "name": "valueOf",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "readLine",
+                "qualifier": "sc"
+            },
+            {
+                "name": "readLine",
+                "qualifier": "sc"
+            },
+            {
+                "name": "split",
+                "qualifier": null
+            },
+            {
+                "name": "valueOf",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "charAt",
+                "qualifier": "inp"
+            },
+            {
+                "name": "add",
+                "qualifier": "index"
+            },
+            {
+                "name": "charAt",
+                "qualifier": "inp"
+            },
+            {
+                "name": "charAt",
+                "qualifier": "inp"
+            },
+            {
+                "name": "solve",
+                "qualifier": ""
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "size",
+                "qualifier": "index"
+            },
+            {
+                "name": "poll",
+                "qualifier": "index"
+            },
+            {
+                "name": "solve",
+                "qualifier": ""
+            },
+            {
+                "name": "offerFirst",
+                "qualifier": "index"
+            }
+        ],
+        "control_statements": [
+            "try",
+            "for",
+            "if"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00990",
+        "event_count": 145,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#<clinit>:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "NUM": "0"
+                }
+            },
+            {
+                "step": 4,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "0"
+                }
+            },
+            {
+                "step": 5,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#<clinit>:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 6,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 7,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 8,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 9,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "SC": "java.io.BufferedReader (id=342)"
+                }
+            },
+            {
+                "step": 10,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "N": "5"
+                }
+            },
+            {
+                "step": 11,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "INP": "*75*5"
+                }
+            },
+            {
+                "step": 12,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "M": "2"
+                }
+            },
+            {
+                "step": 13,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:2"
+                }
+            },
+            {
+                "step": 14,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "0": "3"
+                }
+            },
+            {
+                "step": 15,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "1": "9"
+                }
+            },
+            {
+                "step": 16,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ST": "java.lang.String[]:2"
+                }
+            },
+            {
+                "step": 17,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:1"
+                }
+            },
+            {
+                "step": 18,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 19,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 20,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "BOX": "int[]:1"
+                }
+            },
+            {
+                "step": 21,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 22,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "box"
+                }
+            },
+            {
+                "step": 23,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 24,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "box"
+                }
+            },
+            {
+                "step": 25,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 26,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "START": "-1"
+                }
+            },
+            {
+                "step": 27,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "INDEX": "java.util.LinkedList (id=348)"
+                }
+            },
+            {
+                "step": 28,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 29,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 30,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 31,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 32,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 33,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "T": "14"
+                }
+            },
+            {
+                "step": 34,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 35,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "5"
+                }
+            },
+            {
+                "step": 36,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 37,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 38,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 39,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 40,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "10"
+                }
+            },
+            {
+                "step": 41,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 42,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 43,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 44,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 45,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "4"
+                }
+            },
+            {
+                "step": 46,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 47,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "15"
+                }
+            },
+            {
+                "step": 48,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 49,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main#solve:1"
+                }
+            },
+            {
+                "step": 50,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 51,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "box"
+                }
+            },
+            {
+                "step": 52,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "U": "3"
+                }
+            },
+            {
+                "step": 53,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 54,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "T": "0"
+                }
+            },
+            {
+                "step": 55,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "ZZ": "3"
+                }
+            },
+            {
+                "step": 56,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 57,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "18"
+                }
+            },
+            {
+                "step": 58,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#solve:1",
+                    "TARGET": "Main#solve:2"
+                }
+            },
+            {
+                "step": 59,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 60,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "box"
+                }
+            },
+            {
+                "step": 61,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:2",
+                    "U": "3"
+                }
+            },
+            {
+                "step": 62,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 63,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:2",
+                    "T": "3"
+                }
+            },
+            {
+                "step": 64,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:2",
+                    "ZZ": "6"
+                }
+            },
+            {
+                "step": 65,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 66,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "24"
+                }
+            },
+            {
+                "step": 67,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#solve:2",
+                    "TARGET": "Main#solve:3"
+                }
+            },
+            {
+                "step": 68,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 69,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 70,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#solve:3",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 71,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 72,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "18"
+                }
+            },
+            {
+                "step": 73,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 74,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:2",
+                    "U": "9"
+                }
+            },
+            {
+                "step": 75,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:2 <name=zz",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "1>"
+                }
+            },
+            {
+                "step": 76,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:2 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "3",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 77,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 78,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:2",
+                    "T": "3"
+                }
+            },
+            {
+                "step": 79,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:2",
+                    "ZZ": "9"
+                }
+            },
+            {
+                "step": 80,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 81,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "27"
+                }
+            },
+            {
+                "step": 82,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#solve:2",
+                    "TARGET": "Main#solve:4"
+                }
+            },
+            {
+                "step": 83,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 84,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 85,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#solve:4",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 86,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 87,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "18"
+                }
+            },
+            {
+                "step": 88,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 89,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:2 <name=zz",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "1>"
+                }
+            },
+            {
+                "step": 90,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#solve:2",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 91,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 92,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "15"
+                }
+            },
+            {
+                "step": 93,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 94,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "U": "9"
+                }
+            },
+            {
+                "step": 95,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=zz",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "1>"
+                }
+            },
+            {
+                "step": 96,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 97,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 98,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "T": "0"
+                }
+            },
+            {
+                "step": 99,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "ZZ": "9"
+                }
+            },
+            {
+                "step": 100,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 101,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "24"
+                }
+            },
+            {
+                "step": 102,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#solve:1",
+                    "TARGET": "Main#solve:5"
+                }
+            },
+            {
+                "step": 103,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 104,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "box"
+                }
+            },
+            {
+                "step": 105,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:5",
+                    "U": "3"
+                }
+            },
+            {
+                "step": 106,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 107,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:5",
+                    "T": "3"
+                }
+            },
+            {
+                "step": 108,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:5",
+                    "ZZ": "6"
+                }
+            },
+            {
+                "step": 109,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 110,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "30"
+                }
+            },
+            {
+                "step": 111,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#solve:5",
+                    "TARGET": "Main#solve:6"
+                }
+            },
+            {
+                "step": 112,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 113,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 114,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "num"
+                }
+            },
+            {
+                "step": 115,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "NUM": "1"
+                }
+            },
+            {
+                "step": 116,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#solve:6",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 117,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 118,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "24"
+                }
+            },
+            {
+                "step": 119,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 120,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:5",
+                    "U": "9"
+                }
+            },
+            {
+                "step": 121,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:5 <name=zz",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "1>"
+                }
+            },
+            {
+                "step": 122,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:5 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "3",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 123,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 124,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:5",
+                    "T": "3"
+                }
+            },
+            {
+                "step": 125,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:5",
+                    "ZZ": "9"
+                }
+            },
+            {
+                "step": 126,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 127,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "33"
+                }
+            },
+            {
+                "step": 128,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#solve:5",
+                    "TARGET": "Main#solve:7"
+                }
+            },
+            {
+                "step": 129,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 130,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 131,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#solve:7",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 132,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 133,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "24"
+                }
+            },
+            {
+                "step": 134,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 135,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:5 <name=zz",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "1>"
+                }
+            },
+            {
+                "step": 136,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#solve:5",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 137,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "sum"
+                }
+            },
+            {
+                "step": 138,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "SUM": "15"
+                }
+            },
+            {
+                "step": 139,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "index"
+                }
+            },
+            {
+                "step": 140,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=zz",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "1>"
+                }
+            },
+            {
+                "step": 141,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#solve:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 142,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "num"
+                }
+            },
+            {
+                "step": 143,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 144,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 145,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

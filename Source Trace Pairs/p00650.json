@@ -1,0 +1,3891 @@
+{
+    "program_id": "p00650",
+    "source": {
+        "program_id": "p00650",
+        "file": "p00650.java",
+        "package": null,
+        "classes": [
+            "Main",
+            "E"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "isCon",
+                "return_type": "boolean",
+                "parameters": [
+                    "f1",
+                    "f2"
+                ]
+            },
+            {
+                "name": "run",
+                "return_type": null,
+                "parameters": []
+            },
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            }
+        ],
+        "constructors": [
+            {
+                "name": "E",
+                "parameters": [
+                    "s",
+                    "t",
+                    "c",
+                    "id"
+                ]
+            }
+        ],
+        "variables": [
+            "s",
+            "t",
+            "c",
+            "id",
+            "n",
+            "m",
+            "adj",
+            "u",
+            "l",
+            "N",
+            "next",
+            "i",
+            "e",
+            "sc",
+            "M",
+            "cost",
+            "min",
+            "j"
+        ],
+        "method_calls": [
+            {
+                "name": "add",
+                "qualifier": "l"
+            },
+            {
+                "name": "isEmpty",
+                "qualifier": "l"
+            },
+            {
+                "name": "add",
+                "qualifier": "next"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "add",
+                "qualifier": "cost"
+            },
+            {
+                "name": "add",
+                "qualifier": null
+            },
+            {
+                "name": "add",
+                "qualifier": null
+            },
+            {
+                "name": "isCon",
+                "qualifier": ""
+            },
+            {
+                "name": "isCon",
+                "qualifier": ""
+            },
+            {
+                "name": "min",
+                "qualifier": "Math"
+            },
+            {
+                "name": "get",
+                "qualifier": "cost"
+            },
+            {
+                "name": "min",
+                "qualifier": "Math"
+            },
+            {
+                "name": "get",
+                "qualifier": "cost"
+            },
+            {
+                "name": "get",
+                "qualifier": "cost"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "run",
+                "qualifier": null
+            }
+        ],
+        "control_statements": [
+            "while",
+            "for",
+            "if"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00650",
+        "event_count": 455,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main:1"
+                }
+            },
+            {
+                "step": 6,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main:1#Main:1"
+                }
+            },
+            {
+                "step": 7,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#Main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 8,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main:1#run:1"
+                }
+            },
+            {
+                "step": 9,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "SC": "java.util.Scanner (id=365)"
+                }
+            },
+            {
+                "step": 10,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "N": "3"
+                }
+            },
+            {
+                "step": 11,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "2"
+                }
+            },
+            {
+                "step": 12,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 13,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 14,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 15,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.util.List[]:1"
+                }
+            },
+            {
+                "step": 16,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.util.List[]:1",
+                    "0": "null"
+                }
+            },
+            {
+                "step": 17,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.util.List[]:1",
+                    "1": "null"
+                }
+            },
+            {
+                "step": 18,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.util.List[]:1",
+                    "2": "null"
+                }
+            },
+            {
+                "step": 19,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "ADJ": "java.util.List[]:1"
+                }
+            },
+            {
+                "step": 20,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 21,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 22,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 23,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 24,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 25,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 26,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 27,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 28,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "0"
+                }
+            },
+            {
+                "step": 29,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COST": "java.util.ArrayList (id=368)"
+                }
+            },
+            {
+                "step": 30,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 31,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "1"
+                }
+            },
+            {
+                "step": 32,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 33,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 34,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "C": "2"
+                }
+            },
+            {
+                "step": 35,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 36,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$E:1"
+                }
+            },
+            {
+                "step": 37,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$E:1#Main$E:1"
+                }
+            },
+            {
+                "step": 38,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:1#Main$E:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 39,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:1#Main$E:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 40,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:1#Main$E:1",
+                    "ID": "0"
+                }
+            },
+            {
+                "step": 41,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:1#Main$E:1",
+                    "C": "2"
+                }
+            },
+            {
+                "step": 42,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 43,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 44,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "C": "2"
+                }
+            },
+            {
+                "step": 45,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "ID": "0"
+                }
+            },
+            {
+                "step": 46,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$E:1#Main$E:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 47,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 48,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$E:2"
+                }
+            },
+            {
+                "step": 49,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$E:2#Main$E:2"
+                }
+            },
+            {
+                "step": 50,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:2#Main$E:2",
+                    "T": "0"
+                }
+            },
+            {
+                "step": 51,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:2#Main$E:2",
+                    "S": "1"
+                }
+            },
+            {
+                "step": 52,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:2#Main$E:2",
+                    "ID": "0"
+                }
+            },
+            {
+                "step": 53,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:2#Main$E:2",
+                    "C": "2"
+                }
+            },
+            {
+                "step": 54,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:2",
+                    "S": "1"
+                }
+            },
+            {
+                "step": 55,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:2",
+                    "T": "0"
+                }
+            },
+            {
+                "step": 56,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:2",
+                    "C": "2"
+                }
+            },
+            {
+                "step": 57,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:2",
+                    "ID": "0"
+                }
+            },
+            {
+                "step": 58,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$E:2#Main$E:2",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 59,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "1"
+                }
+            },
+            {
+                "step": 60,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 61,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "0"
+                }
+            },
+            {
+                "step": 62,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 63,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 64,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=c",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 65,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "S": "1"
+                }
+            },
+            {
+                "step": 66,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "2"
+                }
+            },
+            {
+                "step": 67,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "C": "1"
+                }
+            },
+            {
+                "step": 68,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 69,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$E:3"
+                }
+            },
+            {
+                "step": 70,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$E:3#Main$E:3"
+                }
+            },
+            {
+                "step": 71,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:3#Main$E:3",
+                    "T": "2"
+                }
+            },
+            {
+                "step": 72,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:3#Main$E:3",
+                    "S": "1"
+                }
+            },
+            {
+                "step": 73,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:3#Main$E:3",
+                    "ID": "1"
+                }
+            },
+            {
+                "step": 74,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:3#Main$E:3",
+                    "C": "1"
+                }
+            },
+            {
+                "step": 75,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:3",
+                    "S": "1"
+                }
+            },
+            {
+                "step": 76,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:3",
+                    "T": "2"
+                }
+            },
+            {
+                "step": 77,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:3",
+                    "C": "1"
+                }
+            },
+            {
+                "step": 78,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:3",
+                    "ID": "1"
+                }
+            },
+            {
+                "step": 79,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$E:3#Main$E:3",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 80,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 81,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$E:4"
+                }
+            },
+            {
+                "step": 82,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$E:4#Main$E:4"
+                }
+            },
+            {
+                "step": 83,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:4#Main$E:4",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 84,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:4#Main$E:4",
+                    "S": "2"
+                }
+            },
+            {
+                "step": 85,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:4#Main$E:4",
+                    "ID": "1"
+                }
+            },
+            {
+                "step": 86,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:4#Main$E:4",
+                    "C": "1"
+                }
+            },
+            {
+                "step": 87,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:4",
+                    "S": "2"
+                }
+            },
+            {
+                "step": 88,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:4",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 89,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:4",
+                    "C": "1"
+                }
+            },
+            {
+                "step": 90,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:4",
+                    "ID": "1"
+                }
+            },
+            {
+                "step": 91,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$E:4#Main$E:4",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 92,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "2"
+                }
+            },
+            {
+                "step": 93,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 94,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "-1"
+                }
+            },
+            {
+                "step": 95,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 96,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 97,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=c",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 98,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "MIN": "2147483647"
+                }
+            },
+            {
+                "step": 99,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main:1#isCon:1"
+                }
+            },
+            {
+                "step": 100,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "F2": "-1"
+                }
+            },
+            {
+                "step": 101,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "F1": "-1"
+                }
+            },
+            {
+                "step": 102,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 103,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "boolean[]:1"
+                }
+            },
+            {
+                "step": 104,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:1",
+                    "0": "false"
+                }
+            },
+            {
+                "step": 105,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:1",
+                    "1": "false"
+                }
+            },
+            {
+                "step": 106,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:1",
+                    "2": "false"
+                }
+            },
+            {
+                "step": 107,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "U": "boolean[]:1"
+                }
+            },
+            {
+                "step": 108,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "L": "java.util.ArrayList (id=376)"
+                }
+            },
+            {
+                "step": 109,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 110,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "NEXT": "java.util.ArrayList (id=377)"
+                }
+            },
+            {
+                "step": 111,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 112,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "N": "1"
+                }
+            },
+            {
+                "step": 113,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 114,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 115,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 116,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 117,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "E": "Main$E:1"
+                }
+            },
+            {
+                "step": 118,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 119,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 120,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:1",
+                    "0": "true"
+                }
+            },
+            {
+                "step": 121,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:1",
+                    "1": "true"
+                }
+            },
+            {
+                "step": 122,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "U": "boolean[]:1"
+                }
+            },
+            {
+                "step": 123,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:1 <name=e",
+                    "TYPE": "Main$E (id=92)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 124,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "L": "java.util.ArrayList (id=377)"
+                }
+            },
+            {
+                "step": 125,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 126,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:1 <name=next",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 127,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "NEXT": "java.util.ArrayList (id=378)"
+                }
+            },
+            {
+                "step": 128,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 129,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "N": "2"
+                }
+            },
+            {
+                "step": 130,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 131,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:2",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 132,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:3",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 133,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:3",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 134,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:3",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 135,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "E": "Main$E:3"
+                }
+            },
+            {
+                "step": 136,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:3",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 137,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:3",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 138,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:1",
+                    "2": "true"
+                }
+            },
+            {
+                "step": 139,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "U": "boolean[]:1"
+                }
+            },
+            {
+                "step": 140,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:1 <name=e",
+                    "TYPE": "Main$E (id=92)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 141,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "L": "java.util.ArrayList (id=378)"
+                }
+            },
+            {
+                "step": 142,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 143,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:1 <name=next",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 144,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "NEXT": "java.util.ArrayList (id=379)"
+                }
+            },
+            {
+                "step": 145,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 146,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "N": "3"
+                }
+            },
+            {
+                "step": 147,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 148,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:4",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 149,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "L": "java.util.ArrayList (id=379)"
+                }
+            },
+            {
+                "step": 150,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 151,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:1 <name=next",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 152,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 153,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:1",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 154,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#isCon:1",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 155,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main:1#isCon:2"
+                }
+            },
+            {
+                "step": 156,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:2",
+                    "F2": "-1"
+                }
+            },
+            {
+                "step": 157,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:2",
+                    "F1": "0"
+                }
+            },
+            {
+                "step": 158,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 159,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "boolean[]:2"
+                }
+            },
+            {
+                "step": 160,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:2",
+                    "0": "false"
+                }
+            },
+            {
+                "step": 161,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:2",
+                    "1": "false"
+                }
+            },
+            {
+                "step": 162,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:2",
+                    "2": "false"
+                }
+            },
+            {
+                "step": 163,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:2",
+                    "U": "boolean[]:2"
+                }
+            },
+            {
+                "step": 164,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:2",
+                    "L": "java.util.ArrayList (id=381)"
+                }
+            },
+            {
+                "step": 165,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:2",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 166,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:2",
+                    "NEXT": "java.util.ArrayList (id=382)"
+                }
+            },
+            {
+                "step": 167,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:2",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 168,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:2",
+                    "N": "1"
+                }
+            },
+            {
+                "step": 169,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 170,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 171,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 172,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:2",
+                    "L": "java.util.ArrayList (id=382)"
+                }
+            },
+            {
+                "step": 173,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:2 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 174,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:2 <name=next",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 175,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 176,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:2",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 177,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#isCon:2",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 178,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main:1#isCon:3"
+                }
+            },
+            {
+                "step": 179,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "F2": "-1"
+                }
+            },
+            {
+                "step": 180,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "F1": "1"
+                }
+            },
+            {
+                "step": 181,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 182,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "boolean[]:3"
+                }
+            },
+            {
+                "step": 183,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:3",
+                    "0": "false"
+                }
+            },
+            {
+                "step": 184,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:3",
+                    "1": "false"
+                }
+            },
+            {
+                "step": 185,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:3",
+                    "2": "false"
+                }
+            },
+            {
+                "step": 186,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "U": "boolean[]:3"
+                }
+            },
+            {
+                "step": 187,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "L": "java.util.ArrayList (id=384)"
+                }
+            },
+            {
+                "step": 188,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 189,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "NEXT": "java.util.ArrayList (id=385)"
+                }
+            },
+            {
+                "step": 190,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 191,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "N": "1"
+                }
+            },
+            {
+                "step": 192,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 193,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 194,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 195,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 196,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "E": "Main$E:1"
+                }
+            },
+            {
+                "step": 197,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 198,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:1",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 199,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:3",
+                    "0": "true"
+                }
+            },
+            {
+                "step": 200,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:3",
+                    "1": "true"
+                }
+            },
+            {
+                "step": 201,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "U": "boolean[]:3"
+                }
+            },
+            {
+                "step": 202,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:3 <name=e",
+                    "TYPE": "Main$E (id=92)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 203,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "L": "java.util.ArrayList (id=385)"
+                }
+            },
+            {
+                "step": 204,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:3 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 205,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:3 <name=next",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 206,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "NEXT": "java.util.ArrayList (id=386)"
+                }
+            },
+            {
+                "step": 207,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 208,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "N": "2"
+                }
+            },
+            {
+                "step": 209,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 210,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:2",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 211,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:3",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 212,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:3",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 213,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "L": "java.util.ArrayList (id=386)"
+                }
+            },
+            {
+                "step": 214,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:3 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 215,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:3 <name=next",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 216,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 217,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:3",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 218,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#isCon:3",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 219,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "MIN": "1"
+                }
+            },
+            {
+                "step": 220,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=N",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 221,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=M",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 222,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=cost",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 223,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=min",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 224,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "N": "2"
+                }
+            },
+            {
+                "step": 225,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "1"
+                }
+            },
+            {
+                "step": 226,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 227,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 228,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 229,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.util.List[]:2"
+                }
+            },
+            {
+                "step": 230,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.util.List[]:2",
+                    "0": "null"
+                }
+            },
+            {
+                "step": 231,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.util.List[]:2",
+                    "1": "null"
+                }
+            },
+            {
+                "step": 232,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "ADJ": "java.util.List[]:2"
+                }
+            },
+            {
+                "step": 233,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 234,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 235,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 236,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 237,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 238,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 239,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "0"
+                }
+            },
+            {
+                "step": 240,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COST": "java.util.ArrayList (id=388)"
+                }
+            },
+            {
+                "step": 241,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 242,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "0"
+                }
+            },
+            {
+                "step": 243,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 244,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 245,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "C": "100"
+                }
+            },
+            {
+                "step": 246,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 247,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$E:5"
+                }
+            },
+            {
+                "step": 248,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$E:5#Main$E:5"
+                }
+            },
+            {
+                "step": 249,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:5#Main$E:5",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 250,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:5#Main$E:5",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 251,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:5#Main$E:5",
+                    "ID": "0"
+                }
+            },
+            {
+                "step": 252,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:5#Main$E:5",
+                    "C": "100"
+                }
+            },
+            {
+                "step": 253,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:5",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 254,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:5",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 255,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:5",
+                    "C": "100"
+                }
+            },
+            {
+                "step": 256,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:5",
+                    "ID": "0"
+                }
+            },
+            {
+                "step": 257,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$E:5#Main$E:5",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 258,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 259,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$E:6"
+                }
+            },
+            {
+                "step": 260,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$E:6#Main$E:6"
+                }
+            },
+            {
+                "step": 261,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:6#Main$E:6",
+                    "T": "0"
+                }
+            },
+            {
+                "step": 262,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:6#Main$E:6",
+                    "S": "1"
+                }
+            },
+            {
+                "step": 263,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:6#Main$E:6",
+                    "ID": "0"
+                }
+            },
+            {
+                "step": 264,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$E:6#Main$E:6",
+                    "C": "100"
+                }
+            },
+            {
+                "step": 265,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:6",
+                    "S": "1"
+                }
+            },
+            {
+                "step": 266,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:6",
+                    "T": "0"
+                }
+            },
+            {
+                "step": 267,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:6",
+                    "C": "100"
+                }
+            },
+            {
+                "step": 268,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$E:6",
+                    "ID": "0"
+                }
+            },
+            {
+                "step": 269,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$E:6#Main$E:6",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 270,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "1"
+                }
+            },
+            {
+                "step": 271,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 272,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "-1"
+                }
+            },
+            {
+                "step": 273,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 274,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 275,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=c",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 276,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "MIN": "2147483647"
+                }
+            },
+            {
+                "step": 277,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main:1#isCon:4"
+                }
+            },
+            {
+                "step": 278,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "F2": "-1"
+                }
+            },
+            {
+                "step": 279,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "F1": "-1"
+                }
+            },
+            {
+                "step": 280,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 281,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "boolean[]:4"
+                }
+            },
+            {
+                "step": 282,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:4",
+                    "0": "false"
+                }
+            },
+            {
+                "step": 283,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:4",
+                    "1": "false"
+                }
+            },
+            {
+                "step": 284,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "U": "boolean[]:4"
+                }
+            },
+            {
+                "step": 285,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "L": "java.util.ArrayList (id=392)"
+                }
+            },
+            {
+                "step": 286,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 287,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "NEXT": "java.util.ArrayList (id=393)"
+                }
+            },
+            {
+                "step": 288,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 289,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "N": "1"
+                }
+            },
+            {
+                "step": 290,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 291,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:5",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 292,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:5",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 293,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:5",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 294,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "E": "Main$E:5"
+                }
+            },
+            {
+                "step": 295,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:5",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 296,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:5",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 297,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:4",
+                    "0": "true"
+                }
+            },
+            {
+                "step": 298,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:4",
+                    "1": "true"
+                }
+            },
+            {
+                "step": 299,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "U": "boolean[]:4"
+                }
+            },
+            {
+                "step": 300,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:4 <name=e",
+                    "TYPE": "Main$E (id=92)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 301,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "L": "java.util.ArrayList (id=393)"
+                }
+            },
+            {
+                "step": 302,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:4 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 303,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:4 <name=next",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 304,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "NEXT": "java.util.ArrayList (id=394)"
+                }
+            },
+            {
+                "step": 305,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 306,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "N": "2"
+                }
+            },
+            {
+                "step": 307,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 308,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:6",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 309,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "L": "java.util.ArrayList (id=394)"
+                }
+            },
+            {
+                "step": 310,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:4 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 311,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:4 <name=next",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 312,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 313,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:4",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 314,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#isCon:4",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 315,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main:1#isCon:5"
+                }
+            },
+            {
+                "step": 316,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:5",
+                    "F2": "-1"
+                }
+            },
+            {
+                "step": 317,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:5",
+                    "F1": "0"
+                }
+            },
+            {
+                "step": 318,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 319,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "boolean[]:5"
+                }
+            },
+            {
+                "step": 320,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:5",
+                    "0": "false"
+                }
+            },
+            {
+                "step": 321,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:5",
+                    "1": "false"
+                }
+            },
+            {
+                "step": 322,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:5",
+                    "U": "boolean[]:5"
+                }
+            },
+            {
+                "step": 323,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:5",
+                    "L": "java.util.ArrayList (id=396)"
+                }
+            },
+            {
+                "step": 324,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:5",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 325,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:5",
+                    "NEXT": "java.util.ArrayList (id=397)"
+                }
+            },
+            {
+                "step": 326,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:5",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 327,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:5",
+                    "N": "1"
+                }
+            },
+            {
+                "step": 328,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 329,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:5",
+                    "VALUE_2": "t"
+                }
+            },
+            {
+                "step": 330,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$E:5",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 331,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:5",
+                    "L": "java.util.ArrayList (id=397)"
+                }
+            },
+            {
+                "step": 332,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:5 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 333,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:5 <name=next",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 334,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 335,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:5",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 336,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#isCon:5",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 337,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "MIN": "100"
+                }
+            },
+            {
+                "step": 338,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=N",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 339,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=M",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 340,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=cost",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 341,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=min",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 342,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "N": "2"
+                }
+            },
+            {
+                "step": 343,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "1"
+                }
+            },
+            {
+                "step": 344,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 345,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 346,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 347,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.util.List[]:3"
+                }
+            },
+            {
+                "step": 348,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.util.List[]:3",
+                    "0": "null"
+                }
+            },
+            {
+                "step": 349,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.util.List[]:3",
+                    "1": "null"
+                }
+            },
+            {
+                "step": 350,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "ADJ": "java.util.List[]:3"
+                }
+            },
+            {
+                "step": 351,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 352,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 353,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 354,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 355,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 356,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 357,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "0"
+                }
+            },
+            {
+                "step": 358,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COST": "java.util.ArrayList (id=399)"
+                }
+            },
+            {
+                "step": 359,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 360,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "0"
+                }
+            },
+            {
+                "step": 361,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 362,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 363,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "C": "0"
+                }
+            },
+            {
+                "step": 364,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 365,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "-1"
+                }
+            },
+            {
+                "step": 366,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 367,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 368,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=c",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 369,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "MIN": "2147483647"
+                }
+            },
+            {
+                "step": 370,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main:1#isCon:6"
+                }
+            },
+            {
+                "step": 371,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:6",
+                    "F2": "-1"
+                }
+            },
+            {
+                "step": 372,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:6",
+                    "F1": "-1"
+                }
+            },
+            {
+                "step": 373,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 374,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "boolean[]:6"
+                }
+            },
+            {
+                "step": 375,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:6",
+                    "0": "false"
+                }
+            },
+            {
+                "step": 376,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:6",
+                    "1": "false"
+                }
+            },
+            {
+                "step": 377,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:6",
+                    "U": "boolean[]:6"
+                }
+            },
+            {
+                "step": 378,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:6",
+                    "L": "java.util.ArrayList (id=401)"
+                }
+            },
+            {
+                "step": 379,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:6",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 380,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:6",
+                    "NEXT": "java.util.ArrayList (id=402)"
+                }
+            },
+            {
+                "step": 381,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:6",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 382,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:6",
+                    "N": "1"
+                }
+            },
+            {
+                "step": 383,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 384,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:6",
+                    "L": "java.util.ArrayList (id=402)"
+                }
+            },
+            {
+                "step": 385,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:6 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 386,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:6 <name=next",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 387,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 388,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:6",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 389,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#isCon:6",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 390,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "MIN": "0"
+                }
+            },
+            {
+                "step": 391,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=N",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 392,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=M",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 393,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=cost",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 394,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=min",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 395,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "N": "2"
+                }
+            },
+            {
+                "step": 396,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "1"
+                }
+            },
+            {
+                "step": 397,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 398,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 399,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 400,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.util.List[]:4"
+                }
+            },
+            {
+                "step": 401,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.util.List[]:4",
+                    "0": "null"
+                }
+            },
+            {
+                "step": 402,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.util.List[]:4",
+                    "1": "null"
+                }
+            },
+            {
+                "step": 403,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "ADJ": "java.util.List[]:4"
+                }
+            },
+            {
+                "step": 404,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 405,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 406,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 407,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 408,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 409,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 410,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "0"
+                }
+            },
+            {
+                "step": 411,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COST": "java.util.ArrayList (id=404)"
+                }
+            },
+            {
+                "step": 412,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 413,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "0"
+                }
+            },
+            {
+                "step": 414,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "S": "0"
+                }
+            },
+            {
+                "step": 415,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 416,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "C": "-1"
+                }
+            },
+            {
+                "step": 417,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "-1"
+                }
+            },
+            {
+                "step": 418,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 419,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "-1"
+                }
+            },
+            {
+                "step": 420,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=s",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 421,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 422,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=c",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 423,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "MIN": "2147483647"
+                }
+            },
+            {
+                "step": 424,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main:1#isCon:7"
+                }
+            },
+            {
+                "step": 425,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:7",
+                    "F2": "-1"
+                }
+            },
+            {
+                "step": 426,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:7",
+                    "F1": "-1"
+                }
+            },
+            {
+                "step": 427,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 428,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "boolean[]:7"
+                }
+            },
+            {
+                "step": 429,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:7",
+                    "0": "false"
+                }
+            },
+            {
+                "step": 430,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:7",
+                    "1": "false"
+                }
+            },
+            {
+                "step": 431,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:7",
+                    "U": "boolean[]:7"
+                }
+            },
+            {
+                "step": 432,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:7",
+                    "L": "java.util.ArrayList (id=406)"
+                }
+            },
+            {
+                "step": 433,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:7",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 434,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:7",
+                    "NEXT": "java.util.ArrayList (id=407)"
+                }
+            },
+            {
+                "step": 435,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:7",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 436,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:7",
+                    "N": "1"
+                }
+            },
+            {
+                "step": 437,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "adj"
+                }
+            },
+            {
+                "step": 438,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:7",
+                    "L": "java.util.ArrayList (id=407)"
+                }
+            },
+            {
+                "step": 439,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:7 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 440,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#isCon:7 <name=next",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 441,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 442,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#isCon:7",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 443,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#isCon:7",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 444,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "MIN": "0"
+                }
+            },
+            {
+                "step": 445,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=N",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 446,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=M",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 447,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=cost",
+                    "TYPE": "java.util.List (id=109)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 448,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=min",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 449,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 450,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "M": "0"
+                }
+            },
+            {
+                "step": 451,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 452,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "m"
+                }
+            },
+            {
+                "step": 453,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#run:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 454,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 455,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

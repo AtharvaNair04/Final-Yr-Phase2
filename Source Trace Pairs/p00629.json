@@ -1,0 +1,5242 @@
+{
+    "program_id": "p00629",
+    "source": {
+        "program_id": "p00629",
+        "file": "p00629.java",
+        "package": null,
+        "classes": [
+            "Team",
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "sort",
+                "return_type": "Team[]",
+                "parameters": [
+                    "t",
+                    "n"
+                ]
+            },
+            {
+                "name": "select",
+                "return_type": null,
+                "parameters": [
+                    "t",
+                    "n"
+                ]
+            },
+            {
+                "name": "run",
+                "return_type": null,
+                "parameters": []
+            },
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            }
+        ],
+        "constructors": [
+            {
+                "name": "Team",
+                "parameters": [
+                    "nid",
+                    "naf",
+                    "ns",
+                    "np"
+                ]
+            }
+        ],
+        "variables": [
+            "id",
+            "af",
+            "solved",
+            "pena",
+            "max",
+            "i",
+            "j",
+            "temp",
+            "count",
+            "p",
+            "s",
+            "sc",
+            "n",
+            "t"
+        ],
+        "method_calls": [
+            {
+                "name": "fill",
+                "qualifier": "Arrays"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "sort",
+                "qualifier": ""
+            },
+            {
+                "name": "select",
+                "qualifier": ""
+            },
+            {
+                "name": "run",
+                "qualifier": null
+            }
+        ],
+        "control_statements": [
+            "for",
+            "if",
+            "while"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00629",
+        "event_count": 635,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main:1"
+                }
+            },
+            {
+                "step": 6,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main:1#Main:1"
+                }
+            },
+            {
+                "step": 7,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#Main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 8,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main:1#run:1"
+                }
+            },
+            {
+                "step": 9,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "SC": "java.util.Scanner (id=364)"
+                }
+            },
+            {
+                "step": 10,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "6"
+                }
+            },
+            {
+                "step": 11,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team[]:1"
+                }
+            },
+            {
+                "step": 12,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:1",
+                    "0": "null"
+                }
+            },
+            {
+                "step": 13,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:1",
+                    "1": "null"
+                }
+            },
+            {
+                "step": 14,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:1",
+                    "2": "null"
+                }
+            },
+            {
+                "step": 15,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:1",
+                    "3": "null"
+                }
+            },
+            {
+                "step": 16,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:1",
+                    "4": "null"
+                }
+            },
+            {
+                "step": 17,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:1",
+                    "5": "null"
+                }
+            },
+            {
+                "step": 18,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 19,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 20,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team:1"
+                }
+            },
+            {
+                "step": 21,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Team:1#Team:1"
+                }
+            },
+            {
+                "step": 22,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:1#Team:1",
+                    "NP": "200"
+                }
+            },
+            {
+                "step": 23,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:1#Team:1",
+                    "NID": "1"
+                }
+            },
+            {
+                "step": 24,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:1#Team:1",
+                    "NS": "6"
+                }
+            },
+            {
+                "step": 25,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:1#Team:1",
+                    "NAF": "1"
+                }
+            },
+            {
+                "step": 26,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "ID": "1"
+                }
+            },
+            {
+                "step": 27,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "AF": "1"
+                }
+            },
+            {
+                "step": 28,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "SOLVED": "6"
+                }
+            },
+            {
+                "step": 29,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "PENA": "200"
+                }
+            },
+            {
+                "step": 30,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Team:1#Team:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 31,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:1",
+                    "0": "Team:1"
+                }
+            },
+            {
+                "step": 32,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 33,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 34,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team:2"
+                }
+            },
+            {
+                "step": 35,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Team:2#Team:2"
+                }
+            },
+            {
+                "step": 36,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:2#Team:2",
+                    "NP": "300"
+                }
+            },
+            {
+                "step": 37,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:2#Team:2",
+                    "NID": "2"
+                }
+            },
+            {
+                "step": 38,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:2#Team:2",
+                    "NS": "6"
+                }
+            },
+            {
+                "step": 39,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:2#Team:2",
+                    "NAF": "1"
+                }
+            },
+            {
+                "step": 40,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "ID": "2"
+                }
+            },
+            {
+                "step": 41,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "AF": "1"
+                }
+            },
+            {
+                "step": 42,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "SOLVED": "6"
+                }
+            },
+            {
+                "step": 43,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "PENA": "300"
+                }
+            },
+            {
+                "step": 44,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Team:2#Team:2",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 45,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:1",
+                    "1": "Team:2"
+                }
+            },
+            {
+                "step": 46,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 47,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 48,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team:3"
+                }
+            },
+            {
+                "step": 49,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Team:3#Team:3"
+                }
+            },
+            {
+                "step": 50,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:3#Team:3",
+                    "NP": "400"
+                }
+            },
+            {
+                "step": 51,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:3#Team:3",
+                    "NID": "3"
+                }
+            },
+            {
+                "step": 52,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:3#Team:3",
+                    "NS": "6"
+                }
+            },
+            {
+                "step": 53,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:3#Team:3",
+                    "NAF": "1"
+                }
+            },
+            {
+                "step": 54,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "ID": "3"
+                }
+            },
+            {
+                "step": 55,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "AF": "1"
+                }
+            },
+            {
+                "step": 56,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "SOLVED": "6"
+                }
+            },
+            {
+                "step": 57,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "PENA": "400"
+                }
+            },
+            {
+                "step": 58,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Team:3#Team:3",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 59,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:1",
+                    "2": "Team:3"
+                }
+            },
+            {
+                "step": 60,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 61,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 62,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team:4"
+                }
+            },
+            {
+                "step": 63,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Team:4#Team:4"
+                }
+            },
+            {
+                "step": 64,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:4#Team:4",
+                    "NP": "1200"
+                }
+            },
+            {
+                "step": 65,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:4#Team:4",
+                    "NID": "4"
+                }
+            },
+            {
+                "step": 66,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:4#Team:4",
+                    "NS": "5"
+                }
+            },
+            {
+                "step": 67,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:4#Team:4",
+                    "NAF": "2"
+                }
+            },
+            {
+                "step": 68,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "ID": "4"
+                }
+            },
+            {
+                "step": 69,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "AF": "2"
+                }
+            },
+            {
+                "step": 70,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "SOLVED": "5"
+                }
+            },
+            {
+                "step": 71,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "PENA": "1200"
+                }
+            },
+            {
+                "step": 72,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Team:4#Team:4",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 73,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:1",
+                    "3": "Team:4"
+                }
+            },
+            {
+                "step": 74,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 75,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "4"
+                }
+            },
+            {
+                "step": 76,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team:5"
+                }
+            },
+            {
+                "step": 77,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Team:5#Team:5"
+                }
+            },
+            {
+                "step": 78,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:5#Team:5",
+                    "NP": "1400"
+                }
+            },
+            {
+                "step": 79,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:5#Team:5",
+                    "NID": "5"
+                }
+            },
+            {
+                "step": 80,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:5#Team:5",
+                    "NS": "5"
+                }
+            },
+            {
+                "step": 81,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:5#Team:5",
+                    "NAF": "1"
+                }
+            },
+            {
+                "step": 82,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "ID": "5"
+                }
+            },
+            {
+                "step": 83,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "AF": "1"
+                }
+            },
+            {
+                "step": 84,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "SOLVED": "5"
+                }
+            },
+            {
+                "step": 85,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "PENA": "1400"
+                }
+            },
+            {
+                "step": 86,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Team:5#Team:5",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 87,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:1",
+                    "4": "Team:5"
+                }
+            },
+            {
+                "step": 88,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 89,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "5"
+                }
+            },
+            {
+                "step": 90,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team:6"
+                }
+            },
+            {
+                "step": 91,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Team:6#Team:6"
+                }
+            },
+            {
+                "step": 92,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:6#Team:6",
+                    "NP": "800"
+                }
+            },
+            {
+                "step": 93,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:6#Team:6",
+                    "NID": "6"
+                }
+            },
+            {
+                "step": 94,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:6#Team:6",
+                    "NS": "4"
+                }
+            },
+            {
+                "step": 95,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:6#Team:6",
+                    "NAF": "3"
+                }
+            },
+            {
+                "step": 96,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "ID": "6"
+                }
+            },
+            {
+                "step": 97,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "AF": "3"
+                }
+            },
+            {
+                "step": 98,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "SOLVED": "4"
+                }
+            },
+            {
+                "step": 99,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "PENA": "800"
+                }
+            },
+            {
+                "step": 100,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Team:6#Team:6",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 101,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:1",
+                    "5": "Team:6"
+                }
+            },
+            {
+                "step": 102,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 103,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main:1#sort:1"
+                }
+            },
+            {
+                "step": 104,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 105,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "N": "6"
+                }
+            },
+            {
+                "step": 106,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 107,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "MAX": "0"
+                }
+            },
+            {
+                "step": 108,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 109,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 110,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 111,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 112,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 113,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 114,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 115,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 116,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 117,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 118,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 119,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 120,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 121,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 122,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 123,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 124,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 125,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 126,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 127,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 128,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 129,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 130,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 131,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 132,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 133,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 134,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 135,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 136,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 137,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 138,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 139,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 140,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 141,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 142,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "4"
+                }
+            },
+            {
+                "step": 143,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 144,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 145,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 146,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 147,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "5"
+                }
+            },
+            {
+                "step": 148,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 149,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 150,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 151,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 152,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 153,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "TEMP": "Team:1"
+                }
+            },
+            {
+                "step": 154,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 155,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 156,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 157,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:1 <name=temp",
+                    "TYPE": "Team (id=87)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 158,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "MAX": "1"
+                }
+            },
+            {
+                "step": 159,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 160,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 161,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 162,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 163,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 164,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 165,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 166,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 167,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 168,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 169,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 170,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 171,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 172,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 173,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 174,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 175,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 176,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 177,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 178,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 179,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 180,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 181,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 182,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 183,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 184,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "4"
+                }
+            },
+            {
+                "step": 185,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 186,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 187,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 188,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 189,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "5"
+                }
+            },
+            {
+                "step": 190,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 191,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 192,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 193,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 194,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 195,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "TEMP": "Team:2"
+                }
+            },
+            {
+                "step": 196,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 197,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 198,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 199,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:1 <name=temp",
+                    "TYPE": "Team (id=87)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 200,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "MAX": "2"
+                }
+            },
+            {
+                "step": 201,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 202,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 203,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 204,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 205,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 206,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 207,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 208,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 209,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 210,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 211,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 212,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 213,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 214,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 215,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 216,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 217,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "4"
+                }
+            },
+            {
+                "step": 218,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 219,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 220,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 221,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 222,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "5"
+                }
+            },
+            {
+                "step": 223,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 224,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 225,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 226,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 227,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 228,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "TEMP": "Team:3"
+                }
+            },
+            {
+                "step": 229,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 230,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 231,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 232,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:1 <name=temp",
+                    "TYPE": "Team (id=87)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 233,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "MAX": "3"
+                }
+            },
+            {
+                "step": 234,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 235,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 236,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 237,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 238,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 239,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 240,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 241,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 242,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 243,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 244,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 245,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "4"
+                }
+            },
+            {
+                "step": 246,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 247,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 248,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 249,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 250,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 251,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 252,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 253,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 254,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "5"
+                }
+            },
+            {
+                "step": 255,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 256,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 257,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 258,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 259,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 260,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "TEMP": "Team:4"
+                }
+            },
+            {
+                "step": 261,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 262,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 263,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "I": "4"
+                }
+            },
+            {
+                "step": 264,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:1 <name=temp",
+                    "TYPE": "Team (id=87)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 265,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "MAX": "4"
+                }
+            },
+            {
+                "step": 266,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "4"
+                }
+            },
+            {
+                "step": 267,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 268,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 269,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 270,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 271,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 272,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 273,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 274,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 275,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 276,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 277,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "5"
+                }
+            },
+            {
+                "step": 278,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 279,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 280,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 281,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 282,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 283,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "TEMP": "Team:5"
+                }
+            },
+            {
+                "step": 284,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 285,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 286,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "I": "5"
+                }
+            },
+            {
+                "step": 287,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:1 <name=temp",
+                    "TYPE": "Team (id=87)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 288,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "MAX": "5"
+                }
+            },
+            {
+                "step": 289,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "J": "5"
+                }
+            },
+            {
+                "step": 290,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 291,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 292,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 293,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 294,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 295,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 296,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 297,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 298,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 299,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 300,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 301,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "TEMP": "Team:6"
+                }
+            },
+            {
+                "step": 302,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 303,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 304,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:1 <name=temp",
+                    "TYPE": "Team (id=87)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 305,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:1",
+                    "RESULT": "Team[]:1"
+                }
+            },
+            {
+                "step": 306,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#sort:1",
+                    "VALUE": "Team[]:1"
+                }
+            },
+            {
+                "step": 307,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 308,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main:1#select:1"
+                }
+            },
+            {
+                "step": 309,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "T": "Team[]:1"
+                }
+            },
+            {
+                "step": 310,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "N": "6"
+                }
+            },
+            {
+                "step": 311,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 312,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "P": "int[1001] (id=376)"
+                }
+            },
+            {
+                "step": 313,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "S": "Team[26] (id=377)"
+                }
+            },
+            {
+                "step": 314,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 315,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 316,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "S": "Team[26] (id=377)"
+                }
+            },
+            {
+                "step": 317,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 318,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 319,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "P": "int[1001] (id=376)"
+                }
+            },
+            {
+                "step": 320,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 321,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 322,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "S": "Team[26] (id=377)"
+                }
+            },
+            {
+                "step": 323,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "COUNT": "2"
+                }
+            },
+            {
+                "step": 324,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 325,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "P": "int[1001] (id=376)"
+                }
+            },
+            {
+                "step": 326,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 327,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 328,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "S": "Team[26] (id=377)"
+                }
+            },
+            {
+                "step": 329,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "COUNT": "3"
+                }
+            },
+            {
+                "step": 330,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 331,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "P": "int[1001] (id=376)"
+                }
+            },
+            {
+                "step": 332,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 333,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 334,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "S": "Team[26] (id=377)"
+                }
+            },
+            {
+                "step": 335,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "COUNT": "4"
+                }
+            },
+            {
+                "step": 336,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 337,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "P": "int[1001] (id=376)"
+                }
+            },
+            {
+                "step": 338,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "I": "4"
+                }
+            },
+            {
+                "step": 339,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:5",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 340,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "I": "5"
+                }
+            },
+            {
+                "step": 341,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 342,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "S": "Team[26] (id=377)"
+                }
+            },
+            {
+                "step": 343,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "COUNT": "5"
+                }
+            },
+            {
+                "step": 344,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 345,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "P": "int[1001] (id=376)"
+                }
+            },
+            {
+                "step": 346,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#select:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 347,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 348,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:1",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 349,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 350,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:2",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 351,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 352,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:3",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 353,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 354,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:4",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 355,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:1",
+                    "I": "4"
+                }
+            },
+            {
+                "step": 356,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:6",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 357,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#select:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 358,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "3"
+                }
+            },
+            {
+                "step": 359,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "Team[] (id=99)",
+                    "VALUE": "Team[]:3",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 360,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team[]:2"
+                }
+            },
+            {
+                "step": 361,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:2",
+                    "0": "null"
+                }
+            },
+            {
+                "step": 362,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:2",
+                    "1": "null"
+                }
+            },
+            {
+                "step": 363,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:2",
+                    "2": "null"
+                }
+            },
+            {
+                "step": 364,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:2"
+                }
+            },
+            {
+                "step": 365,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "1",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 366,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 367,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team:7"
+                }
+            },
+            {
+                "step": 368,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Team:7#Team:7"
+                }
+            },
+            {
+                "step": 369,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:7#Team:7",
+                    "NP": "300"
+                }
+            },
+            {
+                "step": 370,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:7#Team:7",
+                    "NID": "777"
+                }
+            },
+            {
+                "step": 371,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:7#Team:7",
+                    "NS": "5"
+                }
+            },
+            {
+                "step": 372,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:7#Team:7",
+                    "NAF": "1"
+                }
+            },
+            {
+                "step": 373,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "ID": "777"
+                }
+            },
+            {
+                "step": 374,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "AF": "1"
+                }
+            },
+            {
+                "step": 375,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "SOLVED": "5"
+                }
+            },
+            {
+                "step": 376,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "PENA": "300"
+                }
+            },
+            {
+                "step": 377,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Team:7#Team:7",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 378,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:2",
+                    "0": "Team:7"
+                }
+            },
+            {
+                "step": 379,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:2"
+                }
+            },
+            {
+                "step": 380,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 381,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team:8"
+                }
+            },
+            {
+                "step": 382,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Team:8#Team:8"
+                }
+            },
+            {
+                "step": 383,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:8#Team:8",
+                    "NP": "20"
+                }
+            },
+            {
+                "step": 384,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:8#Team:8",
+                    "NID": "808"
+                }
+            },
+            {
+                "step": 385,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:8#Team:8",
+                    "NS": "4"
+                }
+            },
+            {
+                "step": 386,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:8#Team:8",
+                    "NAF": "2"
+                }
+            },
+            {
+                "step": 387,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "ID": "808"
+                }
+            },
+            {
+                "step": 388,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "AF": "2"
+                }
+            },
+            {
+                "step": 389,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "SOLVED": "4"
+                }
+            },
+            {
+                "step": 390,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "PENA": "20"
+                }
+            },
+            {
+                "step": 391,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Team:8#Team:8",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 392,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:2",
+                    "1": "Team:8"
+                }
+            },
+            {
+                "step": 393,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:2"
+                }
+            },
+            {
+                "step": 394,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 395,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team:9"
+                }
+            },
+            {
+                "step": 396,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Team:9#Team:9"
+                }
+            },
+            {
+                "step": 397,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:9#Team:9",
+                    "NP": "500"
+                }
+            },
+            {
+                "step": 398,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:9#Team:9",
+                    "NID": "123"
+                }
+            },
+            {
+                "step": 399,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:9#Team:9",
+                    "NS": "6"
+                }
+            },
+            {
+                "step": 400,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:9#Team:9",
+                    "NAF": "3"
+                }
+            },
+            {
+                "step": 401,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:9",
+                    "ID": "123"
+                }
+            },
+            {
+                "step": 402,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:9",
+                    "AF": "3"
+                }
+            },
+            {
+                "step": 403,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:9",
+                    "SOLVED": "6"
+                }
+            },
+            {
+                "step": 404,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:9",
+                    "PENA": "500"
+                }
+            },
+            {
+                "step": 405,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Team:9#Team:9",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 406,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:2",
+                    "2": "Team:9"
+                }
+            },
+            {
+                "step": 407,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:2"
+                }
+            },
+            {
+                "step": 408,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main:1#sort:2"
+                }
+            },
+            {
+                "step": 409,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "T": "Team[]:2"
+                }
+            },
+            {
+                "step": 410,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "N": "3"
+                }
+            },
+            {
+                "step": 411,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 412,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "MAX": "0"
+                }
+            },
+            {
+                "step": 413,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 414,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 415,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 416,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 417,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 418,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 419,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 420,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 421,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 422,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 423,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 424,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 425,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 426,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 427,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 428,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 429,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 430,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 431,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:9",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 432,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "MAX": "2"
+                }
+            },
+            {
+                "step": 433,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:2 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 434,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "TEMP": "Team:7"
+                }
+            },
+            {
+                "step": 435,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:2",
+                    "0": "Team:9"
+                }
+            },
+            {
+                "step": 436,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "T": "Team[]:2"
+                }
+            },
+            {
+                "step": 437,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:2",
+                    "2": "Team:7"
+                }
+            },
+            {
+                "step": 438,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "T": "Team[]:2"
+                }
+            },
+            {
+                "step": 439,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 440,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:2 <name=temp",
+                    "TYPE": "Team (id=87)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 441,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "MAX": "1"
+                }
+            },
+            {
+                "step": 442,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 443,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 444,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 445,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 446,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 447,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 448,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 449,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 450,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 451,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 452,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 453,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 454,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 455,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 456,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "MAX": "2"
+                }
+            },
+            {
+                "step": 457,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:2 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 458,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "TEMP": "Team:8"
+                }
+            },
+            {
+                "step": 459,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:2",
+                    "1": "Team:7"
+                }
+            },
+            {
+                "step": 460,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "T": "Team[]:2"
+                }
+            },
+            {
+                "step": 461,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:2",
+                    "2": "Team:8"
+                }
+            },
+            {
+                "step": 462,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "T": "Team[]:2"
+                }
+            },
+            {
+                "step": 463,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 464,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:2 <name=temp",
+                    "TYPE": "Team (id=87)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 465,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "MAX": "2"
+                }
+            },
+            {
+                "step": 466,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 467,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 468,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 469,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 470,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 471,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 472,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 473,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 474,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 475,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 476,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 477,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:2 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 478,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "TEMP": "Team:8"
+                }
+            },
+            {
+                "step": 479,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "T": "Team[]:2"
+                }
+            },
+            {
+                "step": 480,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "T": "Team[]:2"
+                }
+            },
+            {
+                "step": 481,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:2 <name=temp",
+                    "TYPE": "Team (id=87)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 482,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:2",
+                    "RESULT": "Team[]:2"
+                }
+            },
+            {
+                "step": 483,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#sort:2",
+                    "VALUE": "Team[]:2"
+                }
+            },
+            {
+                "step": 484,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:2"
+                }
+            },
+            {
+                "step": 485,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main:1#select:2"
+                }
+            },
+            {
+                "step": 486,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "T": "Team[]:2"
+                }
+            },
+            {
+                "step": 487,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "N": "3"
+                }
+            },
+            {
+                "step": 488,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 489,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "P": "int[1001] (id=382)"
+                }
+            },
+            {
+                "step": 490,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "S": "Team[26] (id=383)"
+                }
+            },
+            {
+                "step": 491,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 492,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:9",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 493,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "S": "Team[26] (id=383)"
+                }
+            },
+            {
+                "step": 494,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 495,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:9",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 496,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "P": "int[1001] (id=382)"
+                }
+            },
+            {
+                "step": 497,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 498,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 499,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "S": "Team[26] (id=383)"
+                }
+            },
+            {
+                "step": 500,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "COUNT": "2"
+                }
+            },
+            {
+                "step": 501,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 502,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "P": "int[1001] (id=382)"
+                }
+            },
+            {
+                "step": 503,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 504,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 505,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "S": "Team[26] (id=383)"
+                }
+            },
+            {
+                "step": 506,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "COUNT": "3"
+                }
+            },
+            {
+                "step": 507,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 508,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "P": "int[1001] (id=382)"
+                }
+            },
+            {
+                "step": 509,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#select:2 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 510,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 511,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:9",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 512,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 513,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:7",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 514,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:2",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 515,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:8",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 516,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#select:2",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 517,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "2"
+                }
+            },
+            {
+                "step": 518,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "Team[] (id=99)",
+                    "VALUE": "Team[]:3",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 519,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team[]:3"
+                }
+            },
+            {
+                "step": 520,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:3",
+                    "0": "null"
+                }
+            },
+            {
+                "step": 521,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:3",
+                    "1": "null"
+                }
+            },
+            {
+                "step": 522,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:3"
+                }
+            },
+            {
+                "step": 523,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "1",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 524,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 525,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team:10"
+                }
+            },
+            {
+                "step": 526,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Team:10#Team:10"
+                }
+            },
+            {
+                "step": 527,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:10#Team:10",
+                    "NP": "100"
+                }
+            },
+            {
+                "step": 528,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:10#Team:10",
+                    "NID": "2"
+                }
+            },
+            {
+                "step": 529,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:10#Team:10",
+                    "NS": "3"
+                }
+            },
+            {
+                "step": 530,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:10#Team:10",
+                    "NAF": "1"
+                }
+            },
+            {
+                "step": 531,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "ID": "2"
+                }
+            },
+            {
+                "step": 532,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "AF": "1"
+                }
+            },
+            {
+                "step": 533,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "SOLVED": "3"
+                }
+            },
+            {
+                "step": 534,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "PENA": "100"
+                }
+            },
+            {
+                "step": 535,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Team:10#Team:10",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 536,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:3",
+                    "0": "Team:10"
+                }
+            },
+            {
+                "step": 537,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:3"
+                }
+            },
+            {
+                "step": 538,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 539,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Team:11"
+                }
+            },
+            {
+                "step": 540,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Team:11#Team:11"
+                }
+            },
+            {
+                "step": 541,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:11#Team:11",
+                    "NP": "100"
+                }
+            },
+            {
+                "step": 542,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:11#Team:11",
+                    "NID": "1"
+                }
+            },
+            {
+                "step": 543,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:11#Team:11",
+                    "NS": "3"
+                }
+            },
+            {
+                "step": 544,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Team:11#Team:11",
+                    "NAF": "1"
+                }
+            },
+            {
+                "step": 545,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:11",
+                    "ID": "1"
+                }
+            },
+            {
+                "step": 546,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:11",
+                    "AF": "1"
+                }
+            },
+            {
+                "step": 547,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:11",
+                    "SOLVED": "3"
+                }
+            },
+            {
+                "step": 548,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team:11",
+                    "PENA": "100"
+                }
+            },
+            {
+                "step": 549,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Team:11#Team:11",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 550,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:3",
+                    "1": "Team:11"
+                }
+            },
+            {
+                "step": 551,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:3"
+                }
+            },
+            {
+                "step": 552,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main:1#sort:3"
+                }
+            },
+            {
+                "step": 553,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "T": "Team[]:3"
+                }
+            },
+            {
+                "step": 554,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "N": "2"
+                }
+            },
+            {
+                "step": 555,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 556,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "MAX": "0"
+                }
+            },
+            {
+                "step": 557,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 558,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 559,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 560,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 561,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 562,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 563,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 564,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 565,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 566,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 567,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 568,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 569,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 570,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:11",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 571,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 572,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:11",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 573,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:11",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 574,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 575,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:11",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 576,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 577,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:11",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 578,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 579,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "MAX": "1"
+                }
+            },
+            {
+                "step": 580,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:3 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 581,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "TEMP": "Team:10"
+                }
+            },
+            {
+                "step": 582,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:3",
+                    "0": "Team:11"
+                }
+            },
+            {
+                "step": 583,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "T": "Team[]:3"
+                }
+            },
+            {
+                "step": 584,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Team[]:3",
+                    "1": "Team:10"
+                }
+            },
+            {
+                "step": 585,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "T": "Team[]:3"
+                }
+            },
+            {
+                "step": 586,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 587,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:3 <name=temp",
+                    "TYPE": "Team (id=87)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 588,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "MAX": "1"
+                }
+            },
+            {
+                "step": 589,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 590,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 591,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 592,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 593,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "solved"
+                }
+            },
+            {
+                "step": 594,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 595,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 596,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 597,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "pena"
+                }
+            },
+            {
+                "step": 598,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 599,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 600,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:3 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 601,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "TEMP": "Team:10"
+                }
+            },
+            {
+                "step": 602,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "T": "Team[]:3"
+                }
+            },
+            {
+                "step": 603,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "T": "Team[]:3"
+                }
+            },
+            {
+                "step": 604,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#sort:3 <name=temp",
+                    "TYPE": "Team (id=87)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 605,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#sort:3",
+                    "RESULT": "Team[]:3"
+                }
+            },
+            {
+                "step": 606,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#sort:3",
+                    "VALUE": "Team[]:3"
+                }
+            },
+            {
+                "step": 607,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "Team[]:3"
+                }
+            },
+            {
+                "step": 608,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main:1#select:3"
+                }
+            },
+            {
+                "step": 609,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "T": "Team[]:3"
+                }
+            },
+            {
+                "step": 610,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "N": "2"
+                }
+            },
+            {
+                "step": 611,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 612,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "P": "int[1001] (id=387)"
+                }
+            },
+            {
+                "step": 613,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "S": "Team[26] (id=388)"
+                }
+            },
+            {
+                "step": 614,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 615,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:11",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 616,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "S": "Team[26] (id=388)"
+                }
+            },
+            {
+                "step": 617,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 618,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:11",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 619,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "P": "int[1001] (id=387)"
+                }
+            },
+            {
+                "step": 620,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 621,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 622,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "S": "Team[26] (id=388)"
+                }
+            },
+            {
+                "step": 623,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "COUNT": "2"
+                }
+            },
+            {
+                "step": 624,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "af"
+                }
+            },
+            {
+                "step": 625,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "P": "int[1001] (id=387)"
+                }
+            },
+            {
+                "step": 626,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#select:3 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 627,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 628,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:11",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 629,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#select:3",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 630,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Team:10",
+                    "VALUE_2": "id"
+                }
+            },
+            {
+                "step": 631,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#select:3",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 632,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 633,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#run:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 634,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 635,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

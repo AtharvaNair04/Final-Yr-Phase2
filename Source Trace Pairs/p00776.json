@@ -1,0 +1,329 @@
+{
+    "program_id": "p00776",
+    "source": {
+        "program_id": "p00776",
+        "file": "p00776.java",
+        "package": null,
+        "classes": [
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            },
+            {
+                "name": "start",
+                "return_type": null,
+                "parameters": []
+            },
+            {
+                "name": "tansaku",
+                "return_type": null,
+                "parameters": [
+                    "s",
+                    "result",
+                    "i"
+                ]
+            },
+            {
+                "name": "print",
+                "return_type": null,
+                "parameters": []
+            },
+            {
+                "name": "trim",
+                "return_type": "String",
+                "parameters": [
+                    "s"
+                ]
+            },
+            {
+                "name": "getCount",
+                "return_type": "int",
+                "parameters": [
+                    "a"
+                ]
+            },
+            {
+                "name": "kaijou",
+                "return_type": "int",
+                "parameters": [
+                    "a"
+                ]
+            }
+        ],
+        "constructors": [],
+        "variables": [
+            "b",
+            "sq",
+            "eq",
+            "in",
+            "s",
+            "count",
+            "flag",
+            "c",
+            "aa",
+            "i"
+        ],
+        "method_calls": [
+            {
+                "name": "start",
+                "qualifier": null
+            },
+            {
+                "name": "next",
+                "qualifier": "in"
+            },
+            {
+                "name": "charAt",
+                "qualifier": "s"
+            },
+            {
+                "name": "tansaku",
+                "qualifier": ""
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "print",
+                "qualifier": ""
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "close",
+                "qualifier": "in"
+            },
+            {
+                "name": "length",
+                "qualifier": "s"
+            },
+            {
+                "name": "size",
+                "qualifier": "sq"
+            },
+            {
+                "name": "size",
+                "qualifier": "eq"
+            },
+            {
+                "name": "poll",
+                "qualifier": "eq"
+            },
+            {
+                "name": "offer",
+                "qualifier": "eq"
+            },
+            {
+                "name": "offer",
+                "qualifier": "eq"
+            },
+            {
+                "name": "offer",
+                "qualifier": "sq"
+            },
+            {
+                "name": "charAt",
+                "qualifier": "s"
+            },
+            {
+                "name": "tansaku",
+                "qualifier": ""
+            },
+            {
+                "name": "trim",
+                "qualifier": ""
+            },
+            {
+                "name": "tansaku",
+                "qualifier": ""
+            },
+            {
+                "name": "trim",
+                "qualifier": ""
+            },
+            {
+                "name": "tansaku",
+                "qualifier": ""
+            },
+            {
+                "name": "tansaku",
+                "qualifier": ""
+            },
+            {
+                "name": "tansaku",
+                "qualifier": ""
+            },
+            {
+                "name": "trim",
+                "qualifier": ""
+            },
+            {
+                "name": "tansaku",
+                "qualifier": ""
+            },
+            {
+                "name": "trim",
+                "qualifier": ""
+            },
+            {
+                "name": "isEmpty",
+                "qualifier": "sq"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "poll",
+                "qualifier": "sq"
+            },
+            {
+                "name": "isEmpty",
+                "qualifier": "eq"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "poll",
+                "qualifier": "eq"
+            },
+            {
+                "name": "substring",
+                "qualifier": "s"
+            },
+            {
+                "name": "length",
+                "qualifier": "s"
+            },
+            {
+                "name": "kaijou",
+                "qualifier": ""
+            }
+        ],
+        "control_statements": [
+            "while",
+            "if",
+            "for"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00776",
+        "event_count": 13,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main:1"
+                }
+            },
+            {
+                "step": 6,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main:1#Main:1"
+                }
+            },
+            {
+                "step": 7,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "SQ": "java.util.LinkedList (id=343)"
+                }
+            },
+            {
+                "step": 8,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "EQ": "java.util.LinkedList (id=346)"
+                }
+            },
+            {
+                "step": 9,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 10,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "FLAG": "false"
+                }
+            },
+            {
+                "step": 11,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#Main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 12,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main:1#start:1"
+                }
+            },
+            {
+                "step": 13,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#start:1",
+                    "IN": "java.util.Scanner (id=368)"
+                }
+            }
+        ]
+    }
+}
