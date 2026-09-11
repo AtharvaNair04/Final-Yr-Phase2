@@ -1,0 +1,351 @@
+{
+    "program_id": "p00909",
+    "file": "p00909.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "WeightedUnionFind"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "find",
+            "return_type": "int",
+            "parameters": [
+                "x"
+            ]
+        },
+        {
+            "name": "same",
+            "return_type": "boolean",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "weight",
+            "return_type": "long",
+            "parameters": [
+                "x"
+            ]
+        },
+        {
+            "name": "union",
+            "return_type": "boolean",
+            "parameters": [
+                "x",
+                "y",
+                "w"
+            ]
+        },
+        {
+            "name": "diff",
+            "return_type": "long",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "solver",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "nl",
+            "return_type": "long",
+            "parameters": []
+        },
+        {
+            "name": "nc",
+            "return_type": "char",
+            "parameters": []
+        },
+        {
+            "name": "nd",
+            "return_type": "double",
+            "parameters": []
+        },
+        {
+            "name": "ns",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "ns",
+            "return_type": "char[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nse",
+            "return_type": "byte[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "skip",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "eof",
+            "return_type": "boolean",
+            "parameters": []
+        },
+        {
+            "name": "ni",
+            "return_type": "int",
+            "parameters": []
+        }
+    ],
+    "constructors": [
+        {
+            "name": "WeightedUnionFind",
+            "parameters": [
+                "n"
+            ]
+        }
+    ],
+    "variables": [
+        "is",
+        "out",
+        "INPUT",
+        "par",
+        "wd",
+        "parent",
+        "tmp",
+        "N",
+        "M",
+        "uf",
+        "i",
+        "s",
+        "x",
+        "y",
+        "w",
+        "num",
+        "minus",
+        "b",
+        "sb",
+        "buf",
+        "p"
+    ],
+    "method_calls": [
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "find",
+            "qualifier": ""
+        },
+        {
+            "name": "find",
+            "qualifier": ""
+        },
+        {
+            "name": "find",
+            "qualifier": ""
+        },
+        {
+            "name": "find",
+            "qualifier": ""
+        },
+        {
+            "name": "weight",
+            "qualifier": ""
+        },
+        {
+            "name": "weight",
+            "qualifier": ""
+        },
+        {
+            "name": "find",
+            "qualifier": ""
+        },
+        {
+            "name": "find",
+            "qualifier": ""
+        },
+        {
+            "name": "same",
+            "qualifier": ""
+        },
+        {
+            "name": "weight",
+            "qualifier": null
+        },
+        {
+            "name": "weight",
+            "qualifier": null
+        },
+        {
+            "name": "ni",
+            "qualifier": ""
+        },
+        {
+            "name": "ni",
+            "qualifier": ""
+        },
+        {
+            "name": "ns",
+            "qualifier": ""
+        },
+        {
+            "name": "ni",
+            "qualifier": ""
+        },
+        {
+            "name": "ni",
+            "qualifier": ""
+        },
+        {
+            "name": "equals",
+            "qualifier": "s"
+        },
+        {
+            "name": "nl",
+            "qualifier": ""
+        },
+        {
+            "name": "union",
+            "qualifier": "uf"
+        },
+        {
+            "name": "same",
+            "qualifier": "uf"
+        },
+        {
+            "name": "println",
+            "qualifier": "out"
+        },
+        {
+            "name": "println",
+            "qualifier": "out"
+        },
+        {
+            "name": "diff",
+            "qualifier": "uf"
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "INPUT"
+        },
+        {
+            "name": "getBytes",
+            "qualifier": "INPUT"
+        },
+        {
+            "name": "solver",
+            "qualifier": null
+        },
+        {
+            "name": "flush",
+            "qualifier": "out"
+        },
+        {
+            "name": "read",
+            "qualifier": "is"
+        },
+        {
+            "name": "read",
+            "qualifier": "is"
+        },
+        {
+            "name": "skip",
+            "qualifier": ""
+        },
+        {
+            "name": "parseDouble",
+            "qualifier": "Double"
+        },
+        {
+            "name": "ns",
+            "qualifier": ""
+        },
+        {
+            "name": "skip",
+            "qualifier": ""
+        },
+        {
+            "name": "append",
+            "qualifier": "sb"
+        },
+        {
+            "name": "read",
+            "qualifier": "is"
+        },
+        {
+            "name": "toString",
+            "qualifier": "sb"
+        },
+        {
+            "name": "toString",
+            "qualifier": "sb"
+        },
+        {
+            "name": "append",
+            "qualifier": "sb"
+        },
+        {
+            "name": "skip",
+            "qualifier": ""
+        },
+        {
+            "name": "read",
+            "qualifier": "is"
+        },
+        {
+            "name": "copyOf",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "skip",
+            "qualifier": ""
+        },
+        {
+            "name": "read",
+            "qualifier": "is"
+        },
+        {
+            "name": "read",
+            "qualifier": "is"
+        },
+        {
+            "name": "mark",
+            "qualifier": "is"
+        },
+        {
+            "name": "skip",
+            "qualifier": ""
+        },
+        {
+            "name": "reset",
+            "qualifier": "is"
+        },
+        {
+            "name": "read",
+            "qualifier": "is"
+        },
+        {
+            "name": "read",
+            "qualifier": "is"
+        }
+    ],
+    "control_statements": [
+        "if",
+        "while",
+        "for",
+        "try"
+    ]
+}

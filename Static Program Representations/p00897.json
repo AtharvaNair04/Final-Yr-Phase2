@@ -1,0 +1,446 @@
+{
+    "program_id": "p00897",
+    "file": "p00897.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "Graph",
+        "Edge",
+        "Node"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "addBidirectionalEdge",
+            "return_type": null,
+            "parameters": [
+                "from",
+                "to",
+                "cost"
+            ]
+        },
+        {
+            "name": "addEdge",
+            "return_type": null,
+            "parameters": [
+                "from",
+                "to",
+                "cost"
+            ]
+        },
+        {
+            "name": "minDistDijkstra",
+            "return_type": "int[]",
+            "parameters": [
+                "s"
+            ]
+        },
+        {
+            "name": "minDistQueue",
+            "return_type": "int[]",
+            "parameters": [
+                "s"
+            ]
+        },
+        {
+            "name": "topologicalSort",
+            "return_type": "ArrayList",
+            "parameters": []
+        },
+        {
+            "name": "visitTS",
+            "return_type": "boolean",
+            "parameters": [
+                "order",
+                "col",
+                "v"
+            ]
+        },
+        {
+            "name": "longestPathInDAG",
+            "return_type": "ArrayList",
+            "parameters": [
+                "s",
+                "g"
+            ]
+        },
+        {
+            "name": "longestPathLengthInDAG",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "stronglyConnectedComponents",
+            "return_type": "ArrayList",
+            "parameters": []
+        },
+        {
+            "name": "visitSCC",
+            "return_type": null,
+            "parameters": [
+                "v",
+                "scc",
+                "s",
+                "inS",
+                "low",
+                "num",
+                "time"
+            ]
+        },
+        {
+            "name": "noSCCGraph",
+            "return_type": "Graph",
+            "parameters": [
+                "map"
+            ]
+        },
+        {
+            "name": "compareTo",
+            "return_type": "int",
+            "parameters": [
+                "o"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "Graph",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "Edge",
+            "parameters": [
+                "to",
+                "cost"
+            ]
+        },
+        {
+            "name": "Node",
+            "parameters": [
+                "dist",
+                "i"
+            ]
+        }
+    ],
+    "variables": [
+        "sc",
+        "n",
+        "m",
+        "cap",
+        "src",
+        "dest",
+        "hm",
+        "a",
+        "d",
+        "i",
+        "j",
+        "ss",
+        "gg",
+        "v",
+        "g1",
+        "g2",
+        "s",
+        "dist",
+        "ans",
+        "INF",
+        "graph",
+        "q",
+        "node",
+        "e",
+        "u",
+        "order",
+        "col",
+        "bef",
+        "path",
+        "now",
+        "max",
+        "scc",
+        "num",
+        "low",
+        "inS",
+        "time",
+        "w",
+        "scc1",
+        "l",
+        "h",
+        "to",
+        "cost",
+        "id"
+    ],
+    "method_calls": [
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "containsKey",
+            "qualifier": "hm"
+        },
+        {
+            "name": "put",
+            "qualifier": "hm"
+        },
+        {
+            "name": "size",
+            "qualifier": "hm"
+        },
+        {
+            "name": "get",
+            "qualifier": "hm"
+        },
+        {
+            "name": "get",
+            "qualifier": "hm"
+        },
+        {
+            "name": "size",
+            "qualifier": "hm"
+        },
+        {
+            "name": "addBidirectionalEdge",
+            "qualifier": "g1"
+        },
+        {
+            "name": "get",
+            "qualifier": "hm"
+        },
+        {
+            "name": "get",
+            "qualifier": "hm"
+        },
+        {
+            "name": "get",
+            "qualifier": "hm"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "minDistDijkstra",
+            "qualifier": "g1"
+        },
+        {
+            "name": "addBidirectionalEdge",
+            "qualifier": "g2"
+        },
+        {
+            "name": "minDistDijkstra",
+            "qualifier": "g2"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "gc",
+            "qualifier": "System"
+        },
+        {
+            "name": "addEdge",
+            "qualifier": ""
+        },
+        {
+            "name": "addEdge",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "offer",
+            "qualifier": "q"
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "q"
+        },
+        {
+            "name": "poll",
+            "qualifier": "q"
+        },
+        {
+            "name": "add",
+            "qualifier": "q"
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "add",
+            "qualifier": "q"
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "q"
+        },
+        {
+            "name": "pollFirst",
+            "qualifier": "q"
+        },
+        {
+            "name": "addFirst",
+            "qualifier": "q"
+        },
+        {
+            "name": "addLast",
+            "qualifier": "q"
+        },
+        {
+            "name": "visitTS",
+            "qualifier": ""
+        },
+        {
+            "name": "reverse",
+            "qualifier": "Collections"
+        },
+        {
+            "name": "visitTS",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "order"
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "topologicalSort",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "order"
+        },
+        {
+            "name": "add",
+            "qualifier": "path"
+        },
+        {
+            "name": "add",
+            "qualifier": "path"
+        },
+        {
+            "name": "reverse",
+            "qualifier": "Collections"
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "topologicalSort",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "order"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "visitSCC",
+            "qualifier": ""
+        },
+        {
+            "name": "push",
+            "qualifier": "s"
+        },
+        {
+            "name": "visitSCC",
+            "qualifier": ""
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "poll",
+            "qualifier": "s"
+        },
+        {
+            "name": "add",
+            "qualifier": "scc1"
+        },
+        {
+            "name": "add",
+            "qualifier": "scc"
+        },
+        {
+            "name": "stronglyConnectedComponents",
+            "qualifier": ""
+        },
+        {
+            "name": "size",
+            "qualifier": "scc"
+        },
+        {
+            "name": "get",
+            "qualifier": "scc"
+        },
+        {
+            "name": "addEdge",
+            "qualifier": "h"
+        }
+    ],
+    "control_statements": [
+        "while",
+        "if",
+        "for"
+    ]
+}

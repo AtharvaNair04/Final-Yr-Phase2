@@ -1,0 +1,330 @@
+{
+    "program_id": "p00541",
+    "file": "p00541.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "DistancePos",
+        "DistanceCompare",
+        "BIT"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "countMatch2",
+            "return_type": "long",
+            "parameters": [
+                "e"
+            ]
+        },
+        {
+            "name": "countMatch",
+            "return_type": "long",
+            "parameters": [
+                "e"
+            ]
+        },
+        {
+            "name": "xx",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "getDistance",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "getPos",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "isLeft",
+            "return_type": "boolean",
+            "parameters": []
+        },
+        {
+            "name": "compare",
+            "return_type": "int",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "add",
+            "return_type": null,
+            "parameters": [
+                "pos",
+                "val"
+            ]
+        },
+        {
+            "name": "sum",
+            "return_type": "int",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "range",
+            "return_type": "int",
+            "parameters": [
+                "fromPos",
+                "toPos"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "DistancePos",
+            "parameters": [
+                "_distance",
+                "_pos",
+                "_left"
+            ]
+        },
+        {
+            "name": "BIT",
+            "parameters": [
+                "e"
+            ]
+        }
+    ],
+    "variables": [
+        "H",
+        "W",
+        "L",
+        "P",
+        "leftupper",
+        "rightlower",
+        "fnr",
+        "fnl",
+        "threadMXBean",
+        "startCpuTime",
+        "scan",
+        "x",
+        "y",
+        "i",
+        "free",
+        "st1CpuTime",
+        "result",
+        "result2",
+        "e",
+        "stopCpuTime",
+        "f",
+        "d",
+        "j",
+        "order",
+        "bitLeft",
+        "bitRight",
+        "distance",
+        "pos",
+        "left",
+        "ai",
+        "bi",
+        "bit"
+    ],
+    "method_calls": [
+        {
+            "name": "getThreadMXBean",
+            "qualifier": "ManagementFactory"
+        },
+        {
+            "name": "getCurrentThreadCpuTime",
+            "qualifier": "threadMXBean"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "scan"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "scan"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "scan"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "scan"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "scan"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "scan"
+        },
+        {
+            "name": "getCurrentThreadCpuTime",
+            "qualifier": "threadMXBean"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "countMatch",
+            "qualifier": ""
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "countMatch",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "getCurrentThreadCpuTime",
+            "qualifier": "threadMXBean"
+        },
+        {
+            "name": "exit",
+            "qualifier": "System"
+        },
+        {
+            "name": "add",
+            "qualifier": "order"
+        },
+        {
+            "name": "add",
+            "qualifier": "order"
+        },
+        {
+            "name": "sort",
+            "qualifier": "order"
+        },
+        {
+            "name": "get",
+            "qualifier": "order"
+        },
+        {
+            "name": "isLeft",
+            "qualifier": null
+        },
+        {
+            "name": "range",
+            "qualifier": "bitRight"
+        },
+        {
+            "name": "get",
+            "qualifier": "order"
+        },
+        {
+            "name": "getPos",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "order"
+        },
+        {
+            "name": "getPos",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "order"
+        },
+        {
+            "name": "getDistance",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": "bitLeft"
+        },
+        {
+            "name": "get",
+            "qualifier": "order"
+        },
+        {
+            "name": "getPos",
+            "qualifier": null
+        },
+        {
+            "name": "range",
+            "qualifier": "bitLeft"
+        },
+        {
+            "name": "get",
+            "qualifier": "order"
+        },
+        {
+            "name": "getPos",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "order"
+        },
+        {
+            "name": "getDistance",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "order"
+        },
+        {
+            "name": "getPos",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": "bitRight"
+        },
+        {
+            "name": "get",
+            "qualifier": "order"
+        },
+        {
+            "name": "getPos",
+            "qualifier": null
+        },
+        {
+            "name": "getDistance",
+            "qualifier": "a"
+        },
+        {
+            "name": "getDistance",
+            "qualifier": "b"
+        },
+        {
+            "name": "sum",
+            "qualifier": null
+        },
+        {
+            "name": "sum",
+            "qualifier": null
+        }
+    ],
+    "control_statements": [
+        "for",
+        "if"
+    ]
+}

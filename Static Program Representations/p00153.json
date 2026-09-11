@@ -1,0 +1,962 @@
+{
+    "program_id": "p00153",
+    "file": "p00153.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "Point2D"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "equals",
+            "return_type": "boolean",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "add",
+            "return_type": "Point2D",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "sub",
+            "return_type": "Point2D",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "add",
+            "return_type": "Point2D",
+            "parameters": [
+                "another"
+            ]
+        },
+        {
+            "name": "sub",
+            "return_type": "Point2D",
+            "parameters": [
+                "another"
+            ]
+        },
+        {
+            "name": "mul",
+            "return_type": "Point2D",
+            "parameters": [
+                "d"
+            ]
+        },
+        {
+            "name": "div",
+            "return_type": "Point2D",
+            "parameters": [
+                "d"
+            ]
+        },
+        {
+            "name": "dot",
+            "return_type": "double",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "dot",
+            "return_type": "double",
+            "parameters": [
+                "another"
+            ]
+        },
+        {
+            "name": "cross",
+            "return_type": "double",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "cross",
+            "return_type": "double",
+            "parameters": [
+                "another"
+            ]
+        },
+        {
+            "name": "dist",
+            "return_type": "double",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "dist",
+            "return_type": "double",
+            "parameters": [
+                "another"
+            ]
+        },
+        {
+            "name": "dist_o",
+            "return_type": "double",
+            "parameters": []
+        },
+        {
+            "name": "unit",
+            "return_type": "Point2D",
+            "parameters": []
+        },
+        {
+            "name": "pol",
+            "return_type": "boolean",
+            "parameters": [
+                "start",
+                "end"
+            ]
+        },
+        {
+            "name": "pos",
+            "return_type": "boolean",
+            "parameters": [
+                "start",
+                "end"
+            ]
+        },
+        {
+            "name": "pld",
+            "return_type": "double",
+            "parameters": [
+                "start",
+                "end"
+            ]
+        },
+        {
+            "name": "psd",
+            "return_type": "double",
+            "parameters": [
+                "start",
+                "end"
+            ]
+        },
+        {
+            "name": "signum",
+            "return_type": "int",
+            "parameters": [
+                "x"
+            ]
+        },
+        {
+            "name": "eq",
+            "return_type": "boolean",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "ccw",
+            "return_type": "int",
+            "parameters": [
+                "p",
+                "r",
+                "s"
+            ]
+        },
+        {
+            "name": "intersect_s",
+            "return_type": "boolean",
+            "parameters": [
+                "a1",
+                "a2",
+                "b1",
+                "b2"
+            ]
+        },
+        {
+            "name": "insersect_l",
+            "return_type": "boolean",
+            "parameters": [
+                "a1",
+                "a2",
+                "b1",
+                "b2"
+            ]
+        },
+        {
+            "name": "interpoint_s",
+            "return_type": "Point2D",
+            "parameters": [
+                "a1",
+                "a2",
+                "b1",
+                "b2"
+            ]
+        },
+        {
+            "name": "interpoint_l",
+            "return_type": "Point2D",
+            "parameters": [
+                "a1",
+                "a2",
+                "b1",
+                "b2"
+            ]
+        },
+        {
+            "name": "cross_ss",
+            "return_type": "Point2D[]",
+            "parameters": [
+                "p1",
+                "r1",
+                "p2",
+                "r2"
+            ]
+        },
+        {
+            "name": "ss_dist",
+            "return_type": "double",
+            "parameters": [
+                "start1",
+                "end1",
+                "start2",
+                "end2"
+            ]
+        },
+        {
+            "name": "interpoint_lc",
+            "return_type": null,
+            "parameters": [
+                "start",
+                "end",
+                "c",
+                "r",
+                "ans"
+            ]
+        },
+        {
+            "name": "interpoint_sc",
+            "return_type": null,
+            "parameters": [
+                "start",
+                "end",
+                "c",
+                "r",
+                "ans"
+            ]
+        },
+        {
+            "name": "normal_vector",
+            "return_type": "Point2D",
+            "parameters": [
+                "p",
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "area",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b",
+                "c"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "Point2D",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "Point2D",
+            "parameters": [
+                "point"
+            ]
+        }
+    ],
+    "variables": [
+        "sc",
+        "x1",
+        "y1",
+        "x2",
+        "y2",
+        "x3",
+        "y3",
+        "lines",
+        "r_x",
+        "r_y",
+        "r",
+        "circle",
+        "min_line_dist",
+        "max_pt_dist",
+        "i",
+        "cross",
+        "j",
+        "x",
+        "y",
+        "EPS",
+        "another",
+        "a",
+        "b",
+        "sgn",
+        "d1",
+        "d2",
+        "t",
+        "v",
+        "dis",
+        "tmp",
+        "ret",
+        "dis_m",
+        "min",
+        "theta",
+        "delta",
+        "s"
+    ],
+    "method_calls": [
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "dist",
+            "qualifier": "circle"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "psd",
+            "qualifier": "circle"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "cross",
+            "qualifier": null
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "eq",
+            "qualifier": "Point2D"
+        },
+        {
+            "name": "eq",
+            "qualifier": "Point2D"
+        },
+        {
+            "name": "add",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "dot",
+            "qualifier": ""
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "div",
+            "qualifier": ""
+        },
+        {
+            "name": "dist_o",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": "end"
+        },
+        {
+            "name": "cross",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "dist",
+            "qualifier": "start"
+        },
+        {
+            "name": "dist",
+            "qualifier": null
+        },
+        {
+            "name": "dist",
+            "qualifier": "start"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "sub",
+            "qualifier": "end"
+        },
+        {
+            "name": "sub",
+            "qualifier": "end"
+        },
+        {
+            "name": "dist_o",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": "end"
+        },
+        {
+            "name": "dot",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "dist",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": "start"
+        },
+        {
+            "name": "dot",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "dist",
+            "qualifier": null
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "sub",
+            "qualifier": "end"
+        },
+        {
+            "name": "cross",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "dist",
+            "qualifier": "end"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "signum",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": "r"
+        },
+        {
+            "name": "sub",
+            "qualifier": "s"
+        },
+        {
+            "name": "signum",
+            "qualifier": "Point2D"
+        },
+        {
+            "name": "cross",
+            "qualifier": "a"
+        },
+        {
+            "name": "dist_o",
+            "qualifier": "a"
+        },
+        {
+            "name": "dist_o",
+            "qualifier": "b"
+        },
+        {
+            "name": "ccw",
+            "qualifier": "Point2D"
+        },
+        {
+            "name": "ccw",
+            "qualifier": "Point2D"
+        },
+        {
+            "name": "ccw",
+            "qualifier": "Point2D"
+        },
+        {
+            "name": "ccw",
+            "qualifier": "Point2D"
+        },
+        {
+            "name": "sub",
+            "qualifier": "a1"
+        },
+        {
+            "name": "cross",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": "b1"
+        },
+        {
+            "name": "sub",
+            "qualifier": "b2"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "cross",
+            "qualifier": "b"
+        },
+        {
+            "name": "sub",
+            "qualifier": "a1"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "cross",
+            "qualifier": "b"
+        },
+        {
+            "name": "sub",
+            "qualifier": "a2"
+        },
+        {
+            "name": "sub",
+            "qualifier": "a2"
+        },
+        {
+            "name": "mul",
+            "qualifier": "a"
+        },
+        {
+            "name": "add",
+            "qualifier": "a1"
+        },
+        {
+            "name": "sub",
+            "qualifier": "a2"
+        },
+        {
+            "name": "sub",
+            "qualifier": "b2"
+        },
+        {
+            "name": "cross",
+            "qualifier": "b"
+        },
+        {
+            "name": "sub",
+            "qualifier": "b1"
+        },
+        {
+            "name": "cross",
+            "qualifier": "b"
+        },
+        {
+            "name": "mul",
+            "qualifier": "a"
+        },
+        {
+            "name": "add",
+            "qualifier": "a1"
+        },
+        {
+            "name": "dist",
+            "qualifier": "p1"
+        },
+        {
+            "name": "sub",
+            "qualifier": "p2"
+        },
+        {
+            "name": "mul",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "dist_o",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "add",
+            "qualifier": "p1"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "sub",
+            "qualifier": "p2"
+        },
+        {
+            "name": "sub",
+            "qualifier": "p1"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "mul",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "dist_o",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "dist_o",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "add",
+            "qualifier": "p1"
+        },
+        {
+            "name": "acos",
+            "qualifier": "Math"
+        },
+        {
+            "name": "atan2",
+            "qualifier": "Math"
+        },
+        {
+            "name": "cos",
+            "qualifier": "Math"
+        },
+        {
+            "name": "sin",
+            "qualifier": "Math"
+        },
+        {
+            "name": "cos",
+            "qualifier": "Math"
+        },
+        {
+            "name": "sin",
+            "qualifier": "Math"
+        },
+        {
+            "name": "intersect_s",
+            "qualifier": "Point2D"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "psd",
+            "qualifier": "start1"
+        },
+        {
+            "name": "psd",
+            "qualifier": "end1"
+        },
+        {
+            "name": "psd",
+            "qualifier": "start2"
+        },
+        {
+            "name": "psd",
+            "qualifier": "end2"
+        },
+        {
+            "name": "pld",
+            "qualifier": "c"
+        },
+        {
+            "name": "sub",
+            "qualifier": "end"
+        },
+        {
+            "name": "unit",
+            "qualifier": null
+        },
+        {
+            "name": "dot",
+            "qualifier": "v"
+        },
+        {
+            "name": "sub",
+            "qualifier": "start"
+        },
+        {
+            "name": "dot",
+            "qualifier": "v"
+        },
+        {
+            "name": "sub",
+            "qualifier": "start"
+        },
+        {
+            "name": "dist",
+            "qualifier": "start"
+        },
+        {
+            "name": "dist",
+            "qualifier": "start"
+        },
+        {
+            "name": "dot",
+            "qualifier": "v"
+        },
+        {
+            "name": "sub",
+            "qualifier": "start"
+        },
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "add",
+            "qualifier": "start"
+        },
+        {
+            "name": "mul",
+            "qualifier": "v"
+        },
+        {
+            "name": "add",
+            "qualifier": "start"
+        },
+        {
+            "name": "mul",
+            "qualifier": "v"
+        },
+        {
+            "name": "psd",
+            "qualifier": "c"
+        },
+        {
+            "name": "sub",
+            "qualifier": "end"
+        },
+        {
+            "name": "unit",
+            "qualifier": null
+        },
+        {
+            "name": "dot",
+            "qualifier": "v"
+        },
+        {
+            "name": "sub",
+            "qualifier": "start"
+        },
+        {
+            "name": "dot",
+            "qualifier": "v"
+        },
+        {
+            "name": "sub",
+            "qualifier": "start"
+        },
+        {
+            "name": "dist",
+            "qualifier": "start"
+        },
+        {
+            "name": "dist",
+            "qualifier": "start"
+        },
+        {
+            "name": "dot",
+            "qualifier": "v"
+        },
+        {
+            "name": "sub",
+            "qualifier": "start"
+        },
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "add",
+            "qualifier": "start"
+        },
+        {
+            "name": "mul",
+            "qualifier": "v"
+        },
+        {
+            "name": "add",
+            "qualifier": "start"
+        },
+        {
+            "name": "mul",
+            "qualifier": "v"
+        },
+        {
+            "name": "sub",
+            "qualifier": "b"
+        },
+        {
+            "name": "unit",
+            "qualifier": null
+        },
+        {
+            "name": "cross",
+            "qualifier": "v"
+        },
+        {
+            "name": "sub",
+            "qualifier": "p"
+        },
+        {
+            "name": "mul",
+            "qualifier": "v"
+        },
+        {
+            "name": "pld",
+            "qualifier": "p"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "sub",
+            "qualifier": "c"
+        }
+    ],
+    "control_statements": [
+        "while",
+        "if",
+        "for"
+    ]
+}

@@ -1,0 +1,661 @@
+{
+    "program_id": "p00804",
+    "file": "p00804.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "AOJ1219",
+        "Guard",
+        "AOJ1218",
+        "Pos",
+        "AOJ1227",
+        "AOJ1225",
+        "Deal",
+        "Dealer",
+        "Commodities"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "doIt",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "isInRange",
+            "return_type": "boolean",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "compareTo",
+            "return_type": "int",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "solve",
+            "return_type": null,
+            "parameters": [
+                "in",
+                "idx",
+                "ans"
+            ]
+        },
+        {
+            "name": "add",
+            "return_type": null,
+            "parameters": [
+                "in",
+                "out"
+            ]
+        },
+        {
+            "name": "add",
+            "return_type": null,
+            "parameters": [
+                "a"
+            ]
+        },
+        {
+            "name": "getAve",
+            "return_type": "int",
+            "parameters": []
+        }
+    ],
+    "constructors": [
+        {
+            "name": "AOJ1219",
+            "parameters": []
+        },
+        {
+            "name": "AOJ1218",
+            "parameters": []
+        },
+        {
+            "name": "Pos",
+            "parameters": [
+                "x",
+                "y",
+                "cx",
+                "cy",
+                "step"
+            ]
+        },
+        {
+            "name": "AOJ1227",
+            "parameters": []
+        },
+        {
+            "name": "AOJ1225",
+            "parameters": []
+        },
+        {
+            "name": "Deal",
+            "parameters": [
+                "d",
+                "c",
+                "a"
+            ]
+        },
+        {
+            "name": "Dealer",
+            "parameters": [
+                "in",
+                "out"
+            ]
+        },
+        {
+            "name": "Commodities",
+            "parameters": [
+                "a"
+            ]
+        }
+    ],
+    "variables": [
+        "sc",
+        "INF",
+        "N",
+        "S",
+        "guard",
+        "ans",
+        "remain",
+        "now",
+        "idx",
+        "r",
+        "i",
+        "in",
+        "queue",
+        "j",
+        "c",
+        "vx",
+        "vy",
+        "W",
+        "H",
+        "sx",
+        "sy",
+        "gx",
+        "gy",
+        "cx",
+        "cy",
+        "wall",
+        "y",
+        "x",
+        "open",
+        "closed",
+        "k",
+        "m",
+        "flag",
+        "xx",
+        "yy",
+        "xxx",
+        "yyy",
+        "step",
+        "dic",
+        "dic2ans",
+        "s",
+        "dic2",
+        "sb",
+        "init",
+        "sell",
+        "buy",
+        "dealer",
+        "comm",
+        "I",
+        "d",
+        "ff",
+        "a",
+        "f",
+        "tmp",
+        "keys",
+        "key",
+        "out",
+        "max",
+        "min",
+        "sum",
+        "num"
+    ],
+    "method_calls": [
+        {
+            "name": "doIt",
+            "qualifier": null
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "add",
+            "qualifier": "guard"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "get",
+            "qualifier": "guard"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "guard"
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "guard"
+        },
+        {
+            "name": "size",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "guard"
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "queue"
+        },
+        {
+            "name": "add",
+            "qualifier": "queue"
+        },
+        {
+            "name": "get",
+            "qualifier": "guard"
+        },
+        {
+            "name": "size",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "guard"
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "queue"
+        },
+        {
+            "name": "poll",
+            "qualifier": "queue"
+        },
+        {
+            "name": "size",
+            "qualifier": "queue"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "add",
+            "qualifier": "open"
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "open"
+        },
+        {
+            "name": "poll",
+            "qualifier": "open"
+        },
+        {
+            "name": "isInRange",
+            "qualifier": ""
+        },
+        {
+            "name": "isInRange",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "clear",
+            "qualifier": "open"
+        },
+        {
+            "name": "add",
+            "qualifier": "open"
+        },
+        {
+            "name": "add",
+            "qualifier": "open"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "charAt",
+            "qualifier": "s"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "add",
+            "qualifier": "dic"
+        },
+        {
+            "name": "add",
+            "qualifier": "dic2ans"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "length",
+            "qualifier": "sb"
+        },
+        {
+            "name": "setCharAt",
+            "qualifier": "sb"
+        },
+        {
+            "name": "charAt",
+            "qualifier": "sb"
+        },
+        {
+            "name": "charAt",
+            "qualifier": "sb"
+        },
+        {
+            "name": "get",
+            "qualifier": "dic"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "toString",
+            "qualifier": "sb"
+        },
+        {
+            "name": "get",
+            "qualifier": "dic2ans"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "solve",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "length",
+            "qualifier": "in"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "charAt",
+            "qualifier": "in"
+        },
+        {
+            "name": "get",
+            "qualifier": "dic"
+        },
+        {
+            "name": "size",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "dic"
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "startsWith",
+            "qualifier": "in"
+        },
+        {
+            "name": "solve",
+            "qualifier": ""
+        },
+        {
+            "name": "length",
+            "qualifier": "s"
+        },
+        {
+            "name": "length",
+            "qualifier": "ans"
+        },
+        {
+            "name": "get",
+            "qualifier": "dic2ans"
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "dic2ans"
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "equals",
+            "qualifier": "ff"
+        },
+        {
+            "name": "containsKey",
+            "qualifier": "dealer"
+        },
+        {
+            "name": "put",
+            "qualifier": "dealer"
+        },
+        {
+            "name": "size",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "get",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "equals",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "equals",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "get",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "get",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "get",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "get",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "get",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "containsKey",
+            "qualifier": "comm"
+        },
+        {
+            "name": "put",
+            "qualifier": "comm"
+        },
+        {
+            "name": "get",
+            "qualifier": "comm"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "dealer"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "dealer"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "remove",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "add",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "keySet",
+            "qualifier": "comm"
+        },
+        {
+            "name": "add",
+            "qualifier": "keys"
+        },
+        {
+            "name": "sort",
+            "qualifier": "Collections"
+        },
+        {
+            "name": "get",
+            "qualifier": "comm"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "getAve",
+            "qualifier": "now"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "clear",
+            "qualifier": "keys"
+        },
+        {
+            "name": "keySet",
+            "qualifier": "dealer"
+        },
+        {
+            "name": "add",
+            "qualifier": "keys"
+        },
+        {
+            "name": "sort",
+            "qualifier": "Collections"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "get",
+            "qualifier": "dealer"
+        },
+        {
+            "name": "get",
+            "qualifier": "dealer"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "max",
+            "qualifier": ""
+        },
+        {
+            "name": "min",
+            "qualifier": ""
+        }
+    ],
+    "control_statements": [
+        "while",
+        "if",
+        "for",
+        "switch"
+    ]
+}

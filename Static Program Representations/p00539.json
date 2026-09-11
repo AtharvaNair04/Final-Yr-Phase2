@@ -1,0 +1,424 @@
+{
+    "program_id": "p00539",
+    "file": "p00539.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "Park",
+        "Fix",
+        "CompPQ",
+        "Root",
+        "RoadConst",
+        "CompRoad",
+        "UserScanner"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "compare",
+            "return_type": "int",
+            "parameters": [
+                "o1",
+                "o2"
+            ]
+        },
+        {
+            "name": "compare",
+            "return_type": "int",
+            "parameters": [
+                "o1",
+                "o2"
+            ]
+        },
+        {
+            "name": "getCost",
+            "return_type": "long",
+            "parameters": []
+        },
+        {
+            "name": "getMinCost",
+            "return_type": "long",
+            "parameters": []
+        },
+        {
+            "name": "setRoad",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "setDistance",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "setRoot",
+            "return_type": null,
+            "parameters": [
+                "from",
+                "to",
+                "l"
+            ]
+        },
+        {
+            "name": "read",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "getByte",
+            "return_type": "byte",
+            "parameters": []
+        },
+        {
+            "name": "skipCtlSpace",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "isCtlSpace",
+            "return_type": "boolean",
+            "parameters": [
+                "b"
+            ]
+        },
+        {
+            "name": "close",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "next",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "nextInt",
+            "return_type": "int",
+            "parameters": []
+        }
+    ],
+    "constructors": [
+        {
+            "name": "Fix",
+            "parameters": [
+                "i",
+                "d"
+            ]
+        },
+        {
+            "name": "Root",
+            "parameters": [
+                "from"
+            ]
+        },
+        {
+            "name": "RoadConst",
+            "parameters": [
+                "max",
+                "len"
+            ]
+        },
+        {
+            "name": "Park",
+            "parameters": [
+                "n",
+                "m",
+                "c",
+                "debug"
+            ]
+        },
+        {
+            "name": "UserScanner",
+            "parameters": [
+                "inStream"
+            ]
+        }
+    ],
+    "variables": [
+        "debug",
+        "scan",
+        "pwriter",
+        "n",
+        "m",
+        "c",
+        "park",
+        "i",
+        "tunnelCost",
+        "area",
+        "distance",
+        "pqFix",
+        "isFixed",
+        "distanceFrom",
+        "from",
+        "to",
+        "length",
+        "original",
+        "root",
+        "road",
+        "minCost",
+        "construct",
+        "cost",
+        "j",
+        "f",
+        "st",
+        "l",
+        "in",
+        "buffer",
+        "ptr",
+        "buflen",
+        "sb",
+        "b",
+        "minus"
+    ],
+    "method_calls": [
+        {
+            "name": "nextInt",
+            "qualifier": "scan"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "scan"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "scan"
+        },
+        {
+            "name": "setRoot",
+            "qualifier": "park"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "scan"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "scan"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "scan"
+        },
+        {
+            "name": "println",
+            "qualifier": "pwriter"
+        },
+        {
+            "name": "getCost",
+            "qualifier": "park"
+        },
+        {
+            "name": "flush",
+            "qualifier": "pwriter"
+        },
+        {
+            "name": "close",
+            "qualifier": "scan"
+        },
+        {
+            "name": "exit",
+            "qualifier": "System"
+        },
+        {
+            "name": "add",
+            "qualifier": "pqFix"
+        },
+        {
+            "name": "setDistance",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "setRoad",
+            "qualifier": ""
+        },
+        {
+            "name": "sort",
+            "qualifier": "Collections"
+        },
+        {
+            "name": "getMinCost",
+            "qualifier": ""
+        },
+        {
+            "name": "size",
+            "qualifier": "road"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "get",
+            "qualifier": "road"
+        },
+        {
+            "name": "get",
+            "qualifier": "road"
+        },
+        {
+            "name": "get",
+            "qualifier": "road"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "size",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": "road"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "pqFix"
+        },
+        {
+            "name": "poll",
+            "qualifier": "pqFix"
+        },
+        {
+            "name": "size",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": "pqFix"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "read",
+            "qualifier": "in"
+        },
+        {
+            "name": "printStackTrace",
+            "qualifier": "e"
+        },
+        {
+            "name": "exit",
+            "qualifier": "System"
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "isCtlSpace",
+            "qualifier": ""
+        },
+        {
+            "name": "isCtlSpace",
+            "qualifier": ""
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "skipCtlSpace",
+            "qualifier": ""
+        },
+        {
+            "name": "close",
+            "qualifier": "in"
+        },
+        {
+            "name": "printStackTrace",
+            "qualifier": "e"
+        },
+        {
+            "name": "exit",
+            "qualifier": "System"
+        },
+        {
+            "name": "skipCtlSpace",
+            "qualifier": ""
+        },
+        {
+            "name": "getByte",
+            "qualifier": ""
+        },
+        {
+            "name": "appendCodePoint",
+            "qualifier": "sb"
+        },
+        {
+            "name": "toString",
+            "qualifier": "sb"
+        },
+        {
+            "name": "skipCtlSpace",
+            "qualifier": ""
+        },
+        {
+            "name": "getByte",
+            "qualifier": ""
+        }
+    ],
+    "control_statements": [
+        "for",
+        "if",
+        "while",
+        "try"
+    ]
+}

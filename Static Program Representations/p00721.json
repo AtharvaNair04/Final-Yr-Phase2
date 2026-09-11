@@ -1,0 +1,385 @@
+{
+    "program_id": "p00721",
+    "file": "p00721.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "D",
+        "MyScanner"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "compareTo",
+            "return_type": "int",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "dist",
+            "return_type": "int",
+            "parameters": [
+                "sx",
+                "sy",
+                "gx",
+                "gy"
+            ]
+        },
+        {
+            "name": "dijkstra",
+            "return_type": "int",
+            "parameters": [
+                "sx",
+                "sy"
+            ]
+        },
+        {
+            "name": "run",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "mapDebug",
+            "return_type": null,
+            "parameters": [
+                "a"
+            ]
+        },
+        {
+            "name": "read",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "isSpaceChar",
+            "return_type": "boolean",
+            "parameters": [
+                "c"
+            ]
+        },
+        {
+            "name": "isEndline",
+            "return_type": "boolean",
+            "parameters": [
+                "c"
+            ]
+        },
+        {
+            "name": "nextInt",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "nextIntArray",
+            "return_type": "int[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nextLong",
+            "return_type": "long",
+            "parameters": []
+        },
+        {
+            "name": "nextLongArray",
+            "return_type": "long[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nextDouble",
+            "return_type": "double",
+            "parameters": []
+        },
+        {
+            "name": "nextDoubleArray",
+            "return_type": "double[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "next",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "nextStringArray",
+            "return_type": "String[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nextLine",
+            "return_type": "String",
+            "parameters": []
+        }
+    ],
+    "constructors": [
+        {
+            "name": "D",
+            "parameters": [
+                "pos",
+                "min",
+                "bit"
+            ]
+        }
+    ],
+    "variables": [
+        "n",
+        "w",
+        "h",
+        "f",
+        "sx",
+        "sy",
+        "gx",
+        "gy",
+        "g",
+        "pos",
+        "min",
+        "bit",
+        "visit",
+        "dx",
+        "dy",
+        "i",
+        "queueX",
+        "queueY",
+        "x",
+        "y",
+        "nx",
+        "ny",
+        "queue",
+        "mask",
+        "d",
+        "npos",
+        "nmin",
+        "nbit",
+        "sc",
+        "j",
+        "id",
+        "dist",
+        "array",
+        "c",
+        "res"
+    ],
+    "method_calls": [
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "add",
+            "qualifier": "queueX"
+        },
+        {
+            "name": "add",
+            "qualifier": "queueY"
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "queueX"
+        },
+        {
+            "name": "poll",
+            "qualifier": "queueX"
+        },
+        {
+            "name": "poll",
+            "qualifier": "queueY"
+        },
+        {
+            "name": "add",
+            "qualifier": "queueX"
+        },
+        {
+            "name": "add",
+            "qualifier": "queueY"
+        },
+        {
+            "name": "add",
+            "qualifier": "queue"
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "queue"
+        },
+        {
+            "name": "poll",
+            "qualifier": "queue"
+        },
+        {
+            "name": "add",
+            "qualifier": "queue"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "toCharArray",
+            "qualifier": null
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "dijkstra",
+            "qualifier": ""
+        },
+        {
+            "name": "run",
+            "qualifier": null
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "printf",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "read",
+            "qualifier": "System.in"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "nextInt",
+            "qualifier": ""
+        },
+        {
+            "name": "parseLong",
+            "qualifier": "Long"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "nextLong",
+            "qualifier": ""
+        },
+        {
+            "name": "parseDouble",
+            "qualifier": "Double"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": ""
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "isSpaceChar",
+            "qualifier": ""
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "isSpaceChar",
+            "qualifier": ""
+        },
+        {
+            "name": "appendCodePoint",
+            "qualifier": "res"
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "toString",
+            "qualifier": "res"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "isEndline",
+            "qualifier": ""
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "isEndline",
+            "qualifier": ""
+        },
+        {
+            "name": "appendCodePoint",
+            "qualifier": "res"
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "toString",
+            "qualifier": "res"
+        }
+    ],
+    "control_statements": [
+        "if",
+        "for",
+        "while",
+        "try",
+        "do-while"
+    ]
+}

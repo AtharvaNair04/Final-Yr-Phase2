@@ -1,0 +1,423 @@
+{
+    "program_id": "p00713",
+    "file": "p00713.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "Point",
+        "Segment",
+        "Line",
+        "Circle",
+        "MyScanner"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "norm",
+            "return_type": "double",
+            "parameters": [
+                "a"
+            ]
+        },
+        {
+            "name": "sub",
+            "return_type": "Point",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "dot",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "cross",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "abs",
+            "return_type": "double",
+            "parameters": [
+                "a"
+            ]
+        },
+        {
+            "name": "crossPoint",
+            "return_type": "Point[]",
+            "parameters": [
+                "c1",
+                "c2"
+            ]
+        },
+        {
+            "name": "isCover",
+            "return_type": "boolean",
+            "parameters": [
+                "c",
+                "p"
+            ]
+        },
+        {
+            "name": "run",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "mapDebug",
+            "return_type": null,
+            "parameters": [
+                "a"
+            ]
+        },
+        {
+            "name": "read",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "isSpaceChar",
+            "return_type": "boolean",
+            "parameters": [
+                "c"
+            ]
+        },
+        {
+            "name": "isEndline",
+            "return_type": "boolean",
+            "parameters": [
+                "c"
+            ]
+        },
+        {
+            "name": "nextInt",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "nextIntArray",
+            "return_type": "int[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nextLong",
+            "return_type": "long",
+            "parameters": []
+        },
+        {
+            "name": "nextLongArray",
+            "return_type": "long[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nextDouble",
+            "return_type": "double",
+            "parameters": []
+        },
+        {
+            "name": "nextDoubleArray",
+            "return_type": "double[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "next",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "nextStringArray",
+            "return_type": "String[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nextLine",
+            "return_type": "String",
+            "parameters": []
+        }
+    ],
+    "constructors": [
+        {
+            "name": "Point",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "Segment",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "Line",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "Circle",
+            "parameters": [
+                "c",
+                "r"
+            ]
+        }
+    ],
+    "variables": [
+        "EPS",
+        "INF",
+        "x",
+        "y",
+        "a",
+        "b",
+        "c",
+        "r",
+        "d",
+        "h",
+        "p1",
+        "p2",
+        "sc",
+        "n",
+        "p",
+        "i",
+        "max",
+        "j",
+        "cp",
+        "k",
+        "nc",
+        "cnt",
+        "l",
+        "array",
+        "res"
+    ],
+    "method_calls": [
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": ""
+        },
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "crossPoint",
+            "qualifier": ""
+        },
+        {
+            "name": "isCover",
+            "qualifier": ""
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "run",
+            "qualifier": null
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "printf",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "read",
+            "qualifier": "System.in"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "nextInt",
+            "qualifier": ""
+        },
+        {
+            "name": "parseLong",
+            "qualifier": "Long"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "nextLong",
+            "qualifier": ""
+        },
+        {
+            "name": "parseDouble",
+            "qualifier": "Double"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": ""
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "isSpaceChar",
+            "qualifier": ""
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "isSpaceChar",
+            "qualifier": ""
+        },
+        {
+            "name": "appendCodePoint",
+            "qualifier": "res"
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "toString",
+            "qualifier": "res"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "isEndline",
+            "qualifier": ""
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "isEndline",
+            "qualifier": ""
+        },
+        {
+            "name": "appendCodePoint",
+            "qualifier": "res"
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "toString",
+            "qualifier": "res"
+        }
+    ],
+    "control_statements": [
+        "if",
+        "while",
+        "for",
+        "try",
+        "do-while"
+    ]
+}

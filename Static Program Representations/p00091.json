@@ -1,0 +1,279 @@
+{
+    "program_id": "p00091",
+    "file": "p00091.java",
+    "package": null,
+    "classes": [
+        "Drop",
+        "Main"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "hasNoDrop",
+            "return_type": "boolean",
+            "parameters": [
+                "map"
+            ]
+        },
+        {
+            "name": "finish",
+            "return_type": "boolean",
+            "parameters": [
+                "map",
+                "answer",
+                "noOfDrop"
+            ]
+        },
+        {
+            "name": "printMap",
+            "return_type": null,
+            "parameters": [
+                "map"
+            ]
+        },
+        {
+            "name": "dfs",
+            "return_type": null,
+            "parameters": [
+                "map",
+                "answer",
+                "noOfDrop"
+            ]
+        },
+        {
+            "name": "canPutSmall",
+            "return_type": "boolean",
+            "parameters": [
+                "map",
+                "cx",
+                "cy"
+            ]
+        },
+        {
+            "name": "addSmall",
+            "return_type": null,
+            "parameters": [
+                "map",
+                "cx",
+                "cy",
+                "val"
+            ]
+        },
+        {
+            "name": "canPutMiddle",
+            "return_type": "boolean",
+            "parameters": [
+                "map",
+                "cx",
+                "cy"
+            ]
+        },
+        {
+            "name": "addMiddle",
+            "return_type": null,
+            "parameters": [
+                "map",
+                "cx",
+                "cy",
+                "val"
+            ]
+        },
+        {
+            "name": "canPutLarge",
+            "return_type": "boolean",
+            "parameters": [
+                "map",
+                "cx",
+                "cy"
+            ]
+        },
+        {
+            "name": "addLarge",
+            "return_type": null,
+            "parameters": [
+                "map",
+                "cx",
+                "cy",
+                "val"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "Drop",
+            "parameters": [
+                "x",
+                "y",
+                "size"
+            ]
+        }
+    ],
+    "variables": [
+        "SMALL",
+        "MIDDLE",
+        "LARGE",
+        "x",
+        "y",
+        "size",
+        "stdin",
+        "n",
+        "map",
+        "i",
+        "j",
+        "answer",
+        "d",
+        "rows",
+        "val",
+        "putOnce"
+    ],
+    "method_calls": [
+        {
+            "name": "format",
+            "qualifier": "String"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "stdin"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "stdin"
+        },
+        {
+            "name": "dfs",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "size",
+            "qualifier": "answer"
+        },
+        {
+            "name": "hasNoDrop",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "System.err"
+        },
+        {
+            "name": "toString",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "size",
+            "qualifier": "answer"
+        },
+        {
+            "name": "canPutLarge",
+            "qualifier": ""
+        },
+        {
+            "name": "addLarge",
+            "qualifier": ""
+        },
+        {
+            "name": "push",
+            "qualifier": "answer"
+        },
+        {
+            "name": "dfs",
+            "qualifier": ""
+        },
+        {
+            "name": "finish",
+            "qualifier": ""
+        },
+        {
+            "name": "addLarge",
+            "qualifier": ""
+        },
+        {
+            "name": "pop",
+            "qualifier": "answer"
+        },
+        {
+            "name": "canPutMiddle",
+            "qualifier": ""
+        },
+        {
+            "name": "addMiddle",
+            "qualifier": ""
+        },
+        {
+            "name": "push",
+            "qualifier": "answer"
+        },
+        {
+            "name": "dfs",
+            "qualifier": ""
+        },
+        {
+            "name": "finish",
+            "qualifier": ""
+        },
+        {
+            "name": "addMiddle",
+            "qualifier": ""
+        },
+        {
+            "name": "pop",
+            "qualifier": "answer"
+        },
+        {
+            "name": "canPutSmall",
+            "qualifier": ""
+        },
+        {
+            "name": "addSmall",
+            "qualifier": ""
+        },
+        {
+            "name": "push",
+            "qualifier": "answer"
+        },
+        {
+            "name": "dfs",
+            "qualifier": ""
+        },
+        {
+            "name": "finish",
+            "qualifier": ""
+        },
+        {
+            "name": "addSmall",
+            "qualifier": ""
+        },
+        {
+            "name": "pop",
+            "qualifier": "answer"
+        },
+        {
+            "name": "canPutMiddle",
+            "qualifier": ""
+        },
+        {
+            "name": "addMiddle",
+            "qualifier": ""
+        }
+    ],
+    "control_statements": [
+        "for",
+        "if"
+    ]
+}

@@ -1,0 +1,850 @@
+{
+    "program_id": "p00858",
+    "file": "p00858.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "C",
+        "Open"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "compare",
+            "return_type": "int",
+            "parameters": [
+                "o1",
+                "o2"
+            ]
+        },
+        {
+            "name": "compareTo",
+            "return_type": "int",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "compareTo",
+            "return_type": "int",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "doit",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "modi",
+            "return_type": "double[][]",
+            "parameters": [
+                "pass",
+                "sign"
+            ]
+        },
+        {
+            "name": "solve",
+            "return_type": null,
+            "parameters": [
+                "pass",
+                "start",
+                "goal"
+            ]
+        },
+        {
+            "name": "segmentArrangement",
+            "return_type": "double[][]",
+            "parameters": [
+                "line"
+            ]
+        },
+        {
+            "name": "issame",
+            "return_type": "boolean",
+            "parameters": [
+                "p1",
+                "p2"
+            ]
+        },
+        {
+            "name": "intersectPtSS",
+            "return_type": "Point2D",
+            "parameters": [
+                "l",
+                "m"
+            ]
+        },
+        {
+            "name": "cross",
+            "return_type": "double",
+            "parameters": [
+                "p1",
+                "p2"
+            ]
+        },
+        {
+            "name": "sub",
+            "return_type": "Point2D",
+            "parameters": [
+                "p2",
+                "p1"
+            ]
+        },
+        {
+            "name": "dot",
+            "return_type": "double",
+            "parameters": [
+                "p1",
+                "p2"
+            ]
+        },
+        {
+            "name": "anglecos",
+            "return_type": "double",
+            "parameters": [
+                "p1",
+                "p2"
+            ]
+        },
+        {
+            "name": "norm",
+            "return_type": "double",
+            "parameters": [
+                "p"
+            ]
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "C",
+            "parameters": [
+                "ind",
+                "p"
+            ]
+        },
+        {
+            "name": "Open",
+            "parameters": [
+                "now",
+                "cost",
+                "list"
+            ]
+        }
+    ],
+    "variables": [
+        "EPS",
+        "INF",
+        "com",
+        "map",
+        "topoint",
+        "s",
+        "e",
+        "ind",
+        "p",
+        "now",
+        "cost",
+        "list",
+        "sc",
+        "n",
+        "line",
+        "i",
+        "p1",
+        "p2",
+        "road",
+        "sign",
+        "a",
+        "b",
+        "j",
+        "newline",
+        "pass",
+        "len",
+        "res",
+        "l",
+        "k",
+        "m",
+        "p3",
+        "p4",
+        "result",
+        "p5",
+        "result2",
+        "open",
+        "temp",
+        "close",
+        "ans",
+        "nextcost",
+        "next",
+        "x",
+        "y",
+        "intersectionlist",
+        "from",
+        "to",
+        "lVec",
+        "mVec",
+        "m1l1Vec",
+        "t",
+        "resx",
+        "resy",
+        "c",
+        "obj"
+    ],
+    "method_calls": [
+        {
+            "name": "getX",
+            "qualifier": "o1"
+        },
+        {
+            "name": "getX",
+            "qualifier": "o2"
+        },
+        {
+            "name": "getX",
+            "qualifier": "o1"
+        },
+        {
+            "name": "getX",
+            "qualifier": "o2"
+        },
+        {
+            "name": "getY",
+            "qualifier": "o1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "o2"
+        },
+        {
+            "name": "getY",
+            "qualifier": "o1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "o2"
+        },
+        {
+            "name": "getX",
+            "qualifier": null
+        },
+        {
+            "name": "getX",
+            "qualifier": "o.p"
+        },
+        {
+            "name": "getX",
+            "qualifier": null
+        },
+        {
+            "name": "getX",
+            "qualifier": "o.p"
+        },
+        {
+            "name": "getY",
+            "qualifier": null
+        },
+        {
+            "name": "getY",
+            "qualifier": "o.p"
+        },
+        {
+            "name": "getY",
+            "qualifier": null
+        },
+        {
+            "name": "getY",
+            "qualifier": "o.p"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "ptSegDist",
+            "qualifier": null
+        },
+        {
+            "name": "getP1",
+            "qualifier": null
+        },
+        {
+            "name": "ptSegDist",
+            "qualifier": null
+        },
+        {
+            "name": "getP2",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": "road"
+        },
+        {
+            "name": "add",
+            "qualifier": "sign"
+        },
+        {
+            "name": "size",
+            "qualifier": "road"
+        },
+        {
+            "name": "size",
+            "qualifier": "road"
+        },
+        {
+            "name": "get",
+            "qualifier": "road"
+        },
+        {
+            "name": "segmentArrangement",
+            "qualifier": ""
+        },
+        {
+            "name": "modi",
+            "qualifier": ""
+        },
+        {
+            "name": "solve",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "map"
+        },
+        {
+            "name": "get",
+            "qualifier": "map"
+        },
+        {
+            "name": "get",
+            "qualifier": "topoint"
+        },
+        {
+            "name": "get",
+            "qualifier": "topoint"
+        },
+        {
+            "name": "size",
+            "qualifier": "sign"
+        },
+        {
+            "name": "get",
+            "qualifier": "sign"
+        },
+        {
+            "name": "intersectsLine",
+            "qualifier": "l"
+        },
+        {
+            "name": "ptSegDist",
+            "qualifier": "l"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP2",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP2",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "m"
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "anglecos",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "getP2",
+            "qualifier": "l"
+        },
+        {
+            "name": "anglecos",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "temp"
+        },
+        {
+            "name": "get",
+            "qualifier": "topoint"
+        },
+        {
+            "name": "add",
+            "qualifier": "open"
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "open"
+        },
+        {
+            "name": "poll",
+            "qualifier": "open"
+        },
+        {
+            "name": "addAll",
+            "qualifier": "ans"
+        },
+        {
+            "name": "addAll",
+            "qualifier": "next"
+        },
+        {
+            "name": "add",
+            "qualifier": "next"
+        },
+        {
+            "name": "get",
+            "qualifier": "topoint"
+        },
+        {
+            "name": "add",
+            "qualifier": "open"
+        },
+        {
+            "name": "size",
+            "qualifier": "ans"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "size",
+            "qualifier": "ans"
+        },
+        {
+            "name": "get",
+            "qualifier": "ans"
+        },
+        {
+            "name": "getX",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "ans"
+        },
+        {
+            "name": "getY",
+            "qualifier": null
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "add",
+            "qualifier": "intersectionlist"
+        },
+        {
+            "name": "add",
+            "qualifier": "intersectionlist"
+        },
+        {
+            "name": "intersectsLine",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": "intersectionlist"
+        },
+        {
+            "name": "intersectPtSS",
+            "qualifier": ""
+        },
+        {
+            "name": "sort",
+            "qualifier": "Collections"
+        },
+        {
+            "name": "size",
+            "qualifier": "intersectionlist"
+        },
+        {
+            "name": "issame",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "intersectionlist"
+        },
+        {
+            "name": "get",
+            "qualifier": "intersectionlist"
+        },
+        {
+            "name": "remove",
+            "qualifier": "intersectionlist"
+        },
+        {
+            "name": "addAll",
+            "qualifier": "topoint"
+        },
+        {
+            "name": "size",
+            "qualifier": "intersectionlist"
+        },
+        {
+            "name": "put",
+            "qualifier": "map"
+        },
+        {
+            "name": "get",
+            "qualifier": "intersectionlist"
+        },
+        {
+            "name": "size",
+            "qualifier": "intersectionlist"
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "ptSegDist",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "intersectionlist"
+        },
+        {
+            "name": "add",
+            "qualifier": "list"
+        },
+        {
+            "name": "get",
+            "qualifier": "intersectionlist"
+        },
+        {
+            "name": "sort",
+            "qualifier": "Collections"
+        },
+        {
+            "name": "size",
+            "qualifier": "list"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "distance",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "distance",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p2"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p2"
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "getP2",
+            "qualifier": "l"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "getP2",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "m"
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "getP1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "distance",
+            "qualifier": null
+        },
+        {
+            "name": "getP1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "distance",
+            "qualifier": null
+        },
+        {
+            "name": "getP2",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "getP2",
+            "qualifier": "l"
+        },
+        {
+            "name": "getX1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getX",
+            "qualifier": "mVec"
+        },
+        {
+            "name": "getY1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getY",
+            "qualifier": "mVec"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p2"
+        },
+        {
+            "name": "dot",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p"
+        },
+        {
+            "name": "doit",
+            "qualifier": "obj"
+        }
+    ],
+    "control_statements": [
+        "if",
+        "while",
+        "for"
+    ]
+}

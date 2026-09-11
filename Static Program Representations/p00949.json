@@ -1,0 +1,316 @@
+{
+    "program_id": "p00949",
+    "file": "p00949.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "Task",
+        "FastScanner"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "solve",
+            "return_type": null,
+            "parameters": [
+                "in",
+                "out"
+            ]
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "hasNextByte",
+            "return_type": "boolean",
+            "parameters": []
+        },
+        {
+            "name": "readByte",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "isPrintableChar",
+            "return_type": "boolean",
+            "parameters": [
+                "c"
+            ]
+        },
+        {
+            "name": "skipUnprintable",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "hasNext",
+            "return_type": "boolean",
+            "parameters": []
+        },
+        {
+            "name": "next",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "nextLong",
+            "return_type": "long",
+            "parameters": []
+        },
+        {
+            "name": "nextDouble",
+            "return_type": "double",
+            "parameters": []
+        },
+        {
+            "name": "nextDoubleArray",
+            "return_type": "double[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nextDoubleMap",
+            "return_type": "double[][]",
+            "parameters": [
+                "n",
+                "m"
+            ]
+        },
+        {
+            "name": "nextInt",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "nextIntArray",
+            "return_type": "int[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nextLongArray",
+            "return_type": "long[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nextStringArray",
+            "return_type": "String[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nextCharMap",
+            "return_type": "char[][]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nextIntMap",
+            "return_type": "int[][]",
+            "parameters": [
+                "n",
+                "m"
+            ]
+        }
+    ],
+    "constructors": [],
+    "variables": [
+        "MOD",
+        "hash",
+        "pow",
+        "i",
+        "S",
+        "T",
+        "h",
+        "j",
+        "x",
+        "ans",
+        "outputStream",
+        "in",
+        "out",
+        "solver",
+        "buffer",
+        "ptr",
+        "bufferLength",
+        "sb",
+        "b",
+        "n",
+        "minus",
+        "array",
+        "map"
+    ],
+    "method_calls": [
+        {
+            "name": "next",
+            "qualifier": "in"
+        },
+        {
+            "name": "toCharArray",
+            "qualifier": null
+        },
+        {
+            "name": "next",
+            "qualifier": "in"
+        },
+        {
+            "name": "toCharArray",
+            "qualifier": null
+        },
+        {
+            "name": "sort",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "binarySearch",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "println",
+            "qualifier": "out"
+        },
+        {
+            "name": "solve",
+            "qualifier": "solver"
+        },
+        {
+            "name": "close",
+            "qualifier": "out"
+        },
+        {
+            "name": "read",
+            "qualifier": "in"
+        },
+        {
+            "name": "printStackTrace",
+            "qualifier": "e"
+        },
+        {
+            "name": "hasNextByte",
+            "qualifier": ""
+        },
+        {
+            "name": "hasNextByte",
+            "qualifier": ""
+        },
+        {
+            "name": "isPrintableChar",
+            "qualifier": ""
+        },
+        {
+            "name": "skipUnprintable",
+            "qualifier": ""
+        },
+        {
+            "name": "hasNextByte",
+            "qualifier": ""
+        },
+        {
+            "name": "hasNext",
+            "qualifier": ""
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "isPrintableChar",
+            "qualifier": ""
+        },
+        {
+            "name": "appendCodePoint",
+            "qualifier": "sb"
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "toString",
+            "qualifier": "sb"
+        },
+        {
+            "name": "hasNext",
+            "qualifier": ""
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "isPrintableChar",
+            "qualifier": ""
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "parseDouble",
+            "qualifier": "Double"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": ""
+        },
+        {
+            "name": "nextDoubleArray",
+            "qualifier": ""
+        },
+        {
+            "name": "nextLong",
+            "qualifier": ""
+        },
+        {
+            "name": "nextInt",
+            "qualifier": ""
+        },
+        {
+            "name": "nextLong",
+            "qualifier": ""
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "toCharArray",
+            "qualifier": null
+        },
+        {
+            "name": "nextIntArray",
+            "qualifier": ""
+        }
+    ],
+    "control_statements": [
+        "for",
+        "if",
+        "try",
+        "while"
+    ]
+}

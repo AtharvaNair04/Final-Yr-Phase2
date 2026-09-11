@@ -1,0 +1,581 @@
+{
+    "program_id": "p00867",
+    "file": "p00867.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "UnionFind"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "doit",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "solve",
+            "return_type": "int",
+            "parameters": [
+                "list"
+            ]
+        },
+        {
+            "name": "find",
+            "return_type": "int",
+            "parameters": [
+                "x"
+            ]
+        },
+        {
+            "name": "unite",
+            "return_type": null,
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "same",
+            "return_type": "boolean",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "intersectPtSS",
+            "return_type": "Point2D",
+            "parameters": [
+                "l",
+                "m"
+            ]
+        },
+        {
+            "name": "cross",
+            "return_type": "double",
+            "parameters": [
+                "p1",
+                "p2"
+            ]
+        },
+        {
+            "name": "sub",
+            "return_type": "Point2D",
+            "parameters": [
+                "p2",
+                "p1"
+            ]
+        },
+        {
+            "name": "ccw2",
+            "return_type": "int",
+            "parameters": [
+                "p1",
+                "p2",
+                "p3"
+            ]
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "UnionFind",
+            "parameters": [
+                "n"
+            ]
+        }
+    ],
+    "variables": [
+        "EPS",
+        "sc",
+        "n",
+        "data",
+        "i",
+        "p1",
+        "p2",
+        "uf",
+        "j",
+        "digits",
+        "toind",
+        "res",
+        "ans",
+        "size",
+        "l1",
+        "l2",
+        "p",
+        "cand",
+        "count",
+        "c",
+        "now",
+        "temp",
+        "par",
+        "rank",
+        "num",
+        "lVec",
+        "mVec",
+        "m1l1Vec",
+        "a",
+        "b",
+        "t",
+        "resx",
+        "resy",
+        "x",
+        "y",
+        "p3p1",
+        "p3p2"
+    ],
+    "method_calls": [
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "intersectsLine",
+            "qualifier": null
+        },
+        {
+            "name": "unite",
+            "qualifier": "uf"
+        },
+        {
+            "name": "find",
+            "qualifier": "uf"
+        },
+        {
+            "name": "containsKey",
+            "qualifier": "toind"
+        },
+        {
+            "name": "add",
+            "qualifier": "digits"
+        },
+        {
+            "name": "put",
+            "qualifier": "toind"
+        },
+        {
+            "name": "size",
+            "qualifier": "toind"
+        },
+        {
+            "name": "get",
+            "qualifier": "digits"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "toind"
+        },
+        {
+            "name": "size",
+            "qualifier": "digits"
+        },
+        {
+            "name": "solve",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "digits"
+        },
+        {
+            "name": "print",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "size",
+            "qualifier": "list"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "intersectsLine",
+            "qualifier": "l1"
+        },
+        {
+            "name": "intersectPtSS",
+            "qualifier": ""
+        },
+        {
+            "name": "distance",
+            "qualifier": "p"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l1"
+        },
+        {
+            "name": "distance",
+            "qualifier": "p"
+        },
+        {
+            "name": "getP2",
+            "qualifier": "l1"
+        },
+        {
+            "name": "distance",
+            "qualifier": "p"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l2"
+        },
+        {
+            "name": "distance",
+            "qualifier": "p"
+        },
+        {
+            "name": "getP2",
+            "qualifier": "l2"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "intersectsLine",
+            "qualifier": "l1"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "intersectsLine",
+            "qualifier": "l1"
+        },
+        {
+            "name": "intersectPtSS",
+            "qualifier": ""
+        },
+        {
+            "name": "distance",
+            "qualifier": "p"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l1"
+        },
+        {
+            "name": "distance",
+            "qualifier": "p"
+        },
+        {
+            "name": "getP2",
+            "qualifier": "l1"
+        },
+        {
+            "name": "distance",
+            "qualifier": "p"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l2"
+        },
+        {
+            "name": "distance",
+            "qualifier": "p"
+        },
+        {
+            "name": "getP2",
+            "qualifier": "l2"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "intersectsLine",
+            "qualifier": "l1"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "intersectsLine",
+            "qualifier": "l1"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "intersectsLine",
+            "qualifier": "now"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "getP1",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "list"
+        },
+        {
+            "name": "getP2",
+            "qualifier": null
+        },
+        {
+            "name": "ptLineDist",
+            "qualifier": "now"
+        },
+        {
+            "name": "ccw2",
+            "qualifier": ""
+        },
+        {
+            "name": "getP1",
+            "qualifier": "now"
+        },
+        {
+            "name": "ccw2",
+            "qualifier": ""
+        },
+        {
+            "name": "getP2",
+            "qualifier": "now"
+        },
+        {
+            "name": "find",
+            "qualifier": ""
+        },
+        {
+            "name": "find",
+            "qualifier": ""
+        },
+        {
+            "name": "find",
+            "qualifier": ""
+        },
+        {
+            "name": "find",
+            "qualifier": ""
+        },
+        {
+            "name": "find",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "getP2",
+            "qualifier": "l"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "getP2",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "m"
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "getP1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "distance",
+            "qualifier": null
+        },
+        {
+            "name": "getP1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "distance",
+            "qualifier": null
+        },
+        {
+            "name": "getP2",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "getP2",
+            "qualifier": "l"
+        },
+        {
+            "name": "getX1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getX",
+            "qualifier": "mVec"
+        },
+        {
+            "name": "getY1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getY",
+            "qualifier": "mVec"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p1"
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "doit",
+            "qualifier": null
+        }
+    ],
+    "control_statements": [
+        "while",
+        "if",
+        "for"
+    ]
+}

@@ -1,0 +1,368 @@
+{
+    "program_id": "p00189",
+    "file": "p00189.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "SC",
+        "Pair",
+        "Vertex"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "next",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "nextInt",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "nextLong",
+            "return_type": "long",
+            "parameters": []
+        },
+        {
+            "name": "nextDouble",
+            "return_type": "double",
+            "parameters": []
+        },
+        {
+            "name": "nextLine",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "pl",
+            "return_type": null,
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "p",
+            "return_type": null,
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "getValue",
+            "return_type": "int",
+            "parameters": [
+                "a"
+            ]
+        },
+        {
+            "name": "getKey",
+            "return_type": "int",
+            "parameters": [
+                "a"
+            ]
+        },
+        {
+            "name": "equals",
+            "return_type": "boolean",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "hashCode",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "add",
+            "return_type": null,
+            "parameters": [
+                "V",
+                "cost"
+            ]
+        },
+        {
+            "name": "show",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "sort_by_cost",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "sort_by_Vertex",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "find_Vertex",
+            "return_type": "int",
+            "parameters": [
+                "a"
+            ]
+        },
+        {
+            "name": "get",
+            "return_type": "Pair",
+            "parameters": [
+                "i"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "SC",
+            "parameters": [
+                "in"
+            ]
+        },
+        {
+            "name": "Pair",
+            "parameters": [
+                "key",
+                "value"
+            ]
+        }
+    ],
+    "variables": [
+        "INF",
+        "sc",
+        "N",
+        "miti",
+        "rtx",
+        "i",
+        "max",
+        "s",
+        "g",
+        "cost",
+        "min",
+        "mts",
+        "update",
+        "j",
+        "k",
+        "p",
+        "tmp",
+        "reader",
+        "tokenizer",
+        "key",
+        "value",
+        "pair",
+        "rinsetu"
+    ],
+    "method_calls": [
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "exit",
+            "qualifier": "System"
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "getKey",
+            "qualifier": "Pair"
+        },
+        {
+            "name": "getValue",
+            "qualifier": "Pair"
+        },
+        {
+            "name": "getKey",
+            "qualifier": "Pair"
+        },
+        {
+            "name": "getValue",
+            "qualifier": "Pair"
+        },
+        {
+            "name": "sort",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "pl",
+            "qualifier": ""
+        },
+        {
+            "name": "hasMoreTokens",
+            "qualifier": "tokenizer"
+        },
+        {
+            "name": "readLine",
+            "qualifier": "reader"
+        },
+        {
+            "name": "nextToken",
+            "qualifier": "tokenizer"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "parseLong",
+            "qualifier": "Long"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "parseDouble",
+            "qualifier": "Double"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "readLine",
+            "qualifier": "reader"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "print",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "getClass",
+            "qualifier": ""
+        },
+        {
+            "name": "getClass",
+            "qualifier": "o"
+        },
+        {
+            "name": "equals",
+            "qualifier": "Objects"
+        },
+        {
+            "name": "equals",
+            "qualifier": "Objects"
+        },
+        {
+            "name": "hash",
+            "qualifier": "Objects"
+        },
+        {
+            "name": "add",
+            "qualifier": "rinsetu"
+        },
+        {
+            "name": "size",
+            "qualifier": "rinsetu"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "get",
+            "qualifier": "rinsetu"
+        },
+        {
+            "name": "sort",
+            "qualifier": "rinsetu"
+        },
+        {
+            "name": "comparing",
+            "qualifier": "Comparator"
+        },
+        {
+            "name": "sort",
+            "qualifier": "rinsetu"
+        },
+        {
+            "name": "comparing",
+            "qualifier": "Comparator"
+        },
+        {
+            "name": "size",
+            "qualifier": "rinsetu"
+        },
+        {
+            "name": "getKey",
+            "qualifier": "Pair"
+        },
+        {
+            "name": "get",
+            "qualifier": "rinsetu"
+        },
+        {
+            "name": "get",
+            "qualifier": "rinsetu"
+        }
+    ],
+    "control_statements": [
+        "while",
+        "if",
+        "for",
+        "try"
+    ]
+}

@@ -1,0 +1,873 @@
+{
+    "program_id": "p00619",
+    "file": "p00619.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "E"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "dot",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "cross",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "norm",
+            "return_type": "double",
+            "parameters": [
+                "a"
+            ]
+        },
+        {
+            "name": "norm",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "sub",
+            "return_type": "double[]",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "swap",
+            "return_type": null,
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "ex",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        {
+            "name": "angleCos",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "crossing",
+            "return_type": "boolean",
+            "parameters": [
+                "a",
+                "b",
+                "s",
+                "t"
+            ]
+        },
+        {
+            "name": "dist",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b",
+                "p"
+            ]
+        },
+        {
+            "name": "dist",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b",
+                "s",
+                "t"
+            ]
+        },
+        {
+            "name": "distLP",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b",
+                "p"
+            ]
+        },
+        {
+            "name": "cp",
+            "return_type": "double[]",
+            "parameters": [
+                "a",
+                "b",
+                "s",
+                "t"
+            ]
+        },
+        {
+            "name": "ccw",
+            "return_type": "int",
+            "parameters": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        {
+            "name": "segmentArrangement",
+            "return_type": "List[]",
+            "parameters": [
+                "seg",
+                "resPoint"
+            ]
+        },
+        {
+            "name": "pointCompare",
+            "return_type": "boolean",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "enableMerge",
+            "return_type": "boolean",
+            "parameters": [
+                "s",
+                "t",
+                "res"
+            ]
+        },
+        {
+            "name": "mergeSegment",
+            "return_type": "double[][][]",
+            "parameters": [
+                "seg"
+            ]
+        },
+        {
+            "name": "compareTo",
+            "return_type": "int",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "run",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "compare",
+            "return_type": "int",
+            "parameters": [
+                "o1",
+                "o2"
+            ]
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "E",
+            "parameters": [
+                "id",
+                "dist"
+            ]
+        }
+    ],
+    "variables": [
+        "EPS",
+        "t",
+        "s1",
+        "s2",
+        "na",
+        "nb",
+        "ds",
+        "dt",
+        "k",
+        "d",
+        "pointList",
+        "i",
+        "j",
+        "col",
+        "N",
+        "resAdj",
+        "tmp",
+        "e1",
+        "e2",
+        "S",
+        "T",
+        "segs",
+        "res",
+        "id",
+        "dist",
+        "sc",
+        "INF",
+        "n",
+        "seg",
+        "G",
+        "ps",
+        "adj",
+        "si",
+        "gi",
+        "rev",
+        "D",
+        "q",
+        "e",
+        "V",
+        "now",
+        "pre",
+        "thita",
+        "w"
+    ],
+    "method_calls": [
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "acos",
+            "qualifier": "Math"
+        },
+        {
+            "name": "dot",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "dot",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "dot",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "crossing",
+            "qualifier": ""
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "distLP",
+            "qualifier": ""
+        },
+        {
+            "name": "distLP",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "dot",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "mergeSegment",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "pointList"
+        },
+        {
+            "name": "add",
+            "qualifier": "pointList"
+        },
+        {
+            "name": "crossing",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "pointList"
+        },
+        {
+            "name": "cp",
+            "qualifier": ""
+        },
+        {
+            "name": "size",
+            "qualifier": "pointList"
+        },
+        {
+            "name": "size",
+            "qualifier": "pointList"
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "pointList"
+        },
+        {
+            "name": "get",
+            "qualifier": "pointList"
+        },
+        {
+            "name": "add",
+            "qualifier": "resPoint"
+        },
+        {
+            "name": "get",
+            "qualifier": "pointList"
+        },
+        {
+            "name": "size",
+            "qualifier": "resPoint"
+        },
+        {
+            "name": "crossing",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "resPoint"
+        },
+        {
+            "name": "get",
+            "qualifier": "resPoint"
+        },
+        {
+            "name": "add",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "resPoint"
+        },
+        {
+            "name": "sort",
+            "qualifier": "Collections"
+        },
+        {
+            "name": "size",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "get",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "get",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "resPoint"
+        },
+        {
+            "name": "get",
+            "qualifier": "resPoint"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "resPoint"
+        },
+        {
+            "name": "get",
+            "qualifier": "resPoint"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "signum",
+            "qualifier": "Math"
+        },
+        {
+            "name": "signum",
+            "qualifier": "Math"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "ccw",
+            "qualifier": ""
+        },
+        {
+            "name": "ccw",
+            "qualifier": ""
+        },
+        {
+            "name": "ccw",
+            "qualifier": ""
+        },
+        {
+            "name": "pointCompare",
+            "qualifier": ""
+        },
+        {
+            "name": "pointCompare",
+            "qualifier": ""
+        },
+        {
+            "name": "pointCompare",
+            "qualifier": ""
+        },
+        {
+            "name": "swap",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "segs"
+        },
+        {
+            "name": "size",
+            "qualifier": "segs"
+        },
+        {
+            "name": "size",
+            "qualifier": "segs"
+        },
+        {
+            "name": "enableMerge",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "segs"
+        },
+        {
+            "name": "get",
+            "qualifier": "segs"
+        },
+        {
+            "name": "remove",
+            "qualifier": "segs"
+        },
+        {
+            "name": "remove",
+            "qualifier": "segs"
+        },
+        {
+            "name": "add",
+            "qualifier": "segs"
+        },
+        {
+            "name": "size",
+            "qualifier": "segs"
+        },
+        {
+            "name": "get",
+            "qualifier": "segs"
+        },
+        {
+            "name": "signum",
+            "qualifier": "Math"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "printf",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "segmentArrangement",
+            "qualifier": ""
+        },
+        {
+            "name": "size",
+            "qualifier": "ps"
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "ps"
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "ps"
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "signum",
+            "qualifier": "Math"
+        },
+        {
+            "name": "add",
+            "qualifier": "q"
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "q"
+        },
+        {
+            "name": "poll",
+            "qualifier": "q"
+        },
+        {
+            "name": "angleCos",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "ps"
+        },
+        {
+            "name": "get",
+            "qualifier": "ps"
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "ps"
+        },
+        {
+            "name": "get",
+            "qualifier": "ps"
+        },
+        {
+            "name": "isNaN",
+            "qualifier": "Double"
+        },
+        {
+            "name": "add",
+            "qualifier": "q"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "printf",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "run",
+            "qualifier": null
+        }
+    ],
+    "control_statements": [
+        "if",
+        "for",
+        "while"
+    ]
+}

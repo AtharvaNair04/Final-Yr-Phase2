@@ -1,0 +1,338 @@
+{
+    "program_id": "p00679",
+    "file": "p00679.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "P",
+        "Node"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "d2",
+            "return_type": "long",
+            "parameters": [
+                "p"
+            ]
+        },
+        {
+            "name": "sq",
+            "return_type": "long",
+            "parameters": [
+                "v"
+            ]
+        },
+        {
+            "name": "add",
+            "return_type": null,
+            "parameters": [
+                "p"
+            ]
+        },
+        {
+            "name": "find",
+            "return_type": "P",
+            "parameters": [
+                "p",
+                "best"
+            ]
+        },
+        {
+            "name": "index",
+            "return_type": "int",
+            "parameters": [
+                "p"
+            ]
+        },
+        {
+            "name": "dist",
+            "return_type": "int",
+            "parameters": [
+                "p"
+            ]
+        },
+        {
+            "name": "leaf",
+            "return_type": "boolean",
+            "parameters": []
+        }
+    ],
+    "constructors": [
+        {
+            "name": "P",
+            "parameters": [
+                "x",
+                "y",
+                "z"
+            ]
+        },
+        {
+            "name": "Node",
+            "parameters": [
+                "x1",
+                "y1",
+                "z1",
+                "x2",
+                "y2",
+                "z2"
+            ]
+        }
+    ],
+    "variables": [
+        "sc",
+        "N",
+        "Q",
+        "tree",
+        "i",
+        "X",
+        "Y",
+        "Z",
+        "M",
+        "ps",
+        "near",
+        "j",
+        "n",
+        "ans",
+        "direct",
+        "warp",
+        "x",
+        "y",
+        "z",
+        "x1",
+        "y1",
+        "z1",
+        "x2",
+        "y2",
+        "z2",
+        "child",
+        "ind",
+        "nx",
+        "ny",
+        "nz",
+        "k",
+        "ret",
+        "min",
+        "px",
+        "d2",
+        "tmp"
+    ],
+    "method_calls": [
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "add",
+            "qualifier": "tree"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "find",
+            "qualifier": "tree"
+        },
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "d2",
+            "qualifier": "n"
+        },
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "d2",
+            "qualifier": null
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "printf",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "sq",
+            "qualifier": ""
+        },
+        {
+            "name": "sq",
+            "qualifier": ""
+        },
+        {
+            "name": "sq",
+            "qualifier": ""
+        },
+        {
+            "name": "leaf",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "index",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "leaf",
+            "qualifier": ""
+        },
+        {
+            "name": "d2",
+            "qualifier": "px"
+        },
+        {
+            "name": "index",
+            "qualifier": ""
+        },
+        {
+            "name": "find",
+            "qualifier": null
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "d2",
+            "qualifier": "ret"
+        },
+        {
+            "name": "dist",
+            "qualifier": null
+        },
+        {
+            "name": "find",
+            "qualifier": null
+        },
+        {
+            "name": "d2",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "d2",
+            "qualifier": "ret"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "d2",
+            "qualifier": "ret"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        }
+    ],
+    "control_statements": [
+        "while",
+        "if",
+        "for"
+    ]
+}

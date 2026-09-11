@@ -1,0 +1,506 @@
+{
+    "program_id": "p00684",
+    "file": "p00684.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "Token",
+        "Complex",
+        "Overflow",
+        "Inner",
+        "Plus",
+        "Minus",
+        "Mul",
+        "Const"
+    ],
+    "interfaces": [
+        "Expr"
+    ],
+    "methods": [
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "is_overflow",
+            "return_type": "boolean",
+            "parameters": []
+        },
+        {
+            "name": "add",
+            "return_type": "Complex",
+            "parameters": [
+                "another"
+            ]
+        },
+        {
+            "name": "sub",
+            "return_type": "Complex",
+            "parameters": [
+                "another"
+            ]
+        },
+        {
+            "name": "mul",
+            "return_type": "Complex",
+            "parameters": [
+                "another"
+            ]
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "is_overflow",
+            "return_type": "boolean",
+            "parameters": []
+        },
+        {
+            "name": "add",
+            "return_type": "Complex",
+            "parameters": [
+                "another"
+            ]
+        },
+        {
+            "name": "sub",
+            "return_type": "Complex",
+            "parameters": [
+                "another"
+            ]
+        },
+        {
+            "name": "mul",
+            "return_type": "Complex",
+            "parameters": [
+                "another"
+            ]
+        },
+        {
+            "name": "eval",
+            "return_type": "Complex",
+            "parameters": []
+        },
+        {
+            "name": "eval",
+            "return_type": "Complex",
+            "parameters": []
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "eval",
+            "return_type": "Complex",
+            "parameters": []
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "eval",
+            "return_type": "Complex",
+            "parameters": []
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "eval",
+            "return_type": "Complex",
+            "parameters": []
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "eval",
+            "return_type": "Complex",
+            "parameters": []
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "parse_1",
+            "return_type": "Expr",
+            "parameters": [
+                "tokens"
+            ]
+        },
+        {
+            "name": "parse_2",
+            "return_type": "Expr",
+            "parameters": [
+                "tokens"
+            ]
+        },
+        {
+            "name": "parse_3",
+            "return_type": "Expr",
+            "parameters": [
+                "tokens"
+            ]
+        },
+        {
+            "name": "add_stack",
+            "return_type": null,
+            "parameters": [
+                "line",
+                "stack"
+            ]
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "Token",
+            "parameters": [
+                "value",
+                "type"
+            ]
+        },
+        {
+            "name": "Complex",
+            "parameters": [
+                "real",
+                "img"
+            ]
+        },
+        {
+            "name": "Overflow",
+            "parameters": []
+        },
+        {
+            "name": "Inner",
+            "parameters": [
+                "inner"
+            ]
+        },
+        {
+            "name": "Plus",
+            "parameters": [
+                "left",
+                "right"
+            ]
+        },
+        {
+            "name": "Minus",
+            "parameters": [
+                "left",
+                "right"
+            ]
+        },
+        {
+            "name": "Mul",
+            "parameters": [
+                "left",
+                "right"
+            ]
+        },
+        {
+            "name": "Const",
+            "parameters": [
+                "cons"
+            ]
+        }
+    ],
+    "variables": [
+        "ADD",
+        "SUB",
+        "MUL",
+        "IMG",
+        "KAKKO_L",
+        "KAKKO_R",
+        "ADD_TOK",
+        "SUB_TOK",
+        "MUL_TOK",
+        "IMG_TOK",
+        "KAKKO_L_TOK",
+        "KAKKO_R_TOK",
+        "value",
+        "type",
+        "OVER",
+        "IMG_I",
+        "real",
+        "img",
+        "n_real",
+        "n_img",
+        "inner",
+        "left",
+        "right",
+        "cons",
+        "number",
+        "expr",
+        "input",
+        "count",
+        "c",
+        "sc",
+        "stack",
+        "node"
+    ],
+    "method_calls": [
+        {
+            "name": "is_overflow",
+            "qualifier": "another"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "is_overflow",
+            "qualifier": "another"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "is_overflow",
+            "qualifier": "another"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "is_overflow",
+            "qualifier": ""
+        },
+        {
+            "name": "eval",
+            "qualifier": "inner"
+        },
+        {
+            "name": "eval",
+            "qualifier": "left"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "eval",
+            "qualifier": "right"
+        },
+        {
+            "name": "eval",
+            "qualifier": "left"
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "eval",
+            "qualifier": "right"
+        },
+        {
+            "name": "eval",
+            "qualifier": "left"
+        },
+        {
+            "name": "mul",
+            "qualifier": null
+        },
+        {
+            "name": "eval",
+            "qualifier": "right"
+        },
+        {
+            "name": "parse_2",
+            "qualifier": ""
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "peek",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "peek",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "poll",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "parse_2",
+            "qualifier": ""
+        },
+        {
+            "name": "parse_3",
+            "qualifier": ""
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "peek",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "poll",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "parse_3",
+            "qualifier": ""
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "peek",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "poll",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "peek",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "poll",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "peek",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "poll",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "parse_1",
+            "qualifier": ""
+        },
+        {
+            "name": "peek",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "poll",
+            "qualifier": "tokens"
+        },
+        {
+            "name": "toCharArray",
+            "qualifier": "line"
+        },
+        {
+            "name": "add",
+            "qualifier": "stack"
+        },
+        {
+            "name": "add",
+            "qualifier": "stack"
+        },
+        {
+            "name": "add",
+            "qualifier": "stack"
+        },
+        {
+            "name": "add",
+            "qualifier": "stack"
+        },
+        {
+            "name": "add",
+            "qualifier": "stack"
+        },
+        {
+            "name": "add",
+            "qualifier": "stack"
+        },
+        {
+            "name": "add",
+            "qualifier": "stack"
+        },
+        {
+            "name": "add",
+            "qualifier": "stack"
+        },
+        {
+            "name": "hasNextLine",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextLine",
+            "qualifier": "sc"
+        },
+        {
+            "name": "clear",
+            "qualifier": "stack"
+        },
+        {
+            "name": "add_stack",
+            "qualifier": ""
+        },
+        {
+            "name": "parse_1",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "eval",
+            "qualifier": "node"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.err"
+        },
+        {
+            "name": "close",
+            "qualifier": "sc"
+        }
+    ],
+    "control_statements": [
+        "if",
+        "while",
+        "for",
+        "switch",
+        "try"
+    ]
+}

@@ -1,0 +1,427 @@
+{
+    "program_id": "p00937",
+    "file": "p00937.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "IntMatrix",
+        "IntVector"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "solve",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "max",
+            "return_type": "int",
+            "parameters": [
+                "node"
+            ]
+        },
+        {
+            "name": "min",
+            "return_type": "int",
+            "parameters": [
+                "node",
+                "s"
+            ]
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "nextInt",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "nextLong",
+            "return_type": "long",
+            "parameters": []
+        },
+        {
+            "name": "next",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "read",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "isAlNum",
+            "return_type": "boolean",
+            "parameters": [
+                "c"
+            ]
+        },
+        {
+            "name": "index",
+            "return_type": "int",
+            "parameters": [
+                "r",
+                "c"
+            ]
+        },
+        {
+            "name": "set",
+            "return_type": null,
+            "parameters": [
+                "r",
+                "c",
+                "v"
+            ]
+        },
+        {
+            "name": "get",
+            "return_type": "int",
+            "parameters": [
+                "r",
+                "c"
+            ]
+        },
+        {
+            "name": "identity",
+            "return_type": "IntMatrix",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "mul",
+            "return_type": "IntMatrix",
+            "parameters": [
+                "mat"
+            ]
+        },
+        {
+            "name": "mul",
+            "return_type": "IntVector",
+            "parameters": [
+                "vec"
+            ]
+        },
+        {
+            "name": "pow",
+            "return_type": "IntMatrix",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "set",
+            "return_type": null,
+            "parameters": [
+                "i",
+                "v"
+            ]
+        },
+        {
+            "name": "get",
+            "return_type": "int",
+            "parameters": [
+                "i"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "IntMatrix",
+            "parameters": [
+                "row",
+                "colum"
+            ]
+        },
+        {
+            "name": "IntVector",
+            "parameters": [
+                "size"
+            ]
+        }
+    ],
+    "variables": [
+        "N",
+        "M",
+        "step",
+        "mats",
+        "flg",
+        "ans",
+        "mat",
+        "i",
+        "s",
+        "d",
+        "mm",
+        "max",
+        "min",
+        "out",
+        "num",
+        "str",
+        "minus",
+        "len",
+        "c",
+        "build",
+        "inputBuffer",
+        "bufferLength",
+        "bufferIndex",
+        "row",
+        "colum",
+        "data",
+        "j",
+        "sum",
+        "k",
+        "size"
+    ],
+    "method_calls": [
+        {
+            "name": "nextInt",
+            "qualifier": ""
+        },
+        {
+            "name": "nextInt",
+            "qualifier": ""
+        },
+        {
+            "name": "nextInt",
+            "qualifier": ""
+        },
+        {
+            "name": "nextInt",
+            "qualifier": ""
+        },
+        {
+            "name": "nextInt",
+            "qualifier": ""
+        },
+        {
+            "name": "nextInt",
+            "qualifier": ""
+        },
+        {
+            "name": "nextInt",
+            "qualifier": ""
+        },
+        {
+            "name": "set",
+            "qualifier": "mat"
+        },
+        {
+            "name": "pow",
+            "qualifier": "mat"
+        },
+        {
+            "name": "max",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "out"
+        },
+        {
+            "name": "println",
+            "qualifier": "out"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "min",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "solve",
+            "qualifier": null
+        },
+        {
+            "name": "flush",
+            "qualifier": "out"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "charAt",
+            "qualifier": "str"
+        },
+        {
+            "name": "length",
+            "qualifier": "str"
+        },
+        {
+            "name": "charAt",
+            "qualifier": "str"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "charAt",
+            "qualifier": "str"
+        },
+        {
+            "name": "length",
+            "qualifier": "str"
+        },
+        {
+            "name": "charAt",
+            "qualifier": "str"
+        },
+        {
+            "name": "isAlNum",
+            "qualifier": ""
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "append",
+            "qualifier": "build"
+        },
+        {
+            "name": "isAlNum",
+            "qualifier": ""
+        },
+        {
+            "name": "read",
+            "qualifier": ""
+        },
+        {
+            "name": "append",
+            "qualifier": "build"
+        },
+        {
+            "name": "toString",
+            "qualifier": "build"
+        },
+        {
+            "name": "read",
+            "qualifier": "System.in"
+        },
+        {
+            "name": "index",
+            "qualifier": ""
+        },
+        {
+            "name": "index",
+            "qualifier": ""
+        },
+        {
+            "name": "set",
+            "qualifier": "mat"
+        },
+        {
+            "name": "set",
+            "qualifier": "mat"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "get",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "mat"
+        },
+        {
+            "name": "set",
+            "qualifier": "ans"
+        },
+        {
+            "name": "get",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "vec"
+        },
+        {
+            "name": "set",
+            "qualifier": "ans"
+        },
+        {
+            "name": "identity",
+            "qualifier": "IntMatrix"
+        },
+        {
+            "name": "pow",
+            "qualifier": null
+        },
+        {
+            "name": "mul",
+            "qualifier": null
+        },
+        {
+            "name": "pow",
+            "qualifier": null
+        },
+        {
+            "name": "append",
+            "qualifier": "build"
+        },
+        {
+            "name": "append",
+            "qualifier": "build"
+        },
+        {
+            "name": "append",
+            "qualifier": "build"
+        },
+        {
+            "name": "append",
+            "qualifier": "build"
+        },
+        {
+            "name": "get",
+            "qualifier": ""
+        },
+        {
+            "name": "append",
+            "qualifier": "build"
+        },
+        {
+            "name": "append",
+            "qualifier": "build"
+        },
+        {
+            "name": "append",
+            "qualifier": "build"
+        },
+        {
+            "name": "toString",
+            "qualifier": "build"
+        }
+    ],
+    "control_statements": [
+        "for",
+        "while",
+        "if",
+        "try"
+    ]
+}

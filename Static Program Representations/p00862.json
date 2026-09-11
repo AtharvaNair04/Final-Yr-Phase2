@@ -1,0 +1,378 @@
+{
+    "program_id": "p00862",
+    "file": "p00862.java",
+    "package": null,
+    "classes": [
+        "Main"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "doit",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "polygonCut",
+            "return_type": "ArrayList",
+            "parameters": [
+                "plist",
+                "cut"
+            ]
+        },
+        {
+            "name": "intersectPt",
+            "return_type": "Point2D",
+            "parameters": [
+                "l",
+                "m"
+            ]
+        },
+        {
+            "name": "getCross",
+            "return_type": "double",
+            "parameters": [
+                "p1",
+                "p2"
+            ]
+        },
+        {
+            "name": "getcutV",
+            "return_type": "Line2D",
+            "parameters": [
+                "p1",
+                "p2",
+                "mid"
+            ]
+        },
+        {
+            "name": "add",
+            "return_type": "Point2D",
+            "parameters": [
+                "p1",
+                "p2"
+            ]
+        },
+        {
+            "name": "normalVector",
+            "return_type": "Point2D",
+            "parameters": [
+                "p"
+            ]
+        },
+        {
+            "name": "mul",
+            "return_type": "Point2D",
+            "parameters": [
+                "p",
+                "value"
+            ]
+        },
+        {
+            "name": "getV",
+            "return_type": "Point2D",
+            "parameters": [
+                "p2",
+                "p1"
+            ]
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        }
+    ],
+    "constructors": [],
+    "variables": [
+        "EPS",
+        "sc",
+        "n",
+        "plist",
+        "i",
+        "low",
+        "high",
+        "mid",
+        "work",
+        "cutLine",
+        "p1",
+        "p2",
+        "cut",
+        "ans",
+        "from",
+        "to",
+        "temp1",
+        "temp2",
+        "IntersectP",
+        "lVec",
+        "mVec",
+        "m1l1Vec",
+        "a",
+        "b",
+        "t",
+        "resx",
+        "resy",
+        "res",
+        "p2p1",
+        "p1p2Dis",
+        "p2p1NV",
+        "cutV",
+        "cutp1",
+        "cutp2",
+        "x",
+        "y",
+        "obj"
+    ],
+    "method_calls": [
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "add",
+            "qualifier": "plist"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "addAll",
+            "qualifier": "work"
+        },
+        {
+            "name": "get",
+            "qualifier": "work"
+        },
+        {
+            "name": "get",
+            "qualifier": "work"
+        },
+        {
+            "name": "getcutV",
+            "qualifier": ""
+        },
+        {
+            "name": "polygonCut",
+            "qualifier": ""
+        },
+        {
+            "name": "size",
+            "qualifier": "work"
+        },
+        {
+            "name": "printf",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "size",
+            "qualifier": "plist"
+        },
+        {
+            "name": "get",
+            "qualifier": "plist"
+        },
+        {
+            "name": "get",
+            "qualifier": "plist"
+        },
+        {
+            "name": "relativeCCW",
+            "qualifier": "cut"
+        },
+        {
+            "name": "add",
+            "qualifier": "ans"
+        },
+        {
+            "name": "relativeCCW",
+            "qualifier": "cut"
+        },
+        {
+            "name": "relativeCCW",
+            "qualifier": "cut"
+        },
+        {
+            "name": "intersectPt",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "ans"
+        },
+        {
+            "name": "getV",
+            "qualifier": ""
+        },
+        {
+            "name": "getP2",
+            "qualifier": "l"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "getV",
+            "qualifier": ""
+        },
+        {
+            "name": "getP2",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getV",
+            "qualifier": ""
+        },
+        {
+            "name": "getP1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "getCross",
+            "qualifier": ""
+        },
+        {
+            "name": "getCross",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "getX1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getX",
+            "qualifier": "mVec"
+        },
+        {
+            "name": "getY1",
+            "qualifier": "m"
+        },
+        {
+            "name": "getY",
+            "qualifier": "mVec"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getV",
+            "qualifier": ""
+        },
+        {
+            "name": "distance",
+            "qualifier": "p1"
+        },
+        {
+            "name": "normalVector",
+            "qualifier": ""
+        },
+        {
+            "name": "mul",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": ""
+        },
+        {
+            "name": "getX",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p1"
+        },
+        {
+            "name": "doit",
+            "qualifier": "obj"
+        }
+    ],
+    "control_statements": [
+        "while",
+        "if",
+        "for"
+    ]
+}

@@ -1,0 +1,491 @@
+{
+    "program_id": "p00727",
+    "file": "p00727.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "Point",
+        "Pair",
+        "Cmp"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "run",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "inRange",
+            "return_type": "boolean",
+            "parameters": [
+                "theta"
+            ]
+        },
+        {
+            "name": "toRange",
+            "return_type": "double",
+            "parameters": [
+                "theta"
+            ]
+        },
+        {
+            "name": "findThreshold",
+            "return_type": "double[]",
+            "parameters": []
+        },
+        {
+            "name": "calc",
+            "return_type": "double",
+            "parameters": [
+                "theta"
+            ]
+        },
+        {
+            "name": "rangeMerge",
+            "return_type": "double",
+            "parameters": [
+                "xs"
+            ]
+        },
+        {
+            "name": "solve",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "compare",
+            "return_type": "int",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "Point",
+            "parameters": [
+                "_x",
+                "_y"
+            ]
+        },
+        {
+            "name": "Pair",
+            "parameters": [
+                "v",
+                "i"
+            ]
+        }
+    ],
+    "variables": [
+        "N",
+        "MESH",
+        "diameter",
+        "EPS",
+        "ps",
+        "in",
+        "i",
+        "x",
+        "y",
+        "threshold",
+        "j",
+        "dy",
+        "dx",
+        "a",
+        "tmp",
+        "tmpThreshold",
+        "theta",
+        "vs",
+        "xx",
+        "yy",
+        "xs",
+        "ret",
+        "minValue",
+        "maxValue",
+        "minAns",
+        "maxAns",
+        "th",
+        "result",
+        "value",
+        "index",
+        "dif"
+    ],
+    "method_calls": [
+        {
+            "name": "nextInt",
+            "qualifier": "in"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "in"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "in"
+        },
+        {
+            "name": "solve",
+            "qualifier": ""
+        },
+        {
+            "name": "inRange",
+            "qualifier": ""
+        },
+        {
+            "name": "inRange",
+            "qualifier": ""
+        },
+        {
+            "name": "inRange",
+            "qualifier": ""
+        },
+        {
+            "name": "inRange",
+            "qualifier": ""
+        },
+        {
+            "name": "inRange",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "atan",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "atan",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "atan",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "atan",
+            "qualifier": ""
+        },
+        {
+            "name": "hypot",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "acos",
+            "qualifier": ""
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "acos",
+            "qualifier": ""
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "acos",
+            "qualifier": ""
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "acos",
+            "qualifier": ""
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "acos",
+            "qualifier": ""
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "acos",
+            "qualifier": ""
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "acos",
+            "qualifier": ""
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "acos",
+            "qualifier": ""
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "toArray",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "sort",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "sin",
+            "qualifier": ""
+        },
+        {
+            "name": "cos",
+            "qualifier": ""
+        },
+        {
+            "name": "sort",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "toRange",
+            "qualifier": ""
+        },
+        {
+            "name": "atan2",
+            "qualifier": ""
+        },
+        {
+            "name": "toArray",
+            "qualifier": "threshold"
+        },
+        {
+            "name": "sort",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "sin",
+            "qualifier": ""
+        },
+        {
+            "name": "cos",
+            "qualifier": ""
+        },
+        {
+            "name": "rangeMerge",
+            "qualifier": ""
+        },
+        {
+            "name": "sort",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "max",
+            "qualifier": ""
+        },
+        {
+            "name": "findThreshold",
+            "qualifier": ""
+        },
+        {
+            "name": "calc",
+            "qualifier": ""
+        },
+        {
+            "name": "printf",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "printf",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "run",
+            "qualifier": null
+        }
+    ],
+    "control_statements": [
+        "for",
+        "if"
+    ]
+}

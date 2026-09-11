@@ -1,0 +1,455 @@
+{
+    "program_id": "p00237",
+    "file": "p00237.java",
+    "package": null,
+    "classes": [
+        "Main"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "dfs",
+            "return_type": null,
+            "parameters": [
+                "v"
+            ]
+        },
+        {
+            "name": "rdfs",
+            "return_type": null,
+            "parameters": [
+                "v"
+            ]
+        },
+        {
+            "name": "hit",
+            "return_type": "boolean",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "ex",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        {
+            "name": "crossing",
+            "return_type": "boolean",
+            "parameters": [
+                "a",
+                "b",
+                "s",
+                "t"
+            ]
+        },
+        {
+            "name": "dist",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b",
+                "p"
+            ]
+        },
+        {
+            "name": "dot",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "cross",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "norm",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "sub",
+            "return_type": "double[]",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "mid",
+            "return_type": "double[]",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "area",
+            "return_type": "double",
+            "parameters": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        {
+            "name": "run",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "compare",
+            "return_type": "int",
+            "parameters": [
+                "o1",
+                "o2"
+            ]
+        },
+        {
+            "name": "debug",
+            "return_type": null,
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        }
+    ],
+    "constructors": [],
+    "variables": [
+        "N",
+        "D",
+        "EPS",
+        "T",
+        "p",
+        "d",
+        "top",
+        "bottom",
+        "e",
+        "rev",
+        "visit",
+        "ID",
+        "id",
+        "scc",
+        "i",
+        "b1",
+        "b2",
+        "p1",
+        "p2",
+        "area",
+        "j",
+        "s",
+        "s1",
+        "s2",
+        "res",
+        "sc",
+        "k",
+        "m",
+        "nor",
+        "q",
+        "v",
+        "deg"
+    ],
+    "method_calls": [
+        {
+            "name": "dfs",
+            "qualifier": ""
+        },
+        {
+            "name": "rdfs",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "area",
+            "qualifier": ""
+        },
+        {
+            "name": "area",
+            "qualifier": ""
+        },
+        {
+            "name": "area",
+            "qualifier": ""
+        },
+        {
+            "name": "area",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "dist",
+            "qualifier": ""
+        },
+        {
+            "name": "crossing",
+            "qualifier": ""
+        },
+        {
+            "name": "crossing",
+            "qualifier": ""
+        },
+        {
+            "name": "crossing",
+            "qualifier": ""
+        },
+        {
+            "name": "crossing",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "ex",
+            "qualifier": ""
+        },
+        {
+            "name": "dot",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "dot",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "hypot",
+            "qualifier": "Math"
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "mid",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "hypot",
+            "qualifier": "Math"
+        },
+        {
+            "name": "hit",
+            "qualifier": ""
+        },
+        {
+            "name": "dfs",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "q"
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "q"
+        },
+        {
+            "name": "poll",
+            "qualifier": "q"
+        },
+        {
+            "name": "rdfs",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "deepToString",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "run",
+            "qualifier": null
+        }
+    ],
+    "control_statements": [
+        "if",
+        "for",
+        "while"
+    ]
+}

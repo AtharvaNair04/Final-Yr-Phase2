@@ -1,0 +1,531 @@
+{
+    "program_id": "p00132",
+    "file": "p00132.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "Grid",
+        "Point",
+        "PcLoc",
+        "PcPat",
+        "PcPatComparator"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "fit",
+            "return_type": "boolean",
+            "parameters": [
+                "x0",
+                "y0",
+                "pc"
+            ]
+        },
+        {
+            "name": "set",
+            "return_type": null,
+            "parameters": [
+                "x0",
+                "y0",
+                "pc"
+            ]
+        },
+        {
+            "name": "unset",
+            "return_type": null,
+            "parameters": [
+                "x0",
+                "y0",
+                "pc"
+            ]
+        },
+        {
+            "name": "rotate",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "equals",
+            "return_type": "boolean",
+            "parameters": [
+                "g"
+            ]
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "add",
+            "return_type": null,
+            "parameters": [
+                "pcl"
+            ]
+        },
+        {
+            "name": "get",
+            "return_type": "PcLoc",
+            "parameters": [
+                "i"
+            ]
+        },
+        {
+            "name": "size",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "compare",
+            "return_type": "int",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "find_locs",
+            "return_type": "ArrayList",
+            "parameters": [
+                "pc",
+                "fr"
+            ]
+        },
+        {
+            "name": "check_blank",
+            "return_type": "boolean",
+            "parameters": [
+                "k",
+                "pcpats",
+                "fr"
+            ]
+        },
+        {
+            "name": "check_pieces",
+            "return_type": "boolean",
+            "parameters": [
+                "k",
+                "pcpats",
+                "fr"
+            ]
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "Grid",
+            "parameters": [
+                "h",
+                "w",
+                "strs"
+            ]
+        },
+        {
+            "name": "Grid",
+            "parameters": [
+                "g"
+            ]
+        },
+        {
+            "name": "Point",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        },
+        {
+            "name": "PcLoc",
+            "parameters": [
+                "pc",
+                "locs"
+            ]
+        },
+        {
+            "name": "PcPat",
+            "parameters": []
+        }
+    ],
+    "variables": [
+        "MAX_SIZE",
+        "MAX_N",
+        "MAX_LOC",
+        "h",
+        "w",
+        "size",
+        "vals",
+        "i",
+        "b",
+        "j",
+        "y",
+        "vals0",
+        "x",
+        "tmp",
+        "sb",
+        "v",
+        "pc",
+        "locs",
+        "pcls",
+        "max_h",
+        "max_w",
+        "fr0",
+        "k0",
+        "pcpat",
+        "pcl",
+        "pt",
+        "allbits",
+        "br",
+        "line",
+        "strs",
+        "hw",
+        "frame",
+        "framesize",
+        "n",
+        "pcpats",
+        "phw",
+        "ph",
+        "pw",
+        "pc0",
+        "inc",
+        "k",
+        "locs0",
+        "pc1",
+        "pi",
+        "pns",
+        "np",
+        "pcs",
+        "ssize",
+        "frame0",
+        "pcset",
+        "tf"
+    ],
+    "method_calls": [
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "charAt",
+            "qualifier": null
+        },
+        {
+            "name": "append",
+            "qualifier": "sb"
+        },
+        {
+            "name": "format",
+            "qualifier": "String"
+        },
+        {
+            "name": "append",
+            "qualifier": "sb"
+        },
+        {
+            "name": "format",
+            "qualifier": "String"
+        },
+        {
+            "name": "append",
+            "qualifier": "sb"
+        },
+        {
+            "name": "toString",
+            "qualifier": "sb"
+        },
+        {
+            "name": "add",
+            "qualifier": "pcls"
+        },
+        {
+            "name": "get",
+            "qualifier": "pcls"
+        },
+        {
+            "name": "size",
+            "qualifier": "pcls"
+        },
+        {
+            "name": "get",
+            "qualifier": "b"
+        },
+        {
+            "name": "get",
+            "qualifier": "a"
+        },
+        {
+            "name": "fit",
+            "qualifier": "fr"
+        },
+        {
+            "name": "add",
+            "qualifier": "locs"
+        },
+        {
+            "name": "size",
+            "qualifier": "pcpat"
+        },
+        {
+            "name": "get",
+            "qualifier": "pcpat"
+        },
+        {
+            "name": "size",
+            "qualifier": "pcl.locs"
+        },
+        {
+            "name": "get",
+            "qualifier": "pcl.locs"
+        },
+        {
+            "name": "fit",
+            "qualifier": "fr"
+        },
+        {
+            "name": "set",
+            "qualifier": "fr0"
+        },
+        {
+            "name": "size",
+            "qualifier": "pcpat"
+        },
+        {
+            "name": "get",
+            "qualifier": "pcpat"
+        },
+        {
+            "name": "size",
+            "qualifier": "pcl.locs"
+        },
+        {
+            "name": "get",
+            "qualifier": "pcl.locs"
+        },
+        {
+            "name": "fit",
+            "qualifier": "fr"
+        },
+        {
+            "name": "set",
+            "qualifier": "fr"
+        },
+        {
+            "name": "check_blank",
+            "qualifier": ""
+        },
+        {
+            "name": "check_pieces",
+            "qualifier": ""
+        },
+        {
+            "name": "unset",
+            "qualifier": "fr"
+        },
+        {
+            "name": "readLine",
+            "qualifier": "br"
+        },
+        {
+            "name": "trim",
+            "qualifier": null
+        },
+        {
+            "name": "split",
+            "qualifier": null
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "readLine",
+            "qualifier": "br"
+        },
+        {
+            "name": "trim",
+            "qualifier": null
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "readLine",
+            "qualifier": "br"
+        },
+        {
+            "name": "trim",
+            "qualifier": null
+        },
+        {
+            "name": "readLine",
+            "qualifier": "br"
+        },
+        {
+            "name": "trim",
+            "qualifier": null
+        },
+        {
+            "name": "split",
+            "qualifier": null
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "readLine",
+            "qualifier": "br"
+        },
+        {
+            "name": "trim",
+            "qualifier": null
+        },
+        {
+            "name": "size",
+            "qualifier": "pcpat"
+        },
+        {
+            "name": "get",
+            "qualifier": "pcpat"
+        },
+        {
+            "name": "equals",
+            "qualifier": null
+        },
+        {
+            "name": "find_locs",
+            "qualifier": ""
+        },
+        {
+            "name": "size",
+            "qualifier": "locs0"
+        },
+        {
+            "name": "add",
+            "qualifier": "pcpat"
+        },
+        {
+            "name": "rotate",
+            "qualifier": "pc1"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "size",
+            "qualifier": "pcpat"
+        },
+        {
+            "name": "size",
+            "qualifier": "pcpat"
+        },
+        {
+            "name": "get",
+            "qualifier": "pcpat"
+        },
+        {
+            "name": "print",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "print",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "size",
+            "qualifier": "pcl.locs"
+        },
+        {
+            "name": "size",
+            "qualifier": "pcl.locs"
+        },
+        {
+            "name": "print",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "get",
+            "qualifier": "pcl.locs"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "readLine",
+            "qualifier": "br"
+        },
+        {
+            "name": "trim",
+            "qualifier": null
+        },
+        {
+            "name": "readLine",
+            "qualifier": "br"
+        },
+        {
+            "name": "trim",
+            "qualifier": null
+        },
+        {
+            "name": "split",
+            "qualifier": null
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "sort",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "check_pieces",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        }
+    ],
+    "control_statements": [
+        "if",
+        "for",
+        "while"
+    ]
+}

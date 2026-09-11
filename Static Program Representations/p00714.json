@@ -1,0 +1,461 @@
+{
+    "program_id": "p00714",
+    "file": "p00714.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "Query",
+        "IN"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "compareTo",
+            "return_type": "int",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "compare",
+            "return_type": "int",
+            "parameters": [
+                "o1",
+                "o2"
+            ]
+        },
+        {
+            "name": "upper_bound",
+            "return_type": "int",
+            "parameters": [
+                "a",
+                "val"
+            ]
+        },
+        {
+            "name": "lower_bound",
+            "return_type": "int",
+            "parameters": [
+                "a",
+                "val"
+            ]
+        },
+        {
+            "name": "run",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "str",
+            "return_type": "String",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "str",
+            "return_type": "String",
+            "parameters": [
+                "map"
+            ]
+        },
+        {
+            "name": "str",
+            "return_type": "String",
+            "parameters": [
+                "list"
+            ]
+        },
+        {
+            "name": "str",
+            "return_type": "String",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "_getArrayDepth",
+            "return_type": "int",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "_strArray",
+            "return_type": "String",
+            "parameters": [
+                "o",
+                "depth"
+            ]
+        },
+        {
+            "name": "pr",
+            "return_type": null,
+            "parameters": [
+                "os"
+            ]
+        },
+        {
+            "name": "ln",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "ln",
+            "return_type": null,
+            "parameters": [
+                "os"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "Query",
+            "parameters": [
+                "id",
+                "_pos",
+                "_t"
+            ]
+        },
+        {
+            "name": "IN",
+            "parameters": [
+                "_lh",
+                "_rh",
+                "_water",
+                "_lpos",
+                "_rpos"
+            ]
+        }
+    ],
+    "variables": [
+        "t",
+        "pos",
+        "id",
+        "res",
+        "comp",
+        "f",
+        "l",
+        "len",
+        "half",
+        "mid",
+        "lh",
+        "rh",
+        "water",
+        "lpos",
+        "rpos",
+        "D",
+        "N",
+        "hpos",
+        "hs",
+        "i",
+        "ins",
+        "M",
+        "fpos",
+        "fs",
+        "L",
+        "qs",
+        "dt",
+        "j",
+        "k",
+        "pack",
+        "p",
+        "nxt",
+        "sc",
+        "br",
+        "asep",
+        "sb",
+        "isFirst",
+        "set",
+        "e",
+        "depth",
+        "c",
+        "o"
+    ],
+    "method_calls": [
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "add",
+            "qualifier": "ins"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "sort",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "size",
+            "qualifier": "ins"
+        },
+        {
+            "name": "get",
+            "qualifier": "ins"
+        },
+        {
+            "name": "get",
+            "qualifier": "ins"
+        },
+        {
+            "name": "get",
+            "qualifier": "ins"
+        },
+        {
+            "name": "size",
+            "qualifier": "ins"
+        },
+        {
+            "name": "get",
+            "qualifier": "ins"
+        },
+        {
+            "name": "get",
+            "qualifier": "ins"
+        },
+        {
+            "name": "remove",
+            "qualifier": "ins"
+        },
+        {
+            "name": "size",
+            "qualifier": "ins"
+        },
+        {
+            "name": "get",
+            "qualifier": "ins"
+        },
+        {
+            "name": "remove",
+            "qualifier": "ins"
+        },
+        {
+            "name": "size",
+            "qualifier": "ins"
+        },
+        {
+            "name": "get",
+            "qualifier": "ins"
+        },
+        {
+            "name": "get",
+            "qualifier": "ins"
+        },
+        {
+            "name": "get",
+            "qualifier": "ins"
+        },
+        {
+            "name": "sort",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "ln",
+            "qualifier": ""
+        },
+        {
+            "name": "run",
+            "qualifier": null
+        },
+        {
+            "name": "getProperty",
+            "qualifier": "System"
+        },
+        {
+            "name": "entrySet",
+            "qualifier": "map"
+        },
+        {
+            "name": "append",
+            "qualifier": "sb"
+        },
+        {
+            "name": "append",
+            "qualifier": "sb"
+        },
+        {
+            "name": "append",
+            "qualifier": null
+        },
+        {
+            "name": "append",
+            "qualifier": null
+        },
+        {
+            "name": "str",
+            "qualifier": ""
+        },
+        {
+            "name": "getValue",
+            "qualifier": "set"
+        },
+        {
+            "name": "str",
+            "qualifier": ""
+        },
+        {
+            "name": "getKey",
+            "qualifier": "set"
+        },
+        {
+            "name": "toString",
+            "qualifier": "sb"
+        },
+        {
+            "name": "append",
+            "qualifier": "sb"
+        },
+        {
+            "name": "append",
+            "qualifier": "sb"
+        },
+        {
+            "name": "str",
+            "qualifier": ""
+        },
+        {
+            "name": "toString",
+            "qualifier": "sb"
+        },
+        {
+            "name": "_getArrayDepth",
+            "qualifier": ""
+        },
+        {
+            "name": "_strArray",
+            "qualifier": ""
+        },
+        {
+            "name": "getClass",
+            "qualifier": "o"
+        },
+        {
+            "name": "equals",
+            "qualifier": "c"
+        },
+        {
+            "name": "str",
+            "qualifier": ""
+        },
+        {
+            "name": "toString",
+            "qualifier": "o"
+        },
+        {
+            "name": "getClass",
+            "qualifier": "o"
+        },
+        {
+            "name": "isArray",
+            "qualifier": null
+        },
+        {
+            "name": "getLength",
+            "qualifier": "Array"
+        },
+        {
+            "name": "_getArrayDepth",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "Array"
+        },
+        {
+            "name": "str",
+            "qualifier": ""
+        },
+        {
+            "name": "getLength",
+            "qualifier": "Array"
+        },
+        {
+            "name": "append",
+            "qualifier": "sb"
+        },
+        {
+            "name": "append",
+            "qualifier": "sb"
+        },
+        {
+            "name": "_strArray",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "Array"
+        },
+        {
+            "name": "toString",
+            "qualifier": "sb"
+        },
+        {
+            "name": "print",
+            "qualifier": "out"
+        },
+        {
+            "name": "print",
+            "qualifier": "out"
+        },
+        {
+            "name": "println",
+            "qualifier": "out"
+        },
+        {
+            "name": "pr",
+            "qualifier": ""
+        },
+        {
+            "name": "ln",
+            "qualifier": ""
+        }
+    ],
+    "control_statements": [
+        "while",
+        "if",
+        "for"
+    ]
+}

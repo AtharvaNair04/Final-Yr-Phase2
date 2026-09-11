@@ -1,0 +1,550 @@
+{
+    "program_id": "p00808",
+    "file": "p00808.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "C",
+        "D"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "compareTo",
+            "return_type": "int",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "compareTo",
+            "return_type": "int",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "doit",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "fromTermination",
+            "return_type": null,
+            "parameters": [
+                "from",
+                "termination"
+            ]
+        },
+        {
+            "name": "toTermination",
+            "return_type": null,
+            "parameters": [
+                "from",
+                "termination"
+            ]
+        },
+        {
+            "name": "calcTime",
+            "return_type": "int",
+            "parameters": [
+                "h",
+                "m"
+            ]
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "C",
+            "parameters": [
+                "input"
+            ]
+        },
+        {
+            "name": "D",
+            "parameters": [
+                "nowpoint",
+                "nowtime",
+                "nowfare",
+                "starttime"
+            ]
+        }
+    ],
+    "variables": [
+        "INF",
+        "tonum",
+        "timetable",
+        "toT",
+        "fromT",
+        "toH",
+        "fromH",
+        "pass",
+        "Tnum",
+        "Hnum",
+        "citysize",
+        "timesize",
+        "from",
+        "to",
+        "begin",
+        "end",
+        "fare",
+        "nowpoint",
+        "nowtime",
+        "nowfare",
+        "starttime",
+        "sc",
+        "n",
+        "inputdata",
+        "timedata",
+        "i",
+        "inputline",
+        "h1",
+        "m1",
+        "h2",
+        "m2",
+        "time1",
+        "time2",
+        "num",
+        "ans",
+        "fromTInd",
+        "toTInd",
+        "fromHInd",
+        "toHInd",
+        "lastArrive",
+        "fastleave",
+        "open",
+        "close",
+        "now",
+        "toobj",
+        "cond1",
+        "nextpoint",
+        "nexttime",
+        "nextfare",
+        "nextstarttime",
+        "next",
+        "nexttimeInd",
+        "j",
+        "endtime",
+        "obj"
+    ],
+    "method_calls": [
+        {
+            "name": "get",
+            "qualifier": "tonum"
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "get",
+            "qualifier": "tonum"
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextLine",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextLine",
+            "qualifier": "sc"
+        },
+        {
+            "name": "split",
+            "qualifier": null
+        },
+        {
+            "name": "containsKey",
+            "qualifier": "tonum"
+        },
+        {
+            "name": "put",
+            "qualifier": "tonum"
+        },
+        {
+            "name": "size",
+            "qualifier": "tonum"
+        },
+        {
+            "name": "containsKey",
+            "qualifier": "tonum"
+        },
+        {
+            "name": "put",
+            "qualifier": "tonum"
+        },
+        {
+            "name": "size",
+            "qualifier": "tonum"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "parseInt",
+            "qualifier": "Integer"
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "timedata"
+        },
+        {
+            "name": "add",
+            "qualifier": "timedata"
+        },
+        {
+            "name": "sort",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "put",
+            "qualifier": "timetable"
+        },
+        {
+            "name": "size",
+            "qualifier": "timetable"
+        },
+        {
+            "name": "size",
+            "qualifier": "tonum"
+        },
+        {
+            "name": "size",
+            "qualifier": "timetable"
+        },
+        {
+            "name": "add",
+            "qualifier": "pass"
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "pass"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "tonum"
+        },
+        {
+            "name": "get",
+            "qualifier": "tonum"
+        },
+        {
+            "name": "add",
+            "qualifier": "fromT"
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "toT"
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "fromH"
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "toH"
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "fromTermination",
+            "qualifier": ""
+        },
+        {
+            "name": "toTermination",
+            "qualifier": ""
+        },
+        {
+            "name": "fromTermination",
+            "qualifier": ""
+        },
+        {
+            "name": "toTermination",
+            "qualifier": ""
+        },
+        {
+            "name": "size",
+            "qualifier": "fromT"
+        },
+        {
+            "name": "size",
+            "qualifier": "toT"
+        },
+        {
+            "name": "size",
+            "qualifier": "fromH"
+        },
+        {
+            "name": "size",
+            "qualifier": "toH"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "get",
+            "qualifier": "fromT"
+        },
+        {
+            "name": "get",
+            "qualifier": "fromH"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "get",
+            "qualifier": "toT"
+        },
+        {
+            "name": "get",
+            "qualifier": "toH"
+        },
+        {
+            "name": "get",
+            "qualifier": "fromT"
+        },
+        {
+            "name": "get",
+            "qualifier": "fromH"
+        },
+        {
+            "name": "get",
+            "qualifier": "toT"
+        },
+        {
+            "name": "get",
+            "qualifier": "toH"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "add",
+            "qualifier": "open"
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "open"
+        },
+        {
+            "name": "poll",
+            "qualifier": "open"
+        },
+        {
+            "name": "get",
+            "qualifier": "pass"
+        },
+        {
+            "name": "size",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "pass"
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "timetable"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "add",
+            "qualifier": "fromT"
+        },
+        {
+            "name": "add",
+            "qualifier": "fromH"
+        },
+        {
+            "name": "add",
+            "qualifier": "open"
+        },
+        {
+            "name": "calcTime",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "open"
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "open"
+        },
+        {
+            "name": "poll",
+            "qualifier": "open"
+        },
+        {
+            "name": "get",
+            "qualifier": "pass"
+        },
+        {
+            "name": "size",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "pass"
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "timetable"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "add",
+            "qualifier": "toT"
+        },
+        {
+            "name": "add",
+            "qualifier": "toH"
+        },
+        {
+            "name": "add",
+            "qualifier": "open"
+        },
+        {
+            "name": "doit",
+            "qualifier": "obj"
+        }
+    ],
+    "control_statements": [
+        "if",
+        "while",
+        "for"
+    ]
+}

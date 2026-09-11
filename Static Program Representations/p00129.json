@@ -1,0 +1,321 @@
+{
+    "program_id": "p00129",
+    "file": "p00129.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "Point",
+        "Line",
+        "C"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "toString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "distanceSP",
+            "return_type": "double",
+            "parameters": [
+                "s",
+                "p"
+            ]
+        },
+        {
+            "name": "intersectSP",
+            "return_type": "boolean",
+            "parameters": [
+                "s",
+                "p"
+            ]
+        },
+        {
+            "name": "ccw",
+            "return_type": "int",
+            "parameters": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        {
+            "name": "sub",
+            "return_type": "Point",
+            "parameters": [
+                "p1",
+                "p2"
+            ]
+        },
+        {
+            "name": "inp",
+            "return_type": "double",
+            "parameters": [
+                "p1",
+                "p2"
+            ]
+        },
+        {
+            "name": "extp",
+            "return_type": "double",
+            "parameters": [
+                "p1",
+                "p2"
+            ]
+        },
+        {
+            "name": "norm",
+            "return_type": "double",
+            "parameters": [
+                "p"
+            ]
+        },
+        {
+            "name": "proj",
+            "return_type": "Point",
+            "parameters": [
+                "l",
+                "p"
+            ]
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "Point",
+            "parameters": [
+                "x_",
+                "y_"
+            ]
+        },
+        {
+            "name": "Line",
+            "parameters": [
+                "s_",
+                "t_"
+            ]
+        },
+        {
+            "name": "C",
+            "parameters": [
+                "center",
+                "r"
+            ]
+        }
+    ],
+    "variables": [
+        "x",
+        "y",
+        "s",
+        "t",
+        "r",
+        "p",
+        "q",
+        "EPS",
+        "tp",
+        "center",
+        "sc",
+        "n",
+        "c",
+        "i",
+        "m",
+        "u",
+        "v",
+        "line",
+        "danger",
+        "dsp",
+        "n1",
+        "n2"
+    ],
+    "method_calls": [
+        {
+            "name": "toString",
+            "qualifier": "s"
+        },
+        {
+            "name": "toString",
+            "qualifier": "t"
+        },
+        {
+            "name": "proj",
+            "qualifier": ""
+        },
+        {
+            "name": "intersectSP",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "ccw",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "extp",
+            "qualifier": ""
+        },
+        {
+            "name": "extp",
+            "qualifier": ""
+        },
+        {
+            "name": "inp",
+            "qualifier": ""
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "hypot",
+            "qualifier": "Math"
+        },
+        {
+            "name": "inp",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "pow",
+            "qualifier": "Math"
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "sub",
+            "qualifier": ""
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "distanceSP",
+            "qualifier": ""
+        },
+        {
+            "name": "distanceSP",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        }
+    ],
+    "control_statements": [
+        "if",
+        "while",
+        "for"
+    ]
+}

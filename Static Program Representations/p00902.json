@@ -1,0 +1,620 @@
+{
+    "program_id": "p00902",
+    "file": "p00902.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "Circle",
+        "P"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "run",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "solve",
+            "return_type": null,
+            "parameters": [
+                "n",
+                "R",
+                "x",
+                "y",
+                "r",
+                "cs"
+            ]
+        },
+        {
+            "name": "encircleAll",
+            "return_type": "boolean",
+            "parameters": [
+                "cs",
+                "en"
+            ]
+        },
+        {
+            "name": "noDumy",
+            "return_type": "boolean",
+            "parameters": [
+                "cs",
+                "c",
+                "enC"
+            ]
+        },
+        {
+            "name": "compare",
+            "return_type": "int",
+            "parameters": [
+                "o1",
+                "o2"
+            ]
+        },
+        {
+            "name": "calc",
+            "return_type": "ArrayList",
+            "parameters": [
+                "c1",
+                "c2",
+                "R"
+            ]
+        },
+        {
+            "name": "norm",
+            "return_type": "double",
+            "parameters": []
+        },
+        {
+            "name": "normalize",
+            "return_type": "P",
+            "parameters": []
+        },
+        {
+            "name": "add",
+            "return_type": "P",
+            "parameters": [
+                "p"
+            ]
+        },
+        {
+            "name": "sub",
+            "return_type": "P",
+            "parameters": [
+                "p"
+            ]
+        },
+        {
+            "name": "mul",
+            "return_type": "P",
+            "parameters": [
+                "coe"
+            ]
+        },
+        {
+            "name": "dist",
+            "return_type": "double",
+            "parameters": [
+                "p"
+            ]
+        },
+        {
+            "name": "rot",
+            "return_type": "P",
+            "parameters": [
+                "ang"
+            ]
+        },
+        {
+            "name": "crossPrd",
+            "return_type": "double",
+            "parameters": [
+                "p"
+            ]
+        },
+        {
+            "name": "innerPrd",
+            "return_type": "double",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "ang",
+            "return_type": "double",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "compareTo",
+            "return_type": "int",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "tr",
+            "return_type": null,
+            "parameters": [
+                "objects"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "Circle",
+            "parameters": [
+                "center",
+                "r"
+            ]
+        },
+        {
+            "name": "Circle",
+            "parameters": [
+                "center",
+                "r",
+                "idx"
+            ]
+        },
+        {
+            "name": "P",
+            "parameters": [
+                "x",
+                "y"
+            ]
+        }
+    ],
+    "variables": [
+        "sc",
+        "n",
+        "R",
+        "x",
+        "y",
+        "r",
+        "cs",
+        "i",
+        "curIdx",
+        "preIdx",
+        "dirIdx",
+        "enCs",
+        "j",
+        "tmp",
+        "c",
+        "k",
+        "ans",
+        "nIdx",
+        "nDirIdx",
+        "totAng",
+        "candAng",
+        "curAng",
+        "curAng2",
+        "candAng2",
+        "ang",
+        "lis",
+        "a",
+        "cand",
+        "center",
+        "idx",
+        "C1",
+        "C2",
+        "ret",
+        "d",
+        "cos",
+        "p12",
+        "midP",
+        "h",
+        "s"
+    ],
+    "method_calls": [
+        {
+            "name": "run",
+            "qualifier": null
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextDouble",
+            "qualifier": "sc"
+        },
+        {
+            "name": "solve",
+            "qualifier": ""
+        },
+        {
+            "name": "dist",
+            "qualifier": null
+        },
+        {
+            "name": "dist",
+            "qualifier": null
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "max",
+            "qualifier": "Math"
+        },
+        {
+            "name": "calc",
+            "qualifier": ""
+        },
+        {
+            "name": "encircleAll",
+            "qualifier": ""
+        },
+        {
+            "name": "noDumy",
+            "qualifier": ""
+        },
+        {
+            "name": "noDumy",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "size",
+            "qualifier": null
+        },
+        {
+            "name": "encircleAll",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "size",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "ang",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "ang",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "ang",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "ang",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "ang",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": null
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "dist",
+            "qualifier": "en.center"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "dist",
+            "qualifier": "a.center"
+        },
+        {
+            "name": "add",
+            "qualifier": "lis"
+        },
+        {
+            "name": "sort",
+            "qualifier": "Collections"
+        },
+        {
+            "name": "compare",
+            "qualifier": "Double"
+        },
+        {
+            "name": "sub",
+            "qualifier": "o1.center"
+        },
+        {
+            "name": "crossPrd",
+            "qualifier": null
+        },
+        {
+            "name": "sub",
+            "qualifier": "o2.center"
+        },
+        {
+            "name": "add",
+            "qualifier": "cand"
+        },
+        {
+            "name": "get",
+            "qualifier": "lis"
+        },
+        {
+            "name": "add",
+            "qualifier": "cand"
+        },
+        {
+            "name": "get",
+            "qualifier": "lis"
+        },
+        {
+            "name": "size",
+            "qualifier": "lis"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "dist",
+            "qualifier": "C1.center"
+        },
+        {
+            "name": "sub",
+            "qualifier": "C2.center"
+        },
+        {
+            "name": "add",
+            "qualifier": "C1.center"
+        },
+        {
+            "name": "normalize",
+            "qualifier": "p12"
+        },
+        {
+            "name": "mul",
+            "qualifier": null
+        },
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "add",
+            "qualifier": "ret"
+        },
+        {
+            "name": "add",
+            "qualifier": "midP"
+        },
+        {
+            "name": "normalize",
+            "qualifier": "p12"
+        },
+        {
+            "name": "rot",
+            "qualifier": null
+        },
+        {
+            "name": "mul",
+            "qualifier": null
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "add",
+            "qualifier": "ret"
+        },
+        {
+            "name": "add",
+            "qualifier": "midP"
+        },
+        {
+            "name": "normalize",
+            "qualifier": "p12"
+        },
+        {
+            "name": "rot",
+            "qualifier": null
+        },
+        {
+            "name": "mul",
+            "qualifier": null
+        },
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "mul",
+            "qualifier": null
+        },
+        {
+            "name": "norm",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "mul",
+            "qualifier": "p"
+        },
+        {
+            "name": "sqrt",
+            "qualifier": "Math"
+        },
+        {
+            "name": "cos",
+            "qualifier": "Math"
+        },
+        {
+            "name": "sin",
+            "qualifier": "Math"
+        },
+        {
+            "name": "innerPrd",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": ""
+        },
+        {
+            "name": "norm",
+            "qualifier": "o"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "signum",
+            "qualifier": "Math"
+        },
+        {
+            "name": "acos",
+            "qualifier": "Math"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "compare",
+            "qualifier": "Double"
+        },
+        {
+            "name": "compare",
+            "qualifier": "Double"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "deepToString",
+            "qualifier": "Arrays"
+        }
+    ],
+    "control_statements": [
+        "while",
+        "if",
+        "for",
+        "do-while"
+    ]
+}

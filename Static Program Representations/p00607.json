@@ -1,0 +1,717 @@
+{
+    "program_id": "p00607",
+    "file": "p00607.java",
+    "package": null,
+    "classes": [
+        "Main"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "giveTextLine",
+            "return_type": "ArrayList",
+            "parameters": []
+        },
+        {
+            "name": "giveCommand",
+            "return_type": "ArrayList",
+            "parameters": []
+        },
+        {
+            "name": "modifyText",
+            "return_type": null,
+            "parameters": [
+                "inputText",
+                "inputCommand"
+            ]
+        },
+        {
+            "name": "remove",
+            "return_type": "String",
+            "parameters": [
+                "str",
+                "removeIndex"
+            ]
+        },
+        {
+            "name": "insert",
+            "return_type": "String",
+            "parameters": [
+                "str",
+                "insertIndex"
+            ]
+        },
+        {
+            "name": "editA",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "editE",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "editP",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "editN",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "editF",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "editB",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "editD",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "editK",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "editY",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "currentLineString",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "replaceLine",
+            "return_type": null,
+            "parameters": [
+                "index",
+                "str"
+            ]
+        },
+        {
+            "name": "replaceCurrentLine",
+            "return_type": null,
+            "parameters": [
+                "str"
+            ]
+        },
+        {
+            "name": "insertLine",
+            "return_type": null,
+            "parameters": [
+                "index",
+                "str"
+            ]
+        },
+        {
+            "name": "insertInCurrentLine",
+            "return_type": null,
+            "parameters": [
+                "str"
+            ]
+        },
+        {
+            "name": "isLastLine",
+            "return_type": "boolean",
+            "parameters": []
+        },
+        {
+            "name": "isLastLine",
+            "return_type": "boolean",
+            "parameters": [
+                "i"
+            ]
+        },
+        {
+            "name": "isLastRow",
+            "return_type": "boolean",
+            "parameters": []
+        },
+        {
+            "name": "lastLine",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "isEOL",
+            "return_type": "boolean",
+            "parameters": []
+        }
+    ],
+    "constructors": [],
+    "variables": [
+        "MAXINPUTLINE",
+        "MAXINPUTCOMMAND",
+        "MAXMODIFIEDTEXTLINE",
+        "MAXMODIFIERTEXTCHAR",
+        "ENDOFLINE",
+        "scan",
+        "modifyingText",
+        "buffer",
+        "cursorLocLine",
+        "cursorLocRow",
+        "inputText",
+        "inputCommand",
+        "i",
+        "outLen",
+        "input",
+        "builder",
+        "movingText"
+    ],
+    "method_calls": [
+        {
+            "name": "giveTextLine",
+            "qualifier": ""
+        },
+        {
+            "name": "giveCommand",
+            "qualifier": ""
+        },
+        {
+            "name": "modifyText",
+            "qualifier": ""
+        },
+        {
+            "name": "size",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "get",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "length",
+            "qualifier": null
+        },
+        {
+            "name": "print",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "get",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "substring",
+            "qualifier": null
+        },
+        {
+            "name": "nextLine",
+            "qualifier": "scan"
+        },
+        {
+            "name": "equals",
+            "qualifier": "input"
+        },
+        {
+            "name": "add",
+            "qualifier": "inputText"
+        },
+        {
+            "name": "nextLine",
+            "qualifier": "scan"
+        },
+        {
+            "name": "equals",
+            "qualifier": "input"
+        },
+        {
+            "name": "add",
+            "qualifier": "inputCommand"
+        },
+        {
+            "name": "size",
+            "qualifier": "inputText"
+        },
+        {
+            "name": "add",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "get",
+            "qualifier": "inputText"
+        },
+        {
+            "name": "size",
+            "qualifier": "inputCommand"
+        },
+        {
+            "name": "get",
+            "qualifier": "inputCommand"
+        },
+        {
+            "name": "equals",
+            "qualifier": null
+        },
+        {
+            "name": "editA",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "inputCommand"
+        },
+        {
+            "name": "equals",
+            "qualifier": null
+        },
+        {
+            "name": "editE",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "inputCommand"
+        },
+        {
+            "name": "equals",
+            "qualifier": null
+        },
+        {
+            "name": "editP",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "inputCommand"
+        },
+        {
+            "name": "equals",
+            "qualifier": null
+        },
+        {
+            "name": "editN",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "inputCommand"
+        },
+        {
+            "name": "equals",
+            "qualifier": null
+        },
+        {
+            "name": "editF",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "inputCommand"
+        },
+        {
+            "name": "equals",
+            "qualifier": null
+        },
+        {
+            "name": "editB",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "inputCommand"
+        },
+        {
+            "name": "equals",
+            "qualifier": null
+        },
+        {
+            "name": "editD",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "inputCommand"
+        },
+        {
+            "name": "equals",
+            "qualifier": null
+        },
+        {
+            "name": "editK",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "inputCommand"
+        },
+        {
+            "name": "equals",
+            "qualifier": null
+        },
+        {
+            "name": "editY",
+            "qualifier": ""
+        },
+        {
+            "name": "deleteCharAt",
+            "qualifier": "builder"
+        },
+        {
+            "name": "toString",
+            "qualifier": null
+        },
+        {
+            "name": "length",
+            "qualifier": "builder"
+        },
+        {
+            "name": "append",
+            "qualifier": "builder"
+        },
+        {
+            "name": "toString",
+            "qualifier": null
+        },
+        {
+            "name": "insert",
+            "qualifier": "builder"
+        },
+        {
+            "name": "toString",
+            "qualifier": null
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "length",
+            "qualifier": null
+        },
+        {
+            "name": "isLastLine",
+            "qualifier": ""
+        },
+        {
+            "name": "isLastRow",
+            "qualifier": ""
+        },
+        {
+            "name": "isLastLine",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "length",
+            "qualifier": null
+        },
+        {
+            "name": "isLastRow",
+            "qualifier": ""
+        },
+        {
+            "name": "replaceCurrentLine",
+            "qualifier": ""
+        },
+        {
+            "name": "remove",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "length",
+            "qualifier": null
+        },
+        {
+            "name": "remove",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "isLastLine",
+            "qualifier": ""
+        },
+        {
+            "name": "replaceCurrentLine",
+            "qualifier": ""
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "replaceCurrentLine",
+            "qualifier": ""
+        },
+        {
+            "name": "remove",
+            "qualifier": ""
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "remove",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "isLastRow",
+            "qualifier": ""
+        },
+        {
+            "name": "isLastLine",
+            "qualifier": ""
+        },
+        {
+            "name": "replaceCurrentLine",
+            "qualifier": ""
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "replaceCurrentLine",
+            "qualifier": ""
+        },
+        {
+            "name": "remove",
+            "qualifier": ""
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "size",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "isLastLine",
+            "qualifier": ""
+        },
+        {
+            "name": "replaceLine",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "remove",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "lastLine",
+            "qualifier": ""
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "substring",
+            "qualifier": null
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "length",
+            "qualifier": null
+        },
+        {
+            "name": "replaceCurrentLine",
+            "qualifier": ""
+        },
+        {
+            "name": "replaceCurrentLine",
+            "qualifier": ""
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "substring",
+            "qualifier": null
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "length",
+            "qualifier": null
+        },
+        {
+            "name": "equals",
+            "qualifier": "buffer"
+        },
+        {
+            "name": "isLastRow",
+            "qualifier": ""
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "substring",
+            "qualifier": null
+        },
+        {
+            "name": "replaceCurrentLine",
+            "qualifier": ""
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "substring",
+            "qualifier": null
+        },
+        {
+            "name": "insertLine",
+            "qualifier": ""
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "substring",
+            "qualifier": null
+        },
+        {
+            "name": "insertLine",
+            "qualifier": ""
+        },
+        {
+            "name": "replaceCurrentLine",
+            "qualifier": ""
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "substring",
+            "qualifier": null
+        },
+        {
+            "name": "replaceCurrentLine",
+            "qualifier": ""
+        },
+        {
+            "name": "replaceCurrentLine",
+            "qualifier": ""
+        },
+        {
+            "name": "insert",
+            "qualifier": ""
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "length",
+            "qualifier": "buffer"
+        },
+        {
+            "name": "get",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "set",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "set",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "add",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "add",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "size",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "size",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "get",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "length",
+            "qualifier": null
+        },
+        {
+            "name": "size",
+            "qualifier": "modifyingText"
+        },
+        {
+            "name": "valueOf",
+            "qualifier": "String"
+        },
+        {
+            "name": "equals",
+            "qualifier": null
+        },
+        {
+            "name": "currentLineString",
+            "qualifier": ""
+        },
+        {
+            "name": "charAt",
+            "qualifier": null
+        }
+    ],
+    "control_statements": [
+        "for",
+        "if"
+    ]
+}

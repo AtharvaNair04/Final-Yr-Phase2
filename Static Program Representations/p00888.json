@@ -1,0 +1,313 @@
+{
+    "program_id": "p00888",
+    "file": "p00888.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "State"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "compareTo",
+            "return_type": "int",
+            "parameters": [
+                "o"
+            ]
+        },
+        {
+            "name": "doit",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "getX",
+            "return_type": "double",
+            "parameters": [
+                "l1",
+                "y"
+            ]
+        },
+        {
+            "name": "angle",
+            "return_type": "int",
+            "parameters": [
+                "l1"
+            ]
+        },
+        {
+            "name": "between",
+            "return_type": "boolean",
+            "parameters": [
+                "l1",
+                "y"
+            ]
+        },
+        {
+            "name": "solve",
+            "return_type": "double",
+            "parameters": [
+                "plist"
+            ]
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "State",
+            "parameters": [
+                "now1",
+                "now2",
+                "cost"
+            ]
+        }
+    ],
+    "variables": [
+        "INF",
+        "EPS",
+        "n",
+        "now1",
+        "now2",
+        "cost",
+        "sc",
+        "data",
+        "ylist",
+        "i",
+        "x",
+        "y",
+        "yylist",
+        "ind",
+        "plist",
+        "l1",
+        "a",
+        "j",
+        "ans",
+        "x0",
+        "x1",
+        "y0",
+        "y1",
+        "res",
+        "len",
+        "open",
+        "close",
+        "now",
+        "next1",
+        "next2",
+        "value",
+        "value2",
+        "nextcost"
+    ],
+    "method_calls": [
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "add",
+            "qualifier": "ylist"
+        },
+        {
+            "name": "size",
+            "qualifier": "ylist"
+        },
+        {
+            "name": "sort",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "add",
+            "qualifier": "plist"
+        },
+        {
+            "name": "angle",
+            "qualifier": ""
+        },
+        {
+            "name": "between",
+            "qualifier": ""
+        },
+        {
+            "name": "getX",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "plist"
+        },
+        {
+            "name": "between",
+            "qualifier": ""
+        },
+        {
+            "name": "getX",
+            "qualifier": ""
+        },
+        {
+            "name": "add",
+            "qualifier": "plist"
+        },
+        {
+            "name": "add",
+            "qualifier": "plist"
+        },
+        {
+            "name": "solve",
+            "qualifier": ""
+        },
+        {
+            "name": "printf",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "getX1",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getX2",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getY1",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getY2",
+            "qualifier": "l1"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "getY1",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getY2",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getY2",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getY1",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getX2",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getX1",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getY1",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getY2",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getY2",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getY1",
+            "qualifier": "l1"
+        },
+        {
+            "name": "size",
+            "qualifier": "plist"
+        },
+        {
+            "name": "add",
+            "qualifier": "open"
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "open"
+        },
+        {
+            "name": "poll",
+            "qualifier": "open"
+        },
+        {
+            "name": "min",
+            "qualifier": "Math"
+        },
+        {
+            "name": "abs",
+            "qualifier": "Math"
+        },
+        {
+            "name": "get",
+            "qualifier": "plist"
+        },
+        {
+            "name": "getY",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "plist"
+        },
+        {
+            "name": "getY",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "plist"
+        },
+        {
+            "name": "distance",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "plist"
+        },
+        {
+            "name": "get",
+            "qualifier": "plist"
+        },
+        {
+            "name": "distance",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": "plist"
+        },
+        {
+            "name": "add",
+            "qualifier": "open"
+        },
+        {
+            "name": "doit",
+            "qualifier": null
+        }
+    ],
+    "control_statements": [
+        "if",
+        "while",
+        "for"
+    ]
+}

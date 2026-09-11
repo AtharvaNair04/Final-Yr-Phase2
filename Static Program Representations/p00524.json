@@ -1,0 +1,455 @@
+{
+    "program_id": "p00524",
+    "file": "p00524.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "G",
+        "AL",
+        "InputReader"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "solve",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "addEdge",
+            "return_type": null,
+            "parameters": [
+                "u",
+                "v",
+                "t"
+            ]
+        },
+        {
+            "name": "addEdge",
+            "return_type": null,
+            "parameters": [
+                "u",
+                "v"
+            ]
+        },
+        {
+            "name": "to",
+            "return_type": "int",
+            "parameters": [
+                "from",
+                "ind"
+            ]
+        },
+        {
+            "name": "cost",
+            "return_type": "int",
+            "parameters": [
+                "from",
+                "ind"
+            ]
+        },
+        {
+            "name": "size",
+            "return_type": "int",
+            "parameters": [
+                "from"
+            ]
+        },
+        {
+            "name": "dijkstra",
+            "return_type": "long[]",
+            "parameters": [
+                "s",
+                "x"
+            ]
+        },
+        {
+            "name": "compare",
+            "return_type": "int",
+            "parameters": [
+                "a",
+                "b"
+            ]
+        },
+        {
+            "name": "hasNextByte",
+            "return_type": "boolean",
+            "parameters": []
+        },
+        {
+            "name": "readByte",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "isSpaceChar",
+            "return_type": "boolean",
+            "parameters": [
+                "c"
+            ]
+        },
+        {
+            "name": "skip",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "hasNext",
+            "return_type": "boolean",
+            "parameters": []
+        },
+        {
+            "name": "next",
+            "return_type": "String",
+            "parameters": []
+        },
+        {
+            "name": "nextInt",
+            "return_type": "int",
+            "parameters": []
+        },
+        {
+            "name": "nextLong",
+            "return_type": "long",
+            "parameters": []
+        },
+        {
+            "name": "nextDouble",
+            "return_type": "double",
+            "parameters": []
+        },
+        {
+            "name": "nextIntArray",
+            "return_type": "int[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nextLongArray",
+            "return_type": "long[]",
+            "parameters": [
+                "n"
+            ]
+        },
+        {
+            "name": "nextCharMap",
+            "return_type": "char[][]",
+            "parameters": [
+                "n",
+                "m"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "G",
+            "parameters": [
+                "V",
+                "ndir",
+                "H"
+            ]
+        },
+        {
+            "name": "InputReader",
+            "parameters": [
+                "in"
+            ]
+        }
+    ],
+    "variables": [
+        "out",
+        "ir",
+        "n",
+        "m",
+        "x",
+        "H",
+        "g",
+        "i",
+        "from",
+        "to",
+        "cost",
+        "d",
+        "rg",
+        "V",
+        "ndir",
+        "dist",
+        "pque",
+        "p",
+        "v",
+        "h",
+        "re",
+        "nh",
+        "in",
+        "buffer",
+        "curbuf",
+        "lenbuf",
+        "sb",
+        "b",
+        "c",
+        "minus",
+        "res",
+        "a",
+        "map"
+    ],
+    "method_calls": [
+        {
+            "name": "nextInt",
+            "qualifier": "ir"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "ir"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "ir"
+        },
+        {
+            "name": "nextIntArray",
+            "qualifier": "ir"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "ir"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "ir"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "ir"
+        },
+        {
+            "name": "addEdge",
+            "qualifier": "g"
+        },
+        {
+            "name": "dijkstra",
+            "qualifier": "g"
+        },
+        {
+            "name": "println",
+            "qualifier": "out"
+        },
+        {
+            "name": "println",
+            "qualifier": "out"
+        },
+        {
+            "name": "println",
+            "qualifier": "out"
+        },
+        {
+            "name": "solve",
+            "qualifier": ""
+        },
+        {
+            "name": "flush",
+            "qualifier": "out"
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "add",
+            "qualifier": null
+        },
+        {
+            "name": "addEdge",
+            "qualifier": ""
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "get",
+            "qualifier": null
+        },
+        {
+            "name": "size",
+            "qualifier": null
+        },
+        {
+            "name": "compare",
+            "qualifier": "Long"
+        },
+        {
+            "name": "fill",
+            "qualifier": "Arrays"
+        },
+        {
+            "name": "offer",
+            "qualifier": "pque"
+        },
+        {
+            "name": "isEmpty",
+            "qualifier": "pque"
+        },
+        {
+            "name": "poll",
+            "qualifier": "pque"
+        },
+        {
+            "name": "size",
+            "qualifier": null
+        },
+        {
+            "name": "to",
+            "qualifier": ""
+        },
+        {
+            "name": "cost",
+            "qualifier": ""
+        },
+        {
+            "name": "offer",
+            "qualifier": "pque"
+        },
+        {
+            "name": "read",
+            "qualifier": "in"
+        },
+        {
+            "name": "hasNextByte",
+            "qualifier": ""
+        },
+        {
+            "name": "hasNextByte",
+            "qualifier": ""
+        },
+        {
+            "name": "isSpaceChar",
+            "qualifier": ""
+        },
+        {
+            "name": "skip",
+            "qualifier": ""
+        },
+        {
+            "name": "hasNextByte",
+            "qualifier": ""
+        },
+        {
+            "name": "hasNext",
+            "qualifier": ""
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "isSpaceChar",
+            "qualifier": ""
+        },
+        {
+            "name": "appendCodePoint",
+            "qualifier": "sb"
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "toString",
+            "qualifier": "sb"
+        },
+        {
+            "name": "hasNext",
+            "qualifier": ""
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "isSpaceChar",
+            "qualifier": ""
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "isSpaceChar",
+            "qualifier": ""
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "hasNext",
+            "qualifier": ""
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "isSpaceChar",
+            "qualifier": ""
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "isSpaceChar",
+            "qualifier": ""
+        },
+        {
+            "name": "readByte",
+            "qualifier": ""
+        },
+        {
+            "name": "parseDouble",
+            "qualifier": "Double"
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "nextInt",
+            "qualifier": ""
+        },
+        {
+            "name": "nextLong",
+            "qualifier": ""
+        },
+        {
+            "name": "next",
+            "qualifier": ""
+        },
+        {
+            "name": "toCharArray",
+            "qualifier": null
+        }
+    ],
+    "control_statements": [
+        "for",
+        "if",
+        "while",
+        "try",
+        "do-while"
+    ]
+}
