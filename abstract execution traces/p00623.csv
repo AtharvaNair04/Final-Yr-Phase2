@@ -1,0 +1,379 @@
+Thread Start,main (1)
+Method Call,caller=SYSTEM,target=Main#main:1
+New Object,object=java.lang.String[]:1
+Variable Write,context=Main#main:1,args=java.lang.String[]:1
+New Object,object=Main:1
+Method Call,caller=Main#main:1,target=Main:1#Main:1
+Method Exit,returner=Main:1#Main:1,value=<void>
+Variable Write,context=Main#main:1,obj=Main:1
+Method Call,caller=Main#main:1,target=Main:1#doit:1
+Variable Write,context=Main:1#doit:1,sc=java.util.Scanner (id=364)
+Field Write,context=Main:1,str=(1 2)
+Field Read,context=Main:1,str
+Field Read,context=Main:1,str
+Field Write,context=Main:1,str=(1 2)#
+Field Write,context=Main:1,pos=0
+Variable Write,context=Main:1#doit:1,n=2
+New Object,object=int[]:1
+Field Write,context=int[]:1,0=0
+Field Write,context=int[]:1,1=0
+Field Write,context=Main:1,data=int[]:1
+Variable Write,context=Main:1#doit:1,i=0
+Variable Write,context=Main:1#doit:1,num=0
+Variable Write,context=Main:1#doit:1,j=0
+Variable Write,context=Main:1#doit:1,temp=0
+Variable Write,context=Main:1#doit:1,num=0
+Variable Write,context=Main:1#doit:1,j=1
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=1
+Variable Write,context=Main:1#doit:1,num=1
+Variable Write,context=Main:1#doit:1,j=2
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=0
+Variable Write,context=Main:1#doit:1,num=2
+Variable Write,context=Main:1#doit:1,j=3
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=1
+Variable Write,context=Main:1#doit:1,num=5
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main:1,data
+Variable Delete,method=Main:1#doit:1 <name=j,type=int (id=7),value=<?>,index=4>
+Field Write,context=int[]:1,0=5
+Variable Write,context=Main:1#doit:1,i=1
+Variable Delete,method=Main:1#doit:1 <name=num,type=int (id=7),value=<?>,index=3>
+Variable Write,context=Main:1#doit:1,num=0
+Variable Write,context=Main:1#doit:1,j=0
+Variable Write,context=Main:1#doit:1,temp=1
+Variable Write,context=Main:1#doit:1,num=1
+Variable Write,context=Main:1#doit:1,j=1
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=0
+Variable Write,context=Main:1#doit:1,num=2
+Variable Write,context=Main:1#doit:1,j=2
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=1
+Variable Write,context=Main:1#doit:1,num=5
+Variable Write,context=Main:1#doit:1,j=3
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=0
+Variable Write,context=Main:1#doit:1,num=10
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main:1,data
+Variable Delete,method=Main:1#doit:1 <name=j,type=int (id=7),value=<?>,index=4>
+Field Write,context=int[]:1,1=10
+Variable Delete,method=Main:1#doit:1 <name=num,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main:1#doit:1 <name=i,type=int (id=7),value=<?>,index=2>
+Variable Write,context=Main:1#doit:1,res=java.util.TreeMap (id=368)
+Method Call,caller=Main:1#doit:1,target=Main:1#fact:1
+Field Read,context=Main:1,str
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=1
+Variable Write,context=Main:1#fact:1,c=(
+Variable Write,context=Main:1#fact:1,res=java.util.TreeMap (id=370)
+Method Call,caller=Main:1#fact:1,target=Main:1#fact:2
+Field Read,context=Main:1,str
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=2
+Variable Write,context=Main:1#fact:2,c=1
+Variable Write,context=Main:1#fact:2,res=java.util.TreeMap (id=371)
+Variable Write,context=Main:1#fact:2,ind=0
+Field Read,context=Main:1,data
+Variable Write,context=Main:1#fact:2,num=5
+Variable Write,context=Main:1#fact:2,result=java.util.TreeMap (id=371)
+Method Exit,returner=Main:1#fact:2,value=java.util.TreeMap (id=371)
+Variable Write,context=Main:1#fact:1,right=java.util.TreeMap (id=371)
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=3
+Method Call,caller=Main:1#fact:1,target=Main:1#fact:3
+Field Read,context=Main:1,str
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=4
+Variable Write,context=Main:1#fact:3,c=2
+Variable Write,context=Main:1#fact:3,res=java.util.TreeMap (id=372)
+Variable Write,context=Main:1#fact:3,ind=1
+Field Read,context=Main:1,data
+Variable Write,context=Main:1#fact:3,num=10
+Variable Write,context=Main:1#fact:3,result=java.util.TreeMap (id=372)
+Method Exit,returner=Main:1#fact:3,value=java.util.TreeMap (id=372)
+Variable Write,context=Main:1#fact:1,left=java.util.TreeMap (id=372)
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=5
+Variable Write,context=Main:1#fact:1,r=5
+Variable Write,context=Main:1#fact:1,l=10
+Variable Write,context=Main:1#fact:1,i=0
+Variable Write,context=Main:1#fact:1,res2=-1
+Variable Write,context=Main:1#fact:1,res2=0
+Variable Write,context=Main:1#fact:1,sum=1
+Variable Write,context=Main:1#fact:1,i=1
+Variable Delete,method=Main:1#fact:1 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:1 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Write,context=Main:1#fact:1,res2=-1
+Variable Write,context=Main:1#fact:1,res2=15
+Variable Write,context=Main:1#fact:1,sum=1
+Variable Write,context=Main:1#fact:1,i=2
+Variable Delete,method=Main:1#fact:1 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:1 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Write,context=Main:1#fact:1,res2=-1
+Variable Write,context=Main:1#fact:1,res2=15
+Variable Write,context=Main:1#fact:1,sum=1
+Variable Write,context=Main:1#fact:1,count=2
+Variable Delete,method=Main:1#fact:1 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:1 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Delete,method=Main:1#fact:1 <name=count,type=int (id=7),value=<?>,index=11>
+Variable Delete,method=Main:1#fact:1 <name=i,type=int (id=7),value=<?>,index=8>
+Variable Delete,method=Main:1#fact:1 <name=l,type=int (id=7),value=<?>,index=7>
+Variable Write,context=Main:1#fact:1,result=java.util.TreeMap (id=370)
+Method Exit,returner=Main:1#fact:1,value=java.util.TreeMap (id=370)
+Variable Write,context=Main:1#doit:1,res=java.util.TreeMap (id=370)
+Variable Write,context=Main:1#doit:1,lastind=15
+Field Write,context=Main:1,str=((1 2) 3)
+Variable Delete,method=Main:1#doit:1 <name=n,type=int (id=7),value=<?>,index=1>
+Variable Delete,method=Main:1#doit:1 <name=res,type=java.util.TreeMap (unresolved),value=<?>,index=6>
+Variable Delete,method=Main:1#doit:1 <name=lastind,type=int (id=7),value=<?>,index=7>
+Field Read,context=Main:1,str
+Field Read,context=Main:1,str
+Field Write,context=Main:1,str=((1 2) 3)#
+Field Write,context=Main:1,pos=0
+Variable Write,context=Main:1#doit:1,n=3
+New Object,object=int[]:2
+Field Write,context=int[]:2,0=0
+Field Write,context=int[]:2,1=0
+Field Write,context=int[]:2,2=0
+Field Write,context=Main:1,data=int[]:2
+Variable Write,context=Main:1#doit:1,i=0
+Variable Write,context=Main:1#doit:1,num=0
+Variable Write,context=Main:1#doit:1,j=0
+Variable Write,context=Main:1#doit:1,temp=1
+Variable Write,context=Main:1#doit:1,num=1
+Variable Write,context=Main:1#doit:1,j=1
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=1
+Variable Write,context=Main:1#doit:1,num=3
+Variable Write,context=Main:1#doit:1,j=2
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=0
+Variable Write,context=Main:1#doit:1,num=6
+Variable Write,context=Main:1#doit:1,j=3
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=0
+Variable Write,context=Main:1#doit:1,num=12
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main:1,data
+Variable Delete,method=Main:1#doit:1 <name=j,type=int (id=7),value=<?>,index=4>
+Field Write,context=int[]:2,0=12
+Variable Write,context=Main:1#doit:1,i=1
+Variable Delete,method=Main:1#doit:1 <name=num,type=int (id=7),value=<?>,index=3>
+Variable Write,context=Main:1#doit:1,num=0
+Variable Write,context=Main:1#doit:1,j=0
+Variable Write,context=Main:1#doit:1,temp=1
+Variable Write,context=Main:1#doit:1,num=1
+Variable Write,context=Main:1#doit:1,j=1
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=0
+Variable Write,context=Main:1#doit:1,num=2
+Variable Write,context=Main:1#doit:1,j=2
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=1
+Variable Write,context=Main:1#doit:1,num=5
+Variable Write,context=Main:1#doit:1,j=3
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=0
+Variable Write,context=Main:1#doit:1,num=10
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main:1,data
+Variable Delete,method=Main:1#doit:1 <name=j,type=int (id=7),value=<?>,index=4>
+Field Write,context=int[]:2,1=10
+Variable Write,context=Main:1#doit:1,i=2
+Variable Delete,method=Main:1#doit:1 <name=num,type=int (id=7),value=<?>,index=3>
+Variable Write,context=Main:1#doit:1,num=0
+Variable Write,context=Main:1#doit:1,j=0
+Variable Write,context=Main:1#doit:1,temp=0
+Variable Write,context=Main:1#doit:1,num=0
+Variable Write,context=Main:1#doit:1,j=1
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=0
+Variable Write,context=Main:1#doit:1,num=0
+Variable Write,context=Main:1#doit:1,j=2
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=0
+Variable Write,context=Main:1#doit:1,num=0
+Variable Write,context=Main:1#doit:1,j=3
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main:1#doit:1,temp=1
+Variable Write,context=Main:1#doit:1,num=1
+Variable Delete,method=Main:1#doit:1 <name=temp,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main:1,data
+Variable Delete,method=Main:1#doit:1 <name=j,type=int (id=7),value=<?>,index=4>
+Field Write,context=int[]:2,2=1
+Variable Delete,method=Main:1#doit:1 <name=num,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main:1#doit:1 <name=i,type=int (id=7),value=<?>,index=2>
+Variable Write,context=Main:1#doit:1,res=java.util.TreeMap (id=376)
+Method Call,caller=Main:1#doit:1,target=Main:1#fact:4
+Field Read,context=Main:1,str
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=1
+Variable Write,context=Main:1#fact:4,c=(
+Variable Write,context=Main:1#fact:4,res=java.util.TreeMap (id=377)
+Method Call,caller=Main:1#fact:4,target=Main:1#fact:5
+Field Read,context=Main:1,str
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=2
+Variable Write,context=Main:1#fact:5,c=(
+Variable Write,context=Main:1#fact:5,res=java.util.TreeMap (id=378)
+Method Call,caller=Main:1#fact:5,target=Main:1#fact:6
+Field Read,context=Main:1,str
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=3
+Variable Write,context=Main:1#fact:6,c=1
+Variable Write,context=Main:1#fact:6,res=java.util.TreeMap (id=379)
+Variable Write,context=Main:1#fact:6,ind=0
+Field Read,context=Main:1,data
+Variable Write,context=Main:1#fact:6,num=12
+Variable Write,context=Main:1#fact:6,result=java.util.TreeMap (id=379)
+Method Exit,returner=Main:1#fact:6,value=java.util.TreeMap (id=379)
+Variable Write,context=Main:1#fact:5,right=java.util.TreeMap (id=379)
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=4
+Method Call,caller=Main:1#fact:5,target=Main:1#fact:7
+Field Read,context=Main:1,str
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=5
+Variable Write,context=Main:1#fact:7,c=2
+Variable Write,context=Main:1#fact:7,res=java.util.TreeMap (id=380)
+Variable Write,context=Main:1#fact:7,ind=1
+Field Read,context=Main:1,data
+Variable Write,context=Main:1#fact:7,num=10
+Variable Write,context=Main:1#fact:7,result=java.util.TreeMap (id=380)
+Method Exit,returner=Main:1#fact:7,value=java.util.TreeMap (id=380)
+Variable Write,context=Main:1#fact:5,left=java.util.TreeMap (id=380)
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=6
+Variable Write,context=Main:1#fact:5,r=12
+Variable Write,context=Main:1#fact:5,l=10
+Variable Write,context=Main:1#fact:5,i=0
+Variable Write,context=Main:1#fact:5,res2=-1
+Variable Write,context=Main:1#fact:5,res2=8
+Variable Write,context=Main:1#fact:5,sum=1
+Variable Write,context=Main:1#fact:5,i=1
+Variable Delete,method=Main:1#fact:5 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:5 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Write,context=Main:1#fact:5,res2=-1
+Variable Write,context=Main:1#fact:5,res2=14
+Variable Write,context=Main:1#fact:5,sum=1
+Variable Write,context=Main:1#fact:5,i=2
+Variable Delete,method=Main:1#fact:5 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:5 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Write,context=Main:1#fact:5,res2=-1
+Variable Write,context=Main:1#fact:5,res2=6
+Variable Write,context=Main:1#fact:5,sum=1
+Variable Delete,method=Main:1#fact:5 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:5 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Delete,method=Main:1#fact:5 <name=i,type=int (id=7),value=<?>,index=8>
+Variable Delete,method=Main:1#fact:5 <name=l,type=int (id=7),value=<?>,index=7>
+Variable Write,context=Main:1#fact:5,result=java.util.TreeMap (id=378)
+Method Exit,returner=Main:1#fact:5,value=java.util.TreeMap (id=378)
+Variable Write,context=Main:1#fact:4,right=java.util.TreeMap (id=378)
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=7
+Method Call,caller=Main:1#fact:4,target=Main:1#fact:8
+Field Read,context=Main:1,str
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=8
+Variable Write,context=Main:1#fact:8,c=3
+Variable Write,context=Main:1#fact:8,res=java.util.TreeMap (id=381)
+Variable Write,context=Main:1#fact:8,ind=2
+Field Read,context=Main:1,data
+Variable Write,context=Main:1#fact:8,num=1
+Variable Write,context=Main:1#fact:8,result=java.util.TreeMap (id=381)
+Method Exit,returner=Main:1#fact:8,value=java.util.TreeMap (id=381)
+Variable Write,context=Main:1#fact:4,left=java.util.TreeMap (id=381)
+Field Read,context=Main:1,pos
+Field Write,context=Main:1,pos=9
+Variable Write,context=Main:1#fact:4,r=6
+Variable Write,context=Main:1#fact:4,l=1
+Variable Write,context=Main:1#fact:4,i=0
+Variable Write,context=Main:1#fact:4,res2=-1
+Variable Write,context=Main:1#fact:4,res2=0
+Variable Write,context=Main:1#fact:4,sum=1
+Variable Write,context=Main:1#fact:4,i=1
+Variable Delete,method=Main:1#fact:4 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:4 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Write,context=Main:1#fact:4,res2=-1
+Variable Write,context=Main:1#fact:4,res2=7
+Variable Write,context=Main:1#fact:4,sum=1
+Variable Write,context=Main:1#fact:4,i=2
+Variable Delete,method=Main:1#fact:4 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:4 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Write,context=Main:1#fact:4,res2=-1
+Variable Write,context=Main:1#fact:4,res2=7
+Variable Write,context=Main:1#fact:4,sum=1
+Variable Write,context=Main:1#fact:4,count=2
+Variable Delete,method=Main:1#fact:4 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:4 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Delete,method=Main:1#fact:4 <name=count,type=int (id=7),value=<?>,index=11>
+Variable Delete,method=Main:1#fact:4 <name=i,type=int (id=7),value=<?>,index=8>
+Variable Write,context=Main:1#fact:4,r=8
+Variable Delete,method=Main:1#fact:4 <name=l,type=int (id=7),value=<?>,index=7>
+Variable Write,context=Main:1#fact:4,l=1
+Variable Write,context=Main:1#fact:4,i=0
+Variable Write,context=Main:1#fact:4,res2=-1
+Variable Write,context=Main:1#fact:4,res2=0
+Variable Write,context=Main:1#fact:4,sum=1
+Variable Write,context=Main:1#fact:4,count=2
+Variable Write,context=Main:1#fact:4,i=1
+Variable Delete,method=Main:1#fact:4 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:4 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Delete,method=Main:1#fact:4 <name=count,type=int (id=7),value=<?>,index=11>
+Variable Write,context=Main:1#fact:4,res2=-1
+Variable Write,context=Main:1#fact:4,res2=9
+Variable Write,context=Main:1#fact:4,sum=1
+Variable Write,context=Main:1#fact:4,i=2
+Variable Delete,method=Main:1#fact:4 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:4 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Write,context=Main:1#fact:4,res2=-1
+Variable Write,context=Main:1#fact:4,res2=9
+Variable Write,context=Main:1#fact:4,sum=1
+Variable Write,context=Main:1#fact:4,count=2
+Variable Delete,method=Main:1#fact:4 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:4 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Delete,method=Main:1#fact:4 <name=count,type=int (id=7),value=<?>,index=11>
+Variable Delete,method=Main:1#fact:4 <name=i,type=int (id=7),value=<?>,index=8>
+Variable Write,context=Main:1#fact:4,r=14
+Variable Delete,method=Main:1#fact:4 <name=l,type=int (id=7),value=<?>,index=7>
+Variable Write,context=Main:1#fact:4,l=1
+Variable Write,context=Main:1#fact:4,i=0
+Variable Write,context=Main:1#fact:4,res2=-1
+Variable Write,context=Main:1#fact:4,res2=0
+Variable Write,context=Main:1#fact:4,sum=1
+Variable Write,context=Main:1#fact:4,count=3
+Variable Write,context=Main:1#fact:4,i=1
+Variable Delete,method=Main:1#fact:4 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:4 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Delete,method=Main:1#fact:4 <name=count,type=int (id=7),value=<?>,index=11>
+Variable Write,context=Main:1#fact:4,res2=-1
+Variable Write,context=Main:1#fact:4,res2=15
+Variable Write,context=Main:1#fact:4,sum=1
+Variable Write,context=Main:1#fact:4,i=2
+Variable Delete,method=Main:1#fact:4 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:4 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Write,context=Main:1#fact:4,res2=-1
+Variable Write,context=Main:1#fact:4,res2=15
+Variable Write,context=Main:1#fact:4,sum=1
+Variable Write,context=Main:1#fact:4,count=2
+Variable Delete,method=Main:1#fact:4 <name=res2,type=int (id=7),value=<?>,index=9>
+Variable Delete,method=Main:1#fact:4 <name=sum,type=int (id=7),value=<?>,index=10>
+Variable Delete,method=Main:1#fact:4 <name=count,type=int (id=7),value=<?>,index=11>
+Variable Delete,method=Main:1#fact:4 <name=i,type=int (id=7),value=<?>,index=8>
+Variable Delete,method=Main:1#fact:4 <name=l,type=int (id=7),value=<?>,index=7>
+Variable Write,context=Main:1#fact:4,result=java.util.TreeMap (id=377)
+Method Exit,returner=Main:1#fact:4,value=java.util.TreeMap (id=377)
+Variable Write,context=Main:1#doit:1,res=java.util.TreeMap (id=377)
+Variable Write,context=Main:1#doit:1,lastind=15
+Field Write,context=Main:1,str=END
+Variable Delete,method=Main:1#doit:1 <name=n,type=int (id=7),value=<?>,index=1>
+Variable Delete,method=Main:1#doit:1 <name=res,type=java.util.TreeMap (unresolved),value=<?>,index=6>
+Variable Delete,method=Main:1#doit:1 <name=lastind,type=int (id=7),value=<?>,index=7>
+Field Read,context=Main:1,str
+Method Exit,returner=Main:1#doit:1,value=<void>
+Method Exit,returner=Main#main:1,value=<void>
+Thread End,

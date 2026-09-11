@@ -1,0 +1,279 @@
+Thread Start,main (1)
+Method Call,caller=SYSTEM,target=Main#<clinit>:1
+Field Write,context=Main,nowLoca=1
+Method Exit,returner=Main#<clinit>:1,value=<void>
+Method Call,caller=SYSTEM,target=Main#main:1
+New Object,object=java.lang.String[]:1
+Variable Write,context=Main#main:1,args=java.lang.String[]:1
+Variable Write,context=Main#main:1,br=java.io.BufferedReader (id=24)
+Variable Write,context=Main#main:1,line=10 2 12 - \/
+New Object,object=java.lang.String[]:2
+Field Write,context=java.lang.String[]:2,0=10
+Field Write,context=java.lang.String[]:2,1=2
+Field Write,context=java.lang.String[]:2,2=12
+Field Write,context=java.lang.String[]:2,3=-
+Field Write,context=java.lang.String[]:2,4=\/
+Variable Write,context=Main#main:1,spl=java.lang.String[]:2
+Variable Write,context=Main#main:1,stk=java.util.Stack (id=34)
+Variable Write,context=Main#main:1,i=0
+Variable Write,context=Main#main:1,str1=10
+Method Call,caller=Main#main:1,target=Main#isNum:1
+Variable Write,context=Main#isNum:1,n=10
+Variable Write,context=Main#isNum:1,result=true
+Method Exit,returner=Main#isNum:1,value=true
+Variable Write,context=Main#main:1,i=1
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=2
+Method Call,caller=Main#main:1,target=Main#isNum:2
+Variable Write,context=Main#isNum:2,n=2
+Variable Write,context=Main#isNum:2,result=true
+Method Exit,returner=Main#isNum:2,value=true
+Variable Write,context=Main#main:1,i=2
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=12
+Method Call,caller=Main#main:1,target=Main#isNum:3
+Variable Write,context=Main#isNum:3,n=12
+Variable Write,context=Main#isNum:3,result=true
+Method Exit,returner=Main#isNum:3,value=true
+Variable Write,context=Main#main:1,i=3
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=-
+Method Call,caller=Main#main:1,target=Main#isNum:4
+Variable Write,context=Main#isNum:4,n=-
+Exception Throw,exception=java.lang.NumberFormatException (id=40),thrower=Main#isNum:4,framePopped=false
+Exception Catch,exception=java.lang.NumberFormatException (id=40),catcher=Main#isNum:4,variable=e
+Variable Write,context=Main#isNum:4,e=java.lang.NumberFormatException (id=40)
+Variable Write,context=Main#isNum:4,result=false
+Method Exit,returner=Main#isNum:4,value=false
+Variable Write,context=Main#main:1,n2=12.0
+Variable Write,context=Main#main:1,n1=2.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-10.0
+Variable Write,context=Main#main:1,nRes=-10.0
+Variable Write,context=Main#main:1,nRes=-10.0
+Variable Write,context=Main#main:1,i=4
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=\/
+Method Call,caller=Main#main:1,target=Main#isNum:5
+Variable Write,context=Main#isNum:5,n=\/
+Exception Throw,exception=java.lang.NumberFormatException (id=43),thrower=Main#isNum:5,framePopped=false
+Exception Catch,exception=java.lang.NumberFormatException (id=43),catcher=Main#isNum:5,variable=e
+Variable Write,context=Main#isNum:5,e=java.lang.NumberFormatException (id=43)
+Variable Write,context=Main#isNum:5,result=false
+Method Exit,returner=Main#isNum:5,value=false
+Variable Delete,method=Main#main:1 <name=n2,type=double (id=5),value=1.0,index=7>
+Variable Delete,method=Main#main:1 <name=n1,type=double (id=5),value=-1.0,index=8>
+Variable Delete,method=Main#main:1 <name=nRes,type=double (id=5),value=0.0,index=9>
+Variable Write,context=Main#main:1,n2=-10.0
+Variable Write,context=Main#main:1,n1=10.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,line=3 4 - 7 2 3 * + *
+Variable Delete,method=Main#main:1 <name=spl,type=java.lang.String[] (id=59),value=java.lang.String[]:4,index=3>
+New Object,object=java.lang.String[]:3
+Field Write,context=java.lang.String[]:3,0=3
+Field Write,context=java.lang.String[]:3,1=4
+Field Write,context=java.lang.String[]:3,2=-
+Field Write,context=java.lang.String[]:3,3=7
+Field Write,context=java.lang.String[]:3,4=2
+Field Write,context=java.lang.String[]:3,5=3
+Field Write,context=java.lang.String[]:3,6=*
+Field Write,context=java.lang.String[]:3,7=+
+Field Write,context=java.lang.String[]:3,8=*
+Variable Write,context=Main#main:1,spl=java.lang.String[]:3
+Variable Delete,method=Main#main:1 <name=stk,type=java.util.Stack (unresolved),value=java.util.Stack (id=69),index=4>
+Variable Write,context=Main#main:1,stk=java.util.Stack (id=55)
+Variable Delete,method=Main#main:1 <name=i,type=int (id=7),value=4,index=5>
+Variable Write,context=Main#main:1,i=0
+Variable Write,context=Main#main:1,str1=3
+Method Call,caller=Main#main:1,target=Main#isNum:6
+Variable Write,context=Main#isNum:6,n=3
+Variable Write,context=Main#isNum:6,result=true
+Method Exit,returner=Main#isNum:6,value=true
+Variable Write,context=Main#main:1,i=1
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=4
+Method Call,caller=Main#main:1,target=Main#isNum:7
+Variable Write,context=Main#isNum:7,n=4
+Variable Write,context=Main#isNum:7,result=true
+Method Exit,returner=Main#isNum:7,value=true
+Variable Write,context=Main#main:1,i=2
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=-
+Method Call,caller=Main#main:1,target=Main#isNum:8
+Variable Write,context=Main#isNum:8,n=-
+Exception Throw,exception=java.lang.NumberFormatException (id=57),thrower=Main#isNum:8,framePopped=false
+Exception Catch,exception=java.lang.NumberFormatException (id=57),catcher=Main#isNum:8,variable=e
+Variable Write,context=Main#isNum:8,e=java.lang.NumberFormatException (id=57)
+Variable Write,context=Main#isNum:8,result=false
+Method Exit,returner=Main#isNum:8,value=false
+Variable Delete,method=Main#main:1 <name=n2,type=double (id=5),value=1.0,index=7>
+Variable Delete,method=Main#main:1 <name=n1,type=double (id=5),value=-1.0,index=8>
+Variable Delete,method=Main#main:1 <name=nRes,type=double (id=5),value=0.0,index=9>
+Variable Write,context=Main#main:1,n2=4.0
+Variable Write,context=Main#main:1,n1=3.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,i=3
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=7
+Method Call,caller=Main#main:1,target=Main#isNum:9
+Variable Write,context=Main#isNum:9,n=7
+Variable Write,context=Main#isNum:9,result=true
+Method Exit,returner=Main#isNum:9,value=true
+Variable Write,context=Main#main:1,i=4
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=2
+Method Call,caller=Main#main:1,target=Main#isNum:10
+Variable Write,context=Main#isNum:10,n=2
+Variable Write,context=Main#isNum:10,result=true
+Method Exit,returner=Main#isNum:10,value=true
+Variable Write,context=Main#main:1,i=5
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=3
+Method Call,caller=Main#main:1,target=Main#isNum:11
+Variable Write,context=Main#isNum:11,n=3
+Variable Write,context=Main#isNum:11,result=true
+Method Exit,returner=Main#isNum:11,value=true
+Variable Write,context=Main#main:1,i=6
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=*
+Method Call,caller=Main#main:1,target=Main#isNum:12
+Variable Write,context=Main#isNum:12,n=*
+Exception Throw,exception=java.lang.NumberFormatException (id=58),thrower=Main#isNum:12,framePopped=false
+Exception Catch,exception=java.lang.NumberFormatException (id=58),catcher=Main#isNum:12,variable=e
+Variable Write,context=Main#isNum:12,e=java.lang.NumberFormatException (id=58)
+Variable Write,context=Main#isNum:12,result=false
+Method Exit,returner=Main#isNum:12,value=false
+Variable Delete,method=Main#main:1 <name=n2,type=double (id=5),value=1.0,index=7>
+Variable Delete,method=Main#main:1 <name=n1,type=double (id=5),value=-1.0,index=8>
+Variable Delete,method=Main#main:1 <name=nRes,type=double (id=5),value=0.0,index=9>
+Variable Write,context=Main#main:1,n2=3.0
+Variable Write,context=Main#main:1,n1=2.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=6.0
+Variable Write,context=Main#main:1,nRes=6.0
+Variable Write,context=Main#main:1,i=7
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=+
+Method Call,caller=Main#main:1,target=Main#isNum:13
+Variable Write,context=Main#isNum:13,n=+
+Exception Throw,exception=java.lang.NumberFormatException (id=60),thrower=Main#isNum:13,framePopped=false
+Exception Catch,exception=java.lang.NumberFormatException (id=60),catcher=Main#isNum:13,variable=e
+Variable Write,context=Main#isNum:13,e=java.lang.NumberFormatException (id=60)
+Variable Write,context=Main#isNum:13,result=false
+Method Exit,returner=Main#isNum:13,value=false
+Variable Delete,method=Main#main:1 <name=n2,type=double (id=5),value=1.0,index=7>
+Variable Delete,method=Main#main:1 <name=n1,type=double (id=5),value=-1.0,index=8>
+Variable Delete,method=Main#main:1 <name=nRes,type=double (id=5),value=0.0,index=9>
+Variable Write,context=Main#main:1,n2=6.0
+Variable Write,context=Main#main:1,n1=7.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=13.0
+Variable Write,context=Main#main:1,nRes=13.0
+Variable Write,context=Main#main:1,nRes=13.0
+Variable Write,context=Main#main:1,nRes=13.0
+Variable Write,context=Main#main:1,i=8
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=*
+Method Call,caller=Main#main:1,target=Main#isNum:14
+Variable Write,context=Main#isNum:14,n=*
+Exception Throw,exception=java.lang.NumberFormatException (id=61),thrower=Main#isNum:14,framePopped=false
+Exception Catch,exception=java.lang.NumberFormatException (id=61),catcher=Main#isNum:14,variable=e
+Variable Write,context=Main#isNum:14,e=java.lang.NumberFormatException (id=61)
+Variable Write,context=Main#isNum:14,result=false
+Method Exit,returner=Main#isNum:14,value=false
+Variable Delete,method=Main#main:1 <name=n2,type=double (id=5),value=1.0,index=7>
+Variable Delete,method=Main#main:1 <name=n1,type=double (id=5),value=-1.0,index=8>
+Variable Delete,method=Main#main:1 <name=nRes,type=double (id=5),value=0.0,index=9>
+Variable Write,context=Main#main:1,n2=13.0
+Variable Write,context=Main#main:1,n1=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=-13.0
+Variable Write,context=Main#main:1,nRes=-13.0
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,line=-1 -2 3 + +
+Variable Delete,method=Main#main:1 <name=spl,type=java.lang.String[] (id=59),value=java.lang.String[]:4,index=3>
+New Object,object=java.lang.String[]:4
+Field Write,context=java.lang.String[]:4,0=-1
+Field Write,context=java.lang.String[]:4,1=-2
+Field Write,context=java.lang.String[]:4,2=3
+Field Write,context=java.lang.String[]:4,3=+
+Field Write,context=java.lang.String[]:4,4=+
+Variable Write,context=Main#main:1,spl=java.lang.String[]:4
+Variable Delete,method=Main#main:1 <name=stk,type=java.util.Stack (unresolved),value=java.util.Stack (id=69),index=4>
+Variable Write,context=Main#main:1,stk=java.util.Stack (id=69)
+Variable Delete,method=Main#main:1 <name=i,type=int (id=7),value=4,index=5>
+Variable Write,context=Main#main:1,i=0
+Variable Write,context=Main#main:1,str1=-1
+Method Call,caller=Main#main:1,target=Main#isNum:15
+Variable Write,context=Main#isNum:15,n=-1
+Variable Write,context=Main#isNum:15,result=true
+Method Exit,returner=Main#isNum:15,value=true
+Variable Write,context=Main#main:1,i=1
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=-2
+Method Call,caller=Main#main:1,target=Main#isNum:16
+Variable Write,context=Main#isNum:16,n=-2
+Variable Write,context=Main#isNum:16,result=true
+Method Exit,returner=Main#isNum:16,value=true
+Variable Write,context=Main#main:1,i=2
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=3
+Method Call,caller=Main#main:1,target=Main#isNum:17
+Variable Write,context=Main#isNum:17,n=3
+Variable Write,context=Main#isNum:17,result=true
+Method Exit,returner=Main#isNum:17,value=true
+Variable Write,context=Main#main:1,i=3
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=+
+Method Call,caller=Main#main:1,target=Main#isNum:18
+Variable Write,context=Main#isNum:18,n=+
+Exception Throw,exception=java.lang.NumberFormatException (id=71),thrower=Main#isNum:18,framePopped=false
+Exception Catch,exception=java.lang.NumberFormatException (id=71),catcher=Main#isNum:18,variable=e
+Variable Write,context=Main#isNum:18,e=java.lang.NumberFormatException (id=71)
+Variable Write,context=Main#isNum:18,result=false
+Method Exit,returner=Main#isNum:18,value=false
+Variable Delete,method=Main#main:1 <name=n2,type=double (id=5),value=1.0,index=7>
+Variable Delete,method=Main#main:1 <name=n1,type=double (id=5),value=-1.0,index=8>
+Variable Delete,method=Main#main:1 <name=nRes,type=double (id=5),value=0.0,index=9>
+Variable Write,context=Main#main:1,n2=3.0
+Variable Write,context=Main#main:1,n1=-2.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=1.0
+Variable Write,context=Main#main:1,nRes=1.0
+Variable Write,context=Main#main:1,nRes=1.0
+Variable Write,context=Main#main:1,nRes=1.0
+Variable Write,context=Main#main:1,i=4
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>
+Variable Write,context=Main#main:1,str1=+
+Method Call,caller=Main#main:1,target=Main#isNum:19
+Variable Write,context=Main#isNum:19,n=+
+Exception Throw,exception=java.lang.NumberFormatException (id=73),thrower=Main#isNum:19,framePopped=false
+Exception Catch,exception=java.lang.NumberFormatException (id=73),catcher=Main#isNum:19,variable=e
+Variable Write,context=Main#isNum:19,e=java.lang.NumberFormatException (id=73)
+Variable Write,context=Main#isNum:19,result=false
+Method Exit,returner=Main#isNum:19,value=false
+Variable Delete,method=Main#main:1 <name=n2,type=double (id=5),value=1.0,index=7>
+Variable Delete,method=Main#main:1 <name=n1,type=double (id=5),value=-1.0,index=8>
+Variable Delete,method=Main#main:1 <name=nRes,type=double (id=5),value=0.0,index=9>
+Variable Write,context=Main#main:1,n2=1.0
+Variable Write,context=Main#main:1,n1=-1.0
+Variable Write,context=Main#main:1,nRes=-1.0
+Variable Write,context=Main#main:1,nRes=0.0
+Variable Write,context=Main#main:1,nRes=0.0
+Variable Write,context=Main#main:1,nRes=0.0
+Variable Write,context=Main#main:1,nRes=0.0
+Variable Delete,method=Main#main:1 <name=str1,type=java.lang.String (id=25),value=<?>,index=6>

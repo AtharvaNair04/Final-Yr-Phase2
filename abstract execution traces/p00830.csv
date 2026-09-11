@@ -1,0 +1,1109 @@
+Thread Start,main (1)
+Method Call,caller=SYSTEM,target=Main#main:1
+New Object,object=java.lang.String[]:1
+Variable Write,context=Main#main:1,args=java.lang.String[]:1
+New Object,object=java.lang.String[]:2
+Field Write,context=java.lang.String[]:2,0=
+Field Write,context=java.lang.String[]:2,1=home
+Field Write,context=java.lang.String[]:2,2=ACM
+Field Write,context=java.lang.String[]:2,3=index.html
+Variable Write,context=Main#main:1,t=java.lang.String[]:2
+New Object,object=Main:1
+Method Call,caller=Main#main:1,target=Main:1#Main:1
+Method Exit,returner=Main:1#Main:1,value=<void>
+Method Call,caller=Main#main:1,target=Main:1#run:1
+Field Write,context=Main:1,sc=java.util.Scanner (id=370)
+Field Read,context=Main:1,sc
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#run:1,n=5
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#run:1,m=6
+Method Call,caller=Main:1#run:1,target=Main:1#calc:1
+Variable Write,context=Main:1#calc:1,n=5
+Variable Write,context=Main:1#calc:1,m=6
+New Object,object=Node:1
+Method Call,caller=Main:1#calc:1,target=Node:1#Node:1
+Variable Write,context=Node:1#Node:1,n=
+Variable Write,context=Node:1#Node:1,ue=null
+Field Write,context=Node:1,name=
+Field Write,context=Node:1,map=java.util.HashMap (id=374)
+Field Write,context=Node:1,filenameMap=java.util.HashMap (id=375)
+Field Write,context=Node:1,ue=null
+Method Exit,returner=Node:1#Node:1,value=<void>
+Variable Write,context=Main:1#calc:1,root=Node:1
+Variable Write,context=Main:1#calc:1,i=0
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,line=/home/ACM/index.html
+New Object,object=java.lang.String[]:3
+Field Write,context=java.lang.String[]:3,0=
+Field Write,context=java.lang.String[]:3,1=home
+Field Write,context=java.lang.String[]:3,2=ACM
+Field Write,context=java.lang.String[]:3,3=index.html
+Variable Write,context=Main:1#calc:1,lines=java.lang.String[]:3
+Variable Write,context=Main:1#calc:1,node=Node:1
+Variable Write,context=Main:1#calc:1,t=0
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+New Object,object=Node:2
+Method Call,caller=Main:1#calc:1,target=Node:2#Node:2
+Variable Write,context=Node:2#Node:2,n=
+Variable Write,context=Node:2#Node:2,ue=Node:1
+Field Write,context=Node:2,name=
+Field Write,context=Node:2,map=java.util.HashMap (id=383)
+Field Write,context=Node:2,filenameMap=java.util.HashMap (id=384)
+Field Write,context=Node:2,ue=Node:1
+Method Exit,returner=Node:2#Node:2,value=<void>
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#calc:1,node=Node:2
+Variable Write,context=Main:1#calc:1,t=1
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+New Object,object=Node:3
+Method Call,caller=Main:1#calc:1,target=Node:3#Node:3
+Variable Write,context=Node:3#Node:3,n=home
+Variable Write,context=Node:3#Node:3,ue=Node:2
+Field Write,context=Node:3,name=home
+Field Write,context=Node:3,map=java.util.HashMap (id=386)
+Field Write,context=Node:3,filenameMap=java.util.HashMap (id=387)
+Field Write,context=Node:3,ue=Node:2
+Method Exit,returner=Node:3#Node:3,value=<void>
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#calc:1,node=Node:3
+Variable Write,context=Main:1#calc:1,t=2
+Field Read,context=Node:3,map
+Field Read,context=Node:3,map
+New Object,object=Node:4
+Method Call,caller=Main:1#calc:1,target=Node:4#Node:4
+Variable Write,context=Node:4#Node:4,n=ACM
+Variable Write,context=Node:4#Node:4,ue=Node:3
+Field Write,context=Node:4,name=ACM
+Field Write,context=Node:4,map=java.util.HashMap (id=389)
+Field Write,context=Node:4,filenameMap=java.util.HashMap (id=390)
+Field Write,context=Node:4,ue=Node:3
+Method Exit,returner=Node:4#Node:4,value=<void>
+Field Read,context=Node:3,map
+Variable Write,context=Main:1#calc:1,node=Node:4
+Field Read,context=Node:4,filenameMap
+Variable Delete,method=Main:1#calc:1 <name=t,type=int (id=7),value=<?>,index=7>
+Variable Write,context=Main:1#calc:1,i=1
+Variable Delete,method=Main:1#calc:1 <name=line,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Delete,method=Main:1#calc:1 <name=lines,type=java.lang.String[] (id=59),value=<?>,index=5>
+Variable Delete,method=Main:1#calc:1 <name=node,type=Node (id=102),value=<?>,index=6>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,line=/ICPC/index.html
+New Object,object=java.lang.String[]:4
+Field Write,context=java.lang.String[]:4,0=
+Field Write,context=java.lang.String[]:4,1=ICPC
+Field Write,context=java.lang.String[]:4,2=index.html
+Variable Write,context=Main:1#calc:1,lines=java.lang.String[]:4
+Variable Write,context=Main:1#calc:1,node=Node:1
+Variable Write,context=Main:1#calc:1,t=0
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#calc:1,node=Node:2
+Variable Write,context=Main:1#calc:1,t=1
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+New Object,object=Node:5
+Method Call,caller=Main:1#calc:1,target=Node:5#Node:5
+Variable Write,context=Node:5#Node:5,n=ICPC
+Variable Write,context=Node:5#Node:5,ue=Node:2
+Field Write,context=Node:5,name=ICPC
+Field Write,context=Node:5,map=java.util.HashMap (id=397)
+Field Write,context=Node:5,filenameMap=java.util.HashMap (id=398)
+Field Write,context=Node:5,ue=Node:2
+Method Exit,returner=Node:5#Node:5,value=<void>
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#calc:1,node=Node:5
+Field Read,context=Node:5,filenameMap
+Variable Delete,method=Main:1#calc:1 <name=t,type=int (id=7),value=<?>,index=7>
+Variable Write,context=Main:1#calc:1,i=2
+Variable Delete,method=Main:1#calc:1 <name=line,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Delete,method=Main:1#calc:1 <name=lines,type=java.lang.String[] (id=59),value=<?>,index=5>
+Variable Delete,method=Main:1#calc:1 <name=node,type=Node (id=102),value=<?>,index=6>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,line=/ICPC/general.html
+New Object,object=java.lang.String[]:5
+Field Write,context=java.lang.String[]:5,0=
+Field Write,context=java.lang.String[]:5,1=ICPC
+Field Write,context=java.lang.String[]:5,2=general.html
+Variable Write,context=Main:1#calc:1,lines=java.lang.String[]:5
+Variable Write,context=Main:1#calc:1,node=Node:1
+Variable Write,context=Main:1#calc:1,t=0
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#calc:1,node=Node:2
+Variable Write,context=Main:1#calc:1,t=1
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#calc:1,node=Node:5
+Field Read,context=Node:5,filenameMap
+Variable Delete,method=Main:1#calc:1 <name=t,type=int (id=7),value=<?>,index=7>
+Variable Write,context=Main:1#calc:1,i=3
+Variable Delete,method=Main:1#calc:1 <name=line,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Delete,method=Main:1#calc:1 <name=lines,type=java.lang.String[] (id=59),value=<?>,index=5>
+Variable Delete,method=Main:1#calc:1 <name=node,type=Node (id=102),value=<?>,index=6>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,line=/ICPC/japanese/index.html
+New Object,object=java.lang.String[]:6
+Field Write,context=java.lang.String[]:6,0=
+Field Write,context=java.lang.String[]:6,1=ICPC
+Field Write,context=java.lang.String[]:6,2=japanese
+Field Write,context=java.lang.String[]:6,3=index.html
+Variable Write,context=Main:1#calc:1,lines=java.lang.String[]:6
+Variable Write,context=Main:1#calc:1,node=Node:1
+Variable Write,context=Main:1#calc:1,t=0
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#calc:1,node=Node:2
+Variable Write,context=Main:1#calc:1,t=1
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#calc:1,node=Node:5
+Variable Write,context=Main:1#calc:1,t=2
+Field Read,context=Node:5,map
+Field Read,context=Node:5,map
+New Object,object=Node:6
+Method Call,caller=Main:1#calc:1,target=Node:6#Node:6
+Variable Write,context=Node:6#Node:6,n=japanese
+Variable Write,context=Node:6#Node:6,ue=Node:5
+Field Write,context=Node:6,name=japanese
+Field Write,context=Node:6,map=java.util.HashMap (id=411)
+Field Write,context=Node:6,filenameMap=java.util.HashMap (id=412)
+Field Write,context=Node:6,ue=Node:5
+Method Exit,returner=Node:6#Node:6,value=<void>
+Field Read,context=Node:5,map
+Variable Write,context=Main:1#calc:1,node=Node:6
+Field Read,context=Node:6,filenameMap
+Variable Delete,method=Main:1#calc:1 <name=t,type=int (id=7),value=<?>,index=7>
+Variable Write,context=Main:1#calc:1,i=4
+Variable Delete,method=Main:1#calc:1 <name=line,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Delete,method=Main:1#calc:1 <name=lines,type=java.lang.String[] (id=59),value=<?>,index=5>
+Variable Delete,method=Main:1#calc:1 <name=node,type=Node (id=102),value=<?>,index=6>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,line=/ICPC/secret/confidential/2005/index.html
+New Object,object=java.lang.String[]:7
+Field Write,context=java.lang.String[]:7,0=
+Field Write,context=java.lang.String[]:7,1=ICPC
+Field Write,context=java.lang.String[]:7,2=secret
+Field Write,context=java.lang.String[]:7,3=confidential
+Field Write,context=java.lang.String[]:7,4=2005
+Field Write,context=java.lang.String[]:7,5=index.html
+Variable Write,context=Main:1#calc:1,lines=java.lang.String[]:7
+Variable Write,context=Main:1#calc:1,node=Node:1
+Variable Write,context=Main:1#calc:1,t=0
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#calc:1,node=Node:2
+Variable Write,context=Main:1#calc:1,t=1
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#calc:1,node=Node:5
+Variable Write,context=Main:1#calc:1,t=2
+Field Read,context=Node:5,map
+Field Read,context=Node:5,map
+New Object,object=Node:7
+Method Call,caller=Main:1#calc:1,target=Node:7#Node:7
+Variable Write,context=Node:7#Node:7,n=secret
+Variable Write,context=Node:7#Node:7,ue=Node:5
+Field Write,context=Node:7,name=secret
+Field Write,context=Node:7,map=java.util.HashMap (id=422)
+Field Write,context=Node:7,filenameMap=java.util.HashMap (id=423)
+Field Write,context=Node:7,ue=Node:5
+Method Exit,returner=Node:7#Node:7,value=<void>
+Field Read,context=Node:5,map
+Variable Write,context=Main:1#calc:1,node=Node:7
+Variable Write,context=Main:1#calc:1,t=3
+Field Read,context=Node:7,map
+Field Read,context=Node:7,map
+New Object,object=Node:8
+Method Call,caller=Main:1#calc:1,target=Node:8#Node:8
+Variable Write,context=Node:8#Node:8,n=confidential
+Variable Write,context=Node:8#Node:8,ue=Node:7
+Field Write,context=Node:8,name=confidential
+Field Write,context=Node:8,map=java.util.HashMap (id=425)
+Field Write,context=Node:8,filenameMap=java.util.HashMap (id=426)
+Field Write,context=Node:8,ue=Node:7
+Method Exit,returner=Node:8#Node:8,value=<void>
+Field Read,context=Node:7,map
+Variable Write,context=Main:1#calc:1,node=Node:8
+Variable Write,context=Main:1#calc:1,t=4
+Field Read,context=Node:8,map
+Field Read,context=Node:8,map
+New Object,object=Node:9
+Method Call,caller=Main:1#calc:1,target=Node:9#Node:9
+Variable Write,context=Node:9#Node:9,n=2005
+Variable Write,context=Node:9#Node:9,ue=Node:8
+Field Write,context=Node:9,name=2005
+Field Write,context=Node:9,map=java.util.HashMap (id=428)
+Field Write,context=Node:9,filenameMap=java.util.HashMap (id=429)
+Field Write,context=Node:9,ue=Node:8
+Method Exit,returner=Node:9#Node:9,value=<void>
+Field Read,context=Node:8,map
+Variable Write,context=Main:1#calc:1,node=Node:9
+Field Read,context=Node:9,filenameMap
+Variable Delete,method=Main:1#calc:1 <name=t,type=int (id=7),value=<?>,index=7>
+Variable Delete,method=Main:1#calc:1 <name=line,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Delete,method=Main:1#calc:1 <name=lines,type=java.lang.String[] (id=59),value=<?>,index=5>
+Variable Delete,method=Main:1#calc:1 <name=node,type=Node (id=102),value=<?>,index=6>
+Variable Delete,method=Main:1#calc:1 <name=i,type=int (id=7),value=<?>,index=3>
+Variable Write,context=Main:1#calc:1,i=0
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,html1=/home/ACM/
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,html2=/home/ICPC/../ACM/
+Variable Write,context=Main:1#calc:1,html1=/home/ACM/
+Variable Write,context=Main:1#calc:1,html2=/home/ICPC/../ACM/
+New Object,object=java.lang.String[]:8
+Field Write,context=java.lang.String[]:8,0=
+Field Write,context=java.lang.String[]:8,1=home
+Field Write,context=java.lang.String[]:8,2=ACM
+Field Write,context=java.lang.String[]:8,3=
+Variable Write,context=Main:1#calc:1,h1=java.lang.String[]:8
+New Object,object=java.lang.String[]:9
+Field Write,context=java.lang.String[]:9,0=
+Field Write,context=java.lang.String[]:9,1=home
+Field Write,context=java.lang.String[]:9,2=ICPC
+Field Write,context=java.lang.String[]:9,3=..
+Field Write,context=java.lang.String[]:9,4=ACM
+Field Write,context=java.lang.String[]:9,5=
+Variable Write,context=Main:1#calc:1,h2=java.lang.String[]:9
+Method Call,caller=Main:1#calc:1,target=Main:1#getNode:1
+Variable Write,context=Main:1#getNode:1,html=java.lang.String[]:8
+Variable Write,context=Main:1#getNode:1,root=Node:1
+Variable Write,context=Main:1#getNode:1,node=Node:1
+Variable Write,context=Main:1#getNode:1,i=0
+Variable Write,context=Main:1#getNode:1,s=
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#getNode:1,node=Node:2
+Variable Write,context=Main:1#getNode:1,i=1
+Variable Delete,method=Main:1#getNode:1 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:1,s=home
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#getNode:1,node=Node:3
+Variable Write,context=Main:1#getNode:1,i=2
+Variable Delete,method=Main:1#getNode:1 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:1,s=ACM
+Field Read,context=Node:3,map
+Field Read,context=Node:3,map
+Variable Write,context=Main:1#getNode:1,node=Node:4
+Variable Write,context=Main:1#getNode:1,i=3
+Variable Delete,method=Main:1#getNode:1 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:1,s=
+Field Read,context=Node:4,filenameMap
+Variable Delete,method=Main:1#getNode:1 <name=i,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main:1#getNode:1 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Field Read,context=Node:4,filenameMap
+Variable Write,context=Main:1#getNode:1,result=index.html
+Method Exit,returner=Main:1#getNode:1,value=index.html
+Variable Write,context=Main:1#calc:1,node1=index.html
+Method Call,caller=Main:1#calc:1,target=Main:1#getNode:2
+Variable Write,context=Main:1#getNode:2,html=java.lang.String[]:9
+Variable Write,context=Main:1#getNode:2,root=Node:1
+Variable Write,context=Main:1#getNode:2,node=Node:1
+Variable Write,context=Main:1#getNode:2,i=0
+Variable Write,context=Main:1#getNode:2,s=
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#getNode:2,node=Node:2
+Variable Write,context=Main:1#getNode:2,i=1
+Variable Delete,method=Main:1#getNode:2 <name=s,type=java.lang.String (id=25),value=ICPC,index=4>
+Variable Write,context=Main:1#getNode:2,s=home
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#getNode:2,node=Node:3
+Variable Write,context=Main:1#getNode:2,i=2
+Variable Delete,method=Main:1#getNode:2 <name=s,type=java.lang.String (id=25),value=ICPC,index=4>
+Variable Write,context=Main:1#getNode:2,s=ICPC
+Field Read,context=Node:3,map
+Variable Write,context=Main:1#getNode:2,result=null
+Method Exit,returner=Main:1#getNode:2,value=null
+Variable Write,context=Main:1#calc:1,node2=null
+Variable Write,context=Main:1#calc:1,i=1
+Variable Delete,method=Main:1#calc:1 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+Variable Delete,method=Main:1#calc:1 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+Variable Delete,method=Main:1#calc:1 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+Variable Delete,method=Main:1#calc:1 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+Variable Delete,method=Main:1#calc:1 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+Variable Delete,method=Main:1#calc:1 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,html1=/ICPC/secret/
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,html2=/ICPC/secret/index.html
+Variable Write,context=Main:1#calc:1,html1=/ICPC/secret/
+Variable Write,context=Main:1#calc:1,html2=/ICPC/secret/index.html
+New Object,object=java.lang.String[]:10
+Field Write,context=java.lang.String[]:10,0=
+Field Write,context=java.lang.String[]:10,1=ICPC
+Field Write,context=java.lang.String[]:10,2=secret
+Field Write,context=java.lang.String[]:10,3=
+Variable Write,context=Main:1#calc:1,h1=java.lang.String[]:10
+New Object,object=java.lang.String[]:11
+Field Write,context=java.lang.String[]:11,0=
+Field Write,context=java.lang.String[]:11,1=ICPC
+Field Write,context=java.lang.String[]:11,2=secret
+Field Write,context=java.lang.String[]:11,3=index.html
+Variable Write,context=Main:1#calc:1,h2=java.lang.String[]:11
+Method Call,caller=Main:1#calc:1,target=Main:1#getNode:3
+Variable Write,context=Main:1#getNode:3,html=java.lang.String[]:10
+Variable Write,context=Main:1#getNode:3,root=Node:1
+Variable Write,context=Main:1#getNode:3,node=Node:1
+Variable Write,context=Main:1#getNode:3,i=0
+Variable Write,context=Main:1#getNode:3,s=
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#getNode:3,node=Node:2
+Variable Write,context=Main:1#getNode:3,i=1
+Variable Delete,method=Main:1#getNode:3 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:3,s=ICPC
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#getNode:3,node=Node:5
+Variable Write,context=Main:1#getNode:3,i=2
+Variable Delete,method=Main:1#getNode:3 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:3,s=secret
+Field Read,context=Node:5,map
+Field Read,context=Node:5,map
+Variable Write,context=Main:1#getNode:3,node=Node:7
+Variable Write,context=Main:1#getNode:3,i=3
+Variable Delete,method=Main:1#getNode:3 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:3,s=
+Field Read,context=Node:7,filenameMap
+Variable Delete,method=Main:1#getNode:3 <name=i,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main:1#getNode:3 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:3,result=null
+Method Exit,returner=Main:1#getNode:3,value=null
+Variable Write,context=Main:1#calc:1,node1=null
+Method Call,caller=Main:1#calc:1,target=Main:1#getNode:4
+Variable Write,context=Main:1#getNode:4,html=java.lang.String[]:11
+Variable Write,context=Main:1#getNode:4,root=Node:1
+Variable Write,context=Main:1#getNode:4,node=Node:1
+Variable Write,context=Main:1#getNode:4,i=0
+Variable Write,context=Main:1#getNode:4,s=
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#getNode:4,node=Node:2
+Variable Write,context=Main:1#getNode:4,i=1
+Variable Delete,method=Main:1#getNode:4 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:4,s=ICPC
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#getNode:4,node=Node:5
+Variable Write,context=Main:1#getNode:4,i=2
+Variable Delete,method=Main:1#getNode:4 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:4,s=secret
+Field Read,context=Node:5,map
+Field Read,context=Node:5,map
+Variable Write,context=Main:1#getNode:4,node=Node:7
+Variable Write,context=Main:1#getNode:4,i=3
+Variable Delete,method=Main:1#getNode:4 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:4,s=index.html
+Field Read,context=Node:7,map
+Field Read,context=Node:7,filenameMap
+Variable Write,context=Main:1#getNode:4,result=null
+Method Exit,returner=Main:1#getNode:4,value=null
+Variable Write,context=Main:1#calc:1,node2=null
+Variable Write,context=Main:1#calc:1,i=2
+Variable Delete,method=Main:1#calc:1 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+Variable Delete,method=Main:1#calc:1 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+Variable Delete,method=Main:1#calc:1 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+Variable Delete,method=Main:1#calc:1 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+Variable Delete,method=Main:1#calc:1 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+Variable Delete,method=Main:1#calc:1 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,html1=/ICPC
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,html2=/ICPC/../ICPC/index.html
+Variable Write,context=Main:1#calc:1,html1=/ICPC
+Variable Write,context=Main:1#calc:1,html2=/ICPC/../ICPC/index.html
+New Object,object=java.lang.String[]:12
+Field Write,context=java.lang.String[]:12,0=
+Field Write,context=java.lang.String[]:12,1=ICPC
+Variable Write,context=Main:1#calc:1,h1=java.lang.String[]:12
+New Object,object=java.lang.String[]:13
+Field Write,context=java.lang.String[]:13,0=
+Field Write,context=java.lang.String[]:13,1=ICPC
+Field Write,context=java.lang.String[]:13,2=..
+Field Write,context=java.lang.String[]:13,3=ICPC
+Field Write,context=java.lang.String[]:13,4=index.html
+Variable Write,context=Main:1#calc:1,h2=java.lang.String[]:13
+Method Call,caller=Main:1#calc:1,target=Main:1#getNode:5
+Variable Write,context=Main:1#getNode:5,html=java.lang.String[]:12
+Variable Write,context=Main:1#getNode:5,root=Node:1
+Variable Write,context=Main:1#getNode:5,node=Node:1
+Variable Write,context=Main:1#getNode:5,i=0
+Variable Write,context=Main:1#getNode:5,s=
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#getNode:5,node=Node:2
+Variable Write,context=Main:1#getNode:5,i=1
+Variable Delete,method=Main:1#getNode:5 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:5,s=ICPC
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#getNode:5,node=Node:5
+Variable Delete,method=Main:1#getNode:5 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Field Read,context=Node:5,filenameMap
+Variable Delete,method=Main:1#getNode:5 <name=i,type=int (id=7),value=<?>,index=3>
+Field Read,context=Node:5,filenameMap
+Variable Write,context=Main:1#getNode:5,result=index.html
+Method Exit,returner=Main:1#getNode:5,value=index.html
+Variable Write,context=Main:1#calc:1,node1=index.html
+Method Call,caller=Main:1#calc:1,target=Main:1#getNode:6
+Variable Write,context=Main:1#getNode:6,html=java.lang.String[]:13
+Variable Write,context=Main:1#getNode:6,root=Node:1
+Variable Write,context=Main:1#getNode:6,node=Node:1
+Variable Write,context=Main:1#getNode:6,i=0
+Variable Write,context=Main:1#getNode:6,s=
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#getNode:6,node=Node:2
+Variable Write,context=Main:1#getNode:6,i=1
+Variable Delete,method=Main:1#getNode:6 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:6,s=ICPC
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#getNode:6,node=Node:5
+Variable Write,context=Main:1#getNode:6,i=2
+Variable Delete,method=Main:1#getNode:6 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:6,s=..
+Field Read,context=Node:5,ue
+Variable Write,context=Main:1#getNode:6,node=Node:2
+Variable Write,context=Main:1#getNode:6,i=3
+Variable Delete,method=Main:1#getNode:6 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:6,s=ICPC
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#getNode:6,node=Node:5
+Variable Write,context=Main:1#getNode:6,i=4
+Variable Delete,method=Main:1#getNode:6 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:6,s=index.html
+Field Read,context=Node:5,map
+Field Read,context=Node:5,filenameMap
+Field Read,context=Node:5,filenameMap
+Variable Write,context=Main:1#getNode:6,result=index.html
+Method Exit,returner=Main:1#getNode:6,value=index.html
+Variable Write,context=Main:1#calc:1,node2=index.html
+Variable Write,context=Main:1#calc:1,i=3
+Variable Delete,method=Main:1#calc:1 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+Variable Delete,method=Main:1#calc:1 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+Variable Delete,method=Main:1#calc:1 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+Variable Delete,method=Main:1#calc:1 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+Variable Delete,method=Main:1#calc:1 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+Variable Delete,method=Main:1#calc:1 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,html1=/ICPC
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,html2=/ICPC/general.html
+Variable Write,context=Main:1#calc:1,html1=/ICPC
+Variable Write,context=Main:1#calc:1,html2=/ICPC/general.html
+New Object,object=java.lang.String[]:14
+Field Write,context=java.lang.String[]:14,0=
+Field Write,context=java.lang.String[]:14,1=ICPC
+Variable Write,context=Main:1#calc:1,h1=java.lang.String[]:14
+New Object,object=java.lang.String[]:15
+Field Write,context=java.lang.String[]:15,0=
+Field Write,context=java.lang.String[]:15,1=ICPC
+Field Write,context=java.lang.String[]:15,2=general.html
+Variable Write,context=Main:1#calc:1,h2=java.lang.String[]:15
+Method Call,caller=Main:1#calc:1,target=Main:1#getNode:7
+Variable Write,context=Main:1#getNode:7,html=java.lang.String[]:14
+Variable Write,context=Main:1#getNode:7,root=Node:1
+Variable Write,context=Main:1#getNode:7,node=Node:1
+Variable Write,context=Main:1#getNode:7,i=0
+Variable Write,context=Main:1#getNode:7,s=
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#getNode:7,node=Node:2
+Variable Write,context=Main:1#getNode:7,i=1
+Variable Delete,method=Main:1#getNode:7 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:7,s=ICPC
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#getNode:7,node=Node:5
+Variable Delete,method=Main:1#getNode:7 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Field Read,context=Node:5,filenameMap
+Variable Delete,method=Main:1#getNode:7 <name=i,type=int (id=7),value=<?>,index=3>
+Field Read,context=Node:5,filenameMap
+Variable Write,context=Main:1#getNode:7,result=index.html
+Method Exit,returner=Main:1#getNode:7,value=index.html
+Variable Write,context=Main:1#calc:1,node1=index.html
+Method Call,caller=Main:1#calc:1,target=Main:1#getNode:8
+Variable Write,context=Main:1#getNode:8,html=java.lang.String[]:15
+Variable Write,context=Main:1#getNode:8,root=Node:1
+Variable Write,context=Main:1#getNode:8,node=Node:1
+Variable Write,context=Main:1#getNode:8,i=0
+Variable Write,context=Main:1#getNode:8,s=
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#getNode:8,node=Node:2
+Variable Write,context=Main:1#getNode:8,i=1
+Variable Delete,method=Main:1#getNode:8 <name=s,type=java.lang.String (id=25),value=general.html,index=4>
+Variable Write,context=Main:1#getNode:8,s=ICPC
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#getNode:8,node=Node:5
+Variable Write,context=Main:1#getNode:8,i=2
+Variable Delete,method=Main:1#getNode:8 <name=s,type=java.lang.String (id=25),value=general.html,index=4>
+Variable Write,context=Main:1#getNode:8,s=general.html
+Field Read,context=Node:5,map
+Field Read,context=Node:5,filenameMap
+Field Read,context=Node:5,filenameMap
+Variable Write,context=Main:1#getNode:8,result=general.html
+Method Exit,returner=Main:1#getNode:8,value=general.html
+Variable Write,context=Main:1#calc:1,node2=general.html
+Variable Write,context=Main:1#calc:1,i=4
+Variable Delete,method=Main:1#calc:1 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+Variable Delete,method=Main:1#calc:1 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+Variable Delete,method=Main:1#calc:1 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+Variable Delete,method=Main:1#calc:1 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+Variable Delete,method=Main:1#calc:1 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+Variable Delete,method=Main:1#calc:1 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,html1=/ICPC/japanese/.././
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,html2=/ICPC/japanese/./../
+Variable Write,context=Main:1#calc:1,html1=/ICPC/japanese/.././
+Variable Write,context=Main:1#calc:1,html2=/ICPC/japanese/./../
+New Object,object=java.lang.String[]:16
+Field Write,context=java.lang.String[]:16,0=
+Field Write,context=java.lang.String[]:16,1=ICPC
+Field Write,context=java.lang.String[]:16,2=japanese
+Field Write,context=java.lang.String[]:16,3=..
+Field Write,context=java.lang.String[]:16,4=.
+Field Write,context=java.lang.String[]:16,5=
+Variable Write,context=Main:1#calc:1,h1=java.lang.String[]:16
+New Object,object=java.lang.String[]:17
+Field Write,context=java.lang.String[]:17,0=
+Field Write,context=java.lang.String[]:17,1=ICPC
+Field Write,context=java.lang.String[]:17,2=japanese
+Field Write,context=java.lang.String[]:17,3=.
+Field Write,context=java.lang.String[]:17,4=..
+Field Write,context=java.lang.String[]:17,5=
+Variable Write,context=Main:1#calc:1,h2=java.lang.String[]:17
+Method Call,caller=Main:1#calc:1,target=Main:1#getNode:9
+Variable Write,context=Main:1#getNode:9,html=java.lang.String[]:16
+Variable Write,context=Main:1#getNode:9,root=Node:1
+Variable Write,context=Main:1#getNode:9,node=Node:1
+Variable Write,context=Main:1#getNode:9,i=0
+Variable Write,context=Main:1#getNode:9,s=
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#getNode:9,node=Node:2
+Variable Write,context=Main:1#getNode:9,i=1
+Variable Delete,method=Main:1#getNode:9 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:9,s=ICPC
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#getNode:9,node=Node:5
+Variable Write,context=Main:1#getNode:9,i=2
+Variable Delete,method=Main:1#getNode:9 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:9,s=japanese
+Field Read,context=Node:5,map
+Field Read,context=Node:5,map
+Variable Write,context=Main:1#getNode:9,node=Node:6
+Variable Write,context=Main:1#getNode:9,i=3
+Variable Delete,method=Main:1#getNode:9 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:9,s=..
+Field Read,context=Node:6,ue
+Variable Write,context=Main:1#getNode:9,node=Node:5
+Variable Write,context=Main:1#getNode:9,i=4
+Variable Delete,method=Main:1#getNode:9 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:9,s=.
+Variable Write,context=Main:1#getNode:9,i=5
+Variable Delete,method=Main:1#getNode:9 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:9,s=
+Field Read,context=Node:5,filenameMap
+Variable Delete,method=Main:1#getNode:9 <name=i,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main:1#getNode:9 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Field Read,context=Node:5,filenameMap
+Variable Write,context=Main:1#getNode:9,result=index.html
+Method Exit,returner=Main:1#getNode:9,value=index.html
+Variable Write,context=Main:1#calc:1,node1=index.html
+Method Call,caller=Main:1#calc:1,target=Main:1#getNode:10
+Variable Write,context=Main:1#getNode:10,html=java.lang.String[]:17
+Variable Write,context=Main:1#getNode:10,root=Node:1
+Variable Write,context=Main:1#getNode:10,node=Node:1
+Variable Write,context=Main:1#getNode:10,i=0
+Variable Write,context=Main:1#getNode:10,s=
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#getNode:10,node=Node:2
+Variable Write,context=Main:1#getNode:10,i=1
+Variable Delete,method=Main:1#getNode:10 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:10,s=ICPC
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#getNode:10,node=Node:5
+Variable Write,context=Main:1#getNode:10,i=2
+Variable Delete,method=Main:1#getNode:10 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:10,s=japanese
+Field Read,context=Node:5,map
+Field Read,context=Node:5,map
+Variable Write,context=Main:1#getNode:10,node=Node:6
+Variable Write,context=Main:1#getNode:10,i=3
+Variable Delete,method=Main:1#getNode:10 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:10,s=.
+Variable Write,context=Main:1#getNode:10,i=4
+Variable Delete,method=Main:1#getNode:10 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:10,s=..
+Field Read,context=Node:6,ue
+Variable Write,context=Main:1#getNode:10,node=Node:5
+Variable Write,context=Main:1#getNode:10,i=5
+Variable Delete,method=Main:1#getNode:10 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:10,s=
+Field Read,context=Node:5,filenameMap
+Variable Delete,method=Main:1#getNode:10 <name=i,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main:1#getNode:10 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Field Read,context=Node:5,filenameMap
+Variable Write,context=Main:1#getNode:10,result=index.html
+Method Exit,returner=Main:1#getNode:10,value=index.html
+Variable Write,context=Main:1#calc:1,node2=index.html
+Variable Write,context=Main:1#calc:1,i=5
+Variable Delete,method=Main:1#calc:1 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+Variable Delete,method=Main:1#calc:1 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+Variable Delete,method=Main:1#calc:1 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+Variable Delete,method=Main:1#calc:1 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+Variable Delete,method=Main:1#calc:1 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+Variable Delete,method=Main:1#calc:1 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,html1=/home/ACM/index.html
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:1,html2=/home/ACM/index.html/
+Variable Write,context=Main:1#calc:1,html1=/home/ACM/index.html
+Variable Write,context=Main:1#calc:1,html2=/home/ACM/index.html/
+New Object,object=java.lang.String[]:18
+Field Write,context=java.lang.String[]:18,0=
+Field Write,context=java.lang.String[]:18,1=home
+Field Write,context=java.lang.String[]:18,2=ACM
+Field Write,context=java.lang.String[]:18,3=index.html
+Variable Write,context=Main:1#calc:1,h1=java.lang.String[]:18
+New Object,object=java.lang.String[]:19
+Field Write,context=java.lang.String[]:19,0=
+Field Write,context=java.lang.String[]:19,1=home
+Field Write,context=java.lang.String[]:19,2=ACM
+Field Write,context=java.lang.String[]:19,3=index.html
+Field Write,context=java.lang.String[]:19,4=
+Variable Write,context=Main:1#calc:1,h2=java.lang.String[]:19
+Method Call,caller=Main:1#calc:1,target=Main:1#getNode:11
+Variable Write,context=Main:1#getNode:11,html=java.lang.String[]:18
+Variable Write,context=Main:1#getNode:11,root=Node:1
+Variable Write,context=Main:1#getNode:11,node=Node:1
+Variable Write,context=Main:1#getNode:11,i=0
+Variable Write,context=Main:1#getNode:11,s=
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#getNode:11,node=Node:2
+Variable Write,context=Main:1#getNode:11,i=1
+Variable Delete,method=Main:1#getNode:11 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:11,s=home
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#getNode:11,node=Node:3
+Variable Write,context=Main:1#getNode:11,i=2
+Variable Delete,method=Main:1#getNode:11 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:11,s=ACM
+Field Read,context=Node:3,map
+Field Read,context=Node:3,map
+Variable Write,context=Main:1#getNode:11,node=Node:4
+Variable Write,context=Main:1#getNode:11,i=3
+Variable Delete,method=Main:1#getNode:11 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:11,s=index.html
+Field Read,context=Node:4,map
+Field Read,context=Node:4,filenameMap
+Field Read,context=Node:4,filenameMap
+Variable Write,context=Main:1#getNode:11,result=index.html
+Method Exit,returner=Main:1#getNode:11,value=index.html
+Variable Write,context=Main:1#calc:1,node1=index.html
+Method Call,caller=Main:1#calc:1,target=Main:1#getNode:12
+Variable Write,context=Main:1#getNode:12,html=java.lang.String[]:19
+Variable Write,context=Main:1#getNode:12,root=Node:1
+Variable Write,context=Main:1#getNode:12,node=Node:1
+Variable Write,context=Main:1#getNode:12,i=0
+Variable Write,context=Main:1#getNode:12,s=
+Field Read,context=Node:1,map
+Field Read,context=Node:1,map
+Variable Write,context=Main:1#getNode:12,node=Node:2
+Variable Write,context=Main:1#getNode:12,i=1
+Variable Delete,method=Main:1#getNode:12 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:12,s=home
+Field Read,context=Node:2,map
+Field Read,context=Node:2,map
+Variable Write,context=Main:1#getNode:12,node=Node:3
+Variable Write,context=Main:1#getNode:12,i=2
+Variable Delete,method=Main:1#getNode:12 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:12,s=ACM
+Field Read,context=Node:3,map
+Field Read,context=Node:3,map
+Variable Write,context=Main:1#getNode:12,node=Node:4
+Variable Write,context=Main:1#getNode:12,i=3
+Variable Delete,method=Main:1#getNode:12 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:12,s=index.html
+Field Read,context=Node:4,map
+Variable Write,context=Main:1#getNode:12,result=null
+Method Exit,returner=Main:1#getNode:12,value=null
+Variable Write,context=Main:1#calc:1,node2=null
+Variable Delete,method=Main:1#calc:1 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+Variable Delete,method=Main:1#calc:1 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+Variable Delete,method=Main:1#calc:1 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+Variable Delete,method=Main:1#calc:1 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+Variable Delete,method=Main:1#calc:1 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+Variable Delete,method=Main:1#calc:1 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+Method Exit,returner=Main:1#calc:1,value=<void>
+Field Read,context=Main:1,sc
+Variable Delete,method=Main:1#run:1 <name=n,type=int (id=7),value=0,index=0>
+Variable Delete,method=Main:1#run:1 <name=m,type=int (id=7),value=0,index=1>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#run:1,n=1
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#run:1,m=4
+Method Call,caller=Main:1#run:1,target=Main:1#calc:2
+Variable Write,context=Main:1#calc:2,n=1
+Variable Write,context=Main:1#calc:2,m=4
+New Object,object=Node:10
+Method Call,caller=Main:1#calc:2,target=Node:10#Node:10
+Variable Write,context=Node:10#Node:10,n=
+Variable Write,context=Node:10#Node:10,ue=null
+Field Write,context=Node:10,name=
+Field Write,context=Node:10,map=java.util.HashMap (id=512)
+Field Write,context=Node:10,filenameMap=java.util.HashMap (id=513)
+Field Write,context=Node:10,ue=null
+Method Exit,returner=Node:10#Node:10,value=<void>
+Variable Write,context=Main:1#calc:2,root=Node:10
+Variable Write,context=Main:1#calc:2,i=0
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:2,line=/index.html/index.html
+New Object,object=java.lang.String[]:20
+Field Write,context=java.lang.String[]:20,0=
+Field Write,context=java.lang.String[]:20,1=index.html
+Field Write,context=java.lang.String[]:20,2=index.html
+Variable Write,context=Main:1#calc:2,lines=java.lang.String[]:20
+Variable Write,context=Main:1#calc:2,node=Node:10
+Variable Write,context=Main:1#calc:2,t=0
+Field Read,context=Node:10,map
+Field Read,context=Node:10,map
+New Object,object=Node:11
+Method Call,caller=Main:1#calc:2,target=Node:11#Node:11
+Variable Write,context=Node:11#Node:11,n=
+Variable Write,context=Node:11#Node:11,ue=Node:10
+Field Write,context=Node:11,name=
+Field Write,context=Node:11,map=java.util.HashMap (id=520)
+Field Write,context=Node:11,filenameMap=java.util.HashMap (id=521)
+Field Write,context=Node:11,ue=Node:10
+Method Exit,returner=Node:11#Node:11,value=<void>
+Field Read,context=Node:10,map
+Variable Write,context=Main:1#calc:2,node=Node:11
+Variable Write,context=Main:1#calc:2,t=1
+Field Read,context=Node:11,map
+Field Read,context=Node:11,map
+New Object,object=Node:12
+Method Call,caller=Main:1#calc:2,target=Node:12#Node:12
+Variable Write,context=Node:12#Node:12,n=index.html
+Variable Write,context=Node:12#Node:12,ue=Node:11
+Field Write,context=Node:12,name=index.html
+Field Write,context=Node:12,map=java.util.HashMap (id=523)
+Field Write,context=Node:12,filenameMap=java.util.HashMap (id=524)
+Field Write,context=Node:12,ue=Node:11
+Method Exit,returner=Node:12#Node:12,value=<void>
+Field Read,context=Node:11,map
+Variable Write,context=Main:1#calc:2,node=Node:12
+Field Read,context=Node:12,filenameMap
+Variable Delete,method=Main:1#calc:2 <name=t,type=int (id=7),value=<?>,index=7>
+Variable Delete,method=Main:1#calc:2 <name=line,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Delete,method=Main:1#calc:2 <name=lines,type=java.lang.String[] (id=59),value=<?>,index=5>
+Variable Delete,method=Main:1#calc:2 <name=node,type=Node (id=102),value=<?>,index=6>
+Variable Delete,method=Main:1#calc:2 <name=i,type=int (id=7),value=<?>,index=3>
+Variable Write,context=Main:1#calc:2,i=0
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:2,html1=/
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:2,html2=/index.html/index.html
+Variable Write,context=Main:1#calc:2,html1=/
+Variable Write,context=Main:1#calc:2,html2=/index.html/index.html
+New Object,object=java.lang.String[]:21
+Field Write,context=java.lang.String[]:21,0=
+Field Write,context=java.lang.String[]:21,1=
+Variable Write,context=Main:1#calc:2,h1=java.lang.String[]:21
+New Object,object=java.lang.String[]:22
+Field Write,context=java.lang.String[]:22,0=
+Field Write,context=java.lang.String[]:22,1=index.html
+Field Write,context=java.lang.String[]:22,2=index.html
+Variable Write,context=Main:1#calc:2,h2=java.lang.String[]:22
+Method Call,caller=Main:1#calc:2,target=Main:1#getNode:13
+Variable Write,context=Main:1#getNode:13,html=java.lang.String[]:21
+Variable Write,context=Main:1#getNode:13,root=Node:10
+Variable Write,context=Main:1#getNode:13,node=Node:10
+Variable Write,context=Main:1#getNode:13,i=0
+Variable Write,context=Main:1#getNode:13,s=
+Field Read,context=Node:10,map
+Field Read,context=Node:10,map
+Variable Write,context=Main:1#getNode:13,node=Node:11
+Variable Write,context=Main:1#getNode:13,i=1
+Variable Delete,method=Main:1#getNode:13 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:13,s=
+Field Read,context=Node:11,filenameMap
+Variable Delete,method=Main:1#getNode:13 <name=i,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main:1#getNode:13 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:13,result=null
+Method Exit,returner=Main:1#getNode:13,value=null
+Variable Write,context=Main:1#calc:2,node1=null
+Method Call,caller=Main:1#calc:2,target=Main:1#getNode:14
+Variable Write,context=Main:1#getNode:14,html=java.lang.String[]:22
+Variable Write,context=Main:1#getNode:14,root=Node:10
+Variable Write,context=Main:1#getNode:14,node=Node:10
+Variable Write,context=Main:1#getNode:14,i=0
+Variable Write,context=Main:1#getNode:14,s=
+Field Read,context=Node:10,map
+Field Read,context=Node:10,map
+Variable Write,context=Main:1#getNode:14,node=Node:11
+Variable Write,context=Main:1#getNode:14,i=1
+Variable Delete,method=Main:1#getNode:14 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:14,s=index.html
+Field Read,context=Node:11,map
+Field Read,context=Node:11,map
+Variable Write,context=Main:1#getNode:14,node=Node:12
+Variable Write,context=Main:1#getNode:14,i=2
+Variable Delete,method=Main:1#getNode:14 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:14,s=index.html
+Field Read,context=Node:12,map
+Field Read,context=Node:12,filenameMap
+Field Read,context=Node:12,filenameMap
+Variable Write,context=Main:1#getNode:14,result=index.html
+Method Exit,returner=Main:1#getNode:14,value=index.html
+Variable Write,context=Main:1#calc:2,node2=index.html
+Variable Write,context=Main:1#calc:2,i=1
+Variable Delete,method=Main:1#calc:2 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+Variable Delete,method=Main:1#calc:2 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+Variable Delete,method=Main:1#calc:2 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+Variable Delete,method=Main:1#calc:2 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+Variable Delete,method=Main:1#calc:2 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+Variable Delete,method=Main:1#calc:2 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:2,html1=/index.html
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:2,html2=/index.html/index.html
+Variable Write,context=Main:1#calc:2,html1=/index.html
+Variable Write,context=Main:1#calc:2,html2=/index.html/index.html
+New Object,object=java.lang.String[]:23
+Field Write,context=java.lang.String[]:23,0=
+Field Write,context=java.lang.String[]:23,1=index.html
+Variable Write,context=Main:1#calc:2,h1=java.lang.String[]:23
+New Object,object=java.lang.String[]:24
+Field Write,context=java.lang.String[]:24,0=
+Field Write,context=java.lang.String[]:24,1=index.html
+Field Write,context=java.lang.String[]:24,2=index.html
+Variable Write,context=Main:1#calc:2,h2=java.lang.String[]:24
+Method Call,caller=Main:1#calc:2,target=Main:1#getNode:15
+Variable Write,context=Main:1#getNode:15,html=java.lang.String[]:23
+Variable Write,context=Main:1#getNode:15,root=Node:10
+Variable Write,context=Main:1#getNode:15,node=Node:10
+Variable Write,context=Main:1#getNode:15,i=0
+Variable Write,context=Main:1#getNode:15,s=
+Field Read,context=Node:10,map
+Field Read,context=Node:10,map
+Variable Write,context=Main:1#getNode:15,node=Node:11
+Variable Write,context=Main:1#getNode:15,i=1
+Variable Delete,method=Main:1#getNode:15 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:15,s=index.html
+Field Read,context=Node:11,map
+Field Read,context=Node:11,map
+Variable Write,context=Main:1#getNode:15,node=Node:12
+Variable Delete,method=Main:1#getNode:15 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Field Read,context=Node:12,filenameMap
+Variable Delete,method=Main:1#getNode:15 <name=i,type=int (id=7),value=<?>,index=3>
+Field Read,context=Node:12,filenameMap
+Variable Write,context=Main:1#getNode:15,result=index.html
+Method Exit,returner=Main:1#getNode:15,value=index.html
+Variable Write,context=Main:1#calc:2,node1=index.html
+Method Call,caller=Main:1#calc:2,target=Main:1#getNode:16
+Variable Write,context=Main:1#getNode:16,html=java.lang.String[]:24
+Variable Write,context=Main:1#getNode:16,root=Node:10
+Variable Write,context=Main:1#getNode:16,node=Node:10
+Variable Write,context=Main:1#getNode:16,i=0
+Variable Write,context=Main:1#getNode:16,s=
+Field Read,context=Node:10,map
+Field Read,context=Node:10,map
+Variable Write,context=Main:1#getNode:16,node=Node:11
+Variable Write,context=Main:1#getNode:16,i=1
+Variable Delete,method=Main:1#getNode:16 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:16,s=index.html
+Field Read,context=Node:11,map
+Field Read,context=Node:11,map
+Variable Write,context=Main:1#getNode:16,node=Node:12
+Variable Write,context=Main:1#getNode:16,i=2
+Variable Delete,method=Main:1#getNode:16 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:16,s=index.html
+Field Read,context=Node:12,map
+Field Read,context=Node:12,filenameMap
+Field Read,context=Node:12,filenameMap
+Variable Write,context=Main:1#getNode:16,result=index.html
+Method Exit,returner=Main:1#getNode:16,value=index.html
+Variable Write,context=Main:1#calc:2,node2=index.html
+Variable Write,context=Main:1#calc:2,i=2
+Variable Delete,method=Main:1#calc:2 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+Variable Delete,method=Main:1#calc:2 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+Variable Delete,method=Main:1#calc:2 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+Variable Delete,method=Main:1#calc:2 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+Variable Delete,method=Main:1#calc:2 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+Variable Delete,method=Main:1#calc:2 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:2,html1=/..
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:2,html2=/index.html/../../
+Variable Write,context=Main:1#calc:2,html1=/..
+Variable Write,context=Main:1#calc:2,html2=/index.html/../../
+New Object,object=java.lang.String[]:25
+Field Write,context=java.lang.String[]:25,0=
+Field Write,context=java.lang.String[]:25,1=..
+Variable Write,context=Main:1#calc:2,h1=java.lang.String[]:25
+New Object,object=java.lang.String[]:26
+Field Write,context=java.lang.String[]:26,0=
+Field Write,context=java.lang.String[]:26,1=index.html
+Field Write,context=java.lang.String[]:26,2=..
+Field Write,context=java.lang.String[]:26,3=..
+Field Write,context=java.lang.String[]:26,4=
+Variable Write,context=Main:1#calc:2,h2=java.lang.String[]:26
+Method Call,caller=Main:1#calc:2,target=Main:1#getNode:17
+Variable Write,context=Main:1#getNode:17,html=java.lang.String[]:25
+Variable Write,context=Main:1#getNode:17,root=Node:10
+Variable Write,context=Main:1#getNode:17,node=Node:10
+Variable Write,context=Main:1#getNode:17,i=0
+Variable Write,context=Main:1#getNode:17,s=
+Field Read,context=Node:10,map
+Field Read,context=Node:10,map
+Variable Write,context=Main:1#getNode:17,node=Node:11
+Variable Write,context=Main:1#getNode:17,i=1
+Variable Delete,method=Main:1#getNode:17 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:17,s=..
+Field Read,context=Node:11,ue
+Variable Write,context=Main:1#getNode:17,node=Node:10
+Variable Delete,method=Main:1#getNode:17 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Field Read,context=Node:10,filenameMap
+Variable Delete,method=Main:1#getNode:17 <name=i,type=int (id=7),value=<?>,index=3>
+Variable Write,context=Main:1#getNode:17,result=null
+Method Exit,returner=Main:1#getNode:17,value=null
+Variable Write,context=Main:1#calc:2,node1=null
+Method Call,caller=Main:1#calc:2,target=Main:1#getNode:18
+Variable Write,context=Main:1#getNode:18,html=java.lang.String[]:26
+Variable Write,context=Main:1#getNode:18,root=Node:10
+Variable Write,context=Main:1#getNode:18,node=Node:10
+Variable Write,context=Main:1#getNode:18,i=0
+Variable Write,context=Main:1#getNode:18,s=
+Field Read,context=Node:10,map
+Field Read,context=Node:10,map
+Variable Write,context=Main:1#getNode:18,node=Node:11
+Variable Write,context=Main:1#getNode:18,i=1
+Variable Delete,method=Main:1#getNode:18 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:18,s=index.html
+Field Read,context=Node:11,map
+Field Read,context=Node:11,map
+Variable Write,context=Main:1#getNode:18,node=Node:12
+Variable Write,context=Main:1#getNode:18,i=2
+Variable Delete,method=Main:1#getNode:18 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:18,s=..
+Field Read,context=Node:12,ue
+Variable Write,context=Main:1#getNode:18,node=Node:11
+Variable Write,context=Main:1#getNode:18,i=3
+Variable Delete,method=Main:1#getNode:18 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:18,s=..
+Field Read,context=Node:11,ue
+Variable Write,context=Main:1#getNode:18,node=Node:10
+Variable Write,context=Main:1#getNode:18,i=4
+Variable Delete,method=Main:1#getNode:18 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:18,s=
+Field Read,context=Node:10,filenameMap
+Variable Delete,method=Main:1#getNode:18 <name=i,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main:1#getNode:18 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:18,result=null
+Method Exit,returner=Main:1#getNode:18,value=null
+Variable Write,context=Main:1#calc:2,node2=null
+Variable Write,context=Main:1#calc:2,i=3
+Variable Delete,method=Main:1#calc:2 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+Variable Delete,method=Main:1#calc:2 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+Variable Delete,method=Main:1#calc:2 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+Variable Delete,method=Main:1#calc:2 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+Variable Delete,method=Main:1#calc:2 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+Variable Delete,method=Main:1#calc:2 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:2,html1=/index.html/
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#calc:2,html2=/index.html/index.html/..
+Variable Write,context=Main:1#calc:2,html1=/index.html/
+Variable Write,context=Main:1#calc:2,html2=/index.html/index.html/..
+New Object,object=java.lang.String[]:27
+Field Write,context=java.lang.String[]:27,0=
+Field Write,context=java.lang.String[]:27,1=index.html
+Field Write,context=java.lang.String[]:27,2=
+Variable Write,context=Main:1#calc:2,h1=java.lang.String[]:27
+New Object,object=java.lang.String[]:28
+Field Write,context=java.lang.String[]:28,0=
+Field Write,context=java.lang.String[]:28,1=index.html
+Field Write,context=java.lang.String[]:28,2=index.html
+Field Write,context=java.lang.String[]:28,3=..
+Variable Write,context=Main:1#calc:2,h2=java.lang.String[]:28
+Method Call,caller=Main:1#calc:2,target=Main:1#getNode:19
+Variable Write,context=Main:1#getNode:19,html=java.lang.String[]:27
+Variable Write,context=Main:1#getNode:19,root=Node:10
+Variable Write,context=Main:1#getNode:19,node=Node:10
+Variable Write,context=Main:1#getNode:19,i=0
+Variable Write,context=Main:1#getNode:19,s=
+Field Read,context=Node:10,map
+Field Read,context=Node:10,map
+Variable Write,context=Main:1#getNode:19,node=Node:11
+Variable Write,context=Main:1#getNode:19,i=1
+Variable Delete,method=Main:1#getNode:19 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:19,s=index.html
+Field Read,context=Node:11,map
+Field Read,context=Node:11,map
+Variable Write,context=Main:1#getNode:19,node=Node:12
+Variable Write,context=Main:1#getNode:19,i=2
+Variable Delete,method=Main:1#getNode:19 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Variable Write,context=Main:1#getNode:19,s=
+Field Read,context=Node:12,filenameMap
+Variable Delete,method=Main:1#getNode:19 <name=i,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main:1#getNode:19 <name=s,type=java.lang.String (id=25),value=<?>,index=4>
+Field Read,context=Node:12,filenameMap
+Variable Write,context=Main:1#getNode:19,result=index.html
+Method Exit,returner=Main:1#getNode:19,value=index.html
+Variable Write,context=Main:1#calc:2,node1=index.html
+Method Call,caller=Main:1#calc:2,target=Main:1#getNode:20
+Variable Write,context=Main:1#getNode:20,html=java.lang.String[]:28
+Variable Write,context=Main:1#getNode:20,root=Node:10
+Variable Write,context=Main:1#getNode:20,node=Node:10
+Variable Write,context=Main:1#getNode:20,i=0
+Variable Write,context=Main:1#getNode:20,s=
+Field Read,context=Node:10,map
+Field Read,context=Node:10,map
+Variable Write,context=Main:1#getNode:20,node=Node:11
+Variable Write,context=Main:1#getNode:20,i=1
+Variable Delete,method=Main:1#getNode:20 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:20,s=index.html
+Field Read,context=Node:11,map
+Field Read,context=Node:11,map
+Variable Write,context=Main:1#getNode:20,node=Node:12
+Variable Write,context=Main:1#getNode:20,i=2
+Variable Delete,method=Main:1#getNode:20 <name=s,type=java.lang.String (id=25),value=index.html,index=4>
+Variable Write,context=Main:1#getNode:20,s=index.html
+Field Read,context=Node:12,map
+Variable Write,context=Main:1#getNode:20,result=null
+Method Exit,returner=Main:1#getNode:20,value=null
+Variable Write,context=Main:1#calc:2,node2=null
+Variable Delete,method=Main:1#calc:2 <name=html1,type=java.lang.String (id=25),value=<?>,index=9>
+Variable Delete,method=Main:1#calc:2 <name=html2,type=java.lang.String (id=25),value=<?>,index=10>
+Variable Delete,method=Main:1#calc:2 <name=h1,type=java.lang.String[] (id=59),value=<?>,index=11>
+Variable Delete,method=Main:1#calc:2 <name=h2,type=java.lang.String[] (id=59),value=<?>,index=12>
+Variable Delete,method=Main:1#calc:2 <name=node1,type=java.lang.String (id=25),value=<?>,index=13>
+Variable Delete,method=Main:1#calc:2 <name=node2,type=java.lang.String (id=25),value=<?>,index=14>
+Method Exit,returner=Main:1#calc:2,value=<void>
+Field Read,context=Main:1,sc
+Variable Delete,method=Main:1#run:1 <name=n,type=int (id=7),value=0,index=0>
+Variable Delete,method=Main:1#run:1 <name=m,type=int (id=7),value=0,index=1>
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#run:1,n=0
+Field Read,context=Main:1,sc
+Variable Write,context=Main:1#run:1,m=0
+Method Exit,returner=Main:1#run:1,value=<void>
+Method Exit,returner=Main#main:1,value=<void>
+Thread End,

@@ -1,0 +1,1881 @@
+Thread Start,main (1)
+Method Call,caller=SYSTEM,target=Main#main:1
+New Object,object=java.lang.String[]:1
+Variable Write,context=Main#main:1,args=java.lang.String[]:1
+New Object,object=Main:1
+Method Call,caller=Main#main:1,target=Main:1#Main:1
+Field Write,context=Main:1,sc=java.util.Scanner (id=364)
+New Object,object=Main$AOJ1212:1
+Method Call,caller=Main:1#Main:1,target=Main$AOJ1212:1#Main$AOJ1212:1
+Field Write,context=Main$AOJ1212:1,EPS=1.0E-4
+Field Read,context=Main:1,sc
+Field Write,context=Main$AOJ1212:1,N=0
+Field Read,context=Main$AOJ1212:1,N
+Method Call,caller=Main$AOJ1212:1#Main$AOJ1212:1,target=Main$AOJ1212:1#solve:1
+Field Read,context=Main$AOJ1212:1,N
+New Object,object=java.awt.geom.Line2D[]:1
+Variable Write,context=Main$AOJ1212:1#solve:1,mirrors=java.awt.geom.Line2D[]:1
+Field Read,context=Main$AOJ1212:1,N
+New Object,object=java.awt.geom.Line2D[]:2
+Field Write,context=java.awt.geom.Line2D[]:2,0=null
+Field Write,context=java.awt.geom.Line2D[]:2,1=null
+Field Write,context=java.awt.geom.Line2D[]:2,2=null
+Field Write,context=java.awt.geom.Line2D[]:2,3=null
+Variable Write,context=Main$AOJ1212:1#solve:1,walls=java.awt.geom.Line2D[]:2
+Field Write,context=java.awt.geom.Line2D[]:2,0=java.awt.geom.Line2D$Double (id=371)
+Variable Write,context=Main$AOJ1212:1#solve:1,walls=java.awt.geom.Line2D[]:2
+Field Write,context=java.awt.geom.Line2D[]:2,1=java.awt.geom.Line2D$Double (id=374)
+Variable Write,context=Main$AOJ1212:1#solve:1,walls=java.awt.geom.Line2D[]:2
+Field Write,context=java.awt.geom.Line2D[]:2,2=java.awt.geom.Line2D$Double (id=375)
+Variable Write,context=Main$AOJ1212:1#solve:1,walls=java.awt.geom.Line2D[]:2
+Field Write,context=java.awt.geom.Line2D[]:2,3=java.awt.geom.Line2D$Double (id=376)
+Variable Write,context=Main$AOJ1212:1#solve:1,walls=java.awt.geom.Line2D[]:2
+Variable Write,context=Main$AOJ1212:1#solve:1,start=java.awt.geom.Point2D$Double (id=377)
+Variable Write,context=Main$AOJ1212:1#solve:1,ans=java.awt.geom.Point2D$Double (id=377)
+Variable Write,context=Main$AOJ1212:1#solve:1,l=java.awt.geom.Line2D$Double (id=380)
+New Object,object=java.awt.geom.Point2D[]:1
+Field Write,context=java.awt.geom.Point2D[]:1,0=java.awt.geom.Point2D$Double (id=383)
+Field Write,context=java.awt.geom.Point2D[]:1,1=java.awt.geom.Point2D$Double (id=384)
+Field Write,context=java.awt.geom.Point2D[]:1,2=java.awt.geom.Point2D$Double (id=385)
+Field Write,context=java.awt.geom.Point2D[]:1,3=java.awt.geom.Point2D$Double (id=386)
+Variable Write,context=Main$AOJ1212:1#solve:1,vv=java.awt.geom.Point2D[]:1
+Variable Write,context=Main$AOJ1212:1#solve:1,cnt=0
+Variable Write,context=Main$AOJ1212:1#solve:1,v=0
+Variable Write,context=Main$AOJ1212:1#solve:1,fin=false
+Variable Write,context=Main$AOJ1212:1#solve:1,bs=false
+Variable Write,context=Main$AOJ1212:1#solve:1,cnt=1
+Variable Write,context=Main$AOJ1212:1#solve:1,dis=100.0
+Variable Write,context=Main$AOJ1212:1#solve:1,p=null
+Variable Write,context=Main$AOJ1212:1#solve:1,idx=-1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:1,i=0
+Variable Write,context=Main$AOJ1212:1#solve:1,i=1
+Method Call,caller=Main$AOJ1212:1#solve:1,target=Main$AOJ1212:1#intersectionPoint:1
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:1,l1=java.awt.geom.Line2D$Double (id=380)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:1,l2=java.awt.geom.Line2D$Double (id=374)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#intersectionPoint:1
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:1,b2=java.awt.geom.Point2D$Double (id=390)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:1,a1=java.awt.geom.Point2D$Double (id=387)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:1,a2=java.awt.geom.Point2D$Double (id=388)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:1,b1=java.awt.geom.Point2D$Double (id=389)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#diff:1
+Variable Write,context=Main$AOJ1212:1#diff:1,p2=java.awt.geom.Point2D$Double (id=387)
+Variable Write,context=Main$AOJ1212:1#diff:1,p1=java.awt.geom.Point2D$Double (id=388)
+Variable Write,context=Main$AOJ1212:1#diff:1,result=java.awt.geom.Point2D$Double (id=391)
+Method Exit,returner=Main$AOJ1212:1#diff:1,value=java.awt.geom.Point2D$Double (id=391)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:1,a=java.awt.geom.Point2D$Double (id=391)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#diff:2
+Variable Write,context=Main$AOJ1212:1#diff:2,p2=java.awt.geom.Point2D$Double (id=389)
+Variable Write,context=Main$AOJ1212:1#diff:2,p1=java.awt.geom.Point2D$Double (id=390)
+Variable Write,context=Main$AOJ1212:1#diff:2,result=java.awt.geom.Point2D$Double (id=392)
+Method Exit,returner=Main$AOJ1212:1#diff:2,value=java.awt.geom.Point2D$Double (id=392)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:1,b=java.awt.geom.Point2D$Double (id=392)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#diff:3
+Variable Write,context=Main$AOJ1212:1#diff:3,p2=java.awt.geom.Point2D$Double (id=387)
+Variable Write,context=Main$AOJ1212:1#diff:3,p1=java.awt.geom.Point2D$Double (id=389)
+Variable Write,context=Main$AOJ1212:1#diff:3,result=java.awt.geom.Point2D$Double (id=393)
+Method Exit,returner=Main$AOJ1212:1#diff:3,value=java.awt.geom.Point2D$Double (id=393)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#cross:1
+Variable Write,context=Main$AOJ1212:1#cross:1,p2=java.awt.geom.Point2D$Double (id=393)
+Variable Write,context=Main$AOJ1212:1#cross:1,p1=java.awt.geom.Point2D$Double (id=392)
+Variable Write,context=Main$AOJ1212:1#cross:1,result=-58.0
+Method Exit,returner=Main$AOJ1212:1#cross:1,value=-58.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#cross:2
+Variable Write,context=Main$AOJ1212:1#cross:2,p2=java.awt.geom.Point2D$Double (id=391)
+Variable Write,context=Main$AOJ1212:1#cross:2,p1=java.awt.geom.Point2D$Double (id=392)
+Variable Write,context=Main$AOJ1212:1#cross:2,result=-800.0
+Method Exit,returner=Main$AOJ1212:1#cross:2,value=-800.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#mul:1
+Variable Write,context=Main$AOJ1212:1#mul:1,p1=java.awt.geom.Point2D$Double (id=391)
+Variable Write,context=Main$AOJ1212:1#mul:1,n=0.0725
+Variable Write,context=Main$AOJ1212:1#mul:1,result=java.awt.geom.Point2D$Double (id=394)
+Method Exit,returner=Main$AOJ1212:1#mul:1,value=java.awt.geom.Point2D$Double (id=394)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:1,target=Main$AOJ1212:1#sum:1
+Variable Write,context=Main$AOJ1212:1#sum:1,p2=java.awt.geom.Point2D$Double (id=394)
+Variable Write,context=Main$AOJ1212:1#sum:1,p1=java.awt.geom.Point2D$Double (id=387)
+Variable Write,context=Main$AOJ1212:1#sum:1,result=java.awt.geom.Point2D$Double (id=395)
+Method Exit,returner=Main$AOJ1212:1#sum:1,value=java.awt.geom.Point2D$Double (id=395)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:1,result=java.awt.geom.Point2D$Double (id=395)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:1,value=java.awt.geom.Point2D$Double (id=395)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:1,result=java.awt.geom.Point2D$Double (id=395)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:1,value=java.awt.geom.Point2D$Double (id=395)
+Variable Write,context=Main$AOJ1212:1#solve:1,tmp=java.awt.geom.Point2D$Double (id=395)
+Variable Write,context=Main$AOJ1212:1#solve:1,ans=java.awt.geom.Point2D$Double (id=395)
+Variable Write,context=Main$AOJ1212:1#solve:1,fin=true
+Variable Delete,method=Main$AOJ1212:1#solve:1 <name=bs,type=boolean (id=2),value=<?>,index=13>
+Variable Delete,method=Main$AOJ1212:1#solve:1 <name=dis,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main$AOJ1212:1#solve:1 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+Variable Delete,method=Main$AOJ1212:1#solve:1 <name=idx,type=int (id=7),value=<?>,index=16>
+Variable Delete,method=Main$AOJ1212:1#solve:1 <name=i,type=int (id=7),value=<?>,index=20>
+Variable Delete,method=Main$AOJ1212:1#solve:1 <name=tmp,type=java.awt.geom.Point2D (id=107),value=<?>,index=21>
+Method Exit,returner=Main$AOJ1212:1#solve:1,value=<void>
+Field Read,context=Main:1,sc
+Field Write,context=Main$AOJ1212:1,N=1
+Field Read,context=Main$AOJ1212:1,N
+Method Call,caller=Main$AOJ1212:1#Main$AOJ1212:1,target=Main$AOJ1212:1#solve:2
+Field Read,context=Main$AOJ1212:1,N
+New Object,object=java.awt.geom.Line2D[]:3
+Field Write,context=java.awt.geom.Line2D[]:3,0=null
+Variable Write,context=Main$AOJ1212:1#solve:2,mirrors=java.awt.geom.Line2D[]:3
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:2,i=0
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:2,d=y
+Field Read,context=Main:1,sc
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:2,x=8
+Variable Write,context=Main$AOJ1212:1#solve:2,y=7
+Field Write,context=java.awt.geom.Line2D[]:3,0=java.awt.geom.Line2D$Double (id=399)
+Variable Write,context=Main$AOJ1212:1#solve:2,mirrors=java.awt.geom.Line2D[]:3
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=x,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=y,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=i,type=int (id=7),value=<?>,index=1>
+New Object,object=java.awt.geom.Line2D[]:4
+Field Write,context=java.awt.geom.Line2D[]:4,0=null
+Field Write,context=java.awt.geom.Line2D[]:4,1=null
+Field Write,context=java.awt.geom.Line2D[]:4,2=null
+Field Write,context=java.awt.geom.Line2D[]:4,3=null
+Variable Write,context=Main$AOJ1212:1#solve:2,walls=java.awt.geom.Line2D[]:4
+Field Write,context=java.awt.geom.Line2D[]:4,0=java.awt.geom.Line2D$Double (id=401)
+Variable Write,context=Main$AOJ1212:1#solve:2,walls=java.awt.geom.Line2D[]:4
+Field Write,context=java.awt.geom.Line2D[]:4,1=java.awt.geom.Line2D$Double (id=402)
+Variable Write,context=Main$AOJ1212:1#solve:2,walls=java.awt.geom.Line2D[]:4
+Field Write,context=java.awt.geom.Line2D[]:4,2=java.awt.geom.Line2D$Double (id=403)
+Variable Write,context=Main$AOJ1212:1#solve:2,walls=java.awt.geom.Line2D[]:4
+Field Write,context=java.awt.geom.Line2D[]:4,3=java.awt.geom.Line2D$Double (id=404)
+Variable Write,context=Main$AOJ1212:1#solve:2,walls=java.awt.geom.Line2D[]:4
+Variable Write,context=Main$AOJ1212:1#solve:2,start=java.awt.geom.Point2D$Double (id=405)
+Variable Write,context=Main$AOJ1212:1#solve:2,ans=java.awt.geom.Point2D$Double (id=405)
+Variable Write,context=Main$AOJ1212:1#solve:2,l=java.awt.geom.Line2D$Double (id=406)
+New Object,object=java.awt.geom.Point2D[]:2
+Field Write,context=java.awt.geom.Point2D[]:2,0=java.awt.geom.Point2D$Double (id=408)
+Field Write,context=java.awt.geom.Point2D[]:2,1=java.awt.geom.Point2D$Double (id=409)
+Field Write,context=java.awt.geom.Point2D[]:2,2=java.awt.geom.Point2D$Double (id=410)
+Field Write,context=java.awt.geom.Point2D[]:2,3=java.awt.geom.Point2D$Double (id=411)
+Variable Write,context=Main$AOJ1212:1#solve:2,vv=java.awt.geom.Point2D[]:2
+Variable Write,context=Main$AOJ1212:1#solve:2,cnt=0
+Variable Write,context=Main$AOJ1212:1#solve:2,v=0
+Variable Write,context=Main$AOJ1212:1#solve:2,fin=false
+Variable Write,context=Main$AOJ1212:1#solve:2,bs=false
+Variable Write,context=Main$AOJ1212:1#solve:2,cnt=1
+Variable Write,context=Main$AOJ1212:1#solve:2,dis=100.0
+Variable Write,context=Main$AOJ1212:1#solve:2,p=null
+Variable Write,context=Main$AOJ1212:1#solve:2,idx=-1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:2,i=0
+Method Call,caller=Main$AOJ1212:1#solve:2,target=Main$AOJ1212:1#intersectionPoint:2
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:2,l1=java.awt.geom.Line2D$Double (id=406)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:2,l2=java.awt.geom.Line2D$Double (id=399)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#intersectionPoint:2
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:2,b2=java.awt.geom.Point2D$Double (id=415)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:2,a1=java.awt.geom.Point2D$Double (id=412)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:2,a2=java.awt.geom.Point2D$Double (id=413)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:2,b1=java.awt.geom.Point2D$Double (id=414)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#diff:4
+Variable Write,context=Main$AOJ1212:1#diff:4,p2=java.awt.geom.Point2D$Double (id=412)
+Variable Write,context=Main$AOJ1212:1#diff:4,p1=java.awt.geom.Point2D$Double (id=413)
+Variable Write,context=Main$AOJ1212:1#diff:4,result=java.awt.geom.Point2D$Double (id=416)
+Method Exit,returner=Main$AOJ1212:1#diff:4,value=java.awt.geom.Point2D$Double (id=416)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:2,a=java.awt.geom.Point2D$Double (id=416)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#diff:5
+Variable Write,context=Main$AOJ1212:1#diff:5,p2=java.awt.geom.Point2D$Double (id=414)
+Variable Write,context=Main$AOJ1212:1#diff:5,p1=java.awt.geom.Point2D$Double (id=415)
+Variable Write,context=Main$AOJ1212:1#diff:5,result=java.awt.geom.Point2D$Double (id=417)
+Method Exit,returner=Main$AOJ1212:1#diff:5,value=java.awt.geom.Point2D$Double (id=417)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:2,b=java.awt.geom.Point2D$Double (id=417)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#diff:6
+Variable Write,context=Main$AOJ1212:1#diff:6,p2=java.awt.geom.Point2D$Double (id=412)
+Variable Write,context=Main$AOJ1212:1#diff:6,p1=java.awt.geom.Point2D$Double (id=414)
+Variable Write,context=Main$AOJ1212:1#diff:6,result=java.awt.geom.Point2D$Double (id=418)
+Method Exit,returner=Main$AOJ1212:1#diff:6,value=java.awt.geom.Point2D$Double (id=418)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#cross:3
+Variable Write,context=Main$AOJ1212:1#cross:3,p2=java.awt.geom.Point2D$Double (id=418)
+Variable Write,context=Main$AOJ1212:1#cross:3,p1=java.awt.geom.Point2D$Double (id=417)
+Variable Write,context=Main$AOJ1212:1#cross:3,result=-7.25
+Method Exit,returner=Main$AOJ1212:1#cross:3,value=-7.25
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#cross:4
+Variable Write,context=Main$AOJ1212:1#cross:4,p2=java.awt.geom.Point2D$Double (id=416)
+Variable Write,context=Main$AOJ1212:1#cross:4,p1=java.awt.geom.Point2D$Double (id=417)
+Variable Write,context=Main$AOJ1212:1#cross:4,result=-100.0
+Method Exit,returner=Main$AOJ1212:1#cross:4,value=-100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#mul:2
+Variable Write,context=Main$AOJ1212:1#mul:2,p1=java.awt.geom.Point2D$Double (id=416)
+Variable Write,context=Main$AOJ1212:1#mul:2,n=0.0725
+Variable Write,context=Main$AOJ1212:1#mul:2,result=java.awt.geom.Point2D$Double (id=419)
+Method Exit,returner=Main$AOJ1212:1#mul:2,value=java.awt.geom.Point2D$Double (id=419)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:2,target=Main$AOJ1212:1#sum:2
+Variable Write,context=Main$AOJ1212:1#sum:2,p2=java.awt.geom.Point2D$Double (id=419)
+Variable Write,context=Main$AOJ1212:1#sum:2,p1=java.awt.geom.Point2D$Double (id=412)
+Variable Write,context=Main$AOJ1212:1#sum:2,result=java.awt.geom.Point2D$Double (id=420)
+Method Exit,returner=Main$AOJ1212:1#sum:2,value=java.awt.geom.Point2D$Double (id=420)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:2,result=java.awt.geom.Point2D$Double (id=420)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:2,value=java.awt.geom.Point2D$Double (id=420)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:2,result=java.awt.geom.Point2D$Double (id=420)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:2,value=java.awt.geom.Point2D$Double (id=420)
+Variable Write,context=Main$AOJ1212:1#solve:2,b=java.awt.geom.Point2D$Double (id=420)
+Variable Write,context=Main$AOJ1212:1#solve:2,a=10.253048327204938
+Variable Write,context=Main$AOJ1212:1#solve:2,dis=10.253048327204938
+Variable Write,context=Main$AOJ1212:1#solve:2,p=java.awt.geom.Point2D$Double (id=420)
+Variable Write,context=Main$AOJ1212:1#solve:2,idx=0
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=a,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=i,type=int (id=7),value=<?>,index=17>
+Variable Write,context=Main$AOJ1212:1#solve:2,v=1
+Variable Write,context=Main$AOJ1212:1#solve:2,px=800.0000999999999
+Variable Write,context=Main$AOJ1212:1#solve:2,py=750.0000999999999
+Variable Write,context=Main$AOJ1212:1#solve:2,p=java.awt.geom.Point2D$Double (id=421)
+Method Call,caller=Main$AOJ1212:1#solve:2,target=Main$AOJ1212:1#sum:3
+Variable Write,context=Main$AOJ1212:1#sum:3,p2=java.awt.geom.Point2D$Double (id=409)
+Variable Write,context=Main$AOJ1212:1#sum:3,p1=java.awt.geom.Point2D$Double (id=421)
+Variable Write,context=Main$AOJ1212:1#sum:3,result=java.awt.geom.Point2D$Double (id=422)
+Method Exit,returner=Main$AOJ1212:1#sum:3,value=java.awt.geom.Point2D$Double (id=422)
+Variable Write,context=Main$AOJ1212:1#solve:2,l=java.awt.geom.Line2D$Double (id=423)
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=bs,type=boolean (id=2),value=<?>,index=13>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=dis,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=idx,type=int (id=7),value=<?>,index=16>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=px,type=double (id=5),value=<?>,index=23>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=py,type=double (id=5),value=<?>,index=24>
+Variable Write,context=Main$AOJ1212:1#solve:2,bs=false
+Variable Write,context=Main$AOJ1212:1#solve:2,cnt=2
+Variable Write,context=Main$AOJ1212:1#solve:2,dis=100.0
+Variable Write,context=Main$AOJ1212:1#solve:2,p=null
+Variable Write,context=Main$AOJ1212:1#solve:2,idx=-1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:2,i=0
+Method Call,caller=Main$AOJ1212:1#solve:2,target=Main$AOJ1212:1#intersectionPoint:3
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:3,l1=java.awt.geom.Line2D$Double (id=423)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:3,l2=java.awt.geom.Line2D$Double (id=399)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#intersectionPoint:3
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:3,b2=java.awt.geom.Point2D$Double (id=427)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:3,a1=java.awt.geom.Point2D$Double (id=424)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:3,a2=java.awt.geom.Point2D$Double (id=425)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:3,b1=java.awt.geom.Point2D$Double (id=426)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#diff:7
+Variable Write,context=Main$AOJ1212:1#diff:7,p2=java.awt.geom.Point2D$Double (id=424)
+Variable Write,context=Main$AOJ1212:1#diff:7,p1=java.awt.geom.Point2D$Double (id=425)
+Variable Write,context=Main$AOJ1212:1#diff:7,result=java.awt.geom.Point2D$Double (id=428)
+Method Exit,returner=Main$AOJ1212:1#diff:7,value=java.awt.geom.Point2D$Double (id=428)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:3,a=java.awt.geom.Point2D$Double (id=428)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#diff:8
+Variable Write,context=Main$AOJ1212:1#diff:8,p2=java.awt.geom.Point2D$Double (id=426)
+Variable Write,context=Main$AOJ1212:1#diff:8,p1=java.awt.geom.Point2D$Double (id=427)
+Variable Write,context=Main$AOJ1212:1#diff:8,result=java.awt.geom.Point2D$Double (id=429)
+Method Exit,returner=Main$AOJ1212:1#diff:8,value=java.awt.geom.Point2D$Double (id=429)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:3,b=java.awt.geom.Point2D$Double (id=429)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#diff:9
+Variable Write,context=Main$AOJ1212:1#diff:9,p2=java.awt.geom.Point2D$Double (id=424)
+Variable Write,context=Main$AOJ1212:1#diff:9,p1=java.awt.geom.Point2D$Double (id=426)
+Variable Write,context=Main$AOJ1212:1#diff:9,result=java.awt.geom.Point2D$Double (id=430)
+Method Exit,returner=Main$AOJ1212:1#diff:9,value=java.awt.geom.Point2D$Double (id=430)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#cross:5
+Variable Write,context=Main$AOJ1212:1#cross:5,p2=java.awt.geom.Point2D$Double (id=430)
+Variable Write,context=Main$AOJ1212:1#cross:5,p1=java.awt.geom.Point2D$Double (id=429)
+Variable Write,context=Main$AOJ1212:1#cross:5,result=-0.0
+Method Exit,returner=Main$AOJ1212:1#cross:5,value=-0.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#cross:6
+Variable Write,context=Main$AOJ1212:1#cross:6,p2=java.awt.geom.Point2D$Double (id=428)
+Variable Write,context=Main$AOJ1212:1#cross:6,p1=java.awt.geom.Point2D$Double (id=429)
+Variable Write,context=Main$AOJ1212:1#cross:6,result=100.0
+Method Exit,returner=Main$AOJ1212:1#cross:6,value=100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#mul:3
+Variable Write,context=Main$AOJ1212:1#mul:3,p1=java.awt.geom.Point2D$Double (id=428)
+Variable Write,context=Main$AOJ1212:1#mul:3,n=-0.0
+Variable Write,context=Main$AOJ1212:1#mul:3,result=java.awt.geom.Point2D$Double (id=431)
+Method Exit,returner=Main$AOJ1212:1#mul:3,value=java.awt.geom.Point2D$Double (id=431)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:3,target=Main$AOJ1212:1#sum:4
+Variable Write,context=Main$AOJ1212:1#sum:4,p2=java.awt.geom.Point2D$Double (id=431)
+Variable Write,context=Main$AOJ1212:1#sum:4,p1=java.awt.geom.Point2D$Double (id=424)
+Variable Write,context=Main$AOJ1212:1#sum:4,result=java.awt.geom.Point2D$Double (id=432)
+Method Exit,returner=Main$AOJ1212:1#sum:4,value=java.awt.geom.Point2D$Double (id=432)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:3,result=java.awt.geom.Point2D$Double (id=432)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:3,value=java.awt.geom.Point2D$Double (id=432)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:3,result=java.awt.geom.Point2D$Double (id=432)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:3,value=java.awt.geom.Point2D$Double (id=432)
+Variable Write,context=Main$AOJ1212:1#solve:2,b=java.awt.geom.Point2D$Double (id=432)
+Variable Write,context=Main$AOJ1212:1#solve:2,a=0.0
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=a,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=i,type=int (id=7),value=<?>,index=17>
+Variable Write,context=Main$AOJ1212:1#solve:2,i=0
+Variable Write,context=Main$AOJ1212:1#solve:2,i=1
+Method Call,caller=Main$AOJ1212:1#solve:2,target=Main$AOJ1212:1#intersectionPoint:4
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:4,l1=java.awt.geom.Line2D$Double (id=423)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:4,l2=java.awt.geom.Line2D$Double (id=402)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#intersectionPoint:4
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:4,b2=java.awt.geom.Point2D$Double (id=436)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:4,a1=java.awt.geom.Point2D$Double (id=433)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:4,a2=java.awt.geom.Point2D$Double (id=434)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:4,b1=java.awt.geom.Point2D$Double (id=435)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#diff:10
+Variable Write,context=Main$AOJ1212:1#diff:10,p2=java.awt.geom.Point2D$Double (id=433)
+Variable Write,context=Main$AOJ1212:1#diff:10,p1=java.awt.geom.Point2D$Double (id=434)
+Variable Write,context=Main$AOJ1212:1#diff:10,result=java.awt.geom.Point2D$Double (id=437)
+Method Exit,returner=Main$AOJ1212:1#diff:10,value=java.awt.geom.Point2D$Double (id=437)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:4,a=java.awt.geom.Point2D$Double (id=437)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#diff:11
+Variable Write,context=Main$AOJ1212:1#diff:11,p2=java.awt.geom.Point2D$Double (id=435)
+Variable Write,context=Main$AOJ1212:1#diff:11,p1=java.awt.geom.Point2D$Double (id=436)
+Variable Write,context=Main$AOJ1212:1#diff:11,result=java.awt.geom.Point2D$Double (id=438)
+Method Exit,returner=Main$AOJ1212:1#diff:11,value=java.awt.geom.Point2D$Double (id=438)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:4,b=java.awt.geom.Point2D$Double (id=438)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#diff:12
+Variable Write,context=Main$AOJ1212:1#diff:12,p2=java.awt.geom.Point2D$Double (id=433)
+Variable Write,context=Main$AOJ1212:1#diff:12,p1=java.awt.geom.Point2D$Double (id=435)
+Variable Write,context=Main$AOJ1212:1#diff:12,result=java.awt.geom.Point2D$Double (id=439)
+Method Exit,returner=Main$AOJ1212:1#diff:12,value=java.awt.geom.Point2D$Double (id=439)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#cross:7
+Variable Write,context=Main$AOJ1212:1#cross:7,p2=java.awt.geom.Point2D$Double (id=439)
+Variable Write,context=Main$AOJ1212:1#cross:7,p1=java.awt.geom.Point2D$Double (id=438)
+Variable Write,context=Main$AOJ1212:1#cross:7,result=-0.0
+Method Exit,returner=Main$AOJ1212:1#cross:7,value=-0.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#cross:8
+Variable Write,context=Main$AOJ1212:1#cross:8,p2=java.awt.geom.Point2D$Double (id=437)
+Variable Write,context=Main$AOJ1212:1#cross:8,p1=java.awt.geom.Point2D$Double (id=438)
+Variable Write,context=Main$AOJ1212:1#cross:8,result=800.0
+Method Exit,returner=Main$AOJ1212:1#cross:8,value=800.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#mul:4
+Variable Write,context=Main$AOJ1212:1#mul:4,p1=java.awt.geom.Point2D$Double (id=437)
+Variable Write,context=Main$AOJ1212:1#mul:4,n=-0.0
+Variable Write,context=Main$AOJ1212:1#mul:4,result=java.awt.geom.Point2D$Double (id=440)
+Method Exit,returner=Main$AOJ1212:1#mul:4,value=java.awt.geom.Point2D$Double (id=440)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:4,target=Main$AOJ1212:1#sum:5
+Variable Write,context=Main$AOJ1212:1#sum:5,p2=java.awt.geom.Point2D$Double (id=440)
+Variable Write,context=Main$AOJ1212:1#sum:5,p1=java.awt.geom.Point2D$Double (id=433)
+Variable Write,context=Main$AOJ1212:1#sum:5,result=java.awt.geom.Point2D$Double (id=441)
+Method Exit,returner=Main$AOJ1212:1#sum:5,value=java.awt.geom.Point2D$Double (id=441)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:4,result=java.awt.geom.Point2D$Double (id=441)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:4,value=java.awt.geom.Point2D$Double (id=441)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:4,result=java.awt.geom.Point2D$Double (id=441)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:4,value=java.awt.geom.Point2D$Double (id=441)
+Variable Write,context=Main$AOJ1212:1#solve:2,tmp=java.awt.geom.Point2D$Double (id=441)
+Variable Write,context=Main$AOJ1212:1#solve:2,i=2
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=tmp,type=java.awt.geom.Point2D (id=107),value=<?>,index=21>
+Method Call,caller=Main$AOJ1212:1#solve:2,target=Main$AOJ1212:1#intersectionPoint:5
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:5,l1=java.awt.geom.Line2D$Double (id=423)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:5,l2=java.awt.geom.Line2D$Double (id=403)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#intersectionPoint:5
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:5,b2=java.awt.geom.Point2D$Double (id=445)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:5,a1=java.awt.geom.Point2D$Double (id=442)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:5,a2=java.awt.geom.Point2D$Double (id=443)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:5,b1=java.awt.geom.Point2D$Double (id=444)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#diff:13
+Variable Write,context=Main$AOJ1212:1#diff:13,p2=java.awt.geom.Point2D$Double (id=442)
+Variable Write,context=Main$AOJ1212:1#diff:13,p1=java.awt.geom.Point2D$Double (id=443)
+Variable Write,context=Main$AOJ1212:1#diff:13,result=java.awt.geom.Point2D$Double (id=446)
+Method Exit,returner=Main$AOJ1212:1#diff:13,value=java.awt.geom.Point2D$Double (id=446)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:5,a=java.awt.geom.Point2D$Double (id=446)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#diff:14
+Variable Write,context=Main$AOJ1212:1#diff:14,p2=java.awt.geom.Point2D$Double (id=444)
+Variable Write,context=Main$AOJ1212:1#diff:14,p1=java.awt.geom.Point2D$Double (id=445)
+Variable Write,context=Main$AOJ1212:1#diff:14,result=java.awt.geom.Point2D$Double (id=447)
+Method Exit,returner=Main$AOJ1212:1#diff:14,value=java.awt.geom.Point2D$Double (id=447)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:5,b=java.awt.geom.Point2D$Double (id=447)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#diff:15
+Variable Write,context=Main$AOJ1212:1#diff:15,p2=java.awt.geom.Point2D$Double (id=442)
+Variable Write,context=Main$AOJ1212:1#diff:15,p1=java.awt.geom.Point2D$Double (id=444)
+Variable Write,context=Main$AOJ1212:1#diff:15,result=java.awt.geom.Point2D$Double (id=448)
+Method Exit,returner=Main$AOJ1212:1#diff:15,value=java.awt.geom.Point2D$Double (id=448)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#cross:9
+Variable Write,context=Main$AOJ1212:1#cross:9,p2=java.awt.geom.Point2D$Double (id=448)
+Variable Write,context=Main$AOJ1212:1#cross:9,p1=java.awt.geom.Point2D$Double (id=447)
+Variable Write,context=Main$AOJ1212:1#cross:9,result=-4.0
+Method Exit,returner=Main$AOJ1212:1#cross:9,value=-4.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#cross:10
+Variable Write,context=Main$AOJ1212:1#cross:10,p2=java.awt.geom.Point2D$Double (id=446)
+Variable Write,context=Main$AOJ1212:1#cross:10,p1=java.awt.geom.Point2D$Double (id=447)
+Variable Write,context=Main$AOJ1212:1#cross:10,result=-800.0
+Method Exit,returner=Main$AOJ1212:1#cross:10,value=-800.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#mul:5
+Variable Write,context=Main$AOJ1212:1#mul:5,p1=java.awt.geom.Point2D$Double (id=446)
+Variable Write,context=Main$AOJ1212:1#mul:5,n=0.005
+Variable Write,context=Main$AOJ1212:1#mul:5,result=java.awt.geom.Point2D$Double (id=449)
+Method Exit,returner=Main$AOJ1212:1#mul:5,value=java.awt.geom.Point2D$Double (id=449)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:5,target=Main$AOJ1212:1#sum:6
+Variable Write,context=Main$AOJ1212:1#sum:6,p2=java.awt.geom.Point2D$Double (id=449)
+Variable Write,context=Main$AOJ1212:1#sum:6,p1=java.awt.geom.Point2D$Double (id=442)
+Variable Write,context=Main$AOJ1212:1#sum:6,result=java.awt.geom.Point2D$Double (id=450)
+Method Exit,returner=Main$AOJ1212:1#sum:6,value=java.awt.geom.Point2D$Double (id=450)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:5,result=java.awt.geom.Point2D$Double (id=450)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:5,value=java.awt.geom.Point2D$Double (id=450)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:5,result=java.awt.geom.Point2D$Double (id=450)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:5,value=java.awt.geom.Point2D$Double (id=450)
+Variable Write,context=Main$AOJ1212:1#solve:2,tmp=java.awt.geom.Point2D$Double (id=450)
+Variable Write,context=Main$AOJ1212:1#solve:2,ans=java.awt.geom.Point2D$Double (id=450)
+Variable Write,context=Main$AOJ1212:1#solve:2,fin=true
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=bs,type=boolean (id=2),value=<?>,index=13>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=dis,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=idx,type=int (id=7),value=<?>,index=16>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=i,type=int (id=7),value=<?>,index=20>
+Variable Delete,method=Main$AOJ1212:1#solve:2 <name=tmp,type=java.awt.geom.Point2D (id=107),value=<?>,index=21>
+Method Exit,returner=Main$AOJ1212:1#solve:2,value=<void>
+Field Read,context=Main:1,sc
+Field Write,context=Main$AOJ1212:1,N=4
+Field Read,context=Main$AOJ1212:1,N
+Method Call,caller=Main$AOJ1212:1#Main$AOJ1212:1,target=Main$AOJ1212:1#solve:3
+Field Read,context=Main$AOJ1212:1,N
+New Object,object=java.awt.geom.Line2D[]:5
+Field Write,context=java.awt.geom.Line2D[]:5,0=null
+Field Write,context=java.awt.geom.Line2D[]:5,1=null
+Field Write,context=java.awt.geom.Line2D[]:5,2=null
+Field Write,context=java.awt.geom.Line2D[]:5,3=null
+Variable Write,context=Main$AOJ1212:1#solve:3,mirrors=java.awt.geom.Line2D[]:5
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=0
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:3,d=y
+Field Read,context=Main:1,sc
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:3,x=8
+Variable Write,context=Main$AOJ1212:1#solve:3,y=7
+Field Write,context=java.awt.geom.Line2D[]:5,0=java.awt.geom.Line2D$Double (id=453)
+Variable Write,context=Main$AOJ1212:1#solve:3,mirrors=java.awt.geom.Line2D[]:5
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=1
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=x,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=y,type=int (id=7),value=<?>,index=4>
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:3,d=x
+Field Read,context=Main:1,sc
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:3,x=7
+Variable Write,context=Main$AOJ1212:1#solve:3,y=8
+Field Write,context=java.awt.geom.Line2D[]:5,1=java.awt.geom.Line2D$Double (id=455)
+Variable Write,context=Main$AOJ1212:1#solve:3,mirrors=java.awt.geom.Line2D[]:5
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=2
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=x,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=y,type=int (id=7),value=<?>,index=4>
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:3,d=y
+Field Read,context=Main:1,sc
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:3,x=0
+Variable Write,context=Main$AOJ1212:1#solve:3,y=0
+Field Write,context=java.awt.geom.Line2D[]:5,2=java.awt.geom.Line2D$Double (id=457)
+Variable Write,context=Main$AOJ1212:1#solve:3,mirrors=java.awt.geom.Line2D[]:5
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=3
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=x,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=y,type=int (id=7),value=<?>,index=4>
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:3,d=x
+Field Read,context=Main:1,sc
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:3,x=0
+Variable Write,context=Main$AOJ1212:1#solve:3,y=0
+Field Write,context=java.awt.geom.Line2D[]:5,3=java.awt.geom.Line2D$Double (id=459)
+Variable Write,context=Main$AOJ1212:1#solve:3,mirrors=java.awt.geom.Line2D[]:5
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=x,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=y,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=i,type=int (id=7),value=<?>,index=1>
+New Object,object=java.awt.geom.Line2D[]:6
+Field Write,context=java.awt.geom.Line2D[]:6,0=null
+Field Write,context=java.awt.geom.Line2D[]:6,1=null
+Field Write,context=java.awt.geom.Line2D[]:6,2=null
+Field Write,context=java.awt.geom.Line2D[]:6,3=null
+Variable Write,context=Main$AOJ1212:1#solve:3,walls=java.awt.geom.Line2D[]:6
+Field Write,context=java.awt.geom.Line2D[]:6,0=java.awt.geom.Line2D$Double (id=461)
+Variable Write,context=Main$AOJ1212:1#solve:3,walls=java.awt.geom.Line2D[]:6
+Field Write,context=java.awt.geom.Line2D[]:6,1=java.awt.geom.Line2D$Double (id=462)
+Variable Write,context=Main$AOJ1212:1#solve:3,walls=java.awt.geom.Line2D[]:6
+Field Write,context=java.awt.geom.Line2D[]:6,2=java.awt.geom.Line2D$Double (id=463)
+Variable Write,context=Main$AOJ1212:1#solve:3,walls=java.awt.geom.Line2D[]:6
+Field Write,context=java.awt.geom.Line2D[]:6,3=java.awt.geom.Line2D$Double (id=464)
+Variable Write,context=Main$AOJ1212:1#solve:3,walls=java.awt.geom.Line2D[]:6
+Variable Write,context=Main$AOJ1212:1#solve:3,start=java.awt.geom.Point2D$Double (id=465)
+Variable Write,context=Main$AOJ1212:1#solve:3,ans=java.awt.geom.Point2D$Double (id=465)
+Variable Write,context=Main$AOJ1212:1#solve:3,l=java.awt.geom.Line2D$Double (id=466)
+New Object,object=java.awt.geom.Point2D[]:3
+Field Write,context=java.awt.geom.Point2D[]:3,0=java.awt.geom.Point2D$Double (id=468)
+Field Write,context=java.awt.geom.Point2D[]:3,1=java.awt.geom.Point2D$Double (id=469)
+Field Write,context=java.awt.geom.Point2D[]:3,2=java.awt.geom.Point2D$Double (id=470)
+Field Write,context=java.awt.geom.Point2D[]:3,3=java.awt.geom.Point2D$Double (id=471)
+Variable Write,context=Main$AOJ1212:1#solve:3,vv=java.awt.geom.Point2D[]:3
+Variable Write,context=Main$AOJ1212:1#solve:3,cnt=0
+Variable Write,context=Main$AOJ1212:1#solve:3,v=0
+Variable Write,context=Main$AOJ1212:1#solve:3,fin=false
+Variable Write,context=Main$AOJ1212:1#solve:3,bs=false
+Variable Write,context=Main$AOJ1212:1#solve:3,cnt=1
+Variable Write,context=Main$AOJ1212:1#solve:3,dis=100.0
+Variable Write,context=Main$AOJ1212:1#solve:3,p=null
+Variable Write,context=Main$AOJ1212:1#solve:3,idx=-1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=0
+Method Call,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:6
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:6,l1=java.awt.geom.Line2D$Double (id=466)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:6,l2=java.awt.geom.Line2D$Double (id=453)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#intersectionPoint:6
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:6,b2=java.awt.geom.Point2D$Double (id=475)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:6,a1=java.awt.geom.Point2D$Double (id=472)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:6,a2=java.awt.geom.Point2D$Double (id=473)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:6,b1=java.awt.geom.Point2D$Double (id=474)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#diff:16
+Variable Write,context=Main$AOJ1212:1#diff:16,p2=java.awt.geom.Point2D$Double (id=472)
+Variable Write,context=Main$AOJ1212:1#diff:16,p1=java.awt.geom.Point2D$Double (id=473)
+Variable Write,context=Main$AOJ1212:1#diff:16,result=java.awt.geom.Point2D$Double (id=476)
+Method Exit,returner=Main$AOJ1212:1#diff:16,value=java.awt.geom.Point2D$Double (id=476)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:6,a=java.awt.geom.Point2D$Double (id=476)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#diff:17
+Variable Write,context=Main$AOJ1212:1#diff:17,p2=java.awt.geom.Point2D$Double (id=474)
+Variable Write,context=Main$AOJ1212:1#diff:17,p1=java.awt.geom.Point2D$Double (id=475)
+Variable Write,context=Main$AOJ1212:1#diff:17,result=java.awt.geom.Point2D$Double (id=477)
+Method Exit,returner=Main$AOJ1212:1#diff:17,value=java.awt.geom.Point2D$Double (id=477)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:6,b=java.awt.geom.Point2D$Double (id=477)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#diff:18
+Variable Write,context=Main$AOJ1212:1#diff:18,p2=java.awt.geom.Point2D$Double (id=472)
+Variable Write,context=Main$AOJ1212:1#diff:18,p1=java.awt.geom.Point2D$Double (id=474)
+Variable Write,context=Main$AOJ1212:1#diff:18,result=java.awt.geom.Point2D$Double (id=478)
+Method Exit,returner=Main$AOJ1212:1#diff:18,value=java.awt.geom.Point2D$Double (id=478)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#cross:11
+Variable Write,context=Main$AOJ1212:1#cross:11,p2=java.awt.geom.Point2D$Double (id=478)
+Variable Write,context=Main$AOJ1212:1#cross:11,p1=java.awt.geom.Point2D$Double (id=477)
+Variable Write,context=Main$AOJ1212:1#cross:11,result=-7.25
+Method Exit,returner=Main$AOJ1212:1#cross:11,value=-7.25
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#cross:12
+Variable Write,context=Main$AOJ1212:1#cross:12,p2=java.awt.geom.Point2D$Double (id=476)
+Variable Write,context=Main$AOJ1212:1#cross:12,p1=java.awt.geom.Point2D$Double (id=477)
+Variable Write,context=Main$AOJ1212:1#cross:12,result=-100.0
+Method Exit,returner=Main$AOJ1212:1#cross:12,value=-100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#mul:6
+Variable Write,context=Main$AOJ1212:1#mul:6,p1=java.awt.geom.Point2D$Double (id=476)
+Variable Write,context=Main$AOJ1212:1#mul:6,n=0.0725
+Variable Write,context=Main$AOJ1212:1#mul:6,result=java.awt.geom.Point2D$Double (id=479)
+Method Exit,returner=Main$AOJ1212:1#mul:6,value=java.awt.geom.Point2D$Double (id=479)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:6,target=Main$AOJ1212:1#sum:7
+Variable Write,context=Main$AOJ1212:1#sum:7,p2=java.awt.geom.Point2D$Double (id=479)
+Variable Write,context=Main$AOJ1212:1#sum:7,p1=java.awt.geom.Point2D$Double (id=472)
+Variable Write,context=Main$AOJ1212:1#sum:7,result=java.awt.geom.Point2D$Double (id=480)
+Method Exit,returner=Main$AOJ1212:1#sum:7,value=java.awt.geom.Point2D$Double (id=480)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:6,result=java.awt.geom.Point2D$Double (id=480)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:6,value=java.awt.geom.Point2D$Double (id=480)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:6,result=java.awt.geom.Point2D$Double (id=480)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:6,value=java.awt.geom.Point2D$Double (id=480)
+Variable Write,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=480)
+Variable Write,context=Main$AOJ1212:1#solve:3,a=10.253048327204938
+Variable Write,context=Main$AOJ1212:1#solve:3,dis=10.253048327204938
+Variable Write,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=480)
+Variable Write,context=Main$AOJ1212:1#solve:3,idx=0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=1
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=2
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=3
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=i,type=int (id=7),value=<?>,index=17>
+Variable Write,context=Main$AOJ1212:1#solve:3,v=1
+Variable Write,context=Main$AOJ1212:1#solve:3,px=800.0000999999999
+Variable Write,context=Main$AOJ1212:1#solve:3,py=750.0000999999999
+Variable Write,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=481)
+Method Call,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#sum:8
+Variable Write,context=Main$AOJ1212:1#sum:8,p2=java.awt.geom.Point2D$Double (id=469)
+Variable Write,context=Main$AOJ1212:1#sum:8,p1=java.awt.geom.Point2D$Double (id=481)
+Variable Write,context=Main$AOJ1212:1#sum:8,result=java.awt.geom.Point2D$Double (id=482)
+Method Exit,returner=Main$AOJ1212:1#sum:8,value=java.awt.geom.Point2D$Double (id=482)
+Variable Write,context=Main$AOJ1212:1#solve:3,l=java.awt.geom.Line2D$Double (id=483)
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=bs,type=boolean (id=2),value=<?>,index=13>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=dis,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=idx,type=int (id=7),value=<?>,index=16>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=px,type=double (id=5),value=<?>,index=23>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=py,type=double (id=5),value=<?>,index=24>
+Variable Write,context=Main$AOJ1212:1#solve:3,bs=false
+Variable Write,context=Main$AOJ1212:1#solve:3,cnt=2
+Variable Write,context=Main$AOJ1212:1#solve:3,dis=100.0
+Variable Write,context=Main$AOJ1212:1#solve:3,p=null
+Variable Write,context=Main$AOJ1212:1#solve:3,idx=-1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=0
+Method Call,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:7
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:7,l1=java.awt.geom.Line2D$Double (id=483)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:7,l2=java.awt.geom.Line2D$Double (id=453)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#intersectionPoint:7
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:7,b2=java.awt.geom.Point2D$Double (id=487)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:7,a1=java.awt.geom.Point2D$Double (id=484)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:7,a2=java.awt.geom.Point2D$Double (id=485)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:7,b1=java.awt.geom.Point2D$Double (id=486)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#diff:19
+Variable Write,context=Main$AOJ1212:1#diff:19,p2=java.awt.geom.Point2D$Double (id=484)
+Variable Write,context=Main$AOJ1212:1#diff:19,p1=java.awt.geom.Point2D$Double (id=485)
+Variable Write,context=Main$AOJ1212:1#diff:19,result=java.awt.geom.Point2D$Double (id=488)
+Method Exit,returner=Main$AOJ1212:1#diff:19,value=java.awt.geom.Point2D$Double (id=488)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:7,a=java.awt.geom.Point2D$Double (id=488)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#diff:20
+Variable Write,context=Main$AOJ1212:1#diff:20,p2=java.awt.geom.Point2D$Double (id=486)
+Variable Write,context=Main$AOJ1212:1#diff:20,p1=java.awt.geom.Point2D$Double (id=487)
+Variable Write,context=Main$AOJ1212:1#diff:20,result=java.awt.geom.Point2D$Double (id=489)
+Method Exit,returner=Main$AOJ1212:1#diff:20,value=java.awt.geom.Point2D$Double (id=489)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:7,b=java.awt.geom.Point2D$Double (id=489)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#diff:21
+Variable Write,context=Main$AOJ1212:1#diff:21,p2=java.awt.geom.Point2D$Double (id=484)
+Variable Write,context=Main$AOJ1212:1#diff:21,p1=java.awt.geom.Point2D$Double (id=486)
+Variable Write,context=Main$AOJ1212:1#diff:21,result=java.awt.geom.Point2D$Double (id=490)
+Method Exit,returner=Main$AOJ1212:1#diff:21,value=java.awt.geom.Point2D$Double (id=490)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#cross:13
+Variable Write,context=Main$AOJ1212:1#cross:13,p2=java.awt.geom.Point2D$Double (id=490)
+Variable Write,context=Main$AOJ1212:1#cross:13,p1=java.awt.geom.Point2D$Double (id=489)
+Variable Write,context=Main$AOJ1212:1#cross:13,result=-0.0
+Method Exit,returner=Main$AOJ1212:1#cross:13,value=-0.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#cross:14
+Variable Write,context=Main$AOJ1212:1#cross:14,p2=java.awt.geom.Point2D$Double (id=488)
+Variable Write,context=Main$AOJ1212:1#cross:14,p1=java.awt.geom.Point2D$Double (id=489)
+Variable Write,context=Main$AOJ1212:1#cross:14,result=100.0
+Method Exit,returner=Main$AOJ1212:1#cross:14,value=100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#mul:7
+Variable Write,context=Main$AOJ1212:1#mul:7,p1=java.awt.geom.Point2D$Double (id=488)
+Variable Write,context=Main$AOJ1212:1#mul:7,n=-0.0
+Variable Write,context=Main$AOJ1212:1#mul:7,result=java.awt.geom.Point2D$Double (id=491)
+Method Exit,returner=Main$AOJ1212:1#mul:7,value=java.awt.geom.Point2D$Double (id=491)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:7,target=Main$AOJ1212:1#sum:9
+Variable Write,context=Main$AOJ1212:1#sum:9,p2=java.awt.geom.Point2D$Double (id=491)
+Variable Write,context=Main$AOJ1212:1#sum:9,p1=java.awt.geom.Point2D$Double (id=484)
+Variable Write,context=Main$AOJ1212:1#sum:9,result=java.awt.geom.Point2D$Double (id=492)
+Method Exit,returner=Main$AOJ1212:1#sum:9,value=java.awt.geom.Point2D$Double (id=492)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:7,result=java.awt.geom.Point2D$Double (id=492)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:7,value=java.awt.geom.Point2D$Double (id=492)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:7,result=java.awt.geom.Point2D$Double (id=492)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:7,value=java.awt.geom.Point2D$Double (id=492)
+Variable Write,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=492)
+Variable Write,context=Main$AOJ1212:1#solve:3,a=0.0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=1
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+Method Call,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:8
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:8,l1=java.awt.geom.Line2D$Double (id=483)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:8,l2=java.awt.geom.Line2D$Double (id=455)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#intersectionPoint:8
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:8,b2=java.awt.geom.Point2D$Double (id=496)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:8,a1=java.awt.geom.Point2D$Double (id=493)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:8,a2=java.awt.geom.Point2D$Double (id=494)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:8,b1=java.awt.geom.Point2D$Double (id=495)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#diff:22
+Variable Write,context=Main$AOJ1212:1#diff:22,p2=java.awt.geom.Point2D$Double (id=493)
+Variable Write,context=Main$AOJ1212:1#diff:22,p1=java.awt.geom.Point2D$Double (id=494)
+Variable Write,context=Main$AOJ1212:1#diff:22,result=java.awt.geom.Point2D$Double (id=497)
+Method Exit,returner=Main$AOJ1212:1#diff:22,value=java.awt.geom.Point2D$Double (id=497)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:8,a=java.awt.geom.Point2D$Double (id=497)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#diff:23
+Variable Write,context=Main$AOJ1212:1#diff:23,p2=java.awt.geom.Point2D$Double (id=495)
+Variable Write,context=Main$AOJ1212:1#diff:23,p1=java.awt.geom.Point2D$Double (id=496)
+Variable Write,context=Main$AOJ1212:1#diff:23,result=java.awt.geom.Point2D$Double (id=498)
+Method Exit,returner=Main$AOJ1212:1#diff:23,value=java.awt.geom.Point2D$Double (id=498)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:8,b=java.awt.geom.Point2D$Double (id=498)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#diff:24
+Variable Write,context=Main$AOJ1212:1#diff:24,p2=java.awt.geom.Point2D$Double (id=493)
+Variable Write,context=Main$AOJ1212:1#diff:24,p1=java.awt.geom.Point2D$Double (id=495)
+Variable Write,context=Main$AOJ1212:1#diff:24,result=java.awt.geom.Point2D$Double (id=499)
+Method Exit,returner=Main$AOJ1212:1#diff:24,value=java.awt.geom.Point2D$Double (id=499)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#cross:15
+Variable Write,context=Main$AOJ1212:1#cross:15,p2=java.awt.geom.Point2D$Double (id=499)
+Variable Write,context=Main$AOJ1212:1#cross:15,p1=java.awt.geom.Point2D$Double (id=498)
+Variable Write,context=Main$AOJ1212:1#cross:15,result=0.5
+Method Exit,returner=Main$AOJ1212:1#cross:15,value=0.5
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#cross:16
+Variable Write,context=Main$AOJ1212:1#cross:16,p2=java.awt.geom.Point2D$Double (id=497)
+Variable Write,context=Main$AOJ1212:1#cross:16,p1=java.awt.geom.Point2D$Double (id=498)
+Variable Write,context=Main$AOJ1212:1#cross:16,result=100.0
+Method Exit,returner=Main$AOJ1212:1#cross:16,value=100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#mul:8
+Variable Write,context=Main$AOJ1212:1#mul:8,p1=java.awt.geom.Point2D$Double (id=497)
+Variable Write,context=Main$AOJ1212:1#mul:8,n=0.005
+Variable Write,context=Main$AOJ1212:1#mul:8,result=java.awt.geom.Point2D$Double (id=500)
+Method Exit,returner=Main$AOJ1212:1#mul:8,value=java.awt.geom.Point2D$Double (id=500)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:8,target=Main$AOJ1212:1#sum:10
+Variable Write,context=Main$AOJ1212:1#sum:10,p2=java.awt.geom.Point2D$Double (id=500)
+Variable Write,context=Main$AOJ1212:1#sum:10,p1=java.awt.geom.Point2D$Double (id=493)
+Variable Write,context=Main$AOJ1212:1#sum:10,result=java.awt.geom.Point2D$Double (id=501)
+Method Exit,returner=Main$AOJ1212:1#sum:10,value=java.awt.geom.Point2D$Double (id=501)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:8,result=java.awt.geom.Point2D$Double (id=501)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:8,value=java.awt.geom.Point2D$Double (id=501)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:8,result=java.awt.geom.Point2D$Double (id=501)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:8,value=java.awt.geom.Point2D$Double (id=501)
+Variable Write,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=501)
+Variable Write,context=Main$AOJ1212:1#solve:3,a=0.7071067811865476
+Variable Write,context=Main$AOJ1212:1#solve:3,dis=0.7071067811865476
+Variable Write,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=501)
+Variable Write,context=Main$AOJ1212:1#solve:3,idx=1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=2
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=3
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=i,type=int (id=7),value=<?>,index=17>
+Variable Write,context=Main$AOJ1212:1#solve:3,v=3
+Variable Write,context=Main$AOJ1212:1#solve:3,px=750.0001
+Variable Write,context=Main$AOJ1212:1#solve:3,py=800.0001
+Variable Write,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=502)
+Method Call,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#sum:11
+Variable Write,context=Main$AOJ1212:1#sum:11,p2=java.awt.geom.Point2D$Double (id=471)
+Variable Write,context=Main$AOJ1212:1#sum:11,p1=java.awt.geom.Point2D$Double (id=502)
+Variable Write,context=Main$AOJ1212:1#sum:11,result=java.awt.geom.Point2D$Double (id=503)
+Method Exit,returner=Main$AOJ1212:1#sum:11,value=java.awt.geom.Point2D$Double (id=503)
+Variable Write,context=Main$AOJ1212:1#solve:3,l=java.awt.geom.Line2D$Double (id=504)
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=bs,type=boolean (id=2),value=<?>,index=13>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=dis,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=idx,type=int (id=7),value=<?>,index=16>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=px,type=double (id=5),value=<?>,index=23>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=py,type=double (id=5),value=<?>,index=24>
+Variable Write,context=Main$AOJ1212:1#solve:3,bs=false
+Variable Write,context=Main$AOJ1212:1#solve:3,cnt=3
+Variable Write,context=Main$AOJ1212:1#solve:3,dis=100.0
+Variable Write,context=Main$AOJ1212:1#solve:3,p=null
+Variable Write,context=Main$AOJ1212:1#solve:3,idx=-1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=1
+Method Call,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:9
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:9,l1=java.awt.geom.Line2D$Double (id=504)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:9,l2=java.awt.geom.Line2D$Double (id=455)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#intersectionPoint:9
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:9,b2=java.awt.geom.Point2D$Double (id=508)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:9,a1=java.awt.geom.Point2D$Double (id=505)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:9,a2=java.awt.geom.Point2D$Double (id=506)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:9,b1=java.awt.geom.Point2D$Double (id=507)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#diff:25
+Variable Write,context=Main$AOJ1212:1#diff:25,p2=java.awt.geom.Point2D$Double (id=505)
+Variable Write,context=Main$AOJ1212:1#diff:25,p1=java.awt.geom.Point2D$Double (id=506)
+Variable Write,context=Main$AOJ1212:1#diff:25,result=java.awt.geom.Point2D$Double (id=509)
+Method Exit,returner=Main$AOJ1212:1#diff:25,value=java.awt.geom.Point2D$Double (id=509)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:9,a=java.awt.geom.Point2D$Double (id=509)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#diff:26
+Variable Write,context=Main$AOJ1212:1#diff:26,p2=java.awt.geom.Point2D$Double (id=507)
+Variable Write,context=Main$AOJ1212:1#diff:26,p1=java.awt.geom.Point2D$Double (id=508)
+Variable Write,context=Main$AOJ1212:1#diff:26,result=java.awt.geom.Point2D$Double (id=510)
+Method Exit,returner=Main$AOJ1212:1#diff:26,value=java.awt.geom.Point2D$Double (id=510)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:9,b=java.awt.geom.Point2D$Double (id=510)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#diff:27
+Variable Write,context=Main$AOJ1212:1#diff:27,p2=java.awt.geom.Point2D$Double (id=505)
+Variable Write,context=Main$AOJ1212:1#diff:27,p1=java.awt.geom.Point2D$Double (id=507)
+Variable Write,context=Main$AOJ1212:1#diff:27,result=java.awt.geom.Point2D$Double (id=511)
+Method Exit,returner=Main$AOJ1212:1#diff:27,value=java.awt.geom.Point2D$Double (id=511)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#cross:17
+Variable Write,context=Main$AOJ1212:1#cross:17,p2=java.awt.geom.Point2D$Double (id=511)
+Variable Write,context=Main$AOJ1212:1#cross:17,p1=java.awt.geom.Point2D$Double (id=510)
+Variable Write,context=Main$AOJ1212:1#cross:17,result=0.0
+Method Exit,returner=Main$AOJ1212:1#cross:17,value=0.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#cross:18
+Variable Write,context=Main$AOJ1212:1#cross:18,p2=java.awt.geom.Point2D$Double (id=509)
+Variable Write,context=Main$AOJ1212:1#cross:18,p1=java.awt.geom.Point2D$Double (id=510)
+Variable Write,context=Main$AOJ1212:1#cross:18,result=-100.0
+Method Exit,returner=Main$AOJ1212:1#cross:18,value=-100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#mul:9
+Variable Write,context=Main$AOJ1212:1#mul:9,p1=java.awt.geom.Point2D$Double (id=509)
+Variable Write,context=Main$AOJ1212:1#mul:9,n=-0.0
+Variable Write,context=Main$AOJ1212:1#mul:9,result=java.awt.geom.Point2D$Double (id=512)
+Method Exit,returner=Main$AOJ1212:1#mul:9,value=java.awt.geom.Point2D$Double (id=512)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:9,target=Main$AOJ1212:1#sum:12
+Variable Write,context=Main$AOJ1212:1#sum:12,p2=java.awt.geom.Point2D$Double (id=512)
+Variable Write,context=Main$AOJ1212:1#sum:12,p1=java.awt.geom.Point2D$Double (id=505)
+Variable Write,context=Main$AOJ1212:1#sum:12,result=java.awt.geom.Point2D$Double (id=513)
+Method Exit,returner=Main$AOJ1212:1#sum:12,value=java.awt.geom.Point2D$Double (id=513)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:9,result=java.awt.geom.Point2D$Double (id=513)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:9,value=java.awt.geom.Point2D$Double (id=513)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:9,result=java.awt.geom.Point2D$Double (id=513)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:9,value=java.awt.geom.Point2D$Double (id=513)
+Variable Write,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=513)
+Variable Write,context=Main$AOJ1212:1#solve:3,a=0.0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=2
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+Method Call,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:10
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:10,l1=java.awt.geom.Line2D$Double (id=504)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:10,l2=java.awt.geom.Line2D$Double (id=457)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#intersectionPoint:10
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:10,b2=java.awt.geom.Point2D$Double (id=517)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:10,a1=java.awt.geom.Point2D$Double (id=514)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:10,a2=java.awt.geom.Point2D$Double (id=515)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:10,b1=java.awt.geom.Point2D$Double (id=516)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#diff:28
+Variable Write,context=Main$AOJ1212:1#diff:28,p2=java.awt.geom.Point2D$Double (id=514)
+Variable Write,context=Main$AOJ1212:1#diff:28,p1=java.awt.geom.Point2D$Double (id=515)
+Variable Write,context=Main$AOJ1212:1#diff:28,result=java.awt.geom.Point2D$Double (id=518)
+Method Exit,returner=Main$AOJ1212:1#diff:28,value=java.awt.geom.Point2D$Double (id=518)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:10,a=java.awt.geom.Point2D$Double (id=518)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#diff:29
+Variable Write,context=Main$AOJ1212:1#diff:29,p2=java.awt.geom.Point2D$Double (id=516)
+Variable Write,context=Main$AOJ1212:1#diff:29,p1=java.awt.geom.Point2D$Double (id=517)
+Variable Write,context=Main$AOJ1212:1#diff:29,result=java.awt.geom.Point2D$Double (id=519)
+Method Exit,returner=Main$AOJ1212:1#diff:29,value=java.awt.geom.Point2D$Double (id=519)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:10,b=java.awt.geom.Point2D$Double (id=519)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#diff:30
+Variable Write,context=Main$AOJ1212:1#diff:30,p2=java.awt.geom.Point2D$Double (id=514)
+Variable Write,context=Main$AOJ1212:1#diff:30,p1=java.awt.geom.Point2D$Double (id=516)
+Variable Write,context=Main$AOJ1212:1#diff:30,result=java.awt.geom.Point2D$Double (id=520)
+Method Exit,returner=Main$AOJ1212:1#diff:30,value=java.awt.geom.Point2D$Double (id=520)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#cross:19
+Variable Write,context=Main$AOJ1212:1#cross:19,p2=java.awt.geom.Point2D$Double (id=520)
+Variable Write,context=Main$AOJ1212:1#cross:19,p1=java.awt.geom.Point2D$Double (id=519)
+Variable Write,context=Main$AOJ1212:1#cross:19,result=7.5
+Method Exit,returner=Main$AOJ1212:1#cross:19,value=7.5
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#cross:20
+Variable Write,context=Main$AOJ1212:1#cross:20,p2=java.awt.geom.Point2D$Double (id=518)
+Variable Write,context=Main$AOJ1212:1#cross:20,p1=java.awt.geom.Point2D$Double (id=519)
+Variable Write,context=Main$AOJ1212:1#cross:20,result=100.0
+Method Exit,returner=Main$AOJ1212:1#cross:20,value=100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#mul:10
+Variable Write,context=Main$AOJ1212:1#mul:10,p1=java.awt.geom.Point2D$Double (id=518)
+Variable Write,context=Main$AOJ1212:1#mul:10,n=0.075
+Variable Write,context=Main$AOJ1212:1#mul:10,result=java.awt.geom.Point2D$Double (id=521)
+Method Exit,returner=Main$AOJ1212:1#mul:10,value=java.awt.geom.Point2D$Double (id=521)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:10,target=Main$AOJ1212:1#sum:13
+Variable Write,context=Main$AOJ1212:1#sum:13,p2=java.awt.geom.Point2D$Double (id=521)
+Variable Write,context=Main$AOJ1212:1#sum:13,p1=java.awt.geom.Point2D$Double (id=514)
+Variable Write,context=Main$AOJ1212:1#sum:13,result=java.awt.geom.Point2D$Double (id=522)
+Method Exit,returner=Main$AOJ1212:1#sum:13,value=java.awt.geom.Point2D$Double (id=522)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:10,result=java.awt.geom.Point2D$Double (id=522)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:10,value=java.awt.geom.Point2D$Double (id=522)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:10,result=java.awt.geom.Point2D$Double (id=522)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:10,value=java.awt.geom.Point2D$Double (id=522)
+Variable Write,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=522)
+Variable Write,context=Main$AOJ1212:1#solve:3,a=10.606601717798213
+Variable Write,context=Main$AOJ1212:1#solve:3,dis=10.606601717798213
+Variable Write,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=522)
+Variable Write,context=Main$AOJ1212:1#solve:3,idx=2
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=3
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=i,type=int (id=7),value=<?>,index=17>
+Variable Write,context=Main$AOJ1212:1#solve:3,v=2
+Variable Write,context=Main$AOJ1212:1#solve:3,px=1.0E-4
+Variable Write,context=Main$AOJ1212:1#solve:3,py=50.0001
+Variable Write,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=523)
+Method Call,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#sum:14
+Variable Write,context=Main$AOJ1212:1#sum:14,p2=java.awt.geom.Point2D$Double (id=470)
+Variable Write,context=Main$AOJ1212:1#sum:14,p1=java.awt.geom.Point2D$Double (id=523)
+Variable Write,context=Main$AOJ1212:1#sum:14,result=java.awt.geom.Point2D$Double (id=524)
+Method Exit,returner=Main$AOJ1212:1#sum:14,value=java.awt.geom.Point2D$Double (id=524)
+Variable Write,context=Main$AOJ1212:1#solve:3,l=java.awt.geom.Line2D$Double (id=525)
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=bs,type=boolean (id=2),value=<?>,index=13>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=dis,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=idx,type=int (id=7),value=<?>,index=16>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=px,type=double (id=5),value=<?>,index=23>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=py,type=double (id=5),value=<?>,index=24>
+Variable Write,context=Main$AOJ1212:1#solve:3,bs=false
+Variable Write,context=Main$AOJ1212:1#solve:3,cnt=4
+Variable Write,context=Main$AOJ1212:1#solve:3,dis=100.0
+Variable Write,context=Main$AOJ1212:1#solve:3,p=null
+Variable Write,context=Main$AOJ1212:1#solve:3,idx=-1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=2
+Method Call,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:11
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:11,l1=java.awt.geom.Line2D$Double (id=525)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:11,l2=java.awt.geom.Line2D$Double (id=457)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#intersectionPoint:11
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:11,b2=java.awt.geom.Point2D$Double (id=529)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:11,a1=java.awt.geom.Point2D$Double (id=526)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:11,a2=java.awt.geom.Point2D$Double (id=527)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:11,b1=java.awt.geom.Point2D$Double (id=528)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#diff:31
+Variable Write,context=Main$AOJ1212:1#diff:31,p2=java.awt.geom.Point2D$Double (id=526)
+Variable Write,context=Main$AOJ1212:1#diff:31,p1=java.awt.geom.Point2D$Double (id=527)
+Variable Write,context=Main$AOJ1212:1#diff:31,result=java.awt.geom.Point2D$Double (id=530)
+Method Exit,returner=Main$AOJ1212:1#diff:31,value=java.awt.geom.Point2D$Double (id=530)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:11,a=java.awt.geom.Point2D$Double (id=530)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#diff:32
+Variable Write,context=Main$AOJ1212:1#diff:32,p2=java.awt.geom.Point2D$Double (id=528)
+Variable Write,context=Main$AOJ1212:1#diff:32,p1=java.awt.geom.Point2D$Double (id=529)
+Variable Write,context=Main$AOJ1212:1#diff:32,result=java.awt.geom.Point2D$Double (id=531)
+Method Exit,returner=Main$AOJ1212:1#diff:32,value=java.awt.geom.Point2D$Double (id=531)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:11,b=java.awt.geom.Point2D$Double (id=531)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#diff:33
+Variable Write,context=Main$AOJ1212:1#diff:33,p2=java.awt.geom.Point2D$Double (id=526)
+Variable Write,context=Main$AOJ1212:1#diff:33,p1=java.awt.geom.Point2D$Double (id=528)
+Variable Write,context=Main$AOJ1212:1#diff:33,result=java.awt.geom.Point2D$Double (id=532)
+Method Exit,returner=Main$AOJ1212:1#diff:33,value=java.awt.geom.Point2D$Double (id=532)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#cross:21
+Variable Write,context=Main$AOJ1212:1#cross:21,p2=java.awt.geom.Point2D$Double (id=532)
+Variable Write,context=Main$AOJ1212:1#cross:21,p1=java.awt.geom.Point2D$Double (id=531)
+Variable Write,context=Main$AOJ1212:1#cross:21,result=-0.0
+Method Exit,returner=Main$AOJ1212:1#cross:21,value=-0.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#cross:22
+Variable Write,context=Main$AOJ1212:1#cross:22,p2=java.awt.geom.Point2D$Double (id=530)
+Variable Write,context=Main$AOJ1212:1#cross:22,p1=java.awt.geom.Point2D$Double (id=531)
+Variable Write,context=Main$AOJ1212:1#cross:22,result=-100.0
+Method Exit,returner=Main$AOJ1212:1#cross:22,value=-100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#mul:11
+Variable Write,context=Main$AOJ1212:1#mul:11,p1=java.awt.geom.Point2D$Double (id=530)
+Variable Write,context=Main$AOJ1212:1#mul:11,n=0.0
+Variable Write,context=Main$AOJ1212:1#mul:11,result=java.awt.geom.Point2D$Double (id=533)
+Method Exit,returner=Main$AOJ1212:1#mul:11,value=java.awt.geom.Point2D$Double (id=533)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:11,target=Main$AOJ1212:1#sum:15
+Variable Write,context=Main$AOJ1212:1#sum:15,p2=java.awt.geom.Point2D$Double (id=533)
+Variable Write,context=Main$AOJ1212:1#sum:15,p1=java.awt.geom.Point2D$Double (id=526)
+Variable Write,context=Main$AOJ1212:1#sum:15,result=java.awt.geom.Point2D$Double (id=534)
+Method Exit,returner=Main$AOJ1212:1#sum:15,value=java.awt.geom.Point2D$Double (id=534)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:11,result=java.awt.geom.Point2D$Double (id=534)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:11,value=java.awt.geom.Point2D$Double (id=534)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:11,result=java.awt.geom.Point2D$Double (id=534)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:11,value=java.awt.geom.Point2D$Double (id=534)
+Variable Write,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=534)
+Variable Write,context=Main$AOJ1212:1#solve:3,a=0.0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=3
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+Method Call,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:12
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:12,l1=java.awt.geom.Line2D$Double (id=525)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:12,l2=java.awt.geom.Line2D$Double (id=459)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#intersectionPoint:12
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:12,b2=java.awt.geom.Point2D$Double (id=538)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:12,a1=java.awt.geom.Point2D$Double (id=535)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:12,a2=java.awt.geom.Point2D$Double (id=536)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:12,b1=java.awt.geom.Point2D$Double (id=537)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#diff:34
+Variable Write,context=Main$AOJ1212:1#diff:34,p2=java.awt.geom.Point2D$Double (id=535)
+Variable Write,context=Main$AOJ1212:1#diff:34,p1=java.awt.geom.Point2D$Double (id=536)
+Variable Write,context=Main$AOJ1212:1#diff:34,result=java.awt.geom.Point2D$Double (id=539)
+Method Exit,returner=Main$AOJ1212:1#diff:34,value=java.awt.geom.Point2D$Double (id=539)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:12,a=java.awt.geom.Point2D$Double (id=539)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#diff:35
+Variable Write,context=Main$AOJ1212:1#diff:35,p2=java.awt.geom.Point2D$Double (id=537)
+Variable Write,context=Main$AOJ1212:1#diff:35,p1=java.awt.geom.Point2D$Double (id=538)
+Variable Write,context=Main$AOJ1212:1#diff:35,result=java.awt.geom.Point2D$Double (id=540)
+Method Exit,returner=Main$AOJ1212:1#diff:35,value=java.awt.geom.Point2D$Double (id=540)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:12,b=java.awt.geom.Point2D$Double (id=540)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#diff:36
+Variable Write,context=Main$AOJ1212:1#diff:36,p2=java.awt.geom.Point2D$Double (id=535)
+Variable Write,context=Main$AOJ1212:1#diff:36,p1=java.awt.geom.Point2D$Double (id=537)
+Variable Write,context=Main$AOJ1212:1#diff:36,result=java.awt.geom.Point2D$Double (id=541)
+Method Exit,returner=Main$AOJ1212:1#diff:36,value=java.awt.geom.Point2D$Double (id=541)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#cross:23
+Variable Write,context=Main$AOJ1212:1#cross:23,p2=java.awt.geom.Point2D$Double (id=541)
+Variable Write,context=Main$AOJ1212:1#cross:23,p1=java.awt.geom.Point2D$Double (id=540)
+Variable Write,context=Main$AOJ1212:1#cross:23,result=-0.5
+Method Exit,returner=Main$AOJ1212:1#cross:23,value=-0.5
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#cross:24
+Variable Write,context=Main$AOJ1212:1#cross:24,p2=java.awt.geom.Point2D$Double (id=539)
+Variable Write,context=Main$AOJ1212:1#cross:24,p1=java.awt.geom.Point2D$Double (id=540)
+Variable Write,context=Main$AOJ1212:1#cross:24,result=-100.0
+Method Exit,returner=Main$AOJ1212:1#cross:24,value=-100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#mul:12
+Variable Write,context=Main$AOJ1212:1#mul:12,p1=java.awt.geom.Point2D$Double (id=539)
+Variable Write,context=Main$AOJ1212:1#mul:12,n=0.005
+Variable Write,context=Main$AOJ1212:1#mul:12,result=java.awt.geom.Point2D$Double (id=542)
+Method Exit,returner=Main$AOJ1212:1#mul:12,value=java.awt.geom.Point2D$Double (id=542)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:12,target=Main$AOJ1212:1#sum:16
+Variable Write,context=Main$AOJ1212:1#sum:16,p2=java.awt.geom.Point2D$Double (id=542)
+Variable Write,context=Main$AOJ1212:1#sum:16,p1=java.awt.geom.Point2D$Double (id=535)
+Variable Write,context=Main$AOJ1212:1#sum:16,result=java.awt.geom.Point2D$Double (id=543)
+Method Exit,returner=Main$AOJ1212:1#sum:16,value=java.awt.geom.Point2D$Double (id=543)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:12,result=java.awt.geom.Point2D$Double (id=543)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:12,value=java.awt.geom.Point2D$Double (id=543)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:12,result=java.awt.geom.Point2D$Double (id=543)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:12,value=java.awt.geom.Point2D$Double (id=543)
+Variable Write,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=543)
+Variable Write,context=Main$AOJ1212:1#solve:3,a=0.7071067811865476
+Variable Write,context=Main$AOJ1212:1#solve:3,dis=0.7071067811865476
+Variable Write,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=543)
+Variable Write,context=Main$AOJ1212:1#solve:3,idx=3
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=i,type=int (id=7),value=<?>,index=17>
+Variable Write,context=Main$AOJ1212:1#solve:3,v=0
+Variable Write,context=Main$AOJ1212:1#solve:3,px=50.0001
+Variable Write,context=Main$AOJ1212:1#solve:3,py=1.0E-4
+Variable Write,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=544)
+Method Call,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#sum:17
+Variable Write,context=Main$AOJ1212:1#sum:17,p2=java.awt.geom.Point2D$Double (id=468)
+Variable Write,context=Main$AOJ1212:1#sum:17,p1=java.awt.geom.Point2D$Double (id=544)
+Variable Write,context=Main$AOJ1212:1#sum:17,result=java.awt.geom.Point2D$Double (id=545)
+Method Exit,returner=Main$AOJ1212:1#sum:17,value=java.awt.geom.Point2D$Double (id=545)
+Variable Write,context=Main$AOJ1212:1#solve:3,l=java.awt.geom.Line2D$Double (id=546)
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=bs,type=boolean (id=2),value=<?>,index=13>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=dis,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=idx,type=int (id=7),value=<?>,index=16>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=px,type=double (id=5),value=<?>,index=23>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=py,type=double (id=5),value=<?>,index=24>
+Variable Write,context=Main$AOJ1212:1#solve:3,bs=true
+Variable Write,context=Main$AOJ1212:1#solve:3,cnt=5
+Variable Write,context=Main$AOJ1212:1#solve:3,dis=100.0
+Variable Write,context=Main$AOJ1212:1#solve:3,p=null
+Variable Write,context=Main$AOJ1212:1#solve:3,idx=-1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=0
+Method Call,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:13
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:13,l1=java.awt.geom.Line2D$Double (id=546)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:13,l2=java.awt.geom.Line2D$Double (id=453)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#intersectionPoint:13
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:13,b2=java.awt.geom.Point2D$Double (id=550)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:13,a1=java.awt.geom.Point2D$Double (id=547)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:13,a2=java.awt.geom.Point2D$Double (id=548)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:13,b1=java.awt.geom.Point2D$Double (id=549)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#diff:37
+Variable Write,context=Main$AOJ1212:1#diff:37,p2=java.awt.geom.Point2D$Double (id=547)
+Variable Write,context=Main$AOJ1212:1#diff:37,p1=java.awt.geom.Point2D$Double (id=548)
+Variable Write,context=Main$AOJ1212:1#diff:37,result=java.awt.geom.Point2D$Double (id=551)
+Method Exit,returner=Main$AOJ1212:1#diff:37,value=java.awt.geom.Point2D$Double (id=551)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:13,a=java.awt.geom.Point2D$Double (id=551)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#diff:38
+Variable Write,context=Main$AOJ1212:1#diff:38,p2=java.awt.geom.Point2D$Double (id=549)
+Variable Write,context=Main$AOJ1212:1#diff:38,p1=java.awt.geom.Point2D$Double (id=550)
+Variable Write,context=Main$AOJ1212:1#diff:38,result=java.awt.geom.Point2D$Double (id=552)
+Method Exit,returner=Main$AOJ1212:1#diff:38,value=java.awt.geom.Point2D$Double (id=552)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:13,b=java.awt.geom.Point2D$Double (id=552)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#diff:39
+Variable Write,context=Main$AOJ1212:1#diff:39,p2=java.awt.geom.Point2D$Double (id=547)
+Variable Write,context=Main$AOJ1212:1#diff:39,p1=java.awt.geom.Point2D$Double (id=549)
+Variable Write,context=Main$AOJ1212:1#diff:39,result=java.awt.geom.Point2D$Double (id=553)
+Method Exit,returner=Main$AOJ1212:1#diff:39,value=java.awt.geom.Point2D$Double (id=553)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#cross:25
+Variable Write,context=Main$AOJ1212:1#cross:25,p2=java.awt.geom.Point2D$Double (id=553)
+Variable Write,context=Main$AOJ1212:1#cross:25,p1=java.awt.geom.Point2D$Double (id=552)
+Variable Write,context=Main$AOJ1212:1#cross:25,result=-7.5
+Method Exit,returner=Main$AOJ1212:1#cross:25,value=-7.5
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#cross:26
+Variable Write,context=Main$AOJ1212:1#cross:26,p2=java.awt.geom.Point2D$Double (id=551)
+Variable Write,context=Main$AOJ1212:1#cross:26,p1=java.awt.geom.Point2D$Double (id=552)
+Variable Write,context=Main$AOJ1212:1#cross:26,result=-100.0
+Method Exit,returner=Main$AOJ1212:1#cross:26,value=-100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#mul:13
+Variable Write,context=Main$AOJ1212:1#mul:13,p1=java.awt.geom.Point2D$Double (id=551)
+Variable Write,context=Main$AOJ1212:1#mul:13,n=0.075
+Variable Write,context=Main$AOJ1212:1#mul:13,result=java.awt.geom.Point2D$Double (id=554)
+Method Exit,returner=Main$AOJ1212:1#mul:13,value=java.awt.geom.Point2D$Double (id=554)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:13,target=Main$AOJ1212:1#sum:18
+Variable Write,context=Main$AOJ1212:1#sum:18,p2=java.awt.geom.Point2D$Double (id=554)
+Variable Write,context=Main$AOJ1212:1#sum:18,p1=java.awt.geom.Point2D$Double (id=547)
+Variable Write,context=Main$AOJ1212:1#sum:18,result=java.awt.geom.Point2D$Double (id=555)
+Method Exit,returner=Main$AOJ1212:1#sum:18,value=java.awt.geom.Point2D$Double (id=555)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:13,result=java.awt.geom.Point2D$Double (id=555)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:13,value=java.awt.geom.Point2D$Double (id=555)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:13,result=java.awt.geom.Point2D$Double (id=555)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:13,value=java.awt.geom.Point2D$Double (id=555)
+Variable Write,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=555)
+Variable Write,context=Main$AOJ1212:1#solve:3,a=10.606601717798213
+Variable Write,context=Main$AOJ1212:1#solve:3,dis=10.606601717798213
+Variable Write,context=Main$AOJ1212:1#solve:3,p=java.awt.geom.Point2D$Double (id=555)
+Variable Write,context=Main$AOJ1212:1#solve:3,idx=0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=1
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=2
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:3,i=3
+Method Call,caller=Main$AOJ1212:1#solve:3,target=Main$AOJ1212:1#intersectionPoint:14
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:14,l1=java.awt.geom.Line2D$Double (id=546)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:14,l2=java.awt.geom.Line2D$Double (id=459)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#intersectionPoint:14
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:14,b2=java.awt.geom.Point2D$Double (id=559)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:14,a1=java.awt.geom.Point2D$Double (id=556)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:14,a2=java.awt.geom.Point2D$Double (id=557)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:14,b1=java.awt.geom.Point2D$Double (id=558)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#diff:40
+Variable Write,context=Main$AOJ1212:1#diff:40,p2=java.awt.geom.Point2D$Double (id=556)
+Variable Write,context=Main$AOJ1212:1#diff:40,p1=java.awt.geom.Point2D$Double (id=557)
+Variable Write,context=Main$AOJ1212:1#diff:40,result=java.awt.geom.Point2D$Double (id=560)
+Method Exit,returner=Main$AOJ1212:1#diff:40,value=java.awt.geom.Point2D$Double (id=560)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:14,a=java.awt.geom.Point2D$Double (id=560)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#diff:41
+Variable Write,context=Main$AOJ1212:1#diff:41,p2=java.awt.geom.Point2D$Double (id=558)
+Variable Write,context=Main$AOJ1212:1#diff:41,p1=java.awt.geom.Point2D$Double (id=559)
+Variable Write,context=Main$AOJ1212:1#diff:41,result=java.awt.geom.Point2D$Double (id=561)
+Method Exit,returner=Main$AOJ1212:1#diff:41,value=java.awt.geom.Point2D$Double (id=561)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:14,b=java.awt.geom.Point2D$Double (id=561)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#diff:42
+Variable Write,context=Main$AOJ1212:1#diff:42,p2=java.awt.geom.Point2D$Double (id=556)
+Variable Write,context=Main$AOJ1212:1#diff:42,p1=java.awt.geom.Point2D$Double (id=558)
+Variable Write,context=Main$AOJ1212:1#diff:42,result=java.awt.geom.Point2D$Double (id=562)
+Method Exit,returner=Main$AOJ1212:1#diff:42,value=java.awt.geom.Point2D$Double (id=562)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#cross:27
+Variable Write,context=Main$AOJ1212:1#cross:27,p2=java.awt.geom.Point2D$Double (id=562)
+Variable Write,context=Main$AOJ1212:1#cross:27,p1=java.awt.geom.Point2D$Double (id=561)
+Variable Write,context=Main$AOJ1212:1#cross:27,result=0.0
+Method Exit,returner=Main$AOJ1212:1#cross:27,value=0.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#cross:28
+Variable Write,context=Main$AOJ1212:1#cross:28,p2=java.awt.geom.Point2D$Double (id=560)
+Variable Write,context=Main$AOJ1212:1#cross:28,p1=java.awt.geom.Point2D$Double (id=561)
+Variable Write,context=Main$AOJ1212:1#cross:28,result=100.0
+Method Exit,returner=Main$AOJ1212:1#cross:28,value=100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#mul:14
+Variable Write,context=Main$AOJ1212:1#mul:14,p1=java.awt.geom.Point2D$Double (id=560)
+Variable Write,context=Main$AOJ1212:1#mul:14,n=0.0
+Variable Write,context=Main$AOJ1212:1#mul:14,result=java.awt.geom.Point2D$Double (id=563)
+Method Exit,returner=Main$AOJ1212:1#mul:14,value=java.awt.geom.Point2D$Double (id=563)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:14,target=Main$AOJ1212:1#sum:19
+Variable Write,context=Main$AOJ1212:1#sum:19,p2=java.awt.geom.Point2D$Double (id=563)
+Variable Write,context=Main$AOJ1212:1#sum:19,p1=java.awt.geom.Point2D$Double (id=556)
+Variable Write,context=Main$AOJ1212:1#sum:19,result=java.awt.geom.Point2D$Double (id=564)
+Method Exit,returner=Main$AOJ1212:1#sum:19,value=java.awt.geom.Point2D$Double (id=564)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:14,result=java.awt.geom.Point2D$Double (id=564)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:14,value=java.awt.geom.Point2D$Double (id=564)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:14,result=java.awt.geom.Point2D$Double (id=564)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:14,value=java.awt.geom.Point2D$Double (id=564)
+Variable Write,context=Main$AOJ1212:1#solve:3,b=java.awt.geom.Point2D$Double (id=564)
+Variable Write,context=Main$AOJ1212:1#solve:3,a=0.0
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=a,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=i,type=int (id=7),value=<?>,index=17>
+Variable Write,context=Main$AOJ1212:1#solve:3,tmp=0.3535533905932738
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=bs,type=boolean (id=2),value=<?>,index=13>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=dis,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=idx,type=int (id=7),value=<?>,index=16>
+Variable Delete,method=Main$AOJ1212:1#solve:3 <name=tmp,type=double (id=5),value=<?>,index=22>
+Method Exit,returner=Main$AOJ1212:1#solve:3,value=<void>
+Field Read,context=Main:1,sc
+Field Write,context=Main$AOJ1212:1,N=4
+Field Read,context=Main$AOJ1212:1,N
+Method Call,caller=Main$AOJ1212:1#Main$AOJ1212:1,target=Main$AOJ1212:1#solve:4
+Field Read,context=Main$AOJ1212:1,N
+New Object,object=java.awt.geom.Line2D[]:7
+Field Write,context=java.awt.geom.Line2D[]:7,0=null
+Field Write,context=java.awt.geom.Line2D[]:7,1=null
+Field Write,context=java.awt.geom.Line2D[]:7,2=null
+Field Write,context=java.awt.geom.Line2D[]:7,3=null
+Variable Write,context=Main$AOJ1212:1#solve:4,mirrors=java.awt.geom.Line2D[]:7
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=0
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:4,d=y
+Field Read,context=Main:1,sc
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:4,x=2
+Variable Write,context=Main$AOJ1212:1#solve:4,y=1
+Field Write,context=java.awt.geom.Line2D[]:7,0=java.awt.geom.Line2D$Double (id=567)
+Variable Write,context=Main$AOJ1212:1#solve:4,mirrors=java.awt.geom.Line2D[]:7
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=1
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=x,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=y,type=int (id=7),value=<?>,index=4>
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:4,d=x
+Field Read,context=Main:1,sc
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:4,x=1
+Variable Write,context=Main$AOJ1212:1#solve:4,y=2
+Field Write,context=java.awt.geom.Line2D[]:7,1=java.awt.geom.Line2D$Double (id=569)
+Variable Write,context=Main$AOJ1212:1#solve:4,mirrors=java.awt.geom.Line2D[]:7
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=2
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=x,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=y,type=int (id=7),value=<?>,index=4>
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:4,d=y
+Field Read,context=Main:1,sc
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:4,x=0
+Variable Write,context=Main$AOJ1212:1#solve:4,y=0
+Field Write,context=java.awt.geom.Line2D[]:7,2=java.awt.geom.Line2D$Double (id=571)
+Variable Write,context=Main$AOJ1212:1#solve:4,mirrors=java.awt.geom.Line2D[]:7
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=3
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=x,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=y,type=int (id=7),value=<?>,index=4>
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:4,d=x
+Field Read,context=Main:1,sc
+Field Read,context=Main:1,sc
+Variable Write,context=Main$AOJ1212:1#solve:4,x=0
+Variable Write,context=Main$AOJ1212:1#solve:4,y=0
+Field Write,context=java.awt.geom.Line2D[]:7,3=java.awt.geom.Line2D$Double (id=573)
+Variable Write,context=Main$AOJ1212:1#solve:4,mirrors=java.awt.geom.Line2D[]:7
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=d,type=java.lang.String (id=25),value=<?>,index=2>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=x,type=int (id=7),value=<?>,index=3>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=y,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=i,type=int (id=7),value=<?>,index=1>
+New Object,object=java.awt.geom.Line2D[]:8
+Field Write,context=java.awt.geom.Line2D[]:8,0=null
+Field Write,context=java.awt.geom.Line2D[]:8,1=null
+Field Write,context=java.awt.geom.Line2D[]:8,2=null
+Field Write,context=java.awt.geom.Line2D[]:8,3=null
+Variable Write,context=Main$AOJ1212:1#solve:4,walls=java.awt.geom.Line2D[]:8
+Field Write,context=java.awt.geom.Line2D[]:8,0=java.awt.geom.Line2D$Double (id=575)
+Variable Write,context=Main$AOJ1212:1#solve:4,walls=java.awt.geom.Line2D[]:8
+Field Write,context=java.awt.geom.Line2D[]:8,1=java.awt.geom.Line2D$Double (id=576)
+Variable Write,context=Main$AOJ1212:1#solve:4,walls=java.awt.geom.Line2D[]:8
+Field Write,context=java.awt.geom.Line2D[]:8,2=java.awt.geom.Line2D$Double (id=577)
+Variable Write,context=Main$AOJ1212:1#solve:4,walls=java.awt.geom.Line2D[]:8
+Field Write,context=java.awt.geom.Line2D[]:8,3=java.awt.geom.Line2D$Double (id=578)
+Variable Write,context=Main$AOJ1212:1#solve:4,walls=java.awt.geom.Line2D[]:8
+Variable Write,context=Main$AOJ1212:1#solve:4,start=java.awt.geom.Point2D$Double (id=579)
+Variable Write,context=Main$AOJ1212:1#solve:4,ans=java.awt.geom.Point2D$Double (id=579)
+Variable Write,context=Main$AOJ1212:1#solve:4,l=java.awt.geom.Line2D$Double (id=580)
+New Object,object=java.awt.geom.Point2D[]:4
+Field Write,context=java.awt.geom.Point2D[]:4,0=java.awt.geom.Point2D$Double (id=582)
+Field Write,context=java.awt.geom.Point2D[]:4,1=java.awt.geom.Point2D$Double (id=583)
+Field Write,context=java.awt.geom.Point2D[]:4,2=java.awt.geom.Point2D$Double (id=584)
+Field Write,context=java.awt.geom.Point2D[]:4,3=java.awt.geom.Point2D$Double (id=585)
+Variable Write,context=Main$AOJ1212:1#solve:4,vv=java.awt.geom.Point2D[]:4
+Variable Write,context=Main$AOJ1212:1#solve:4,cnt=0
+Variable Write,context=Main$AOJ1212:1#solve:4,v=0
+Variable Write,context=Main$AOJ1212:1#solve:4,fin=false
+Variable Write,context=Main$AOJ1212:1#solve:4,bs=false
+Variable Write,context=Main$AOJ1212:1#solve:4,cnt=1
+Variable Write,context=Main$AOJ1212:1#solve:4,dis=100.0
+Variable Write,context=Main$AOJ1212:1#solve:4,p=null
+Variable Write,context=Main$AOJ1212:1#solve:4,idx=-1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=0
+Method Call,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:15
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:15,l1=java.awt.geom.Line2D$Double (id=580)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:15,l2=java.awt.geom.Line2D$Double (id=567)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#intersectionPoint:15
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:15,b2=java.awt.geom.Point2D$Double (id=589)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:15,a1=java.awt.geom.Point2D$Double (id=586)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:15,a2=java.awt.geom.Point2D$Double (id=587)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:15,b1=java.awt.geom.Point2D$Double (id=588)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#diff:43
+Variable Write,context=Main$AOJ1212:1#diff:43,p2=java.awt.geom.Point2D$Double (id=586)
+Variable Write,context=Main$AOJ1212:1#diff:43,p1=java.awt.geom.Point2D$Double (id=587)
+Variable Write,context=Main$AOJ1212:1#diff:43,result=java.awt.geom.Point2D$Double (id=590)
+Method Exit,returner=Main$AOJ1212:1#diff:43,value=java.awt.geom.Point2D$Double (id=590)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:15,a=java.awt.geom.Point2D$Double (id=590)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#diff:44
+Variable Write,context=Main$AOJ1212:1#diff:44,p2=java.awt.geom.Point2D$Double (id=588)
+Variable Write,context=Main$AOJ1212:1#diff:44,p1=java.awt.geom.Point2D$Double (id=589)
+Variable Write,context=Main$AOJ1212:1#diff:44,result=java.awt.geom.Point2D$Double (id=591)
+Method Exit,returner=Main$AOJ1212:1#diff:44,value=java.awt.geom.Point2D$Double (id=591)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:15,b=java.awt.geom.Point2D$Double (id=591)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#diff:45
+Variable Write,context=Main$AOJ1212:1#diff:45,p2=java.awt.geom.Point2D$Double (id=586)
+Variable Write,context=Main$AOJ1212:1#diff:45,p1=java.awt.geom.Point2D$Double (id=588)
+Variable Write,context=Main$AOJ1212:1#diff:45,result=java.awt.geom.Point2D$Double (id=592)
+Method Exit,returner=Main$AOJ1212:1#diff:45,value=java.awt.geom.Point2D$Double (id=592)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#cross:29
+Variable Write,context=Main$AOJ1212:1#cross:29,p2=java.awt.geom.Point2D$Double (id=592)
+Variable Write,context=Main$AOJ1212:1#cross:29,p1=java.awt.geom.Point2D$Double (id=591)
+Variable Write,context=Main$AOJ1212:1#cross:29,result=-1.25
+Method Exit,returner=Main$AOJ1212:1#cross:29,value=-1.25
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#cross:30
+Variable Write,context=Main$AOJ1212:1#cross:30,p2=java.awt.geom.Point2D$Double (id=590)
+Variable Write,context=Main$AOJ1212:1#cross:30,p1=java.awt.geom.Point2D$Double (id=591)
+Variable Write,context=Main$AOJ1212:1#cross:30,result=-100.0
+Method Exit,returner=Main$AOJ1212:1#cross:30,value=-100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#mul:15
+Variable Write,context=Main$AOJ1212:1#mul:15,p1=java.awt.geom.Point2D$Double (id=590)
+Variable Write,context=Main$AOJ1212:1#mul:15,n=0.0125
+Variable Write,context=Main$AOJ1212:1#mul:15,result=java.awt.geom.Point2D$Double (id=593)
+Method Exit,returner=Main$AOJ1212:1#mul:15,value=java.awt.geom.Point2D$Double (id=593)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:15,target=Main$AOJ1212:1#sum:20
+Variable Write,context=Main$AOJ1212:1#sum:20,p2=java.awt.geom.Point2D$Double (id=593)
+Variable Write,context=Main$AOJ1212:1#sum:20,p1=java.awt.geom.Point2D$Double (id=586)
+Variable Write,context=Main$AOJ1212:1#sum:20,result=java.awt.geom.Point2D$Double (id=594)
+Method Exit,returner=Main$AOJ1212:1#sum:20,value=java.awt.geom.Point2D$Double (id=594)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:15,result=java.awt.geom.Point2D$Double (id=594)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:15,value=java.awt.geom.Point2D$Double (id=594)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:15,result=java.awt.geom.Point2D$Double (id=594)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:15,value=java.awt.geom.Point2D$Double (id=594)
+Variable Write,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=594)
+Variable Write,context=Main$AOJ1212:1#solve:4,a=1.7677669529663689
+Variable Write,context=Main$AOJ1212:1#solve:4,dis=1.7677669529663689
+Variable Write,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=594)
+Variable Write,context=Main$AOJ1212:1#solve:4,idx=0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=1
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=2
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=3
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=i,type=int (id=7),value=<?>,index=17>
+Variable Write,context=Main$AOJ1212:1#solve:4,v=1
+Variable Write,context=Main$AOJ1212:1#solve:4,px=200.0001
+Variable Write,context=Main$AOJ1212:1#solve:4,py=150.0001
+Variable Write,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=595)
+Method Call,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#sum:21
+Variable Write,context=Main$AOJ1212:1#sum:21,p2=java.awt.geom.Point2D$Double (id=583)
+Variable Write,context=Main$AOJ1212:1#sum:21,p1=java.awt.geom.Point2D$Double (id=595)
+Variable Write,context=Main$AOJ1212:1#sum:21,result=java.awt.geom.Point2D$Double (id=596)
+Method Exit,returner=Main$AOJ1212:1#sum:21,value=java.awt.geom.Point2D$Double (id=596)
+Variable Write,context=Main$AOJ1212:1#solve:4,l=java.awt.geom.Line2D$Double (id=597)
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=bs,type=boolean (id=2),value=<?>,index=13>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=dis,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=idx,type=int (id=7),value=<?>,index=16>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=px,type=double (id=5),value=<?>,index=23>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=py,type=double (id=5),value=<?>,index=24>
+Variable Write,context=Main$AOJ1212:1#solve:4,bs=false
+Variable Write,context=Main$AOJ1212:1#solve:4,cnt=2
+Variable Write,context=Main$AOJ1212:1#solve:4,dis=100.0
+Variable Write,context=Main$AOJ1212:1#solve:4,p=null
+Variable Write,context=Main$AOJ1212:1#solve:4,idx=-1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=0
+Method Call,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:16
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:16,l1=java.awt.geom.Line2D$Double (id=597)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:16,l2=java.awt.geom.Line2D$Double (id=567)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#intersectionPoint:16
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:16,b2=java.awt.geom.Point2D$Double (id=601)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:16,a1=java.awt.geom.Point2D$Double (id=598)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:16,a2=java.awt.geom.Point2D$Double (id=599)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:16,b1=java.awt.geom.Point2D$Double (id=600)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#diff:46
+Variable Write,context=Main$AOJ1212:1#diff:46,p2=java.awt.geom.Point2D$Double (id=598)
+Variable Write,context=Main$AOJ1212:1#diff:46,p1=java.awt.geom.Point2D$Double (id=599)
+Variable Write,context=Main$AOJ1212:1#diff:46,result=java.awt.geom.Point2D$Double (id=602)
+Method Exit,returner=Main$AOJ1212:1#diff:46,value=java.awt.geom.Point2D$Double (id=602)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:16,a=java.awt.geom.Point2D$Double (id=602)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#diff:47
+Variable Write,context=Main$AOJ1212:1#diff:47,p2=java.awt.geom.Point2D$Double (id=600)
+Variable Write,context=Main$AOJ1212:1#diff:47,p1=java.awt.geom.Point2D$Double (id=601)
+Variable Write,context=Main$AOJ1212:1#diff:47,result=java.awt.geom.Point2D$Double (id=603)
+Method Exit,returner=Main$AOJ1212:1#diff:47,value=java.awt.geom.Point2D$Double (id=603)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:16,b=java.awt.geom.Point2D$Double (id=603)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#diff:48
+Variable Write,context=Main$AOJ1212:1#diff:48,p2=java.awt.geom.Point2D$Double (id=598)
+Variable Write,context=Main$AOJ1212:1#diff:48,p1=java.awt.geom.Point2D$Double (id=600)
+Variable Write,context=Main$AOJ1212:1#diff:48,result=java.awt.geom.Point2D$Double (id=604)
+Method Exit,returner=Main$AOJ1212:1#diff:48,value=java.awt.geom.Point2D$Double (id=604)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#cross:31
+Variable Write,context=Main$AOJ1212:1#cross:31,p2=java.awt.geom.Point2D$Double (id=604)
+Variable Write,context=Main$AOJ1212:1#cross:31,p1=java.awt.geom.Point2D$Double (id=603)
+Variable Write,context=Main$AOJ1212:1#cross:31,result=-0.0
+Method Exit,returner=Main$AOJ1212:1#cross:31,value=-0.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#cross:32
+Variable Write,context=Main$AOJ1212:1#cross:32,p2=java.awt.geom.Point2D$Double (id=602)
+Variable Write,context=Main$AOJ1212:1#cross:32,p1=java.awt.geom.Point2D$Double (id=603)
+Variable Write,context=Main$AOJ1212:1#cross:32,result=100.0
+Method Exit,returner=Main$AOJ1212:1#cross:32,value=100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#mul:16
+Variable Write,context=Main$AOJ1212:1#mul:16,p1=java.awt.geom.Point2D$Double (id=602)
+Variable Write,context=Main$AOJ1212:1#mul:16,n=-0.0
+Variable Write,context=Main$AOJ1212:1#mul:16,result=java.awt.geom.Point2D$Double (id=605)
+Method Exit,returner=Main$AOJ1212:1#mul:16,value=java.awt.geom.Point2D$Double (id=605)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:16,target=Main$AOJ1212:1#sum:22
+Variable Write,context=Main$AOJ1212:1#sum:22,p2=java.awt.geom.Point2D$Double (id=605)
+Variable Write,context=Main$AOJ1212:1#sum:22,p1=java.awt.geom.Point2D$Double (id=598)
+Variable Write,context=Main$AOJ1212:1#sum:22,result=java.awt.geom.Point2D$Double (id=606)
+Method Exit,returner=Main$AOJ1212:1#sum:22,value=java.awt.geom.Point2D$Double (id=606)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:16,result=java.awt.geom.Point2D$Double (id=606)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:16,value=java.awt.geom.Point2D$Double (id=606)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:16,result=java.awt.geom.Point2D$Double (id=606)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:16,value=java.awt.geom.Point2D$Double (id=606)
+Variable Write,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=606)
+Variable Write,context=Main$AOJ1212:1#solve:4,a=0.0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=1
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+Method Call,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:17
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:17,l1=java.awt.geom.Line2D$Double (id=597)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:17,l2=java.awt.geom.Line2D$Double (id=569)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#intersectionPoint:17
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:17,b2=java.awt.geom.Point2D$Double (id=610)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:17,a1=java.awt.geom.Point2D$Double (id=607)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:17,a2=java.awt.geom.Point2D$Double (id=608)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:17,b1=java.awt.geom.Point2D$Double (id=609)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#diff:49
+Variable Write,context=Main$AOJ1212:1#diff:49,p2=java.awt.geom.Point2D$Double (id=607)
+Variable Write,context=Main$AOJ1212:1#diff:49,p1=java.awt.geom.Point2D$Double (id=608)
+Variable Write,context=Main$AOJ1212:1#diff:49,result=java.awt.geom.Point2D$Double (id=611)
+Method Exit,returner=Main$AOJ1212:1#diff:49,value=java.awt.geom.Point2D$Double (id=611)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:17,a=java.awt.geom.Point2D$Double (id=611)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#diff:50
+Variable Write,context=Main$AOJ1212:1#diff:50,p2=java.awt.geom.Point2D$Double (id=609)
+Variable Write,context=Main$AOJ1212:1#diff:50,p1=java.awt.geom.Point2D$Double (id=610)
+Variable Write,context=Main$AOJ1212:1#diff:50,result=java.awt.geom.Point2D$Double (id=612)
+Method Exit,returner=Main$AOJ1212:1#diff:50,value=java.awt.geom.Point2D$Double (id=612)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:17,b=java.awt.geom.Point2D$Double (id=612)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#diff:51
+Variable Write,context=Main$AOJ1212:1#diff:51,p2=java.awt.geom.Point2D$Double (id=607)
+Variable Write,context=Main$AOJ1212:1#diff:51,p1=java.awt.geom.Point2D$Double (id=609)
+Variable Write,context=Main$AOJ1212:1#diff:51,result=java.awt.geom.Point2D$Double (id=613)
+Method Exit,returner=Main$AOJ1212:1#diff:51,value=java.awt.geom.Point2D$Double (id=613)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#cross:33
+Variable Write,context=Main$AOJ1212:1#cross:33,p2=java.awt.geom.Point2D$Double (id=613)
+Variable Write,context=Main$AOJ1212:1#cross:33,p1=java.awt.geom.Point2D$Double (id=612)
+Variable Write,context=Main$AOJ1212:1#cross:33,result=0.5
+Method Exit,returner=Main$AOJ1212:1#cross:33,value=0.5
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#cross:34
+Variable Write,context=Main$AOJ1212:1#cross:34,p2=java.awt.geom.Point2D$Double (id=611)
+Variable Write,context=Main$AOJ1212:1#cross:34,p1=java.awt.geom.Point2D$Double (id=612)
+Variable Write,context=Main$AOJ1212:1#cross:34,result=100.0
+Method Exit,returner=Main$AOJ1212:1#cross:34,value=100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#mul:17
+Variable Write,context=Main$AOJ1212:1#mul:17,p1=java.awt.geom.Point2D$Double (id=611)
+Variable Write,context=Main$AOJ1212:1#mul:17,n=0.005
+Variable Write,context=Main$AOJ1212:1#mul:17,result=java.awt.geom.Point2D$Double (id=614)
+Method Exit,returner=Main$AOJ1212:1#mul:17,value=java.awt.geom.Point2D$Double (id=614)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:17,target=Main$AOJ1212:1#sum:23
+Variable Write,context=Main$AOJ1212:1#sum:23,p2=java.awt.geom.Point2D$Double (id=614)
+Variable Write,context=Main$AOJ1212:1#sum:23,p1=java.awt.geom.Point2D$Double (id=607)
+Variable Write,context=Main$AOJ1212:1#sum:23,result=java.awt.geom.Point2D$Double (id=615)
+Method Exit,returner=Main$AOJ1212:1#sum:23,value=java.awt.geom.Point2D$Double (id=615)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:17,result=java.awt.geom.Point2D$Double (id=615)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:17,value=java.awt.geom.Point2D$Double (id=615)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:17,result=java.awt.geom.Point2D$Double (id=615)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:17,value=java.awt.geom.Point2D$Double (id=615)
+Variable Write,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=615)
+Variable Write,context=Main$AOJ1212:1#solve:4,a=0.7071067811865476
+Variable Write,context=Main$AOJ1212:1#solve:4,dis=0.7071067811865476
+Variable Write,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=615)
+Variable Write,context=Main$AOJ1212:1#solve:4,idx=1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=2
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=3
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=i,type=int (id=7),value=<?>,index=17>
+Variable Write,context=Main$AOJ1212:1#solve:4,v=3
+Variable Write,context=Main$AOJ1212:1#solve:4,px=150.0001
+Variable Write,context=Main$AOJ1212:1#solve:4,py=200.0001
+Variable Write,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=616)
+Method Call,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#sum:24
+Variable Write,context=Main$AOJ1212:1#sum:24,p2=java.awt.geom.Point2D$Double (id=585)
+Variable Write,context=Main$AOJ1212:1#sum:24,p1=java.awt.geom.Point2D$Double (id=616)
+Variable Write,context=Main$AOJ1212:1#sum:24,result=java.awt.geom.Point2D$Double (id=617)
+Method Exit,returner=Main$AOJ1212:1#sum:24,value=java.awt.geom.Point2D$Double (id=617)
+Variable Write,context=Main$AOJ1212:1#solve:4,l=java.awt.geom.Line2D$Double (id=618)
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=bs,type=boolean (id=2),value=<?>,index=13>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=dis,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=idx,type=int (id=7),value=<?>,index=16>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=px,type=double (id=5),value=<?>,index=23>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=py,type=double (id=5),value=<?>,index=24>
+Variable Write,context=Main$AOJ1212:1#solve:4,bs=false
+Variable Write,context=Main$AOJ1212:1#solve:4,cnt=3
+Variable Write,context=Main$AOJ1212:1#solve:4,dis=100.0
+Variable Write,context=Main$AOJ1212:1#solve:4,p=null
+Variable Write,context=Main$AOJ1212:1#solve:4,idx=-1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=1
+Method Call,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:18
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:18,l1=java.awt.geom.Line2D$Double (id=618)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:18,l2=java.awt.geom.Line2D$Double (id=569)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#intersectionPoint:18
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:18,b2=java.awt.geom.Point2D$Double (id=622)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:18,a1=java.awt.geom.Point2D$Double (id=619)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:18,a2=java.awt.geom.Point2D$Double (id=620)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:18,b1=java.awt.geom.Point2D$Double (id=621)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#diff:52
+Variable Write,context=Main$AOJ1212:1#diff:52,p2=java.awt.geom.Point2D$Double (id=619)
+Variable Write,context=Main$AOJ1212:1#diff:52,p1=java.awt.geom.Point2D$Double (id=620)
+Variable Write,context=Main$AOJ1212:1#diff:52,result=java.awt.geom.Point2D$Double (id=623)
+Method Exit,returner=Main$AOJ1212:1#diff:52,value=java.awt.geom.Point2D$Double (id=623)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:18,a=java.awt.geom.Point2D$Double (id=623)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#diff:53
+Variable Write,context=Main$AOJ1212:1#diff:53,p2=java.awt.geom.Point2D$Double (id=621)
+Variable Write,context=Main$AOJ1212:1#diff:53,p1=java.awt.geom.Point2D$Double (id=622)
+Variable Write,context=Main$AOJ1212:1#diff:53,result=java.awt.geom.Point2D$Double (id=624)
+Method Exit,returner=Main$AOJ1212:1#diff:53,value=java.awt.geom.Point2D$Double (id=624)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:18,b=java.awt.geom.Point2D$Double (id=624)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#diff:54
+Variable Write,context=Main$AOJ1212:1#diff:54,p2=java.awt.geom.Point2D$Double (id=619)
+Variable Write,context=Main$AOJ1212:1#diff:54,p1=java.awt.geom.Point2D$Double (id=621)
+Variable Write,context=Main$AOJ1212:1#diff:54,result=java.awt.geom.Point2D$Double (id=625)
+Method Exit,returner=Main$AOJ1212:1#diff:54,value=java.awt.geom.Point2D$Double (id=625)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#cross:35
+Variable Write,context=Main$AOJ1212:1#cross:35,p2=java.awt.geom.Point2D$Double (id=625)
+Variable Write,context=Main$AOJ1212:1#cross:35,p1=java.awt.geom.Point2D$Double (id=624)
+Variable Write,context=Main$AOJ1212:1#cross:35,result=0.0
+Method Exit,returner=Main$AOJ1212:1#cross:35,value=0.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#cross:36
+Variable Write,context=Main$AOJ1212:1#cross:36,p2=java.awt.geom.Point2D$Double (id=623)
+Variable Write,context=Main$AOJ1212:1#cross:36,p1=java.awt.geom.Point2D$Double (id=624)
+Variable Write,context=Main$AOJ1212:1#cross:36,result=-100.0
+Method Exit,returner=Main$AOJ1212:1#cross:36,value=-100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#mul:18
+Variable Write,context=Main$AOJ1212:1#mul:18,p1=java.awt.geom.Point2D$Double (id=623)
+Variable Write,context=Main$AOJ1212:1#mul:18,n=-0.0
+Variable Write,context=Main$AOJ1212:1#mul:18,result=java.awt.geom.Point2D$Double (id=626)
+Method Exit,returner=Main$AOJ1212:1#mul:18,value=java.awt.geom.Point2D$Double (id=626)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:18,target=Main$AOJ1212:1#sum:25
+Variable Write,context=Main$AOJ1212:1#sum:25,p2=java.awt.geom.Point2D$Double (id=626)
+Variable Write,context=Main$AOJ1212:1#sum:25,p1=java.awt.geom.Point2D$Double (id=619)
+Variable Write,context=Main$AOJ1212:1#sum:25,result=java.awt.geom.Point2D$Double (id=627)
+Method Exit,returner=Main$AOJ1212:1#sum:25,value=java.awt.geom.Point2D$Double (id=627)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:18,result=java.awt.geom.Point2D$Double (id=627)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:18,value=java.awt.geom.Point2D$Double (id=627)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:18,result=java.awt.geom.Point2D$Double (id=627)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:18,value=java.awt.geom.Point2D$Double (id=627)
+Variable Write,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=627)
+Variable Write,context=Main$AOJ1212:1#solve:4,a=0.0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=2
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+Method Call,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:19
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:19,l1=java.awt.geom.Line2D$Double (id=618)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:19,l2=java.awt.geom.Line2D$Double (id=571)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#intersectionPoint:19
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:19,b2=java.awt.geom.Point2D$Double (id=631)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:19,a1=java.awt.geom.Point2D$Double (id=628)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:19,a2=java.awt.geom.Point2D$Double (id=629)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:19,b1=java.awt.geom.Point2D$Double (id=630)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#diff:55
+Variable Write,context=Main$AOJ1212:1#diff:55,p2=java.awt.geom.Point2D$Double (id=628)
+Variable Write,context=Main$AOJ1212:1#diff:55,p1=java.awt.geom.Point2D$Double (id=629)
+Variable Write,context=Main$AOJ1212:1#diff:55,result=java.awt.geom.Point2D$Double (id=632)
+Method Exit,returner=Main$AOJ1212:1#diff:55,value=java.awt.geom.Point2D$Double (id=632)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:19,a=java.awt.geom.Point2D$Double (id=632)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#diff:56
+Variable Write,context=Main$AOJ1212:1#diff:56,p2=java.awt.geom.Point2D$Double (id=630)
+Variable Write,context=Main$AOJ1212:1#diff:56,p1=java.awt.geom.Point2D$Double (id=631)
+Variable Write,context=Main$AOJ1212:1#diff:56,result=java.awt.geom.Point2D$Double (id=633)
+Method Exit,returner=Main$AOJ1212:1#diff:56,value=java.awt.geom.Point2D$Double (id=633)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:19,b=java.awt.geom.Point2D$Double (id=633)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#diff:57
+Variable Write,context=Main$AOJ1212:1#diff:57,p2=java.awt.geom.Point2D$Double (id=628)
+Variable Write,context=Main$AOJ1212:1#diff:57,p1=java.awt.geom.Point2D$Double (id=630)
+Variable Write,context=Main$AOJ1212:1#diff:57,result=java.awt.geom.Point2D$Double (id=634)
+Method Exit,returner=Main$AOJ1212:1#diff:57,value=java.awt.geom.Point2D$Double (id=634)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#cross:37
+Variable Write,context=Main$AOJ1212:1#cross:37,p2=java.awt.geom.Point2D$Double (id=634)
+Variable Write,context=Main$AOJ1212:1#cross:37,p1=java.awt.geom.Point2D$Double (id=633)
+Variable Write,context=Main$AOJ1212:1#cross:37,result=1.5
+Method Exit,returner=Main$AOJ1212:1#cross:37,value=1.5
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#cross:38
+Variable Write,context=Main$AOJ1212:1#cross:38,p2=java.awt.geom.Point2D$Double (id=632)
+Variable Write,context=Main$AOJ1212:1#cross:38,p1=java.awt.geom.Point2D$Double (id=633)
+Variable Write,context=Main$AOJ1212:1#cross:38,result=100.0
+Method Exit,returner=Main$AOJ1212:1#cross:38,value=100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#mul:19
+Variable Write,context=Main$AOJ1212:1#mul:19,p1=java.awt.geom.Point2D$Double (id=632)
+Variable Write,context=Main$AOJ1212:1#mul:19,n=0.015
+Variable Write,context=Main$AOJ1212:1#mul:19,result=java.awt.geom.Point2D$Double (id=635)
+Method Exit,returner=Main$AOJ1212:1#mul:19,value=java.awt.geom.Point2D$Double (id=635)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:19,target=Main$AOJ1212:1#sum:26
+Variable Write,context=Main$AOJ1212:1#sum:26,p2=java.awt.geom.Point2D$Double (id=635)
+Variable Write,context=Main$AOJ1212:1#sum:26,p1=java.awt.geom.Point2D$Double (id=628)
+Variable Write,context=Main$AOJ1212:1#sum:26,result=java.awt.geom.Point2D$Double (id=636)
+Method Exit,returner=Main$AOJ1212:1#sum:26,value=java.awt.geom.Point2D$Double (id=636)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:19,result=java.awt.geom.Point2D$Double (id=636)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:19,value=java.awt.geom.Point2D$Double (id=636)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:19,result=java.awt.geom.Point2D$Double (id=636)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:19,value=java.awt.geom.Point2D$Double (id=636)
+Variable Write,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=636)
+Variable Write,context=Main$AOJ1212:1#solve:4,a=2.1213203435596424
+Variable Write,context=Main$AOJ1212:1#solve:4,dis=2.1213203435596424
+Variable Write,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=636)
+Variable Write,context=Main$AOJ1212:1#solve:4,idx=2
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=3
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=i,type=int (id=7),value=<?>,index=17>
+Variable Write,context=Main$AOJ1212:1#solve:4,v=2
+Variable Write,context=Main$AOJ1212:1#solve:4,px=1.0E-4
+Variable Write,context=Main$AOJ1212:1#solve:4,py=50.0001
+Variable Write,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=637)
+Method Call,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#sum:27
+Variable Write,context=Main$AOJ1212:1#sum:27,p2=java.awt.geom.Point2D$Double (id=584)
+Variable Write,context=Main$AOJ1212:1#sum:27,p1=java.awt.geom.Point2D$Double (id=637)
+Variable Write,context=Main$AOJ1212:1#sum:27,result=java.awt.geom.Point2D$Double (id=638)
+Method Exit,returner=Main$AOJ1212:1#sum:27,value=java.awt.geom.Point2D$Double (id=638)
+Variable Write,context=Main$AOJ1212:1#solve:4,l=java.awt.geom.Line2D$Double (id=639)
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=bs,type=boolean (id=2),value=<?>,index=13>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=dis,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=idx,type=int (id=7),value=<?>,index=16>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=px,type=double (id=5),value=<?>,index=23>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=py,type=double (id=5),value=<?>,index=24>
+Variable Write,context=Main$AOJ1212:1#solve:4,bs=false
+Variable Write,context=Main$AOJ1212:1#solve:4,cnt=4
+Variable Write,context=Main$AOJ1212:1#solve:4,dis=100.0
+Variable Write,context=Main$AOJ1212:1#solve:4,p=null
+Variable Write,context=Main$AOJ1212:1#solve:4,idx=-1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=2
+Method Call,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:20
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:20,l1=java.awt.geom.Line2D$Double (id=639)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:20,l2=java.awt.geom.Line2D$Double (id=571)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#intersectionPoint:20
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:20,b2=java.awt.geom.Point2D$Double (id=643)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:20,a1=java.awt.geom.Point2D$Double (id=640)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:20,a2=java.awt.geom.Point2D$Double (id=641)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:20,b1=java.awt.geom.Point2D$Double (id=642)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#diff:58
+Variable Write,context=Main$AOJ1212:1#diff:58,p2=java.awt.geom.Point2D$Double (id=640)
+Variable Write,context=Main$AOJ1212:1#diff:58,p1=java.awt.geom.Point2D$Double (id=641)
+Variable Write,context=Main$AOJ1212:1#diff:58,result=java.awt.geom.Point2D$Double (id=644)
+Method Exit,returner=Main$AOJ1212:1#diff:58,value=java.awt.geom.Point2D$Double (id=644)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:20,a=java.awt.geom.Point2D$Double (id=644)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#diff:59
+Variable Write,context=Main$AOJ1212:1#diff:59,p2=java.awt.geom.Point2D$Double (id=642)
+Variable Write,context=Main$AOJ1212:1#diff:59,p1=java.awt.geom.Point2D$Double (id=643)
+Variable Write,context=Main$AOJ1212:1#diff:59,result=java.awt.geom.Point2D$Double (id=645)
+Method Exit,returner=Main$AOJ1212:1#diff:59,value=java.awt.geom.Point2D$Double (id=645)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:20,b=java.awt.geom.Point2D$Double (id=645)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#diff:60
+Variable Write,context=Main$AOJ1212:1#diff:60,p2=java.awt.geom.Point2D$Double (id=640)
+Variable Write,context=Main$AOJ1212:1#diff:60,p1=java.awt.geom.Point2D$Double (id=642)
+Variable Write,context=Main$AOJ1212:1#diff:60,result=java.awt.geom.Point2D$Double (id=646)
+Method Exit,returner=Main$AOJ1212:1#diff:60,value=java.awt.geom.Point2D$Double (id=646)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#cross:39
+Variable Write,context=Main$AOJ1212:1#cross:39,p2=java.awt.geom.Point2D$Double (id=646)
+Variable Write,context=Main$AOJ1212:1#cross:39,p1=java.awt.geom.Point2D$Double (id=645)
+Variable Write,context=Main$AOJ1212:1#cross:39,result=-0.0
+Method Exit,returner=Main$AOJ1212:1#cross:39,value=-0.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#cross:40
+Variable Write,context=Main$AOJ1212:1#cross:40,p2=java.awt.geom.Point2D$Double (id=644)
+Variable Write,context=Main$AOJ1212:1#cross:40,p1=java.awt.geom.Point2D$Double (id=645)
+Variable Write,context=Main$AOJ1212:1#cross:40,result=-100.0
+Method Exit,returner=Main$AOJ1212:1#cross:40,value=-100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#mul:20
+Variable Write,context=Main$AOJ1212:1#mul:20,p1=java.awt.geom.Point2D$Double (id=644)
+Variable Write,context=Main$AOJ1212:1#mul:20,n=0.0
+Variable Write,context=Main$AOJ1212:1#mul:20,result=java.awt.geom.Point2D$Double (id=647)
+Method Exit,returner=Main$AOJ1212:1#mul:20,value=java.awt.geom.Point2D$Double (id=647)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:20,target=Main$AOJ1212:1#sum:28
+Variable Write,context=Main$AOJ1212:1#sum:28,p2=java.awt.geom.Point2D$Double (id=647)
+Variable Write,context=Main$AOJ1212:1#sum:28,p1=java.awt.geom.Point2D$Double (id=640)
+Variable Write,context=Main$AOJ1212:1#sum:28,result=java.awt.geom.Point2D$Double (id=648)
+Method Exit,returner=Main$AOJ1212:1#sum:28,value=java.awt.geom.Point2D$Double (id=648)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:20,result=java.awt.geom.Point2D$Double (id=648)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:20,value=java.awt.geom.Point2D$Double (id=648)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:20,result=java.awt.geom.Point2D$Double (id=648)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:20,value=java.awt.geom.Point2D$Double (id=648)
+Variable Write,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=648)
+Variable Write,context=Main$AOJ1212:1#solve:4,a=0.0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=3
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+Method Call,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:21
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:21,l1=java.awt.geom.Line2D$Double (id=639)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:21,l2=java.awt.geom.Line2D$Double (id=573)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#intersectionPoint:21
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:21,b2=java.awt.geom.Point2D$Double (id=652)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:21,a1=java.awt.geom.Point2D$Double (id=649)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:21,a2=java.awt.geom.Point2D$Double (id=650)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:21,b1=java.awt.geom.Point2D$Double (id=651)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#diff:61
+Variable Write,context=Main$AOJ1212:1#diff:61,p2=java.awt.geom.Point2D$Double (id=649)
+Variable Write,context=Main$AOJ1212:1#diff:61,p1=java.awt.geom.Point2D$Double (id=650)
+Variable Write,context=Main$AOJ1212:1#diff:61,result=java.awt.geom.Point2D$Double (id=653)
+Method Exit,returner=Main$AOJ1212:1#diff:61,value=java.awt.geom.Point2D$Double (id=653)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:21,a=java.awt.geom.Point2D$Double (id=653)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#diff:62
+Variable Write,context=Main$AOJ1212:1#diff:62,p2=java.awt.geom.Point2D$Double (id=651)
+Variable Write,context=Main$AOJ1212:1#diff:62,p1=java.awt.geom.Point2D$Double (id=652)
+Variable Write,context=Main$AOJ1212:1#diff:62,result=java.awt.geom.Point2D$Double (id=654)
+Method Exit,returner=Main$AOJ1212:1#diff:62,value=java.awt.geom.Point2D$Double (id=654)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:21,b=java.awt.geom.Point2D$Double (id=654)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#diff:63
+Variable Write,context=Main$AOJ1212:1#diff:63,p2=java.awt.geom.Point2D$Double (id=649)
+Variable Write,context=Main$AOJ1212:1#diff:63,p1=java.awt.geom.Point2D$Double (id=651)
+Variable Write,context=Main$AOJ1212:1#diff:63,result=java.awt.geom.Point2D$Double (id=655)
+Method Exit,returner=Main$AOJ1212:1#diff:63,value=java.awt.geom.Point2D$Double (id=655)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#cross:41
+Variable Write,context=Main$AOJ1212:1#cross:41,p2=java.awt.geom.Point2D$Double (id=655)
+Variable Write,context=Main$AOJ1212:1#cross:41,p1=java.awt.geom.Point2D$Double (id=654)
+Variable Write,context=Main$AOJ1212:1#cross:41,result=-0.5
+Method Exit,returner=Main$AOJ1212:1#cross:41,value=-0.5
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#cross:42
+Variable Write,context=Main$AOJ1212:1#cross:42,p2=java.awt.geom.Point2D$Double (id=653)
+Variable Write,context=Main$AOJ1212:1#cross:42,p1=java.awt.geom.Point2D$Double (id=654)
+Variable Write,context=Main$AOJ1212:1#cross:42,result=-100.0
+Method Exit,returner=Main$AOJ1212:1#cross:42,value=-100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#mul:21
+Variable Write,context=Main$AOJ1212:1#mul:21,p1=java.awt.geom.Point2D$Double (id=653)
+Variable Write,context=Main$AOJ1212:1#mul:21,n=0.005
+Variable Write,context=Main$AOJ1212:1#mul:21,result=java.awt.geom.Point2D$Double (id=656)
+Method Exit,returner=Main$AOJ1212:1#mul:21,value=java.awt.geom.Point2D$Double (id=656)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:21,target=Main$AOJ1212:1#sum:29
+Variable Write,context=Main$AOJ1212:1#sum:29,p2=java.awt.geom.Point2D$Double (id=656)
+Variable Write,context=Main$AOJ1212:1#sum:29,p1=java.awt.geom.Point2D$Double (id=649)
+Variable Write,context=Main$AOJ1212:1#sum:29,result=java.awt.geom.Point2D$Double (id=657)
+Method Exit,returner=Main$AOJ1212:1#sum:29,value=java.awt.geom.Point2D$Double (id=657)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:21,result=java.awt.geom.Point2D$Double (id=657)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:21,value=java.awt.geom.Point2D$Double (id=657)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:21,result=java.awt.geom.Point2D$Double (id=657)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:21,value=java.awt.geom.Point2D$Double (id=657)
+Variable Write,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=657)
+Variable Write,context=Main$AOJ1212:1#solve:4,a=0.7071067811865476
+Variable Write,context=Main$AOJ1212:1#solve:4,dis=0.7071067811865476
+Variable Write,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=657)
+Variable Write,context=Main$AOJ1212:1#solve:4,idx=3
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=i,type=int (id=7),value=<?>,index=17>
+Variable Write,context=Main$AOJ1212:1#solve:4,v=0
+Variable Write,context=Main$AOJ1212:1#solve:4,px=50.0001
+Variable Write,context=Main$AOJ1212:1#solve:4,py=1.0E-4
+Variable Write,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=658)
+Method Call,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#sum:30
+Variable Write,context=Main$AOJ1212:1#sum:30,p2=java.awt.geom.Point2D$Double (id=582)
+Variable Write,context=Main$AOJ1212:1#sum:30,p1=java.awt.geom.Point2D$Double (id=658)
+Variable Write,context=Main$AOJ1212:1#sum:30,result=java.awt.geom.Point2D$Double (id=659)
+Method Exit,returner=Main$AOJ1212:1#sum:30,value=java.awt.geom.Point2D$Double (id=659)
+Variable Write,context=Main$AOJ1212:1#solve:4,l=java.awt.geom.Line2D$Double (id=660)
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=bs,type=boolean (id=2),value=<?>,index=13>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=dis,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=idx,type=int (id=7),value=<?>,index=16>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=px,type=double (id=5),value=<?>,index=23>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=py,type=double (id=5),value=<?>,index=24>
+Variable Write,context=Main$AOJ1212:1#solve:4,bs=true
+Variable Write,context=Main$AOJ1212:1#solve:4,cnt=5
+Variable Write,context=Main$AOJ1212:1#solve:4,dis=100.0
+Variable Write,context=Main$AOJ1212:1#solve:4,p=null
+Variable Write,context=Main$AOJ1212:1#solve:4,idx=-1
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=0
+Method Call,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:22
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:22,l1=java.awt.geom.Line2D$Double (id=660)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:22,l2=java.awt.geom.Line2D$Double (id=567)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#intersectionPoint:22
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:22,b2=java.awt.geom.Point2D$Double (id=664)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:22,a1=java.awt.geom.Point2D$Double (id=661)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:22,a2=java.awt.geom.Point2D$Double (id=662)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:22,b1=java.awt.geom.Point2D$Double (id=663)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#diff:64
+Variable Write,context=Main$AOJ1212:1#diff:64,p2=java.awt.geom.Point2D$Double (id=661)
+Variable Write,context=Main$AOJ1212:1#diff:64,p1=java.awt.geom.Point2D$Double (id=662)
+Variable Write,context=Main$AOJ1212:1#diff:64,result=java.awt.geom.Point2D$Double (id=665)
+Method Exit,returner=Main$AOJ1212:1#diff:64,value=java.awt.geom.Point2D$Double (id=665)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:22,a=java.awt.geom.Point2D$Double (id=665)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#diff:65
+Variable Write,context=Main$AOJ1212:1#diff:65,p2=java.awt.geom.Point2D$Double (id=663)
+Variable Write,context=Main$AOJ1212:1#diff:65,p1=java.awt.geom.Point2D$Double (id=664)
+Variable Write,context=Main$AOJ1212:1#diff:65,result=java.awt.geom.Point2D$Double (id=666)
+Method Exit,returner=Main$AOJ1212:1#diff:65,value=java.awt.geom.Point2D$Double (id=666)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:22,b=java.awt.geom.Point2D$Double (id=666)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#diff:66
+Variable Write,context=Main$AOJ1212:1#diff:66,p2=java.awt.geom.Point2D$Double (id=661)
+Variable Write,context=Main$AOJ1212:1#diff:66,p1=java.awt.geom.Point2D$Double (id=663)
+Variable Write,context=Main$AOJ1212:1#diff:66,result=java.awt.geom.Point2D$Double (id=667)
+Method Exit,returner=Main$AOJ1212:1#diff:66,value=java.awt.geom.Point2D$Double (id=667)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#cross:43
+Variable Write,context=Main$AOJ1212:1#cross:43,p2=java.awt.geom.Point2D$Double (id=667)
+Variable Write,context=Main$AOJ1212:1#cross:43,p1=java.awt.geom.Point2D$Double (id=666)
+Variable Write,context=Main$AOJ1212:1#cross:43,result=-1.5
+Method Exit,returner=Main$AOJ1212:1#cross:43,value=-1.5
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#cross:44
+Variable Write,context=Main$AOJ1212:1#cross:44,p2=java.awt.geom.Point2D$Double (id=665)
+Variable Write,context=Main$AOJ1212:1#cross:44,p1=java.awt.geom.Point2D$Double (id=666)
+Variable Write,context=Main$AOJ1212:1#cross:44,result=-100.0
+Method Exit,returner=Main$AOJ1212:1#cross:44,value=-100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#mul:22
+Variable Write,context=Main$AOJ1212:1#mul:22,p1=java.awt.geom.Point2D$Double (id=665)
+Variable Write,context=Main$AOJ1212:1#mul:22,n=0.015
+Variable Write,context=Main$AOJ1212:1#mul:22,result=java.awt.geom.Point2D$Double (id=668)
+Method Exit,returner=Main$AOJ1212:1#mul:22,value=java.awt.geom.Point2D$Double (id=668)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:22,target=Main$AOJ1212:1#sum:31
+Variable Write,context=Main$AOJ1212:1#sum:31,p2=java.awt.geom.Point2D$Double (id=668)
+Variable Write,context=Main$AOJ1212:1#sum:31,p1=java.awt.geom.Point2D$Double (id=661)
+Variable Write,context=Main$AOJ1212:1#sum:31,result=java.awt.geom.Point2D$Double (id=669)
+Method Exit,returner=Main$AOJ1212:1#sum:31,value=java.awt.geom.Point2D$Double (id=669)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:22,result=java.awt.geom.Point2D$Double (id=669)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:22,value=java.awt.geom.Point2D$Double (id=669)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:22,result=java.awt.geom.Point2D$Double (id=669)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:22,value=java.awt.geom.Point2D$Double (id=669)
+Variable Write,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=669)
+Variable Write,context=Main$AOJ1212:1#solve:4,a=2.1213203435596424
+Variable Write,context=Main$AOJ1212:1#solve:4,dis=2.1213203435596424
+Variable Write,context=Main$AOJ1212:1#solve:4,p=java.awt.geom.Point2D$Double (id=669)
+Variable Write,context=Main$AOJ1212:1#solve:4,idx=0
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=1
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=2
+Field Read,context=Main$AOJ1212:1,N
+Variable Write,context=Main$AOJ1212:1#solve:4,i=3
+Method Call,caller=Main$AOJ1212:1#solve:4,target=Main$AOJ1212:1#intersectionPoint:23
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:23,l1=java.awt.geom.Line2D$Double (id=660)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:23,l2=java.awt.geom.Line2D$Double (id=573)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#intersectionPoint:23
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:23,b2=java.awt.geom.Point2D$Double (id=673)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:23,a1=java.awt.geom.Point2D$Double (id=670)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:23,a2=java.awt.geom.Point2D$Double (id=671)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:23,b1=java.awt.geom.Point2D$Double (id=672)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#diff:67
+Variable Write,context=Main$AOJ1212:1#diff:67,p2=java.awt.geom.Point2D$Double (id=670)
+Variable Write,context=Main$AOJ1212:1#diff:67,p1=java.awt.geom.Point2D$Double (id=671)
+Variable Write,context=Main$AOJ1212:1#diff:67,result=java.awt.geom.Point2D$Double (id=674)
+Method Exit,returner=Main$AOJ1212:1#diff:67,value=java.awt.geom.Point2D$Double (id=674)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:23,a=java.awt.geom.Point2D$Double (id=674)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#diff:68
+Variable Write,context=Main$AOJ1212:1#diff:68,p2=java.awt.geom.Point2D$Double (id=672)
+Variable Write,context=Main$AOJ1212:1#diff:68,p1=java.awt.geom.Point2D$Double (id=673)
+Variable Write,context=Main$AOJ1212:1#diff:68,result=java.awt.geom.Point2D$Double (id=675)
+Method Exit,returner=Main$AOJ1212:1#diff:68,value=java.awt.geom.Point2D$Double (id=675)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:23,b=java.awt.geom.Point2D$Double (id=675)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#diff:69
+Variable Write,context=Main$AOJ1212:1#diff:69,p2=java.awt.geom.Point2D$Double (id=670)
+Variable Write,context=Main$AOJ1212:1#diff:69,p1=java.awt.geom.Point2D$Double (id=672)
+Variable Write,context=Main$AOJ1212:1#diff:69,result=java.awt.geom.Point2D$Double (id=676)
+Method Exit,returner=Main$AOJ1212:1#diff:69,value=java.awt.geom.Point2D$Double (id=676)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#cross:45
+Variable Write,context=Main$AOJ1212:1#cross:45,p2=java.awt.geom.Point2D$Double (id=676)
+Variable Write,context=Main$AOJ1212:1#cross:45,p1=java.awt.geom.Point2D$Double (id=675)
+Variable Write,context=Main$AOJ1212:1#cross:45,result=0.0
+Method Exit,returner=Main$AOJ1212:1#cross:45,value=0.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#cross:46
+Variable Write,context=Main$AOJ1212:1#cross:46,p2=java.awt.geom.Point2D$Double (id=674)
+Variable Write,context=Main$AOJ1212:1#cross:46,p1=java.awt.geom.Point2D$Double (id=675)
+Variable Write,context=Main$AOJ1212:1#cross:46,result=100.0
+Method Exit,returner=Main$AOJ1212:1#cross:46,value=100.0
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#mul:23
+Variable Write,context=Main$AOJ1212:1#mul:23,p1=java.awt.geom.Point2D$Double (id=674)
+Variable Write,context=Main$AOJ1212:1#mul:23,n=0.0
+Variable Write,context=Main$AOJ1212:1#mul:23,result=java.awt.geom.Point2D$Double (id=677)
+Method Exit,returner=Main$AOJ1212:1#mul:23,value=java.awt.geom.Point2D$Double (id=677)
+Method Call,caller=Main$AOJ1212:1#intersectionPoint:23,target=Main$AOJ1212:1#sum:32
+Variable Write,context=Main$AOJ1212:1#sum:32,p2=java.awt.geom.Point2D$Double (id=677)
+Variable Write,context=Main$AOJ1212:1#sum:32,p1=java.awt.geom.Point2D$Double (id=670)
+Variable Write,context=Main$AOJ1212:1#sum:32,result=java.awt.geom.Point2D$Double (id=678)
+Method Exit,returner=Main$AOJ1212:1#sum:32,value=java.awt.geom.Point2D$Double (id=678)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:23,result=java.awt.geom.Point2D$Double (id=678)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:23,value=java.awt.geom.Point2D$Double (id=678)
+Variable Write,context=Main$AOJ1212:1#intersectionPoint:23,result=java.awt.geom.Point2D$Double (id=678)
+Method Exit,returner=Main$AOJ1212:1#intersectionPoint:23,value=java.awt.geom.Point2D$Double (id=678)
+Variable Write,context=Main$AOJ1212:1#solve:4,b=java.awt.geom.Point2D$Double (id=678)
+Variable Write,context=Main$AOJ1212:1#solve:4,a=0.0
+Field Read,context=Main$AOJ1212:1,N
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=b,type=java.awt.geom.Point2D (id=107),value=<?>,index=18>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=a,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=i,type=int (id=7),value=<?>,index=17>
+Variable Write,context=Main$AOJ1212:1#solve:4,tmp=0.3535533905932738
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=bs,type=boolean (id=2),value=<?>,index=13>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=dis,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=p,type=java.awt.geom.Point2D (id=107),value=<?>,index=15>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=idx,type=int (id=7),value=<?>,index=16>
+Variable Delete,method=Main$AOJ1212:1#solve:4 <name=tmp,type=double (id=5),value=<?>,index=22>
+Method Exit,returner=Main$AOJ1212:1#solve:4,value=<void>
+Field Read,context=Main:1,sc
+Field Write,context=Main$AOJ1212:1,N=-1
+Field Read,context=Main$AOJ1212:1,N
+Method Exit,returner=Main$AOJ1212:1#Main$AOJ1212:1,value=<void>
+Method Exit,returner=Main:1#Main:1,value=<void>
+Method Exit,returner=Main#main:1,value=<void>
+Thread End,

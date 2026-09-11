@@ -1,0 +1,88 @@
+Thread Start,main (1)
+Method Call,caller=SYSTEM,target=Main#main:1
+New Object,object=java.lang.String[]:1
+Variable Write,context=Main#main:1,args=java.lang.String[]:1
+Variable Write,context=Main#main:1,in=java.io.BufferedReader (id=24)
+Variable Write,context=Main#main:1,n=3
+Variable Write,context=Main#main:1,n=2
+Variable Write,context=Main#main:1,snake=>'======#======~
+Method Call,caller=Main#main:1,target=Main#snake_A:1
+Variable Write,context=Main#snake_A:1,snake=>'======#======~
+Variable Write,context=Main#snake_A:1,left=0
+Variable Write,context=Main#snake_A:1,right=0
+Variable Write,context=Main#snake_A:1,i=2
+Variable Write,context=Main#snake_A:1,left=1
+Variable Write,context=Main#snake_A:1,i=3
+Variable Write,context=Main#snake_A:1,left=2
+Variable Write,context=Main#snake_A:1,i=4
+Variable Write,context=Main#snake_A:1,left=3
+Variable Write,context=Main#snake_A:1,i=5
+Variable Write,context=Main#snake_A:1,left=4
+Variable Write,context=Main#snake_A:1,i=6
+Variable Write,context=Main#snake_A:1,left=5
+Variable Write,context=Main#snake_A:1,i=7
+Variable Write,context=Main#snake_A:1,left=6
+Variable Delete,method=Main#snake_A:1 <name=i,type=int (id=7),value=<?>,index=3>
+Variable Write,context=Main#snake_A:1,i=9
+Variable Write,context=Main#snake_A:1,right=1
+Variable Write,context=Main#snake_A:1,i=10
+Variable Write,context=Main#snake_A:1,right=2
+Variable Write,context=Main#snake_A:1,i=11
+Variable Write,context=Main#snake_A:1,right=3
+Variable Write,context=Main#snake_A:1,i=12
+Variable Write,context=Main#snake_A:1,right=4
+Variable Write,context=Main#snake_A:1,i=13
+Variable Write,context=Main#snake_A:1,right=5
+Variable Write,context=Main#snake_A:1,i=14
+Variable Write,context=Main#snake_A:1,right=6
+Variable Delete,method=Main#snake_A:1 <name=i,type=int (id=7),value=<?>,index=4>
+Variable Write,context=Main#snake_A:1,result=true
+Method Exit,returner=Main#snake_A:1,value=true
+Variable Write,context=Main#main:1,n=1
+Variable Delete,method=Main#main:1 <name=snake,type=java.lang.String (id=25),value=<?>,index=3>
+Variable Write,context=Main#main:1,snake=>^Q=Q=Q=Q=Q=Q=Q=Q=Q=Q=~~
+Method Call,caller=Main#main:1,target=Main#snake_A:2
+Variable Write,context=Main#snake_A:2,snake=>^Q=Q=Q=Q=Q=Q=Q=Q=Q=Q=~~
+Variable Write,context=Main#snake_A:2,result=false
+Method Exit,returner=Main#snake_A:2,value=false
+Method Call,caller=Main#main:1,target=Main#snake_B:1
+Variable Write,context=Main#snake_B:1,snake=>^Q=Q=Q=Q=Q=Q=Q=Q=Q=Q=~~
+Variable Write,context=Main#snake_B:1,cnt=0
+Variable Write,context=Main#snake_B:1,i=2
+Variable Write,context=Main#snake_B:1,cnt=1
+Variable Write,context=Main#snake_B:1,i=4
+Variable Write,context=Main#snake_B:1,cnt=2
+Variable Write,context=Main#snake_B:1,i=6
+Variable Write,context=Main#snake_B:1,cnt=3
+Variable Write,context=Main#snake_B:1,i=8
+Variable Write,context=Main#snake_B:1,cnt=4
+Variable Write,context=Main#snake_B:1,i=10
+Variable Write,context=Main#snake_B:1,cnt=5
+Variable Write,context=Main#snake_B:1,i=12
+Variable Write,context=Main#snake_B:1,cnt=6
+Variable Write,context=Main#snake_B:1,i=14
+Variable Write,context=Main#snake_B:1,cnt=7
+Variable Write,context=Main#snake_B:1,i=16
+Variable Write,context=Main#snake_B:1,cnt=8
+Variable Write,context=Main#snake_B:1,i=18
+Variable Write,context=Main#snake_B:1,cnt=9
+Variable Write,context=Main#snake_B:1,i=20
+Variable Write,context=Main#snake_B:1,cnt=10
+Variable Delete,method=Main#snake_B:1 <name=i,type=int (id=7),value=<?>,index=2>
+Variable Write,context=Main#snake_B:1,result=true
+Method Exit,returner=Main#snake_B:1,value=true
+Variable Write,context=Main#main:1,n=0
+Variable Delete,method=Main#main:1 <name=snake,type=java.lang.String (id=25),value=<?>,index=3>
+Variable Write,context=Main#main:1,snake=>'===#====~
+Method Call,caller=Main#main:1,target=Main#snake_A:3
+Variable Write,context=Main#snake_A:3,snake=>'===#====~
+Variable Write,context=Main#snake_A:3,result=false
+Method Exit,returner=Main#snake_A:3,value=false
+Method Call,caller=Main#main:1,target=Main#snake_B:2
+Variable Write,context=Main#snake_B:2,snake=>'===#====~
+Variable Write,context=Main#snake_B:2,result=false
+Method Exit,returner=Main#snake_B:2,value=false
+Variable Write,context=Main#main:1,n=-1
+Variable Delete,method=Main#main:1 <name=snake,type=java.lang.String (id=25),value=<?>,index=3>
+Method Exit,returner=Main#main:1,value=<void>
+Thread End,

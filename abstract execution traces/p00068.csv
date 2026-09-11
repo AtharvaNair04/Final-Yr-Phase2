@@ -1,0 +1,951 @@
+Thread Start,main (1)
+Method Call,caller=SYSTEM,target=Main#main:1
+New Object,object=java.lang.String[]:1
+Variable Write,context=Main#main:1,args=java.lang.String[]:1
+Variable Write,context=Main#main:1,br=java.io.BufferedReader (id=24)
+Variable Write,context=Main#main:1,line=
+Variable Write,context=Main#main:1,line=4
+Variable Write,context=Main#main:1,n=4
+New Object,object=java.awt.geom.Point2D[]:1
+Field Write,context=java.awt.geom.Point2D[]:1,0=null
+Field Write,context=java.awt.geom.Point2D[]:1,1=null
+Field Write,context=java.awt.geom.Point2D[]:1,2=null
+Field Write,context=java.awt.geom.Point2D[]:1,3=null
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:1
+Variable Write,context=Main#main:1,i=0
+Variable Write,context=Main#main:1,line=1.0,0.0
+New Object,object=java.lang.String[]:2
+Field Write,context=java.lang.String[]:2,0=1.0
+Field Write,context=java.lang.String[]:2,1=0.0
+Variable Write,context=Main#main:1,values=java.lang.String[]:2
+Field Write,context=java.awt.geom.Point2D[]:1,0=java.awt.geom.Point2D$Double (id=35)
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:1
+Variable Write,context=Main#main:1,i=1
+Variable Delete,method=Main#main:1 <name=values,type=java.lang.String[] (id=59),value=<?>,index=7>
+Variable Write,context=Main#main:1,line=0.0,1.0
+New Object,object=java.lang.String[]:3
+Field Write,context=java.lang.String[]:3,0=0.0
+Field Write,context=java.lang.String[]:3,1=1.0
+Variable Write,context=Main#main:1,values=java.lang.String[]:3
+Field Write,context=java.awt.geom.Point2D[]:1,1=java.awt.geom.Point2D$Double (id=42)
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:1
+Variable Write,context=Main#main:1,i=2
+Variable Delete,method=Main#main:1 <name=values,type=java.lang.String[] (id=59),value=<?>,index=7>
+Variable Write,context=Main#main:1,line=2.0,1.0
+New Object,object=java.lang.String[]:4
+Field Write,context=java.lang.String[]:4,0=2.0
+Field Write,context=java.lang.String[]:4,1=1.0
+Variable Write,context=Main#main:1,values=java.lang.String[]:4
+Field Write,context=java.awt.geom.Point2D[]:1,2=java.awt.geom.Point2D$Double (id=47)
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:1
+Variable Write,context=Main#main:1,i=3
+Variable Delete,method=Main#main:1 <name=values,type=java.lang.String[] (id=59),value=<?>,index=7>
+Variable Write,context=Main#main:1,line=1.0,2.0
+New Object,object=java.lang.String[]:5
+Field Write,context=java.lang.String[]:5,0=1.0
+Field Write,context=java.lang.String[]:5,1=2.0
+Variable Write,context=Main#main:1,values=java.lang.String[]:5
+Field Write,context=java.awt.geom.Point2D[]:1,3=java.awt.geom.Point2D$Double (id=52)
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:1
+Variable Delete,method=Main#main:1 <name=values,type=java.lang.String[] (id=59),value=<?>,index=7>
+New Object,object=Main$1:1
+Method Call,caller=Main#main:1,target=Main$1:1#<init>:1
+Method Exit,returner=Main$1:1#<init>:1,value=<void>
+Method Call,caller=Main#main:1,target=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;)
+Method Call,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),target=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;)
+Method Call,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),target=Ljava/util/TimSort;.sort([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II)
+Method Call,caller=Ljava/util/TimSort;.sort([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II),target=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;)
+Method Exit,returner=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),value=<void>
+Method Exit,returner=Ljava/util/TimSort;.sort([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II),value=<void>
+Method Exit,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),value=<void>
+Method Call,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),target=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;)
+Method Call,caller=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),target=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;)
+Method Call,caller=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:1#compare:1
+Variable Write,context=Main$1:1#compare:1,p1=java.awt.geom.Point2D$Double (id=42)
+Variable Write,context=Main$1:1#compare:1,p2=java.awt.geom.Point2D$Double (id=35)
+Variable Write,context=Main$1:1#compare:1,result=1
+Method Exit,returner=Main$1:1#compare:1,value=1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:1#compare:2
+Variable Write,context=Main$1:1#compare:2,p1=java.awt.geom.Point2D$Double (id=47)
+Variable Write,context=Main$1:1#compare:2,p2=java.awt.geom.Point2D$Double (id=42)
+Variable Write,context=Main$1:1#compare:2,result=1
+Method Exit,returner=Main$1:1#compare:2,value=1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:1#compare:3
+Variable Write,context=Main$1:1#compare:3,p1=java.awt.geom.Point2D$Double (id=52)
+Variable Write,context=Main$1:1#compare:3,p2=java.awt.geom.Point2D$Double (id=47)
+Variable Write,context=Main$1:1#compare:3,result=1
+Method Exit,returner=Main$1:1#compare:3,value=1
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),value=<void>
+Method Exit,returner=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),value=<void>
+Method Exit,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),value=<void>
+Variable Write,context=Main#main:1,array=java.util.ArrayList (id=61)
+Variable Delete,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=6>
+Variable Write,context=Main#main:1,start=java.awt.geom.Point2D$Double (id=35)
+Variable Write,context=Main#main:1,px=1.0
+Variable Write,context=Main#main:1,py=0.0
+Variable Write,context=Main#main:1,prev=java.awt.geom.Point2D$Double (id=35)
+Variable Write,context=Main#main:1,min=null
+Variable Write,context=Main#main:1,minx=0.0
+Variable Write,context=Main#main:1,miny=0.0
+Variable Write,context=Main#main:1,maxcos=-1.0
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=35)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=42)
+Variable Write,context=Main#main:1,nx=-1.0
+Variable Write,context=Main#main:1,ny=1.0
+Variable Write,context=Main#main:1,cos=-0.7071067811865475
+Variable Write,context=Main#main:1,maxcos=-0.7071067811865475
+Variable Write,context=Main#main:1,minx=-1.0
+Variable Write,context=Main#main:1,miny=1.0
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=42)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=47)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=1.0
+Variable Write,context=Main#main:1,ny=1.0
+Variable Write,context=Main#main:1,cos=0.7071067811865475
+Variable Write,context=Main#main:1,maxcos=0.7071067811865475
+Variable Write,context=Main#main:1,minx=1.0
+Variable Write,context=Main#main:1,miny=1.0
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=47)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=52)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=0.0
+Variable Write,context=Main#main:1,ny=2.0
+Variable Write,context=Main#main:1,cos=0.0
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main#main:1 <name=p,type=java.awt.geom.Point2D (id=102),value=<?>,index=16>
+Variable Write,context=Main#main:1,px=1.0
+Variable Write,context=Main#main:1,py=1.0
+Variable Write,context=Main#main:1,prev=java.awt.geom.Point2D$Double (id=47)
+Variable Delete,method=Main#main:1 <name=min,type=java.awt.geom.Point2D (id=102),value=<?>,index=12>
+Variable Delete,method=Main#main:1 <name=minx,type=double (id=5),value=<?>,index=13>
+Variable Delete,method=Main#main:1 <name=miny,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main#main:1 <name=maxcos,type=double (id=5),value=<?>,index=15>
+Variable Write,context=Main#main:1,min=null
+Variable Write,context=Main#main:1,minx=0.0
+Variable Write,context=Main#main:1,miny=0.0
+Variable Write,context=Main#main:1,maxcos=-1.0
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=35)
+Variable Write,context=Main#main:1,nx=-1.0
+Variable Write,context=Main#main:1,ny=-1.0
+Variable Write,context=Main#main:1,cos=-0.9999999999999998
+Variable Write,context=Main#main:1,maxcos=-0.9999999999999998
+Variable Write,context=Main#main:1,minx=-1.0
+Variable Write,context=Main#main:1,miny=-1.0
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=35)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=42)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-2.0
+Variable Write,context=Main#main:1,ny=0.0
+Variable Write,context=Main#main:1,cos=-0.7071067811865475
+Variable Write,context=Main#main:1,maxcos=-0.7071067811865475
+Variable Write,context=Main#main:1,minx=-2.0
+Variable Write,context=Main#main:1,miny=0.0
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=42)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=47)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=52)
+Variable Write,context=Main#main:1,nx=-1.0
+Variable Write,context=Main#main:1,ny=1.0
+Variable Write,context=Main#main:1,cos=0.0
+Variable Write,context=Main#main:1,maxcos=0.0
+Variable Write,context=Main#main:1,minx=-1.0
+Variable Write,context=Main#main:1,miny=1.0
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=52)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main#main:1 <name=p,type=java.awt.geom.Point2D (id=102),value=<?>,index=16>
+Variable Write,context=Main#main:1,px=-1.0
+Variable Write,context=Main#main:1,py=1.0
+Variable Write,context=Main#main:1,prev=java.awt.geom.Point2D$Double (id=52)
+Variable Delete,method=Main#main:1 <name=min,type=java.awt.geom.Point2D (id=102),value=<?>,index=12>
+Variable Delete,method=Main#main:1 <name=minx,type=double (id=5),value=<?>,index=13>
+Variable Delete,method=Main#main:1 <name=miny,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main#main:1 <name=maxcos,type=double (id=5),value=<?>,index=15>
+Variable Write,context=Main#main:1,min=null
+Variable Write,context=Main#main:1,minx=0.0
+Variable Write,context=Main#main:1,miny=0.0
+Variable Write,context=Main#main:1,maxcos=-1.0
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=35)
+Variable Write,context=Main#main:1,nx=0.0
+Variable Write,context=Main#main:1,ny=-2.0
+Variable Write,context=Main#main:1,cos=-0.7071067811865475
+Variable Write,context=Main#main:1,maxcos=-0.7071067811865475
+Variable Write,context=Main#main:1,minx=0.0
+Variable Write,context=Main#main:1,miny=-2.0
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=35)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=42)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-1.0
+Variable Write,context=Main#main:1,ny=-1.0
+Variable Write,context=Main#main:1,cos=0.0
+Variable Write,context=Main#main:1,maxcos=0.0
+Variable Write,context=Main#main:1,minx=-1.0
+Variable Write,context=Main#main:1,miny=-1.0
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=42)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=47)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=1.0
+Variable Write,context=Main#main:1,ny=-1.0
+Variable Write,context=Main#main:1,cos=-0.9999999999999998
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=52)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main#main:1 <name=p,type=java.awt.geom.Point2D (id=102),value=<?>,index=16>
+Variable Write,context=Main#main:1,px=-1.0
+Variable Write,context=Main#main:1,py=-1.0
+Variable Write,context=Main#main:1,prev=java.awt.geom.Point2D$Double (id=42)
+Variable Delete,method=Main#main:1 <name=min,type=java.awt.geom.Point2D (id=102),value=<?>,index=12>
+Variable Delete,method=Main#main:1 <name=minx,type=double (id=5),value=<?>,index=13>
+Variable Delete,method=Main#main:1 <name=miny,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main#main:1 <name=maxcos,type=double (id=5),value=<?>,index=15>
+Variable Write,context=Main#main:1,min=null
+Variable Write,context=Main#main:1,minx=0.0
+Variable Write,context=Main#main:1,miny=0.0
+Variable Write,context=Main#main:1,maxcos=-1.0
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=35)
+Variable Write,context=Main#main:1,nx=1.0
+Variable Write,context=Main#main:1,ny=-1.0
+Variable Write,context=Main#main:1,cos=0.0
+Variable Write,context=Main#main:1,maxcos=0.0
+Variable Write,context=Main#main:1,minx=1.0
+Variable Write,context=Main#main:1,miny=-1.0
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=35)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=42)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=47)
+Variable Write,context=Main#main:1,nx=2.0
+Variable Write,context=Main#main:1,ny=0.0
+Variable Write,context=Main#main:1,cos=-0.7071067811865475
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=52)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=1.0
+Variable Write,context=Main#main:1,ny=1.0
+Variable Write,context=Main#main:1,cos=-0.9999999999999998
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main#main:1 <name=p,type=java.awt.geom.Point2D (id=102),value=<?>,index=16>
+Variable Delete,method=Main#main:1 <name=min,type=java.awt.geom.Point2D (id=102),value=<?>,index=12>
+Variable Delete,method=Main#main:1 <name=minx,type=double (id=5),value=<?>,index=13>
+Variable Delete,method=Main#main:1 <name=miny,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main#main:1 <name=maxcos,type=double (id=5),value=<?>,index=15>
+Variable Write,context=Main#main:1,line=9
+Variable Delete,method=Main#main:1 <name=n,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#main:1 <name=points,type=java.awt.geom.Point2D[] (id=98),value=<?>,index=5>
+Variable Delete,method=Main#main:1 <name=start,type=java.awt.geom.Point2D (id=102),value=<?>,index=8>
+Variable Delete,method=Main#main:1 <name=px,type=double (id=5),value=<?>,index=9>
+Variable Delete,method=Main#main:1 <name=py,type=double (id=5),value=<?>,index=10>
+Variable Delete,method=Main#main:1 <name=prev,type=java.awt.geom.Point2D (id=102),value=<?>,index=11>
+Variable Write,context=Main#main:1,n=9
+New Object,object=java.awt.geom.Point2D[]:2
+Field Write,context=java.awt.geom.Point2D[]:2,0=null
+Field Write,context=java.awt.geom.Point2D[]:2,1=null
+Field Write,context=java.awt.geom.Point2D[]:2,2=null
+Field Write,context=java.awt.geom.Point2D[]:2,3=null
+Field Write,context=java.awt.geom.Point2D[]:2,4=null
+Field Write,context=java.awt.geom.Point2D[]:2,5=null
+Field Write,context=java.awt.geom.Point2D[]:2,6=null
+Field Write,context=java.awt.geom.Point2D[]:2,7=null
+Field Write,context=java.awt.geom.Point2D[]:2,8=null
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:2
+Variable Write,context=Main#main:1,i=0
+Variable Write,context=Main#main:1,line=-509.94,892.63
+New Object,object=java.lang.String[]:6
+Field Write,context=java.lang.String[]:6,0=-509.94
+Field Write,context=java.lang.String[]:6,1=892.63
+Variable Write,context=Main#main:1,values=java.lang.String[]:6
+Field Write,context=java.awt.geom.Point2D[]:2,0=java.awt.geom.Point2D$Double (id=71)
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:2
+Variable Write,context=Main#main:1,i=1
+Variable Delete,method=Main#main:1 <name=values,type=java.lang.String[] (id=59),value=<?>,index=7>
+Variable Write,context=Main#main:1,line=567.62,639.99
+New Object,object=java.lang.String[]:7
+Field Write,context=java.lang.String[]:7,0=567.62
+Field Write,context=java.lang.String[]:7,1=639.99
+Variable Write,context=Main#main:1,values=java.lang.String[]:7
+Field Write,context=java.awt.geom.Point2D[]:2,1=java.awt.geom.Point2D$Double (id=76)
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:2
+Variable Write,context=Main#main:1,i=2
+Variable Delete,method=Main#main:1 <name=values,type=java.lang.String[] (id=59),value=<?>,index=7>
+Variable Write,context=Main#main:1,line=-859.32,-64.84
+New Object,object=java.lang.String[]:8
+Field Write,context=java.lang.String[]:8,0=-859.32
+Field Write,context=java.lang.String[]:8,1=-64.84
+Variable Write,context=Main#main:1,values=java.lang.String[]:8
+Field Write,context=java.awt.geom.Point2D[]:2,2=java.awt.geom.Point2D$Double (id=81)
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:2
+Variable Write,context=Main#main:1,i=3
+Variable Delete,method=Main#main:1 <name=values,type=java.lang.String[] (id=59),value=<?>,index=7>
+Variable Write,context=Main#main:1,line=-445.99,383.69
+New Object,object=java.lang.String[]:9
+Field Write,context=java.lang.String[]:9,0=-445.99
+Field Write,context=java.lang.String[]:9,1=383.69
+Variable Write,context=Main#main:1,values=java.lang.String[]:9
+Field Write,context=java.awt.geom.Point2D[]:2,3=java.awt.geom.Point2D$Double (id=86)
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:2
+Variable Write,context=Main#main:1,i=4
+Variable Delete,method=Main#main:1 <name=values,type=java.lang.String[] (id=59),value=<?>,index=7>
+Variable Write,context=Main#main:1,line=667.54,430.49
+New Object,object=java.lang.String[]:10
+Field Write,context=java.lang.String[]:10,0=667.54
+Field Write,context=java.lang.String[]:10,1=430.49
+Variable Write,context=Main#main:1,values=java.lang.String[]:10
+Field Write,context=java.awt.geom.Point2D[]:2,4=java.awt.geom.Point2D$Double (id=91)
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:2
+Variable Write,context=Main#main:1,i=5
+Variable Delete,method=Main#main:1 <name=values,type=java.lang.String[] (id=59),value=<?>,index=7>
+Variable Write,context=Main#main:1,line=551.12,828.21
+New Object,object=java.lang.String[]:11
+Field Write,context=java.lang.String[]:11,0=551.12
+Field Write,context=java.lang.String[]:11,1=828.21
+Variable Write,context=Main#main:1,values=java.lang.String[]:11
+Field Write,context=java.awt.geom.Point2D[]:2,5=java.awt.geom.Point2D$Double (id=96)
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:2
+Variable Write,context=Main#main:1,i=6
+Variable Delete,method=Main#main:1 <name=values,type=java.lang.String[] (id=59),value=<?>,index=7>
+Variable Write,context=Main#main:1,line=-940.2,-877.2
+New Object,object=java.lang.String[]:12
+Field Write,context=java.lang.String[]:12,0=-940.2
+Field Write,context=java.lang.String[]:12,1=-877.2
+Variable Write,context=Main#main:1,values=java.lang.String[]:12
+Field Write,context=java.awt.geom.Point2D[]:2,6=java.awt.geom.Point2D$Double (id=101)
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:2
+Variable Write,context=Main#main:1,i=7
+Variable Delete,method=Main#main:1 <name=values,type=java.lang.String[] (id=59),value=<?>,index=7>
+Variable Write,context=Main#main:1,line=-361.62,-970
+New Object,object=java.lang.String[]:13
+Field Write,context=java.lang.String[]:13,0=-361.62
+Field Write,context=java.lang.String[]:13,1=-970
+Variable Write,context=Main#main:1,values=java.lang.String[]:13
+Field Write,context=java.awt.geom.Point2D[]:2,7=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:2
+Variable Write,context=Main#main:1,i=8
+Variable Delete,method=Main#main:1 <name=values,type=java.lang.String[] (id=59),value=<?>,index=7>
+Variable Write,context=Main#main:1,line=-125.42,-178.48
+New Object,object=java.lang.String[]:14
+Field Write,context=java.lang.String[]:14,0=-125.42
+Field Write,context=java.lang.String[]:14,1=-178.48
+Variable Write,context=Main#main:1,values=java.lang.String[]:14
+Field Write,context=java.awt.geom.Point2D[]:2,8=java.awt.geom.Point2D$Double (id=111)
+Variable Write,context=Main#main:1,points=java.awt.geom.Point2D[]:2
+Variable Delete,method=Main#main:1 <name=values,type=java.lang.String[] (id=59),value=<?>,index=7>
+New Object,object=Main$1:2
+Method Call,caller=Main#main:1,target=Main$1:2#<init>:2
+Method Exit,returner=Main$1:2#<init>:2,value=<void>
+Method Call,caller=Main#main:1,target=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;)
+Method Call,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),target=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;)
+Method Call,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),target=Ljava/util/TimSort;.sort([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II)
+Method Call,caller=Ljava/util/TimSort;.sort([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II),target=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;)
+Method Exit,returner=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),value=<void>
+Method Exit,returner=Ljava/util/TimSort;.sort([Ljava/lang/Object;IILjava/util/Comparator;[Ljava/lang/Object;II),value=<void>
+Method Exit,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),value=<void>
+Method Call,caller=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),target=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;)
+Method Call,caller=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),target=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;)
+Method Call,caller=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:4
+Variable Write,context=Main$1:2#compare:4,p1=java.awt.geom.Point2D$Double (id=76)
+Variable Write,context=Main$1:2#compare:4,p2=java.awt.geom.Point2D$Double (id=71)
+Variable Write,context=Main$1:2#compare:4,result=-1
+Method Exit,returner=Main$1:2#compare:4,value=-1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:5
+Variable Write,context=Main$1:2#compare:5,p1=java.awt.geom.Point2D$Double (id=81)
+Variable Write,context=Main$1:2#compare:5,p2=java.awt.geom.Point2D$Double (id=76)
+Variable Write,context=Main$1:2#compare:5,result=-1
+Method Exit,returner=Main$1:2#compare:5,value=-1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:6
+Variable Write,context=Main$1:2#compare:6,p1=java.awt.geom.Point2D$Double (id=86)
+Variable Write,context=Main$1:2#compare:6,p2=java.awt.geom.Point2D$Double (id=81)
+Variable Write,context=Main$1:2#compare:6,result=1
+Method Exit,returner=Main$1:2#compare:6,value=1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:7
+Variable Write,context=Main$1:2#compare:7,p1=java.awt.geom.Point2D$Double (id=86)
+Variable Write,context=Main$1:2#compare:7,p2=java.awt.geom.Point2D$Double (id=76)
+Variable Write,context=Main$1:2#compare:7,result=-1
+Method Exit,returner=Main$1:2#compare:7,value=-1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:8
+Variable Write,context=Main$1:2#compare:8,p1=java.awt.geom.Point2D$Double (id=86)
+Variable Write,context=Main$1:2#compare:8,p2=java.awt.geom.Point2D$Double (id=81)
+Variable Write,context=Main$1:2#compare:8,result=1
+Method Exit,returner=Main$1:2#compare:8,value=1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:9
+Variable Write,context=Main$1:2#compare:9,p1=java.awt.geom.Point2D$Double (id=91)
+Variable Write,context=Main$1:2#compare:9,p2=java.awt.geom.Point2D$Double (id=76)
+Variable Write,context=Main$1:2#compare:9,result=-1
+Method Exit,returner=Main$1:2#compare:9,value=-1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:10
+Variable Write,context=Main$1:2#compare:10,p1=java.awt.geom.Point2D$Double (id=91)
+Variable Write,context=Main$1:2#compare:10,p2=java.awt.geom.Point2D$Double (id=86)
+Variable Write,context=Main$1:2#compare:10,result=1
+Method Exit,returner=Main$1:2#compare:10,value=1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:11
+Variable Write,context=Main$1:2#compare:11,p1=java.awt.geom.Point2D$Double (id=96)
+Variable Write,context=Main$1:2#compare:11,p2=java.awt.geom.Point2D$Double (id=91)
+Variable Write,context=Main$1:2#compare:11,result=1
+Method Exit,returner=Main$1:2#compare:11,value=1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:12
+Variable Write,context=Main$1:2#compare:12,p1=java.awt.geom.Point2D$Double (id=96)
+Variable Write,context=Main$1:2#compare:12,p2=java.awt.geom.Point2D$Double (id=71)
+Variable Write,context=Main$1:2#compare:12,result=-1
+Method Exit,returner=Main$1:2#compare:12,value=-1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:13
+Variable Write,context=Main$1:2#compare:13,p1=java.awt.geom.Point2D$Double (id=96)
+Variable Write,context=Main$1:2#compare:13,p2=java.awt.geom.Point2D$Double (id=76)
+Variable Write,context=Main$1:2#compare:13,result=1
+Method Exit,returner=Main$1:2#compare:13,value=1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:14
+Variable Write,context=Main$1:2#compare:14,p1=java.awt.geom.Point2D$Double (id=101)
+Variable Write,context=Main$1:2#compare:14,p2=java.awt.geom.Point2D$Double (id=76)
+Variable Write,context=Main$1:2#compare:14,result=-1
+Method Exit,returner=Main$1:2#compare:14,value=-1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:15
+Variable Write,context=Main$1:2#compare:15,p1=java.awt.geom.Point2D$Double (id=101)
+Variable Write,context=Main$1:2#compare:15,p2=java.awt.geom.Point2D$Double (id=86)
+Variable Write,context=Main$1:2#compare:15,result=-1
+Method Exit,returner=Main$1:2#compare:15,value=-1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:16
+Variable Write,context=Main$1:2#compare:16,p1=java.awt.geom.Point2D$Double (id=101)
+Variable Write,context=Main$1:2#compare:16,p2=java.awt.geom.Point2D$Double (id=81)
+Variable Write,context=Main$1:2#compare:16,result=-1
+Method Exit,returner=Main$1:2#compare:16,value=-1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:17
+Variable Write,context=Main$1:2#compare:17,p1=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main$1:2#compare:17,p2=java.awt.geom.Point2D$Double (id=91)
+Variable Write,context=Main$1:2#compare:17,result=-1
+Method Exit,returner=Main$1:2#compare:17,value=-1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:18
+Variable Write,context=Main$1:2#compare:18,p1=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main$1:2#compare:18,p2=java.awt.geom.Point2D$Double (id=81)
+Variable Write,context=Main$1:2#compare:18,result=-1
+Method Exit,returner=Main$1:2#compare:18,value=-1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:19
+Variable Write,context=Main$1:2#compare:19,p1=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main$1:2#compare:19,p2=java.awt.geom.Point2D$Double (id=101)
+Variable Write,context=Main$1:2#compare:19,result=-1
+Method Exit,returner=Main$1:2#compare:19,value=-1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:20
+Variable Write,context=Main$1:2#compare:20,p1=java.awt.geom.Point2D$Double (id=111)
+Variable Write,context=Main$1:2#compare:20,p2=java.awt.geom.Point2D$Double (id=91)
+Variable Write,context=Main$1:2#compare:20,result=-1
+Method Exit,returner=Main$1:2#compare:20,value=-1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:21
+Variable Write,context=Main$1:2#compare:21,p1=java.awt.geom.Point2D$Double (id=111)
+Variable Write,context=Main$1:2#compare:21,p2=java.awt.geom.Point2D$Double (id=81)
+Variable Write,context=Main$1:2#compare:21,result=-1
+Method Exit,returner=Main$1:2#compare:21,value=-1
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:22
+Variable Write,context=Main$1:2#compare:22,p1=java.awt.geom.Point2D$Double (id=111)
+Variable Write,context=Main$1:2#compare:22,p2=java.awt.geom.Point2D$Double (id=101)
+Variable Write,context=Main$1:2#compare:22,result=1
+Method Exit,returner=Main$1:2#compare:22,value=1
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),value=<void>
+Method Exit,returner=Ljava/util/TimSort;.countRunAndMakeAscending([Ljava/lang/Object;IILjava/util/Comparator;),value=<void>
+Method Exit,returner=Ljava/util/Arrays;.sort([Ljava/lang/Object;Ljava/util/Comparator;),value=<void>
+Variable Write,context=Main#main:1,array=java.util.ArrayList (id=113)
+Variable Delete,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=6>
+Variable Write,context=Main#main:1,start=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main#main:1,px=-361.62
+Variable Write,context=Main#main:1,py=-970.0
+Variable Write,context=Main#main:1,prev=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main#main:1,min=null
+Variable Write,context=Main#main:1,minx=0.0
+Variable Write,context=Main#main:1,miny=0.0
+Variable Write,context=Main#main:1,maxcos=-1.0
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=101)
+Variable Write,context=Main#main:1,nx=-578.58
+Variable Write,context=Main#main:1,ny=92.79999999999995
+Variable Write,context=Main#main:1,cos=0.1965185957161678
+Variable Write,context=Main#main:1,maxcos=0.1965185957161678
+Variable Write,context=Main#main:1,minx=-578.58
+Variable Write,context=Main#main:1,miny=92.79999999999995
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=101)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=111)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=236.2
+Variable Write,context=Main#main:1,ny=791.52
+Variable Write,context=Main#main:1,cos=-0.9977667869738658
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=81)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-497.70000000000005
+Variable Write,context=Main#main:1,ny=905.16
+Variable Write,context=Main#main:1,cos=-0.6527630663815117
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=86)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-84.37
+Variable Write,context=Main#main:1,ny=1353.69
+Variable Write,context=Main#main:1,cos=-0.9134598056435366
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=91)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=1029.1599999999999
+Variable Write,context=Main#main:1,ny=1400.49
+Variable Write,context=Main#main:1,cos=-0.9619089254512156
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=76)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=929.24
+Variable Write,context=Main#main:1,ny=1609.99
+Variable Write,context=Main#main:1,cos=-0.986150906237294
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=96)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=912.74
+Variable Write,context=Main#main:1,ny=1798.21
+Variable Write,context=Main#main:1,cos=-0.9936390702282494
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=71)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-148.32
+Variable Write,context=Main#main:1,ny=1862.63
+Variable Write,context=Main#main:1,cos=-0.9063189901919196
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main#main:1 <name=p,type=java.awt.geom.Point2D (id=102),value=<?>,index=16>
+Variable Write,context=Main#main:1,px=-578.58
+Variable Write,context=Main#main:1,py=92.79999999999995
+Variable Write,context=Main#main:1,prev=java.awt.geom.Point2D$Double (id=101)
+Variable Delete,method=Main#main:1 <name=min,type=java.awt.geom.Point2D (id=102),value=<?>,index=12>
+Variable Delete,method=Main#main:1 <name=minx,type=double (id=5),value=<?>,index=13>
+Variable Delete,method=Main#main:1 <name=miny,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main#main:1 <name=maxcos,type=double (id=5),value=<?>,index=15>
+Variable Write,context=Main#main:1,min=null
+Variable Write,context=Main#main:1,minx=0.0
+Variable Write,context=Main#main:1,miny=0.0
+Variable Write,context=Main#main:1,maxcos=-1.0
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main#main:1,nx=578.58
+Variable Write,context=Main#main:1,ny=-92.79999999999995
+Variable Write,context=Main#main:1,cos=-1.0000000000000002
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=101)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=111)
+Variable Write,context=Main#main:1,nx=814.7800000000001
+Variable Write,context=Main#main:1,ny=698.72
+Variable Write,context=Main#main:1,cos=-0.646428017583031
+Variable Write,context=Main#main:1,maxcos=-0.646428017583031
+Variable Write,context=Main#main:1,minx=814.7800000000001
+Variable Write,context=Main#main:1,miny=698.72
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=111)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=81)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=80.88
+Variable Write,context=Main#main:1,ny=812.36
+Variable Write,context=Main#main:1,cos=0.059767738323784965
+Variable Write,context=Main#main:1,maxcos=0.059767738323784965
+Variable Write,context=Main#main:1,minx=80.88
+Variable Write,context=Main#main:1,miny=812.36
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=81)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=86)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=494.21000000000004
+Variable Write,context=Main#main:1,ny=1260.89
+Variable Write,context=Main#main:1,cos=-0.21287089021820968
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=91)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=1607.74
+Variable Write,context=Main#main:1,ny=1307.69
+Variable Write,context=Main#main:1,cos=-0.6660621333833228
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=76)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=1507.8200000000002
+Variable Write,context=Main#main:1,ny=1517.19
+Variable Write,context=Main#main:1,cos=-0.5836873748986955
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=96)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=1491.3200000000002
+Variable Write,context=Main#main:1,ny=1705.41
+Variable Write,context=Main#main:1,cos=-0.5307526197716472
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=71)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=430.26000000000005
+Variable Write,context=Main#main:1,ny=1769.83
+Variable Write,context=Main#main:1,cos=-0.07936005882164518
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main#main:1 <name=p,type=java.awt.geom.Point2D (id=102),value=<?>,index=16>
+Variable Write,context=Main#main:1,px=80.88
+Variable Write,context=Main#main:1,py=812.36
+Variable Write,context=Main#main:1,prev=java.awt.geom.Point2D$Double (id=81)
+Variable Delete,method=Main#main:1 <name=min,type=java.awt.geom.Point2D (id=102),value=<?>,index=12>
+Variable Delete,method=Main#main:1 <name=minx,type=double (id=5),value=<?>,index=13>
+Variable Delete,method=Main#main:1 <name=miny,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main#main:1 <name=maxcos,type=double (id=5),value=<?>,index=15>
+Variable Write,context=Main#main:1,min=null
+Variable Write,context=Main#main:1,minx=0.0
+Variable Write,context=Main#main:1,miny=0.0
+Variable Write,context=Main#main:1,maxcos=-1.0
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main#main:1,nx=497.70000000000005
+Variable Write,context=Main#main:1,ny=-905.16
+Variable Write,context=Main#main:1,cos=-0.8242268240393864
+Variable Write,context=Main#main:1,maxcos=-0.8242268240393864
+Variable Write,context=Main#main:1,minx=497.70000000000005
+Variable Write,context=Main#main:1,miny=-905.16
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=101)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-80.88
+Variable Write,context=Main#main:1,ny=-812.36
+Variable Write,context=Main#main:1,cos=-1.0000000000000002
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=111)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=733.9000000000001
+Variable Write,context=Main#main:1,ny=-113.63999999999999
+Variable Write,context=Main#main:1,cos=-0.05436238623317399
+Variable Write,context=Main#main:1,maxcos=-0.05436238623317399
+Variable Write,context=Main#main:1,minx=733.9000000000001
+Variable Write,context=Main#main:1,miny=-113.63999999999999
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=111)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=81)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=86)
+Variable Write,context=Main#main:1,nx=413.33000000000004
+Variable Write,context=Main#main:1,ny=448.53
+Variable Write,context=Main#main:1,cos=0.7988927833163039
+Variable Write,context=Main#main:1,maxcos=0.7988927833163039
+Variable Write,context=Main#main:1,minx=413.33000000000004
+Variable Write,context=Main#main:1,miny=448.53
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=86)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=91)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=1526.8600000000001
+Variable Write,context=Main#main:1,ny=495.33000000000004
+Variable Write,context=Main#main:1,cos=0.40129817844441407
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=76)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=1426.94
+Variable Write,context=Main#main:1,ny=704.83
+Variable Write,context=Main#main:1,cos=0.5295132748667221
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=96)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=1410.44
+Variable Write,context=Main#main:1,ny=893.0500000000001
+Variable Write,context=Main#main:1,cos=0.6160264957210206
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=71)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=349.38000000000005
+Variable Write,context=Main#main:1,ny=957.47
+Variable Write,context=Main#main:1,cos=0.9687511253283061
+Variable Write,context=Main#main:1,maxcos=0.9687511253283061
+Variable Write,context=Main#main:1,minx=349.38000000000005
+Variable Write,context=Main#main:1,miny=957.47
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=71)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main#main:1 <name=p,type=java.awt.geom.Point2D (id=102),value=<?>,index=16>
+Variable Write,context=Main#main:1,px=349.38000000000005
+Variable Write,context=Main#main:1,py=957.47
+Variable Write,context=Main#main:1,prev=java.awt.geom.Point2D$Double (id=71)
+Variable Delete,method=Main#main:1 <name=min,type=java.awt.geom.Point2D (id=102),value=<?>,index=12>
+Variable Delete,method=Main#main:1 <name=minx,type=double (id=5),value=<?>,index=13>
+Variable Delete,method=Main#main:1 <name=miny,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main#main:1 <name=maxcos,type=double (id=5),value=<?>,index=15>
+Variable Write,context=Main#main:1,min=null
+Variable Write,context=Main#main:1,minx=0.0
+Variable Write,context=Main#main:1,miny=0.0
+Variable Write,context=Main#main:1,maxcos=-1.0
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main#main:1,nx=148.32
+Variable Write,context=Main#main:1,ny=-1862.63
+Variable Write,context=Main#main:1,cos=-0.90923754689123
+Variable Write,context=Main#main:1,maxcos=-0.90923754689123
+Variable Write,context=Main#main:1,minx=148.32
+Variable Write,context=Main#main:1,miny=-1862.63
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=101)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-430.26000000000005
+Variable Write,context=Main#main:1,ny=-1769.83
+Variable Write,context=Main#main:1,cos=-0.9938009731069621
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=111)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=384.52
+Variable Write,context=Main#main:1,ny=-1071.11
+Variable Write,context=Main#main:1,cos=-0.7683425164456021
+Variable Write,context=Main#main:1,maxcos=-0.7683425164456021
+Variable Write,context=Main#main:1,minx=384.52
+Variable Write,context=Main#main:1,miny=-1071.11
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=111)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=81)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-349.38000000000005
+Variable Write,context=Main#main:1,ny=-957.47
+Variable Write,context=Main#main:1,cos=-0.9999999999999999
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=86)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=63.94999999999999
+Variable Write,context=Main#main:1,ny=-508.94
+Variable Write,context=Main#main:1,cos=-0.8893457307862856
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=91)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=1177.48
+Variable Write,context=Main#main:1,ny=-462.14
+Variable Write,context=Main#main:1,cos=-0.024120597557364846
+Variable Write,context=Main#main:1,maxcos=-0.024120597557364846
+Variable Write,context=Main#main:1,minx=1177.48
+Variable Write,context=Main#main:1,miny=-462.14
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=91)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=76)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=1077.56
+Variable Write,context=Main#main:1,ny=-252.64
+Variable Write,context=Main#main:1,cos=0.11930500556423144
+Variable Write,context=Main#main:1,maxcos=0.11930500556423144
+Variable Write,context=Main#main:1,minx=1077.56
+Variable Write,context=Main#main:1,miny=-252.64
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=76)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=96)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=1061.06
+Variable Write,context=Main#main:1,ny=-64.41999999999996
+Variable Write,context=Main#main:1,cos=0.2852309976525549
+Variable Write,context=Main#main:1,maxcos=0.2852309976525549
+Variable Write,context=Main#main:1,minx=1061.06
+Variable Write,context=Main#main:1,miny=-64.41999999999996
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=96)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=71)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main#main:1 <name=p,type=java.awt.geom.Point2D (id=102),value=<?>,index=16>
+Variable Write,context=Main#main:1,px=1061.06
+Variable Write,context=Main#main:1,py=-64.41999999999996
+Variable Write,context=Main#main:1,prev=java.awt.geom.Point2D$Double (id=96)
+Variable Delete,method=Main#main:1 <name=min,type=java.awt.geom.Point2D (id=102),value=<?>,index=12>
+Variable Delete,method=Main#main:1 <name=minx,type=double (id=5),value=<?>,index=13>
+Variable Delete,method=Main#main:1 <name=miny,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main#main:1 <name=maxcos,type=double (id=5),value=<?>,index=15>
+Variable Write,context=Main#main:1,min=null
+Variable Write,context=Main#main:1,minx=0.0
+Variable Write,context=Main#main:1,miny=0.0
+Variable Write,context=Main#main:1,maxcos=-1.0
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main#main:1,nx=-912.74
+Variable Write,context=Main#main:1,ny=-1798.21
+Variable Write,context=Main#main:1,cos=-0.3977441088978069
+Variable Write,context=Main#main:1,maxcos=-0.3977441088978069
+Variable Write,context=Main#main:1,minx=-912.74
+Variable Write,context=Main#main:1,miny=-1798.21
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=101)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-1491.3200000000002
+Variable Write,context=Main#main:1,ny=-1705.41
+Variable Write,context=Main#main:1,cos=-0.6114470382971714
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=111)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-676.54
+Variable Write,context=Main#main:1,ny=-1006.69
+Variable Write,context=Main#main:1,cos=-0.506462909425485
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=81)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-1410.44
+Variable Write,context=Main#main:1,ny=-893.0500000000001
+Variable Write,context=Main#main:1,cos=-0.8109092206800111
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=86)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-997.11
+Variable Write,context=Main#main:1,ny=-444.52000000000004
+Variable Write,context=Main#main:1,cos=-0.8869943898100433
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=91)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=116.41999999999996
+Variable Write,context=Main#main:1,ny=-397.72
+Variable Write,context=Main#main:1,cos=0.3385746234339024
+Variable Write,context=Main#main:1,maxcos=0.3385746234339024
+Variable Write,context=Main#main:1,minx=116.41999999999996
+Variable Write,context=Main#main:1,miny=-397.72
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=91)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=76)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=16.5
+Variable Write,context=Main#main:1,ny=-188.22000000000003
+Variable Write,context=Main#main:1,cos=0.14753771814085556
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=96)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=71)
+Variable Write,context=Main#main:1,nx=-1061.06
+Variable Write,context=Main#main:1,ny=64.41999999999996
+Variable Write,context=Main#main:1,cos=-1.0
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main#main:1 <name=p,type=java.awt.geom.Point2D (id=102),value=<?>,index=16>
+Variable Write,context=Main#main:1,px=116.41999999999996
+Variable Write,context=Main#main:1,py=-397.72
+Variable Write,context=Main#main:1,prev=java.awt.geom.Point2D$Double (id=91)
+Variable Delete,method=Main#main:1 <name=min,type=java.awt.geom.Point2D (id=102),value=<?>,index=12>
+Variable Delete,method=Main#main:1 <name=minx,type=double (id=5),value=<?>,index=13>
+Variable Delete,method=Main#main:1 <name=miny,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main#main:1 <name=maxcos,type=double (id=5),value=<?>,index=15>
+Variable Write,context=Main#main:1,min=null
+Variable Write,context=Main#main:1,minx=0.0
+Variable Write,context=Main#main:1,miny=0.0
+Variable Write,context=Main#main:1,maxcos=-1.0
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main#main:1,nx=-1029.1599999999999
+Variable Write,context=Main#main:1,ny=-1400.49
+Variable Write,context=Main#main:1,cos=0.6070111327834651
+Variable Write,context=Main#main:1,maxcos=0.6070111327834651
+Variable Write,context=Main#main:1,minx=-1029.1599999999999
+Variable Write,context=Main#main:1,miny=-1400.49
+Variable Write,context=Main#main:1,min=java.awt.geom.Point2D$Double (id=106)
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=101)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-1607.74
+Variable Write,context=Main#main:1,ny=-1307.69
+Variable Write,context=Main#main:1,cos=0.38764745594121003
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=111)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-792.9599999999999
+Variable Write,context=Main#main:1,ny=-608.97
+Variable Write,context=Main#main:1,cos=0.36174620133133834
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=81)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-1526.8600000000001
+Variable Write,context=Main#main:1,ny=-495.33000000000004
+Variable Write,context=Main#main:1,cos=0.028931732173423045
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=86)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-1113.53
+Variable Write,context=Main#main:1,ny=-46.80000000000001
+Variable Write,context=Main#main:1,cos=-0.24038204405208177
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=91)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=76)
+Variable Write,context=Main#main:1,nx=-99.91999999999996
+Variable Write,context=Main#main:1,ny=209.5
+Variable Write,context=Main#main:1,cos=-0.9871840762968301
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=96)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-116.41999999999996
+Variable Write,context=Main#main:1,ny=397.72
+Variable Write,context=Main#main:1,cos=-1.0
+Variable Write,context=Main#main:1,p=java.awt.geom.Point2D$Double (id=71)
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Write,context=Main#main:1,nx=-1177.48
+Variable Write,context=Main#main:1,ny=462.14
+Variable Write,context=Main#main:1,cos=-0.6121462842241776
+Variable Delete,method=Main#main:1 <name=nx,type=double (id=5),value=<?>,index=17>
+Variable Delete,method=Main#main:1 <name=ny,type=double (id=5),value=<?>,index=18>
+Variable Delete,method=Main#main:1 <name=cos,type=double (id=5),value=<?>,index=19>
+Variable Delete,method=Main#main:1 <name=p,type=java.awt.geom.Point2D (id=102),value=<?>,index=16>
+Variable Delete,method=Main#main:1 <name=min,type=java.awt.geom.Point2D (id=102),value=<?>,index=12>
+Variable Delete,method=Main#main:1 <name=minx,type=double (id=5),value=<?>,index=13>
+Variable Delete,method=Main#main:1 <name=miny,type=double (id=5),value=<?>,index=14>
+Variable Delete,method=Main#main:1 <name=maxcos,type=double (id=5),value=<?>,index=15>
+Variable Write,context=Main#main:1,line=0
+Variable Delete,method=Main#main:1 <name=n,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#main:1 <name=points,type=java.awt.geom.Point2D[] (id=98),value=<?>,index=5>
+Variable Delete,method=Main#main:1 <name=start,type=java.awt.geom.Point2D (id=102),value=<?>,index=8>
+Variable Delete,method=Main#main:1 <name=px,type=double (id=5),value=<?>,index=9>
+Variable Delete,method=Main#main:1 <name=py,type=double (id=5),value=<?>,index=10>
+Variable Delete,method=Main#main:1 <name=prev,type=java.awt.geom.Point2D (id=102),value=<?>,index=11>
+Method Exit,returner=Main#main:1,value=<void>
+Thread End,

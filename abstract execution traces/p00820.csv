@@ -1,0 +1,15 @@
+Thread Start,main (1)
+Method Call,caller=SYSTEM,target=Main#main:1
+New Object,object=java.lang.String[]:1
+Variable Write,context=Main#main:1,args=java.lang.String[]:1
+New Object,object=Main:1
+Method Call,caller=Main#main:1,target=Main:1#Main:1
+Method Exit,returner=Main:1#Main:1,value=<void>
+Method Call,caller=Main#main:1,target=Main:1#run:1
+New Object,object=Main$MyScanner:1
+Method Call,caller=Main:1#run:1,target=Main$MyScanner:1#MyScanner:1
+Method Exit,returner=Main$MyScanner:1#MyScanner:1,value=<void>
+Variable Write,context=Main:1#run:1,sc=Main$MyScanner:1
+Method Call,caller=Main:1#run:1,target=Main$MyScanner:1#nextInt:1
+Method Call,caller=Main$MyScanner:1#nextInt:1,target=Main$MyScanner:1#next:1
+Method Call,caller=Main$MyScanner:1#next:1,target=Main$MyScanner:1#read:1

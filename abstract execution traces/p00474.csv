@@ -1,0 +1,155 @@
+Thread Start,main (1)
+Method Call,caller=SYSTEM,target=Main#main:1
+New Object,object=java.lang.String[]:1
+Variable Write,context=Main#main:1,args=java.lang.String[]:1
+Variable Write,context=Main#main:1,sc=java.util.Scanner (id=363)
+Variable Write,context=Main#main:1,n=4
+Variable Write,context=Main#main:1,l=6
+New Object,object=int[]:1
+Field Write,context=int[]:1,0=0
+Field Write,context=int[]:1,1=0
+Field Write,context=int[]:1,2=0
+Field Write,context=int[]:1,3=0
+Field Write,context=int[]:1,4=0
+Field Write,context=int[]:1,5=0
+Field Write,context=int[]:1,6=0
+Field Write,context=int[]:1,7=0
+Variable Write,context=Main#main:1,a=int[]:1
+Variable Write,context=Main#main:1,i=0
+Field Write,context=int[]:1,2=4
+Variable Write,context=Main#main:1,a=int[]:1
+Variable Write,context=Main#main:1,i=1
+Field Write,context=int[]:1,3=2
+Variable Write,context=Main#main:1,a=int[]:1
+Variable Write,context=Main#main:1,i=2
+Field Write,context=int[]:1,4=3
+Variable Write,context=Main#main:1,a=int[]:1
+Variable Write,context=Main#main:1,i=3
+Field Write,context=int[]:1,5=5
+Variable Write,context=Main#main:1,a=int[]:1
+Variable Delete,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#main:1,growing=java.util.PriorityQueue (id=365)
+Variable Write,context=Main#main:1,i=2
+New Object,object=Icicle:1
+Method Call,caller=Main#main:1,target=Icicle:1#Icicle:1
+Variable Write,context=Icicle:1#Icicle:1,time=2
+Variable Write,context=Icicle:1#Icicle:1,pos=2
+Field Write,context=Icicle:1,pos=2
+Field Write,context=Icicle:1,time=2
+Method Exit,returner=Icicle:1#Icicle:1,value=<void>
+Variable Write,context=Main#main:1,i=3
+Variable Write,context=Main#main:1,i=4
+Variable Write,context=Main#main:1,i=5
+New Object,object=Icicle:2
+Method Call,caller=Main#main:1,target=Icicle:2#Icicle:2
+Variable Write,context=Icicle:2#Icicle:2,time=1
+Variable Write,context=Icicle:2#Icicle:2,pos=5
+Field Write,context=Icicle:2,pos=5
+Field Write,context=Icicle:2,time=1
+Method Exit,returner=Icicle:2#Icicle:2,value=<void>
+Method Call,caller=Main#main:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),target=LIcicle;.compareTo(Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LIcicle;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Icicle:2#compareTo:1
+Variable Write,context=Icicle:2#compareTo:1,o=Icicle:1
+Field Read,context=Icicle:2,time
+Field Read,context=Icicle:1,time
+Variable Write,context=Icicle:2#compareTo:1,result=-1
+Method Exit,returner=Icicle:2#compareTo:1,value=-1
+Method Exit,returner=LIcicle;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Variable Delete,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=7>
+Variable Write,context=Main#main:1,ans=0
+Variable Write,context=Main#main:1,icicle=Icicle:2
+Field Read,context=Icicle:2,pos
+Variable Write,context=Main#main:1,i=5
+Field Read,context=Icicle:2,time
+Variable Write,context=Main#main:1,t=1
+Field Write,context=int[]:1,5=0
+Variable Write,context=Main#main:1,a=int[]:1
+New Object,object=Icicle:3
+Method Call,caller=Main#main:1,target=Icicle:3#Icicle:3
+Variable Write,context=Icicle:3#Icicle:3,time=4
+Variable Write,context=Icicle:3#Icicle:3,pos=4
+Field Write,context=Icicle:3,pos=4
+Field Write,context=Icicle:3,time=4
+Method Exit,returner=Icicle:3#Icicle:3,value=<void>
+Method Call,caller=Main#main:1,target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),target=LIcicle;.compareTo(Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LIcicle;.compareTo(Ljava/lang/Object;) <BRIDGE>,target=Icicle:3#compareTo:2
+Variable Write,context=Icicle:3#compareTo:2,o=Icicle:1
+Field Read,context=Icicle:3,time
+Field Read,context=Icicle:1,time
+Variable Write,context=Icicle:3#compareTo:2,result=2
+Method Exit,returner=Icicle:3#compareTo:2,value=2
+Method Exit,returner=LIcicle;.compareTo(Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpComparable(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+Variable Write,context=Main#main:1,ans=1
+Variable Delete,method=Main#main:1 <name=icicle,type=Icicle (id=101),value=<?>,index=9>
+Variable Delete,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=10>
+Variable Delete,method=Main#main:1 <name=t,type=int (id=7),value=<?>,index=11>
+Variable Write,context=Main#main:1,icicle=Icicle:1
+Field Read,context=Icicle:1,pos
+Variable Write,context=Main#main:1,i=2
+Field Read,context=Icicle:1,time
+Variable Write,context=Main#main:1,t=2
+Field Write,context=int[]:1,2=0
+Variable Write,context=Main#main:1,a=int[]:1
+Variable Write,context=Main#main:1,ans=2
+Variable Delete,method=Main#main:1 <name=icicle,type=Icicle (id=101),value=<?>,index=9>
+Variable Delete,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=10>
+Variable Delete,method=Main#main:1 <name=t,type=int (id=7),value=<?>,index=11>
+Variable Write,context=Main#main:1,icicle=Icicle:3
+Field Read,context=Icicle:3,pos
+Variable Write,context=Main#main:1,i=4
+Field Read,context=Icicle:3,time
+Variable Write,context=Main#main:1,t=4
+Field Write,context=int[]:1,4=0
+Variable Write,context=Main#main:1,a=int[]:1
+New Object,object=Icicle:4
+Method Call,caller=Main#main:1,target=Icicle:4#Icicle:4
+Variable Write,context=Icicle:4#Icicle:4,time=8
+Variable Write,context=Icicle:4#Icicle:4,pos=3
+Field Write,context=Icicle:4,pos=3
+Field Write,context=Icicle:4,time=8
+Method Exit,returner=Icicle:4#Icicle:4,value=<void>
+Variable Write,context=Main#main:1,ans=4
+Variable Delete,method=Main#main:1 <name=icicle,type=Icicle (id=101),value=<?>,index=9>
+Variable Delete,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=10>
+Variable Delete,method=Main#main:1 <name=t,type=int (id=7),value=<?>,index=11>
+Variable Write,context=Main#main:1,icicle=Icicle:4
+Field Read,context=Icicle:4,pos
+Variable Write,context=Main#main:1,i=3
+Field Read,context=Icicle:4,time
+Variable Write,context=Main#main:1,t=8
+Field Write,context=int[]:1,3=0
+Variable Write,context=Main#main:1,a=int[]:1
+Variable Write,context=Main#main:1,ans=8
+Variable Delete,method=Main#main:1 <name=icicle,type=Icicle (id=101),value=<?>,index=9>
+Variable Delete,method=Main#main:1 <name=i,type=int (id=7),value=<?>,index=10>
+Variable Delete,method=Main#main:1 <name=t,type=int (id=7),value=<?>,index=11>
+Method Exit,returner=Main#main:1,value=<void>
+Thread End,

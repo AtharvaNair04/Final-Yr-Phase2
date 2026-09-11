@@ -1,0 +1,626 @@
+Thread Start,main (1)
+Method Call,caller=SYSTEM,target=Main#main:1
+New Object,object=java.lang.String[]:1
+Variable Write,context=Main#main:1,args=java.lang.String[]:1
+New Object,object=Main:1
+Method Call,caller=Main#main:1,target=Main:1#Main:1
+Method Exit,returner=Main:1#Main:1,value=<void>
+Method Call,caller=Main#main:1,target=Main:1#run:1
+Variable Write,context=Main:1#run:1,sc=java.util.Scanner (id=365)
+Variable Write,context=Main:1#run:1,INF=134217728
+Field Write,context=Main:1,d=int[100] (id=366)
+Variable Write,context=Main:1#run:1,wf=int[][100] (id=367)
+Variable Write,context=Main:1#run:1,e=int[][100] (id=369)
+Variable Write,context=Main:1#run:1,K=double[100] (id=370)
+Variable Write,context=Main:1#run:1,R=double[100] (id=371)
+Variable Write,context=Main:1#run:1,n=3
+Variable Write,context=Main:1#run:1,m=2
+Variable Write,context=Main:1#run:1,p=1
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,s=0
+Variable Write,context=Main:1#run:1,t=1
+Variable Write,context=Main:1#run:1,c=2
+Variable Write,context=Main:1#run:1,i=1
+Variable Delete,method=Main:1#run:1 <name=s,type=int (id=7),value=<?>,index=13>
+Variable Delete,method=Main:1#run:1 <name=t,type=int (id=7),value=<?>,index=14>
+Variable Delete,method=Main:1#run:1 <name=c,type=int (id=7),value=<?>,index=15>
+Variable Write,context=Main:1#run:1,s=1
+Variable Write,context=Main:1#run:1,t=2
+Variable Write,context=Main:1#run:1,c=3
+Variable Delete,method=Main:1#run:1 <name=s,type=int (id=7),value=<?>,index=13>
+Variable Delete,method=Main:1#run:1 <name=t,type=int (id=7),value=<?>,index=14>
+Variable Delete,method=Main:1#run:1 <name=c,type=int (id=7),value=<?>,index=15>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=12>
+New Object,object=Main$1:1
+Method Call,caller=Main:1#run:1,target=Main$1:1#<init>:1
+Method Exit,returner=Main$1:1#<init>:1,value=<void>
+Variable Write,context=Main:1#run:1,q=java.util.PriorityQueue (id=375)
+Variable Write,context=Main:1#run:1,i=0
+Field Read,context=Main:1,d
+Variable Write,context=Main:1#run:1,i=1
+Field Read,context=Main:1,d
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:1#compare:1
+Variable Write,context=Main$1:1#compare:1,o1=1
+Variable Write,context=Main$1:1#compare:1,o2=0
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:1#compare:1,result=-2
+Method Exit,returner=Main$1:1#compare:1,value=-2
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Variable Write,context=Main:1#run:1,i=2
+Field Read,context=Main:1,d
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:1#compare:2
+Variable Write,context=Main$1:1#compare:2,o1=2
+Variable Write,context=Main$1:1#compare:2,o2=1
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:1#compare:2,result=-3
+Method Exit,returner=Main$1:1#compare:2,value=-3
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=20>
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.poll()
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.poll()
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:1#compare:3
+Variable Write,context=Main$1:1#compare:3,o1=1
+Variable Write,context=Main$1:1#compare:3,o2=0
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:1#compare:3,result=-2
+Method Exit,returner=Main$1:1#compare:3,value=-2
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+Variable Write,context=Main:1#run:1,v=2
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=21>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=22>
+Variable Write,context=Main:1#run:1,v=1
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=21>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=22>
+Variable Write,context=Main:1#run:1,v=0
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=21>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=22>
+Variable Write,context=Main:1#run:1,i=0
+Field Read,context=Main:1,d
+Variable Write,context=Main:1#run:1,i=1
+Field Read,context=Main:1,d
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:1#compare:4
+Variable Write,context=Main$1:1#compare:4,o1=1
+Variable Write,context=Main$1:1#compare:4,o2=0
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:1#compare:4,result=2
+Method Exit,returner=Main$1:1#compare:4,value=2
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Variable Write,context=Main:1#run:1,i=2
+Field Read,context=Main:1,d
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:1#compare:5
+Variable Write,context=Main$1:1#compare:5,o1=2
+Variable Write,context=Main$1:1#compare:5,o2=0
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:1#compare:5,result=5
+Method Exit,returner=Main$1:1#compare:5,value=5
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=23>
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.poll()
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.poll()
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:1#compare:6
+Variable Write,context=Main$1:1#compare:6,o1=2
+Variable Write,context=Main$1:1#compare:6,o2=1
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:1#compare:6,result=3
+Method Exit,returner=Main$1:1#compare:6,value=3
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+Variable Write,context=Main:1#run:1,v=0
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=24>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=25>
+Variable Write,context=Main:1#run:1,v=1
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=24>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=25>
+Variable Write,context=Main:1#run:1,v=2
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=24>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=25>
+Variable Write,context=Main:1#run:1,p=0
+Variable Write,context=Main:1#run:1,k=1
+Variable Write,context=Main:1#run:1,p=-1
+Variable Delete,method=Main:1#run:1 <name=k,type=int (id=7),value=<?>,index=26>
+Variable Delete,method=Main:1#run:1 <name=n,type=int (id=7),value=0,index=6>
+Variable Delete,method=Main:1#run:1 <name=m,type=int (id=7),value=0,index=7>
+Variable Delete,method=Main:1#run:1 <name=p,type=int (id=7),value=0,index=8>
+Variable Delete,method=Main:1#run:1 <name=q,type=java.util.PriorityQueue (id=112),value=<?>,index=19>
+Variable Write,context=Main:1#run:1,n=4
+Variable Write,context=Main:1#run:1,m=5
+Variable Write,context=Main:1#run:1,p=2
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,s=0
+Variable Write,context=Main:1#run:1,t=1
+Variable Write,context=Main:1#run:1,c=1
+Variable Write,context=Main:1#run:1,i=1
+Variable Delete,method=Main:1#run:1 <name=s,type=int (id=7),value=<?>,index=13>
+Variable Delete,method=Main:1#run:1 <name=t,type=int (id=7),value=<?>,index=14>
+Variable Delete,method=Main:1#run:1 <name=c,type=int (id=7),value=<?>,index=15>
+Variable Write,context=Main:1#run:1,s=0
+Variable Write,context=Main:1#run:1,t=2
+Variable Write,context=Main:1#run:1,c=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Delete,method=Main:1#run:1 <name=s,type=int (id=7),value=<?>,index=13>
+Variable Delete,method=Main:1#run:1 <name=t,type=int (id=7),value=<?>,index=14>
+Variable Delete,method=Main:1#run:1 <name=c,type=int (id=7),value=<?>,index=15>
+Variable Write,context=Main:1#run:1,s=1
+Variable Write,context=Main:1#run:1,t=2
+Variable Write,context=Main:1#run:1,c=1
+Variable Write,context=Main:1#run:1,i=3
+Variable Delete,method=Main:1#run:1 <name=s,type=int (id=7),value=<?>,index=13>
+Variable Delete,method=Main:1#run:1 <name=t,type=int (id=7),value=<?>,index=14>
+Variable Delete,method=Main:1#run:1 <name=c,type=int (id=7),value=<?>,index=15>
+Variable Write,context=Main:1#run:1,s=1
+Variable Write,context=Main:1#run:1,t=3
+Variable Write,context=Main:1#run:1,c=1
+Variable Write,context=Main:1#run:1,i=4
+Variable Delete,method=Main:1#run:1 <name=s,type=int (id=7),value=<?>,index=13>
+Variable Delete,method=Main:1#run:1 <name=t,type=int (id=7),value=<?>,index=14>
+Variable Delete,method=Main:1#run:1 <name=c,type=int (id=7),value=<?>,index=15>
+Variable Write,context=Main:1#run:1,s=2
+Variable Write,context=Main:1#run:1,t=3
+Variable Write,context=Main:1#run:1,c=1
+Variable Delete,method=Main:1#run:1 <name=s,type=int (id=7),value=<?>,index=13>
+Variable Delete,method=Main:1#run:1 <name=t,type=int (id=7),value=<?>,index=14>
+Variable Delete,method=Main:1#run:1 <name=c,type=int (id=7),value=<?>,index=15>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=12>
+New Object,object=Main$1:2
+Method Call,caller=Main:1#run:1,target=Main$1:2#<init>:2
+Method Exit,returner=Main$1:2#<init>:2,value=<void>
+Variable Write,context=Main:1#run:1,q=java.util.PriorityQueue (id=383)
+Variable Write,context=Main:1#run:1,i=0
+Field Read,context=Main:1,d
+Variable Write,context=Main:1#run:1,i=1
+Field Read,context=Main:1,d
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:7
+Variable Write,context=Main$1:2#compare:7,o1=1
+Variable Write,context=Main$1:2#compare:7,o2=0
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:2#compare:7,result=-1
+Method Exit,returner=Main$1:2#compare:7,value=-1
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Variable Write,context=Main:1#run:1,i=2
+Field Read,context=Main:1,d
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:8
+Variable Write,context=Main$1:2#compare:8,o1=2
+Variable Write,context=Main$1:2#compare:8,o2=1
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:2#compare:8,result=0
+Method Exit,returner=Main$1:2#compare:8,value=0
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Variable Write,context=Main:1#run:1,i=3
+Field Read,context=Main:1,d
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:9
+Variable Write,context=Main$1:2#compare:9,o1=3
+Variable Write,context=Main$1:2#compare:9,o2=0
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:2#compare:9,result=-2
+Method Exit,returner=Main$1:2#compare:9,value=-2
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:10
+Variable Write,context=Main$1:2#compare:10,o1=3
+Variable Write,context=Main$1:2#compare:10,o2=1
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:2#compare:10,result=-1
+Method Exit,returner=Main$1:2#compare:10,value=-1
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=20>
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.poll()
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.poll()
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:11
+Variable Write,context=Main$1:2#compare:11,o1=1
+Variable Write,context=Main$1:2#compare:11,o2=2
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:2#compare:11,result=0
+Method Exit,returner=Main$1:2#compare:11,value=0
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:12
+Variable Write,context=Main$1:2#compare:12,o1=0
+Variable Write,context=Main$1:2#compare:12,o2=1
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:2#compare:12,result=1
+Method Exit,returner=Main$1:2#compare:12,value=1
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+Variable Write,context=Main:1#run:1,v=3
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Write,context=Main:1#run:1,i=3
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=21>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=22>
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.poll()
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.poll()
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:13
+Variable Write,context=Main$1:2#compare:13,o1=2
+Variable Write,context=Main$1:2#compare:13,o2=0
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:2#compare:13,result=-1
+Method Exit,returner=Main$1:2#compare:13,value=-1
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+Variable Write,context=Main:1#run:1,v=1
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Write,context=Main:1#run:1,i=3
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=21>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=22>
+Variable Write,context=Main:1#run:1,v=2
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Write,context=Main:1#run:1,i=3
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=21>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=22>
+Variable Write,context=Main:1#run:1,v=0
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Write,context=Main:1#run:1,i=3
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=21>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=22>
+Variable Write,context=Main:1#run:1,i=0
+Field Read,context=Main:1,d
+Variable Write,context=Main:1#run:1,i=1
+Field Read,context=Main:1,d
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:14
+Variable Write,context=Main$1:2#compare:14,o1=1
+Variable Write,context=Main$1:2#compare:14,o2=0
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:2#compare:14,result=1
+Method Exit,returner=Main$1:2#compare:14,value=1
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Variable Write,context=Main:1#run:1,i=2
+Field Read,context=Main:1,d
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:15
+Variable Write,context=Main$1:2#compare:15,o1=2
+Variable Write,context=Main$1:2#compare:15,o2=0
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:2#compare:15,result=1
+Method Exit,returner=Main$1:2#compare:15,value=1
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Variable Write,context=Main:1#run:1,i=3
+Field Read,context=Main:1,d
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.offer(Ljava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:16
+Variable Write,context=Main$1:2#compare:16,o1=3
+Variable Write,context=Main$1:2#compare:16,o2=1
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:2#compare:16,result=1
+Method Exit,returner=Main$1:2#compare:16,value=1
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUpUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftUp(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.add(Ljava/lang/Object;),value=<void>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=23>
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.poll()
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.poll()
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:17
+Variable Write,context=Main$1:2#compare:17,o1=1
+Variable Write,context=Main$1:2#compare:17,o2=2
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:2#compare:17,result=0
+Method Exit,returner=Main$1:2#compare:17,value=0
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:18
+Variable Write,context=Main$1:2#compare:18,o1=3
+Variable Write,context=Main$1:2#compare:18,o2=1
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:2#compare:18,result=1
+Method Exit,returner=Main$1:2#compare:18,value=1
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+Variable Write,context=Main:1#run:1,v=0
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Write,context=Main:1#run:1,i=3
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=24>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=25>
+Method Call,caller=Main:1#run:1,target=Ljava/util/PriorityQueue;.poll()
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.poll()
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDown(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+Method Call,caller=Ljava/util/PriorityQueue;.poll(),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),target=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;)
+Method Call,caller=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),target=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>
+Method Call,caller=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,target=Main$1:2#compare:19
+Variable Write,context=Main$1:2#compare:19,o1=2
+Variable Write,context=Main$1:2#compare:19,o2=3
+Field Read,context=Main:1,d
+Field Read,context=Main:1,d
+Variable Write,context=Main$1:2#compare:19,result=-1
+Method Exit,returner=Main$1:2#compare:19,value=-1
+Method Exit,returner=LMain$1;.compare(Ljava/lang/Object;Ljava/lang/Object;) <BRIDGE>,value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.siftDownUsingComparator(ILjava/lang/Object;),value=<void>
+Method Exit,returner=Ljava/util/PriorityQueue;.poll(),value=<void>
+Variable Write,context=Main:1#run:1,v=1
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Write,context=Main:1#run:1,i=3
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=24>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=25>
+Variable Write,context=Main:1#run:1,v=2
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Write,context=Main:1#run:1,i=3
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=24>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=25>
+Variable Write,context=Main:1#run:1,v=3
+Variable Write,context=Main:1#run:1,i=0
+Variable Write,context=Main:1#run:1,i=1
+Variable Write,context=Main:1#run:1,i=2
+Variable Write,context=Main:1#run:1,i=3
+Variable Delete,method=Main:1#run:1 <name=v,type=int (id=7),value=<?>,index=24>
+Variable Delete,method=Main:1#run:1 <name=i,type=int (id=7),value=<?>,index=25>
+Variable Write,context=Main:1#run:1,p=1
+Variable Write,context=Main:1#run:1,k=1
+Variable Write,context=Main:1#run:1,p=0
+Variable Delete,method=Main:1#run:1 <name=k,type=int (id=7),value=<?>,index=26>
+Variable Write,context=Main:1#run:1,k=2
+Variable Write,context=Main:1#run:1,p=-1
+Variable Delete,method=Main:1#run:1 <name=k,type=int (id=7),value=<?>,index=26>
+Variable Delete,method=Main:1#run:1 <name=n,type=int (id=7),value=0,index=6>
+Variable Delete,method=Main:1#run:1 <name=m,type=int (id=7),value=0,index=7>
+Variable Delete,method=Main:1#run:1 <name=p,type=int (id=7),value=0,index=8>
+Variable Delete,method=Main:1#run:1 <name=q,type=java.util.PriorityQueue (id=112),value=<?>,index=19>
+Variable Write,context=Main:1#run:1,n=0
+Variable Write,context=Main:1#run:1,m=0
+Variable Write,context=Main:1#run:1,p=0
+Method Exit,returner=Main:1#run:1,value=<void>
+Method Exit,returner=Main#main:1,value=<void>
+Thread End,

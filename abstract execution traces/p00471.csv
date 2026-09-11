@@ -1,0 +1,4526 @@
+Thread Start,main (1)
+Method Call,caller=SYSTEM,target=Main#<clinit>:1
+Field Write,context=Main,in=java.util.Scanner (id=362)
+Field Write,context=Main,out=java.io.PrintWriter (id=363)
+New Object,object=int[]:1
+Field Write,context=int[]:1,0=0
+Field Write,context=int[]:1,1=1
+Field Write,context=int[]:1,2=0
+Field Write,context=int[]:1,3=-1
+Field Write,context=Main,di=int[]:1
+New Object,object=int[]:2
+Field Write,context=int[]:2,0=1
+Field Write,context=int[]:2,1=0
+Field Write,context=int[]:2,2=-1
+Field Write,context=int[]:2,3=0
+Field Write,context=Main,dj=int[]:2
+Method Exit,returner=Main#<clinit>:1,value=<void>
+Method Call,caller=SYSTEM,target=Main#main:1
+New Object,object=java.lang.String[]:1
+Variable Write,context=Main#main:1,args=java.lang.String[]:1
+Variable Write,context=Main#main:1,start=1768422812439
+Method Call,caller=Main#main:1,target=Main#solve:1
+Field Read,context=Main,in
+Field Write,context=Main,w=3
+Field Read,context=Main,in
+Field Write,context=Main,h=2
+Field Read,context=Main,w
+Field Read,context=Main,h
+Field Read,context=Main,w
+New Object,object=int[][]:1
+New Object,object=int[]:3
+Field Write,context=int[]:3,0=0
+Field Write,context=int[]:3,1=0
+Field Write,context=int[]:3,2=0
+Field Write,context=int[][]:1,0=int[]:3
+New Object,object=int[]:4
+Field Write,context=int[]:4,0=0
+Field Write,context=int[]:4,1=0
+Field Write,context=int[]:4,2=0
+Field Write,context=int[][]:1,1=int[]:4
+Field Write,context=Main,table=int[][]:1
+Field Write,context=Main,si=-1
+Field Write,context=Main,sj=-1
+Field Write,context=Main,n=0
+Field Read,context=Main,h
+Variable Write,context=Main#solve:1,i=0
+Field Read,context=Main,w
+Variable Write,context=Main#solve:1,j=0
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,n
+Field Write,context=Main,n=1
+Field Read,context=Main,w
+Variable Write,context=Main#solve:1,j=1
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,table
+Field Read,context=Main,w
+Variable Write,context=Main#solve:1,j=2
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,n
+Field Write,context=Main,n=2
+Field Read,context=Main,w
+Field Read,context=Main,h
+Variable Write,context=Main#solve:1,i=1
+Variable Delete,method=Main#solve:1 <name=j,type=int (id=7),value=<?>,index=1>
+Field Read,context=Main,w
+Variable Write,context=Main#solve:1,j=0
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,n
+Field Write,context=Main,n=3
+Field Read,context=Main,w
+Variable Write,context=Main#solve:1,j=1
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,table
+Field Read,context=Main,w
+Variable Write,context=Main#solve:1,j=2
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,table
+Field Write,context=Main,si=1
+Field Write,context=Main,sj=2
+Field Read,context=Main,table
+Field Read,context=Main,w
+Field Read,context=Main,h
+Variable Delete,method=Main#solve:1 <name=j,type=int (id=7),value=<?>,index=1>
+Field Write,context=Main,visited=java.util.BitSet (id=372)
+Variable Delete,method=Main#solve:1 <name=i,type=int (id=7),value=<?>,index=0>
+Field Read,context=Main,out
+Field Read,context=Main,si
+Field Read,context=Main,sj
+Method Call,caller=Main#solve:1,target=Main#rec:1
+Variable Write,context=Main#rec:1,ci=1
+Variable Write,context=Main#rec:1,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:1,res=0
+Variable Write,context=Main#rec:1,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:1,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:1,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:1,k=1
+Variable Delete,method=Main#rec:1 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:1 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:1,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:1,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:1,k=2
+Variable Delete,method=Main#rec:1 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:1 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:1,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:1,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:1,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:1,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:1,target=Main#rec:2
+Variable Write,context=Main#rec:2,ci=1
+Variable Write,context=Main#rec:2,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:2,res=0
+Variable Write,context=Main#rec:2,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:2,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:2,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:2,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:2,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:2,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:2,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:2,k=1
+Variable Delete,method=Main#rec:2 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:2 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:2,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:2,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:2,k=2
+Variable Delete,method=Main#rec:2 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:2 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:2,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:2,nj=-1
+Variable Write,context=Main#rec:2,k=3
+Variable Delete,method=Main#rec:2 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:2 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:2,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:2,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:2,target=Main#rec:3
+Variable Write,context=Main#rec:3,ci=0
+Variable Write,context=Main#rec:3,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:3,res=0
+Variable Write,context=Main#rec:3,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:3,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:3,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:3,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:3,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:3,target=Main#rec:4
+Variable Write,context=Main#rec:4,ci=0
+Variable Write,context=Main#rec:4,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Field Read,context=Main,si
+Field Read,context=Main,sj
+Variable Write,context=Main#rec:4,result=1
+Method Exit,returner=Main#rec:4,value=1
+Variable Write,context=Main#rec:3,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:3,k=1
+Variable Delete,method=Main#rec:3 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:3 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:3,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:3,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:3,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:3,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:3,k=2
+Variable Delete,method=Main#rec:3 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:3 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:3,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:3,nj=-1
+Variable Write,context=Main#rec:3,k=3
+Variable Delete,method=Main#rec:3 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:3 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:3,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:3,nj=0
+Variable Delete,method=Main#rec:3 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:3 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:3,result=1
+Method Exit,returner=Main#rec:3,value=1
+Variable Write,context=Main#rec:2,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:2 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:2 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:2,result=1
+Method Exit,returner=Main#rec:2,value=1
+Variable Write,context=Main#rec:1,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:1,k=3
+Variable Delete,method=Main#rec:1 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:1 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:1,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:1,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:1,target=Main#rec:5
+Variable Write,context=Main#rec:5,ci=0
+Variable Write,context=Main#rec:5,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:5,res=0
+Variable Write,context=Main#rec:5,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:5,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:5,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:5,k=1
+Variable Delete,method=Main#rec:5 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:5 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:5,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:5,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:5,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:5,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:5,k=2
+Variable Delete,method=Main#rec:5 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:5 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:5,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:5,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:5,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:5,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:5,target=Main#rec:6
+Variable Write,context=Main#rec:6,ci=0
+Variable Write,context=Main#rec:6,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:6,res=0
+Variable Write,context=Main#rec:6,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:6,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:6,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:6,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:6,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:6,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:6,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:6,k=1
+Variable Delete,method=Main#rec:6 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:6 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:6,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:6,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:6,target=Main#rec:7
+Variable Write,context=Main#rec:7,ci=1
+Variable Write,context=Main#rec:7,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Field Read,context=Main,si
+Variable Write,context=Main#rec:7,result=1
+Method Exit,returner=Main#rec:7,value=1
+Variable Write,context=Main#rec:6,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:6,k=2
+Variable Delete,method=Main#rec:6 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:6 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:6,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:6,nj=-1
+Variable Write,context=Main#rec:6,k=3
+Variable Delete,method=Main#rec:6 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:6 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:6,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:6,nj=0
+Variable Delete,method=Main#rec:6 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:6 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:6,result=1
+Method Exit,returner=Main#rec:6,value=1
+Variable Write,context=Main#rec:5,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:5,k=3
+Variable Delete,method=Main#rec:5 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:5 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:5,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:5,nj=2
+Variable Delete,method=Main#rec:5 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:5 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:5,result=1
+Method Exit,returner=Main#rec:5,value=1
+Variable Write,context=Main#rec:1,res=2
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:1 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:1 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:1,result=2
+Method Exit,returner=Main#rec:1,value=2
+Field Read,context=Main,out
+Variable Write,context=Main#solve:1,result=true
+Method Exit,returner=Main#solve:1,value=true
+Method Call,caller=Main#main:1,target=Main#solve:2
+Field Read,context=Main,in
+Field Write,context=Main,w=3
+Field Read,context=Main,in
+Field Write,context=Main,h=3
+Field Read,context=Main,w
+Field Read,context=Main,h
+Field Read,context=Main,w
+New Object,object=int[][]:2
+New Object,object=int[]:5
+Field Write,context=int[]:5,0=0
+Field Write,context=int[]:5,1=0
+Field Write,context=int[]:5,2=0
+Field Write,context=int[][]:2,0=int[]:5
+New Object,object=int[]:6
+Field Write,context=int[]:6,0=0
+Field Write,context=int[]:6,1=0
+Field Write,context=int[]:6,2=0
+Field Write,context=int[][]:2,1=int[]:6
+New Object,object=int[]:7
+Field Write,context=int[]:7,0=0
+Field Write,context=int[]:7,1=0
+Field Write,context=int[]:7,2=0
+Field Write,context=int[][]:2,2=int[]:7
+Field Write,context=Main,table=int[][]:2
+Field Write,context=Main,si=-1
+Field Write,context=Main,sj=-1
+Field Write,context=Main,n=0
+Field Read,context=Main,h
+Variable Write,context=Main#solve:2,i=0
+Field Read,context=Main,w
+Variable Write,context=Main#solve:2,j=0
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,n
+Field Write,context=Main,n=1
+Field Read,context=Main,w
+Variable Write,context=Main#solve:2,j=1
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,n
+Field Write,context=Main,n=2
+Field Read,context=Main,w
+Variable Write,context=Main#solve:2,j=2
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,n
+Field Write,context=Main,n=3
+Field Read,context=Main,w
+Field Read,context=Main,h
+Variable Write,context=Main#solve:2,i=1
+Variable Delete,method=Main#solve:2 <name=j,type=int (id=7),value=<?>,index=1>
+Field Read,context=Main,w
+Variable Write,context=Main#solve:2,j=0
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,n
+Field Write,context=Main,n=4
+Field Read,context=Main,w
+Variable Write,context=Main#solve:2,j=1
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,table
+Field Read,context=Main,w
+Variable Write,context=Main#solve:2,j=2
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,n
+Field Write,context=Main,n=5
+Field Read,context=Main,w
+Field Read,context=Main,h
+Variable Write,context=Main#solve:2,i=2
+Variable Delete,method=Main#solve:2 <name=j,type=int (id=7),value=<?>,index=1>
+Field Read,context=Main,w
+Variable Write,context=Main#solve:2,j=0
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,n
+Field Write,context=Main,n=6
+Field Read,context=Main,w
+Variable Write,context=Main#solve:2,j=1
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,n
+Field Write,context=Main,n=7
+Field Read,context=Main,w
+Variable Write,context=Main#solve:2,j=2
+Field Read,context=Main,table
+Field Read,context=Main,in
+Field Read,context=Main,table
+Field Read,context=Main,table
+Field Write,context=Main,si=2
+Field Write,context=Main,sj=2
+Field Read,context=Main,table
+Field Read,context=Main,w
+Field Read,context=Main,h
+Variable Delete,method=Main#solve:2 <name=j,type=int (id=7),value=<?>,index=1>
+Field Write,context=Main,visited=java.util.BitSet (id=377)
+Variable Delete,method=Main#solve:2 <name=i,type=int (id=7),value=<?>,index=0>
+Field Read,context=Main,out
+Field Read,context=Main,si
+Field Read,context=Main,sj
+Method Call,caller=Main#solve:2,target=Main#rec:8
+Variable Write,context=Main#rec:8,ci=2
+Variable Write,context=Main#rec:8,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:8,res=0
+Variable Write,context=Main#rec:8,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:8,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:8,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:8,k=1
+Variable Delete,method=Main#rec:8 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:8 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:8,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:8,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:8,k=2
+Variable Delete,method=Main#rec:8 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:8 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:8,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:8,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:8,target=Main#rec:9
+Variable Write,context=Main#rec:9,ci=2
+Variable Write,context=Main#rec:9,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:9,res=0
+Variable Write,context=Main#rec:9,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:9,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:9,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:9,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:9,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:9,k=1
+Variable Delete,method=Main#rec:9 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:9 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:9,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:9,nj=1
+Field Read,context=Main,h
+Variable Write,context=Main#rec:9,k=2
+Variable Delete,method=Main#rec:9 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:9 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:9,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:9,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:9,target=Main#rec:10
+Variable Write,context=Main#rec:10,ci=2
+Variable Write,context=Main#rec:10,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:10,res=0
+Variable Write,context=Main#rec:10,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:10,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:10,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:10,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:10,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:10,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:10,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:10,k=1
+Variable Delete,method=Main#rec:10 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:10 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:10,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:10,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:10,k=2
+Variable Delete,method=Main#rec:10 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:10 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:10,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:10,nj=-1
+Variable Write,context=Main#rec:10,k=3
+Variable Delete,method=Main#rec:10 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:10 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:10,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:10,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:10,target=Main#rec:11
+Variable Write,context=Main#rec:11,ci=1
+Variable Write,context=Main#rec:11,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:11,res=0
+Variable Write,context=Main#rec:11,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:11,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:11,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:11,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:11,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:11,target=Main#rec:12
+Variable Write,context=Main#rec:12,ci=1
+Variable Write,context=Main#rec:12,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:12,res=0
+Variable Write,context=Main#rec:12,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:12,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:12,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:12,k=1
+Variable Delete,method=Main#rec:12 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:12 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:12,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:12,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:12,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:12,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:12,k=2
+Variable Delete,method=Main#rec:12 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:12 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:12,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:12,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:12,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:12,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:12,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:12,nj=-1
+Variable Write,context=Main#rec:12,k=3
+Variable Delete,method=Main#rec:12 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:12 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:12,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:12,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:12,target=Main#rec:13
+Variable Write,context=Main#rec:13,ci=0
+Variable Write,context=Main#rec:13,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:13,res=0
+Variable Write,context=Main#rec:13,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:13,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:13,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:13,k=1
+Variable Delete,method=Main#rec:13 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:13 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:13,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:13,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:13,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:13,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:13,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:13,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:13,k=2
+Variable Delete,method=Main#rec:13 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:13 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:13,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:13,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:13,target=Main#rec:14
+Variable Write,context=Main#rec:14,ci=0
+Variable Write,context=Main#rec:14,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:14,res=0
+Variable Write,context=Main#rec:14,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:14,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:14,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:14,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:14,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:14,k=1
+Variable Delete,method=Main#rec:14 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:14 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:14,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:14,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:14,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:14,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:14,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:14,nj=1
+Field Read,context=Main,h
+Variable Write,context=Main#rec:14,k=2
+Variable Delete,method=Main#rec:14 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:14 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:14,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:14,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:14,target=Main#rec:15
+Variable Write,context=Main#rec:15,ci=0
+Variable Write,context=Main#rec:15,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Field Read,context=Main,si
+Field Read,context=Main,sj
+Variable Write,context=Main#rec:15,result=0
+Method Exit,returner=Main#rec:15,value=0
+Variable Write,context=Main#rec:14,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:14,k=3
+Variable Delete,method=Main#rec:14 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:14 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:14,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:14,nj=1
+Variable Delete,method=Main#rec:14 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:14 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:14,result=0
+Method Exit,returner=Main#rec:14,value=0
+Variable Write,context=Main#rec:13,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:13,k=3
+Variable Delete,method=Main#rec:13 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:13 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:13,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:13,nj=2
+Variable Delete,method=Main#rec:13 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:13 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:13,result=0
+Method Exit,returner=Main#rec:13,value=0
+Variable Write,context=Main#rec:12,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:12 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:12 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:12,result=0
+Method Exit,returner=Main#rec:12,value=0
+Variable Write,context=Main#rec:11,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:11,k=1
+Variable Delete,method=Main#rec:11 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:11 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:11,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:11,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:11,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:11,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:11,k=2
+Variable Delete,method=Main#rec:11 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:11 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:11,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:11,nj=-1
+Variable Write,context=Main#rec:11,k=3
+Variable Delete,method=Main#rec:11 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:11 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:11,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:11,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:11,target=Main#rec:16
+Variable Write,context=Main#rec:16,ci=0
+Variable Write,context=Main#rec:16,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:16,res=0
+Variable Write,context=Main#rec:16,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:16,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:16,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:16,target=Main#rec:17
+Variable Write,context=Main#rec:17,ci=0
+Variable Write,context=Main#rec:17,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:17,res=0
+Variable Write,context=Main#rec:17,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:17,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:17,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:17,target=Main#rec:18
+Variable Write,context=Main#rec:18,ci=0
+Variable Write,context=Main#rec:18,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:18,res=0
+Variable Write,context=Main#rec:18,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:18,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:18,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:18,k=1
+Variable Delete,method=Main#rec:18 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:18 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:18,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:18,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:18,target=Main#rec:19
+Variable Write,context=Main#rec:19,ci=1
+Variable Write,context=Main#rec:19,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Field Read,context=Main,si
+Field Read,context=Main,sj
+Variable Write,context=Main#rec:19,result=1
+Method Exit,returner=Main#rec:19,value=1
+Variable Write,context=Main#rec:18,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:18,k=2
+Variable Delete,method=Main#rec:18 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:18 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:18,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:18,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:18,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:18,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:18,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:18,nj=-1
+Variable Write,context=Main#rec:18,k=3
+Variable Delete,method=Main#rec:18 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:18 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:18,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:18,nj=2
+Variable Delete,method=Main#rec:18 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:18 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:18,result=1
+Method Exit,returner=Main#rec:18,value=1
+Variable Write,context=Main#rec:17,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:17,k=1
+Variable Delete,method=Main#rec:17 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:17 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:17,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:17,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:17,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:17,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:17,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:17,nj=1
+Field Read,context=Main,h
+Variable Write,context=Main#rec:17,k=2
+Variable Delete,method=Main#rec:17 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:17 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:17,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:17,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:17,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:17,nj=-1
+Variable Write,context=Main#rec:17,k=3
+Variable Delete,method=Main#rec:17 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:17 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:17,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:17,nj=1
+Variable Delete,method=Main#rec:17 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:17 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:17,result=1
+Method Exit,returner=Main#rec:17,value=1
+Variable Write,context=Main#rec:16,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:16,k=1
+Variable Delete,method=Main#rec:16 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:16 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:16,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:16,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:16,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:16,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:16,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:16,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:16,k=2
+Variable Delete,method=Main#rec:16 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:16 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:16,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:16,nj=-1
+Variable Write,context=Main#rec:16,k=3
+Variable Delete,method=Main#rec:16 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:16 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:16,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:16,nj=0
+Variable Delete,method=Main#rec:16 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:16 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:16,result=1
+Method Exit,returner=Main#rec:16,value=1
+Variable Write,context=Main#rec:11,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:11 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:11 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:11,result=1
+Method Exit,returner=Main#rec:11,value=1
+Variable Write,context=Main#rec:10,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:10 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:10 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:10,result=1
+Method Exit,returner=Main#rec:10,value=1
+Variable Write,context=Main#rec:9,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:9,k=3
+Variable Delete,method=Main#rec:9 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:9 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:9,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:9,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:9,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:9,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:9,target=Main#rec:20
+Variable Write,context=Main#rec:20,ci=0
+Variable Write,context=Main#rec:20,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:20,res=0
+Variable Write,context=Main#rec:20,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:20,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:20,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:20,target=Main#rec:21
+Variable Write,context=Main#rec:21,ci=0
+Variable Write,context=Main#rec:21,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:21,res=0
+Variable Write,context=Main#rec:21,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:21,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:21,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:21,k=1
+Variable Delete,method=Main#rec:21 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:21 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:21,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:21,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:21,target=Main#rec:22
+Variable Write,context=Main#rec:22,ci=1
+Variable Write,context=Main#rec:22,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:22,res=0
+Variable Write,context=Main#rec:22,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:22,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:22,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:22,k=1
+Variable Delete,method=Main#rec:22 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:22 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:22,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:22,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:22,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:22,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:22,k=2
+Variable Delete,method=Main#rec:22 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:22 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:22,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:22,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:22,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:22,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:22,target=Main#rec:23
+Variable Write,context=Main#rec:23,ci=1
+Variable Write,context=Main#rec:23,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:23,res=0
+Variable Write,context=Main#rec:23,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:23,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:23,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:23,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:23,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:23,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:23,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:23,k=1
+Variable Delete,method=Main#rec:23 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:23 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:23,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:23,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:23,target=Main#rec:24
+Variable Write,context=Main#rec:24,ci=2
+Variable Write,context=Main#rec:24,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:24,res=0
+Variable Write,context=Main#rec:24,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:24,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:24,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:24,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:24,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:24,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:24,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:24,k=1
+Variable Delete,method=Main#rec:24 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:24 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:24,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:24,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:24,k=2
+Variable Delete,method=Main#rec:24 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:24 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:24,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:24,nj=-1
+Variable Write,context=Main#rec:24,k=3
+Variable Delete,method=Main#rec:24 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:24 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:24,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:24,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:24,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:24,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:24,target=Main#rec:25
+Variable Write,context=Main#rec:25,ci=0
+Variable Write,context=Main#rec:25,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Field Read,context=Main,si
+Field Read,context=Main,sj
+Variable Write,context=Main#rec:25,result=0
+Method Exit,returner=Main#rec:25,value=0
+Variable Write,context=Main#rec:24,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:24 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:24 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:24,result=0
+Method Exit,returner=Main#rec:24,value=0
+Variable Write,context=Main#rec:23,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:23,k=2
+Variable Delete,method=Main#rec:23 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:23 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:23,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:23,nj=-1
+Variable Write,context=Main#rec:23,k=3
+Variable Delete,method=Main#rec:23 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:23 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:23,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:23,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:23,target=Main#rec:26
+Variable Write,context=Main#rec:26,ci=0
+Variable Write,context=Main#rec:26,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:26,res=0
+Variable Write,context=Main#rec:26,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:26,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:26,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:26,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:26,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:26,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:26,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:26,k=1
+Variable Delete,method=Main#rec:26 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:26 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:26,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:26,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:26,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:26,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:26,target=Main#rec:27
+Variable Write,context=Main#rec:27,ci=2
+Variable Write,context=Main#rec:27,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Field Read,context=Main,si
+Variable Write,context=Main#rec:27,result=1
+Method Exit,returner=Main#rec:27,value=1
+Variable Write,context=Main#rec:26,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:26,k=2
+Variable Delete,method=Main#rec:26 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:26 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:26,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:26,nj=-1
+Variable Write,context=Main#rec:26,k=3
+Variable Delete,method=Main#rec:26 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:26 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:26,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:26,nj=0
+Variable Delete,method=Main#rec:26 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:26 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:26,result=1
+Method Exit,returner=Main#rec:26,value=1
+Variable Write,context=Main#rec:23,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:23 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:23 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:23,result=1
+Method Exit,returner=Main#rec:23,value=1
+Variable Write,context=Main#rec:22,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:22,k=3
+Variable Delete,method=Main#rec:22 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:22 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:22,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:22,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:22,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:22,nj=2
+Variable Delete,method=Main#rec:22 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:22 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:22,result=1
+Method Exit,returner=Main#rec:22,value=1
+Variable Write,context=Main#rec:21,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:21,k=2
+Variable Delete,method=Main#rec:21 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:21 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:21,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:21,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:21,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:21,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:21,target=Main#rec:28
+Variable Write,context=Main#rec:28,ci=0
+Variable Write,context=Main#rec:28,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:28,res=0
+Variable Write,context=Main#rec:28,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:28,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:28,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:28,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:28,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:28,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:28,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:28,k=1
+Variable Delete,method=Main#rec:28 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:28 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:28,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:28,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:28,target=Main#rec:29
+Variable Write,context=Main#rec:29,ci=1
+Variable Write,context=Main#rec:29,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:29,res=0
+Variable Write,context=Main#rec:29,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:29,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:29,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:29,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:29,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:29,target=Main#rec:30
+Variable Write,context=Main#rec:30,ci=1
+Variable Write,context=Main#rec:30,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:30,res=0
+Variable Write,context=Main#rec:30,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:30,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:30,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:30,k=1
+Variable Delete,method=Main#rec:30 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:30 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:30,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:30,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:30,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:30,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:30,k=2
+Variable Delete,method=Main#rec:30 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:30 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:30,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:30,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:30,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:30,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:30,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:30,nj=-1
+Variable Write,context=Main#rec:30,k=3
+Variable Delete,method=Main#rec:30 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:30 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:30,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:30,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:30,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:30,nj=2
+Variable Delete,method=Main#rec:30 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:30 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:30,result=0
+Method Exit,returner=Main#rec:30,value=0
+Variable Write,context=Main#rec:29,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:29,k=1
+Variable Delete,method=Main#rec:29 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:29 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:29,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:29,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:29,target=Main#rec:31
+Variable Write,context=Main#rec:31,ci=2
+Variable Write,context=Main#rec:31,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:31,res=0
+Variable Write,context=Main#rec:31,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:31,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:31,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:31,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:31,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:31,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:31,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:31,k=1
+Variable Delete,method=Main#rec:31 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:31 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:31,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:31,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:31,k=2
+Variable Delete,method=Main#rec:31 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:31 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:31,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:31,nj=-1
+Variable Write,context=Main#rec:31,k=3
+Variable Delete,method=Main#rec:31 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:31 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:31,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:31,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:31,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:31,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:31,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:31,nj=0
+Variable Delete,method=Main#rec:31 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:31 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:31,result=0
+Method Exit,returner=Main#rec:31,value=0
+Variable Write,context=Main#rec:29,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:29,k=2
+Variable Delete,method=Main#rec:29 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:29 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:29,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:29,nj=-1
+Variable Write,context=Main#rec:29,k=3
+Variable Delete,method=Main#rec:29 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:29 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:29,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:29,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:29,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:29,nj=0
+Variable Delete,method=Main#rec:29 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:29 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:29,result=0
+Method Exit,returner=Main#rec:29,value=0
+Variable Write,context=Main#rec:28,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:28,k=2
+Variable Delete,method=Main#rec:28 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:28 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:28,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:28,nj=-1
+Variable Write,context=Main#rec:28,k=3
+Variable Delete,method=Main#rec:28 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:28 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:28,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:28,nj=0
+Variable Delete,method=Main#rec:28 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:28 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:28,result=0
+Method Exit,returner=Main#rec:28,value=0
+Variable Write,context=Main#rec:21,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:21,k=3
+Variable Delete,method=Main#rec:21 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:21 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:21,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:21,nj=2
+Variable Delete,method=Main#rec:21 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:21 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:21,result=1
+Method Exit,returner=Main#rec:21,value=1
+Variable Write,context=Main#rec:20,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:20,k=1
+Variable Delete,method=Main#rec:20 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:20 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:20,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:20,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:20,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:20,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:20,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:20,nj=1
+Field Read,context=Main,h
+Variable Write,context=Main#rec:20,k=2
+Variable Delete,method=Main#rec:20 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:20 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:20,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:20,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:20,target=Main#rec:32
+Variable Write,context=Main#rec:32,ci=0
+Variable Write,context=Main#rec:32,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:32,res=0
+Variable Write,context=Main#rec:32,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:32,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:32,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:32,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:32,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:32,target=Main#rec:33
+Variable Write,context=Main#rec:33,ci=0
+Variable Write,context=Main#rec:33,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:33,res=0
+Variable Write,context=Main#rec:33,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:33,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:33,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:33,k=1
+Variable Delete,method=Main#rec:33 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:33 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:33,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:33,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:33,target=Main#rec:34
+Variable Write,context=Main#rec:34,ci=1
+Variable Write,context=Main#rec:34,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:34,res=0
+Variable Write,context=Main#rec:34,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:34,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:34,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:34,k=1
+Variable Delete,method=Main#rec:34 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:34 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:34,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:34,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:34,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:34,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:34,k=2
+Variable Delete,method=Main#rec:34 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:34 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:34,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:34,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:34,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:34,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:34,target=Main#rec:35
+Variable Write,context=Main#rec:35,ci=1
+Variable Write,context=Main#rec:35,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:35,res=0
+Variable Write,context=Main#rec:35,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:35,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:35,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:35,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:35,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:35,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:35,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:35,k=1
+Variable Delete,method=Main#rec:35 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:35 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:35,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:35,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:35,target=Main#rec:36
+Variable Write,context=Main#rec:36,ci=2
+Variable Write,context=Main#rec:36,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Field Read,context=Main,si
+Variable Write,context=Main#rec:36,result=1
+Method Exit,returner=Main#rec:36,value=1
+Variable Write,context=Main#rec:35,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:35,k=2
+Variable Delete,method=Main#rec:35 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:35 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:35,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:35,nj=-1
+Variable Write,context=Main#rec:35,k=3
+Variable Delete,method=Main#rec:35 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:35 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:35,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:35,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:35,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:35,nj=0
+Variable Delete,method=Main#rec:35 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:35 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:35,result=1
+Method Exit,returner=Main#rec:35,value=1
+Variable Write,context=Main#rec:34,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:34,k=3
+Variable Delete,method=Main#rec:34 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:34 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:34,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:34,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:34,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:34,nj=2
+Variable Delete,method=Main#rec:34 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:34 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:34,result=1
+Method Exit,returner=Main#rec:34,value=1
+Variable Write,context=Main#rec:33,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:33,k=2
+Variable Delete,method=Main#rec:33 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:33 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:33,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:33,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:33,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:33,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:33,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:33,nj=-1
+Variable Write,context=Main#rec:33,k=3
+Variable Delete,method=Main#rec:33 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:33 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:33,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:33,nj=2
+Variable Delete,method=Main#rec:33 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:33 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:33,result=1
+Method Exit,returner=Main#rec:33,value=1
+Variable Write,context=Main#rec:32,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:32,k=1
+Variable Delete,method=Main#rec:32 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:32 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:32,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:32,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:32,target=Main#rec:37
+Variable Write,context=Main#rec:37,ci=1
+Variable Write,context=Main#rec:37,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:37,res=0
+Variable Write,context=Main#rec:37,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:37,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:37,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:37,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:37,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:37,target=Main#rec:38
+Variable Write,context=Main#rec:38,ci=1
+Variable Write,context=Main#rec:38,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:38,res=0
+Variable Write,context=Main#rec:38,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:38,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:38,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:38,k=1
+Variable Delete,method=Main#rec:38 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:38 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:38,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:38,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:38,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:38,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:38,k=2
+Variable Delete,method=Main#rec:38 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:38 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:38,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:38,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:38,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:38,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:38,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:38,nj=-1
+Variable Write,context=Main#rec:38,k=3
+Variable Delete,method=Main#rec:38 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:38 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:38,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:38,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:38,target=Main#rec:39
+Variable Write,context=Main#rec:39,ci=0
+Variable Write,context=Main#rec:39,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:39,res=0
+Variable Write,context=Main#rec:39,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:39,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:39,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:39,k=1
+Variable Delete,method=Main#rec:39 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:39 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:39,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:39,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:39,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:39,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:39,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:39,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:39,k=2
+Variable Delete,method=Main#rec:39 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:39 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:39,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:39,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:39,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:39,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:39,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:39,nj=-1
+Variable Write,context=Main#rec:39,k=3
+Variable Delete,method=Main#rec:39 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:39 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:39,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:39,nj=2
+Variable Delete,method=Main#rec:39 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:39 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:39,result=0
+Method Exit,returner=Main#rec:39,value=0
+Variable Write,context=Main#rec:38,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:38 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:38 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:38,result=0
+Method Exit,returner=Main#rec:38,value=0
+Variable Write,context=Main#rec:37,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:37,k=1
+Variable Delete,method=Main#rec:37 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:37 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:37,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:37,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:37,target=Main#rec:40
+Variable Write,context=Main#rec:40,ci=2
+Variable Write,context=Main#rec:40,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:40,res=0
+Variable Write,context=Main#rec:40,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:40,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:40,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:40,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:40,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:40,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:40,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:40,k=1
+Variable Delete,method=Main#rec:40 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:40 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:40,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:40,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:40,k=2
+Variable Delete,method=Main#rec:40 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:40 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:40,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:40,nj=-1
+Variable Write,context=Main#rec:40,k=3
+Variable Delete,method=Main#rec:40 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:40 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:40,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:40,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:40,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:40,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:40,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:40,nj=0
+Variable Delete,method=Main#rec:40 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:40 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:40,result=0
+Method Exit,returner=Main#rec:40,value=0
+Variable Write,context=Main#rec:37,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:37,k=2
+Variable Delete,method=Main#rec:37 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:37 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:37,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:37,nj=-1
+Variable Write,context=Main#rec:37,k=3
+Variable Delete,method=Main#rec:37 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:37 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:37,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:37,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:37,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:37,nj=0
+Variable Delete,method=Main#rec:37 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:37 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:37,result=0
+Method Exit,returner=Main#rec:37,value=0
+Variable Write,context=Main#rec:32,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:32,k=2
+Variable Delete,method=Main#rec:32 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:32 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:32,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:32,nj=-1
+Variable Write,context=Main#rec:32,k=3
+Variable Delete,method=Main#rec:32 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:32 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:32,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:32,nj=0
+Variable Delete,method=Main#rec:32 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:32 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:32,result=1
+Method Exit,returner=Main#rec:32,value=1
+Variable Write,context=Main#rec:20,res=2
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:20,k=3
+Variable Delete,method=Main#rec:20 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:20 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:20,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:20,nj=1
+Variable Delete,method=Main#rec:20 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:20 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:20,result=2
+Method Exit,returner=Main#rec:20,value=2
+Variable Write,context=Main#rec:9,res=3
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:9 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:9 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:9,result=3
+Method Exit,returner=Main#rec:9,value=3
+Variable Write,context=Main#rec:8,res=3
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:8,k=3
+Variable Delete,method=Main#rec:8 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:8 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:8,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:8,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:8,target=Main#rec:41
+Variable Write,context=Main#rec:41,ci=1
+Variable Write,context=Main#rec:41,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:41,res=0
+Variable Write,context=Main#rec:41,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:41,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:41,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:41,k=1
+Variable Delete,method=Main#rec:41 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:41 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:41,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:41,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:41,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:41,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:41,k=2
+Variable Delete,method=Main#rec:41 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:41 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:41,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:41,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:41,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:41,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:41,target=Main#rec:42
+Variable Write,context=Main#rec:42,ci=1
+Variable Write,context=Main#rec:42,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:42,res=0
+Variable Write,context=Main#rec:42,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:42,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:42,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:42,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:42,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:42,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:42,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:42,k=1
+Variable Delete,method=Main#rec:42 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:42 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:42,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:42,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:42,target=Main#rec:43
+Variable Write,context=Main#rec:43,ci=2
+Variable Write,context=Main#rec:43,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:43,res=0
+Variable Write,context=Main#rec:43,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:43,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:43,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:43,target=Main#rec:44
+Variable Write,context=Main#rec:44,ci=2
+Variable Write,context=Main#rec:44,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:44,res=0
+Variable Write,context=Main#rec:44,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:44,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:44,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:44,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:44,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:44,k=1
+Variable Delete,method=Main#rec:44 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:44 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:44,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:44,nj=1
+Field Read,context=Main,h
+Variable Write,context=Main#rec:44,k=2
+Variable Delete,method=Main#rec:44 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:44 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:44,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:44,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:44,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:44,nj=-1
+Variable Write,context=Main#rec:44,k=3
+Variable Delete,method=Main#rec:44 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:44 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:44,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:44,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:44,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:44,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:44,target=Main#rec:45
+Variable Write,context=Main#rec:45,ci=0
+Variable Write,context=Main#rec:45,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:45,res=0
+Variable Write,context=Main#rec:45,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:45,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:45,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:45,target=Main#rec:46
+Variable Write,context=Main#rec:46,ci=0
+Variable Write,context=Main#rec:46,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:46,res=0
+Variable Write,context=Main#rec:46,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:46,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:46,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:46,k=1
+Variable Delete,method=Main#rec:46 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:46 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:46,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:46,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:46,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:46,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:46,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:46,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:46,k=2
+Variable Delete,method=Main#rec:46 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:46 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:46,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:46,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:46,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:46,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:46,target=Main#rec:47
+Variable Write,context=Main#rec:47,ci=0
+Variable Write,context=Main#rec:47,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Field Read,context=Main,si
+Field Read,context=Main,sj
+Variable Write,context=Main#rec:47,result=0
+Method Exit,returner=Main#rec:47,value=0
+Variable Write,context=Main#rec:46,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:46,k=3
+Variable Delete,method=Main#rec:46 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:46 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:46,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:46,nj=2
+Variable Delete,method=Main#rec:46 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:46 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:46,result=0
+Method Exit,returner=Main#rec:46,value=0
+Variable Write,context=Main#rec:45,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:45,k=1
+Variable Delete,method=Main#rec:45 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:45 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:45,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:45,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:45,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:45,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:45,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:45,nj=1
+Field Read,context=Main,h
+Variable Write,context=Main#rec:45,k=2
+Variable Delete,method=Main#rec:45 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:45 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:45,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:45,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:45,target=Main#rec:48
+Variable Write,context=Main#rec:48,ci=0
+Variable Write,context=Main#rec:48,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:48,res=0
+Variable Write,context=Main#rec:48,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:48,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:48,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:48,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:48,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:48,target=Main#rec:49
+Variable Write,context=Main#rec:49,ci=0
+Variable Write,context=Main#rec:49,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Field Read,context=Main,si
+Field Read,context=Main,sj
+Variable Write,context=Main#rec:49,result=1
+Method Exit,returner=Main#rec:49,value=1
+Variable Write,context=Main#rec:48,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:48,k=1
+Variable Delete,method=Main#rec:48 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:48 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:48,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:48,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:48,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:48,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:48,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:48,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:48,k=2
+Variable Delete,method=Main#rec:48 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:48 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:48,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:48,nj=-1
+Variable Write,context=Main#rec:48,k=3
+Variable Delete,method=Main#rec:48 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:48 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:48,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:48,nj=0
+Variable Delete,method=Main#rec:48 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:48 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:48,result=1
+Method Exit,returner=Main#rec:48,value=1
+Variable Write,context=Main#rec:45,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:45,k=3
+Variable Delete,method=Main#rec:45 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:45 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:45,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:45,nj=1
+Variable Delete,method=Main#rec:45 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:45 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:45,result=1
+Method Exit,returner=Main#rec:45,value=1
+Variable Write,context=Main#rec:44,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:44 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:44 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:44,result=1
+Method Exit,returner=Main#rec:44,value=1
+Variable Write,context=Main#rec:43,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:43,k=1
+Variable Delete,method=Main#rec:43 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:43 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:43,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:43,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:43,k=2
+Variable Delete,method=Main#rec:43 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:43 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:43,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:43,nj=-1
+Variable Write,context=Main#rec:43,k=3
+Variable Delete,method=Main#rec:43 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:43 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:43,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:43,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:43,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:43,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:43,target=Main#rec:50
+Variable Write,context=Main#rec:50,ci=0
+Variable Write,context=Main#rec:50,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:50,res=0
+Variable Write,context=Main#rec:50,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:50,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:50,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:50,target=Main#rec:51
+Variable Write,context=Main#rec:51,ci=0
+Variable Write,context=Main#rec:51,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:51,res=0
+Variable Write,context=Main#rec:51,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:51,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:51,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:51,target=Main#rec:52
+Variable Write,context=Main#rec:52,ci=0
+Variable Write,context=Main#rec:52,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:52,res=0
+Variable Write,context=Main#rec:52,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:52,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:52,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:52,k=1
+Variable Delete,method=Main#rec:52 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:52 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:52,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:52,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:52,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:52,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:52,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:52,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:52,k=2
+Variable Delete,method=Main#rec:52 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:52 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:52,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:52,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:52,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:52,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:52,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:52,nj=-1
+Variable Write,context=Main#rec:52,k=3
+Variable Delete,method=Main#rec:52 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:52 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:52,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:52,nj=2
+Variable Delete,method=Main#rec:52 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:52 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:52,result=0
+Method Exit,returner=Main#rec:52,value=0
+Variable Write,context=Main#rec:51,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:51,k=1
+Variable Delete,method=Main#rec:51 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:51 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:51,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:51,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:51,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:51,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:51,target=Main#rec:53
+Variable Write,context=Main#rec:53,ci=2
+Variable Write,context=Main#rec:53,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:53,res=0
+Variable Write,context=Main#rec:53,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:53,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:53,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:53,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:53,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:53,k=1
+Variable Delete,method=Main#rec:53 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:53 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:53,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:53,nj=1
+Field Read,context=Main,h
+Variable Write,context=Main#rec:53,k=2
+Variable Delete,method=Main#rec:53 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:53 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:53,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:53,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:53,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:53,nj=-1
+Variable Write,context=Main#rec:53,k=3
+Variable Delete,method=Main#rec:53 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:53 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:53,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:53,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:53,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:53,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:53,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:53,nj=1
+Variable Delete,method=Main#rec:53 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:53 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:53,result=0
+Method Exit,returner=Main#rec:53,value=0
+Variable Write,context=Main#rec:51,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:51,k=2
+Variable Delete,method=Main#rec:51 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:51 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:51,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:51,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:51,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:51,nj=-1
+Variable Write,context=Main#rec:51,k=3
+Variable Delete,method=Main#rec:51 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:51 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:51,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:51,nj=1
+Variable Delete,method=Main#rec:51 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:51 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:51,result=0
+Method Exit,returner=Main#rec:51,value=0
+Variable Write,context=Main#rec:50,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:50,k=1
+Variable Delete,method=Main#rec:50 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:50 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:50,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:50,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:50,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:50,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:50,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:50,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:50,k=2
+Variable Delete,method=Main#rec:50 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:50 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:50,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:50,nj=-1
+Variable Write,context=Main#rec:50,k=3
+Variable Delete,method=Main#rec:50 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:50 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:50,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:50,nj=0
+Variable Delete,method=Main#rec:50 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:50 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:50,result=0
+Method Exit,returner=Main#rec:50,value=0
+Variable Write,context=Main#rec:43,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:43 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:43 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:43,result=1
+Method Exit,returner=Main#rec:43,value=1
+Variable Write,context=Main#rec:42,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:42,k=2
+Variable Delete,method=Main#rec:42 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:42 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:42,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:42,nj=-1
+Variable Write,context=Main#rec:42,k=3
+Variable Delete,method=Main#rec:42 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:42 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:42,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:42,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:42,target=Main#rec:54
+Variable Write,context=Main#rec:54,ci=0
+Variable Write,context=Main#rec:54,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:54,res=0
+Variable Write,context=Main#rec:54,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:54,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:54,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:54,target=Main#rec:55
+Variable Write,context=Main#rec:55,ci=0
+Variable Write,context=Main#rec:55,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:55,res=0
+Variable Write,context=Main#rec:55,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:55,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:55,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:55,target=Main#rec:56
+Variable Write,context=Main#rec:56,ci=0
+Variable Write,context=Main#rec:56,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:56,res=0
+Variable Write,context=Main#rec:56,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:56,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:56,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:56,k=1
+Variable Delete,method=Main#rec:56 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:56 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:56,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:56,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:56,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:56,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:56,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:56,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:56,k=2
+Variable Delete,method=Main#rec:56 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:56 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:56,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:56,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:56,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:56,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:56,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:56,nj=-1
+Variable Write,context=Main#rec:56,k=3
+Variable Delete,method=Main#rec:56 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:56 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:56,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:56,nj=2
+Variable Delete,method=Main#rec:56 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:56 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:56,result=0
+Method Exit,returner=Main#rec:56,value=0
+Variable Write,context=Main#rec:55,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:55,k=1
+Variable Delete,method=Main#rec:55 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:55 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:55,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:55,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:55,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:55,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:55,target=Main#rec:57
+Variable Write,context=Main#rec:57,ci=2
+Variable Write,context=Main#rec:57,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:57,res=0
+Variable Write,context=Main#rec:57,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:57,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:57,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:57,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:57,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:57,k=1
+Variable Delete,method=Main#rec:57 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:57 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:57,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:57,nj=1
+Field Read,context=Main,h
+Variable Write,context=Main#rec:57,k=2
+Variable Delete,method=Main#rec:57 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:57 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:57,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:57,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:57,target=Main#rec:58
+Variable Write,context=Main#rec:58,ci=2
+Variable Write,context=Main#rec:58,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:58,res=0
+Variable Write,context=Main#rec:58,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:58,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:58,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:58,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:58,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:58,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:58,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:58,k=1
+Variable Delete,method=Main#rec:58 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:58 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:58,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:58,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:58,k=2
+Variable Delete,method=Main#rec:58 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:58 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:58,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:58,nj=-1
+Variable Write,context=Main#rec:58,k=3
+Variable Delete,method=Main#rec:58 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:58 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:58,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:58,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:58,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:58,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:58,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:58,nj=0
+Variable Delete,method=Main#rec:58 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:58 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:58,result=0
+Method Exit,returner=Main#rec:58,value=0
+Variable Write,context=Main#rec:57,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:57,k=3
+Variable Delete,method=Main#rec:57 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:57 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:57,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:57,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:57,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:57,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:57,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:57,nj=1
+Variable Delete,method=Main#rec:57 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:57 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:57,result=0
+Method Exit,returner=Main#rec:57,value=0
+Variable Write,context=Main#rec:55,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:55,k=2
+Variable Delete,method=Main#rec:55 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:55 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:55,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:55,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:55,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:55,nj=-1
+Variable Write,context=Main#rec:55,k=3
+Variable Delete,method=Main#rec:55 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:55 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:55,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:55,nj=1
+Variable Delete,method=Main#rec:55 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:55 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:55,result=0
+Method Exit,returner=Main#rec:55,value=0
+Variable Write,context=Main#rec:54,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:54,k=1
+Variable Delete,method=Main#rec:54 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:54 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:54,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:54,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:54,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:54,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:54,target=Main#rec:59
+Variable Write,context=Main#rec:59,ci=2
+Variable Write,context=Main#rec:59,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:59,res=0
+Variable Write,context=Main#rec:59,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:59,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:59,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:59,target=Main#rec:60
+Variable Write,context=Main#rec:60,ci=2
+Variable Write,context=Main#rec:60,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:60,res=0
+Variable Write,context=Main#rec:60,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:60,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:60,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:60,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:60,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:60,k=1
+Variable Delete,method=Main#rec:60 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:60 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:60,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:60,nj=1
+Field Read,context=Main,h
+Variable Write,context=Main#rec:60,k=2
+Variable Delete,method=Main#rec:60 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:60 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:60,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:60,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:60,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:60,nj=-1
+Variable Write,context=Main#rec:60,k=3
+Variable Delete,method=Main#rec:60 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:60 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:60,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:60,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:60,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:60,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:60,target=Main#rec:61
+Variable Write,context=Main#rec:61,ci=0
+Variable Write,context=Main#rec:61,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:61,res=0
+Variable Write,context=Main#rec:61,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:61,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:61,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:61,target=Main#rec:62
+Variable Write,context=Main#rec:62,ci=0
+Variable Write,context=Main#rec:62,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Field Read,context=Main,si
+Field Read,context=Main,sj
+Variable Write,context=Main#rec:62,result=1
+Method Exit,returner=Main#rec:62,value=1
+Variable Write,context=Main#rec:61,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:61,k=1
+Variable Delete,method=Main#rec:61 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:61 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:61,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:61,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:61,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:61,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:61,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:61,nj=1
+Field Read,context=Main,h
+Variable Write,context=Main#rec:61,k=2
+Variable Delete,method=Main#rec:61 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:61 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:61,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:61,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:61,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:61,nj=-1
+Variable Write,context=Main#rec:61,k=3
+Variable Delete,method=Main#rec:61 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:61 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:61,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:61,nj=1
+Variable Delete,method=Main#rec:61 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:61 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:61,result=1
+Method Exit,returner=Main#rec:61,value=1
+Variable Write,context=Main#rec:60,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:60 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:60 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:60,result=1
+Method Exit,returner=Main#rec:60,value=1
+Variable Write,context=Main#rec:59,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:59,k=1
+Variable Delete,method=Main#rec:59 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:59 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:59,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:59,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:59,k=2
+Variable Delete,method=Main#rec:59 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:59 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:59,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:59,nj=-1
+Variable Write,context=Main#rec:59,k=3
+Variable Delete,method=Main#rec:59 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:59 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:59,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:59,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:59,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:59,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:59,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:59,nj=0
+Variable Delete,method=Main#rec:59 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:59 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:59,result=1
+Method Exit,returner=Main#rec:59,value=1
+Variable Write,context=Main#rec:54,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:54,k=2
+Variable Delete,method=Main#rec:54 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:54 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:54,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:54,nj=-1
+Variable Write,context=Main#rec:54,k=3
+Variable Delete,method=Main#rec:54 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:54 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:54,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:54,nj=0
+Variable Delete,method=Main#rec:54 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:54 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:54,result=1
+Method Exit,returner=Main#rec:54,value=1
+Variable Write,context=Main#rec:42,res=2
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:42 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:42 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:42,result=2
+Method Exit,returner=Main#rec:42,value=2
+Variable Write,context=Main#rec:41,res=2
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:41,k=3
+Variable Delete,method=Main#rec:41 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:41 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:41,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:41,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:41,target=Main#rec:63
+Variable Write,context=Main#rec:63,ci=0
+Variable Write,context=Main#rec:63,cj=2
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:63,res=0
+Variable Write,context=Main#rec:63,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:63,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:63,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:63,k=1
+Variable Delete,method=Main#rec:63 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:63 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:63,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:63,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:63,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:63,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:63,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:63,nj=2
+Field Read,context=Main,h
+Variable Write,context=Main#rec:63,k=2
+Variable Delete,method=Main#rec:63 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:63 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:63,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:63,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:63,target=Main#rec:64
+Variable Write,context=Main#rec:64,ci=0
+Variable Write,context=Main#rec:64,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:64,res=0
+Variable Write,context=Main#rec:64,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:64,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:64,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:64,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:64,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:64,k=1
+Variable Delete,method=Main#rec:64 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:64 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:64,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:64,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:64,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:64,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:64,target=Main#rec:65
+Variable Write,context=Main#rec:65,ci=2
+Variable Write,context=Main#rec:65,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:65,res=0
+Variable Write,context=Main#rec:65,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:65,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:65,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:65,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:65,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:65,k=1
+Variable Delete,method=Main#rec:65 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:65 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:65,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:65,nj=1
+Field Read,context=Main,h
+Variable Write,context=Main#rec:65,k=2
+Variable Delete,method=Main#rec:65 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:65 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:65,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:65,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:65,target=Main#rec:66
+Variable Write,context=Main#rec:66,ci=2
+Variable Write,context=Main#rec:66,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:66,res=0
+Variable Write,context=Main#rec:66,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:66,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:66,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:66,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:66,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:66,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:66,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:66,k=1
+Variable Delete,method=Main#rec:66 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:66 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:66,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:66,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:66,k=2
+Variable Delete,method=Main#rec:66 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:66 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:66,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:66,nj=-1
+Variable Write,context=Main#rec:66,k=3
+Variable Delete,method=Main#rec:66 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:66 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:66,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:66,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:66,target=Main#rec:67
+Variable Write,context=Main#rec:67,ci=1
+Variable Write,context=Main#rec:67,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:67,res=0
+Variable Write,context=Main#rec:67,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:67,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:67,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:67,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:67,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:67,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:67,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:67,k=1
+Variable Delete,method=Main#rec:67 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:67 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:67,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:67,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:67,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:67,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:67,k=2
+Variable Delete,method=Main#rec:67 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:67 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:67,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:67,nj=-1
+Variable Write,context=Main#rec:67,k=3
+Variable Delete,method=Main#rec:67 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:67 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:67,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:67,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:67,target=Main#rec:68
+Variable Write,context=Main#rec:68,ci=0
+Variable Write,context=Main#rec:68,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Field Read,context=Main,si
+Field Read,context=Main,sj
+Variable Write,context=Main#rec:68,result=0
+Method Exit,returner=Main#rec:68,value=0
+Variable Write,context=Main#rec:67,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:67 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:67 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:67,result=0
+Method Exit,returner=Main#rec:67,value=0
+Variable Write,context=Main#rec:66,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:66 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:66 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:66,result=0
+Method Exit,returner=Main#rec:66,value=0
+Variable Write,context=Main#rec:65,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:65,k=3
+Variable Delete,method=Main#rec:65 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:65 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:65,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:65,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:65,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:65,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:65,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:65,nj=1
+Variable Delete,method=Main#rec:65 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:65 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:65,result=0
+Method Exit,returner=Main#rec:65,value=0
+Variable Write,context=Main#rec:64,res=0
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:64,k=2
+Variable Delete,method=Main#rec:64 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:64 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:64,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:64,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:64,target=Main#rec:69
+Variable Write,context=Main#rec:69,ci=0
+Variable Write,context=Main#rec:69,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:69,res=0
+Variable Write,context=Main#rec:69,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:69,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:69,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:69,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:69,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:69,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:69,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:69,k=1
+Variable Delete,method=Main#rec:69 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:69 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:69,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:69,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:69,target=Main#rec:70
+Variable Write,context=Main#rec:70,ci=1
+Variable Write,context=Main#rec:70,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:70,res=0
+Variable Write,context=Main#rec:70,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:70,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:70,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,di
+Variable Write,context=Main#rec:70,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:70,nj=2
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:70,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:70,nj=3
+Field Read,context=Main,h
+Field Read,context=Main,w
+Variable Write,context=Main#rec:70,k=1
+Variable Delete,method=Main#rec:70 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:70 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:70,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:70,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:70,target=Main#rec:71
+Variable Write,context=Main#rec:71,ci=2
+Variable Write,context=Main#rec:71,cj=0
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Variable Write,context=Main#rec:71,res=0
+Variable Write,context=Main#rec:71,k=0
+Field Read,context=Main,di
+Variable Write,context=Main#rec:71,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:71,nj=1
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Method Call,caller=Main#rec:71,target=Main#rec:72
+Variable Write,context=Main#rec:72,ci=2
+Variable Write,context=Main#rec:72,cj=1
+Field Read,context=Main,visited
+Field Read,context=Main,n
+Field Read,context=Main,si
+Variable Write,context=Main#rec:72,result=1
+Method Exit,returner=Main#rec:72,value=1
+Variable Write,context=Main#rec:71,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:71,k=1
+Variable Delete,method=Main#rec:71 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:71 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:71,ni=3
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:71,nj=0
+Field Read,context=Main,h
+Variable Write,context=Main#rec:71,k=2
+Variable Delete,method=Main#rec:71 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:71 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:71,ni=2
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:71,nj=-1
+Variable Write,context=Main#rec:71,k=3
+Variable Delete,method=Main#rec:71 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:71 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:71,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:71,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:71,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:71,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:71,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:71,nj=0
+Variable Delete,method=Main#rec:71 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:71 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:71,result=1
+Method Exit,returner=Main#rec:71,value=1
+Variable Write,context=Main#rec:70,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:70,k=2
+Variable Delete,method=Main#rec:70 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:70 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:70,ni=1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:70,nj=-1
+Variable Write,context=Main#rec:70,k=3
+Variable Delete,method=Main#rec:70 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:70 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:70,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:70,nj=0
+Field Read,context=Main,h
+Field Read,context=Main,w
+Field Read,context=Main,table
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Field Read,context=Main,di
+Variable Write,context=Main#rec:70,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:70,nj=0
+Variable Delete,method=Main#rec:70 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:70 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:70,result=1
+Method Exit,returner=Main#rec:70,value=1
+Variable Write,context=Main#rec:69,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:69,k=2
+Variable Delete,method=Main#rec:69 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:69 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:69,ni=0
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:69,nj=-1
+Variable Write,context=Main#rec:69,k=3
+Variable Delete,method=Main#rec:69 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:69 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:69,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:69,nj=0
+Variable Delete,method=Main#rec:69 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:69 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:69,result=1
+Method Exit,returner=Main#rec:69,value=1
+Variable Write,context=Main#rec:64,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:64,k=3
+Variable Delete,method=Main#rec:64 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:64 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:64,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:64,nj=1
+Variable Delete,method=Main#rec:64 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:64 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:64,result=1
+Method Exit,returner=Main#rec:64,value=1
+Variable Write,context=Main#rec:63,res=1
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Write,context=Main#rec:63,k=3
+Variable Delete,method=Main#rec:63 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:63 <name=nj,type=int (id=7),value=<?>,index=5>
+Field Read,context=Main,di
+Variable Write,context=Main#rec:63,ni=-1
+Field Read,context=Main,dj
+Variable Write,context=Main#rec:63,nj=2
+Variable Delete,method=Main#rec:63 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:63 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:63,result=1
+Method Exit,returner=Main#rec:63,value=1
+Variable Write,context=Main#rec:41,res=3
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:41 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:41 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:41,result=3
+Method Exit,returner=Main#rec:41,value=3
+Variable Write,context=Main#rec:8,res=6
+Field Read,context=Main,visited
+Field Read,context=Main,w
+Variable Delete,method=Main#rec:8 <name=ni,type=int (id=7),value=<?>,index=4>
+Variable Delete,method=Main#rec:8 <name=nj,type=int (id=7),value=<?>,index=5>
+Variable Write,context=Main#rec:8,result=6
+Method Exit,returner=Main#rec:8,value=6
+Field Read,context=Main,out
+Variable Write,context=Main#solve:2,result=true
+Method Exit,returner=Main#solve:2,value=true
+Method Call,caller=Main#main:1,target=Main#solve:3
+Field Read,context=Main,in
+Field Write,context=Main,w=0
+Field Read,context=Main,in
+Field Write,context=Main,h=0
+Field Read,context=Main,w
+Field Read,context=Main,h
+Variable Write,context=Main#solve:3,result=false
+Method Exit,returner=Main#solve:3,value=false
+Field Read,context=Main,out
+Variable Write,context=Main#main:1,end=1768422838204
+Field Read,context=Main,in
+Field Read,context=Main,out
+Method Exit,returner=Main#main:1,value=<void>
+Thread End,

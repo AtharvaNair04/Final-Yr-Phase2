@@ -1,0 +1,60 @@
+Thread Start,main (1)
+Method Call,caller=SYSTEM,target=Main#main:1
+New Object,object=java.lang.String[]:1
+Variable Write,context=Main#main:1,args=java.lang.String[]:1
+Variable Write,context=Main#main:1,br=java.io.BufferedReader (id=342)
+Variable Write,context=Main#main:1,line=57 38
+New Object,object=java.lang.String[]:2
+Field Write,context=java.lang.String[]:2,0=57
+Field Write,context=java.lang.String[]:2,1=38
+Variable Write,context=Main#main:1,lineList=java.lang.String[]:2
+Variable Write,context=Main#main:1,x=57
+Variable Write,context=Main#main:1,y=38
+Method Call,caller=Main#main:1,target=Main#gcd:1
+Variable Write,context=Main#gcd:1,x=57
+Variable Write,context=Main#gcd:1,y=38
+Method Call,caller=Main#gcd:1,target=Main#gcd:2
+Variable Write,context=Main#gcd:2,x=38
+Variable Write,context=Main#gcd:2,y=19
+Method Call,caller=Main#gcd:2,target=Main#gcd:3
+Variable Write,context=Main#gcd:3,x=19
+Variable Write,context=Main#gcd:3,y=0
+Variable Write,context=Main#gcd:3,result=19
+Method Exit,returner=Main#gcd:3,value=19
+Variable Write,context=Main#gcd:2,result=19
+Method Exit,returner=Main#gcd:2,value=19
+Variable Write,context=Main#gcd:1,result=19
+Method Exit,returner=Main#gcd:1,value=19
+Variable Write,context=Main#main:1,line=60 84
+Variable Delete,method=Main#main:1 <name=lineList,type=java.lang.String[] (id=59),value=java.lang.String[]:3,index=3>
+New Object,object=java.lang.String[]:3
+Field Write,context=java.lang.String[]:3,0=60
+Field Write,context=java.lang.String[]:3,1=84
+Variable Write,context=Main#main:1,lineList=java.lang.String[]:3
+Variable Delete,method=Main#main:1 <name=x,type=int (id=7),value=84,index=4>
+Variable Write,context=Main#main:1,x=60
+Variable Delete,method=Main#main:1 <name=y,type=int (id=7),value=60,index=5>
+Variable Write,context=Main#main:1,y=84
+Variable Write,context=Main#main:1,tmp=60
+Variable Write,context=Main#main:1,x=84
+Variable Write,context=Main#main:1,y=60
+Method Call,caller=Main#main:1,target=Main#gcd:4
+Variable Write,context=Main#gcd:4,x=84
+Variable Write,context=Main#gcd:4,y=60
+Method Call,caller=Main#gcd:4,target=Main#gcd:5
+Variable Write,context=Main#gcd:5,x=60
+Variable Write,context=Main#gcd:5,y=24
+Method Call,caller=Main#gcd:5,target=Main#gcd:6
+Variable Write,context=Main#gcd:6,x=24
+Variable Write,context=Main#gcd:6,y=12
+Method Call,caller=Main#gcd:6,target=Main#gcd:7
+Variable Write,context=Main#gcd:7,x=12
+Variable Write,context=Main#gcd:7,y=0
+Variable Write,context=Main#gcd:7,result=12
+Method Exit,returner=Main#gcd:7,value=12
+Variable Write,context=Main#gcd:6,result=12
+Method Exit,returner=Main#gcd:6,value=12
+Variable Write,context=Main#gcd:5,result=12
+Method Exit,returner=Main#gcd:5,value=12
+Variable Write,context=Main#gcd:4,result=12
+Method Exit,returner=Main#gcd:4,value=12
