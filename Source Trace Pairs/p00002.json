@@ -1,0 +1,115 @@
+{
+    "program_id": "p00002",
+    "source": {
+        "program_id": "p00002",
+        "file": "p00002.java",
+        "package": null,
+        "classes": [
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            }
+        ],
+        "constructors": [],
+        "variables": [
+            "scan",
+            "a",
+            "b",
+            "sum",
+            "length"
+        ],
+        "method_calls": [
+            {
+                "name": "hasNextInt",
+                "qualifier": "scan"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "scan"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "scan"
+            },
+            {
+                "name": "log10",
+                "qualifier": "Math"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            }
+        ],
+        "control_statements": [
+            "while"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00002",
+        "event_count": 7,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "A": "5"
+                }
+            },
+            {
+                "step": 6,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "A": "1"
+                }
+            },
+            {
+                "step": 7,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "A": "1000"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,4942 @@
+{
+    "program_id": "p00242",
+    "source": {
+        "program_id": "p00242",
+        "file": "p00242.java",
+        "package": null,
+        "classes": [
+            "Moji",
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "compareTo",
+                "return_type": "int",
+                "parameters": [
+                    "o"
+                ]
+            },
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            },
+            {
+                "name": "run",
+                "return_type": null,
+                "parameters": []
+            }
+        ],
+        "constructors": [
+            {
+                "name": "Moji",
+                "parameters": [
+                    "a",
+                    "b"
+                ]
+            }
+        ],
+        "variables": [
+            "str",
+            "count",
+            "sc",
+            "ch",
+            "n",
+            "hm",
+            "m",
+            "i",
+            "j",
+            "t"
+        ],
+        "method_calls": [
+            {
+                "name": "compareTo",
+                "qualifier": null
+            },
+            {
+                "name": "run",
+                "qualifier": null
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "clear",
+                "qualifier": "hm"
+            },
+            {
+                "name": "nextLine",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextLine",
+                "qualifier": "sc"
+            },
+            {
+                "name": "split",
+                "qualifier": null
+            },
+            {
+                "name": "next",
+                "qualifier": "sc"
+            },
+            {
+                "name": "charAt",
+                "qualifier": null
+            },
+            {
+                "name": "charAt",
+                "qualifier": null
+            },
+            {
+                "name": "containsKey",
+                "qualifier": "hm"
+            },
+            {
+                "name": "get",
+                "qualifier": "hm"
+            },
+            {
+                "name": "put",
+                "qualifier": "hm"
+            },
+            {
+                "name": "sort",
+                "qualifier": "Arrays"
+            },
+            {
+                "name": "isEmpty",
+                "qualifier": "hm"
+            },
+            {
+                "name": "print",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "print",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "print",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            }
+        ],
+        "control_statements": [
+            "if",
+            "while",
+            "for"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00242",
+        "event_count": 599,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main:1"
+                }
+            },
+            {
+                "step": 6,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main:1#Main:1"
+                }
+            },
+            {
+                "step": 7,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#Main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 8,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main:1#run:1"
+                }
+            },
+            {
+                "step": 9,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "SC": "java.util.Scanner (id=48)"
+                }
+            },
+            {
+                "step": 10,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "HM": "java.util.HashMap (id=49)"
+                }
+            },
+            {
+                "step": 11,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 12,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "1"
+                }
+            },
+            {
+                "step": 13,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 14,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[][]:1"
+                }
+            },
+            {
+                "step": 15,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:1",
+                    "0": "null"
+                }
+            },
+            {
+                "step": 16,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "STR": "java.lang.String[][]:1"
+                }
+            },
+            {
+                "step": 17,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 18,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:2"
+                }
+            },
+            {
+                "step": 19,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "0": "ben"
+                }
+            },
+            {
+                "step": 20,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "1": "likes"
+                }
+            },
+            {
+                "step": 21,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "2": "bananas"
+                }
+            },
+            {
+                "step": 22,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "3": "the"
+                }
+            },
+            {
+                "step": 23,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "4": "best"
+                }
+            },
+            {
+                "step": 24,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "5": "among"
+                }
+            },
+            {
+                "step": 25,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "6": "many"
+                }
+            },
+            {
+                "step": 26,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "7": "fruits"
+                }
+            },
+            {
+                "step": 27,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "8": "because"
+                }
+            },
+            {
+                "step": 28,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "9": "bananas"
+                }
+            },
+            {
+                "step": 29,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "10": "are"
+                }
+            },
+            {
+                "step": 30,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "11": "sweet"
+                }
+            },
+            {
+                "step": 31,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "12": "and"
+                }
+            },
+            {
+                "step": 32,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "13": "cheap"
+                }
+            },
+            {
+                "step": 33,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:1",
+                    "0": "java.lang.String[]:2"
+                }
+            },
+            {
+                "step": 34,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "STR": "java.lang.String[][]:1"
+                }
+            },
+            {
+                "step": 35,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 36,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CH": "b"
+                }
+            },
+            {
+                "step": 37,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 38,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 39,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:1"
+                }
+            },
+            {
+                "step": 40,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:1#Moji:1"
+                }
+            },
+            {
+                "step": 41,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:1#Moji:1",
+                    "A": "ben"
+                }
+            },
+            {
+                "step": 42,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:1#Moji:1",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 43,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:1",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 44,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:1",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 45,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:1",
+                    "STR": "ben"
+                }
+            },
+            {
+                "step": 46,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:1",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 47,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:1#Moji:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 48,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 49,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 50,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 51,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 52,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:2"
+                }
+            },
+            {
+                "step": 53,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:2#Moji:2"
+                }
+            },
+            {
+                "step": 54,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:2#Moji:2",
+                    "A": "bananas"
+                }
+            },
+            {
+                "step": 55,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:2#Moji:2",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 56,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:2",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 57,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:2",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 58,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:2",
+                    "STR": "bananas"
+                }
+            },
+            {
+                "step": 59,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:2",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 60,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:2#Moji:2",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 61,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 62,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "2"
+                }
+            },
+            {
+                "step": 63,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 64,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "4"
+                }
+            },
+            {
+                "step": 65,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:3"
+                }
+            },
+            {
+                "step": 66,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:3#Moji:3"
+                }
+            },
+            {
+                "step": 67,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:3#Moji:3",
+                    "A": "best"
+                }
+            },
+            {
+                "step": 68,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:3#Moji:3",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 69,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:3",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 70,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:3",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 71,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:3",
+                    "STR": "best"
+                }
+            },
+            {
+                "step": 72,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:3",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 73,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:3#Moji:3",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 74,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 75,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "3"
+                }
+            },
+            {
+                "step": 76,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "5"
+                }
+            },
+            {
+                "step": 77,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "6"
+                }
+            },
+            {
+                "step": 78,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "7"
+                }
+            },
+            {
+                "step": 79,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "8"
+                }
+            },
+            {
+                "step": 80,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:4"
+                }
+            },
+            {
+                "step": 81,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:4#Moji:4"
+                }
+            },
+            {
+                "step": 82,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:4#Moji:4",
+                    "A": "because"
+                }
+            },
+            {
+                "step": 83,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:4#Moji:4",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 84,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:4",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 85,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:4",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 86,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:4",
+                    "STR": "because"
+                }
+            },
+            {
+                "step": 87,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:4",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 88,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:4#Moji:4",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 89,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 90,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "4"
+                }
+            },
+            {
+                "step": 91,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "9"
+                }
+            },
+            {
+                "step": 92,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 93,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:2",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 94,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:2",
+                    "COUNT": "2"
+                }
+            },
+            {
+                "step": 95,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "10"
+                }
+            },
+            {
+                "step": 96,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "11"
+                }
+            },
+            {
+                "step": 97,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "12"
+                }
+            },
+            {
+                "step": 98,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "13"
+                }
+            },
+            {
+                "step": 99,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 100,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 101,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 102,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 103,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 104,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 105,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 106,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 107,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 108,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "TARGET": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 109,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:2#compareTo:1"
+                }
+            },
+            {
+                "step": 110,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:2#compareTo:1",
+                    "O": "Moji:1"
+                }
+            },
+            {
+                "step": 111,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:2",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 112,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:1",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 113,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:2",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 114,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:1",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 115,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:2#compareTo:1",
+                    "RESULT": "-1"
+                }
+            },
+            {
+                "step": 116,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:2#compareTo:1",
+                    "VALUE": "-1"
+                }
+            },
+            {
+                "step": 117,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:3#compareTo:2"
+                }
+            },
+            {
+                "step": 118,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:3#compareTo:2",
+                    "O": "Moji:2"
+                }
+            },
+            {
+                "step": 119,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:3",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 120,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:2",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 121,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:3#compareTo:2",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 122,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:3#compareTo:2",
+                    "VALUE": "1"
+                }
+            },
+            {
+                "step": 123,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:3#compareTo:3"
+                }
+            },
+            {
+                "step": 124,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:3#compareTo:3",
+                    "O": "Moji:1"
+                }
+            },
+            {
+                "step": 125,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:3",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 126,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:1",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 127,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:3",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 128,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:1",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 129,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:3",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 130,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:1",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 131,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:3#compareTo:3",
+                    "RESULT": "5"
+                }
+            },
+            {
+                "step": 132,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:3#compareTo:3",
+                    "VALUE": "5"
+                }
+            },
+            {
+                "step": 133,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:4#compareTo:4"
+                }
+            },
+            {
+                "step": 134,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:4#compareTo:4",
+                    "O": "Moji:1"
+                }
+            },
+            {
+                "step": 135,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:4",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 136,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:1",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 137,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:4",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 138,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:1",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 139,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:4",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 140,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:1",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 141,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:4#compareTo:4",
+                    "RESULT": "-11"
+                }
+            },
+            {
+                "step": 142,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:4#compareTo:4",
+                    "VALUE": "-11"
+                }
+            },
+            {
+                "step": 143,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:4#compareTo:5"
+                }
+            },
+            {
+                "step": 144,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:4#compareTo:5",
+                    "O": "Moji:2"
+                }
+            },
+            {
+                "step": 145,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:4",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 146,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:2",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 147,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:4#compareTo:5",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 148,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:4#compareTo:5",
+                    "VALUE": "1"
+                }
+            },
+            {
+                "step": 149,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 150,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 151,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 152,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 153,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 154,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:2",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 155,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 156,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:4",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 157,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 158,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:1",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 159,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 160,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:3",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 161,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "4"
+                }
+            },
+            {
+                "step": 162,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "1"
+                }
+            },
+            {
+                "step": 163,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 164,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[][]:2"
+                }
+            },
+            {
+                "step": 165,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:2",
+                    "0": "null"
+                }
+            },
+            {
+                "step": 166,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "STR": "java.lang.String[][]:2"
+                }
+            },
+            {
+                "step": 167,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 168,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:3"
+                }
+            },
+            {
+                "step": 169,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "0": "winners"
+                }
+            },
+            {
+                "step": 170,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "1": "get"
+                }
+            },
+            {
+                "step": 171,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "2": "to"
+                }
+            },
+            {
+                "step": 172,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "3": "visit"
+                }
+            },
+            {
+                "step": 173,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "4": "aizu"
+                }
+            },
+            {
+                "step": 174,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "5": "and"
+                }
+            },
+            {
+                "step": 175,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "6": "the"
+                }
+            },
+            {
+                "step": 176,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "7": "university"
+                }
+            },
+            {
+                "step": 177,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "8": "of"
+                }
+            },
+            {
+                "step": 178,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "9": "aizu"
+                }
+            },
+            {
+                "step": 179,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "10": "and"
+                }
+            },
+            {
+                "step": 180,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "11": "make"
+                }
+            },
+            {
+                "step": 181,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "12": "many"
+                }
+            },
+            {
+                "step": 182,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "13": "friends"
+                }
+            },
+            {
+                "step": 183,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "14": "as"
+                }
+            },
+            {
+                "step": 184,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:3",
+                    "15": "well"
+                }
+            },
+            {
+                "step": 185,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:2",
+                    "0": "java.lang.String[]:3"
+                }
+            },
+            {
+                "step": 186,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "STR": "java.lang.String[][]:2"
+                }
+            },
+            {
+                "step": 187,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 188,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CH": "a"
+                }
+            },
+            {
+                "step": 189,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 190,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "5",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 191,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 192,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 193,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 194,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 195,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "4"
+                }
+            },
+            {
+                "step": 196,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:5"
+                }
+            },
+            {
+                "step": 197,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:5#Moji:5"
+                }
+            },
+            {
+                "step": 198,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:5#Moji:5",
+                    "A": "aizu"
+                }
+            },
+            {
+                "step": 199,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:5#Moji:5",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 200,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:5",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 201,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:5",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 202,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:5",
+                    "STR": "aizu"
+                }
+            },
+            {
+                "step": 203,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:5",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 204,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:5#Moji:5",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 205,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 206,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 207,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "5"
+                }
+            },
+            {
+                "step": 208,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:6"
+                }
+            },
+            {
+                "step": 209,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:6#Moji:6"
+                }
+            },
+            {
+                "step": 210,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:6#Moji:6",
+                    "A": "and"
+                }
+            },
+            {
+                "step": 211,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:6#Moji:6",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 212,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:6",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 213,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:6",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 214,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:6",
+                    "STR": "and"
+                }
+            },
+            {
+                "step": 215,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:6",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 216,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:6#Moji:6",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 217,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 218,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "2"
+                }
+            },
+            {
+                "step": 219,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "6"
+                }
+            },
+            {
+                "step": 220,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "7"
+                }
+            },
+            {
+                "step": 221,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "8"
+                }
+            },
+            {
+                "step": 222,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "9"
+                }
+            },
+            {
+                "step": 223,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "1",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 224,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "0"
+                }
+            },
+            {
+                "step": 225,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:5",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 226,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:5",
+                    "COUNT": "2"
+                }
+            },
+            {
+                "step": 227,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "10"
+                }
+            },
+            {
+                "step": 228,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=t",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "1",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 229,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "T": "1"
+                }
+            },
+            {
+                "step": 230,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:6",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 231,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:6",
+                    "COUNT": "2"
+                }
+            },
+            {
+                "step": 232,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "11"
+                }
+            },
+            {
+                "step": 233,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "12"
+                }
+            },
+            {
+                "step": 234,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "13"
+                }
+            },
+            {
+                "step": 235,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "14"
+                }
+            },
+            {
+                "step": 236,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:7"
+                }
+            },
+            {
+                "step": 237,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:7#Moji:7"
+                }
+            },
+            {
+                "step": 238,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:7#Moji:7",
+                    "A": "as"
+                }
+            },
+            {
+                "step": 239,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:7#Moji:7",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 240,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:7",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 241,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:7",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 242,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:7",
+                    "STR": "as"
+                }
+            },
+            {
+                "step": 243,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:7",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 244,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:7#Moji:7",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 245,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 246,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "3"
+                }
+            },
+            {
+                "step": 247,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "15"
+                }
+            },
+            {
+                "step": 248,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 249,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 250,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 251,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 252,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 253,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 254,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 255,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 256,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 257,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "TARGET": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 258,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:6#compareTo:6"
+                }
+            },
+            {
+                "step": 259,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:6#compareTo:6",
+                    "O": "Moji:5"
+                }
+            },
+            {
+                "step": 260,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:6",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 261,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:5",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 262,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:6",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 263,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:5",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 264,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:6",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 265,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:5",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 266,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:6#compareTo:6",
+                    "RESULT": "5"
+                }
+            },
+            {
+                "step": 267,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:6#compareTo:6",
+                    "VALUE": "5"
+                }
+            },
+            {
+                "step": 268,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:7#compareTo:7"
+                }
+            },
+            {
+                "step": 269,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:7#compareTo:7",
+                    "O": "Moji:6"
+                }
+            },
+            {
+                "step": 270,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:7",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 271,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:6",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 272,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:7#compareTo:7",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 273,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:7#compareTo:7",
+                    "VALUE": "1"
+                }
+            },
+            {
+                "step": 274,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 275,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 276,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 277,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 278,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 279,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:5",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 280,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "4",
+                    "INDEX": "11>"
+                }
+            },
+            {
+                "step": 281,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 282,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:6",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 283,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 284,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:7",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 285,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 286,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "3"
+                }
+            },
+            {
+                "step": 287,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 288,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[][]:3"
+                }
+            },
+            {
+                "step": 289,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:3",
+                    "0": "null"
+                }
+            },
+            {
+                "step": 290,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:3",
+                    "1": "null"
+                }
+            },
+            {
+                "step": 291,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:3",
+                    "2": "null"
+                }
+            },
+            {
+                "step": 292,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "STR": "java.lang.String[][]:3"
+                }
+            },
+            {
+                "step": 293,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 294,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:4"
+                }
+            },
+            {
+                "step": 295,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:4",
+                    "0": "ask"
+                }
+            },
+            {
+                "step": 296,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:4",
+                    "1": "alex"
+                }
+            },
+            {
+                "step": 297,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:4",
+                    "2": "about"
+                }
+            },
+            {
+                "step": 298,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:3",
+                    "0": "java.lang.String[]:4"
+                }
+            },
+            {
+                "step": 299,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "STR": "java.lang.String[][]:3"
+                }
+            },
+            {
+                "step": 300,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 301,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:5"
+                }
+            },
+            {
+                "step": 302,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:5",
+                    "0": "the"
+                }
+            },
+            {
+                "step": 303,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:5",
+                    "1": "answer"
+                }
+            },
+            {
+                "step": 304,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:5",
+                    "2": "for"
+                }
+            },
+            {
+                "step": 305,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:5",
+                    "3": "the"
+                }
+            },
+            {
+                "step": 306,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:3",
+                    "1": "java.lang.String[]:5"
+                }
+            },
+            {
+                "step": 307,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "STR": "java.lang.String[][]:3"
+                }
+            },
+            {
+                "step": 308,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 309,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:6"
+                }
+            },
+            {
+                "step": 310,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:6",
+                    "0": "assignment"
+                }
+            },
+            {
+                "step": 311,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:6",
+                    "1": "on"
+                }
+            },
+            {
+                "step": 312,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:6",
+                    "2": "android"
+                }
+            },
+            {
+                "step": 313,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:6",
+                    "3": "apps"
+                }
+            },
+            {
+                "step": 314,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:3",
+                    "2": "java.lang.String[]:6"
+                }
+            },
+            {
+                "step": 315,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "STR": "java.lang.String[][]:3"
+                }
+            },
+            {
+                "step": 316,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 317,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CH": "a"
+                }
+            },
+            {
+                "step": 318,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 319,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "5",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 320,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 321,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:8"
+                }
+            },
+            {
+                "step": 322,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:8#Moji:8"
+                }
+            },
+            {
+                "step": 323,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:8#Moji:8",
+                    "A": "ask"
+                }
+            },
+            {
+                "step": 324,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:8#Moji:8",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 325,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 326,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 327,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "STR": "ask"
+                }
+            },
+            {
+                "step": 328,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 329,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:8#Moji:8",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 330,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 331,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 332,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 333,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:9"
+                }
+            },
+            {
+                "step": 334,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:9#Moji:9"
+                }
+            },
+            {
+                "step": 335,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:9#Moji:9",
+                    "A": "alex"
+                }
+            },
+            {
+                "step": 336,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:9#Moji:9",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 337,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 338,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 339,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "STR": "alex"
+                }
+            },
+            {
+                "step": 340,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 341,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:9#Moji:9",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 342,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 343,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "2"
+                }
+            },
+            {
+                "step": 344,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 345,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:10"
+                }
+            },
+            {
+                "step": 346,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:10#Moji:10"
+                }
+            },
+            {
+                "step": 347,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:10#Moji:10",
+                    "A": "about"
+                }
+            },
+            {
+                "step": 348,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:10#Moji:10",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 349,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:10",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 350,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:10",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 351,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:10",
+                    "STR": "about"
+                }
+            },
+            {
+                "step": 352,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:10",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 353,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:10#Moji:10",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 354,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 355,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "3"
+                }
+            },
+            {
+                "step": 356,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 357,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "5",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 358,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 359,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 360,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:11"
+                }
+            },
+            {
+                "step": 361,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:11#Moji:11"
+                }
+            },
+            {
+                "step": 362,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:11#Moji:11",
+                    "A": "answer"
+                }
+            },
+            {
+                "step": 363,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:11#Moji:11",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 364,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 365,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 366,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "STR": "answer"
+                }
+            },
+            {
+                "step": 367,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 368,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:11#Moji:11",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 369,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 370,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "4"
+                }
+            },
+            {
+                "step": 371,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 372,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 373,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 374,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "5",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 375,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 376,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:12"
+                }
+            },
+            {
+                "step": 377,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:12#Moji:12"
+                }
+            },
+            {
+                "step": 378,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:12#Moji:12",
+                    "A": "assignment"
+                }
+            },
+            {
+                "step": 379,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:12#Moji:12",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 380,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:12",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 381,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:12",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 382,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:12",
+                    "STR": "assignment"
+                }
+            },
+            {
+                "step": 383,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:12",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 384,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:12#Moji:12",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 385,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 386,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "5"
+                }
+            },
+            {
+                "step": 387,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 388,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 389,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:13"
+                }
+            },
+            {
+                "step": 390,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:13#Moji:13"
+                }
+            },
+            {
+                "step": 391,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:13#Moji:13",
+                    "A": "android"
+                }
+            },
+            {
+                "step": 392,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:13#Moji:13",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 393,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:13",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 394,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:13",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 395,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:13",
+                    "STR": "android"
+                }
+            },
+            {
+                "step": 396,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:13",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 397,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:13#Moji:13",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 398,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 399,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "6"
+                }
+            },
+            {
+                "step": 400,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 401,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Moji:14"
+                }
+            },
+            {
+                "step": 402,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Moji:14#Moji:14"
+                }
+            },
+            {
+                "step": 403,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:14#Moji:14",
+                    "A": "apps"
+                }
+            },
+            {
+                "step": 404,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:14#Moji:14",
+                    "B": "1"
+                }
+            },
+            {
+                "step": 405,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "STR": ""
+                }
+            },
+            {
+                "step": 406,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 407,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "STR": "apps"
+                }
+            },
+            {
+                "step": 408,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "COUNT": "1"
+                }
+            },
+            {
+                "step": 409,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:14#Moji:14",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 410,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "M": "Moji[200] (id=53)"
+                }
+            },
+            {
+                "step": 411,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "7"
+                }
+            },
+            {
+                "step": 412,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 413,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 414,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 415,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 416,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 417,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/ComparableTimSort;.sort([Ljava/lang/Object;II[Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 418,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 419,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 420,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "TARGET": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)"
+                }
+            },
+            {
+                "step": 421,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "TARGET": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>"
+                }
+            },
+            {
+                "step": 422,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:9#compareTo:8"
+                }
+            },
+            {
+                "step": 423,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:9#compareTo:8",
+                    "O": "Moji:8"
+                }
+            },
+            {
+                "step": 424,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 425,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 426,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 427,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 428,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 429,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 430,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:9#compareTo:8",
+                    "RESULT": "-7"
+                }
+            },
+            {
+                "step": 431,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:9#compareTo:8",
+                    "VALUE": "-7"
+                }
+            },
+            {
+                "step": 432,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:10#compareTo:9"
+                }
+            },
+            {
+                "step": 433,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:10#compareTo:9",
+                    "O": "Moji:9"
+                }
+            },
+            {
+                "step": 434,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:10",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 435,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 436,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:10",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 437,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 438,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:10",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 439,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 440,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:10#compareTo:9",
+                    "RESULT": "-10"
+                }
+            },
+            {
+                "step": 441,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:10#compareTo:9",
+                    "VALUE": "-10"
+                }
+            },
+            {
+                "step": 442,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:11#compareTo:10"
+                }
+            },
+            {
+                "step": 443,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:11#compareTo:10",
+                    "O": "Moji:10"
+                }
+            },
+            {
+                "step": 444,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 445,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:10",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 446,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 447,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:10",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 448,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 449,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:10",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 450,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:11#compareTo:10",
+                    "RESULT": "12"
+                }
+            },
+            {
+                "step": 451,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:11#compareTo:10",
+                    "VALUE": "12"
+                }
+            },
+            {
+                "step": 452,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:11#compareTo:11"
+                }
+            },
+            {
+                "step": 453,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:11#compareTo:11",
+                    "O": "Moji:9"
+                }
+            },
+            {
+                "step": 454,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 455,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 456,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 457,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 458,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 459,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 460,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:11#compareTo:11",
+                    "RESULT": "2"
+                }
+            },
+            {
+                "step": 461,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:11#compareTo:11",
+                    "VALUE": "2"
+                }
+            },
+            {
+                "step": 462,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:11#compareTo:12"
+                }
+            },
+            {
+                "step": 463,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:11#compareTo:12",
+                    "O": "Moji:8"
+                }
+            },
+            {
+                "step": 464,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 465,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 466,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 467,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 468,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 469,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 470,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:11#compareTo:12",
+                    "RESULT": "-5"
+                }
+            },
+            {
+                "step": 471,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:11#compareTo:12",
+                    "VALUE": "-5"
+                }
+            },
+            {
+                "step": 472,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:12#compareTo:13"
+                }
+            },
+            {
+                "step": 473,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:12#compareTo:13",
+                    "O": "Moji:11"
+                }
+            },
+            {
+                "step": 474,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:12",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 475,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 476,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:12",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 477,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 478,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:12",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 479,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 480,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:12#compareTo:13",
+                    "RESULT": "5"
+                }
+            },
+            {
+                "step": 481,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:12#compareTo:13",
+                    "VALUE": "5"
+                }
+            },
+            {
+                "step": 482,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:12#compareTo:14"
+                }
+            },
+            {
+                "step": 483,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:12#compareTo:14",
+                    "O": "Moji:8"
+                }
+            },
+            {
+                "step": 484,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:12",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 485,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 486,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:12",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 487,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 488,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:12",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 489,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 490,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:12#compareTo:14",
+                    "RESULT": "8"
+                }
+            },
+            {
+                "step": 491,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:12#compareTo:14",
+                    "VALUE": "8"
+                }
+            },
+            {
+                "step": 492,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:13#compareTo:15"
+                }
+            },
+            {
+                "step": 493,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:13#compareTo:15",
+                    "O": "Moji:11"
+                }
+            },
+            {
+                "step": 494,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:13",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 495,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 496,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:13",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 497,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 498,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:13",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 499,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 500,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:13#compareTo:15",
+                    "RESULT": "-15"
+                }
+            },
+            {
+                "step": 501,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:13#compareTo:15",
+                    "VALUE": "-15"
+                }
+            },
+            {
+                "step": 502,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:13#compareTo:16"
+                }
+            },
+            {
+                "step": 503,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:13#compareTo:16",
+                    "O": "Moji:9"
+                }
+            },
+            {
+                "step": 504,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:13",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 505,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 506,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:13",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 507,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 508,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:13",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 509,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 510,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:13#compareTo:16",
+                    "RESULT": "2"
+                }
+            },
+            {
+                "step": 511,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:13#compareTo:16",
+                    "VALUE": "2"
+                }
+            },
+            {
+                "step": 512,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:14#compareTo:17"
+                }
+            },
+            {
+                "step": 513,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:14#compareTo:17",
+                    "O": "Moji:11"
+                }
+            },
+            {
+                "step": 514,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 515,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 516,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 517,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 518,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 519,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 520,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:14#compareTo:17",
+                    "RESULT": "2"
+                }
+            },
+            {
+                "step": 521,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:14#compareTo:17",
+                    "VALUE": "2"
+                }
+            },
+            {
+                "step": 522,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:14#compareTo:18"
+                }
+            },
+            {
+                "step": 523,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:14#compareTo:18",
+                    "O": "Moji:12"
+                }
+            },
+            {
+                "step": 524,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 525,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:12",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 526,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 527,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:12",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 528,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 529,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:12",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 530,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:14#compareTo:18",
+                    "RESULT": "-3"
+                }
+            },
+            {
+                "step": 531,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:14#compareTo:18",
+                    "VALUE": "-3"
+                }
+            },
+            {
+                "step": 532,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "TARGET": "Moji:14#compareTo:19"
+                }
+            },
+            {
+                "step": 533,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:14#compareTo:19",
+                    "O": "Moji:8"
+                }
+            },
+            {
+                "step": 534,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 535,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 536,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 537,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "VALUE_2": "count"
+                }
+            },
+            {
+                "step": 538,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 539,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:8",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 540,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Moji:14#compareTo:19",
+                    "RESULT": "-3"
+                }
+            },
+            {
+                "step": 541,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Moji:14#compareTo:19",
+                    "VALUE": "-3"
+                }
+            },
+            {
+                "step": 542,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMoji;.compareTo(Ljava/lang/Object;) <BRIDGE>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 543,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 544,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/ComparableTimSort;.countRunAndMakeAscending([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 545,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/Arrays;.sort([Ljava/lang/Object;II)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 546,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 547,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:10",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 548,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "4",
+                    "INDEX": "11>"
+                }
+            },
+            {
+                "step": 549,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 550,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:9",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 551,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 552,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:13",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 553,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 554,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:11",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 555,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "4"
+                }
+            },
+            {
+                "step": 556,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Moji:14",
+                    "VALUE_2": "str"
+                }
+            },
+            {
+                "step": 557,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "2"
+                }
+            },
+            {
+                "step": 558,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "COUNT": "0"
+                }
+            },
+            {
+                "step": 559,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[][]:4"
+                }
+            },
+            {
+                "step": 560,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:4",
+                    "0": "null"
+                }
+            },
+            {
+                "step": 561,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:4",
+                    "1": "null"
+                }
+            },
+            {
+                "step": 562,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "STR": "java.lang.String[][]:4"
+                }
+            },
+            {
+                "step": 563,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 564,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:7"
+                }
+            },
+            {
+                "step": 565,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:7",
+                    "0": "programming"
+                }
+            },
+            {
+                "step": 566,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:7",
+                    "1": "is"
+                }
+            },
+            {
+                "step": 567,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:7",
+                    "2": "both"
+                }
+            },
+            {
+                "step": 568,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:4",
+                    "0": "java.lang.String[]:7"
+                }
+            },
+            {
+                "step": 569,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "STR": "java.lang.String[][]:4"
+                }
+            },
+            {
+                "step": 570,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 571,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:8"
+                }
+            },
+            {
+                "step": 572,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:8",
+                    "0": "a"
+                }
+            },
+            {
+                "step": 573,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:8",
+                    "1": "sport"
+                }
+            },
+            {
+                "step": 574,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:8",
+                    "2": "and"
+                }
+            },
+            {
+                "step": 575,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:8",
+                    "3": "an"
+                }
+            },
+            {
+                "step": 576,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:8",
+                    "4": "intellectual"
+                }
+            },
+            {
+                "step": 577,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:8",
+                    "5": "puzzle"
+                }
+            },
+            {
+                "step": 578,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[][]:4",
+                    "1": "java.lang.String[]:8"
+                }
+            },
+            {
+                "step": 579,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "STR": "java.lang.String[][]:4"
+                }
+            },
+            {
+                "step": 580,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 581,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CH": "c"
+                }
+            },
+            {
+                "step": 582,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 583,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "5",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 584,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 585,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 586,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 587,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 588,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "5",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 589,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 590,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 591,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 592,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 593,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "4"
+                }
+            },
+            {
+                "step": 594,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "J": "5"
+                }
+            },
+            {
+                "step": 595,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 596,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 597,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#run:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 598,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 599,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

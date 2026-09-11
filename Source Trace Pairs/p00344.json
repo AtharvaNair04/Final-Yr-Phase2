@@ -1,0 +1,1007 @@
+{
+    "program_id": "p00344",
+    "source": {
+        "program_id": "p00344",
+        "file": "p00344.java",
+        "package": null,
+        "classes": [
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            }
+        ],
+        "constructors": [],
+        "variables": [
+            "br",
+            "line",
+            "N",
+            "a",
+            "st",
+            "i",
+            "indeg",
+            "used",
+            "j"
+        ],
+        "method_calls": [
+            {
+                "name": "parseInt",
+                "qualifier": ""
+            },
+            {
+                "name": "readLine",
+                "qualifier": "br"
+            },
+            {
+                "name": "readLine",
+                "qualifier": "br"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": ""
+            },
+            {
+                "name": "nextToken",
+                "qualifier": "st"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "stream",
+                "qualifier": "Arrays"
+            },
+            {
+                "name": "filter",
+                "qualifier": null
+            },
+            {
+                "name": "count",
+                "qualifier": null
+            }
+        ],
+        "control_statements": [
+            "for",
+            "while"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00344",
+        "event_count": 116,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "BR": "java.io.BufferedReader (id=24)"
+                }
+            },
+            {
+                "step": 6,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "N": "3"
+                }
+            },
+            {
+                "step": 7,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:1"
+                }
+            },
+            {
+                "step": 8,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 9,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 10,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "2": "0"
+                }
+            },
+            {
+                "step": 11,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "A": "int[]:1"
+                }
+            },
+            {
+                "step": 12,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ST": "java.util.StringTokenizer (id=29)"
+                }
+            },
+            {
+                "step": 13,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 14,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "0": "1"
+                }
+            },
+            {
+                "step": 15,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "A": "int[]:1"
+                }
+            },
+            {
+                "step": 16,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 17,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "1": "1"
+                }
+            },
+            {
+                "step": 18,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "A": "int[]:1"
+                }
+            },
+            {
+                "step": 19,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 20,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "2": "1"
+                }
+            },
+            {
+                "step": 21,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "A": "int[]:1"
+                }
+            },
+            {
+                "step": 22,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:2"
+                }
+            },
+            {
+                "step": 23,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 24,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 25,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "2": "0"
+                }
+            },
+            {
+                "step": 26,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "INDEG": "int[]:2"
+                }
+            },
+            {
+                "step": 27,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "boolean[]:1"
+                }
+            },
+            {
+                "step": 28,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:1",
+                    "0": "false"
+                }
+            },
+            {
+                "step": 29,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:1",
+                    "1": "false"
+                }
+            },
+            {
+                "step": 30,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "boolean[]:1",
+                    "2": "false"
+                }
+            },
+            {
+                "step": 31,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "USED": "boolean[]:1"
+                }
+            },
+            {
+                "step": 32,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 33,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "1": "1"
+                }
+            },
+            {
+                "step": 34,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "INDEG": "int[]:2"
+                }
+            },
+            {
+                "step": 35,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 36,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "2": "1"
+                }
+            },
+            {
+                "step": 37,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "INDEG": "int[]:2"
+                }
+            },
+            {
+                "step": 38,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 39,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "0": "1"
+                }
+            },
+            {
+                "step": 40,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "INDEG": "int[]:2"
+                }
+            },
+            {
+                "step": 41,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 42,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 43,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 44,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "2",
+                    "INDEX": "11>"
+                }
+            },
+            {
+                "step": 45,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 46,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 47,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "2",
+                    "INDEX": "11>"
+                }
+            },
+            {
+                "step": 48,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 49,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 50,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Ljava/lang/invoke/MethodHandleNatives;.linkCallSiteImpl(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;[Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 51,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/lang/invoke/MethodHandleNatives;.linkCallSiteImpl(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;[Ljava/lang/Object;)",
+                    "TARGET": "Ljava/lang/invoke/MethodHandleNatives;.linkCallSiteImpl(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;[Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 52,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/lang/invoke/MethodHandleNatives;.linkCallSiteImpl(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;[Ljava/lang/Object;)",
+                    "TARGET": "Ljava/lang/invoke/CallSite;.makeSite(Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;Ljava/lang/Class;)"
+                }
+            },
+            {
+                "step": 53,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/lang/invoke/CallSite;.makeSite(Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;Ljava/lang/Class;)",
+                    "TARGET": "Ljava/lang/invoke/LambdaForm$MH/1927950199;.invoke_MT(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 54,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/lang/invoke/LambdaForm$MH/1927950199;.invoke_MT(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)",
+                    "TARGET": "Ljava/lang/invoke/LambdaForm$BMH/531885035;.reinvoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 55,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/lang/invoke/LambdaForm$BMH/531885035;.reinvoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)",
+                    "TARGET": "Ljava/lang/invoke/LambdaForm$DMH/1878246837;.invokeStatic_L6_L(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 56,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/lang/invoke/LambdaForm$DMH/1878246837;.invokeStatic_L6_L(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)",
+                    "TARGET": "Ljava/lang/invoke/LambdaMetafactory;.metafactory(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)"
+                }
+            },
+            {
+                "step": 57,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/lang/invoke/LambdaMetafactory;.metafactory(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)",
+                    "TARGET": "Ljava/lang/invoke/InnerClassLambdaMetafactory;.buildCallSite()"
+                }
+            },
+            {
+                "step": 58,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/lang/invoke/InnerClassLambdaMetafactory;.buildCallSite()",
+                    "TARGET": "Ljava/lang/reflect/Constructor;.newInstance([Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 59,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/lang/reflect/Constructor;.newInstance([Ljava/lang/Object;)",
+                    "TARGET": "Lsun/reflect/DelegatingConstructorAccessorImpl;.newInstance([Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 60,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Lsun/reflect/DelegatingConstructorAccessorImpl;.newInstance([Ljava/lang/Object;)",
+                    "TARGET": "Lsun/reflect/NativeConstructorAccessorImpl;.newInstance([Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 61,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Lsun/reflect/NativeConstructorAccessorImpl;.newInstance([Ljava/lang/Object;)",
+                    "TARGET": "Lsun/reflect/NativeConstructorAccessorImpl;.newInstance0(Ljava/lang/reflect/Constructor;[Ljava/lang/Object;)"
+                }
+            },
+            {
+                "step": 62,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$$Lambda$1.303563356:1"
+                }
+            },
+            {
+                "step": 63,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Lsun/reflect/NativeConstructorAccessorImpl;.newInstance0(Ljava/lang/reflect/Constructor;[Ljava/lang/Object;)",
+                    "TARGET": "Main$$Lambda$1.303563356:1#1.303563356:1"
+                }
+            },
+            {
+                "step": 64,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$$Lambda$1.303563356:1#1.303563356:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 65,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Lsun/reflect/NativeConstructorAccessorImpl;.newInstance0(Ljava/lang/reflect/Constructor;[Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 66,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Lsun/reflect/NativeConstructorAccessorImpl;.newInstance([Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 67,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Lsun/reflect/DelegatingConstructorAccessorImpl;.newInstance([Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 68,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/lang/reflect/Constructor;.newInstance([Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 69,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/lang/invoke/InnerClassLambdaMetafactory;.buildCallSite()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 70,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/lang/invoke/LambdaMetafactory;.metafactory(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 71,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/lang/invoke/LambdaForm$DMH/1878246837;.invokeStatic_L6_L(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 72,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/lang/invoke/LambdaForm$BMH/531885035;.reinvoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 73,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/lang/invoke/LambdaForm$MH/1927950199;.invoke_MT(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 74,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/lang/invoke/CallSite;.makeSite(Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;Ljava/lang/Class;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 75,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/lang/invoke/MethodHandleNatives;.linkCallSiteImpl(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;[Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 76,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/lang/invoke/MethodHandleNatives;.linkCallSiteImpl(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Object;[Ljava/lang/Object;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 77,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Ljava/util/stream/LongPipeline;.sum()"
+                }
+            },
+            {
+                "step": 78,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/stream/LongPipeline;.sum()",
+                    "TARGET": "Ljava/util/stream/LongPipeline;.sum()"
+                }
+            },
+            {
+                "step": 79,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/stream/LongPipeline;.sum()",
+                    "TARGET": "Ljava/util/stream/LongPipeline;.reduce(JLjava/util/function/LongBinaryOperator;)"
+                }
+            },
+            {
+                "step": 80,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/stream/LongPipeline;.reduce(JLjava/util/function/LongBinaryOperator;)",
+                    "TARGET": "Ljava/util/stream/AbstractPipeline;.evaluate(Ljava/util/stream/TerminalOp;)"
+                }
+            },
+            {
+                "step": 81,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/stream/AbstractPipeline;.evaluate(Ljava/util/stream/TerminalOp;)",
+                    "TARGET": "Ljava/util/stream/ReduceOps$ReduceOp;.evaluateSequential(Ljava/util/stream/PipelineHelper;Ljava/util/Spliterator;)"
+                }
+            },
+            {
+                "step": 82,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/stream/ReduceOps$ReduceOp;.evaluateSequential(Ljava/util/stream/PipelineHelper;Ljava/util/Spliterator;)",
+                    "TARGET": "Ljava/util/stream/AbstractPipeline;.wrapAndCopyInto(Ljava/util/stream/Sink;Ljava/util/Spliterator;)"
+                }
+            },
+            {
+                "step": 83,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/stream/AbstractPipeline;.wrapAndCopyInto(Ljava/util/stream/Sink;Ljava/util/Spliterator;)",
+                    "TARGET": "Ljava/util/stream/AbstractPipeline;.copyInto(Ljava/util/stream/Sink;Ljava/util/Spliterator;)"
+                }
+            },
+            {
+                "step": 84,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/stream/AbstractPipeline;.copyInto(Ljava/util/stream/Sink;Ljava/util/Spliterator;)",
+                    "TARGET": "Ljava/util/Spliterator$OfInt;.forEachRemaining(Ljava/util/function/Consumer;)"
+                }
+            },
+            {
+                "step": 85,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/Spliterator$OfInt;.forEachRemaining(Ljava/util/function/Consumer;)",
+                    "TARGET": "Ljava/util/Spliterators$IntArraySpliterator;.forEachRemaining(Ljava/util/function/IntConsumer;)"
+                }
+            },
+            {
+                "step": 86,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/Spliterators$IntArraySpliterator;.forEachRemaining(Ljava/util/function/IntConsumer;)",
+                    "TARGET": "Ljava/util/stream/IntPipeline$9$1;.accept(I)"
+                }
+            },
+            {
+                "step": 87,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/stream/IntPipeline$9$1;.accept(I)",
+                    "TARGET": "Main$$Lambda$1.303563356:1#test:1"
+                }
+            },
+            {
+                "step": 88,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$$Lambda$1.303563356:1#test:1",
+                    "ARG0": "1"
+                }
+            },
+            {
+                "step": 89,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$$Lambda$1.303563356:1#test:1",
+                    "TARGET": "LMain;.lambda$0(I) <SYNTHETIC>"
+                }
+            },
+            {
+                "step": 90,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain;.lambda$0(I) <SYNTHETIC>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 91,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$$Lambda$1.303563356:1#test:1",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 92,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$$Lambda$1.303563356:1#test:1",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 93,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/stream/IntPipeline$9$1;.accept(I)",
+                    "TARGET": "Main$$Lambda$1.303563356:1#test:2"
+                }
+            },
+            {
+                "step": 94,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$$Lambda$1.303563356:1#test:2",
+                    "ARG0": "1"
+                }
+            },
+            {
+                "step": 95,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$$Lambda$1.303563356:1#test:2",
+                    "TARGET": "LMain;.lambda$0(I) <SYNTHETIC>"
+                }
+            },
+            {
+                "step": 96,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain;.lambda$0(I) <SYNTHETIC>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 97,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$$Lambda$1.303563356:1#test:2",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 98,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$$Lambda$1.303563356:1#test:2",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 99,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Ljava/util/stream/IntPipeline$9$1;.accept(I)",
+                    "TARGET": "Main$$Lambda$1.303563356:1#test:3"
+                }
+            },
+            {
+                "step": 100,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$$Lambda$1.303563356:1#test:3",
+                    "ARG0": "1"
+                }
+            },
+            {
+                "step": 101,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$$Lambda$1.303563356:1#test:3",
+                    "TARGET": "LMain;.lambda$0(I) <SYNTHETIC>"
+                }
+            },
+            {
+                "step": 102,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "LMain;.lambda$0(I) <SYNTHETIC>",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 103,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$$Lambda$1.303563356:1#test:3",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 104,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$$Lambda$1.303563356:1#test:3",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 105,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/stream/IntPipeline$9$1;.accept(I)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 106,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/Spliterators$IntArraySpliterator;.forEachRemaining(Ljava/util/function/IntConsumer;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 107,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/Spliterator$OfInt;.forEachRemaining(Ljava/util/function/Consumer;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 108,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/stream/AbstractPipeline;.copyInto(Ljava/util/stream/Sink;Ljava/util/Spliterator;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 109,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/stream/AbstractPipeline;.wrapAndCopyInto(Ljava/util/stream/Sink;Ljava/util/Spliterator;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 110,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/stream/ReduceOps$ReduceOp;.evaluateSequential(Ljava/util/stream/PipelineHelper;Ljava/util/Spliterator;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 111,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/stream/AbstractPipeline;.evaluate(Ljava/util/stream/TerminalOp;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 112,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/stream/LongPipeline;.reduce(JLjava/util/function/LongBinaryOperator;)",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 113,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/stream/LongPipeline;.sum()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 114,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Ljava/util/stream/LongPipeline;.sum()",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 115,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 116,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "program_id": "p00006",
+    "source": {
+        "program_id": "p00006",
+        "file": "p00006.java",
+        "package": null,
+        "classes": [
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            }
+        ],
+        "constructors": [],
+        "variables": [
+            "sc",
+            "s",
+            "sb"
+        ],
+        "method_calls": [
+            {
+                "name": "nextLine",
+                "qualifier": "sc"
+            },
+            {
+                "name": "reverse",
+                "qualifier": "sb"
+            },
+            {
+                "name": "toString",
+                "qualifier": null
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            }
+        ],
+        "control_statements": []
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00006",
+        "event_count": 10,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "SC": "java.util.Scanner (id=47)"
+                }
+            },
+            {
+                "step": 6,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "S": "w32nimda"
+                }
+            },
+            {
+                "step": 7,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "SB": "java.lang.StringBuffer (id=49)"
+                }
+            },
+            {
+                "step": 8,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "S": "admin23w"
+                }
+            },
+            {
+                "step": 9,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 10,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

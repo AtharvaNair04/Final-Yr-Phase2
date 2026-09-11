@@ -1,0 +1,124 @@
+{
+    "program_id": "p00159",
+    "source": {
+        "program_id": "p00159",
+        "file": "p00159.java",
+        "package": null,
+        "classes": [
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "z"
+                ]
+            }
+        ],
+        "constructors": [],
+        "variables": [
+            "s",
+            "t",
+            "m",
+            "d",
+            "h",
+            "w",
+            "b",
+            "i"
+        ],
+        "method_calls": [
+            {
+                "name": "nextInt",
+                "qualifier": "s"
+            },
+            {
+                "name": "next",
+                "qualifier": "s"
+            },
+            {
+                "name": "nextDouble",
+                "qualifier": "s"
+            },
+            {
+                "name": "nextDouble",
+                "qualifier": "s"
+            },
+            {
+                "name": "compareTo",
+                "qualifier": "m"
+            },
+            {
+                "name": "abs",
+                "qualifier": "Math"
+            },
+            {
+                "name": "equals",
+                "qualifier": "m"
+            },
+            {
+                "name": "compareTo",
+                "qualifier": "b"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            }
+        ],
+        "control_statements": [
+            "for",
+            "if"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00159",
+        "event_count": 6,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "Z": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 6,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

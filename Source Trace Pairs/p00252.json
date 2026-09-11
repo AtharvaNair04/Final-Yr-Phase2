@@ -1,0 +1,569 @@
+{
+    "program_id": "p00252",
+    "source": {
+        "program_id": "p00252",
+        "file": "p00252.java",
+        "package": null,
+        "classes": [
+            "Main",
+            "SC"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            },
+            {
+                "name": "next",
+                "return_type": "String",
+                "parameters": []
+            },
+            {
+                "name": "nextInt",
+                "return_type": "int",
+                "parameters": []
+            },
+            {
+                "name": "nextLong",
+                "return_type": "long",
+                "parameters": []
+            },
+            {
+                "name": "nextDouble",
+                "return_type": "double",
+                "parameters": []
+            },
+            {
+                "name": "nextLine",
+                "return_type": "String",
+                "parameters": []
+            },
+            {
+                "name": "pl",
+                "return_type": null,
+                "parameters": [
+                    "o"
+                ]
+            },
+            {
+                "name": "pl",
+                "return_type": null,
+                "parameters": []
+            },
+            {
+                "name": "p",
+                "return_type": null,
+                "parameters": [
+                    "o"
+                ]
+            },
+            {
+                "name": "root",
+                "return_type": "int",
+                "parameters": [
+                    "a"
+                ]
+            }
+        ],
+        "constructors": [
+            {
+                "name": "SC",
+                "parameters": [
+                    "in"
+                ]
+            }
+        ],
+        "variables": [
+            "sc",
+            "stat",
+            "reader",
+            "tokenizer",
+            "ketasu",
+            "tmp",
+            "constant",
+            "suuji",
+            "i",
+            "ans",
+            "kai",
+            "mae",
+            "j"
+        ],
+        "method_calls": [
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "pl",
+                "qualifier": ""
+            },
+            {
+                "name": "pl",
+                "qualifier": ""
+            },
+            {
+                "name": "hasMoreTokens",
+                "qualifier": "tokenizer"
+            },
+            {
+                "name": "readLine",
+                "qualifier": "reader"
+            },
+            {
+                "name": "nextToken",
+                "qualifier": "tokenizer"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "next",
+                "qualifier": ""
+            },
+            {
+                "name": "parseLong",
+                "qualifier": "Long"
+            },
+            {
+                "name": "next",
+                "qualifier": ""
+            },
+            {
+                "name": "parseDouble",
+                "qualifier": "Double"
+            },
+            {
+                "name": "next",
+                "qualifier": ""
+            },
+            {
+                "name": "readLine",
+                "qualifier": "reader"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "print",
+                "qualifier": "System.out"
+            }
+        ],
+        "control_statements": [
+            "if",
+            "try",
+            "while",
+            "for"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00252",
+        "event_count": 49,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$SC:1"
+                }
+            },
+            {
+                "step": 6,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$SC:1#Main$SC:1"
+                }
+            },
+            {
+                "step": 7,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1#Main$SC:1",
+                    "IN": "java.io.BufferedInputStream (id=27)"
+                }
+            },
+            {
+                "step": 8,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1",
+                    "READER": "null"
+                }
+            },
+            {
+                "step": 9,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1",
+                    "TOKENIZER": "null"
+                }
+            },
+            {
+                "step": 10,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1",
+                    "READER": "java.io.BufferedReader (id=30)"
+                }
+            },
+            {
+                "step": 11,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$SC:1#Main$SC:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 12,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "SC": "Main$SC:1"
+                }
+            },
+            {
+                "step": 13,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "STAT": "0"
+                }
+            },
+            {
+                "step": 14,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$SC:1#nextInt:1"
+                }
+            },
+            {
+                "step": 15,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$SC:1#nextInt:1",
+                    "TARGET": "Main$SC:1#next:1"
+                }
+            },
+            {
+                "step": 16,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1",
+                    "VALUE_2": "tokenizer"
+                }
+            },
+            {
+                "step": 17,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1",
+                    "VALUE_2": "reader"
+                }
+            },
+            {
+                "step": 18,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1",
+                    "TOKENIZER": "java.util.StringTokenizer (id=33)"
+                }
+            },
+            {
+                "step": 19,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1",
+                    "VALUE_2": "tokenizer"
+                }
+            },
+            {
+                "step": 20,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1#next:1",
+                    "RESULT": "0"
+                }
+            },
+            {
+                "step": 21,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$SC:1#next:1",
+                    "VALUE": "0"
+                }
+            },
+            {
+                "step": 22,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1#nextInt:1",
+                    "RESULT": "0"
+                }
+            },
+            {
+                "step": 23,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$SC:1#nextInt:1",
+                    "VALUE": "0"
+                }
+            },
+            {
+                "step": 24,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "STAT": "0"
+                }
+            },
+            {
+                "step": 25,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$SC:1#nextInt:2"
+                }
+            },
+            {
+                "step": 26,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$SC:1#nextInt:2",
+                    "TARGET": "Main$SC:1#next:2"
+                }
+            },
+            {
+                "step": 27,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1",
+                    "VALUE_2": "tokenizer"
+                }
+            },
+            {
+                "step": 28,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1",
+                    "VALUE_2": "tokenizer"
+                }
+            },
+            {
+                "step": 29,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1",
+                    "VALUE_2": "tokenizer"
+                }
+            },
+            {
+                "step": 30,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1#next:2",
+                    "RESULT": "0"
+                }
+            },
+            {
+                "step": 31,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$SC:1#next:2",
+                    "VALUE": "0"
+                }
+            },
+            {
+                "step": 32,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1#nextInt:2",
+                    "RESULT": "0"
+                }
+            },
+            {
+                "step": 33,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$SC:1#nextInt:2",
+                    "VALUE": "0"
+                }
+            },
+            {
+                "step": 34,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "STAT": "0"
+                }
+            },
+            {
+                "step": 35,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$SC:1#nextInt:3"
+                }
+            },
+            {
+                "step": 36,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$SC:1#nextInt:3",
+                    "TARGET": "Main$SC:1#next:3"
+                }
+            },
+            {
+                "step": 37,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1",
+                    "VALUE_2": "tokenizer"
+                }
+            },
+            {
+                "step": 38,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1",
+                    "VALUE_2": "tokenizer"
+                }
+            },
+            {
+                "step": 39,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1",
+                    "VALUE_2": "tokenizer"
+                }
+            },
+            {
+                "step": 40,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1#next:3",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 41,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$SC:1#next:3",
+                    "VALUE": "1"
+                }
+            },
+            {
+                "step": 42,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$SC:1#nextInt:3",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 43,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$SC:1#nextInt:3",
+                    "VALUE": "1"
+                }
+            },
+            {
+                "step": 44,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "STAT": "1"
+                }
+            },
+            {
+                "step": 45,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main#pl:1"
+                }
+            },
+            {
+                "step": 46,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#pl:1",
+                    "O": "Open (String)"
+                }
+            },
+            {
+                "step": 47,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#pl:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 48,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 49,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

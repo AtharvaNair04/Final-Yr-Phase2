@@ -1,0 +1,2525 @@
+{
+    "program_id": "p00239",
+    "source": {
+        "program_id": "p00239",
+        "file": "p00239.java",
+        "package": null,
+        "classes": [
+            "Main",
+            "Cake"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            },
+            {
+                "name": "check",
+                "return_type": "boolean",
+                "parameters": [
+                    "P",
+                    "Q",
+                    "R",
+                    "C"
+                ]
+            },
+            {
+                "name": "getNum",
+                "return_type": "int",
+                "parameters": []
+            },
+            {
+                "name": "run",
+                "return_type": null,
+                "parameters": []
+            }
+        ],
+        "constructors": [
+            {
+                "name": "Cake",
+                "parameters": [
+                    "i",
+                    "p",
+                    "q",
+                    "r"
+                ]
+            }
+        ],
+        "variables": [
+            "sc",
+            "num",
+            "p",
+            "q",
+            "r",
+            "Kcal",
+            "n",
+            "hasAns",
+            "P",
+            "Q",
+            "R",
+            "C",
+            "cakes",
+            "i"
+        ],
+        "method_calls": [
+            {
+                "name": "run",
+                "qualifier": null
+            },
+            {
+                "name": "hasNext",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "check",
+                "qualifier": null
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "getNum",
+                "qualifier": null
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            }
+        ],
+        "control_statements": [
+            "while",
+            "if",
+            "for"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00239",
+        "event_count": 298,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main:1"
+                }
+            },
+            {
+                "step": 6,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main:1#Main:1"
+                }
+            },
+            {
+                "step": 7,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "SC": "java.util.Scanner (id=48)"
+                }
+            },
+            {
+                "step": 8,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#Main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 9,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main:1#run:1"
+                }
+            },
+            {
+                "step": 10,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 11,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 12,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "N": "4"
+                }
+            },
+            {
+                "step": 13,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 14,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "HASANS": "false"
+                }
+            },
+            {
+                "step": 15,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 16,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$Cake[]:1"
+                }
+            },
+            {
+                "step": 17,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake[]:1",
+                    "0": "null"
+                }
+            },
+            {
+                "step": 18,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake[]:1",
+                    "1": "null"
+                }
+            },
+            {
+                "step": 19,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake[]:1",
+                    "2": "null"
+                }
+            },
+            {
+                "step": 20,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake[]:1",
+                    "3": "null"
+                }
+            },
+            {
+                "step": 21,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:1"
+                }
+            },
+            {
+                "step": 22,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 23,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 24,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 25,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 26,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:1"
+                }
+            },
+            {
+                "step": 27,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 28,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 29,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$Cake:1"
+                }
+            },
+            {
+                "step": 30,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:1#Main$Cake:1"
+                }
+            },
+            {
+                "step": 31,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1#Main$Cake:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 32,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1#Main$Cake:1",
+                    "P": "7"
+                }
+            },
+            {
+                "step": 33,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1#Main$Cake:1",
+                    "Q": "14"
+                }
+            },
+            {
+                "step": 34,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1#Main$Cake:1",
+                    "R": "47"
+                }
+            },
+            {
+                "step": 35,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1",
+                    "NUM": "1"
+                }
+            },
+            {
+                "step": 36,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1",
+                    "P": "7"
+                }
+            },
+            {
+                "step": 37,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1",
+                    "Q": "14"
+                }
+            },
+            {
+                "step": 38,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1",
+                    "R": "47"
+                }
+            },
+            {
+                "step": 39,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1",
+                    "KCAL": "342"
+                }
+            },
+            {
+                "step": 40,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:1#Main$Cake:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 41,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake[]:1",
+                    "0": "Main$Cake:1"
+                }
+            },
+            {
+                "step": 42,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:1"
+                }
+            },
+            {
+                "step": 43,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 44,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 45,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 46,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 47,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:1"
+                }
+            },
+            {
+                "step": 48,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 49,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 50,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$Cake:2"
+                }
+            },
+            {
+                "step": 51,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:2#Main$Cake:2"
+                }
+            },
+            {
+                "step": 52,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2#Main$Cake:2",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 53,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2#Main$Cake:2",
+                    "P": "5"
+                }
+            },
+            {
+                "step": 54,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2#Main$Cake:2",
+                    "Q": "35"
+                }
+            },
+            {
+                "step": 55,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2#Main$Cake:2",
+                    "R": "55"
+                }
+            },
+            {
+                "step": 56,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2",
+                    "NUM": "2"
+                }
+            },
+            {
+                "step": 57,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2",
+                    "P": "5"
+                }
+            },
+            {
+                "step": 58,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2",
+                    "Q": "35"
+                }
+            },
+            {
+                "step": 59,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2",
+                    "R": "55"
+                }
+            },
+            {
+                "step": 60,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2",
+                    "KCAL": "555"
+                }
+            },
+            {
+                "step": 61,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:2#Main$Cake:2",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 62,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake[]:1",
+                    "1": "Main$Cake:2"
+                }
+            },
+            {
+                "step": 63,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:1"
+                }
+            },
+            {
+                "step": 64,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 65,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 66,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 67,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 68,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:1"
+                }
+            },
+            {
+                "step": 69,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 70,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 71,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$Cake:3"
+                }
+            },
+            {
+                "step": 72,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:3#Main$Cake:3"
+                }
+            },
+            {
+                "step": 73,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3#Main$Cake:3",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 74,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3#Main$Cake:3",
+                    "P": "6"
+                }
+            },
+            {
+                "step": 75,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3#Main$Cake:3",
+                    "Q": "3"
+                }
+            },
+            {
+                "step": 76,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3#Main$Cake:3",
+                    "R": "59"
+                }
+            },
+            {
+                "step": 77,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3",
+                    "NUM": "3"
+                }
+            },
+            {
+                "step": 78,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3",
+                    "P": "6"
+                }
+            },
+            {
+                "step": 79,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3",
+                    "Q": "3"
+                }
+            },
+            {
+                "step": 80,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3",
+                    "R": "59"
+                }
+            },
+            {
+                "step": 81,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3",
+                    "KCAL": "287"
+                }
+            },
+            {
+                "step": 82,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:3#Main$Cake:3",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 83,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake[]:1",
+                    "2": "Main$Cake:3"
+                }
+            },
+            {
+                "step": 84,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:1"
+                }
+            },
+            {
+                "step": 85,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 86,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 87,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 88,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 89,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:1"
+                }
+            },
+            {
+                "step": 90,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 91,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 92,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$Cake:4"
+                }
+            },
+            {
+                "step": 93,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:4#Main$Cake:4"
+                }
+            },
+            {
+                "step": 94,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4#Main$Cake:4",
+                    "I": "4"
+                }
+            },
+            {
+                "step": 95,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4#Main$Cake:4",
+                    "P": "6"
+                }
+            },
+            {
+                "step": 96,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4#Main$Cake:4",
+                    "Q": "5"
+                }
+            },
+            {
+                "step": 97,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4#Main$Cake:4",
+                    "R": "15"
+                }
+            },
+            {
+                "step": 98,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4",
+                    "NUM": "4"
+                }
+            },
+            {
+                "step": 99,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4",
+                    "P": "6"
+                }
+            },
+            {
+                "step": 100,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4",
+                    "Q": "5"
+                }
+            },
+            {
+                "step": 101,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4",
+                    "R": "15"
+                }
+            },
+            {
+                "step": 102,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4",
+                    "KCAL": "129"
+                }
+            },
+            {
+                "step": 103,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:4#Main$Cake:4",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 104,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake[]:1",
+                    "3": "Main$Cake:4"
+                }
+            },
+            {
+                "step": 105,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:1"
+                }
+            },
+            {
+                "step": 106,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 107,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 108,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "P": "10"
+                }
+            },
+            {
+                "step": 109,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "1>"
+                }
+            },
+            {
+                "step": 110,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 111,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "Q": "15"
+                }
+            },
+            {
+                "step": 112,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 113,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "R": "50"
+                }
+            },
+            {
+                "step": 114,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 115,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "C": "400"
+                }
+            },
+            {
+                "step": 116,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 117,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 118,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "P"
+                }
+            },
+            {
+                "step": 119,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "Q"
+                }
+            },
+            {
+                "step": 120,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "R"
+                }
+            },
+            {
+                "step": 121,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "C"
+                }
+            },
+            {
+                "step": 122,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:1#check:1"
+                }
+            },
+            {
+                "step": 123,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1#check:1",
+                    "P": "10"
+                }
+            },
+            {
+                "step": 124,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1#check:1",
+                    "Q": "15"
+                }
+            },
+            {
+                "step": 125,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1#check:1",
+                    "R": "50"
+                }
+            },
+            {
+                "step": 126,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1#check:1",
+                    "C": "400"
+                }
+            },
+            {
+                "step": 127,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1",
+                    "VALUE_2": "p"
+                }
+            },
+            {
+                "step": 128,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1",
+                    "VALUE_2": "q"
+                }
+            },
+            {
+                "step": 129,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1",
+                    "VALUE_2": "r"
+                }
+            },
+            {
+                "step": 130,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1",
+                    "VALUE_2": "Kcal"
+                }
+            },
+            {
+                "step": 131,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1#check:1",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 132,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:1#check:1",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 133,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:1#getNum:1"
+                }
+            },
+            {
+                "step": 134,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1",
+                    "VALUE_2": "num"
+                }
+            },
+            {
+                "step": 135,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:1#getNum:1",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 136,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:1#getNum:1",
+                    "VALUE": "1"
+                }
+            },
+            {
+                "step": 137,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "HASANS": "true"
+                }
+            },
+            {
+                "step": 138,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 139,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 140,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "P"
+                }
+            },
+            {
+                "step": 141,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "Q"
+                }
+            },
+            {
+                "step": 142,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "R"
+                }
+            },
+            {
+                "step": 143,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "C"
+                }
+            },
+            {
+                "step": 144,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:2#check:2"
+                }
+            },
+            {
+                "step": 145,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2#check:2",
+                    "P": "10"
+                }
+            },
+            {
+                "step": 146,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2#check:2",
+                    "Q": "15"
+                }
+            },
+            {
+                "step": 147,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2#check:2",
+                    "R": "50"
+                }
+            },
+            {
+                "step": 148,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2#check:2",
+                    "C": "400"
+                }
+            },
+            {
+                "step": 149,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2",
+                    "VALUE_2": "p"
+                }
+            },
+            {
+                "step": 150,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2",
+                    "VALUE_2": "q"
+                }
+            },
+            {
+                "step": 151,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:2#check:2",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 152,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:2#check:2",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 153,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 154,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 155,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "P"
+                }
+            },
+            {
+                "step": 156,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "Q"
+                }
+            },
+            {
+                "step": 157,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "R"
+                }
+            },
+            {
+                "step": 158,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "C"
+                }
+            },
+            {
+                "step": 159,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:3#check:3"
+                }
+            },
+            {
+                "step": 160,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3#check:3",
+                    "P": "10"
+                }
+            },
+            {
+                "step": 161,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3#check:3",
+                    "Q": "15"
+                }
+            },
+            {
+                "step": 162,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3#check:3",
+                    "R": "50"
+                }
+            },
+            {
+                "step": 163,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3#check:3",
+                    "C": "400"
+                }
+            },
+            {
+                "step": 164,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3",
+                    "VALUE_2": "p"
+                }
+            },
+            {
+                "step": 165,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3",
+                    "VALUE_2": "q"
+                }
+            },
+            {
+                "step": 166,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3",
+                    "VALUE_2": "r"
+                }
+            },
+            {
+                "step": 167,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:3#check:3",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 168,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:3#check:3",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 169,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 170,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 171,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "P"
+                }
+            },
+            {
+                "step": 172,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "Q"
+                }
+            },
+            {
+                "step": 173,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "R"
+                }
+            },
+            {
+                "step": 174,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "C"
+                }
+            },
+            {
+                "step": 175,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:4#check:4"
+                }
+            },
+            {
+                "step": 176,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4#check:4",
+                    "P": "10"
+                }
+            },
+            {
+                "step": 177,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4#check:4",
+                    "Q": "15"
+                }
+            },
+            {
+                "step": 178,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4#check:4",
+                    "R": "50"
+                }
+            },
+            {
+                "step": 179,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4#check:4",
+                    "C": "400"
+                }
+            },
+            {
+                "step": 180,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4",
+                    "VALUE_2": "p"
+                }
+            },
+            {
+                "step": 181,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4",
+                    "VALUE_2": "q"
+                }
+            },
+            {
+                "step": 182,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4",
+                    "VALUE_2": "r"
+                }
+            },
+            {
+                "step": 183,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4",
+                    "VALUE_2": "Kcal"
+                }
+            },
+            {
+                "step": 184,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4#check:4",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 185,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:4#check:4",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 186,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:4#getNum:2"
+                }
+            },
+            {
+                "step": 187,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4",
+                    "VALUE_2": "num"
+                }
+            },
+            {
+                "step": 188,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:4#getNum:2",
+                    "RESULT": "4"
+                }
+            },
+            {
+                "step": 189,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:4#getNum:2",
+                    "VALUE": "4"
+                }
+            },
+            {
+                "step": 190,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "HASANS": "true"
+                }
+            },
+            {
+                "step": 191,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 192,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "hasAns"
+                }
+            },
+            {
+                "step": 193,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 194,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 195,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=cakes",
+                    "TYPE": "Main$Cake[] (id=128)",
+                    "VALUE": "<?>",
+                    "INDEX": "0>"
+                }
+            },
+            {
+                "step": 196,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 197,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "N": "2"
+                }
+            },
+            {
+                "step": 198,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 199,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "HASANS": "false"
+                }
+            },
+            {
+                "step": 200,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 201,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$Cake[]:2"
+                }
+            },
+            {
+                "step": 202,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake[]:2",
+                    "0": "null"
+                }
+            },
+            {
+                "step": 203,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake[]:2",
+                    "1": "null"
+                }
+            },
+            {
+                "step": 204,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:2"
+                }
+            },
+            {
+                "step": 205,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 206,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 207,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 208,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 209,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:2"
+                }
+            },
+            {
+                "step": 210,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 211,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 212,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$Cake:5"
+                }
+            },
+            {
+                "step": 213,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:5#Main$Cake:5"
+                }
+            },
+            {
+                "step": 214,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5#Main$Cake:5",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 215,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5#Main$Cake:5",
+                    "P": "8"
+                }
+            },
+            {
+                "step": 216,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5#Main$Cake:5",
+                    "Q": "10"
+                }
+            },
+            {
+                "step": 217,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5#Main$Cake:5",
+                    "R": "78"
+                }
+            },
+            {
+                "step": 218,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5",
+                    "NUM": "1"
+                }
+            },
+            {
+                "step": 219,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5",
+                    "P": "8"
+                }
+            },
+            {
+                "step": 220,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5",
+                    "Q": "10"
+                }
+            },
+            {
+                "step": 221,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5",
+                    "R": "78"
+                }
+            },
+            {
+                "step": 222,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5",
+                    "KCAL": "434"
+                }
+            },
+            {
+                "step": 223,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:5#Main$Cake:5",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 224,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake[]:2",
+                    "0": "Main$Cake:5"
+                }
+            },
+            {
+                "step": 225,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:2"
+                }
+            },
+            {
+                "step": 226,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 227,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 228,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 229,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 230,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:2"
+                }
+            },
+            {
+                "step": 231,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 232,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 233,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$Cake:6"
+                }
+            },
+            {
+                "step": 234,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:6#Main$Cake:6"
+                }
+            },
+            {
+                "step": 235,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6#Main$Cake:6",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 236,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6#Main$Cake:6",
+                    "P": "4"
+                }
+            },
+            {
+                "step": 237,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6#Main$Cake:6",
+                    "Q": "18"
+                }
+            },
+            {
+                "step": 238,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6#Main$Cake:6",
+                    "R": "33"
+                }
+            },
+            {
+                "step": 239,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6",
+                    "NUM": "2"
+                }
+            },
+            {
+                "step": 240,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6",
+                    "P": "4"
+                }
+            },
+            {
+                "step": 241,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6",
+                    "Q": "18"
+                }
+            },
+            {
+                "step": 242,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6",
+                    "R": "33"
+                }
+            },
+            {
+                "step": 243,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6",
+                    "KCAL": "310"
+                }
+            },
+            {
+                "step": 244,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:6#Main$Cake:6",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 245,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake[]:2",
+                    "1": "Main$Cake:6"
+                }
+            },
+            {
+                "step": 246,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "CAKES": "Main$Cake[]:2"
+                }
+            },
+            {
+                "step": 247,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 248,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 249,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "P": "10"
+                }
+            },
+            {
+                "step": 250,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "1>"
+                }
+            },
+            {
+                "step": 251,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 252,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "Q": "10"
+                }
+            },
+            {
+                "step": 253,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 254,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "R": "50"
+                }
+            },
+            {
+                "step": 255,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 256,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "C": "300"
+                }
+            },
+            {
+                "step": 257,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 258,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 259,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "P"
+                }
+            },
+            {
+                "step": 260,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "Q"
+                }
+            },
+            {
+                "step": 261,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "R"
+                }
+            },
+            {
+                "step": 262,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "C"
+                }
+            },
+            {
+                "step": 263,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:5#check:5"
+                }
+            },
+            {
+                "step": 264,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5#check:5",
+                    "P": "10"
+                }
+            },
+            {
+                "step": 265,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5#check:5",
+                    "Q": "10"
+                }
+            },
+            {
+                "step": 266,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5#check:5",
+                    "R": "50"
+                }
+            },
+            {
+                "step": 267,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5#check:5",
+                    "C": "300"
+                }
+            },
+            {
+                "step": 268,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5",
+                    "VALUE_2": "p"
+                }
+            },
+            {
+                "step": 269,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5",
+                    "VALUE_2": "q"
+                }
+            },
+            {
+                "step": 270,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5",
+                    "VALUE_2": "r"
+                }
+            },
+            {
+                "step": 271,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:5#check:5",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 272,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:5#check:5",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 273,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 274,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main:1#run:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 275,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "P"
+                }
+            },
+            {
+                "step": 276,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "Q"
+                }
+            },
+            {
+                "step": 277,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "R"
+                }
+            },
+            {
+                "step": 278,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "C"
+                }
+            },
+            {
+                "step": 279,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main:1#run:1",
+                    "TARGET": "Main$Cake:6#check:6"
+                }
+            },
+            {
+                "step": 280,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6#check:6",
+                    "P": "10"
+                }
+            },
+            {
+                "step": 281,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6#check:6",
+                    "Q": "10"
+                }
+            },
+            {
+                "step": 282,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6#check:6",
+                    "R": "50"
+                }
+            },
+            {
+                "step": 283,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6#check:6",
+                    "C": "300"
+                }
+            },
+            {
+                "step": 284,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6",
+                    "VALUE_2": "p"
+                }
+            },
+            {
+                "step": 285,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6",
+                    "VALUE_2": "q"
+                }
+            },
+            {
+                "step": 286,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$Cake:6#check:6",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 287,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$Cake:6#check:6",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 288,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 289,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "hasAns"
+                }
+            },
+            {
+                "step": 290,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 291,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 292,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main:1#run:1 <name=cakes",
+                    "TYPE": "Main$Cake[] (id=128)",
+                    "VALUE": "<?>",
+                    "INDEX": "0>"
+                }
+            },
+            {
+                "step": 293,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "sc"
+                }
+            },
+            {
+                "step": 294,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "N": "0"
+                }
+            },
+            {
+                "step": 295,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main:1",
+                    "VALUE_2": "n"
+                }
+            },
+            {
+                "step": 296,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main:1#run:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 297,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 298,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

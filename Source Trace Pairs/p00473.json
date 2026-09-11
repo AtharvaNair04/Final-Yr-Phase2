@@ -1,0 +1,6327 @@
+{
+    "program_id": "p00473",
+    "source": {
+        "program_id": "p00473",
+        "file": "p00473.java",
+        "package": null,
+        "classes": [
+            "Main",
+            "InputReader"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "solve",
+                "return_type": null,
+                "parameters": []
+            },
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            },
+            {
+                "name": "hasNextByte",
+                "return_type": "boolean",
+                "parameters": []
+            },
+            {
+                "name": "readByte",
+                "return_type": "int",
+                "parameters": []
+            },
+            {
+                "name": "isSpaceChar",
+                "return_type": "boolean",
+                "parameters": [
+                    "c"
+                ]
+            },
+            {
+                "name": "skip",
+                "return_type": null,
+                "parameters": []
+            },
+            {
+                "name": "hasNext",
+                "return_type": "boolean",
+                "parameters": []
+            },
+            {
+                "name": "next",
+                "return_type": "String",
+                "parameters": []
+            },
+            {
+                "name": "nextInt",
+                "return_type": "int",
+                "parameters": []
+            },
+            {
+                "name": "nextLong",
+                "return_type": "long",
+                "parameters": []
+            },
+            {
+                "name": "nextDouble",
+                "return_type": "double",
+                "parameters": []
+            },
+            {
+                "name": "nextIntArray",
+                "return_type": "int[]",
+                "parameters": [
+                    "n"
+                ]
+            },
+            {
+                "name": "nextLongArray",
+                "return_type": "long[]",
+                "parameters": [
+                    "n"
+                ]
+            },
+            {
+                "name": "nextCharMap",
+                "return_type": "char[][]",
+                "parameters": [
+                    "n",
+                    "m"
+                ]
+            }
+        ],
+        "constructors": [
+            {
+                "name": "InputReader",
+                "parameters": [
+                    "in"
+                ]
+            }
+        ],
+        "variables": [
+            "out",
+            "ir",
+            "n",
+            "m",
+            "a",
+            "dp",
+            "i",
+            "now",
+            "next",
+            "j",
+            "k",
+            "in",
+            "buffer",
+            "curbuf",
+            "lenbuf",
+            "sb",
+            "b",
+            "c",
+            "minus",
+            "res",
+            "map"
+        ],
+        "method_calls": [
+            {
+                "name": "nextInt",
+                "qualifier": "ir"
+            },
+            {
+                "name": "nextIntArray",
+                "qualifier": "ir"
+            },
+            {
+                "name": "fill",
+                "qualifier": "Arrays"
+            },
+            {
+                "name": "min",
+                "qualifier": "Math"
+            },
+            {
+                "name": "min",
+                "qualifier": "Math"
+            },
+            {
+                "name": "min",
+                "qualifier": "Math"
+            },
+            {
+                "name": "min",
+                "qualifier": "Math"
+            },
+            {
+                "name": "println",
+                "qualifier": "out"
+            },
+            {
+                "name": "min",
+                "qualifier": "Math"
+            },
+            {
+                "name": "solve",
+                "qualifier": ""
+            },
+            {
+                "name": "flush",
+                "qualifier": "out"
+            },
+            {
+                "name": "read",
+                "qualifier": "in"
+            },
+            {
+                "name": "hasNextByte",
+                "qualifier": ""
+            },
+            {
+                "name": "hasNextByte",
+                "qualifier": ""
+            },
+            {
+                "name": "isSpaceChar",
+                "qualifier": ""
+            },
+            {
+                "name": "skip",
+                "qualifier": ""
+            },
+            {
+                "name": "hasNextByte",
+                "qualifier": ""
+            },
+            {
+                "name": "hasNext",
+                "qualifier": ""
+            },
+            {
+                "name": "readByte",
+                "qualifier": ""
+            },
+            {
+                "name": "isSpaceChar",
+                "qualifier": ""
+            },
+            {
+                "name": "appendCodePoint",
+                "qualifier": "sb"
+            },
+            {
+                "name": "readByte",
+                "qualifier": ""
+            },
+            {
+                "name": "toString",
+                "qualifier": "sb"
+            },
+            {
+                "name": "hasNext",
+                "qualifier": ""
+            },
+            {
+                "name": "readByte",
+                "qualifier": ""
+            },
+            {
+                "name": "isSpaceChar",
+                "qualifier": ""
+            },
+            {
+                "name": "readByte",
+                "qualifier": ""
+            },
+            {
+                "name": "readByte",
+                "qualifier": ""
+            },
+            {
+                "name": "isSpaceChar",
+                "qualifier": ""
+            },
+            {
+                "name": "readByte",
+                "qualifier": ""
+            },
+            {
+                "name": "hasNext",
+                "qualifier": ""
+            },
+            {
+                "name": "readByte",
+                "qualifier": ""
+            },
+            {
+                "name": "isSpaceChar",
+                "qualifier": ""
+            },
+            {
+                "name": "readByte",
+                "qualifier": ""
+            },
+            {
+                "name": "readByte",
+                "qualifier": ""
+            },
+            {
+                "name": "isSpaceChar",
+                "qualifier": ""
+            },
+            {
+                "name": "readByte",
+                "qualifier": ""
+            },
+            {
+                "name": "parseDouble",
+                "qualifier": "Double"
+            },
+            {
+                "name": "next",
+                "qualifier": ""
+            },
+            {
+                "name": "nextInt",
+                "qualifier": ""
+            },
+            {
+                "name": "nextLong",
+                "qualifier": ""
+            },
+            {
+                "name": "next",
+                "qualifier": ""
+            },
+            {
+                "name": "toCharArray",
+                "qualifier": null
+            }
+        ],
+        "control_statements": [
+            "for",
+            "if",
+            "try",
+            "while",
+            "do-while"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00473",
+        "event_count": 743,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "Main$InputReader:1"
+                }
+            },
+            {
+                "step": 6,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main$InputReader:1#Main$InputReader:1"
+                }
+            },
+            {
+                "step": 7,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#Main$InputReader:1",
+                    "IN": "java.io.BufferedInputStream (id=345)"
+                }
+            },
+            {
+                "step": 8,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "BUFFER": "byte[1024] (id=346)"
+                }
+            },
+            {
+                "step": 9,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "IN": "java.io.BufferedInputStream (id=345)"
+                }
+            },
+            {
+                "step": 10,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "LENBUF": "0"
+                }
+            },
+            {
+                "step": 11,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "0"
+                }
+            },
+            {
+                "step": 12,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#Main$InputReader:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 13,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "IR": "Main$InputReader:1"
+                }
+            },
+            {
+                "step": 14,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "OUT": "java.io.PrintWriter (id=347)"
+                }
+            },
+            {
+                "step": 15,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#main:1",
+                    "TARGET": "Main#solve:1"
+                }
+            },
+            {
+                "step": 16,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "ir"
+                }
+            },
+            {
+                "step": 17,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#solve:1",
+                    "TARGET": "Main$InputReader:1#nextInt:1"
+                }
+            },
+            {
+                "step": 18,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:1",
+                    "TARGET": "Main$InputReader:1#hasNext:1"
+                }
+            },
+            {
+                "step": 19,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#hasNext:1",
+                    "TARGET": "Main$InputReader:1#skip:1"
+                }
+            },
+            {
+                "step": 20,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:1",
+                    "TARGET": "Main$InputReader:1#hasNextByte:1"
+                }
+            },
+            {
+                "step": 21,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 22,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 23,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "0"
+                }
+            },
+            {
+                "step": 24,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "in"
+                }
+            },
+            {
+                "step": 25,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 26,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "LENBUF": "19"
+                }
+            },
+            {
+                "step": 27,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 28,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:1",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 29,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:1",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 30,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 31,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 32,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:1",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:1"
+                }
+            },
+            {
+                "step": 33,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:1",
+                    "C": "54"
+                }
+            },
+            {
+                "step": 34,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:1",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 35,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:1",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 36,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#skip:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 37,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#hasNext:1",
+                    "TARGET": "Main$InputReader:1#hasNextByte:2"
+                }
+            },
+            {
+                "step": 38,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 39,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 40,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:2",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 41,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:2",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 42,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNext:1",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 43,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNext:1",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 44,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:1",
+                    "TARGET": "Main$InputReader:1#readByte:1"
+                }
+            },
+            {
+                "step": 45,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#readByte:1",
+                    "TARGET": "Main$InputReader:1#hasNextByte:3"
+                }
+            },
+            {
+                "step": 46,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 47,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 48,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:3",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 49,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:3",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 50,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 51,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 52,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "1"
+                }
+            },
+            {
+                "step": 53,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#readByte:1",
+                    "RESULT": "54"
+                }
+            },
+            {
+                "step": 54,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#readByte:1",
+                    "VALUE": "54"
+                }
+            },
+            {
+                "step": 55,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:1",
+                    "C": "54"
+                }
+            },
+            {
+                "step": 56,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:1",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:2"
+                }
+            },
+            {
+                "step": 57,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:2",
+                    "C": "54"
+                }
+            },
+            {
+                "step": 58,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:2",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 59,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:2",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 60,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:1",
+                    "C": "54"
+                }
+            },
+            {
+                "step": 61,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:1",
+                    "MINUS": "false"
+                }
+            },
+            {
+                "step": 62,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:1",
+                    "RES": "0"
+                }
+            },
+            {
+                "step": 63,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:1",
+                    "RES": "6"
+                }
+            },
+            {
+                "step": 64,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:1",
+                    "TARGET": "Main$InputReader:1#readByte:2"
+                }
+            },
+            {
+                "step": 65,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#readByte:2",
+                    "TARGET": "Main$InputReader:1#hasNextByte:4"
+                }
+            },
+            {
+                "step": 66,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 67,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 68,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:4",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 69,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:4",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 70,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 71,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 72,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "2"
+                }
+            },
+            {
+                "step": 73,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#readByte:2",
+                    "RESULT": "13"
+                }
+            },
+            {
+                "step": 74,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#readByte:2",
+                    "VALUE": "13"
+                }
+            },
+            {
+                "step": 75,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:1",
+                    "C": "13"
+                }
+            },
+            {
+                "step": 76,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:1",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:3"
+                }
+            },
+            {
+                "step": 77,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:3",
+                    "C": "13"
+                }
+            },
+            {
+                "step": 78,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:3",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 79,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:3",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 80,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:1",
+                    "RESULT": "6"
+                }
+            },
+            {
+                "step": 81,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#nextInt:1",
+                    "VALUE": "6"
+                }
+            },
+            {
+                "step": 82,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "N": "6"
+                }
+            },
+            {
+                "step": 83,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "M": "3"
+                }
+            },
+            {
+                "step": 84,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "ir"
+                }
+            },
+            {
+                "step": 85,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main#solve:1",
+                    "TARGET": "Main$InputReader:1#nextIntArray:1"
+                }
+            },
+            {
+                "step": 86,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextIntArray:1",
+                    "N": "5"
+                }
+            },
+            {
+                "step": 87,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:1"
+                }
+            },
+            {
+                "step": 88,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 89,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 90,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "2": "0"
+                }
+            },
+            {
+                "step": 91,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "3": "0"
+                }
+            },
+            {
+                "step": 92,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "4": "0"
+                }
+            },
+            {
+                "step": 93,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextIntArray:1",
+                    "A": "int[]:1"
+                }
+            },
+            {
+                "step": 94,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextIntArray:1",
+                    "TARGET": "Main$InputReader:1#nextInt:2"
+                }
+            },
+            {
+                "step": 95,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:2",
+                    "TARGET": "Main$InputReader:1#hasNext:2"
+                }
+            },
+            {
+                "step": 96,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#hasNext:2",
+                    "TARGET": "Main$InputReader:1#skip:2"
+                }
+            },
+            {
+                "step": 97,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:2",
+                    "TARGET": "Main$InputReader:1#hasNextByte:5"
+                }
+            },
+            {
+                "step": 98,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 99,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 100,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:5",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 101,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:5",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 102,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 103,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 104,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:2",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:4"
+                }
+            },
+            {
+                "step": 105,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:4",
+                    "C": "10"
+                }
+            },
+            {
+                "step": 106,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:4",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 107,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:4",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 108,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 109,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "3"
+                }
+            },
+            {
+                "step": 110,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:2",
+                    "TARGET": "Main$InputReader:1#hasNextByte:6"
+                }
+            },
+            {
+                "step": 111,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 112,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 113,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:6",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 114,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:6",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 115,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 116,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 117,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:2",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:5"
+                }
+            },
+            {
+                "step": 118,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:5",
+                    "C": "49"
+                }
+            },
+            {
+                "step": 119,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:5",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 120,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:5",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 121,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#skip:2",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 122,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#hasNext:2",
+                    "TARGET": "Main$InputReader:1#hasNextByte:7"
+                }
+            },
+            {
+                "step": 123,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 124,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 125,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:7",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 126,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:7",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 127,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNext:2",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 128,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNext:2",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 129,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:2",
+                    "TARGET": "Main$InputReader:1#readByte:3"
+                }
+            },
+            {
+                "step": 130,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#readByte:3",
+                    "TARGET": "Main$InputReader:1#hasNextByte:8"
+                }
+            },
+            {
+                "step": 131,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 132,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 133,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:8",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 134,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:8",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 135,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 136,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 137,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "4"
+                }
+            },
+            {
+                "step": 138,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#readByte:3",
+                    "RESULT": "49"
+                }
+            },
+            {
+                "step": 139,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#readByte:3",
+                    "VALUE": "49"
+                }
+            },
+            {
+                "step": 140,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:2",
+                    "C": "49"
+                }
+            },
+            {
+                "step": 141,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:2",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:6"
+                }
+            },
+            {
+                "step": 142,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:6",
+                    "C": "49"
+                }
+            },
+            {
+                "step": 143,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:6",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 144,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:6",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 145,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:2",
+                    "C": "49"
+                }
+            },
+            {
+                "step": 146,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:2",
+                    "MINUS": "false"
+                }
+            },
+            {
+                "step": 147,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:2",
+                    "RES": "0"
+                }
+            },
+            {
+                "step": 148,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:2",
+                    "RES": "1"
+                }
+            },
+            {
+                "step": 149,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:2",
+                    "TARGET": "Main$InputReader:1#readByte:4"
+                }
+            },
+            {
+                "step": 150,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#readByte:4",
+                    "TARGET": "Main$InputReader:1#hasNextByte:9"
+                }
+            },
+            {
+                "step": 151,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 152,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 153,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:9",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 154,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:9",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 155,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 156,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 157,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "5"
+                }
+            },
+            {
+                "step": 158,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#readByte:4",
+                    "RESULT": "13"
+                }
+            },
+            {
+                "step": 159,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#readByte:4",
+                    "VALUE": "13"
+                }
+            },
+            {
+                "step": 160,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:2",
+                    "C": "13"
+                }
+            },
+            {
+                "step": 161,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:2",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:7"
+                }
+            },
+            {
+                "step": 162,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:7",
+                    "C": "13"
+                }
+            },
+            {
+                "step": 163,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:7",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 164,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:7",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 165,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:2",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 166,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#nextInt:2",
+                    "VALUE": "1"
+                }
+            },
+            {
+                "step": 167,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextIntArray:1",
+                    "TARGET": "Main$InputReader:1#nextInt:3"
+                }
+            },
+            {
+                "step": 168,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:3",
+                    "TARGET": "Main$InputReader:1#hasNext:3"
+                }
+            },
+            {
+                "step": 169,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#hasNext:3",
+                    "TARGET": "Main$InputReader:1#skip:3"
+                }
+            },
+            {
+                "step": 170,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:3",
+                    "TARGET": "Main$InputReader:1#hasNextByte:10"
+                }
+            },
+            {
+                "step": 171,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 172,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 173,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:10",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 174,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:10",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 175,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 176,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 177,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:3",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:8"
+                }
+            },
+            {
+                "step": 178,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:8",
+                    "C": "10"
+                }
+            },
+            {
+                "step": 179,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:8",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 180,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:8",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 181,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 182,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "6"
+                }
+            },
+            {
+                "step": 183,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:3",
+                    "TARGET": "Main$InputReader:1#hasNextByte:11"
+                }
+            },
+            {
+                "step": 184,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 185,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 186,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:11",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 187,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:11",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 188,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 189,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 190,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:3",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:9"
+                }
+            },
+            {
+                "step": 191,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:9",
+                    "C": "56"
+                }
+            },
+            {
+                "step": 192,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:9",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 193,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:9",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 194,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#skip:3",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 195,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#hasNext:3",
+                    "TARGET": "Main$InputReader:1#hasNextByte:12"
+                }
+            },
+            {
+                "step": 196,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 197,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 198,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:12",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 199,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:12",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 200,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNext:3",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 201,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNext:3",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 202,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:3",
+                    "TARGET": "Main$InputReader:1#readByte:5"
+                }
+            },
+            {
+                "step": 203,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#readByte:5",
+                    "TARGET": "Main$InputReader:1#hasNextByte:13"
+                }
+            },
+            {
+                "step": 204,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 205,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 206,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:13",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 207,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:13",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 208,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 209,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 210,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "7"
+                }
+            },
+            {
+                "step": 211,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#readByte:5",
+                    "RESULT": "56"
+                }
+            },
+            {
+                "step": 212,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#readByte:5",
+                    "VALUE": "56"
+                }
+            },
+            {
+                "step": 213,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:3",
+                    "C": "56"
+                }
+            },
+            {
+                "step": 214,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:3",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:10"
+                }
+            },
+            {
+                "step": 215,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:10",
+                    "C": "56"
+                }
+            },
+            {
+                "step": 216,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:10",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 217,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:10",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 218,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:3",
+                    "C": "56"
+                }
+            },
+            {
+                "step": 219,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:3",
+                    "MINUS": "false"
+                }
+            },
+            {
+                "step": 220,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:3",
+                    "RES": "0"
+                }
+            },
+            {
+                "step": 221,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:3",
+                    "RES": "8"
+                }
+            },
+            {
+                "step": 222,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:3",
+                    "TARGET": "Main$InputReader:1#readByte:6"
+                }
+            },
+            {
+                "step": 223,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#readByte:6",
+                    "TARGET": "Main$InputReader:1#hasNextByte:14"
+                }
+            },
+            {
+                "step": 224,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 225,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 226,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:14",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 227,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:14",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 228,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 229,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 230,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "8"
+                }
+            },
+            {
+                "step": 231,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#readByte:6",
+                    "RESULT": "13"
+                }
+            },
+            {
+                "step": 232,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#readByte:6",
+                    "VALUE": "13"
+                }
+            },
+            {
+                "step": 233,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:3",
+                    "C": "13"
+                }
+            },
+            {
+                "step": 234,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:3",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:11"
+                }
+            },
+            {
+                "step": 235,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:11",
+                    "C": "13"
+                }
+            },
+            {
+                "step": 236,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:11",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 237,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:11",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 238,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:3",
+                    "RESULT": "8"
+                }
+            },
+            {
+                "step": 239,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#nextInt:3",
+                    "VALUE": "8"
+                }
+            },
+            {
+                "step": 240,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextIntArray:1",
+                    "TARGET": "Main$InputReader:1#nextInt:4"
+                }
+            },
+            {
+                "step": 241,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:4",
+                    "TARGET": "Main$InputReader:1#hasNext:4"
+                }
+            },
+            {
+                "step": 242,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#hasNext:4",
+                    "TARGET": "Main$InputReader:1#skip:4"
+                }
+            },
+            {
+                "step": 243,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:4",
+                    "TARGET": "Main$InputReader:1#hasNextByte:15"
+                }
+            },
+            {
+                "step": 244,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 245,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 246,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:15",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 247,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:15",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 248,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 249,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 250,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:4",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:12"
+                }
+            },
+            {
+                "step": 251,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:12",
+                    "C": "10"
+                }
+            },
+            {
+                "step": 252,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:12",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 253,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:12",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 254,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 255,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "9"
+                }
+            },
+            {
+                "step": 256,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:4",
+                    "TARGET": "Main$InputReader:1#hasNextByte:16"
+                }
+            },
+            {
+                "step": 257,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 258,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 259,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:16",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 260,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:16",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 261,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 262,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 263,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:4",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:13"
+                }
+            },
+            {
+                "step": 264,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:13",
+                    "C": "49"
+                }
+            },
+            {
+                "step": 265,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:13",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 266,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:13",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 267,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#skip:4",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 268,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#hasNext:4",
+                    "TARGET": "Main$InputReader:1#hasNextByte:17"
+                }
+            },
+            {
+                "step": 269,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 270,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 271,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:17",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 272,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:17",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 273,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNext:4",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 274,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNext:4",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 275,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:4",
+                    "TARGET": "Main$InputReader:1#readByte:7"
+                }
+            },
+            {
+                "step": 276,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#readByte:7",
+                    "TARGET": "Main$InputReader:1#hasNextByte:18"
+                }
+            },
+            {
+                "step": 277,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 278,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 279,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:18",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 280,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:18",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 281,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 282,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 283,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "10"
+                }
+            },
+            {
+                "step": 284,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#readByte:7",
+                    "RESULT": "49"
+                }
+            },
+            {
+                "step": 285,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#readByte:7",
+                    "VALUE": "49"
+                }
+            },
+            {
+                "step": 286,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:4",
+                    "C": "49"
+                }
+            },
+            {
+                "step": 287,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:4",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:14"
+                }
+            },
+            {
+                "step": 288,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:14",
+                    "C": "49"
+                }
+            },
+            {
+                "step": 289,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:14",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 290,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:14",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 291,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:4",
+                    "C": "49"
+                }
+            },
+            {
+                "step": 292,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:4",
+                    "MINUS": "false"
+                }
+            },
+            {
+                "step": 293,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:4",
+                    "RES": "0"
+                }
+            },
+            {
+                "step": 294,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:4",
+                    "RES": "1"
+                }
+            },
+            {
+                "step": 295,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:4",
+                    "TARGET": "Main$InputReader:1#readByte:8"
+                }
+            },
+            {
+                "step": 296,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#readByte:8",
+                    "TARGET": "Main$InputReader:1#hasNextByte:19"
+                }
+            },
+            {
+                "step": 297,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 298,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 299,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:19",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 300,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:19",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 301,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 302,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 303,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "11"
+                }
+            },
+            {
+                "step": 304,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#readByte:8",
+                    "RESULT": "50"
+                }
+            },
+            {
+                "step": 305,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#readByte:8",
+                    "VALUE": "50"
+                }
+            },
+            {
+                "step": 306,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:4",
+                    "C": "50"
+                }
+            },
+            {
+                "step": 307,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:4",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:15"
+                }
+            },
+            {
+                "step": 308,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:15",
+                    "C": "50"
+                }
+            },
+            {
+                "step": 309,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:15",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 310,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:15",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 311,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:4",
+                    "RES": "12"
+                }
+            },
+            {
+                "step": 312,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:4",
+                    "TARGET": "Main$InputReader:1#readByte:9"
+                }
+            },
+            {
+                "step": 313,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#readByte:9",
+                    "TARGET": "Main$InputReader:1#hasNextByte:20"
+                }
+            },
+            {
+                "step": 314,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 315,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 316,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:20",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 317,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:20",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 318,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 319,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 320,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "12"
+                }
+            },
+            {
+                "step": 321,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#readByte:9",
+                    "RESULT": "13"
+                }
+            },
+            {
+                "step": 322,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#readByte:9",
+                    "VALUE": "13"
+                }
+            },
+            {
+                "step": 323,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:4",
+                    "C": "13"
+                }
+            },
+            {
+                "step": 324,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:4",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:16"
+                }
+            },
+            {
+                "step": 325,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:16",
+                    "C": "13"
+                }
+            },
+            {
+                "step": 326,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:16",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 327,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:16",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 328,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:4",
+                    "RESULT": "12"
+                }
+            },
+            {
+                "step": 329,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#nextInt:4",
+                    "VALUE": "12"
+                }
+            },
+            {
+                "step": 330,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextIntArray:1",
+                    "TARGET": "Main$InputReader:1#nextInt:5"
+                }
+            },
+            {
+                "step": 331,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:5",
+                    "TARGET": "Main$InputReader:1#hasNext:5"
+                }
+            },
+            {
+                "step": 332,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#hasNext:5",
+                    "TARGET": "Main$InputReader:1#skip:5"
+                }
+            },
+            {
+                "step": 333,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:5",
+                    "TARGET": "Main$InputReader:1#hasNextByte:21"
+                }
+            },
+            {
+                "step": 334,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 335,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 336,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:21",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 337,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:21",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 338,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 339,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 340,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:5",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:17"
+                }
+            },
+            {
+                "step": 341,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:17",
+                    "C": "10"
+                }
+            },
+            {
+                "step": 342,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:17",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 343,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:17",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 344,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 345,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "13"
+                }
+            },
+            {
+                "step": 346,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:5",
+                    "TARGET": "Main$InputReader:1#hasNextByte:22"
+                }
+            },
+            {
+                "step": 347,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 348,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 349,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:22",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 350,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:22",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 351,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 352,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 353,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:5",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:18"
+                }
+            },
+            {
+                "step": 354,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:18",
+                    "C": "54"
+                }
+            },
+            {
+                "step": 355,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:18",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 356,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:18",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 357,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#skip:5",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 358,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#hasNext:5",
+                    "TARGET": "Main$InputReader:1#hasNextByte:23"
+                }
+            },
+            {
+                "step": 359,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 360,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 361,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:23",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 362,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:23",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 363,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNext:5",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 364,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNext:5",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 365,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:5",
+                    "TARGET": "Main$InputReader:1#readByte:10"
+                }
+            },
+            {
+                "step": 366,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#readByte:10",
+                    "TARGET": "Main$InputReader:1#hasNextByte:24"
+                }
+            },
+            {
+                "step": 367,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 368,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 369,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:24",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 370,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:24",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 371,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 372,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 373,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "14"
+                }
+            },
+            {
+                "step": 374,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#readByte:10",
+                    "RESULT": "54"
+                }
+            },
+            {
+                "step": 375,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#readByte:10",
+                    "VALUE": "54"
+                }
+            },
+            {
+                "step": 376,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:5",
+                    "C": "54"
+                }
+            },
+            {
+                "step": 377,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:5",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:19"
+                }
+            },
+            {
+                "step": 378,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:19",
+                    "C": "54"
+                }
+            },
+            {
+                "step": 379,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:19",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 380,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:19",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 381,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:5",
+                    "C": "54"
+                }
+            },
+            {
+                "step": 382,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:5",
+                    "MINUS": "false"
+                }
+            },
+            {
+                "step": 383,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:5",
+                    "RES": "0"
+                }
+            },
+            {
+                "step": 384,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:5",
+                    "RES": "6"
+                }
+            },
+            {
+                "step": 385,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:5",
+                    "TARGET": "Main$InputReader:1#readByte:11"
+                }
+            },
+            {
+                "step": 386,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#readByte:11",
+                    "TARGET": "Main$InputReader:1#hasNextByte:25"
+                }
+            },
+            {
+                "step": 387,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 388,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 389,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:25",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 390,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:25",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 391,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 392,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 393,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "15"
+                }
+            },
+            {
+                "step": 394,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#readByte:11",
+                    "RESULT": "13"
+                }
+            },
+            {
+                "step": 395,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#readByte:11",
+                    "VALUE": "13"
+                }
+            },
+            {
+                "step": 396,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:5",
+                    "C": "13"
+                }
+            },
+            {
+                "step": 397,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:5",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:20"
+                }
+            },
+            {
+                "step": 398,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:20",
+                    "C": "13"
+                }
+            },
+            {
+                "step": 399,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:20",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 400,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:20",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 401,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:5",
+                    "RESULT": "6"
+                }
+            },
+            {
+                "step": 402,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#nextInt:5",
+                    "VALUE": "6"
+                }
+            },
+            {
+                "step": 403,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextIntArray:1",
+                    "TARGET": "Main$InputReader:1#nextInt:6"
+                }
+            },
+            {
+                "step": 404,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:6",
+                    "TARGET": "Main$InputReader:1#hasNext:6"
+                }
+            },
+            {
+                "step": 405,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#hasNext:6",
+                    "TARGET": "Main$InputReader:1#skip:6"
+                }
+            },
+            {
+                "step": 406,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:6",
+                    "TARGET": "Main$InputReader:1#hasNextByte:26"
+                }
+            },
+            {
+                "step": 407,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 408,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 409,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:26",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 410,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:26",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 411,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 412,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 413,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:6",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:21"
+                }
+            },
+            {
+                "step": 414,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:21",
+                    "C": "10"
+                }
+            },
+            {
+                "step": 415,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:21",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 416,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:21",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 417,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 418,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "16"
+                }
+            },
+            {
+                "step": 419,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:6",
+                    "TARGET": "Main$InputReader:1#hasNextByte:27"
+                }
+            },
+            {
+                "step": 420,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 421,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 422,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:27",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 423,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:27",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 424,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 425,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 426,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#skip:6",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:22"
+                }
+            },
+            {
+                "step": 427,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:22",
+                    "C": "50"
+                }
+            },
+            {
+                "step": 428,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:22",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 429,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:22",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 430,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#skip:6",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 431,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#hasNext:6",
+                    "TARGET": "Main$InputReader:1#hasNextByte:28"
+                }
+            },
+            {
+                "step": 432,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 433,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 434,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:28",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 435,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:28",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 436,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNext:6",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 437,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNext:6",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 438,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:6",
+                    "TARGET": "Main$InputReader:1#readByte:12"
+                }
+            },
+            {
+                "step": 439,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#readByte:12",
+                    "TARGET": "Main$InputReader:1#hasNextByte:29"
+                }
+            },
+            {
+                "step": 440,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 441,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 442,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:29",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 443,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:29",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 444,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 445,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 446,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "17"
+                }
+            },
+            {
+                "step": 447,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#readByte:12",
+                    "RESULT": "50"
+                }
+            },
+            {
+                "step": 448,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#readByte:12",
+                    "VALUE": "50"
+                }
+            },
+            {
+                "step": 449,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:6",
+                    "C": "50"
+                }
+            },
+            {
+                "step": 450,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:6",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:23"
+                }
+            },
+            {
+                "step": 451,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:23",
+                    "C": "50"
+                }
+            },
+            {
+                "step": 452,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:23",
+                    "RESULT": "false"
+                }
+            },
+            {
+                "step": 453,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:23",
+                    "VALUE": "false"
+                }
+            },
+            {
+                "step": 454,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:6",
+                    "C": "50"
+                }
+            },
+            {
+                "step": 455,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:6",
+                    "MINUS": "false"
+                }
+            },
+            {
+                "step": 456,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:6",
+                    "RES": "0"
+                }
+            },
+            {
+                "step": 457,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:6",
+                    "RES": "2"
+                }
+            },
+            {
+                "step": 458,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:6",
+                    "TARGET": "Main$InputReader:1#readByte:13"
+                }
+            },
+            {
+                "step": 459,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#readByte:13",
+                    "TARGET": "Main$InputReader:1#hasNextByte:30"
+                }
+            },
+            {
+                "step": 460,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 461,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "lenbuf"
+                }
+            },
+            {
+                "step": 462,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#hasNextByte:30",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 463,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#hasNextByte:30",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 464,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "buffer"
+                }
+            },
+            {
+                "step": 465,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "VALUE_2": "curbuf"
+                }
+            },
+            {
+                "step": 466,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1",
+                    "CURBUF": "18"
+                }
+            },
+            {
+                "step": 467,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#readByte:13",
+                    "RESULT": "13"
+                }
+            },
+            {
+                "step": 468,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#readByte:13",
+                    "VALUE": "13"
+                }
+            },
+            {
+                "step": 469,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:6",
+                    "C": "13"
+                }
+            },
+            {
+                "step": 470,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "Main$InputReader:1#nextInt:6",
+                    "TARGET": "Main$InputReader:1#isSpaceChar:24"
+                }
+            },
+            {
+                "step": 471,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:24",
+                    "C": "13"
+                }
+            },
+            {
+                "step": 472,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#isSpaceChar:24",
+                    "RESULT": "true"
+                }
+            },
+            {
+                "step": 473,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#isSpaceChar:24",
+                    "VALUE": "true"
+                }
+            },
+            {
+                "step": 474,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextInt:6",
+                    "RESULT": "2"
+                }
+            },
+            {
+                "step": 475,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#nextInt:6",
+                    "VALUE": "2"
+                }
+            },
+            {
+                "step": 476,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextIntArray:1",
+                    "A": "int[]:1"
+                }
+            },
+            {
+                "step": 477,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main$InputReader:1#nextIntArray:1",
+                    "RESULT": "int[]:1"
+                }
+            },
+            {
+                "step": 478,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main$InputReader:1#nextIntArray:1",
+                    "VALUE": "int[]:1"
+                }
+            },
+            {
+                "step": 479,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "A": "int[]:1"
+                }
+            },
+            {
+                "step": 480,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[][][]:1"
+                }
+            },
+            {
+                "step": 481,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[][]:1"
+                }
+            },
+            {
+                "step": 482,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:2"
+                }
+            },
+            {
+                "step": 483,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 484,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 485,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:1",
+                    "0": "int[]:2"
+                }
+            },
+            {
+                "step": 486,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:3"
+                }
+            },
+            {
+                "step": 487,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:3",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 488,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:3",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 489,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:1",
+                    "1": "int[]:3"
+                }
+            },
+            {
+                "step": 490,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:4"
+                }
+            },
+            {
+                "step": 491,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:4",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 492,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:4",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 493,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:1",
+                    "2": "int[]:4"
+                }
+            },
+            {
+                "step": 494,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:5"
+                }
+            },
+            {
+                "step": 495,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:5",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 496,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:5",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 497,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:1",
+                    "3": "int[]:5"
+                }
+            },
+            {
+                "step": 498,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][][]:1",
+                    "0": "int[][]:1"
+                }
+            },
+            {
+                "step": 499,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[][]:2"
+                }
+            },
+            {
+                "step": 500,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:6"
+                }
+            },
+            {
+                "step": 501,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:6",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 502,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:6",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 503,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:2",
+                    "0": "int[]:6"
+                }
+            },
+            {
+                "step": 504,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:7"
+                }
+            },
+            {
+                "step": 505,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:7",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 506,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:7",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 507,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:2",
+                    "1": "int[]:7"
+                }
+            },
+            {
+                "step": 508,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:8"
+                }
+            },
+            {
+                "step": 509,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:8",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 510,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:8",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 511,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:2",
+                    "2": "int[]:8"
+                }
+            },
+            {
+                "step": 512,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:9"
+                }
+            },
+            {
+                "step": 513,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:9",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 514,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:9",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 515,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:2",
+                    "3": "int[]:9"
+                }
+            },
+            {
+                "step": 516,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][][]:1",
+                    "1": "int[][]:2"
+                }
+            },
+            {
+                "step": 517,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 518,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "5"
+                }
+            },
+            {
+                "step": 519,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NOW": "1"
+                }
+            },
+            {
+                "step": 520,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NEXT": "0"
+                }
+            },
+            {
+                "step": 521,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 522,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 523,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 524,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 525,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 526,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 527,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 528,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 529,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 530,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 531,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 532,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 533,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 534,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 535,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 536,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 537,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 538,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 539,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 540,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 541,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 542,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 543,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 544,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 545,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "4"
+                }
+            },
+            {
+                "step": 546,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=now",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 547,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=next",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 548,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 549,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NOW": "0"
+                }
+            },
+            {
+                "step": 550,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NEXT": "1"
+                }
+            },
+            {
+                "step": 551,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 552,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 553,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 554,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 555,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 556,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 557,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 558,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 559,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 560,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 561,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 562,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 563,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 564,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 565,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 566,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 567,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 568,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 569,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 570,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 571,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 572,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 573,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 574,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 575,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 576,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 577,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 578,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 579,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 580,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 581,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 582,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 583,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 584,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=now",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 585,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=next",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 586,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 587,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NOW": "1"
+                }
+            },
+            {
+                "step": 588,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NEXT": "0"
+                }
+            },
+            {
+                "step": 589,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 590,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 591,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 592,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 593,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 594,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 595,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 596,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 597,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 598,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 599,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 600,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 601,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 602,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 603,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 604,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 605,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 606,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 607,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 608,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 609,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 610,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 611,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 612,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 613,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 614,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 615,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 616,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 617,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 618,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 619,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 620,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 621,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 622,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=now",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 623,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=next",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 624,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 625,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NOW": "0"
+                }
+            },
+            {
+                "step": 626,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NEXT": "1"
+                }
+            },
+            {
+                "step": 627,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 628,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 629,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 630,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 631,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 632,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 633,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 634,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 635,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 636,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 637,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 638,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 639,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 640,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 641,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 642,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 643,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 644,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 645,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 646,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 647,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 648,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 649,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 650,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 651,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 652,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 653,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 654,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 655,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 656,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 657,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 658,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 659,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 660,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=now",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 661,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=next",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 662,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 663,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NOW": "1"
+                }
+            },
+            {
+                "step": 664,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NEXT": "0"
+                }
+            },
+            {
+                "step": 665,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 666,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 667,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 668,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 669,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 670,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 671,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 672,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 673,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 674,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 675,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 676,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 677,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 678,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 679,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 680,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 681,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 682,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 683,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 684,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 685,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 686,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 687,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 688,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 689,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 690,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 691,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 692,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 693,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 694,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 695,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 696,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 697,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 698,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=now",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 699,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=next",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 700,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 701,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NOW": "0"
+                }
+            },
+            {
+                "step": 702,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "NEXT": "1"
+                }
+            },
+            {
+                "step": 703,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "0"
+                }
+            },
+            {
+                "step": 704,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 705,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 706,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 707,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 708,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 709,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 710,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "1"
+                }
+            },
+            {
+                "step": 711,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 712,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 713,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 714,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 715,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 716,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 717,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 718,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "2"
+                }
+            },
+            {
+                "step": 719,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 720,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 721,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 722,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 723,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 724,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 725,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 726,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "J": "3"
+                }
+            },
+            {
+                "step": 727,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 728,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "0"
+                }
+            },
+            {
+                "step": 729,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 730,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 731,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "K": "1"
+                }
+            },
+            {
+                "step": 732,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 733,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#solve:1",
+                    "DP": "int[][][]:1"
+                }
+            },
+            {
+                "step": 734,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=k",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 735,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=now",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 736,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=next",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 737,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=j",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 738,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "out"
+                }
+            },
+            {
+                "step": 739,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#solve:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 740,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#solve:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 741,
+                "type": "FR",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "VALUE_2": "out"
+                }
+            },
+            {
+                "step": 742,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 743,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

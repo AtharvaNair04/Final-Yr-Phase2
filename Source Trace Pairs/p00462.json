@@ -1,0 +1,964 @@
+{
+    "program_id": "p00462",
+    "source": {
+        "program_id": "p00462",
+        "file": "p00462.java",
+        "package": null,
+        "classes": [
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            }
+        ],
+        "constructors": [],
+        "variables": [
+            "s",
+            "result",
+            "distance",
+            "shopCnt",
+            "orderCnt",
+            "load",
+            "i",
+            "p",
+            "position"
+        ],
+        "method_calls": [
+            {
+                "name": "parseInt",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "nextLine",
+                "qualifier": "s"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "nextLine",
+                "qualifier": "s"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "nextLine",
+                "qualifier": "s"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "nextLine",
+                "qualifier": "s"
+            },
+            {
+                "name": "sort",
+                "qualifier": "Arrays"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": "Integer"
+            },
+            {
+                "name": "nextLine",
+                "qualifier": "s"
+            },
+            {
+                "name": "binarySearch",
+                "qualifier": "Arrays"
+            },
+            {
+                "name": "min",
+                "qualifier": "Math"
+            },
+            {
+                "name": "min",
+                "qualifier": "Math"
+            },
+            {
+                "name": "min",
+                "qualifier": "Math"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            }
+        ],
+        "control_statements": [
+            "while",
+            "if",
+            "for"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00462",
+        "event_count": 101,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "S": "java.util.Scanner (id=363)"
+                }
+            },
+            {
+                "step": 6,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "RESULT": "0"
+                }
+            },
+            {
+                "step": 7,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "DISTANCE": "8"
+                }
+            },
+            {
+                "step": 8,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "SHOPCNT": "3"
+                }
+            },
+            {
+                "step": 9,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ORDERCNT": "2"
+                }
+            },
+            {
+                "step": 10,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:1"
+                }
+            },
+            {
+                "step": 11,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 12,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 13,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "2": "0"
+                }
+            },
+            {
+                "step": 14,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "LOAD": "int[]:1"
+                }
+            },
+            {
+                "step": 15,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "LOAD": "int[]:1"
+                }
+            },
+            {
+                "step": 16,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 17,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "1": "3"
+                }
+            },
+            {
+                "step": 18,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "LOAD": "int[]:1"
+                }
+            },
+            {
+                "step": 19,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 20,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "2": "1"
+                }
+            },
+            {
+                "step": 21,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "LOAD": "int[]:1"
+                }
+            },
+            {
+                "step": 22,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 23,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 24,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "P": "4"
+                }
+            },
+            {
+                "step": 25,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "POSITION": "-4"
+                }
+            },
+            {
+                "step": 26,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "POSITION": "3"
+                }
+            },
+            {
+                "step": 27,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 28,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 29,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=p",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 30,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=position",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 31,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "P": "6"
+                }
+            },
+            {
+                "step": 32,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "POSITION": "-4"
+                }
+            },
+            {
+                "step": 33,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "POSITION": "3"
+                }
+            },
+            {
+                "step": 34,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "RESULT": "3"
+                }
+            },
+            {
+                "step": 35,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=p",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 36,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=position",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 37,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 38,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=result",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 39,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=distance",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 40,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=shopCnt",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 41,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=orderCnt",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 42,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=load",
+                    "TYPE": "int[] (id=77)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 43,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "RESULT": "0"
+                }
+            },
+            {
+                "step": 44,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "DISTANCE": "20"
+                }
+            },
+            {
+                "step": 45,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "SHOPCNT": "4"
+                }
+            },
+            {
+                "step": 46,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ORDERCNT": "4"
+                }
+            },
+            {
+                "step": 47,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:2"
+                }
+            },
+            {
+                "step": 48,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 49,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 50,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "2": "0"
+                }
+            },
+            {
+                "step": 51,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "3": "0"
+                }
+            },
+            {
+                "step": 52,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "LOAD": "int[]:2"
+                }
+            },
+            {
+                "step": 53,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "LOAD": "int[]:2"
+                }
+            },
+            {
+                "step": 54,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 55,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "1": "12"
+                }
+            },
+            {
+                "step": 56,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "LOAD": "int[]:2"
+                }
+            },
+            {
+                "step": 57,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 58,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "2": "8"
+                }
+            },
+            {
+                "step": 59,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "LOAD": "int[]:2"
+                }
+            },
+            {
+                "step": 60,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 61,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "3": "16"
+                }
+            },
+            {
+                "step": 62,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "LOAD": "int[]:2"
+                }
+            },
+            {
+                "step": 63,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 64,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "0"
+                }
+            },
+            {
+                "step": 65,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "P": "7"
+                }
+            },
+            {
+                "step": 66,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "POSITION": "-2"
+                }
+            },
+            {
+                "step": 67,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "POSITION": "1"
+                }
+            },
+            {
+                "step": 68,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "RESULT": "1"
+                }
+            },
+            {
+                "step": 69,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 70,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=p",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 71,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=position",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 72,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "P": "7"
+                }
+            },
+            {
+                "step": 73,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "POSITION": "-2"
+                }
+            },
+            {
+                "step": 74,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "POSITION": "1"
+                }
+            },
+            {
+                "step": 75,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "RESULT": "2"
+                }
+            },
+            {
+                "step": 76,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 77,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=p",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 78,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=position",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 79,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "P": "11"
+                }
+            },
+            {
+                "step": 80,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "POSITION": "-3"
+                }
+            },
+            {
+                "step": 81,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "POSITION": "2"
+                }
+            },
+            {
+                "step": 82,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "RESULT": "3"
+                }
+            },
+            {
+                "step": 83,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 84,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=p",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 85,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=position",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 86,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "P": "8"
+                }
+            },
+            {
+                "step": 87,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "POSITION": "1"
+                }
+            },
+            {
+                "step": 88,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "POSITION": "1"
+                }
+            },
+            {
+                "step": 89,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "RESULT": "3"
+                }
+            },
+            {
+                "step": 90,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=p",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "9>"
+                }
+            },
+            {
+                "step": 91,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=position",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "10>"
+                }
+            },
+            {
+                "step": 92,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "8>"
+                }
+            },
+            {
+                "step": 93,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=result",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "2>"
+                }
+            },
+            {
+                "step": 94,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=distance",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "0",
+                    "INDEX": "3>"
+                }
+            },
+            {
+                "step": 95,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=shopCnt",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "4>"
+                }
+            },
+            {
+                "step": 96,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=orderCnt",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "5>"
+                }
+            },
+            {
+                "step": 97,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=load",
+                    "TYPE": "int[] (id=77)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 98,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "RESULT": "0"
+                }
+            },
+            {
+                "step": 99,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "DISTANCE": "0"
+                }
+            },
+            {
+                "step": 100,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 101,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

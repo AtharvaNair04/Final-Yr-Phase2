@@ -1,0 +1,150 @@
+{
+    "program_id": "p00005",
+    "source": {
+        "program_id": "p00005",
+        "file": "p00005.java",
+        "package": null,
+        "classes": [
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            }
+        ],
+        "constructors": [],
+        "variables": [
+            "allpermutations",
+            "cin",
+            "a",
+            "b",
+            "aVal",
+            "bVal",
+            "gcd",
+            "lcm"
+        ],
+        "method_calls": [
+            {
+                "name": "hasNextLong",
+                "qualifier": "cin"
+            },
+            {
+                "name": "nextLong",
+                "qualifier": "cin"
+            },
+            {
+                "name": "nextLong",
+                "qualifier": "cin"
+            },
+            {
+                "name": "valueOf",
+                "qualifier": "BigInteger"
+            },
+            {
+                "name": "valueOf",
+                "qualifier": "BigInteger"
+            },
+            {
+                "name": "gcd",
+                "qualifier": "aVal"
+            },
+            {
+                "name": "multiply",
+                "qualifier": "aVal"
+            },
+            {
+                "name": "divide",
+                "qualifier": null
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            }
+        ],
+        "control_statements": [
+            "while"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00005",
+        "event_count": 9,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "CIN": "java.util.Scanner (id=47)"
+                }
+            },
+            {
+                "step": 6,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "A": "8"
+                }
+            },
+            {
+                "step": 7,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "B": "6"
+                }
+            },
+            {
+                "step": 8,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "A": "50000000"
+                }
+            },
+            {
+                "step": 9,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "B": "30000000"
+                }
+            }
+        ]
+    }
+}

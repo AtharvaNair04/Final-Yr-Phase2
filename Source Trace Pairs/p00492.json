@@ -1,0 +1,583 @@
+{
+    "program_id": "p00492",
+    "source": {
+        "program_id": "p00492",
+        "file": "p00492.java",
+        "package": null,
+        "classes": [
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "is_ok",
+                "return_type": "boolean",
+                "parameters": [
+                    "x",
+                    "y",
+                    "H",
+                    "W"
+                ]
+            },
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            }
+        ],
+        "constructors": [],
+        "variables": [
+            "move_dir",
+            "sc",
+            "W",
+            "H",
+            "is_wall",
+            "visited",
+            "i",
+            "j",
+            "x_queue",
+            "y_queue",
+            "wall_count",
+            "x",
+            "y",
+            "move",
+            "nx",
+            "ny"
+        ],
+        "method_calls": [
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "nextInt",
+                "qualifier": "sc"
+            },
+            {
+                "name": "add",
+                "qualifier": "x_queue"
+            },
+            {
+                "name": "add",
+                "qualifier": "y_queue"
+            },
+            {
+                "name": "isEmpty",
+                "qualifier": "x_queue"
+            },
+            {
+                "name": "poll",
+                "qualifier": "x_queue"
+            },
+            {
+                "name": "poll",
+                "qualifier": "y_queue"
+            },
+            {
+                "name": "is_ok",
+                "qualifier": ""
+            },
+            {
+                "name": "add",
+                "qualifier": "x_queue"
+            },
+            {
+                "name": "add",
+                "qualifier": "y_queue"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            }
+        ],
+        "control_statements": [
+            "if",
+            "for",
+            "while"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00492",
+        "event_count": 61,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#<clinit>:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[][][]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[][]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:1"
+                }
+            },
+            {
+                "step": 6,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "0": "1"
+                }
+            },
+            {
+                "step": 7,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:1",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 8,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:1",
+                    "0": "int[]:1"
+                }
+            },
+            {
+                "step": 9,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:2"
+                }
+            },
+            {
+                "step": 10,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "0": "-1"
+                }
+            },
+            {
+                "step": 11,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:2",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 12,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:1",
+                    "1": "int[]:2"
+                }
+            },
+            {
+                "step": 13,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:3"
+                }
+            },
+            {
+                "step": 14,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:3",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 15,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:3",
+                    "1": "1"
+                }
+            },
+            {
+                "step": 16,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:1",
+                    "2": "int[]:3"
+                }
+            },
+            {
+                "step": 17,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:4"
+                }
+            },
+            {
+                "step": 18,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:4",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 19,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:4",
+                    "1": "-1"
+                }
+            },
+            {
+                "step": 20,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:1",
+                    "3": "int[]:4"
+                }
+            },
+            {
+                "step": 21,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:5"
+                }
+            },
+            {
+                "step": 22,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:5",
+                    "0": "1"
+                }
+            },
+            {
+                "step": 23,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:5",
+                    "1": "-1"
+                }
+            },
+            {
+                "step": 24,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:1",
+                    "4": "int[]:5"
+                }
+            },
+            {
+                "step": 25,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:6"
+                }
+            },
+            {
+                "step": 26,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:6",
+                    "0": "1"
+                }
+            },
+            {
+                "step": 27,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:6",
+                    "1": "1"
+                }
+            },
+            {
+                "step": 28,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:1",
+                    "5": "int[]:6"
+                }
+            },
+            {
+                "step": 29,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][][]:1",
+                    "0": "int[][]:1"
+                }
+            },
+            {
+                "step": 30,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[][]:2"
+                }
+            },
+            {
+                "step": 31,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:7"
+                }
+            },
+            {
+                "step": 32,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:7",
+                    "0": "1"
+                }
+            },
+            {
+                "step": 33,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:7",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 34,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:2",
+                    "0": "int[]:7"
+                }
+            },
+            {
+                "step": 35,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:8"
+                }
+            },
+            {
+                "step": 36,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:8",
+                    "0": "-1"
+                }
+            },
+            {
+                "step": 37,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:8",
+                    "1": "0"
+                }
+            },
+            {
+                "step": 38,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:2",
+                    "1": "int[]:8"
+                }
+            },
+            {
+                "step": 39,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:9"
+                }
+            },
+            {
+                "step": 40,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:9",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 41,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:9",
+                    "1": "1"
+                }
+            },
+            {
+                "step": 42,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:2",
+                    "2": "int[]:9"
+                }
+            },
+            {
+                "step": 43,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:10"
+                }
+            },
+            {
+                "step": 44,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:10",
+                    "0": "0"
+                }
+            },
+            {
+                "step": 45,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:10",
+                    "1": "-1"
+                }
+            },
+            {
+                "step": 46,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:2",
+                    "3": "int[]:10"
+                }
+            },
+            {
+                "step": 47,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:11"
+                }
+            },
+            {
+                "step": 48,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:11",
+                    "0": "-1"
+                }
+            },
+            {
+                "step": 49,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:11",
+                    "1": "1"
+                }
+            },
+            {
+                "step": 50,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:2",
+                    "4": "int[]:11"
+                }
+            },
+            {
+                "step": 51,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "int[]:12"
+                }
+            },
+            {
+                "step": 52,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:12",
+                    "0": "-1"
+                }
+            },
+            {
+                "step": 53,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[]:12",
+                    "1": "-1"
+                }
+            },
+            {
+                "step": 54,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][]:2",
+                    "5": "int[]:12"
+                }
+            },
+            {
+                "step": 55,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "int[][][]:1",
+                    "1": "int[][]:2"
+                }
+            },
+            {
+                "step": 56,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "Main",
+                    "MOVE_DIR": "int[][][]:1"
+                }
+            },
+            {
+                "step": 57,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#<clinit>:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 58,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 59,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 60,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 61,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "SC": "java.util.Scanner (id=380)"
+                }
+            }
+        ]
+    }
+}

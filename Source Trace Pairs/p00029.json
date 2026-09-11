@@ -1,0 +1,458 @@
+{
+    "program_id": "p00029",
+    "source": {
+        "program_id": "p00029",
+        "file": "p00029.java",
+        "package": null,
+        "classes": [
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            }
+        ],
+        "constructors": [],
+        "variables": [
+            "input",
+            "arr",
+            "words",
+            "max",
+            "frequent",
+            "i",
+            "word"
+        ],
+        "method_calls": [
+            {
+                "name": "nextLine",
+                "qualifier": "input"
+            },
+            {
+                "name": "split",
+                "qualifier": null
+            },
+            {
+                "name": "put",
+                "qualifier": "words"
+            },
+            {
+                "name": "containsKey",
+                "qualifier": "words"
+            },
+            {
+                "name": "put",
+                "qualifier": "words"
+            },
+            {
+                "name": "get",
+                "qualifier": "words"
+            },
+            {
+                "name": "put",
+                "qualifier": "words"
+            },
+            {
+                "name": "get",
+                "qualifier": "words"
+            },
+            {
+                "name": "get",
+                "qualifier": "words"
+            },
+            {
+                "name": "length",
+                "qualifier": "word"
+            },
+            {
+                "name": "length",
+                "qualifier": "max"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "close",
+                "qualifier": "input"
+            }
+        ],
+        "control_statements": [
+            "for",
+            "if"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00029",
+        "event_count": 44,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "INPUT": "java.util.Scanner (id=47)"
+                }
+            },
+            {
+                "step": 6,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:2"
+                }
+            },
+            {
+                "step": 7,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "0": "Thank"
+                }
+            },
+            {
+                "step": 8,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "1": "you"
+                }
+            },
+            {
+                "step": 9,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "2": "for"
+                }
+            },
+            {
+                "step": 10,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "3": "your"
+                }
+            },
+            {
+                "step": 11,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "4": "mail"
+                }
+            },
+            {
+                "step": 12,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "5": "and"
+                }
+            },
+            {
+                "step": 13,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "6": "your"
+                }
+            },
+            {
+                "step": 14,
+                "type": "FW",
+                "attributes": {
+                    "CONTEXT": "java.lang.String[]:2",
+                    "7": "lectures"
+                }
+            },
+            {
+                "step": 15,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARR": "java.lang.String[]:2"
+                }
+            },
+            {
+                "step": 16,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "WORDS": "java.util.HashMap (id=57)"
+                }
+            },
+            {
+                "step": 17,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "MAX": "Thank"
+                }
+            },
+            {
+                "step": 18,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "FREQUENT": "Thank"
+                }
+            },
+            {
+                "step": 19,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "1"
+                }
+            },
+            {
+                "step": 20,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "WORD": "you"
+                }
+            },
+            {
+                "step": 21,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "2"
+                }
+            },
+            {
+                "step": 22,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=word",
+                    "TYPE": "java.lang.String (id=25)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 23,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "WORD": "for"
+                }
+            },
+            {
+                "step": 24,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "3"
+                }
+            },
+            {
+                "step": 25,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=word",
+                    "TYPE": "java.lang.String (id=25)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 26,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "WORD": "your"
+                }
+            },
+            {
+                "step": 27,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "4"
+                }
+            },
+            {
+                "step": 28,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=word",
+                    "TYPE": "java.lang.String (id=25)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 29,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "WORD": "mail"
+                }
+            },
+            {
+                "step": 30,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "5"
+                }
+            },
+            {
+                "step": 31,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=word",
+                    "TYPE": "java.lang.String (id=25)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 32,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "WORD": "and"
+                }
+            },
+            {
+                "step": 33,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "6"
+                }
+            },
+            {
+                "step": 34,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=word",
+                    "TYPE": "java.lang.String (id=25)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 35,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "WORD": "your"
+                }
+            },
+            {
+                "step": 36,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "FREQUENT": "your"
+                }
+            },
+            {
+                "step": 37,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "I": "7"
+                }
+            },
+            {
+                "step": 38,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=word",
+                    "TYPE": "java.lang.String (id=25)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 39,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "WORD": "lectures"
+                }
+            },
+            {
+                "step": 40,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "MAX": "lectures"
+                }
+            },
+            {
+                "step": 41,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=word",
+                    "TYPE": "java.lang.String (id=25)",
+                    "VALUE": "<?>",
+                    "INDEX": "7>"
+                }
+            },
+            {
+                "step": 42,
+                "type": "VD",
+                "attributes": {
+                    "METHOD": "Main#main:1 <name=i",
+                    "TYPE": "int (id=7)",
+                    "VALUE": "<?>",
+                    "INDEX": "6>"
+                }
+            },
+            {
+                "step": 43,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 44,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

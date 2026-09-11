@@ -1,0 +1,108 @@
+{
+    "program_id": "p00183",
+    "source": {
+        "program_id": "p00183",
+        "file": "p00183.java",
+        "package": null,
+        "classes": [
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "z"
+                ]
+            }
+        ],
+        "constructors": [],
+        "variables": [
+            "r",
+            "x",
+            "y",
+            "i"
+        ],
+        "method_calls": [
+            {
+                "name": "read",
+                "qualifier": "System.in"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            },
+            {
+                "name": "split",
+                "qualifier": null
+            },
+            {
+                "name": "replaceAll",
+                "qualifier": null
+            },
+            {
+                "name": "matches",
+                "qualifier": null
+            },
+            {
+                "name": "format",
+                "qualifier": "String"
+            }
+        ],
+        "control_statements": [
+            "for",
+            "if"
+        ]
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00183",
+        "event_count": 6,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "Z": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 6,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}

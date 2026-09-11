@@ -1,0 +1,156 @@
+{
+    "program_id": "p00310",
+    "source": {
+        "program_id": "p00310",
+        "file": "p00310.java",
+        "package": null,
+        "classes": [
+            "Main"
+        ],
+        "interfaces": [],
+        "methods": [
+            {
+                "name": "main",
+                "return_type": null,
+                "parameters": [
+                    "args"
+                ]
+            }
+        ],
+        "constructors": [],
+        "variables": [
+            "br",
+            "line",
+            "words",
+            "p",
+            "m",
+            "c",
+            "st"
+        ],
+        "method_calls": [
+            {
+                "name": "readLine",
+                "qualifier": "br"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": ""
+            },
+            {
+                "name": "nextToken",
+                "qualifier": "st"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": ""
+            },
+            {
+                "name": "nextToken",
+                "qualifier": "st"
+            },
+            {
+                "name": "parseInt",
+                "qualifier": ""
+            },
+            {
+                "name": "nextToken",
+                "qualifier": "st"
+            },
+            {
+                "name": "println",
+                "qualifier": "System.out"
+            }
+        ],
+        "control_statements": []
+    },
+    "runtime_trace": {
+        "representation": "ESR",
+        "program_id": "p00310",
+        "event_count": 11,
+        "events": [
+            {
+                "step": 1,
+                "type": "TS",
+                "attributes": {
+                    "VALUE_1": "main (1)"
+                }
+            },
+            {
+                "step": 2,
+                "type": "MC",
+                "attributes": {
+                    "CALLER": "SYSTEM",
+                    "TARGET": "Main#main:1"
+                }
+            },
+            {
+                "step": 3,
+                "type": "NO",
+                "attributes": {
+                    "OBJECT": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 4,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ARGS": "java.lang.String[]:1"
+                }
+            },
+            {
+                "step": 5,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "BR": "java.io.BufferedReader (id=24)"
+                }
+            },
+            {
+                "step": 6,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "ST": "java.util.StringTokenizer (id=27)"
+                }
+            },
+            {
+                "step": 7,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "P": "10"
+                }
+            },
+            {
+                "step": 8,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "M": "10"
+                }
+            },
+            {
+                "step": 9,
+                "type": "VW",
+                "attributes": {
+                    "CONTEXT": "Main#main:1",
+                    "C": "20"
+                }
+            },
+            {
+                "step": 10,
+                "type": "ME",
+                "attributes": {
+                    "RETURNER": "Main#main:1",
+                    "VALUE": "<void>"
+                }
+            },
+            {
+                "step": 11,
+                "type": "TE",
+                "attributes": {}
+            }
+        ]
+    }
+}
