@@ -1,0 +1,326 @@
+{
+    "program_id": "p00792",
+    "file": "p00792.java",
+    "package": null,
+    "classes": [
+        "Main",
+        "AOJ1212"
+    ],
+    "interfaces": [],
+    "methods": [
+        {
+            "name": "main",
+            "return_type": null,
+            "parameters": [
+                "args"
+            ]
+        },
+        {
+            "name": "solve",
+            "return_type": null,
+            "parameters": []
+        },
+        {
+            "name": "intersectionPoint",
+            "return_type": "ReferenceType(arguments=None, dimensions=[], name=Point2D, sub_type=None)",
+            "parameters": [
+                "l1",
+                "l2"
+            ]
+        },
+        {
+            "name": "intersectionPoint",
+            "return_type": "ReferenceType(arguments=None, dimensions=[], name=Point2D, sub_type=None)",
+            "parameters": [
+                "a1",
+                "a2",
+                "b1",
+                "b2"
+            ]
+        },
+        {
+            "name": "sum",
+            "return_type": "ReferenceType(arguments=None, dimensions=[], name=Point2D, sub_type=None)",
+            "parameters": [
+                "p1",
+                "p2"
+            ]
+        },
+        {
+            "name": "diff",
+            "return_type": "ReferenceType(arguments=None, dimensions=[], name=Point2D, sub_type=None)",
+            "parameters": [
+                "p1",
+                "p2"
+            ]
+        },
+        {
+            "name": "mul",
+            "return_type": "ReferenceType(arguments=None, dimensions=[], name=Point2D, sub_type=None)",
+            "parameters": [
+                "n",
+                "p1"
+            ]
+        },
+        {
+            "name": "cross",
+            "return_type": "BasicType(dimensions=[], name=double)",
+            "parameters": [
+                "p1",
+                "p2"
+            ]
+        }
+    ],
+    "constructors": [
+        {
+            "name": "Main",
+            "parameters": []
+        },
+        {
+            "name": "AOJ1212",
+            "parameters": []
+        }
+    ],
+    "variables": [
+        "sc",
+        "N",
+        "EPS",
+        "mirrors",
+        "i",
+        "d",
+        "x",
+        "y",
+        "walls",
+        "start",
+        "ans",
+        "l",
+        "vv",
+        "cnt",
+        "v",
+        "fin",
+        "bs",
+        "dis",
+        "p",
+        "idx",
+        "b",
+        "a",
+        "tmp",
+        "px",
+        "py"
+    ],
+    "method_calls": [
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "solve",
+            "qualifier": ""
+        },
+        {
+            "name": "next",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "nextInt",
+            "qualifier": "sc"
+        },
+        {
+            "name": "equals",
+            "qualifier": "d"
+        },
+        {
+            "name": "equals",
+            "qualifier": "d"
+        },
+        {
+            "name": "ptSegDist",
+            "qualifier": "l"
+        },
+        {
+            "name": "intersectsLine",
+            "qualifier": "l"
+        },
+        {
+            "name": "intersectionPoint",
+            "qualifier": ""
+        },
+        {
+            "name": "distance",
+            "qualifier": "b"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "intersectsLine",
+            "qualifier": "l"
+        },
+        {
+            "name": "intersectionPoint",
+            "qualifier": ""
+        },
+        {
+            "name": "distance",
+            "qualifier": "tmp"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "distance",
+            "qualifier": "start"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l"
+        },
+        {
+            "name": "getX1",
+            "qualifier": null
+        },
+        {
+            "name": "getX2",
+            "qualifier": null
+        },
+        {
+            "name": "getX",
+            "qualifier": "p"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p"
+        },
+        {
+            "name": "sum",
+            "qualifier": ""
+        },
+        {
+            "name": "println",
+            "qualifier": "System.out"
+        },
+        {
+            "name": "getX",
+            "qualifier": "ans"
+        },
+        {
+            "name": "getY",
+            "qualifier": "ans"
+        },
+        {
+            "name": "intersectionPoint",
+            "qualifier": ""
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getP2",
+            "qualifier": "l1"
+        },
+        {
+            "name": "getP1",
+            "qualifier": "l2"
+        },
+        {
+            "name": "getP2",
+            "qualifier": "l2"
+        },
+        {
+            "name": "diff",
+            "qualifier": ""
+        },
+        {
+            "name": "diff",
+            "qualifier": ""
+        },
+        {
+            "name": "sum",
+            "qualifier": ""
+        },
+        {
+            "name": "mul",
+            "qualifier": ""
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "diff",
+            "qualifier": ""
+        },
+        {
+            "name": "cross",
+            "qualifier": ""
+        },
+        {
+            "name": "getX",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p1"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getX",
+            "qualifier": "p2"
+        },
+        {
+            "name": "getY",
+            "qualifier": "p1"
+        }
+    ],
+    "control_statements": [
+        "while",
+        "if",
+        "for"
+    ]
+}
