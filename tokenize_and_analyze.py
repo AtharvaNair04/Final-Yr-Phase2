@@ -27,69 +27,39 @@ FILES = {
 # SOURCE TOKENIZER
 # ============================================================
 
-def tokenize_source(obj):
-    """
-    Converts the source/static representation into tokens.
-
-    Since the current Module 3 dataset stores 'source'
-    as a structured JSON object, we recursively extract
-    its meaningful values and tokenize them.
-    """
-
-    tokens = []
-
-    def process(value):
-
-        if isinstance(value, dict):
-
-            for key, val in value.items():
-
-                # Key becomes a token
-                tokens.append(str(key))
-
-                process(val)
-
-        elif isinstance(value, list):
-
-            for item in value:
-                process(item)
-
-        else:
-
-            text = str(value)
-
-            # Split identifiers, numbers and symbols
-            parts = re.findall(
-                r'[A-Za-z_][A-Za-z0-9_]*'
-                r'|\d+(?:\.\d+)?'
-                r'|==|!=|<=|>=|&&|\|\|'
-                r'[{}()\[\].,;:+\-*/%=<>]',
-                text
-            )
-
-            tokens.extend(parts)
-
-    process(obj)
-
-    return tokens
+from source_tokenizer import tokenize_source, tokenize_java_code
 
 
 # ============================================================
 # EVENT-AWARE RUNTIME TOKENIZER
 # ============================================================
 
+RESERVED_TOKENS = {
+    "<EVENT_START>",
+    "<EVENT_END>",
+    "<ATTR_START>",
+    "<ATTR_END>",
+    "<EMPTY_VAL>",
+    "TYPE",
+    "STEP",
+    "\\",
+}
+
+VALUE_TOKEN_REGEX = re.compile(
+    r'<EVENT_START>|<EVENT_END>|<ATTR_START>|<ATTR_END>|<EMPTY_VAL>|\w+|[^\s\w]'
+)
+
+
 def tokenize_runtime(runtime_trace):
     """
     Converts SRER/ESR runtime events into an event-aware
-    token sequence.
+    token sequence with explicit event and attribute boundaries.
 
     Each event is explicitly bounded by:
+        <EVENT_START> ... <EVENT_END>
 
-        <EVENT_START>
-        ...
-        <EVENT_END>
-
-    This ensures that event boundaries are preserved.
+    Each attribute is explicitly bounded by:
+        <ATTR_START> <KEY> <VALUE_TOKENS...> <ATTR_END>
     """
 
     tokens = []
@@ -158,18 +128,26 @@ def tokenize_runtime(runtime_trace):
 
             for key, value in attributes.items():
 
-                tokens.append(str(key))
+                tokens.append("<ATTR_START>")
 
-                # Convert attribute value into lexical tokens
-                value_tokens = re.findall(
-                    r'[A-Za-z_][A-Za-z0-9_.$#:-]*'
-                    r'|\d+(?:\.\d+)?'
-                    r'|==|!=|<=|>=|&&|\|\|'
-                    r'[{}()\[\].,;:+\-*/%=<>]',
-                    str(value)
-                )
+                # Key: emit key token (escaped if key matches a reserved token)
+                key_str = str(key)
+                if key_str in RESERVED_TOKENS:
+                    tokens.append("\\")
+                tokens.append(key_str)
 
-                tokens.extend(value_tokens)
+                # Handle empty attribute values
+                if value == "" or value is None:
+                    tokens.append("<EMPTY_VAL>")
+                else:
+                    # Convert attribute value into lexical tokens with reserved escaping
+                    value_tokens = VALUE_TOKEN_REGEX.findall(str(value))
+                    for vt in value_tokens:
+                        if vt in RESERVED_TOKENS:
+                            tokens.append("\\")
+                        tokens.append(vt)
+
+                tokens.append("<ATTR_END>")
 
         # Event boundary
         tokens.append("<EVENT_END>")
