@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+"""
+Builds the disk-backed pre-encoded chunk cache (chunk_cache.py) for the requested splits.
+
+  python scripts/build_chunk_cache.py --splits train validation
+
+Output: data_cache/chunks_v1/<split>/ (git-ignored). An existing directory is never overwritten.
+The test split is refused unless --allow-test is given (it is reserved for final evaluation).
+"""
+
+import argparse
+import sys
+import time
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from chunk_cache import build_chunk_cache  # noqa: E402
+from execution_dataset import ExecutionTraceDataset  # noqa: E402
+from vocabulary import Vocabulary  # noqa: E402
+
+SPLIT_FILES = {"train": "train.jsonl", "validation": "validation.jsonl", "test": "test.jsonl"}
+CACHE_ROOT = ROOT / "data_cache" / "chunks_v1"
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--splits", nargs="+", choices=list(SPLIT_FILES), required=True)
+    parser.add_argument("--allow-test", action="store_true", help="required to build the test split")
+    args = parser.parse_args()
+    if "test" in args.splits and not args.allow_test:
+        parser.error("the test split is reserved for final evaluation; pass --allow-test to build it")
+
+    src_vocab = Vocabulary.load(ROOT / "vocabularies" / "vocab_source.json")
+    tgt_vocab = Vocabulary.load(ROOT / "vocabularies" / "vocab_target.json")
+    for split in args.splits:
+        t0 = time.perf_counter()
+        dataset = ExecutionTraceDataset(
+            ROOT / "Module3_Training_Dataset" / "split" / SPLIT_FILES[split],
+            ROOT / "selected source code", src_vocab, tgt_vocab,
+            max_chunk_size=1024, oversized_policy="separate", max_source_length=None,
+        )
+        manifest = build_chunk_cache(dataset, CACHE_ROOT / split)
+        print(f"{split}: {manifest['counts']} in {time.perf_counter() - t0:.0f}s -> {CACHE_ROOT / split}", flush=True)
+
+
+if __name__ == "__main__":
+    main()
