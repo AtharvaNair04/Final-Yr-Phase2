@@ -10,9 +10,14 @@ Verifies the chunk cache against ExecutionTraceDataset on real data (read-only; 
      driver's functions, compared with results/eval_validation_v1/exp1_best.json.
   5. Throughput: random-access loading (cache vs original) and a shuffled DataLoader pass.
 
-Writes results/chunk_cache_verification_v1/report.json.
+Writes results/chunk_cache_verification_v1/report.json (or --out-dir).
+
+With --target-format esr_v2_nostep the same checks run against StepFreeExecutionTraceDataset and
+data_cache/chunks_v2_nostep/; check 4 is replaced by exact expected counts (there is no stored
+step-free exp1 reference), and the report goes to results/chunk_cache_verification_v2_nostep/.
 """
 
+import argparse
 import json
 import random
 import sys
@@ -28,13 +33,20 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from chunk_cache import CachedExecutionTraceDataset  # noqa: E402
 from execution_dataset import ExecutionTraceDataset, create_dataloader, execution_trace_collate_fn  # noqa: E402
+from target_format import TARGET_FORMAT_V1, TARGET_FORMAT_V2, StepFreeExecutionTraceDataset  # noqa: E402
 from vocabulary import Vocabulary  # noqa: E402
 import run_validation_evaluation as rve  # noqa: E402  (committed evaluation driver; functions reused unchanged)
 
 SPLITS = {"train": "train.jsonl", "validation": "validation.jsonl"}
-CACHE_ROOT = ROOT / "data_cache" / "chunks_v1"
+CACHE_ROOTS = {TARGET_FORMAT_V1: ROOT / "data_cache" / "chunks_v1",
+               TARGET_FORMAT_V2: ROOT / "data_cache" / "chunks_v2_nostep"}
+DEFAULT_OUT = {TARGET_FORMAT_V1: ROOT / "results" / "chunk_cache_verification_v1",
+               TARGET_FORMAT_V2: ROOT / "results" / "chunk_cache_verification_v2_nostep"}
+DATASET_CLASSES = {TARGET_FORMAT_V1: ExecutionTraceDataset, TARGET_FORMAT_V2: StepFreeExecutionTraceDataset}
+# Expected step-free counts, measured independently in the read-only STEP investigation.
+EXPECTED_V2 = {"train": {"chunks": 101411, "target_tokens": 102593039},
+               "validation": {"chunks": 9919, "target_tokens": 10055252}}
 JAVA_DIR = ROOT / "selected source code"
-OUT_DIR = ROOT / "results" / "chunk_cache_verification_v1"
 ID_FIELDS = ("program_id", "chunk_index", "total_chunks", "source_ids", "chunk_ids", "decoder_input_ids", "target_ids")
 BATCH_TENSORS = ("chunk_indices", "total_chunks", "src_ids", "src_padding_mask", "decoder_input_ids",
                  "target_ids", "target_padding_mask", "loss_mask", "src_lengths", "target_lengths")
@@ -45,12 +57,12 @@ LOSS_TOL = 1e-5
 ACC_TOL = 1e-6
 
 
-def datasets(split, src_vocab, tgt_vocab, max_source_length=None):
+def datasets(split, src_vocab, tgt_vocab, max_source_length=None, target_format=TARGET_FORMAT_V1):
     jsonl = ROOT / "Module3_Training_Dataset" / "split" / SPLITS[split]
-    orig = ExecutionTraceDataset(jsonl, JAVA_DIR, src_vocab, tgt_vocab, max_chunk_size=1024,
-                                 max_source_length=max_source_length)
-    cached = CachedExecutionTraceDataset(CACHE_ROOT / split, jsonl, JAVA_DIR, src_vocab, tgt_vocab,
-                                         max_source_length=max_source_length)
+    orig = DATASET_CLASSES[target_format](jsonl, JAVA_DIR, src_vocab, tgt_vocab, max_chunk_size=1024,
+                                          max_source_length=max_source_length)
+    cached = CachedExecutionTraceDataset(CACHE_ROOTS[target_format] / split, jsonl, JAVA_DIR, src_vocab, tgt_vocab,
+                                         max_source_length=max_source_length, target_format=target_format)
     return orig, cached
 
 
@@ -152,19 +164,26 @@ def throughput(orig_train, cached_train, device):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--target-format", choices=list(CACHE_ROOTS), default=TARGET_FORMAT_V1)
+    parser.add_argument("--out-dir", type=Path, default=None)
+    args = parser.parse_args()
+    fmt = args.target_format
+    out_dir = args.out_dir or DEFAULT_OUT[fmt]
+
     src_vocab = Vocabulary.load(ROOT / "vocabularies" / "vocab_source.json")
     tgt_vocab = Vocabulary.load(ROOT / "vocabularies" / "vocab_target.json")
-    report = {}
+    report = {"target_format": fmt}
     pairs = {}
     for split in ("validation", "train"):
         t0 = time.perf_counter()
-        orig, cached = datasets(split, src_vocab, tgt_vocab)
+        orig, cached = datasets(split, src_vocab, tgt_vocab, target_format=fmt)
         pairs[split] = (orig, cached)
         report[split] = compare_all(orig, cached)
         report[split]["seconds"] = time.perf_counter() - t0
         print(split, report[split], flush=True)
 
-    o1024, c1024 = datasets("validation", src_vocab, tgt_vocab, max_source_length=1024)
+    o1024, c1024 = datasets("validation", src_vocab, tgt_vocab, max_source_length=1024, target_format=fmt)
     report["validation_truncated_1024"] = compare_all(o1024, c1024, check_batches=True)
     report["validation_truncated_1024"]["programs_truncated"] = sum(
         len(pairs["validation"][1]._source(r)) > 1024 for r in range(len(pairs["validation"][1].program_ids)))
@@ -173,8 +192,21 @@ def main():
     overlap = set(pairs["train"][1].program_ids) & set(pairs["validation"][1].program_ids)
     report["train_validation_overlap"] = len(overlap)
 
-    report["exp1_teacher_forced"] = exp1_teacher_forced(pairs["validation"][1], src_vocab, tgt_vocab)
-    print("exp1", {k: v for k, v in report["exp1_teacher_forced"].items() if k != "new_tf_all_micro"}, flush=True)
+    if fmt == TARGET_FORMAT_V1:
+        report["exp1_teacher_forced"] = exp1_teacher_forced(pairs["validation"][1], src_vocab, tgt_vocab)
+        print("exp1", {k: v for k, v in report["exp1_teacher_forced"].items() if k != "new_tf_all_micro"}, flush=True)
+        fourth_check = report["exp1_teacher_forced"]["pass"]
+    else:
+        counts = {split: {"chunks": pairs[split][1].total_chunks,
+                          "target_tokens": pairs[split][1].manifest["counts"]["target_tokens"],
+                          "oversized_events_dropped": pairs[split][1].total_oversized_events}
+                  for split in SPLITS}
+        report["expected_counts"] = {"expected": EXPECTED_V2, "actual": counts}
+        fourth_check = all(counts[s]["chunks"] == EXPECTED_V2[s]["chunks"]
+                           and counts[s]["target_tokens"] == EXPECTED_V2[s]["target_tokens"]
+                           and counts[s]["oversized_events_dropped"] == 0 for s in SPLITS)
+        report["expected_counts"]["pass"] = fourth_check
+        print("expected counts", report["expected_counts"], flush=True)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     report["throughput"] = throughput(pairs["train"][0], pairs["train"][1], device)
@@ -182,9 +214,9 @@ def main():
 
     report["all_pass"] = all([report["validation"]["pass"], report["train"]["pass"],
                               report["validation_truncated_1024"]["pass"], report["train_validation_overlap"] == 0,
-                              report["exp1_teacher_forced"]["pass"]])
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    (OUT_DIR / "report.json").write_text(json.dumps(report, indent=1))
+                              fourth_check])
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "report.json").write_text(json.dumps(report, indent=1))
     print("ALL PASS" if report["all_pass"] else "FAILURES PRESENT", flush=True)
 
 

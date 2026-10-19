@@ -228,7 +228,9 @@ def event_metrics(ref_tokens: Sequence[str], pred_tokens: Sequence[str]) -> Dict
         attr_key_match_rate: fraction of pairs with identical ordered key lists
         attr_value_match_rate: over reference attributes, fraction whose key appears in the
                                predicted event with identical value tokens
-        step_match_rate: fraction of pairs with identical STEP value
+        step_match_rate: over aligned pairs whose *reference* event has a STEP, fraction with the
+                         identical STEP value; None when the reference carries no STEP
+                         (esr_v2_nostep), so a step-free model is never credited with step accuracy
       event_exact_rate / event_exact_nostep_rate: identical event tokens (with / without STEP)
                                at equal positions / max(n_ref, n_pred)
     """
@@ -245,7 +247,7 @@ def event_metrics(ref_tokens: Sequence[str], pred_tokens: Sequence[str]) -> Dict
     recall = overlap / n_ref if n_ref else (1.0 if n_pred == 0 else 0.0)
     f1 = 0.0 if precision + recall == 0 else 2 * precision * recall / (precision + recall)
 
-    key_hits = step_hits = aligned_pairs = 0
+    key_hits = step_hits = step_pairs = aligned_pairs = 0
     value_hits = value_total = 0
     exact = exact_nostep = 0
     for r, p in zip(ref_events, pred_events):
@@ -257,7 +259,9 @@ def event_metrics(ref_tokens: Sequence[str], pred_tokens: Sequence[str]) -> Dict
             continue
         aligned_pairs += 1
         key_hits += [k for k, _ in r.attributes] == [k for k, _ in p.attributes]
-        step_hits += r.step == p.step
+        if r.step is not None:
+            step_pairs += 1
+            step_hits += r.step == p.step
         pred_attr = dict(p.attributes)
         for k, v in r.attributes:
             value_total += 1
@@ -280,7 +284,7 @@ def event_metrics(ref_tokens: Sequence[str], pred_tokens: Sequence[str]) -> Dict
         "aligned_well_formed_pairs": aligned_pairs,
         "attr_key_match_rate": ratio(key_hits, aligned_pairs),
         "attr_value_match_rate": ratio(value_hits, value_total),
-        "step_match_rate": ratio(step_hits, aligned_pairs),
+        "step_match_rate": ratio(step_hits, step_pairs),
         "event_exact_rate": exact / n_max if n_max else 1.0,
         "event_exact_nostep_rate": exact_nostep / n_max if n_max else 1.0,
     }

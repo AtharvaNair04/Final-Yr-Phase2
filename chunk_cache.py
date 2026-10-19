@@ -35,6 +35,7 @@ import numpy as np
 from torch.utils.data import Dataset
 
 from execution_dataset import DatasetItem, ExecutionTraceDataset
+from target_format import TARGET_FORMAT_V1, TARGET_FORMAT_V2
 from vocabulary import Vocabulary
 
 REPO_ROOT = Path(__file__).resolve().parent
@@ -47,7 +48,13 @@ CODE_FILES = (
     "vocabulary.py",
     "execution_dataset.py",
 )
-ARRAY_FILES = ("target_ids.npy", "chunk_offsets.npy", "chunk_meta.npy", "source_ids.npy", "source_offsets.npy")
+# Files whose content determines the cached IDs, per target format. esr_v1_step keeps the original
+# list, so caches built before target formats existed still validate unchanged.
+FORMAT_CODE_FILES = {
+    TARGET_FORMAT_V1: CODE_FILES,
+    TARGET_FORMAT_V2: CODE_FILES + ("target_format.py",),
+}
+ARRAY_FILES =("target_ids.npy", "chunk_offsets.npy", "chunk_meta.npy", "source_ids.npy", "source_offsets.npy")
 
 
 class CacheError(Exception):
@@ -109,9 +116,9 @@ def java_fingerprint(java_dir: Union[str, Path], program_ids: Iterable[str]) -> 
     return h.hexdigest()
 
 
-def code_fingerprint(code_root: Union[str, Path] = REPO_ROOT) -> Dict[str, str]:
+def code_fingerprint(code_root: Union[str, Path] = REPO_ROOT, files: Iterable[str] = CODE_FILES) -> Dict[str, str]:
     """LF-normalized SHA-256 of each preprocessing source file the cached IDs depend on."""
-    return {name: sha256_lf_file(Path(code_root) / name) for name in CODE_FILES}
+    return {name: sha256_lf_file(Path(code_root) / name) for name in files}
 
 
 def compute_fingerprints(
@@ -121,14 +128,25 @@ def compute_fingerprints(
     source_vocab: Vocabulary,
     target_vocab: Vocabulary,
     code_root: Union[str, Path] = REPO_ROOT,
+    target_format: str = TARGET_FORMAT_V1,
 ) -> Dict[str, Any]:
     return {
         "split_jsonl_sha256_lf": sha256_lf_file(jsonl_path),
         "java_sources_sha256": java_fingerprint(java_dir, program_ids),
         "source_vocab_sha256": vocab_fingerprint(source_vocab),
         "target_vocab_sha256": vocab_fingerprint(target_vocab),
-        "code_sha256_lf": code_fingerprint(code_root),
+        "code_sha256_lf": code_fingerprint(code_root, FORMAT_CODE_FILES[target_format]),
     }
+
+
+def cache_params(max_chunk_size: int, oversized_policy: str, target_format: str) -> Dict[str, Any]:
+    """Manifest 'params'. esr_v1_step omits target_format so pre-existing v1 manifests compare equal."""
+    if target_format not in FORMAT_CODE_FILES:
+        raise CacheError(f"Unknown target_format '{target_format}'")
+    params: Dict[str, Any] = {"max_chunk_size": max_chunk_size, "oversized_policy": oversized_policy}
+    if target_format != TARGET_FORMAT_V1:
+        params["target_format"] = target_format
+    return params
 
 
 def _to_uint16(ids: List[int], what: str) -> np.ndarray:
@@ -157,6 +175,9 @@ def build_chunk_cache(
     """
     if dataset.max_source_length is not None:
         raise CacheError("Build the cache from a dataset with max_source_length=None (sources are stored untruncated).")
+    # ExecutionTraceDataset is esr_v1_step; target_format.FormattedExecutionTraceDataset declares its format.
+    target_format = getattr(dataset, "target_format", TARGET_FORMAT_V1)
+    cache_params(dataset.max_chunk_size, dataset.oversized_policy, target_format)  # validates the format
     out_dir = Path(out_dir)
     if out_dir.exists():
         raise CacheError(f"Cache directory already exists: {out_dir}. Refusing to overwrite; delete it explicitly to rebuild.")
@@ -212,7 +233,7 @@ def build_chunk_cache(
     manifest = {
         "format_version": FORMAT_VERSION,
         "created_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "params": {"max_chunk_size": dataset.max_chunk_size, "oversized_policy": dataset.oversized_policy},
+        "params": cache_params(dataset.max_chunk_size, dataset.oversized_policy, target_format),
         "counts": {
             "programs": len(program_ids),
             "chunks": len(meta),
@@ -224,7 +245,7 @@ def build_chunk_cache(
         "chunks_per_record": chunks_per_record,
         "fingerprints": compute_fingerprints(
             dataset.jsonl_path, dataset.java_dir, program_ids,
-            dataset.source_vocab, dataset.target_vocab, code_root,
+            dataset.source_vocab, dataset.target_vocab, code_root, target_format,
         ),
         "array_sha256": {name: sha256_file(tmp_dir / name) for name in ARRAY_FILES},
     }
@@ -258,8 +279,10 @@ class CachedExecutionTraceDataset(Dataset):
         oversized_policy: str = "separate",
         max_source_length: Optional[int] = None,
         code_root: Union[str, Path] = REPO_ROOT,
+        target_format: str = TARGET_FORMAT_V1,
     ) -> None:
         self.cache_dir = Path(cache_dir)
+        self.target_format = target_format
         self.jsonl_path = Path(jsonl_path).resolve()
         self.java_dir = Path(java_dir).resolve()
         self.source_vocab = source_vocab
@@ -293,11 +316,12 @@ class CachedExecutionTraceDataset(Dataset):
         problems = []
         if m.get("format_version") != FORMAT_VERSION:
             problems.append(f"format_version {m.get('format_version')} != {FORMAT_VERSION}")
-        expected_params = {"max_chunk_size": self.max_chunk_size, "oversized_policy": self.oversized_policy}
+        expected_params = cache_params(self.max_chunk_size, self.oversized_policy, self.target_format)
         if m.get("params") != expected_params:
             problems.append(f"params {m.get('params')} != {expected_params}")
         current = compute_fingerprints(
             self.jsonl_path, self.java_dir, m["program_ids"], self.source_vocab, self.target_vocab, code_root,
+            self.target_format,
         )
         for key, value in current.items():
             if m["fingerprints"].get(key) != value:
