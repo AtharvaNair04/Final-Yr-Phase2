@@ -1,0 +1,1655 @@
+{
+  "experiment": "controlled_decoding_comparison_v1",
+  "checkpoint": "checkpoints/multi_example_overfit_v1/checkpoint_best.pt",
+  "device": "mps",
+  "repetition_penalty": 1.3,
+  "max_new_tokens": 256,
+  "training_examples_aggregate": {
+    "example_count": 8,
+    "mean_teacher_forced_accuracy": 0.6641565892998406,
+    "strategy_a_standard_greedy": {
+      "mean_token_accuracy": 0.06941112821577591,
+      "exact_match_count": 0,
+      "eos_reached_count": 0,
+      "structurally_valid_count": 0,
+      "mean_generated_length": 256.0,
+      "mean_unique_tokens": 14.625
+    },
+    "strategy_b_repetition_penalty_1_3": {
+      "mean_token_accuracy": 0.06558659253640153,
+      "exact_match_count": 0,
+      "eos_reached_count": 8,
+      "structurally_valid_count": 8,
+      "mean_generated_length": 13.0,
+      "mean_unique_tokens": 13.0
+    }
+  },
+  "training_examples": [
+    {
+      "program_id": "p00014",
+      "chunk_index": 5,
+      "total_chunks": 6,
+      "reference_token_count": 93,
+      "reference_preview": [
+        "<EVENT_START>",
+        "TYPE",
+        "VW",
+        "STEP",
+        "279",
+        "<ATTR_START>",
+        "CONTEXT",
+        "Main",
+        "#",
+        "main",
+        ":",
+        "1",
+        "<ATTR_END>",
+        "<ATTR_START>",
+        "I",
+        "590",
+        "<ATTR_END>",
+        "<EVENT_END>",
+        "<EVENT_START>",
+        "TYPE",
+        "VW",
+        "STEP",
+        "280",
+        "<ATTR_START>",
+        "CONTEXT",
+        "Main",
+        "#",
+        "main",
+        ":",
+        "1"
+      ],
+      "teacher_forced_accuracy": 0.7419354838709677,
+      "strategy_a_standard_greedy": {
+        "token_count": 256,
+        "eos_reached": false,
+        "token_accuracy": 0.06451612903225806,
+        "exact_match": false,
+        "unique_tokens": 13,
+        "top_tokens": [
+          [
+            "<ATTR_START>",
+            47
+          ],
+          [
+            "<ATTR_END>",
+            46
+          ],
+          [
+            "CONTEXT",
+            35
+          ],
+          [
+            "Main",
+            35
+          ],
+          [
+            ":",
+            20
+          ],
+          [
+            "1",
+            20
+          ],
+          [
+            "#",
+            19
+          ],
+          [
+            "main",
+            19
+          ]
+        ],
+        "structure": {
+          "valid": false,
+          "event_count": 1,
+          "errors": [
+            "Unclosed event",
+            "Unclosed attribute"
+          ]
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT"
+        ]
+      },
+      "strategy_b_repetition_penalty_1_3": {
+        "token_count": 13,
+        "eos_reached": true,
+        "token_accuracy": 0.043010752688172046,
+        "exact_match": false,
+        "unique_tokens": 13,
+        "top_tokens": [
+          [
+            "<EVENT_START>",
+            1
+          ],
+          [
+            "TYPE",
+            1
+          ],
+          [
+            "VW",
+            1
+          ],
+          [
+            "STEP",
+            1
+          ],
+          [
+            "<ATTR_START>",
+            1
+          ],
+          [
+            "CONTEXT",
+            1
+          ],
+          [
+            "Main",
+            1
+          ],
+          [
+            "#",
+            1
+          ]
+        ],
+        "structure": {
+          "valid": true,
+          "event_count": 1,
+          "errors": []
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<EVENT_END>"
+        ]
+      }
+    },
+    {
+      "program_id": "p00017",
+      "chunk_index": 76,
+      "total_chunks": 77,
+      "reference_token_count": 42,
+      "reference_preview": [
+        "<EVENT_START>",
+        "TYPE",
+        "VW",
+        "STEP",
+        "3068",
+        "<ATTR_START>",
+        "CONTEXT",
+        "Main",
+        "#",
+        "main",
+        ":",
+        "1",
+        "<ATTR_END>",
+        "<ATTR_START>",
+        "S",
+        "this",
+        "is",
+        "the",
+        "picture",
+        "that",
+        "i",
+        "took",
+        "in",
+        "the",
+        "trip",
+        ".",
+        "<ATTR_END>",
+        "<EVENT_END>",
+        "<EVENT_START>",
+        "TYPE"
+      ],
+      "teacher_forced_accuracy": 0.5476190476190477,
+      "strategy_a_standard_greedy": {
+        "token_count": 256,
+        "eos_reached": false,
+        "token_accuracy": 0.09523809523809523,
+        "exact_match": false,
+        "unique_tokens": 16,
+        "top_tokens": [
+          [
+            "<ATTR_START>",
+            48
+          ],
+          [
+            "<ATTR_END>",
+            48
+          ],
+          [
+            "CONTEXT",
+            39
+          ],
+          [
+            "Main",
+            39
+          ],
+          [
+            ":",
+            17
+          ],
+          [
+            "1",
+            17
+          ],
+          [
+            "#",
+            16
+          ],
+          [
+            "main",
+            16
+          ]
+        ],
+        "structure": {
+          "valid": false,
+          "event_count": 1,
+          "errors": [
+            "Unclosed event"
+          ]
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":"
+        ]
+      },
+      "strategy_b_repetition_penalty_1_3": {
+        "token_count": 13,
+        "eos_reached": true,
+        "token_accuracy": 0.09523809523809523,
+        "exact_match": false,
+        "unique_tokens": 13,
+        "top_tokens": [
+          [
+            "<EVENT_START>",
+            1
+          ],
+          [
+            "TYPE",
+            1
+          ],
+          [
+            "VW",
+            1
+          ],
+          [
+            "STEP",
+            1
+          ],
+          [
+            "<ATTR_START>",
+            1
+          ],
+          [
+            "CONTEXT",
+            1
+          ],
+          [
+            "Main",
+            1
+          ],
+          [
+            "#",
+            1
+          ]
+        ],
+        "structure": {
+          "valid": true,
+          "event_count": 1,
+          "errors": []
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<EVENT_END>"
+        ]
+      }
+    },
+    {
+      "program_id": "p00029",
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "reference_token_count": 26,
+      "reference_preview": [
+        "<EVENT_START>",
+        "TYPE",
+        "ME",
+        "STEP",
+        "43",
+        "<ATTR_START>",
+        "RETURNER",
+        "Main",
+        "#",
+        "main",
+        ":",
+        "1",
+        "<ATTR_END>",
+        "<ATTR_START>",
+        "VALUE",
+        "<",
+        "void",
+        ">",
+        "<ATTR_END>",
+        "<EVENT_END>",
+        "<EVENT_START>",
+        "TYPE",
+        "TE",
+        "STEP",
+        "44",
+        "<EVENT_END>"
+      ],
+      "teacher_forced_accuracy": 0.6538461538461539,
+      "strategy_a_standard_greedy": {
+        "token_count": 256,
+        "eos_reached": false,
+        "token_accuracy": 0.11538461538461539,
+        "exact_match": false,
+        "unique_tokens": 13,
+        "top_tokens": [
+          [
+            "<ATTR_START>",
+            64
+          ],
+          [
+            "<ATTR_END>",
+            64
+          ],
+          [
+            "VALUE",
+            36
+          ],
+          [
+            "CONTEXT",
+            25
+          ],
+          [
+            "Main",
+            25
+          ],
+          [
+            ":",
+            10
+          ],
+          [
+            "1",
+            10
+          ],
+          [
+            "#",
+            9
+          ]
+        ],
+        "structure": {
+          "valid": false,
+          "event_count": 1,
+          "errors": [
+            "Unclosed event"
+          ]
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":"
+        ]
+      },
+      "strategy_b_repetition_penalty_1_3": {
+        "token_count": 13,
+        "eos_reached": true,
+        "token_accuracy": 0.11538461538461539,
+        "exact_match": false,
+        "unique_tokens": 13,
+        "top_tokens": [
+          [
+            "<EVENT_START>",
+            1
+          ],
+          [
+            "TYPE",
+            1
+          ],
+          [
+            "VW",
+            1
+          ],
+          [
+            "STEP",
+            1
+          ],
+          [
+            "<ATTR_START>",
+            1
+          ],
+          [
+            "CONTEXT",
+            1
+          ],
+          [
+            "Main",
+            1
+          ],
+          [
+            "#",
+            1
+          ]
+        ],
+        "structure": {
+          "valid": true,
+          "event_count": 1,
+          "errors": []
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<EVENT_END>"
+        ]
+      }
+    },
+    {
+      "program_id": "p00044",
+      "chunk_index": 5377,
+      "total_chunks": 5378,
+      "reference_token_count": 57,
+      "reference_preview": [
+        "<EVENT_START>",
+        "TYPE",
+        "VW",
+        "STEP",
+        "369210",
+        "<ATTR_START>",
+        "CONTEXT",
+        "Main",
+        "#",
+        "main",
+        ":",
+        "1",
+        "<ATTR_END>",
+        "<ATTR_START>",
+        "LARGE",
+        "3527",
+        "<ATTR_END>",
+        "<EVENT_END>",
+        "<EVENT_START>",
+        "TYPE",
+        "VD",
+        "STEP",
+        "369211",
+        "<ATTR_START>",
+        "METHOD",
+        "Main",
+        "#",
+        "main",
+        ":",
+        "1"
+      ],
+      "teacher_forced_accuracy": 0.7017543859649122,
+      "strategy_a_standard_greedy": {
+        "token_count": 256,
+        "eos_reached": false,
+        "token_accuracy": 0.07017543859649122,
+        "exact_match": false,
+        "unique_tokens": 14,
+        "top_tokens": [
+          [
+            "<ATTR_START>",
+            68
+          ],
+          [
+            "<ATTR_END>",
+            65
+          ],
+          [
+            "VALUE",
+            44
+          ],
+          [
+            "CONTEXT",
+            19
+          ],
+          [
+            "Main",
+            19
+          ],
+          [
+            "#",
+            9
+          ],
+          [
+            "main",
+            9
+          ],
+          [
+            ":",
+            9
+          ]
+        ],
+        "structure": {
+          "valid": false,
+          "event_count": 1,
+          "errors": [
+            "Nested ATTR_START",
+            "Nested ATTR_START",
+            "Nested ATTR_START",
+            "Unclosed event"
+          ]
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":"
+        ]
+      },
+      "strategy_b_repetition_penalty_1_3": {
+        "token_count": 13,
+        "eos_reached": true,
+        "token_accuracy": 0.07017543859649122,
+        "exact_match": false,
+        "unique_tokens": 13,
+        "top_tokens": [
+          [
+            "<EVENT_START>",
+            1
+          ],
+          [
+            "TYPE",
+            1
+          ],
+          [
+            "VW",
+            1
+          ],
+          [
+            "STEP",
+            1
+          ],
+          [
+            "<ATTR_START>",
+            1
+          ],
+          [
+            "CONTEXT",
+            1
+          ],
+          [
+            "Main",
+            1
+          ],
+          [
+            "#",
+            1
+          ]
+        ],
+        "structure": {
+          "valid": true,
+          "event_count": 1,
+          "errors": []
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<EVENT_END>"
+        ]
+      }
+    },
+    {
+      "program_id": "p00063",
+      "chunk_index": 3,
+      "total_chunks": 4,
+      "reference_token_count": 110,
+      "reference_preview": [
+        "<EVENT_START>",
+        "TYPE",
+        "VD",
+        "STEP",
+        "149",
+        "<ATTR_START>",
+        "METHOD",
+        "Main",
+        "#",
+        "main",
+        ":",
+        "1",
+        "<",
+        "name",
+        "=",
+        "charsR",
+        "<ATTR_END>",
+        "<ATTR_START>",
+        "\\",
+        "TYPE",
+        "char",
+        "[",
+        "]",
+        "(",
+        "id",
+        "=",
+        "68",
+        ")",
+        "<ATTR_END>",
+        "<ATTR_START>"
+      ],
+      "teacher_forced_accuracy": 0.6727272727272727,
+      "strategy_a_standard_greedy": {
+        "token_count": 256,
+        "eos_reached": false,
+        "token_accuracy": 0.03636363636363636,
+        "exact_match": false,
+        "unique_tokens": 18,
+        "top_tokens": [
+          [
+            "<ATTR_START>",
+            58
+          ],
+          [
+            "<ATTR_END>",
+            57
+          ],
+          [
+            "VALUE",
+            31
+          ],
+          [
+            "CONTEXT",
+            25
+          ],
+          [
+            "Main",
+            25
+          ],
+          [
+            ":",
+            13
+          ],
+          [
+            "1",
+            13
+          ],
+          [
+            "#",
+            12
+          ]
+        ],
+        "structure": {
+          "valid": false,
+          "event_count": 1,
+          "errors": [
+            "Unclosed event",
+            "Unclosed attribute"
+          ]
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":"
+        ]
+      },
+      "strategy_b_repetition_penalty_1_3": {
+        "token_count": 13,
+        "eos_reached": true,
+        "token_accuracy": 0.02727272727272727,
+        "exact_match": false,
+        "unique_tokens": 13,
+        "top_tokens": [
+          [
+            "<EVENT_START>",
+            1
+          ],
+          [
+            "TYPE",
+            1
+          ],
+          [
+            "VW",
+            1
+          ],
+          [
+            "STEP",
+            1
+          ],
+          [
+            "<ATTR_START>",
+            1
+          ],
+          [
+            "CONTEXT",
+            1
+          ],
+          [
+            "Main",
+            1
+          ],
+          [
+            "#",
+            1
+          ]
+        ],
+        "structure": {
+          "valid": true,
+          "event_count": 1,
+          "errors": []
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<EVENT_END>"
+        ]
+      }
+    },
+    {
+      "program_id": "p00070",
+      "chunk_index": 81,
+      "total_chunks": 82,
+      "reference_token_count": 54,
+      "reference_preview": [
+        "<EVENT_START>",
+        "TYPE",
+        "VW",
+        "STEP",
+        "4325",
+        "<ATTR_START>",
+        "CONTEXT",
+        "Main",
+        "#",
+        "dfs",
+        ":",
+        "350",
+        "<ATTR_END>",
+        "<ATTR_START>",
+        "RESULT",
+        "0",
+        "<ATTR_END>",
+        "<EVENT_END>",
+        "<EVENT_START>",
+        "TYPE",
+        "ME",
+        "STEP",
+        "4326",
+        "<ATTR_START>",
+        "RETURNER",
+        "Main",
+        "#",
+        "dfs",
+        ":",
+        "350"
+      ],
+      "teacher_forced_accuracy": 0.7037037037037037,
+      "strategy_a_standard_greedy": {
+        "token_count": 256,
+        "eos_reached": false,
+        "token_accuracy": 0.07407407407407407,
+        "exact_match": false,
+        "unique_tokens": 16,
+        "top_tokens": [
+          [
+            "<ATTR_START>",
+            49
+          ],
+          [
+            "<ATTR_END>",
+            48
+          ],
+          [
+            "CONTEXT",
+            33
+          ],
+          [
+            "Main",
+            33
+          ],
+          [
+            ":",
+            18
+          ],
+          [
+            "1",
+            18
+          ],
+          [
+            "#",
+            17
+          ],
+          [
+            "main",
+            17
+          ]
+        ],
+        "structure": {
+          "valid": false,
+          "event_count": 1,
+          "errors": [
+            "Unclosed event",
+            "Unclosed attribute"
+          ]
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT"
+        ]
+      },
+      "strategy_b_repetition_penalty_1_3": {
+        "token_count": 13,
+        "eos_reached": true,
+        "token_accuracy": 0.07407407407407407,
+        "exact_match": false,
+        "unique_tokens": 13,
+        "top_tokens": [
+          [
+            "<EVENT_START>",
+            1
+          ],
+          [
+            "TYPE",
+            1
+          ],
+          [
+            "VW",
+            1
+          ],
+          [
+            "STEP",
+            1
+          ],
+          [
+            "<ATTR_START>",
+            1
+          ],
+          [
+            "CONTEXT",
+            1
+          ],
+          [
+            "Main",
+            1
+          ],
+          [
+            "#",
+            1
+          ]
+        ],
+        "structure": {
+          "valid": true,
+          "event_count": 1,
+          "errors": []
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<EVENT_END>"
+        ]
+      }
+    },
+    {
+      "program_id": "p00084",
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "reference_token_count": 48,
+      "reference_preview": [
+        "<EVENT_START>",
+        "TYPE",
+        "ME",
+        "STEP",
+        "55",
+        "<ATTR_START>",
+        "RETURNER",
+        "Main",
+        ":",
+        "1",
+        "#",
+        "run",
+        ":",
+        "1",
+        "<ATTR_END>",
+        "<ATTR_START>",
+        "VALUE",
+        "<",
+        "void",
+        ">",
+        "<ATTR_END>",
+        "<EVENT_END>",
+        "<EVENT_START>",
+        "TYPE",
+        "ME",
+        "STEP",
+        "56",
+        "<ATTR_START>",
+        "RETURNER",
+        "Main"
+      ],
+      "teacher_forced_accuracy": 0.625,
+      "strategy_a_standard_greedy": {
+        "token_count": 256,
+        "eos_reached": false,
+        "token_accuracy": 0.0625,
+        "exact_match": false,
+        "unique_tokens": 14,
+        "top_tokens": [
+          [
+            "<ATTR_START>",
+            61
+          ],
+          [
+            "<ATTR_END>",
+            59
+          ],
+          [
+            "VALUE",
+            35
+          ],
+          [
+            "CONTEXT",
+            24
+          ],
+          [
+            "Main",
+            24
+          ],
+          [
+            ":",
+            14
+          ],
+          [
+            "1",
+            14
+          ],
+          [
+            "#",
+            10
+          ]
+        ],
+        "structure": {
+          "valid": false,
+          "event_count": 1,
+          "errors": [
+            "Nested ATTR_START",
+            "Unclosed event",
+            "Unclosed attribute"
+          ]
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":"
+        ]
+      },
+      "strategy_b_repetition_penalty_1_3": {
+        "token_count": 13,
+        "eos_reached": true,
+        "token_accuracy": 0.0625,
+        "exact_match": false,
+        "unique_tokens": 13,
+        "top_tokens": [
+          [
+            "<EVENT_START>",
+            1
+          ],
+          [
+            "TYPE",
+            1
+          ],
+          [
+            "VW",
+            1
+          ],
+          [
+            "STEP",
+            1
+          ],
+          [
+            "<ATTR_START>",
+            1
+          ],
+          [
+            "CONTEXT",
+            1
+          ],
+          [
+            "Main",
+            1
+          ],
+          [
+            "#",
+            1
+          ]
+        ],
+        "structure": {
+          "valid": true,
+          "event_count": 1,
+          "errors": []
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<EVENT_END>"
+        ]
+      }
+    },
+    {
+      "program_id": "p00085",
+      "chunk_index": 60,
+      "total_chunks": 61,
+      "reference_token_count": 108,
+      "reference_preview": [
+        "<EVENT_START>",
+        "TYPE",
+        "VW",
+        "STEP",
+        "2928",
+        "<ATTR_START>",
+        "CONTEXT",
+        "Main",
+        ":",
+        "1",
+        "#",
+        "run",
+        ":",
+        "1",
+        "<ATTR_END>",
+        "<ATTR_START>",
+        "P",
+        "boolean",
+        "[",
+        "]",
+        ":",
+        "1",
+        "<ATTR_END>",
+        "<EVENT_END>",
+        "<EVENT_START>",
+        "TYPE",
+        "FR",
+        "STEP",
+        "2929",
+        "<ATTR_START>"
+      ],
+      "teacher_forced_accuracy": 0.6666666666666666,
+      "strategy_a_standard_greedy": {
+        "token_count": 256,
+        "eos_reached": false,
+        "token_accuracy": 0.037037037037037035,
+        "exact_match": false,
+        "unique_tokens": 13,
+        "top_tokens": [
+          [
+            "<ATTR_START>",
+            46
+          ],
+          [
+            "<ATTR_END>",
+            45
+          ],
+          [
+            "CONTEXT",
+            38
+          ],
+          [
+            "Main",
+            37
+          ],
+          [
+            ":",
+            24
+          ],
+          [
+            "1",
+            24
+          ],
+          [
+            "#",
+            15
+          ],
+          [
+            "main",
+            15
+          ]
+        ],
+        "structure": {
+          "valid": false,
+          "event_count": 1,
+          "errors": [
+            "Unclosed event",
+            "Unclosed attribute"
+          ]
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<ATTR_START>",
+          "CONTEXT"
+        ]
+      },
+      "strategy_b_repetition_penalty_1_3": {
+        "token_count": 13,
+        "eos_reached": true,
+        "token_accuracy": 0.037037037037037035,
+        "exact_match": false,
+        "unique_tokens": 13,
+        "top_tokens": [
+          [
+            "<EVENT_START>",
+            1
+          ],
+          [
+            "TYPE",
+            1
+          ],
+          [
+            "VW",
+            1
+          ],
+          [
+            "STEP",
+            1
+          ],
+          [
+            "<ATTR_START>",
+            1
+          ],
+          [
+            "CONTEXT",
+            1
+          ],
+          [
+            "Main",
+            1
+          ],
+          [
+            "#",
+            1
+          ]
+        ],
+        "structure": {
+          "valid": true,
+          "event_count": 1,
+          "errors": []
+        },
+        "preview": [
+          "<EVENT_START>",
+          "TYPE",
+          "VW",
+          "STEP",
+          "<ATTR_START>",
+          "CONTEXT",
+          "Main",
+          "#",
+          "main",
+          ":",
+          "1",
+          "<ATTR_END>",
+          "<EVENT_END>"
+        ]
+      }
+    }
+  ],
+  "held_out_test_example": {
+    "program_id": "p00926",
+    "chunk_index": 1,
+    "total_chunks": 2,
+    "reference_token_count": 108,
+    "reference_preview": [
+      "<EVENT_START>",
+      "TYPE",
+      "VW",
+      "STEP",
+      "52",
+      "<ATTR_START>",
+      "CONTEXT",
+      "Main",
+      ":",
+      "1",
+      "#",
+      "run",
+      ":",
+      "1",
+      "<ATTR_END>",
+      "<ATTR_START>",
+      "ANS",
+      "11",
+      "<ATTR_END>",
+      "<EVENT_END>",
+      "<EVENT_START>",
+      "TYPE",
+      "VW",
+      "STEP",
+      "53",
+      "<ATTR_START>",
+      "CONTEXT",
+      "Main",
+      ":",
+      "1"
+    ],
+    "teacher_forced_accuracy": 0.6574074074074074,
+    "strategy_a_standard_greedy": {
+      "token_count": 256,
+      "eos_reached": false,
+      "token_accuracy": 0.037037037037037035,
+      "exact_match": false,
+      "unique_tokens": 13,
+      "top_tokens": [
+        [
+          "<ATTR_START>",
+          58
+        ],
+        [
+          "<ATTR_END>",
+          57
+        ],
+        [
+          "CONTEXT",
+          30
+        ],
+        [
+          "Main",
+          30
+        ],
+        [
+          "VALUE",
+          27
+        ],
+        [
+          ":",
+          13
+        ],
+        [
+          "1",
+          13
+        ],
+        [
+          "#",
+          12
+        ]
+      ],
+      "structure": {
+        "valid": false,
+        "event_count": 1,
+        "errors": [
+          "Unclosed event",
+          "Unclosed attribute"
+        ]
+      },
+      "preview": [
+        "<EVENT_START>",
+        "TYPE",
+        "VW",
+        "STEP",
+        "<ATTR_START>",
+        "CONTEXT",
+        "Main",
+        "#",
+        "main",
+        ":",
+        "1",
+        "<ATTR_END>",
+        "<ATTR_START>",
+        "CONTEXT",
+        "Main",
+        "<ATTR_END>",
+        "<ATTR_START>",
+        "CONTEXT",
+        "Main",
+        "#",
+        "main",
+        ":",
+        "1",
+        "<ATTR_END>",
+        "<ATTR_START>",
+        "CONTEXT",
+        "Main",
+        "#",
+        "main",
+        ":"
+      ]
+    },
+    "strategy_b_repetition_penalty_1_3": {
+      "token_count": 13,
+      "eos_reached": true,
+      "token_accuracy": 0.037037037037037035,
+      "exact_match": false,
+      "unique_tokens": 13,
+      "top_tokens": [
+        [
+          "<EVENT_START>",
+          1
+        ],
+        [
+          "TYPE",
+          1
+        ],
+        [
+          "VW",
+          1
+        ],
+        [
+          "STEP",
+          1
+        ],
+        [
+          "<ATTR_START>",
+          1
+        ],
+        [
+          "CONTEXT",
+          1
+        ],
+        [
+          "Main",
+          1
+        ],
+        [
+          "#",
+          1
+        ]
+      ],
+      "structure": {
+        "valid": true,
+        "event_count": 1,
+        "errors": []
+      },
+      "preview": [
+        "<EVENT_START>",
+        "TYPE",
+        "VW",
+        "STEP",
+        "<ATTR_START>",
+        "CONTEXT",
+        "Main",
+        "#",
+        "main",
+        ":",
+        "1",
+        "<ATTR_END>",
+        "<EVENT_END>"
+      ]
+    }
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "checkpoint": "checkpoints/multi_example_overfit_v2/checkpoint_final.pt",
+  "device": "mps",
+  "experiment": "multi-source teacher-forced conditioning diagnostic",
+  "num_programs": 8,
+  "wrong_source_comparisons": 56,
+  "mean_correct_source_loss": 2.4283276051282883,
+  "mean_wrong_source_loss": 2.359682353479522,
+  "mean_loss_increase_with_wrong_source": -0.06864525164876634,
+  "correct_source_wins_across_all_pairs": 26,
+  "correct_source_win_rate_across_pairs": 0.4642857142857143,
+  "mean_prediction_change_rate": 0.10633395545716796,
+  "per_program": [
+    {
+      "target_program": "p00926",
+      "reference_length_including_eos": 109,
+      "correct_source_loss": 1.798034906387329,
+      "correct_source_accuracy": 0.752293586730957,
+      "mean_wrong_source_loss": 1.6278695378984724,
+      "correct_source_beats_all_wrong_sources": false,
+      "correct_source_wins": 0,
+      "number_of_wrong_sources": 7,
+      "wrong_sources": [
+        {
+          "wrong_source_program": "p00630",
+          "loss": 1.6555182933807373,
+          "accuracy": 0.7706422209739685,
+          "prediction_change_rate": 0.055045872926712036,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00161",
+          "loss": 1.5484539270401,
+          "accuracy": 0.7981651425361633,
+          "prediction_change_rate": 0.07339449226856232,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00767",
+          "loss": 1.7445659637451172,
+          "accuracy": 0.7706422209739685,
+          "prediction_change_rate": 0.055045872926712036,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00126",
+          "loss": 1.75008225440979,
+          "accuracy": 0.7706422209739685,
+          "prediction_change_rate": 0.0458715595304966,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00271",
+          "loss": 1.6748721599578857,
+          "accuracy": 0.78899085521698,
+          "prediction_change_rate": 0.12844036519527435,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00343",
+          "loss": 1.5128943920135498,
+          "accuracy": 0.7981651425361633,
+          "prediction_change_rate": 0.08256880939006805,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00314",
+          "loss": 1.5086997747421265,
+          "accuracy": 0.7981651425361633,
+          "prediction_change_rate": 0.11926605552434921,
+          "correct_source_has_lower_loss": false
+        }
+      ]
+    },
+    {
+      "target_program": "p00630",
+      "reference_length_including_eos": 148,
+      "correct_source_loss": 2.35247802734375,
+      "correct_source_accuracy": 0.7094594836235046,
+      "mean_wrong_source_loss": 2.420025655201503,
+      "correct_source_beats_all_wrong_sources": false,
+      "correct_source_wins": 6,
+      "number_of_wrong_sources": 7,
+      "wrong_sources": [
+        {
+          "wrong_source_program": "p00926",
+          "loss": 2.3573269844055176,
+          "accuracy": 0.7297297120094299,
+          "prediction_change_rate": 0.04729729890823364,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00161",
+          "loss": 2.517866849899292,
+          "accuracy": 0.6824324131011963,
+          "prediction_change_rate": 0.06081081181764603,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00767",
+          "loss": 2.4134087562561035,
+          "accuracy": 0.6959459185600281,
+          "prediction_change_rate": 0.020270269364118576,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00126",
+          "loss": 2.421825408935547,
+          "accuracy": 0.6891891956329346,
+          "prediction_change_rate": 0.04729729890823364,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00271",
+          "loss": 2.350416660308838,
+          "accuracy": 0.6756756901741028,
+          "prediction_change_rate": 0.12162162363529205,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00343",
+          "loss": 2.4562320709228516,
+          "accuracy": 0.6891891956329346,
+          "prediction_change_rate": 0.06756756454706192,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00314",
+          "loss": 2.423102855682373,
+          "accuracy": 0.6891891956329346,
+          "prediction_change_rate": 0.09459459781646729,
+          "correct_source_has_lower_loss": true
+        }
+      ]
+    },
+    {
+      "target_program": "p00161",
+      "reference_length_including_eos": 45,
+      "correct_source_loss": 1.9447499513626099,
+      "correct_source_accuracy": 0.7777777910232544,
+      "mean_wrong_source_loss": 1.8416740213121687,
+      "correct_source_beats_all_wrong_sources": false,
+      "correct_source_wins": 2,
+      "number_of_wrong_sources": 7,
+      "wrong_sources": [
+        {
+          "wrong_source_program": "p00926",
+          "loss": 1.8272629976272583,
+          "accuracy": 0.7777777910232544,
+          "prediction_change_rate": 0.08888889104127884,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00630",
+          "loss": 1.5790040493011475,
+          "accuracy": 0.8222222328186035,
+          "prediction_change_rate": 0.15555556118488312,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00767",
+          "loss": 1.801584243774414,
+          "accuracy": 0.800000011920929,
+          "prediction_change_rate": 0.08888889104127884,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00126",
+          "loss": 1.9627549648284912,
+          "accuracy": 0.7555555701255798,
+          "prediction_change_rate": 0.1111111119389534,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00271",
+          "loss": 2.2225453853607178,
+          "accuracy": 0.7555555701255798,
+          "prediction_change_rate": 0.2222222238779068,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00343",
+          "loss": 1.7941128015518188,
+          "accuracy": 0.800000011920929,
+          "prediction_change_rate": 0.1111111119389534,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00314",
+          "loss": 1.704453706741333,
+          "accuracy": 0.8222222328186035,
+          "prediction_change_rate": 0.20000000298023224,
+          "correct_source_has_lower_loss": false
+        }
+      ]
+    },
+    {
+      "target_program": "p00767",
+      "reference_length_including_eos": 157,
+      "correct_source_loss": 4.321250915527344,
+      "correct_source_accuracy": 0.46496814489364624,
+      "mean_wrong_source_loss": 4.317966393062046,
+      "correct_source_beats_all_wrong_sources": false,
+      "correct_source_wins": 4,
+      "number_of_wrong_sources": 7,
+      "wrong_sources": [
+        {
+          "wrong_source_program": "p00926",
+          "loss": 4.387807369232178,
+          "accuracy": 0.47133758664131165,
+          "prediction_change_rate": 0.05095541477203369,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00630",
+          "loss": 4.204773902893066,
+          "accuracy": 0.47770699858665466,
+          "prediction_change_rate": 0.1082802563905716,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00161",
+          "loss": 4.379167556762695,
+          "accuracy": 0.47133758664131165,
+          "prediction_change_rate": 0.07643312215805054,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00126",
+          "loss": 4.333324909210205,
+          "accuracy": 0.4585987329483032,
+          "prediction_change_rate": 0.1146496832370758,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00271",
+          "loss": 4.259061813354492,
+          "accuracy": 0.46496814489364624,
+          "prediction_change_rate": 0.24203822016716003,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00343",
+          "loss": 4.350021839141846,
+          "accuracy": 0.47133758664131165,
+          "prediction_change_rate": 0.07643312215805054,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00314",
+          "loss": 4.311607360839844,
+          "accuracy": 0.47770699858665466,
+          "prediction_change_rate": 0.15923567116260529,
+          "correct_source_has_lower_loss": false
+        }
+      ]
+    },
+    {
+      "target_program": "p00126",
+      "reference_length_including_eos": 109,
+      "correct_source_loss": 1.5810573101043701,
+      "correct_source_accuracy": 0.7798165082931519,
+      "mean_wrong_source_loss": 1.6565557718276978,
+      "correct_source_beats_all_wrong_sources": false,
+      "correct_source_wins": 5,
+      "number_of_wrong_sources": 7,
+      "wrong_sources": [
+        {
+          "wrong_source_program": "p00926",
+          "loss": 1.5167549848556519,
+          "accuracy": 0.8256880640983582,
+          "prediction_change_rate": 0.055045872926712036,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00630",
+          "loss": 1.5011876821517944,
+          "accuracy": 0.78899085521698,
+          "prediction_change_rate": 0.03669724613428116,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00161",
+          "loss": 1.8020853996276855,
+          "accuracy": 0.7706422209739685,
+          "prediction_change_rate": 0.07339449226856232,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00767",
+          "loss": 1.5966076850891113,
+          "accuracy": 0.78899085521698,
+          "prediction_change_rate": 0.03669724613428116,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00271",
+          "loss": 1.777531623840332,
+          "accuracy": 0.7798165082931519,
+          "prediction_change_rate": 0.0917431190609932,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00343",
+          "loss": 1.7348061800003052,
+          "accuracy": 0.7798165082931519,
+          "prediction_change_rate": 0.07339449226856232,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00314",
+          "loss": 1.666916847229004,
+          "accuracy": 0.78899085521698,
+          "prediction_change_rate": 0.06422018259763718,
+          "correct_source_has_lower_loss": true
+        }
+      ]
+    },
+    {
+      "target_program": "p00271",
+      "reference_length_including_eos": 49,
+      "correct_source_loss": 2.2436609268188477,
+      "correct_source_accuracy": 0.7142857313156128,
+      "mean_wrong_source_loss": 1.6970140252794539,
+      "correct_source_beats_all_wrong_sources": false,
+      "correct_source_wins": 0,
+      "number_of_wrong_sources": 7,
+      "wrong_sources": [
+        {
+          "wrong_source_program": "p00926",
+          "loss": 1.7253178358078003,
+          "accuracy": 0.7755101919174194,
+          "prediction_change_rate": 0.18367347121238708,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00630",
+          "loss": 1.6346098184585571,
+          "accuracy": 0.7755101919174194,
+          "prediction_change_rate": 0.18367347121238708,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00161",
+          "loss": 1.6265747547149658,
+          "accuracy": 0.8163265585899353,
+          "prediction_change_rate": 0.20408163964748383,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00767",
+          "loss": 1.6777161359786987,
+          "accuracy": 0.8163265585899353,
+          "prediction_change_rate": 0.18367347121238708,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00126",
+          "loss": 1.8125903606414795,
+          "accuracy": 0.7755101919174194,
+          "prediction_change_rate": 0.18367347121238708,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00343",
+          "loss": 1.6419702768325806,
+          "accuracy": 0.795918345451355,
+          "prediction_change_rate": 0.18367347121238708,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00314",
+          "loss": 1.7603189945220947,
+          "accuracy": 0.7346938848495483,
+          "prediction_change_rate": 0.10204081982374191,
+          "correct_source_has_lower_loss": false
+        }
+      ]
+    },
+    {
+      "target_program": "p00343",
+      "reference_length_including_eos": 66,
+      "correct_source_loss": 2.51121187210083,
+      "correct_source_accuracy": 0.6666666865348816,
+      "mean_wrong_source_loss": 2.413248743329729,
+      "correct_source_beats_all_wrong_sources": false,
+      "correct_source_wins": 2,
+      "number_of_wrong_sources": 7,
+      "wrong_sources": [
+        {
+          "wrong_source_program": "p00926",
+          "loss": 2.284329891204834,
+          "accuracy": 0.7272727489471436,
+          "prediction_change_rate": 0.10606060922145844,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00630",
+          "loss": 2.257819175720215,
+          "accuracy": 0.6969696879386902,
+          "prediction_change_rate": 0.06060606241226196,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00161",
+          "loss": 2.5778369903564453,
+          "accuracy": 0.6666666865348816,
+          "prediction_change_rate": 0.0,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00767",
+          "loss": 2.3513636589050293,
+          "accuracy": 0.6969696879386902,
+          "prediction_change_rate": 0.06060606241226196,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00126",
+          "loss": 2.4033920764923096,
+          "accuracy": 0.6818181872367859,
+          "prediction_change_rate": 0.10606060922145844,
+          "correct_source_has_lower_loss": false
+        },
+        {
+          "wrong_source_program": "p00271",
+          "loss": 2.658501386642456,
+          "accuracy": 0.6666666865348816,
+          "prediction_change_rate": 0.13636364042758942,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00314",
+          "loss": 2.3594980239868164,
+          "accuracy": 0.7121211886405945,
+          "prediction_change_rate": 0.06060606241226196,
+          "correct_source_has_lower_loss": false
+        }
+      ]
+    },
+    {
+      "target_program": "p00314",
+      "reference_length_including_eos": 89,
+      "correct_source_loss": 2.6741769313812256,
+      "correct_source_accuracy": 0.6853932738304138,
+      "mean_wrong_source_loss": 2.903104679925101,
+      "correct_source_beats_all_wrong_sources": true,
+      "correct_source_wins": 7,
+      "number_of_wrong_sources": 7,
+      "wrong_sources": [
+        {
+          "wrong_source_program": "p00926",
+          "loss": 2.9616434574127197,
+          "accuracy": 0.6404494643211365,
+          "prediction_change_rate": 0.14606741070747375,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00630",
+          "loss": 2.7976577281951904,
+          "accuracy": 0.6629213690757751,
+          "prediction_change_rate": 0.12359550595283508,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00161",
+          "loss": 3.079615831375122,
+          "accuracy": 0.6292135119438171,
+          "prediction_change_rate": 0.14606741070747375,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00767",
+          "loss": 2.892853021621704,
+          "accuracy": 0.6629213690757751,
+          "prediction_change_rate": 0.13483145833015442,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00126",
+          "loss": 2.930800437927246,
+          "accuracy": 0.6629213690757751,
+          "prediction_change_rate": 0.15730337798595428,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00271",
+          "loss": 2.716831684112549,
+          "accuracy": 0.6853932738304138,
+          "prediction_change_rate": 0.08988764137029648,
+          "correct_source_has_lower_loss": true
+        },
+        {
+          "wrong_source_program": "p00343",
+          "loss": 2.9423305988311768,
+          "accuracy": 0.6516854166984558,
+          "prediction_change_rate": 0.14606741070747375,
+          "correct_source_has_lower_loss": true
+        }
+      ]
+    }
+  ],
+  "caveat": "Small diagnostic sample. Alternative programs may share trace patterns. Results do not establish generalization."
+}
