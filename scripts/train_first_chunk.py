@@ -11,13 +11,14 @@ Model: the existing small configuration (d_model 128, 4 heads, 2+2 layers, FF 25
 max_src_length 4096 (no source truncation), max_tgt_length 2048. Trained from scratch.
 Training: existing TrainingManager unchanged; AdamW lr 5e-4, weight decay 0.01, clip 1.0, batch 2,
 fixed budget of --epochs epochs, seed 42; validation loss every epoch; checkpoint_best.pt = lowest
-validation loss. Outputs in checkpoints/design_a_first_chunk_v1/ (refuses to reuse an existing directory).
+validation loss. Outputs in checkpoints/<--run-name>/ (default design_a_first_chunk_v1; refuses to reuse an existing directory).
 """
 
 import argparse
 import json
 import logging
 import platform
+import re
 import sys
 import time
 from pathlib import Path
@@ -38,8 +39,26 @@ from vocabulary import Vocabulary  # noqa: E402
 CACHE = ROOT / "data_cache" / "chunks_v2_nostep"
 SPLIT_DIR = ROOT / "Module3_Training_Dataset" / "split"
 JAVA_DIR = ROOT / "selected source code"
-RUN_DIR = ROOT / "checkpoints" / "design_a_first_chunk_v1"
+DEFAULT_RUN_NAME = "design_a_first_chunk_v1"
+RUN_DIR = ROOT / "checkpoints" / DEFAULT_RUN_NAME
 EXPECTED = {"train": 449, "validation": 56}
+RUN_NAME_PATTERN = re.compile(r"^[A-Za-z0-9_.-]+$")
+
+
+def resolve_run_dir(run_name: str) -> Path:
+    """checkpoints/<run_name>; the name must be a single plain path component."""
+    if not RUN_NAME_PATTERN.match(run_name) or run_name in (".", ".."):
+        raise ValueError(f"Invalid run name '{run_name}': use letters, digits, '_', '-', '.' only")
+    return ROOT / "checkpoints" / run_name
+
+
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--epochs", type=int, default=40)
+    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--run-name", default=DEFAULT_RUN_NAME, help="output directory under checkpoints/")
+    parser.add_argument("--check-only", action="store_true")
+    return parser
 
 
 def load_first_chunks(split, src_vocab, tgt_vocab):
@@ -72,11 +91,8 @@ def pretraining_checks(train_ds, val_ds, model_cfg):
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--epochs", type=int, default=40)
-    parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--check-only", action="store_true")
-    args = parser.parse_args()
+    args = build_parser().parse_args()
+    run_dir = resolve_run_dir(args.run_name)
 
     src_vocab = Vocabulary.load(ROOT / "vocabularies" / "vocab_source.json")
     tgt_vocab = Vocabulary.load(ROOT / "vocabularies" / "vocab_target.json")
@@ -88,7 +104,7 @@ def main():
                             max_src_length=4096, max_tgt_length=2048,
                             src_pad_id=src_vocab.pad_id, tgt_pad_id=tgt_vocab.pad_id)
     train_cfg = TrainingConfig(epochs=args.epochs, learning_rate=5e-4, weight_decay=0.01, grad_clip_norm=1.0,
-                               train_batch_size=2, eval_batch_size=2, checkpoint_dir=str(RUN_DIR),
+                               train_batch_size=2, eval_batch_size=2, checkpoint_dir=str(run_dir),
                                seed=args.seed, device="cuda" if torch.cuda.is_available() else "cpu",
                                save_best_only=False, log_interval=75)
 
@@ -98,12 +114,12 @@ def main():
         raise SystemExit("Pre-training checks failed; not training.")
     if args.check_only:
         return
-    if RUN_DIR.exists():
-        raise SystemExit(f"{RUN_DIR} already exists; refusing to overwrite an earlier run.")
-    RUN_DIR.mkdir(parents=True)
+    if run_dir.exists():
+        raise SystemExit(f"{run_dir} already exists; refusing to overwrite an earlier run.")
+    run_dir.mkdir(parents=True)
 
     run_config = {
-        "experiment": "design_a_first_chunk_v1", "target_format": TARGET_FORMAT_V2,
+        "experiment": args.run_name, "target_format": TARGET_FORMAT_V2,
         "data": {"cache": str(CACHE.relative_to(ROOT)), "selection": "chunk_index == 0",
                  "train_examples": len(train_ds), "validation_examples": len(val_ds), "test_split": "not opened"},
         "model_config": model_cfg.to_dict(), "training_config": train_cfg.to_dict(),
@@ -114,10 +130,10 @@ def main():
                         "device": torch.cuda.get_device_name(0) if torch.cuda.is_available() else "cpu"},
         "pretraining_checks": checks,
     }
-    (RUN_DIR / "run_config.json").write_text(json.dumps(run_config, indent=1))
+    (run_dir / "run_config.json").write_text(json.dumps(run_config, indent=1))
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s",
-                        handlers=[logging.FileHandler(RUN_DIR / "train.log", encoding="utf-8"),
+                        handlers=[logging.FileHandler(run_dir / "train.log", encoding="utf-8"),
                                   logging.StreamHandler(sys.stdout)])
     set_seed(args.seed)  # seed before model construction so initial weights are reproducible
     model = ExecutionSemanticTransformer(model_cfg)
@@ -133,7 +149,7 @@ def main():
                "best_val_loss": best["val_loss"], "final_train_loss": history[-1]["train_loss"],
                "final_val_loss": history[-1]["val_loss"],
                "optimizer_steps": int(manager.optimizer.state_dict()["state"][0]["step"])}
-    (RUN_DIR / "training_history.json").write_text(json.dumps(summary, indent=1))
+    (run_dir / "training_history.json").write_text(json.dumps(summary, indent=1))
     print(f"Done in {elapsed / 60:.1f} min; best epoch {best['epoch']} val loss {best['val_loss']:.4f}")
 
 
