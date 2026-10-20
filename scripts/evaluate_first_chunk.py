@@ -15,9 +15,11 @@ For the trained model (checkpoint_best.pt = lowest validation loss) on the 56 va
   6. Complete-trace results only for validation programs whose whole trace is one chunk.
 
 Acceptance thresholds are fixed in ACCEPTANCE below (set before results were seen).
-Writes results/design_a_first_chunk_v1/ (refuses to overwrite).
+Writes --out-dir (default results/design_a_first_chunk_v1/; refuses to overwrite) for the run in --run-dir
+(default checkpoints/design_a_first_chunk_v1/).
 """
 
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -86,9 +88,18 @@ def paired(a, b, key):
     return {"metric": key, "n": len(diffs), "mean_difference": mean, "bootstrap_95ci": [lo, hi], **sign_test(diffs)}
 
 
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--run-dir", type=Path, default=RUN_DIR, help="training run directory (checkpoints/...)")
+    parser.add_argument("--out-dir", type=Path, default=OUT_DIR, help="new results directory")
+    return parser
+
+
 def main():
-    if OUT_DIR.exists():
-        raise SystemExit(f"{OUT_DIR} exists; refusing to overwrite.")
+    args = build_parser().parse_args()
+    run_dir, out_dir = args.run_dir.resolve(), args.out_dir.resolve()
+    if out_dir.exists():
+        raise SystemExit(f"{out_dir} exists; refusing to overwrite.")
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     src_vocab = Vocabulary.load(ROOT / "vocabularies" / "vocab_source.json")
     tgt_vocab = Vocabulary.load(ROOT / "vocabularies" / "vocab_target.json")
@@ -97,10 +108,10 @@ def main():
     assign = mismatch_assignment(list(val_src))
     mis_src = {pid: val_src[assign[pid]] for pid in val_src}
     refs = {r["pid"]: r["tgt"][:-1] for r in val_rows}
-    run_config = json.loads((RUN_DIR / "run_config.json").read_text())
-    history = json.loads((RUN_DIR / "training_history.json").read_text())
+    run_config = json.loads((run_dir / "run_config.json").read_text())
+    history = json.loads((run_dir / "training_history.json").read_text())
 
-    spec = lambda name: {"path": str((RUN_DIR / name).relative_to(ROOT))}  # noqa: E731
+    spec = lambda name: {"path": str((run_dir / name).relative_to(ROOT))}  # noqa: E731
     model, cfg, meta = rve.build_model("best", spec("checkpoint_best.pt"), src_vocab, tgt_vocab, device)
 
     # 1. Teacher-forced, correct vs mismatched source.
@@ -179,7 +190,8 @@ def main():
         "5_beats_retrieval": rt["wins"] > rt["losses"] and rt["p_value"] < ACCEPTANCE["retrieval_sign_test_p_lt"],
     }
     report = {
-        "experiment": "design_a_first_chunk_v1", "split": "validation", "checkpoint": "checkpoint_best.pt",
+        "experiment": run_config["experiment"], "seed": run_config["training_config"]["seed"],
+        "run_dir": str(run_dir.relative_to(ROOT)), "split": "validation", "checkpoint": "checkpoint_best.pt",
         "best_epoch": history["best_epoch"], "best_val_loss": history["best_val_loss"],
         "optimizer_steps": history["optimizer_steps"], "acceptance_thresholds": ACCEPTANCE, "acceptance": acceptance,
         "teacher_forced_correct_source": tf_ok, "teacher_forced_mismatched_source": tf_mis,
@@ -189,15 +201,15 @@ def main():
         "complete_traces_single_chunk_programs": complete,
         "compatibility": meta["compatibility"],
     }
-    OUT_DIR.mkdir(parents=True)
-    (OUT_DIR / "metrics.json").write_text(json.dumps(report, indent=1))
+    out_dir.mkdir(parents=True)
+    (out_dir / "metrics.json").write_text(json.dumps(report, indent=1))
     per_program = {p: {"correct": gen_ok[p], "mismatched": gen_mis[p], "retrieval": retr[p],
                        "retrieved_from": retrieved[p][0], "retrieval_jaccard": retrieved[p][1],
                        "mismatched_source_from": assign[p], "tf_loss_correct": tf_ok_prog[p]["loss_incl_eos"],
                        "tf_loss_mismatched": tf_mis_prog[p]["loss_incl_eos"], "common_window": common[p],
                        "window_events": window[p], "pred_head": tgt_vocab.decode(gen_ok_raw[p][0][:40])}
                    for p in sorted(val_src)}
-    (OUT_DIR / "per_program.json").write_text(json.dumps(per_program, indent=1))
+    (out_dir / "per_program.json").write_text(json.dumps(per_program, indent=1))
     print(json.dumps({"acceptance": acceptance, "source_conditioning_tf": source_tf, "distinct_outputs": distinct,
                       "paired_tests": paired_tests, "capacity": capacity}, indent=1))
 
