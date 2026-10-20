@@ -81,6 +81,8 @@ def markdown(agg):
 
 
 def main():
+    # The Markdown contains non-ASCII characters (e.g. "−"); a Windows cp1252 console cannot print them.
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     args = build_parser().parse_args()
     out_dir = args.out_dir.resolve()
     if out_dir.exists():
